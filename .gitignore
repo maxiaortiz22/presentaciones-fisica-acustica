@@ -1,0 +1,31 @@
+# Directorios temporales y cachés locales
+.tmp/
+tmp/
+.cache/
+node_modules/
+
+# Configuración específica del editor o sistema
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Archivos temporales de Office y del sistema
+~$*
+*.tmp
+*.bak
+*.swp
+*.swo
+*.orig
+
+# Artefactos locales de inspección, render y diagnóstico
+*.inspect.ndjson
+*.log
+*.trace
+coverage/
+
+# Credenciales y configuración local
+.env
+.env.*
+!.env.example

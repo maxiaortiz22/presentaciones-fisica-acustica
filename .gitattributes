@@ -1,0 +1,23 @@
+# Mantener los binarios fuera de diffs de texto y de normalización de fin de línea.
+*.pdf binary
+*.ppt binary
+*.pptx binary
+*.doc binary
+*.docx binary
+*.xls binary
+*.xlsx binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.svg text eol=lf
+
+# Fuentes y documentación con finales de línea consistentes.
+*.md text eol=lf
+*.tex text eol=lf
+*.bib text eol=lf
+*.csv text eol=lf
+*.py text eol=lf
+*.ps1 text eol=lf
+*.mjs text eol=lf
+*.json text eol=lf

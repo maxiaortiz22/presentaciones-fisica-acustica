@@ -1,0 +1,63 @@
+\documentclass{book}
+\pagestyle{plain}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage[hidelinks]{hyperref}
+\usepackage{graphicx}
+\usepackage{amsmath, amssymb}
+\usepackage{amsthm}          
+\usepackage{textcomp}
+\newtheorem*{solution}{Solución}
+\usepackage{enumitem}
+\usepackage{csquotes}
+\usepackage{array}
+
+% Reserva espacio suficiente para capítulos y subsecciones de dos dígitos
+% en el índice, sin alterar la numeración ni los títulos.
+\makeatletter
+\patchcmd{\l@chapter}
+  {\setlength\@tempdima{1.5em}}
+  {\setlength\@tempdima{2.0em}}
+  {}{}
+\renewcommand*\l@section{\@dottedtocline{1}{1.5em}{3.2em}}
+\renewcommand*\l@subsection{\@dottedtocline{2}{3.8em}{4.2em}}
+\makeatother
+
+\usepackage{tikz}
+\usetikzlibrary{babel}
+
+% Marcado editorial para afirmaciones que todavía requieren una fuente externa.
+% El contenido permanece visible en el PDF mientras la marca queda registrada
+% de forma explícita en el archivo fuente.
+\providecommand{\verify}[1]{#1}
+
+\begin{document}
+
+\title{Física Acústica para Fonoaudiología}
+\author{Ing. Maximiliano Adriel Ortiz}
+\date{\the\year}
+
+\maketitle
+
+\tableofcontents
+
+\input{chapters/00-introduccion.tex}
+\input{chapters/01-nociones-basicas-introduccion-acustica.tex}
+\input{chapters/02-mecanica-clasica-termodinamica.tex}
+\input{chapters/03-mecanica-ondulatoria.tex}
+\input{chapters/04-sonido-propiedades-magnitudes.tex}
+\input{chapters/05-analisis-frecuencial.tex}
+\input{chapters/06-percepcion-auditiva.tex}
+\input{chapters/07-psicoacustica.tex}
+\input{chapters/08-enfermedades-diagnostico-rehabilitacion.tex}
+\input{chapters/09-propagacion-sonido.tex}
+\input{chapters/10-ruido-caracterizacion.tex}
+
+\cleardoublepage
+\begingroup
+\raggedright
+\bibliographystyle{unsrt}
+\bibliography{bibliography/references}
+\endgroup
+
+\end{document}

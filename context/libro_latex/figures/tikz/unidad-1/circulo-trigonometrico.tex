@@ -1,0 +1,27 @@
+% Propósito: relacionar un ángulo del círculo unitario con coseno y seno.
+% Origen: x=cos(theta), y=sin(theta) para un radio unitario.
+% Descripción accesible: en un círculo de radio uno, un radio forma un ángulo
+% theta con el eje horizontal. La proyección horizontal del punto extremo mide
+% cos(theta) y la proyección vertical mide sin(theta).
+\begin{tikzpicture}[font=\small,>=stealth,scale=1.55]
+    \draw[->] (-1.35,0) -- (1.55,0) node[right]{\(x\)};
+    \draw[->] (0,-1.35) -- (0,1.48) node[above]{\(y\)};
+    \draw[thick] (0,0) circle (1);
+
+    \coordinate (P) at (38:1);
+    \coordinate (Px) at ({cos(38)},0);
+
+    \draw[very thick] (0,0) -- node[pos=0.55,above left=1pt]{\(1\)} (P);
+    \draw[dashed] (P) -- (Px);
+    \draw[very thick] (0,0) --
+        node[midway,below=5pt,fill=white,inner sep=1pt]{\(\cos\theta\)} (Px);
+    \draw[very thick] (Px) --
+        node[midway,right=7pt,fill=white,inner sep=1pt]{\(\sin\theta\)} (P);
+    \fill (P) circle (1.3pt);
+
+    \draw[->] (0.38,0) arc[start angle=0,end angle=38,radius=0.38];
+    \node at (19:0.53) {\(\theta\)};
+
+    \node[below left=2pt] at (0,0) {\(O\)};
+    \node[above right=4pt] at (P) {\((\cos\theta,\sin\theta)\)};
+\end{tikzpicture}
