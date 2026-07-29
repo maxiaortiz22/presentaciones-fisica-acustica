@@ -88,6 +88,27 @@ Documentar:
 
 No elegir fuentes que requieran una instalación especial salvo aprobación explícita.
 
+
+### 3A. Pisos tipográficos y cajas
+
+Para slides 16:9 proyectadas en aula, definir en la guía:
+
+- título de slide: 30–36 pt;
+- cuerpo principal: 24–28 pt;
+- texto de diagramas: 22–24 pt;
+- etiquetas de conectores: 20–22 pt;
+- ecuaciones centrales: 28–40 pt;
+- captions: 18–20 pt;
+- créditos: pueden ser menores según la guía.
+
+Reglas:
+
+- no usar auto-shrink como mecanismo de layout;
+- si el texto no entra, ampliar, resumir, redistribuir o dividir;
+- usar padding interior mínimo de 0,18 in;
+- reservar espacio para flechas antes de cerrar la composición;
+- definir un layout específico para diagramas de procesos y otro para ecuaciones anotadas.
+
 ### 4. Diseñar layouts
 
 Definir al menos:

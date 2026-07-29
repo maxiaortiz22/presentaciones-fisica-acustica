@@ -81,7 +81,13 @@ Preguntar:
 Renderizar todas las slides y comprobar:
 
 - texto cortado;
+- texto reducido automáticamente por debajo del mínimo;
 - solapamientos;
+- texto que sale de cajas;
+- conectores que cruzan texto;
+- puntas de flecha que cubren palabras o caracteres;
+- etiquetas de flecha apoyadas sobre líneas;
+- flechas que llegan al nodo incorrecto;
 - objetos fuera;
 - tamaño;
 - contraste;
@@ -94,6 +100,24 @@ Renderizar todas las slides y comprobar:
 - espacios accidentales;
 - monotonía;
 - ruido visual.
+
+
+### 4A. Auditoría geométrica de diagramas
+
+Para cada visual con cajas, flechas, callouts o ecuaciones anotadas:
+
+- identificar bounding boxes de nodos, textos, etiquetas y conectores;
+- comprobar que no haya intersecciones no intencionales;
+- confirmar que el conector esté anclado al borde correcto;
+- confirmar que la etiqueta tenga un corredor independiente;
+- comprobar padding interior;
+- verificar que el texto principal sea de 22 pt o más y preferentemente 24 pt;
+- verificar que las etiquetas sean de 20 pt o más;
+- verificar que las ecuaciones centrales sean de 28 pt o más;
+- confirmar que el diagrama fue diseñado al tamaño real de inserción;
+- comparar el render a pantalla completa y en vista mosaico.
+
+Todo desborde, conector sobre texto o reducción tipográfica por debajo del mínimo es al menos un problema `major`. Si altera el significado o impide leer, es `critical`.
 
 ### 5. Producción
 
@@ -136,7 +160,8 @@ Agregar resumen, cobertura, fortalezas, bloqueos y cambios prioritarios.
 1. corregir críticos;
 2. renderizar;
 3. corregir mayores;
-4. verificar slides afectadas;
+4. volver a renderizar cada slide con diagramas modificados;
+5. verificar slides afectadas;
 5. revisar consistencia;
 6. cerrar hallazgos;
 7. registrar decisiones no aplicadas.

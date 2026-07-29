@@ -1,0 +1,3 @@
+model,input,rule,output,invertible
+propagación constante,t (s),d=c t,d (m),sí para c>0 y t≥0
+square example,-2;2,x²,4,no en todo R
