@@ -1,8 +1,13 @@
 # Directorios temporales y cachés locales
 .tmp/
 tmp/
+.codex_tmp/
 .cache/
 node_modules/
+
+# Python cache
+__pycache__/
+*.pyc
 
 # Configuración específica del editor o sistema
 .vscode/

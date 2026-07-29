@@ -1,13 +1,15 @@
 ---
 name: chart-generation
-description: Diseña y genera con código gráficos, curvas, señales, espectros, diagramas cuantitativos y figuras reproducibles para las presentaciones de Física Acústica. Usar cuando un concepto requiere una visualización propia, datos controlados o una figura editable y verificable; no usar para buscar fotografías o videos.
+description: Diseña y genera con código gráficos cuantitativos, curvas, señales, espectros y figuras reproducibles para las presentaciones de Física Acústica. Usar para visualizaciones con ejes, escalas o datos; derivar diagramas de cajas, flechas, procesos y callouts a la skill diagram-generation.
 ---
 
 # Chart Generation
 
 ## Objetivo
 
-Crear figuras didácticas técnicamente correctas, reproducibles y legibles en PowerPoint.
+Crear gráficos cuantitativos técnicamente correctos, reproducibles y legibles en PowerPoint.
+
+Los diagramas de cajas, conectores, procesos o ecuaciones anotadas no pertenecen a esta skill: usar `diagram-generation`.
 
 ## Casos de uso
 
@@ -77,6 +79,17 @@ Preferir:
 
 ## Reglas visuales
 
+Diseñar cada gráfico en el tamaño físico final que tendrá en la slide, no en un canvas arbitrario que luego será reducido.
+
+Tamaños recomendados al insertarlo en 16:9:
+
+- anotaciones clave: 22 pt o más;
+- etiquetas de ejes: 20 pt o más;
+- ticks y leyendas: 18 pt como mínimo;
+- ecuaciones o resultados destacados: 28 pt o más.
+
+Además:
+
 - fondo compatible con la plantilla;
 - tipografía legible;
 - ejes con nombre y unidad;
@@ -136,13 +149,29 @@ El script debe ejecutarse nuevamente sin edición manual.
 
 ## Verificación
 
+El script correcto no implica una figura aprobada. Aplicar el siguiente ciclo:
+
+1. generar;
+2. insertar o simular la inserción al tamaño final;
+3. renderizar la slide;
+4. revisar;
+5. corregir;
+6. volver a renderizar.
+
+Comprobar:
+
 - el script termina;
 - los archivos existen;
 - no hay textos cortados;
+- ningún elemento queda fuera del canvas;
+- etiquetas, leyendas y anotaciones no se superponen;
+- la fuente no baja del mínimo;
 - la resolución es suficiente;
-- el mensaje se entiende;
+- el mensaje se entiende en vista de slide completa;
 - los datos coinciden con la fuente;
 - el gráfico insertado es legible.
+
+Repetir hasta no encontrar problemas críticos o mayores.
 
 ## Salidas
 

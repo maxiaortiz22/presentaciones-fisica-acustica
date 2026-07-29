@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="960pt" height="540pt" viewBox="0 0 960 540" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-07-28T21:02:32.794522</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.9.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 540 
+L 960 540 
+L 960 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 209.28 405.756 
+L 209.28 156.276 
+L 655.68 405.756 
+z
+" clip-path="url(#pbbccc0ec42)" style="fill: #e7f1f1; stroke: #2f7e83; stroke-width: 3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 209.28 405.756 
+L 253.92 405.756 
+L 253.92 380.808 
+L 209.28 380.808 
+z
+" clip-path="url(#pbbccc0ec42)" style="fill: #ffffff; stroke: #3d3d3d; stroke-width: 1.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 625.92 236.1096 
+L 834.24 236.1096 
+Q 843.168 236.1096 843.168 231.12 
+L 843.168 181.224 
+Q 843.168 176.2344 834.24 176.2344 
+L 625.92 176.2344 
+Q 616.992 176.2344 616.992 181.224 
+L 616.992 231.12 
+Q 616.992 236.1096 625.92 236.1096 
+z
+" clip-path="url(#pbbccc0ec42)" style="fill: #f7f6f2; stroke: #d9dce0; stroke-width: 1.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 625.92 310.9536 
+L 834.24 310.9536 
+Q 843.168 310.9536 843.168 305.964 
+L 843.168 256.068 
+Q 843.168 251.0784 834.24 251.0784 
+L 625.92 251.0784 
+Q 616.992 251.0784 616.992 256.068 
+L 616.992 305.964 
+Q 616.992 310.9536 625.92 310.9536 
+z
+" clip-path="url(#pbbccc0ec42)" style="fill: #f7f6f2; stroke: #d9dce0; stroke-width: 1.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 625.92 385.7976 
+L 834.24 385.7976 
+Q 843.168 385.7976 843.168 380.808 
+L 843.168 330.912 
+Q 843.168 325.9224 834.24 325.9224 
+L 625.92 325.9224 
+Q 616.992 325.9224 616.992 330.912 
+L 616.992 380.808 
+Q 616.992 385.7976 625.92 385.7976 
+z
+" clip-path="url(#pbbccc0ec42)" style="fill: #f7f6f2; stroke: #d9dce0; stroke-width: 1.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="fill: #4d1434; font: 17px 'Calibri', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start" x="239.04" y="135.486" transform="rotate(-0 239.04 135.486)">opuesto = 3</text>
+   </g>
+   <g id="text_2">
+    <text style="fill: #4d1434; font: 17px 'Calibri', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start" x="395.28" y="439.02" transform="rotate(-0 395.28 439.02)">adyacente = 4</text>
+   </g>
+   <g id="text_3">
+    <text style="fill: #2f7e83; font: 17px 'Calibri', 'Arial', 'DejaVu Sans', sans-serif" transform="translate(442.057451 192.920958) rotate(-315)">hipotenusa = 5</text>
+   </g>
+   <g id="text_4">
+    <!-- $\theta$ -->
+    <g style="fill: #903163" transform="translate(596.16 389.124)">
+     <text>
+      <tspan style="font: oblique 24px 'DejaVu Sans'" x="0" y="-0.578125">θ</tspan>
+     </text>
+    </g>
+   </g>
+   <g id="text_5">
+    <!-- $\sin\theta=3/5$ -->
+    <g style="fill: #3d3d3d" transform="translate(677.055 211.572937)">
+     <text>
+      <tspan style="font: 21px 'DejaVu Sans'" x="0 10.940918 16.775391 50.433906 72.120918 85.481758 92.556953" y="-0.875">sin=3/5</tspan>
+      <tspan style="font: oblique 21px 'DejaVu Sans'" x="33.494453" y="-0.875">θ</tspan>
+     </text>
+    </g>
+   </g>
+   <g id="text_6">
+    <!-- $\cos\theta=4/5$ -->
+    <g style="fill: #3d3d3d" transform="translate(674.43 286.416938)">
+     <text>
+      <tspan style="font: 21px 'DejaVu Sans'" x="0 11.545898 24.394043 55.683906 77.370918 90.731758 97.806953" y="-0.875">cos=4/5</tspan>
+      <tspan style="font: oblique 21px 'DejaVu Sans'" x="38.744453" y="-0.875">θ</tspan>
+     </text>
+    </g>
+   </g>
+   <g id="text_7">
+    <!-- $\tan\theta=3/4$ -->
+    <g style="fill: #3d3d3d" transform="translate(674.955 361.260938)">
+     <text>
+      <tspan style="font: 21px 'DejaVu Sans'" x="0 8.233887 21.102539 54.761055 76.448066 89.808906 96.884101" y="-0.875">tan=3/4</tspan>
+      <tspan style="font: oblique 21px 'DejaVu Sans'" x="37.821601" y="-0.875">θ</tspan>
+     </text>
+    </g>
+   </g>
+   <g id="text_8">
+    <text style="fill: #969fa7; font: 15px 'Calibri', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle" x="730.08" y="414.072" transform="rotate(-0 730.08 414.072)">razones adimensionales</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pbbccc0ec42">
+   <rect x="120" y="64.8" width="744" height="415.8"/>
+  </clipPath>
+ </defs>
+</svg>

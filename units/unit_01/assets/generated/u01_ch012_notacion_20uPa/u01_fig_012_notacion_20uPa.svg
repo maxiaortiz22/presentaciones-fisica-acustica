@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="960pt" height="540pt" viewBox="0 0 960 540" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-07-28T21:02:30.421881</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.9.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 540 
+L 960 540 
+L 960 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 164.64 344.2176 
+L 350.64 344.2176 
+Q 359.568 344.2176 359.568 339.228 
+L 359.568 206.172 
+Q 359.568 201.1824 350.64 201.1824 
+L 164.64 201.1824 
+Q 155.712 201.1824 155.712 206.172 
+L 155.712 339.228 
+Q 155.712 344.2176 164.64 344.2176 
+z
+" clip-path="url(#pa31f74e42f)" style="fill: #f7f6f2; stroke: #d9dce0; stroke-width: 1.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 395.28 344.2176 
+L 581.28 344.2176 
+Q 590.208 344.2176 590.208 339.228 
+L 590.208 206.172 
+Q 590.208 201.1824 581.28 201.1824 
+L 395.28 201.1824 
+Q 386.352 201.1824 386.352 206.172 
+L 386.352 339.228 
+Q 386.352 344.2176 395.28 344.2176 
+z
+" clip-path="url(#pa31f74e42f)" style="fill: #f7f6f2; stroke: #d9dce0; stroke-width: 1.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 625.92 344.2176 
+L 811.92 344.2176 
+Q 820.848 344.2176 820.848 339.228 
+L 820.848 206.172 
+Q 820.848 201.1824 811.92 201.1824 
+L 625.92 201.1824 
+Q 616.992 201.1824 616.992 206.172 
+L 616.992 339.228 
+Q 616.992 344.2176 625.92 344.2176 
+z
+" clip-path="url(#pa31f74e42f)" style="fill: #f7f6f2; stroke: #d9dce0; stroke-width: 1.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="fill: #4d1434; font: 700 14px 'Calibri', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle" x="257.64" y="239.436" transform="rotate(-0 257.64 239.436)">ESCRITURA DECIMAL</text>
+   </g>
+   <g id="text_2">
+    <!-- $0{,}000020\ \mathrm{Pa}$ -->
+    <g style="fill: #3d3d3d" transform="translate(178.64 293.49)">
+     <text>
+      <tspan style="font: 25px 'DejaVu Sans'" x="0 15.905762 23.852539 39.758301 55.664062 71.569824 87.475586 103.381348 127.404704 142.480388" y="-0.4375">0,000020Pa</tspan>
+     </text>
+    </g>
+   </g>
+   <g id="text_3">
+    <text style="fill: #4d1434; font: 700 14px 'Calibri', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle" x="488.28" y="239.436" transform="rotate(-0 488.28 239.436)">NOTACIÓN CIENTÍFICA</text>
+   </g>
+   <g id="text_4">
+    <!-- $2{,}0\times10^{-5}\ \mathrm{Pa}$ -->
+    <g style="fill: #3d3d3d" transform="translate(404.53 293.49)">
+     <text>
+      <tspan style="font: 25px 'DejaVu Sans'" x="0 15.905762 23.852539 44.628906 70.446777 86.352539 137.095866 152.17155" y="-0.6765625000000028">2,0×10Pa</tspan>
+      <tspan style="font: 17.5px 'DejaVu Sans'" x="102.497559 117.160645" y="-10.246875000000003">−5</tspan>
+     </text>
+    </g>
+   </g>
+   <g id="text_5">
+    <text style="fill: #4d1434; font: 700 14px 'Calibri', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle" x="718.92" y="239.436" transform="rotate(-0 718.92 239.436)">CON PREFIJO</text>
+   </g>
+   <g id="text_6">
+    <!-- $20\ \mathrm{\mu Pa}$ -->
+    <g style="fill: #3d3d3d" transform="translate(675.795 293.49)">
+     <text>
+      <tspan style="font: 25px 'DejaVu Sans'" x="0 15.905762 39.929118 55.83488 70.910563" y="-0.4375">20μPa</tspan>
+     </text>
+    </g>
+   </g>
+   <g id="text_7">
+    <text style="fill: #2f7e83; font: 23px 'Calibri', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle" x="492" y="156.276" transform="rotate(-0 492 156.276)">tres escrituras · el mismo valor</text>
+   </g>
+   <g id="patch_5">
+    <path d="M 352.642588 272.7 
+Q 372.960678 272.7 391.042701 272.7 
+" style="fill: none; stroke: #903163; stroke-width: 2; stroke-linecap: round"/>
+    <path d="M 384.642701 269.5 
+L 391.042701 272.7 
+L 384.642701 275.9 
+z
+" style="fill: #903163; stroke: #903163; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="text_8">
+    <text style="fill: #903163; font: 14px 'Calibri', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle" x="372.96" y="255.657625" transform="rotate(-0 372.96 255.657625)">=</text>
+   </g>
+   <g id="patch_6">
+    <path d="M 583.282588 272.7 
+Q 603.600678 272.7 621.682701 272.7 
+" style="fill: none; stroke: #903163; stroke-width: 2; stroke-linecap: round"/>
+    <path d="M 615.282701 269.5 
+L 621.682701 272.7 
+L 615.282701 275.9 
+z
+" style="fill: #903163; stroke: #903163; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="text_9">
+    <text style="fill: #903163; font: 14px 'Calibri', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle" x="603.6" y="255.657625" transform="rotate(-0 603.6 255.657625)">=</text>
+   </g>
+   <g id="text_10">
+    <!-- $\mu=10^{-6}$ -->
+    <g style="fill: #4d1434" transform="translate(449.9 397.44)">
+     <text>
+      <tspan style="font: oblique 20px 'DejaVu Sans'" x="0" y="-0.953125">μ</tspan>
+      <tspan style="font: 20px 'DejaVu Sans'" x="16.621094 37.275391 50" y="-0.953125">=10</tspan>
+      <tspan style="font: 14px 'DejaVu Sans'" x="62.916016 74.646484" y="-8.609375">−6</tspan>
+     </text>
+    </g>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pa31f74e42f">
+   <rect x="120" y="64.8" width="744" height="415.8"/>
+  </clipPath>
+ </defs>
+</svg>

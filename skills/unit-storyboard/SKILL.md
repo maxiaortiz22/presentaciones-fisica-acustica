@@ -98,6 +98,8 @@ learning_purpose
 key_message
 visible_content_summary
 visual_or_media
+visual_type
+diagram_complexity
 speaker_note_goal
 source
 prerequisites
@@ -124,6 +126,19 @@ Tipos sugeridos:
 - error frecuente;
 - recapitulación;
 - cierre.
+
+
+## Reglas para diagramas previstos
+
+Cuando una slide requiera un diagrama:
+
+- clasificarlo como gráfico cuantitativo o diagrama estructural;
+- derivar diagramas estructurales a `diagram-generation`;
+- estimar la cantidad de nodos, conectores y etiquetas;
+- evitar más de cuatro nodos con texto extenso en una sola slide;
+- indicar si el visual necesita dos etapas o dos slides;
+- reservar una slide completa cuando la legibilidad lo requiera;
+- no plantear un visual cuya información obligue a usar fuente pequeña.
 
 ## Reglas de secuencia
 
@@ -172,6 +187,7 @@ Antes de aprobarlo, comprobar:
 - `storyboard_review.md`;
 - lista inicial de assets;
 - lista inicial de gráficos propios;
+- lista inicial de diagramas estructurales;
 - alertas y decisiones abiertas.
 
 ## No hacer

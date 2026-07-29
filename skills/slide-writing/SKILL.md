@@ -73,6 +73,22 @@ Usar:
 
 No prohibir automáticamente los párrafos. Un párrafo breve puede ser más claro que bullets fragmentados.
 
+
+### Texto destinado a diagramas
+
+Cuando el storyboard solicite cajas, flechas o callouts:
+
+- escribir un título de nodo breve;
+- limitar el cuerpo a dos o tres líneas cortas;
+- evitar más de 20 palabras dentro de un nodo pequeño;
+- separar ejemplos o aclaraciones en otra caja o en notas;
+- no redactar frases largas para colocarlas sobre un conector;
+- marcar explícitamente qué texto pertenece a nodo, etiqueta, caption o nota;
+- indicar el tamaño mínimo esperado;
+- si la idea no puede expresarse con legibilidad, proponer dividir el diagrama o la slide.
+
+La redacción nunca debe obligar a reducir la tipografía por debajo de los pisos definidos en la guía de estilo.
+
 ## Explicación para primer año
 
 Para un concepto nuevo:

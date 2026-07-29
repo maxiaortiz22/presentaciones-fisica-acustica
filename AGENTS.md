@@ -256,6 +256,45 @@ Todo gráfico debe incluir:
 
 No falsear datos con ejes truncados, escalas ambiguas o suavizados no declarados.
 
+
+---
+
+## 14A. Diagramas de cajas, flechas y callouts
+
+Los diagramas estructurales deben crearse mediante la skill `diagram-generation` y, de forma predeterminada, con formas, textos y conectores editables de PowerPoint.
+
+Reglas obligatorias:
+
+- diseñar el diagrama en el tamaño real que ocupará dentro de la slide;
+- medir el texto antes de fijar el tamaño de las cajas;
+- no usar “shrink text to fit” como solución a un desborde;
+- ampliar la caja, reducir el texto, redistribuirlo o dividir la slide antes de bajar del tamaño mínimo;
+- mantener un margen interior de al menos 0,18 pulgadas alrededor del texto;
+- reservar entre 10 % y 20 % de espacio libre dentro de cada caja;
+- usar conectores anclados a los bordes de las cajas;
+- reservar corredores vacíos para flechas y sus etiquetas;
+- ninguna flecha, línea o punta puede cruzar, cubrir o tocar texto;
+- ninguna etiqueta de flecha puede apoyarse sobre la línea;
+- usar conectores en codo cuando una línea recta atraviese contenido;
+- colocar los callouts fuera del objeto explicado y terminar el líder a una distancia visible del carácter o símbolo señalado;
+- evitar que una punta de flecha termine dentro del área tipográfica de una caja;
+- mantener al menos 0,10 pulgadas entre una línea y cualquier texto no relacionado;
+- mantener el texto principal de diagramas en 22 pt o más; 24 pt es el valor preferido;
+- usar 20 pt como mínimo para etiquetas breves de conectores;
+- usar 28 pt o más para ecuaciones centrales;
+- si el contenido no entra sin violar estos mínimos, dividir el diagrama o la diapositiva.
+
+Ciclo de aceptación obligatorio:
+
+1. generar;
+2. renderizar a tamaño final;
+3. comprobar desbordes, clipping, colisiones, flechas, etiquetas y tamaño tipográfico;
+4. corregir geometría o redacción;
+5. volver a renderizar;
+6. repetir hasta no encontrar problemas críticos o mayores.
+
+Un diagrama no puede aprobarse únicamente porque su script terminó correctamente.
+
 ## 15. Redacción
 
 Usar español académico claro, natural y rioplatense neutro.
