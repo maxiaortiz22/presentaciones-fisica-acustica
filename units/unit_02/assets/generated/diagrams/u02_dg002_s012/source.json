@@ -1,0 +1,64 @@
+{
+  "canvas_inches": [
+    12,
+    5.5
+  ],
+  "slide_context_inches": [
+    13.333,
+    7.5
+  ],
+  "objects": [
+    {
+      "id": "U02_DG002_S012_NODE_BODY",
+      "type": "node",
+      "bbox": [
+        4.65,
+        1.75,
+        2.7,
+        2.0
+      ],
+      "text": "Sistema",
+      "font_pt": 26,
+      "padding_in_min": 0.18
+    },
+    {
+      "id": "U02_DG002_S012_EDGE_F1",
+      "type": "connector",
+      "start": [
+        2.0,
+        2.75
+      ],
+      "end": [
+        4.55,
+        2.75
+      ],
+      "source": null,
+      "target": null,
+      "label": "F₁",
+      "label_font_pt": 20
+    },
+    {
+      "id": "U02_DG002_S012_EDGE_F2",
+      "type": "connector",
+      "start": [
+        10.0,
+        2.75
+      ],
+      "end": [
+        7.45,
+        2.75
+      ],
+      "source": null,
+      "target": null,
+      "label": "F₂",
+      "label_font_pt": 20
+    }
+  ],
+  "asset_id": "U02-DG002-S012",
+  "family": "U02-DG002",
+  "slide_id": "U02-012",
+  "classification": "diagrama conceptual",
+  "title": "Si está en reposo, ¿no actúa ninguna fuerza?",
+  "key_message": "Reposo no significa ausencia de fuerzas; puede haber equilibrio.",
+  "not_to_scale": false
+}

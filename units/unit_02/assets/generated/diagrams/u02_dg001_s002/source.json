@@ -1,0 +1,135 @@
+{
+  "canvas_inches": [
+    12,
+    5.5
+  ],
+  "slide_context_inches": [
+    13.333,
+    7.5
+  ],
+  "objects": [
+    {
+      "id": "U02_DG001_S002_NODE_REGION1_0",
+      "type": "node",
+      "bbox": [
+        0.35,
+        1.0,
+        2.25,
+        3.2
+      ],
+      "text": "Región 1\np₁",
+      "font_pt": 24,
+      "padding_in_min": 0.18
+    },
+    {
+      "id": "U02_DG001_S002_NODE_REGION2_0",
+      "type": "node",
+      "bbox": [
+        3.5,
+        1.0,
+        2.25,
+        3.2
+      ],
+      "text": "Región 2\np₂",
+      "font_pt": 24,
+      "padding_in_min": 0.18
+    },
+    {
+      "id": "U02_DG001_S002_NODE_REGION1_1",
+      "type": "node",
+      "bbox": [
+        6.25,
+        1.0,
+        2.25,
+        3.2
+      ],
+      "text": "Región 1\np₁",
+      "font_pt": 24,
+      "padding_in_min": 0.18
+    },
+    {
+      "id": "U02_DG001_S002_NODE_REGION2_1",
+      "type": "node",
+      "bbox": [
+        9.4,
+        1.0,
+        2.25,
+        3.2
+      ],
+      "text": "Región 2\np₂",
+      "font_pt": 24,
+      "padding_in_min": 0.18
+    },
+    {
+      "id": "U02_DG001_S002_EDGE_F1_0",
+      "type": "connector",
+      "start": [
+        1.9,
+        2.75
+      ],
+      "end": [
+        2.9,
+        2.75
+      ],
+      "source": "U02_DG001_S002_NODE_REGION1_0",
+      "target": null,
+      "label": "F₁",
+      "label_font_pt": 20
+    },
+    {
+      "id": "U02_DG001_S002_EDGE_F2_0",
+      "type": "connector",
+      "start": [
+        4.2,
+        2.15
+      ],
+      "end": [
+        3.2,
+        2.15
+      ],
+      "source": "U02_DG001_S002_NODE_REGION2_0",
+      "target": null,
+      "label": "F₂",
+      "label_font_pt": 20
+    },
+    {
+      "id": "U02_DG001_S002_EDGE_F1_1",
+      "type": "connector",
+      "start": [
+        7.8,
+        2.75
+      ],
+      "end": [
+        8.8,
+        2.75
+      ],
+      "source": "U02_DG001_S002_NODE_REGION1_1",
+      "target": null,
+      "label": "F₁",
+      "label_font_pt": 20
+    },
+    {
+      "id": "U02_DG001_S002_EDGE_F2_1",
+      "type": "connector",
+      "start": [
+        10.1,
+        2.15
+      ],
+      "end": [
+        9.1,
+        2.15
+      ],
+      "source": "U02_DG001_S002_NODE_REGION2_1",
+      "target": null,
+      "label": "F₂",
+      "label_font_pt": 20
+    }
+  ],
+  "asset_id": "U02-DG001-S002",
+  "family": "U02-DG001",
+  "slide_id": "U02-002",
+  "classification": "diagrama conceptual",
+  "title": "Dos lados, una membrana: ¿qué cambia?",
+  "key_message": "Una diferencia de presión puede producir una fuerza neta.",
+  "not_to_scale": true
+}

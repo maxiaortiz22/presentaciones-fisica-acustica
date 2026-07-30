@@ -1,0 +1,90 @@
+{
+  "canvas_inches": [
+    12,
+    5.5
+  ],
+  "slide_context_inches": [
+    13.333,
+    7.5
+  ],
+  "objects": [
+    {
+      "id": "U02_DG005_S030_NODE_MODEL",
+      "type": "node",
+      "bbox": [
+        0.45,
+        1.15,
+        4.9,
+        3.15
+      ],
+      "text": "Datos",
+      "font_pt": 24,
+      "padding_in_min": 0.18
+    },
+    {
+      "id": "U02_DG005_S030_NODE_STEP_1",
+      "type": "node",
+      "bbox": [
+        6.15,
+        2.8,
+        5.35,
+        1.05
+      ],
+      "text": "hipótesis",
+      "font_pt": 22,
+      "padding_in_min": 0.18
+    },
+    {
+      "id": "U02_DG005_S030_NODE_STEP_2",
+      "type": "node",
+      "bbox": [
+        6.15,
+        1.6799999999999997,
+        5.35,
+        1.05
+      ],
+      "text": "cálculo y frase de alcance",
+      "font_pt": 22,
+      "padding_in_min": 0.18
+    },
+    {
+      "id": "U02_DG005_S030_EDGE_STEP_EDGE_1",
+      "type": "connector",
+      "start": [
+        8.82,
+        2.7299999999999995
+      ],
+      "end": [
+        8.82,
+        2.4799999999999995
+      ],
+      "source": "U02_DG005_S030_NODE_STEP_1",
+      "target": "U02_DG005_S030_NODE_STEP_2",
+      "label": "",
+      "label_font_pt": 0
+    },
+    {
+      "id": "U02_DG005_S030_EDGE_MODEL_TO_RESULT",
+      "type": "connector",
+      "start": [
+        5.42,
+        2.75
+      ],
+      "end": [
+        6.02,
+        2.75
+      ],
+      "source": null,
+      "target": null,
+      "label": "",
+      "label_font_pt": 0
+    }
+  ],
+  "asset_id": "U02-DG005-S030",
+  "family": "U02-DG005",
+  "slide_id": "U02-030",
+  "classification": "esquema mixto",
+  "title": "De `0,50 Pa` a `1,0×10⁻⁴ N`",
+  "key_message": "El resultado pertenece al sistema ideal y no es un valor universal del tímpano.",
+  "not_to_scale": false
+}

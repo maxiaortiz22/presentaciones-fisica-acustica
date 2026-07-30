@@ -1,0 +1,77 @@
+{
+  "canvas_inches": [
+    12,
+    5.5
+  ],
+  "slide_context_inches": [
+    13.333,
+    7.5
+  ],
+  "objects": [
+    {
+      "id": "U02_DG004_S022_NODE_A",
+      "type": "node",
+      "bbox": [
+        0.8,
+        2.0,
+        3.0,
+        2.0
+      ],
+      "text": "DCL de A",
+      "font_pt": 26,
+      "padding_in_min": 0.18
+    },
+    {
+      "id": "U02_DG004_S022_NODE_B",
+      "type": "node",
+      "bbox": [
+        8.2,
+        2.0,
+        3.0,
+        2.0
+      ],
+      "text": "DCL de B",
+      "font_pt": 26,
+      "padding_in_min": 0.18
+    },
+    {
+      "id": "U02_DG004_S022_EDGE_FORCE_ON_A",
+      "type": "connector",
+      "start": [
+        3.9,
+        3.35
+      ],
+      "end": [
+        6.0,
+        3.35
+      ],
+      "source": "U02_DG004_S022_NODE_A",
+      "target": null,
+      "label": "F_B→A",
+      "label_font_pt": 20
+    },
+    {
+      "id": "U02_DG004_S022_EDGE_FORCE_ON_B",
+      "type": "connector",
+      "start": [
+        8.1,
+        2.65
+      ],
+      "end": [
+        6.0,
+        2.65
+      ],
+      "source": "U02_DG004_S022_NODE_B",
+      "target": null,
+      "label": "F_A→B",
+      "label_font_pt": 20
+    }
+  ],
+  "asset_id": "U02-DG004-S022",
+  "family": "U02-DG004",
+  "slide_id": "U02-022",
+  "classification": "diagrama conceptual",
+  "title": "Acción y reacción viven en dos diagramas diferentes",
+  "key_message": "El par pertenece a dos cuerpos; las fuerzas equilibradas pertenecen a uno.",
+  "not_to_scale": false
+}

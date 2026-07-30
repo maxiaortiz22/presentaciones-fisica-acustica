@@ -1,0 +1,64 @@
+{
+  "canvas_inches": [
+    12,
+    5.5
+  ],
+  "slide_context_inches": [
+    13.333,
+    7.5
+  ],
+  "objects": [
+    {
+      "id": "U02_DG008_S063_NODE_SYSTEM",
+      "type": "node",
+      "bbox": [
+        4.0,
+        1.0,
+        4.0,
+        3.45
+      ],
+      "text": "SISTEMA\nTemperatura\nEnergía interna",
+      "font_pt": 25,
+      "padding_in_min": 0.18
+    },
+    {
+      "id": "U02_DG008_S063_EDGE_HEAT_IN",
+      "type": "connector",
+      "start": [
+        0.65,
+        3.35
+      ],
+      "end": [
+        3.88,
+        3.35
+      ],
+      "source": null,
+      "target": "U02_DG008_S063_NODE_SYSTEM",
+      "label": "Q_calor",
+      "label_font_pt": 20
+    },
+    {
+      "id": "U02_DG008_S063_EDGE_WORK_IN",
+      "type": "connector",
+      "start": [
+        11.35,
+        2.1
+      ],
+      "end": [
+        8.12,
+        2.1
+      ],
+      "source": null,
+      "target": "U02_DG008_S063_NODE_SYSTEM",
+      "label": "W_sobre",
+      "label_font_pt": 20
+    }
+  ],
+  "asset_id": "U02-DG008-S063",
+  "family": "U02-DG008",
+  "slide_id": "U02-063",
+  "classification": "diagrama conceptual",
+  "title": "Estado y transferencia responden preguntas distintas",
+  "key_message": "Una magnitud de estado describe el sistema; una transferencia describe energía que cruza la frontera.",
+  "not_to_scale": false
+}

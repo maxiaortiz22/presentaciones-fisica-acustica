@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="864pt" height="396pt" viewBox="0 0 864 396" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-07-29T18:22:39.157760</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.9.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 396 
+L 864 396 
+L 864 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="U02_DG006_S041_LINE_WALL">
+    <path d="M 50.4 345.6 
+L 50.4 50.4 
+" clip-path="url(#pa0a1ec0698)" style="fill: none; stroke: #3d3d3d; stroke-width: 5; stroke-linecap: square"/>
+   </g>
+   <g id="U02_DG006_S041_LINE_SPRING">
+    <path d="M 54 162 
+L 97.2 162 
+L 111.6 140.4 
+L 156.24 183.6 
+L 200.88 140.4 
+L 245.52 183.6 
+L 290.16 140.4 
+L 334.8 183.6 
+L 379.44 140.4 
+L 424.08 183.6 
+L 493.2 162 
+L 522 162 
+" clip-path="url(#pa0a1ec0698)" style="fill: none; stroke: #4d1434; stroke-width: 2.3; stroke-linecap: square"/>
+   </g>
+   <g id="U02_DG006_S041_LINE_DAMPER">
+    <path d="M 54 284.4 
+L 144 284.4 
+L 144 313.2 
+L 324 313.2 
+L 324 255.6 
+L 432 255.6 
+L 432 284.4 
+L 522 284.4 
+" clip-path="url(#pa0a1ec0698)" style="fill: none; stroke: #969fa7; stroke-width: 2.3; stroke-linecap: square"/>
+   </g>
+   <g id="U02_DG006_S041_EDGE_FEXT">
+    <path d="M 705.6 198 
+Q 761.4 198 814.963932 198 
+" clip-path="url(#pa0a1ec0698)" style="fill: none; stroke: #2f7e83; stroke-width: 2; stroke-linecap: round"/>
+    <path d="M 808.163932 194.6 
+L 814.963932 198 
+L 808.163932 201.4 
+z
+" clip-path="url(#pa0a1ec0698)" style="fill: #2f7e83; stroke: #2f7e83; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="U02_DG006_S041_EDGE_AXIS">
+    <path d="M 608.4 320.4 
+Q 671.4 320.4 732.163932 320.4 
+" clip-path="url(#pa0a1ec0698)" style="fill: none; stroke: #3d3d3d; stroke-width: 2; stroke-linecap: round"/>
+    <path d="M 725.363932 317 
+L 732.163932 320.4 
+L 725.363932 323.8 
+z
+" clip-path="url(#pa0a1ec0698)" style="fill: #3d3d3d; stroke: #3d3d3d; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="U02_DG006_S041_NODE_MASS">
+    <path d="M 527.04 264.24 
+L 696.96 264.24 
+Q 699.84 264.24 699.84 261.36 
+L 699.84 134.64 
+Q 699.84 131.76 696.96 131.76 
+L 527.04 131.76 
+Q 524.16 131.76 524.16 134.64 
+L 524.16 261.36 
+Q 524.16 264.24 527.04 264.24 
+z
+" clip-path="url(#pa0a1ec0698)" style="fill: #e7f1f1; stroke: #2f7e83; stroke-width: 1.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="U02_DG006_S041_TEXT_MASS">
+    <text style="fill: #3d3d3d; font: 700 28px 'Calibri', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle" x="612" y="205.035" transform="rotate(-0 612 205.035)">masa m</text>
+   </g>
+   <g id="U02_DG006_S041_LABEL_006">
+    <text style="fill: #4d1434; font: 22px 'Calibri', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle" x="259.2" y="102.725781" transform="rotate(-0 259.2 102.725781)">resorte kₛ</text>
+   </g>
+   <g id="U02_DG006_S041_LABEL_007">
+    <text style="fill: #969fa7; font: 22px 'Calibri', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle" x="270" y="361.920625" transform="rotate(-0 270 361.920625)">amortiguador b</text>
+   </g>
+   <g id="U02_DG006_S041_LABEL_FEXT_EDGE_LABEL">
+    <text style="fill: #2f7e83; font: 20px 'Calibri', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle" x="761.4" y="182.854062" transform="rotate(-0 761.4 182.854062)">F_ext</text>
+   </g>
+   <g id="U02_DG006_S041_LABEL_AXIS_EDGE_LABEL">
+    <text style="fill: #3d3d3d; font: 20px 'Calibri', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle" x="671.4" y="305.263438" transform="rotate(-0 671.4 305.263438)">+x, +v</text>
+   </g>
+   <g id="U02_DG006_S041_LABEL_012">
+    <text style="fill: #9a641e; font: 21px 'Calibri', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle" x="432" y="41.320547" transform="rotate(-0 432 41.320547)">Modelo ideal concentrado; no representa anatomía literal</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pa0a1ec0698">
+   <rect x="0" y="0" width="864" height="396"/>
+  </clipPath>
+ </defs>
+</svg>

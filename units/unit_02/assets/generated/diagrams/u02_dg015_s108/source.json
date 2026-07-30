@@ -1,0 +1,119 @@
+{
+  "canvas_inches": [
+    12,
+    5.5
+  ],
+  "slide_context_inches": [
+    13.333,
+    7.5
+  ],
+  "objects": [
+    {
+      "id": "U02_DG015_S108_NODE_STEP_1",
+      "type": "node",
+      "bbox": [
+        0.35,
+        1.7,
+        2.4125,
+        2.0
+      ],
+      "text": "E_disipada =\n0,15 mJ",
+      "font_pt": 23,
+      "padding_in_min": 0.18
+    },
+    {
+      "id": "U02_DG015_S108_NODE_STEP_2",
+      "type": "node",
+      "bbox": [
+        3.3125000000000004,
+        1.7,
+        2.4125,
+        2.0
+      ],
+      "text": "c(20 °C) =\n343 m/s",
+      "font_pt": 23,
+      "padding_in_min": 0.18
+    },
+    {
+      "id": "U02_DG015_S108_NODE_STEP_3",
+      "type": "node",
+      "bbox": [
+        6.275,
+        1.7,
+        2.4125,
+        2.0
+      ],
+      "text": "La energía se\nconserva",
+      "font_pt": 23,
+      "padding_in_min": 0.18
+    },
+    {
+      "id": "U02_DG015_S108_NODE_STEP_4",
+      "type": "node",
+      "bbox": [
+        9.2375,
+        1.7,
+        2.4125,
+        2.0
+      ],
+      "text": "No produce\ndiagnóstico",
+      "font_pt": 23,
+      "padding_in_min": 0.18
+    },
+    {
+      "id": "U02_DG015_S108_EDGE_FLOW_1",
+      "type": "connector",
+      "start": [
+        2.8025,
+        2.7
+      ],
+      "end": [
+        3.2725000000000004,
+        2.7
+      ],
+      "source": "U02_DG015_S108_NODE_STEP_1",
+      "target": "U02_DG015_S108_NODE_STEP_2",
+      "label": "",
+      "label_font_pt": 0
+    },
+    {
+      "id": "U02_DG015_S108_EDGE_FLOW_2",
+      "type": "connector",
+      "start": [
+        5.765000000000001,
+        2.7
+      ],
+      "end": [
+        6.235,
+        2.7
+      ],
+      "source": "U02_DG015_S108_NODE_STEP_2",
+      "target": "U02_DG015_S108_NODE_STEP_3",
+      "label": "",
+      "label_font_pt": 0
+    },
+    {
+      "id": "U02_DG015_S108_EDGE_FLOW_3",
+      "type": "connector",
+      "start": [
+        8.7275,
+        2.7
+      ],
+      "end": [
+        9.197500000000002,
+        2.7
+      ],
+      "source": "U02_DG015_S108_NODE_STEP_3",
+      "target": "U02_DG015_S108_NODE_STEP_4",
+      "label": "",
+      "label_font_pt": 0
+    }
+  ],
+  "asset_id": "U02-DG015-S108",
+  "family": "U02-DG015",
+  "slide_id": "U02-108",
+  "classification": "esquema mixto",
+  "title": "Caso integrador: energía, temperatura y límites",
+  "key_message": "El balance cierra, `c` se estima y ningún resultado produce una conclusión clínica.",
+  "not_to_scale": false
+}

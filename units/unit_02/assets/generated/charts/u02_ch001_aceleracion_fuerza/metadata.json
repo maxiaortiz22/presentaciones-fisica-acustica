@@ -1,0 +1,27 @@
+{
+  "asset_id": "U02-CH001",
+  "classification": "gráfico cuantitativo",
+  "title": "Aceleración frente a fuerza neta",
+  "slides": "U02-018; U02-036",
+  "question": "¿Cómo cambia la aceleración al aumentar la fuerza neta y qué cambia al duplicar la masa?",
+  "scale": "Ambos ejes lineales. F_neta de 0 a 4 N; a de 0 a 4,5 m/s².",
+  "source": "Valores calculados exactamente con a = F_neta/m; no son mediciones.",
+  "validation": [
+    "Ambas rectas pasan por el origen.",
+    "Para F_neta = 2 N se verifican 2,0 m/s² y 1,0 m/s².",
+    "La codificación combina color, trazo y marcador."
+  ],
+  "outputs": {
+    "svg": "u02_fig_001_aceleracion_fuerza.svg",
+    "png": "u02_fig_001_aceleracion_fuerza.png",
+    "data": "data.csv",
+    "script": "script.py"
+  },
+  "parameters_and_checks": {
+    "masses_kg": [
+      1.0,
+      2.0
+    ],
+    "max_absolute_error": 0.0
+  }
+}

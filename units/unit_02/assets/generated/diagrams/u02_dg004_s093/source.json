@@ -1,0 +1,58 @@
+{
+  "canvas_inches": [
+    12,
+    5.5
+  ],
+  "slide_context_inches": [
+    13.333,
+    7.5
+  ],
+  "objects": [
+    {
+      "id": "U02_DG004_S093_NODE_PANEL_1",
+      "type": "node",
+      "bbox": [
+        0.35,
+        1.15,
+        3.5333333333333337,
+        2.8
+      ],
+      "text": "Libro ↔ mesa",
+      "font_pt": 23,
+      "padding_in_min": 0.18
+    },
+    {
+      "id": "U02_DG004_S093_NODE_PANEL_2",
+      "type": "node",
+      "bbox": [
+        4.233333333333333,
+        1.15,
+        3.5333333333333337,
+        2.8
+      ],
+      "text": "Membrana ↔ aire",
+      "font_pt": 23,
+      "padding_in_min": 0.18
+    },
+    {
+      "id": "U02_DG004_S093_NODE_PANEL_3",
+      "type": "node",
+      "bbox": [
+        8.116666666666667,
+        1.15,
+        3.5333333333333337,
+        2.8
+      ],
+      "text": "Vibrador ↔ cabeza",
+      "font_pt": 23,
+      "padding_in_min": 0.18
+    }
+  ],
+  "asset_id": "U02-DG004-S093",
+  "family": "U02-DG004",
+  "slide_id": "U02-093",
+  "classification": "diagrama conceptual",
+  "title": "Tercera ley y equilibrio: más contraejemplos",
+  "key_message": "Par de interacción y fuerzas equilibradas usan cuerpos diferentes.",
+  "not_to_scale": false
+}

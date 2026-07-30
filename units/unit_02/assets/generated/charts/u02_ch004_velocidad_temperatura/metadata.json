@@ -1,0 +1,37 @@
+{
+  "asset_id": "U02-CH004",
+  "classification": "gráfico cuantitativo",
+  "title": "Velocidad del sonido frente a temperatura",
+  "slides": "U02-080; U02-081; U02-103",
+  "question": "¿Cuánto aumenta c en el rango ambiental y qué no permite concluir el gráfico?",
+  "scale": "Eje horizontal lineal de 0 a 30 °C. Eje vertical lineal truncado de 325 a 355 m/s, declarado en la figura.",
+  "source": "Valores calculados con c ≈ 331 m/s + [0,6 (m/s)/°C]·ϑ, modelo del libro; no son mediciones.",
+  "validation": [
+    "Se verifican 331, 337, 343 y 349 m/s.",
+    "Pendiente exacta del modelo: 0,6 (m/s)/°C.",
+    "No se infiere frecuencia, longitud de onda ni altura tonal sin datos adicionales."
+  ],
+  "outputs": {
+    "svg": "u02_fig_004_velocidad_temperatura.svg",
+    "png": "u02_fig_004_velocidad_temperatura.png",
+    "data": "data.csv",
+    "script": "script.py"
+  },
+  "parameters_and_checks": {
+    "model": "c = 331 + 0.6 theta",
+    "time_check_100m": [
+      {
+        "temperatura_C": 5.0,
+        "c_m_s": 334.0,
+        "t_100m_s": 0.2994011976047904
+      },
+      {
+        "temperatura_C": 25.0,
+        "c_m_s": 346.0,
+        "t_100m_s": 0.28901734104046245
+      }
+    ],
+    "delta_t_5C_25C_ms": 10.383856564327942,
+    "U02-CH005": "reemplazado por tabla; cálculo conservado aquí"
+  }
+}

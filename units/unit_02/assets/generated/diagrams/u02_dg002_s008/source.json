@@ -1,0 +1,97 @@
+{
+  "canvas_inches": [
+    12,
+    5.5
+  ],
+  "slide_context_inches": [
+    13.333,
+    7.5
+  ],
+  "objects": [
+    {
+      "id": "U02_DG002_S008_NODE_ENV_A",
+      "type": "node",
+      "bbox": [
+        0.45,
+        0.9,
+        5.1,
+        3.4
+      ],
+      "text": "",
+      "font_pt": 23,
+      "padding_in_min": 0.18
+    },
+    {
+      "id": "U02_DG002_S008_NODE_SYSTEM_A",
+      "type": "node",
+      "bbox": [
+        1.65,
+        1.75,
+        2.7,
+        1.7
+      ],
+      "text": "Membrana",
+      "font_pt": 26,
+      "padding_in_min": 0.18
+    },
+    {
+      "id": "U02_DG002_S008_NODE_SYSTEM_B",
+      "type": "node",
+      "bbox": [
+        6.45,
+        0.9,
+        5.1,
+        3.4
+      ],
+      "text": "",
+      "font_pt": 23,
+      "padding_in_min": 0.18
+    },
+    {
+      "id": "U02_DG002_S008_NODE_AIR_B1",
+      "type": "node",
+      "bbox": [
+        7.1,
+        1.65,
+        1.55,
+        1.9
+      ],
+      "text": "Aire",
+      "font_pt": 23,
+      "padding_in_min": 0.18
+    },
+    {
+      "id": "U02_DG002_S008_NODE_MEM_B",
+      "type": "node",
+      "bbox": [
+        8.88,
+        1.65,
+        1.0,
+        1.9
+      ],
+      "text": "M",
+      "font_pt": 26,
+      "padding_in_min": 0.18
+    },
+    {
+      "id": "U02_DG002_S008_NODE_AIR_B2",
+      "type": "node",
+      "bbox": [
+        10.1,
+        1.65,
+        1.0,
+        1.9
+      ],
+      "text": "Aire",
+      "font_pt": 22,
+      "padding_in_min": 0.18
+    }
+  ],
+  "asset_id": "U02-DG002-S008",
+  "family": "U02-DG002",
+  "slide_id": "U02-008",
+  "classification": "diagrama conceptual",
+  "title": "El sistema es aquello cuyo movimiento queremos explicar",
+  "key_message": "Sin sistema definido no existe un diagrama de fuerzas inequívoco.",
+  "not_to_scale": false
+}

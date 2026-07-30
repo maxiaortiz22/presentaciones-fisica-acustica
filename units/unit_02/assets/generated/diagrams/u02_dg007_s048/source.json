@@ -1,0 +1,45 @@
+{
+  "canvas_inches": [
+    12,
+    5.5
+  ],
+  "slide_context_inches": [
+    13.333,
+    7.5
+  ],
+  "objects": [
+    {
+      "id": "U02_DG007_S048_NODE_PANEL_1",
+      "type": "node",
+      "bbox": [
+        0.35,
+        1.15,
+        5.4750000000000005,
+        2.8
+      ],
+      "text": "Fuerza con desplazamiento\nW_trab ≠ 0",
+      "font_pt": 23,
+      "padding_in_min": 0.18
+    },
+    {
+      "id": "U02_DG007_S048_NODE_PANEL_2",
+      "type": "node",
+      "bbox": [
+        6.175,
+        1.15,
+        5.4750000000000005,
+        2.8
+      ],
+      "text": "Fuerza sin desplazamiento\nW_trab = 0",
+      "font_pt": 23,
+      "padding_in_min": 0.18
+    }
+  ],
+  "asset_id": "U02-DG007-S048",
+  "family": "U02-DG007",
+  "slide_id": "U02-048",
+  "classification": "diagrama conceptual",
+  "title": "Una fuerza transfiere energía cuando produce desplazamiento",
+  "key_message": "Fuerza sin desplazamiento no realiza trabajo mecánico en este modelo simple.",
+  "not_to_scale": false
+}

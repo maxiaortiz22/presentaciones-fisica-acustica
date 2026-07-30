@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="864pt" height="396pt" viewBox="0 0 864 396" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-07-29T18:22:52.943223</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.9.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 396 
+L 864 396 
+L 864 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="U02_DG007_S052_EDGE_FLOW_1">
+    <path d="M 270 205.2 
+Q 287.28 205.2 302.323932 205.2 
+" clip-path="url(#p815b7b7d5a)" style="fill: none; stroke: #4d1434; stroke-width: 2; stroke-linecap: round"/>
+    <path d="M 295.523932 201.8 
+L 302.323932 205.2 
+L 295.523932 208.6 
+z
+" clip-path="url(#p815b7b7d5a)" style="fill: #4d1434; stroke: #4d1434; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="U02_DG007_S052_EDGE_FLOW_2">
+    <path d="M 547.2 205.2 
+Q 564.48 205.2 579.523932 205.2 
+" clip-path="url(#p815b7b7d5a)" style="fill: none; stroke: #4d1434; stroke-width: 2; stroke-linecap: round"/>
+    <path d="M 572.723932 201.8 
+L 579.523932 205.2 
+L 572.723932 208.6 
+z
+" clip-path="url(#p815b7b7d5a)" style="fill: #4d1434; stroke: #4d1434; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="U02_DG007_S052_NODE_STATE_1">
+    <path d="M 41.04 307.44 
+L 261.36 307.44 
+Q 264.24 307.44 264.24 304.56 
+L 264.24 109.44 
+Q 264.24 106.56 261.36 106.56 
+L 41.04 106.56 
+Q 38.16 106.56 38.16 109.44 
+L 38.16 304.56 
+Q 38.16 307.44 41.04 307.44 
+z
+" clip-path="url(#p815b7b7d5a)" style="fill: #e7f1f1; stroke: #2f7e83; stroke-width: 1.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="U02_DG007_S052_NODE_STATE_2">
+    <path d="M 318.24 307.44 
+L 538.56 307.44 
+Q 541.44 307.44 541.44 304.56 
+L 541.44 109.44 
+Q 541.44 106.56 538.56 106.56 
+L 318.24 106.56 
+Q 315.36 106.56 315.36 109.44 
+L 315.36 304.56 
+Q 315.36 307.44 318.24 307.44 
+z
+" clip-path="url(#p815b7b7d5a)" style="fill: #f7f6f2; stroke: #2f7e83; stroke-width: 1.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="U02_DG007_S052_NODE_STATE_3">
+    <path d="M 595.44 307.44 
+L 815.76 307.44 
+Q 818.64 307.44 818.64 304.56 
+L 818.64 109.44 
+Q 818.64 106.56 815.76 106.56 
+L 595.44 106.56 
+Q 592.56 106.56 592.56 109.44 
+L 592.56 304.56 
+Q 592.56 307.44 595.44 307.44 
+z
+" clip-path="url(#p815b7b7d5a)" style="fill: #e7f1f1; stroke: #2f7e83; stroke-width: 1.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="U02_DG007_S052_TEXT_STATE_1">
+    <text style="fill: #3d3d3d; font: 24px 'Calibri', 'Arial', 'DejaVu Sans', sans-serif" transform="translate(105.075 191.119725)">Equilibrio</text>
+    <text style="fill: #3d3d3d; font: 24px 'Calibri', 'Arial', 'DejaVu Sans', sans-serif" transform="translate(113.304375 213.016875)">E_c alta</text>
+    <text style="fill: #3d3d3d; font: 24px 'Calibri', 'Arial', 'DejaVu Sans', sans-serif" transform="translate(107.251875 234.925275)">E_el baja</text>
+   </g>
+   <g id="U02_DG007_S052_TEXT_STATE_2">
+    <text style="fill: #3d3d3d; font: 24px 'Calibri', 'Arial', 'DejaVu Sans', sans-serif" transform="translate(387.255 191.119725)">Extremo</text>
+    <text style="fill: #3d3d3d; font: 24px 'Calibri', 'Arial', 'DejaVu Sans', sans-serif" transform="translate(388.1025 213.016875)">E_c baja</text>
+    <text style="fill: #3d3d3d; font: 24px 'Calibri', 'Arial', 'DejaVu Sans', sans-serif" transform="translate(386.85375 234.925275)">E_el alta</text>
+   </g>
+   <g id="U02_DG007_S052_TEXT_STATE_3">
+    <text style="fill: #3d3d3d; font: 24px 'Calibri', 'Arial', 'DejaVu Sans', sans-serif" transform="translate(665.949375 191.130975)">Retorno</text>
+    <text style="fill: #3d3d3d; font: 24px 'Calibri', 'Arial', 'DejaVu Sans', sans-serif" transform="translate(646.569375 213.028125)">intercambio</text>
+    <text style="fill: #3d3d3d; font: 24px 'Calibri', 'Arial', 'DejaVu Sans', sans-serif" transform="translate(662.758125 234.925275)">continúa</text>
+   </g>
+   <g id="U02_DG007_S052_LABEL_009">
+    <text style="fill: #9a641e; font: 21px 'Calibri', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle" x="432" y="55.674609" transform="rotate(-0 432 55.674609)">Barras cualitativas: no representan valores a escala</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p815b7b7d5a">
+   <rect x="0" y="0" width="864" height="396"/>
+  </clipPath>
+ </defs>
+</svg>

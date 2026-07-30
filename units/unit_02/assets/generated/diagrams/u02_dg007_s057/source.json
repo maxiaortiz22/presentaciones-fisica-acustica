@@ -1,0 +1,90 @@
+{
+  "canvas_inches": [
+    12,
+    5.5
+  ],
+  "slide_context_inches": [
+    13.333,
+    7.5
+  ],
+  "objects": [
+    {
+      "id": "U02_DG007_S057_NODE_STEP_1",
+      "type": "node",
+      "bbox": [
+        0.35,
+        1.7,
+        3.4000000000000004,
+        2.0
+      ],
+      "text": "Se almacena",
+      "font_pt": 23,
+      "padding_in_min": 0.18
+    },
+    {
+      "id": "U02_DG007_S057_NODE_STEP_2",
+      "type": "node",
+      "bbox": [
+        4.3,
+        1.7,
+        3.4000000000000004,
+        2.0
+      ],
+      "text": "Se transfiere",
+      "font_pt": 23,
+      "padding_in_min": 0.18
+    },
+    {
+      "id": "U02_DG007_S057_NODE_STEP_3",
+      "type": "node",
+      "bbox": [
+        8.25,
+        1.7,
+        3.4000000000000004,
+        2.0
+      ],
+      "text": "Se disipa",
+      "font_pt": 23,
+      "padding_in_min": 0.18
+    },
+    {
+      "id": "U02_DG007_S057_EDGE_FLOW_1",
+      "type": "connector",
+      "start": [
+        3.7900000000000005,
+        2.7
+      ],
+      "end": [
+        4.26,
+        2.7
+      ],
+      "source": "U02_DG007_S057_NODE_STEP_1",
+      "target": "U02_DG007_S057_NODE_STEP_2",
+      "label": "",
+      "label_font_pt": 0
+    },
+    {
+      "id": "U02_DG007_S057_EDGE_FLOW_2",
+      "type": "connector",
+      "start": [
+        7.74,
+        2.7
+      ],
+      "end": [
+        8.21,
+        2.7
+      ],
+      "source": "U02_DG007_S057_NODE_STEP_2",
+      "target": "U02_DG007_S057_NODE_STEP_3",
+      "label": "",
+      "label_font_pt": 0
+    }
+  ],
+  "asset_id": "U02-DG007-S057",
+  "family": "U02-DG007",
+  "slide_id": "U02-057",
+  "classification": "esquema mixto",
+  "title": "Hasta acá: conservar no significa conservar la forma",
+  "key_message": "Energía puede almacenarse, transferirse o disiparse sin desaparecer.",
+  "not_to_scale": false
+}

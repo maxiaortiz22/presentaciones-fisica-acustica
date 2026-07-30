@@ -1,0 +1,71 @@
+{
+  "canvas_inches": [
+    12,
+    5.5
+  ],
+  "slide_context_inches": [
+    13.333,
+    7.5
+  ],
+  "objects": [
+    {
+      "id": "U02_DG006_S043_NODE_CASE_1",
+      "type": "node",
+      "bbox": [
+        0.65,
+        2.85,
+        5.0,
+        1.65
+      ],
+      "text": "x > 0; v > 0\nF_el < 0; F_amort < 0",
+      "font_pt": 22,
+      "padding_in_min": 0.18
+    },
+    {
+      "id": "U02_DG006_S043_NODE_CASE_2",
+      "type": "node",
+      "bbox": [
+        6.4,
+        2.85,
+        5.0,
+        1.65
+      ],
+      "text": "x > 0; v < 0\nF_el < 0; F_amort > 0",
+      "font_pt": 22,
+      "padding_in_min": 0.18
+    },
+    {
+      "id": "U02_DG006_S043_NODE_CASE_3",
+      "type": "node",
+      "bbox": [
+        0.65,
+        0.8000000000000003,
+        5.0,
+        1.65
+      ],
+      "text": "x < 0; v > 0\nF_el > 0; F_amort < 0",
+      "font_pt": 22,
+      "padding_in_min": 0.18
+    },
+    {
+      "id": "U02_DG006_S043_NODE_CASE_4",
+      "type": "node",
+      "bbox": [
+        6.4,
+        0.8000000000000003,
+        5.0,
+        1.65
+      ],
+      "text": "x < 0; v < 0\nF_el > 0; F_amort > 0",
+      "font_pt": 22,
+      "padding_in_min": 0.18
+    }
+  ],
+  "asset_id": "U02-DG006-S043",
+  "family": "U02-DG006",
+  "slide_id": "U02-043",
+  "classification": "diagrama conceptual",
+  "title": "¿Hacia dónde apuntan las fuerzas si `x` y `v` cambian de signo?",
+  "key_message": "`F_el` depende de `x`; `F_amort` depende de `v`.",
+  "not_to_scale": false
+}

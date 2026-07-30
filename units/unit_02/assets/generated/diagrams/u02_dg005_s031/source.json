@@ -1,0 +1,71 @@
+{
+  "canvas_inches": [
+    12,
+    5.5
+  ],
+  "slide_context_inches": [
+    13.333,
+    7.5
+  ],
+  "objects": [
+    {
+      "id": "U02_DG005_S031_NODE_PANEL_1",
+      "type": "node",
+      "bbox": [
+        0.35,
+        1.15,
+        2.5625,
+        2.8
+      ],
+      "text": "Concepto\nfísico",
+      "font_pt": 23,
+      "padding_in_min": 0.18
+    },
+    {
+      "id": "U02_DG005_S031_NODE_PANEL_2",
+      "type": "node",
+      "bbox": [
+        3.2625,
+        1.15,
+        2.5625,
+        2.8
+      ],
+      "text": "aplicación y\ntres límites:\ngeometría",
+      "font_pt": 23,
+      "padding_in_min": 0.18
+    },
+    {
+      "id": "U02_DG005_S031_NODE_PANEL_3",
+      "type": "node",
+      "bbox": [
+        6.175,
+        1.15,
+        2.5625,
+        2.8
+      ],
+      "text": "presión no\nuniforme",
+      "font_pt": 23,
+      "padding_in_min": 0.18
+    },
+    {
+      "id": "U02_DG005_S031_NODE_PANEL_4",
+      "type": "node",
+      "bbox": [
+        9.0875,
+        1.15,
+        2.5625,
+        2.8
+      ],
+      "text": "movimiento\ndistribuido",
+      "font_pt": 23,
+      "padding_in_min": 0.18
+    }
+  ],
+  "asset_id": "U02-DG005-S031",
+  "family": "U02-DG005",
+  "slide_id": "U02-031",
+  "classification": "diagrama conceptual",
+  "title": "La membrana timpánica recibe una fuerza distribuida",
+  "key_message": "La relación presión–área ayuda a razonar, pero la membrana real tiene propiedades distribuidas.",
+  "not_to_scale": true
+}

@@ -1,0 +1,106 @@
+{
+  "canvas_inches": [
+    12,
+    5.5
+  ],
+  "slide_context_inches": [
+    13.333,
+    7.5
+  ],
+  "objects": [
+    {
+      "id": "U02_DG002_S013_NODE_CALLOUT_1",
+      "type": "node",
+      "bbox": [
+        1.0,
+        0.55,
+        2.9833333333333334,
+        1.15
+      ],
+      "text": "resultante nula",
+      "font_pt": 22,
+      "padding_in_min": 0.18
+    },
+    {
+      "id": "U02_DG002_S013_NODE_CALLOUT_2",
+      "type": "node",
+      "bbox": [
+        4.333333333333334,
+        0.55,
+        2.9833333333333334,
+        1.15
+      ],
+      "text": "reposo: v = 0",
+      "font_pt": 22,
+      "padding_in_min": 0.18
+    },
+    {
+      "id": "U02_DG002_S013_NODE_CALLOUT_3",
+      "type": "node",
+      "bbox": [
+        7.666666666666667,
+        0.55,
+        2.9833333333333334,
+        1.15
+      ],
+      "text": "MRU: v ≠ 0",
+      "font_pt": 22,
+      "padding_in_min": 0.18
+    },
+    {
+      "id": "U02_DG002_S013_EDGE_LEADER_1",
+      "type": "connector",
+      "start": [
+        2.4916666666666667,
+        1.7
+      ],
+      "end": [
+        3.0,
+        2.68
+      ],
+      "source": "U02_DG002_S013_NODE_CALLOUT_1",
+      "target": null,
+      "label": "",
+      "label_font_pt": 0
+    },
+    {
+      "id": "U02_DG002_S013_EDGE_LEADER_2",
+      "type": "connector",
+      "start": [
+        5.825000000000001,
+        1.7
+      ],
+      "end": [
+        6.0,
+        2.68
+      ],
+      "source": "U02_DG002_S013_NODE_CALLOUT_2",
+      "target": null,
+      "label": "",
+      "label_font_pt": 0
+    },
+    {
+      "id": "U02_DG002_S013_EDGE_LEADER_3",
+      "type": "connector",
+      "start": [
+        9.158333333333333,
+        1.7
+      ],
+      "end": [
+        9.0,
+        2.68
+      ],
+      "source": "U02_DG002_S013_NODE_CALLOUT_3",
+      "target": null,
+      "label": "",
+      "label_font_pt": 0
+    }
+  ],
+  "asset_id": "U02-DG002-S013",
+  "family": "U02-DG002",
+  "slide_id": "U02-013",
+  "classification": "ecuación anotada",
+  "title": "Fuerza neta cero significa velocidad constante",
+  "key_message": "La inercia conserva el estado de movimiento; no produce retorno al equilibrio.",
+  "not_to_scale": false
+}

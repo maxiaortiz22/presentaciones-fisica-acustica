@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="864pt" height="396pt" viewBox="0 0 864 396" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-07-29T18:22:21.243725</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.9.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 396 
+L 864 396 
+L 864 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="U02_DG005_S025_LINE_SURFACE">
+    <path d="M 432 313.2 
+L 432 75.6 
+" clip-path="url(#pb0c30027e5)" style="fill: none; stroke: #4d1434; stroke-width: 6; stroke-linecap: square"/>
+   </g>
+   <g id="U02_DG005_S025_EDGE_F1">
+    <path d="M 259.2 172.8 
+Q 338.4 172.8 415.363932 172.8 
+" clip-path="url(#pb0c30027e5)" style="fill: none; stroke: #2f7e83; stroke-width: 2; stroke-linecap: round"/>
+    <path d="M 408.563932 169.4 
+L 415.363932 172.8 
+L 408.563932 176.2 
+z
+" clip-path="url(#pb0c30027e5)" style="fill: #2f7e83; stroke: #2f7e83; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="U02_DG005_S025_EDGE_F2">
+    <path d="M 604.8 226.8 
+Q 525.6 226.8 448.636068 226.8 
+" clip-path="url(#pb0c30027e5)" style="fill: none; stroke: #903163; stroke-width: 2; stroke-linecap: round"/>
+    <path d="M 455.436068 230.2 
+L 448.636068 226.8 
+L 455.436068 223.4 
+z
+" clip-path="url(#pb0c30027e5)" style="fill: #903163; stroke: #903163; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="U02_DG005_S025_NODE_REGION1">
+    <path d="M 33.84 329.04 
+L 340.56 329.04 
+Q 343.44 329.04 343.44 326.16 
+L 343.44 62.64 
+Q 343.44 59.76 340.56 59.76 
+L 33.84 59.76 
+Q 30.96 59.76 30.96 62.64 
+L 30.96 326.16 
+Q 30.96 329.04 33.84 329.04 
+z
+" clip-path="url(#pb0c30027e5)" style="fill: #e7f1f1; stroke: #2f7e83; stroke-width: 1.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="U02_DG005_S025_NODE_REGION2">
+    <path d="M 523.44 329.04 
+L 830.16 329.04 
+Q 833.04 329.04 833.04 326.16 
+L 833.04 62.64 
+Q 833.04 59.76 830.16 59.76 
+L 523.44 59.76 
+Q 520.56 59.76 520.56 62.64 
+L 520.56 326.16 
+Q 520.56 329.04 523.44 329.04 
+z
+" clip-path="url(#pb0c30027e5)" style="fill: #f7f6f2; stroke: #969fa7; stroke-width: 1.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="U02_DG005_S025_TEXT_REGION1">
+    <text style="fill: #3d3d3d; font: 28px 'Calibri', 'Arial', 'DejaVu Sans', sans-serif" transform="translate(137.828125 188.714163)">Región 1</text>
+    <text style="fill: #3d3d3d; font: 28px 'Calibri', 'Arial', 'DejaVu Sans', sans-serif" transform="translate(176.398125 214.273963)">p₁</text>
+   </g>
+   <g id="U02_DG005_S025_TEXT_REGION2">
+    <text style="fill: #3d3d3d; font: 28px 'Calibri', 'Arial', 'DejaVu Sans', sans-serif" transform="translate(627.428125 188.714163)">Región 2</text>
+    <text style="fill: #3d3d3d; font: 28px 'Calibri', 'Arial', 'DejaVu Sans', sans-serif" transform="translate(664.740313 214.273963)">p₂</text>
+   </g>
+   <g id="U02_DG005_S025_LABEL_F1_EDGE_LABEL">
+    <text style="fill: #2f7e83; font: 20px 'Calibri', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle" x="338.4" y="157.663438" transform="rotate(-0 338.4 157.663438)">F₁ = p₁S</text>
+   </g>
+   <g id="U02_DG005_S025_LABEL_F2_EDGE_LABEL">
+    <text style="fill: #903163; font: 20px 'Calibri', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle" x="525.6" y="262.063437" transform="rotate(-0 525.6 262.063437)">F₂ = p₂S</text>
+   </g>
+   <g id="U02_DG005_S025_LABEL_010">
+    <text style="fill: #9a641e; font: 21px 'Calibri', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle" x="432" y="368.915625" transform="rotate(-0 432 368.915625)">Si p₁ &gt; p₂, la resultante apunta hacia la región 2 · no a escala</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pb0c30027e5">
+   <rect x="0" y="0" width="864" height="396"/>
+  </clipPath>
+ </defs>
+</svg>

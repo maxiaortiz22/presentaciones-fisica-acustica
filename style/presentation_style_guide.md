@@ -293,7 +293,7 @@ Reglas:
 - Indicar unidades.
 - Explicar el significado físico.
 - Mostrar un ejemplo numérico cuando ayude.
-- Mantener coherencia con `style/notation_guide_draft.md`.
+- Mantener coherencia con `style/notation_guide.md`.
 - Una ecuación principal debe tener espacio propio y no quedar enterrada entre bullets.
 - Usar color solo para relacionar términos con partes de un diagrama; no colorear cada símbolo.
 - No usar capturas de ecuaciones.
