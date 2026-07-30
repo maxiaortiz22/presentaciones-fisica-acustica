@@ -1,0 +1,77 @@
+{
+  "canvas_inches": [
+    12,
+    5.5
+  ],
+  "slide_context_inches": [
+    13.333,
+    7.5
+  ],
+  "objects": [
+    {
+      "id": "U02_DG005_S025_NODE_REGION1",
+      "type": "node",
+      "bbox": [
+        0.45,
+        0.95,
+        4.3,
+        3.7
+      ],
+      "text": "Región 1\np₁",
+      "font_pt": 28,
+      "padding_in_min": 0.18
+    },
+    {
+      "id": "U02_DG005_S025_NODE_REGION2",
+      "type": "node",
+      "bbox": [
+        7.25,
+        0.95,
+        4.3,
+        3.7
+      ],
+      "text": "Región 2\np₂",
+      "font_pt": 28,
+      "padding_in_min": 0.18
+    },
+    {
+      "id": "U02_DG005_S025_EDGE_F1",
+      "type": "connector",
+      "start": [
+        3.6,
+        3.1
+      ],
+      "end": [
+        5.8,
+        3.1
+      ],
+      "source": "U02_DG005_S025_NODE_REGION1",
+      "target": null,
+      "label": "F₁ = p₁S",
+      "label_font_pt": 20
+    },
+    {
+      "id": "U02_DG005_S025_EDGE_F2",
+      "type": "connector",
+      "start": [
+        8.4,
+        2.35
+      ],
+      "end": [
+        6.2,
+        2.35
+      ],
+      "source": "U02_DG005_S025_NODE_REGION2",
+      "target": null,
+      "label": "F₂ = p₂S",
+      "label_font_pt": 20
+    }
+  ],
+  "asset_id": "U02-DG005-S025",
+  "family": "U02-DG005",
+  "slide_id": "U02-025",
+  "classification": "diagrama conceptual",
+  "title": "Las presiones de ambos lados ejercen fuerzas opuestas",
+  "key_message": "La resultante apunta hacia la región de menor presión si las demás condiciones se mantienen.",
+  "not_to_scale": true
+}

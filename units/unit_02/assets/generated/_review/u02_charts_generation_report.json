@@ -1,0 +1,119 @@
+{
+  "generated": 4,
+  "expected": 4,
+  "assets": [
+    {
+      "asset_id": "U02-CH001",
+      "classification": "gráfico cuantitativo",
+      "title": "Aceleración frente a fuerza neta",
+      "slides": "U02-018; U02-036",
+      "question": "¿Cómo cambia la aceleración al aumentar la fuerza neta y qué cambia al duplicar la masa?",
+      "scale": "Ambos ejes lineales. F_neta de 0 a 4 N; a de 0 a 4,5 m/s².",
+      "source": "Valores calculados exactamente con a = F_neta/m; no son mediciones.",
+      "validation": [
+        "Ambas rectas pasan por el origen.",
+        "Para F_neta = 2 N se verifican 2,0 m/s² y 1,0 m/s².",
+        "La codificación combina color, trazo y marcador."
+      ],
+      "outputs": {
+        "svg": "u02_fig_001_aceleracion_fuerza.svg",
+        "png": "u02_fig_001_aceleracion_fuerza.png",
+        "data": "data.csv",
+        "script": "script.py"
+      },
+      "parameters_and_checks": {
+        "masses_kg": [
+          1.0,
+          2.0
+        ],
+        "max_absolute_error": 0.0
+      }
+    },
+    {
+      "asset_id": "U02-CH002",
+      "classification": "gráfico cuantitativo",
+      "title": "Fuerza elástica frente a desplazamiento",
+      "slides": "U02-038",
+      "question": "¿Por qué la fuerza elástica apunta hacia el equilibrio y qué representa la pendiente?",
+      "scale": "Ambos ejes lineales y simétricos; x en milímetros y F_el en newtons.",
+      "source": "Valores calculados con F_el = −k_s x, k_s = 20 N/m; modelo lineal ideal, no mediciones de tejido.",
+      "validation": [
+        "Conversión explícita de milímetros a metros en el cálculo.",
+        "Pendiente negativa igual a −20 N/m.",
+        "Fuerza y desplazamiento tienen signos opuestos."
+      ],
+      "outputs": {
+        "svg": "u02_fig_002_fuerza_elastica.svg",
+        "png": "u02_fig_002_fuerza_elastica.png",
+        "data": "data.csv",
+        "script": "script.py"
+      },
+      "parameters_and_checks": {
+        "k_s_N_m": 20.0,
+        "endpoint_force_N": 0.4
+      }
+    },
+    {
+      "asset_id": "U02-CH003",
+      "classification": "gráfico cuantitativo",
+      "title": "Fuerza de amortiguamiento frente a velocidad",
+      "slides": "U02-040",
+      "question": "¿Cómo depende la fuerza de amortiguamiento de la velocidad?",
+      "scale": "Ambos ejes lineales y simétricos; v en m/s y F_amort en N.",
+      "source": "Valores calculados con F_amort = −b v, b = 2,0 N·s/m; modelo viscoso lineal, no ley universal de tejidos.",
+      "validation": [
+        "Pendiente negativa igual a −b.",
+        "El producto b·v conserva unidad de newton.",
+        "La figura declara el alcance del modelo."
+      ],
+      "outputs": {
+        "svg": "u02_fig_003_fuerza_amortiguamiento.svg",
+        "png": "u02_fig_003_fuerza_amortiguamiento.png",
+        "data": "data.csv",
+        "script": "script.py"
+      },
+      "parameters_and_checks": {
+        "b_N_s_m": 2.0,
+        "endpoint_force_N": -0.4
+      }
+    },
+    {
+      "asset_id": "U02-CH004",
+      "classification": "gráfico cuantitativo",
+      "title": "Velocidad del sonido frente a temperatura",
+      "slides": "U02-080; U02-081; U02-103",
+      "question": "¿Cuánto aumenta c en el rango ambiental y qué no permite concluir el gráfico?",
+      "scale": "Eje horizontal lineal de 0 a 30 °C. Eje vertical lineal truncado de 325 a 355 m/s, declarado en la figura.",
+      "source": "Valores calculados con c ≈ 331 m/s + [0,6 (m/s)/°C]·ϑ, modelo del libro; no son mediciones.",
+      "validation": [
+        "Se verifican 331, 337, 343 y 349 m/s.",
+        "Pendiente exacta del modelo: 0,6 (m/s)/°C.",
+        "No se infiere frecuencia, longitud de onda ni altura tonal sin datos adicionales."
+      ],
+      "outputs": {
+        "svg": "u02_fig_004_velocidad_temperatura.svg",
+        "png": "u02_fig_004_velocidad_temperatura.png",
+        "data": "data.csv",
+        "script": "script.py"
+      },
+      "parameters_and_checks": {
+        "model": "c = 331 + 0.6 theta",
+        "time_check_100m": [
+          {
+            "temperatura_C": 5.0,
+            "c_m_s": 334.0,
+            "t_100m_s": 0.2994011976047904
+          },
+          {
+            "temperatura_C": 25.0,
+            "c_m_s": 346.0,
+            "t_100m_s": 0.28901734104046245
+          }
+        ],
+        "delta_t_5C_25C_ms": 10.383856564327942,
+        "U02-CH005": "reemplazado por tabla; cálculo conservado aquí"
+      }
+    }
+  ],
+  "contact_sheet": "generated\\_review\\u02_charts_contact_sheet.png"
+}

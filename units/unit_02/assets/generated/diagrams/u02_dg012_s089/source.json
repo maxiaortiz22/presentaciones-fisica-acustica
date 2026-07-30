@@ -1,0 +1,177 @@
+{
+  "canvas_inches": [
+    12,
+    5.5
+  ],
+  "slide_context_inches": [
+    13.333,
+    7.5
+  ],
+  "objects": [
+    {
+      "id": "U02_DG012_S089_NODE_STEP_1",
+      "type": "node",
+      "bbox": [
+        0.4,
+        3.05,
+        3.3666666666666667,
+        1.55
+      ],
+      "text": "1. Sistema",
+      "font_pt": 22,
+      "padding_in_min": 0.18
+    },
+    {
+      "id": "U02_DG012_S089_NODE_STEP_2",
+      "type": "node",
+      "bbox": [
+        4.316666666666667,
+        3.05,
+        3.3666666666666667,
+        1.55
+      ],
+      "text": "2. Fuerzas",
+      "font_pt": 22,
+      "padding_in_min": 0.18
+    },
+    {
+      "id": "U02_DG012_S089_NODE_STEP_3",
+      "type": "node",
+      "bbox": [
+        8.233333333333334,
+        3.05,
+        3.3666666666666667,
+        1.55
+      ],
+      "text": "3. Respuesta",
+      "font_pt": 22,
+      "padding_in_min": 0.18
+    },
+    {
+      "id": "U02_DG012_S089_NODE_STEP_4",
+      "type": "node",
+      "bbox": [
+        8.233333333333334,
+        0.75,
+        3.3666666666666667,
+        1.55
+      ],
+      "text": "4. Energía",
+      "font_pt": 22,
+      "padding_in_min": 0.18
+    },
+    {
+      "id": "U02_DG012_S089_NODE_STEP_5",
+      "type": "node",
+      "bbox": [
+        4.316666666666667,
+        0.75,
+        3.3666666666666667,
+        1.55
+      ],
+      "text": "5. Dirección\ndel proceso",
+      "font_pt": 22,
+      "padding_in_min": 0.18
+    },
+    {
+      "id": "U02_DG012_S089_NODE_STEP_6",
+      "type": "node",
+      "bbox": [
+        0.4,
+        0.75,
+        3.3666666666666667,
+        1.55
+      ],
+      "text": "6. Aplicación",
+      "font_pt": 22,
+      "padding_in_min": 0.18
+    },
+    {
+      "id": "U02_DG012_S089_EDGE_FLOW_1",
+      "type": "connector",
+      "start": [
+        3.8066666666666666,
+        3.8249999999999997
+      ],
+      "end": [
+        4.276666666666667,
+        3.8249999999999997
+      ],
+      "source": "U02_DG012_S089_NODE_STEP_1",
+      "target": "U02_DG012_S089_NODE_STEP_2",
+      "label": "",
+      "label_font_pt": 0
+    },
+    {
+      "id": "U02_DG012_S089_EDGE_FLOW_2",
+      "type": "connector",
+      "start": [
+        7.723333333333334,
+        3.8249999999999997
+      ],
+      "end": [
+        8.193333333333335,
+        3.8249999999999997
+      ],
+      "source": "U02_DG012_S089_NODE_STEP_2",
+      "target": "U02_DG012_S089_NODE_STEP_3",
+      "label": "",
+      "label_font_pt": 0
+    },
+    {
+      "id": "U02_DG012_S089_EDGE_FLOW_3",
+      "type": "connector",
+      "start": [
+        9.916666666666668,
+        3.01
+      ],
+      "end": [
+        9.916666666666668,
+        2.34
+      ],
+      "source": "U02_DG012_S089_NODE_STEP_3",
+      "target": "U02_DG012_S089_NODE_STEP_4",
+      "label": "",
+      "label_font_pt": 0
+    },
+    {
+      "id": "U02_DG012_S089_EDGE_FLOW_4",
+      "type": "connector",
+      "start": [
+        8.193333333333335,
+        1.525
+      ],
+      "end": [
+        7.723333333333334,
+        1.525
+      ],
+      "source": "U02_DG012_S089_NODE_STEP_4",
+      "target": "U02_DG012_S089_NODE_STEP_5",
+      "label": "",
+      "label_font_pt": 0
+    },
+    {
+      "id": "U02_DG012_S089_EDGE_FLOW_5",
+      "type": "connector",
+      "start": [
+        4.276666666666667,
+        1.525
+      ],
+      "end": [
+        3.8066666666666666,
+        1.525
+      ],
+      "source": "U02_DG012_S089_NODE_STEP_5",
+      "target": "U02_DG012_S089_NODE_STEP_6",
+      "label": "",
+      "label_font_pt": 0
+    }
+  ],
+  "asset_id": "U02-DG012-S089",
+  "family": "U02-DG012",
+  "slide_id": "U02-089",
+  "classification": "diagrama de proceso",
+  "title": "La unidad conecta fuerzas, energía e irreversibilidad",
+  "key_message": "La frontera del sistema organiza tanto la mecánica como la termodinámica.",
+  "not_to_scale": false
+}

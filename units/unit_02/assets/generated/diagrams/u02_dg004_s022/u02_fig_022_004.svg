@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="864pt" height="396pt" viewBox="0 0 864 396" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-07-29T18:22:18.507912</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.9.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 396 
+L 864 396 
+L 864 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="U02_DG004_S022_EDGE_FORCE_ON_A">
+    <path d="M 280.8 154.8 
+Q 356.4 154.8 429.763932 154.8 
+" clip-path="url(#p3597470bb4)" style="fill: none; stroke: #2f7e83; stroke-width: 2; stroke-linecap: round"/>
+    <path d="M 422.963932 151.4 
+L 429.763932 154.8 
+L 422.963932 158.2 
+z
+" clip-path="url(#p3597470bb4)" style="fill: #2f7e83; stroke: #2f7e83; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="U02_DG004_S022_EDGE_FORCE_ON_B">
+    <path d="M 583.2 205.2 
+Q 507.6 205.2 434.236068 205.2 
+" clip-path="url(#p3597470bb4)" style="fill: none; stroke: #4d1434; stroke-width: 2; stroke-linecap: round"/>
+    <path d="M 441.036068 208.6 
+L 434.236068 205.2 
+L 441.036068 201.8 
+z
+" clip-path="url(#p3597470bb4)" style="fill: #4d1434; stroke: #4d1434; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="U02_DG004_S022_NODE_A">
+    <path d="M 59.04 253.44 
+L 272.16 253.44 
+Q 275.04 253.44 275.04 250.56 
+L 275.04 109.44 
+Q 275.04 106.56 272.16 106.56 
+L 59.04 106.56 
+Q 56.16 106.56 56.16 109.44 
+L 56.16 250.56 
+Q 56.16 253.44 59.04 253.44 
+z
+" clip-path="url(#p3597470bb4)" style="fill: #e7f1f1; stroke: #2f7e83; stroke-width: 1.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="U02_DG004_S022_NODE_B">
+    <path d="M 591.84 253.44 
+L 804.96 253.44 
+Q 807.84 253.44 807.84 250.56 
+L 807.84 109.44 
+Q 807.84 106.56 804.96 106.56 
+L 591.84 106.56 
+Q 588.96 106.56 588.96 109.44 
+L 588.96 250.56 
+Q 588.96 253.44 591.84 253.44 
+z
+" clip-path="url(#p3597470bb4)" style="fill: #f7f6f2; stroke: #903163; stroke-width: 1.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="U02_DG004_S022_TEXT_A">
+    <text style="fill: #3d3d3d; font: 26px 'Calibri', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle" x="165.6" y="186.530469" transform="rotate(-0 165.6 186.530469)">DCL de A</text>
+   </g>
+   <g id="U02_DG004_S022_TEXT_B">
+    <text style="fill: #3d3d3d; font: 26px 'Calibri', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle" x="698.4" y="186.530469" transform="rotate(-0 698.4 186.530469)">DCL de B</text>
+   </g>
+   <g id="U02_DG004_S022_LABEL_FORCE_ON_A_EDGE_LABEL">
+    <text style="fill: #2f7e83; font: 20px 'Calibri', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle" x="356.4" y="139.654063" transform="rotate(-0 356.4 139.654063)">F_B→A</text>
+   </g>
+   <g id="U02_DG004_S022_LABEL_FORCE_ON_B_EDGE_LABEL">
+    <text style="fill: #4d1434; font: 20px 'Calibri', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle" x="507.6" y="190.054063" transform="rotate(-0 507.6 190.054063)">F_A→B</text>
+   </g>
+   <g id="U02_DG004_S022_LABEL_009">
+    <text style="fill: #3d3d3d; font: 700 23px 'Calibri', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle" x="432" y="319.034453" transform="rotate(-0 432 319.034453)">Iguales y opuestas · actúan sobre cuerpos distintos</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p3597470bb4">
+   <rect x="0" y="0" width="864" height="396"/>
+  </clipPath>
+ </defs>
+</svg>

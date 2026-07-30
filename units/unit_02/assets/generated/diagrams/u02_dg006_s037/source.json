@@ -1,0 +1,90 @@
+{
+  "canvas_inches": [
+    12,
+    5.5
+  ],
+  "slide_context_inches": [
+    13.333,
+    7.5
+  ],
+  "objects": [
+    {
+      "id": "U02_DG006_S037_NODE_STATE_1",
+      "type": "node",
+      "bbox": [
+        1.0,
+        1.65,
+        2.0,
+        1.65
+      ],
+      "text": "x < 0",
+      "font_pt": 24,
+      "padding_in_min": 0.18
+    },
+    {
+      "id": "U02_DG006_S037_NODE_STATE_2",
+      "type": "node",
+      "bbox": [
+        5.0,
+        1.65,
+        2.0,
+        1.65
+      ],
+      "text": "x = 0",
+      "font_pt": 24,
+      "padding_in_min": 0.18
+    },
+    {
+      "id": "U02_DG006_S037_NODE_STATE_3",
+      "type": "node",
+      "bbox": [
+        9.0,
+        1.65,
+        2.0,
+        1.65
+      ],
+      "text": "x > 0",
+      "font_pt": 24,
+      "padding_in_min": 0.18
+    },
+    {
+      "id": "U02_DG006_S037_EDGE_FEL_1",
+      "type": "connector",
+      "start": [
+        2.0,
+        3.95
+      ],
+      "end": [
+        3.15,
+        3.95
+      ],
+      "source": null,
+      "target": null,
+      "label": "F_el",
+      "label_font_pt": 20
+    },
+    {
+      "id": "U02_DG006_S037_EDGE_FEL_3",
+      "type": "connector",
+      "start": [
+        10.0,
+        3.95
+      ],
+      "end": [
+        8.85,
+        3.95
+      ],
+      "source": null,
+      "target": null,
+      "label": "F_el",
+      "label_font_pt": 20
+    }
+  ],
+  "asset_id": "U02-DG006-S037",
+  "family": "U02-DG006",
+  "slide_id": "U02-037",
+  "classification": "diagrama conceptual",
+  "title": "La elasticidad produce una fuerza restauradora",
+  "key_message": "Al separarse del equilibrio aparece una fuerza que apunta hacia él.",
+  "not_to_scale": true
+}

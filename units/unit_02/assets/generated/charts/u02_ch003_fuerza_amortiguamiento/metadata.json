@@ -1,0 +1,24 @@
+{
+  "asset_id": "U02-CH003",
+  "classification": "gráfico cuantitativo",
+  "title": "Fuerza de amortiguamiento frente a velocidad",
+  "slides": "U02-040",
+  "question": "¿Cómo depende la fuerza de amortiguamiento de la velocidad?",
+  "scale": "Ambos ejes lineales y simétricos; v en m/s y F_amort en N.",
+  "source": "Valores calculados con F_amort = −b v, b = 2,0 N·s/m; modelo viscoso lineal, no ley universal de tejidos.",
+  "validation": [
+    "Pendiente negativa igual a −b.",
+    "El producto b·v conserva unidad de newton.",
+    "La figura declara el alcance del modelo."
+  ],
+  "outputs": {
+    "svg": "u02_fig_003_fuerza_amortiguamiento.svg",
+    "png": "u02_fig_003_fuerza_amortiguamiento.png",
+    "data": "data.csv",
+    "script": "script.py"
+  },
+  "parameters_and_checks": {
+    "b_N_s_m": 2.0,
+    "endpoint_force_N": -0.4
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "canvas_inches": [
+    12,
+    5.5
+  ],
+  "slide_context_inches": [
+    13.333,
+    7.5
+  ],
+  "objects": [
+    {
+      "id": "U02_DG007_S055_NODE_CALLOUT_1",
+      "type": "node",
+      "bbox": [
+        1.0,
+        0.55,
+        2.15,
+        1.15
+      ],
+      "text": "entra",
+      "font_pt": 22,
+      "padding_in_min": 0.18
+    },
+    {
+      "id": "U02_DG007_S055_NODE_CALLOUT_2",
+      "type": "node",
+      "bbox": [
+        3.5,
+        0.55,
+        2.15,
+        1.15
+      ],
+      "text": "se almacena",
+      "font_pt": 22,
+      "padding_in_min": 0.18
+    },
+    {
+      "id": "U02_DG007_S055_NODE_CALLOUT_3",
+      "type": "node",
+      "bbox": [
+        6.0,
+        0.55,
+        2.15,
+        1.15
+      ],
+      "text": "sale",
+      "font_pt": 22,
+      "padding_in_min": 0.18
+    },
+    {
+      "id": "U02_DG007_S055_NODE_CALLOUT_4",
+      "type": "node",
+      "bbox": [
+        8.5,
+        0.55,
+        2.15,
+        1.15
+      ],
+      "text": "se\nconvierte",
+      "font_pt": 22,
+      "padding_in_min": 0.18
+    },
+    {
+      "id": "U02_DG007_S055_EDGE_LEADER_1",
+      "type": "connector",
+      "start": [
+        2.075,
+        1.7
+      ],
+      "end": [
+        3.0,
+        2.68
+      ],
+      "source": "U02_DG007_S055_NODE_CALLOUT_1",
+      "target": null,
+      "label": "",
+      "label_font_pt": 0
+    },
+    {
+      "id": "U02_DG007_S055_EDGE_LEADER_2",
+      "type": "connector",
+      "start": [
+        4.575,
+        1.7
+      ],
+      "end": [
+        5.0,
+        2.68
+      ],
+      "source": "U02_DG007_S055_NODE_CALLOUT_2",
+      "target": null,
+      "label": "",
+      "label_font_pt": 0
+    },
+    {
+      "id": "U02_DG007_S055_EDGE_LEADER_3",
+      "type": "connector",
+      "start": [
+        7.075,
+        1.7
+      ],
+      "end": [
+        7.0,
+        2.68
+      ],
+      "source": "U02_DG007_S055_NODE_CALLOUT_3",
+      "target": null,
+      "label": "",
+      "label_font_pt": 0
+    },
+    {
+      "id": "U02_DG007_S055_EDGE_LEADER_4",
+      "type": "connector",
+      "start": [
+        9.575,
+        1.7
+      ],
+      "end": [
+        9.0,
+        2.68
+      ],
+      "source": "U02_DG007_S055_NODE_CALLOUT_4",
+      "target": null,
+      "label": "",
+      "label_font_pt": 0
+    }
+  ],
+  "asset_id": "U02-DG007-S055",
+  "family": "U02-DG007",
+  "slide_id": "U02-055",
+  "classification": "ecuación anotada",
+  "title": "El balance debe cerrar",
+  "key_message": "Si no hay otras vías, la entrada se reparte entre cambio mecánico, salida y disipación.",
+  "not_to_scale": false
+}

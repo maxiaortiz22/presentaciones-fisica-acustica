@@ -1,0 +1,61 @@
+{
+  "canvas_inches": [
+    12,
+    5.5
+  ],
+  "slide_context_inches": [
+    13.333,
+    7.5
+  ],
+  "objects": [
+    {
+      "id": "U02_DG008_S062_NODE_HOT",
+      "type": "node",
+      "bbox": [
+        0.75,
+        1.35,
+        3.4,
+        2.8
+      ],
+      "text": "Sistema caliente",
+      "font_pt": 26,
+      "padding_in_min": 0.18
+    },
+    {
+      "id": "U02_DG008_S062_NODE_COLD",
+      "type": "node",
+      "bbox": [
+        7.85,
+        1.35,
+        3.4,
+        2.8
+      ],
+      "text": "Sistema frío",
+      "font_pt": 26,
+      "padding_in_min": 0.18
+    },
+    {
+      "id": "U02_DG008_S062_EDGE_HEAT",
+      "type": "connector",
+      "start": [
+        4.25,
+        2.75
+      ],
+      "end": [
+        7.75,
+        2.75
+      ],
+      "source": "U02_DG008_S062_NODE_HOT",
+      "target": "U02_DG008_S062_NODE_COLD",
+      "label": "Q_calor: energía transferida",
+      "label_font_pt": 20
+    }
+  ],
+  "asset_id": "U02-DG008-S062",
+  "family": "U02-DG008",
+  "slide_id": "U02-062",
+  "classification": "diagrama conceptual",
+  "title": "El calor es energía transferida por diferencia de temperatura",
+  "key_message": "El sistema posee energía interna y puede recibir o ceder energía mediante calor.",
+  "not_to_scale": false
+}

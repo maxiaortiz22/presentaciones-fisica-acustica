@@ -1,0 +1,106 @@
+{
+  "canvas_inches": [
+    12,
+    5.5
+  ],
+  "slide_context_inches": [
+    13.333,
+    7.5
+  ],
+  "objects": [
+    {
+      "id": "U02_DG010_S102_NODE_CALLOUT_1",
+      "type": "node",
+      "bbox": [
+        1.0,
+        0.55,
+        2.9833333333333334,
+        1.15
+      ],
+      "text": "γ adimensional",
+      "font_pt": 22,
+      "padding_in_min": 0.18
+    },
+    {
+      "id": "U02_DG010_S102_NODE_CALLOUT_2",
+      "type": "node",
+      "bbox": [
+        4.333333333333334,
+        0.55,
+        2.9833333333333334,
+        1.15
+      ],
+      "text": "mol y K se\ncancelan",
+      "font_pt": 22,
+      "padding_in_min": 0.18
+    },
+    {
+      "id": "U02_DG010_S102_NODE_CALLOUT_3",
+      "type": "node",
+      "bbox": [
+        7.666666666666667,
+        0.55,
+        2.9833333333333334,
+        1.15
+      ],
+      "text": "la raíz da\nvelocidad",
+      "font_pt": 22,
+      "padding_in_min": 0.18
+    },
+    {
+      "id": "U02_DG010_S102_EDGE_LEADER_1",
+      "type": "connector",
+      "start": [
+        2.4916666666666667,
+        1.7
+      ],
+      "end": [
+        3.0,
+        2.68
+      ],
+      "source": "U02_DG010_S102_NODE_CALLOUT_1",
+      "target": null,
+      "label": "",
+      "label_font_pt": 0
+    },
+    {
+      "id": "U02_DG010_S102_EDGE_LEADER_2",
+      "type": "connector",
+      "start": [
+        5.825000000000001,
+        1.7
+      ],
+      "end": [
+        6.0,
+        2.68
+      ],
+      "source": "U02_DG010_S102_NODE_CALLOUT_2",
+      "target": null,
+      "label": "",
+      "label_font_pt": 0
+    },
+    {
+      "id": "U02_DG010_S102_EDGE_LEADER_3",
+      "type": "connector",
+      "start": [
+        9.158333333333333,
+        1.7
+      ],
+      "end": [
+        9.0,
+        2.68
+      ],
+      "source": "U02_DG010_S102_NODE_CALLOUT_3",
+      "target": null,
+      "label": "",
+      "label_font_pt": 0
+    }
+  ],
+  "asset_id": "U02-DG010-S102",
+  "family": "U02-DG010",
+  "slide_id": "U02-102",
+  "classification": "ecuación anotada",
+  "title": "Control dimensional de `c = √(γRT/M)`",
+  "key_message": "El cociente dentro de la raíz tiene dimensión de velocidad al cuadrado.",
+  "not_to_scale": false
+}

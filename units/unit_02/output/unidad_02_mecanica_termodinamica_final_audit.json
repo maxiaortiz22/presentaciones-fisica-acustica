@@ -1,0 +1,172 @@
+{
+  "pptx": {
+    "path": "C:\\Users\\maxia\\OneDrive\\Desktop\\Física Acústica\\Slides de Física Acústica\\units\\unit_02\\output\\unidad_02_mecanica_termodinamica_final.pptx",
+    "bytes": 1702148,
+    "sha256": "31FC4F9BDC0A454FC47B752EA342A0D60AA0534AF499B15FD8CC2E710331A61F",
+    "slides": 110,
+    "notes": 110,
+    "notes_nonempty": 110,
+    "notes_with_sources": 110,
+    "masters": 2,
+    "layouts": 27,
+    "slide_size_emu": {
+      "cx": 12192000,
+      "cy": 6858000
+    },
+    "aspect_ratio": 1.777778,
+    "slides_with_number_placeholder": 110,
+    "slide_numbers_matching": 110,
+    "alt_descriptions": 78,
+    "media_files": 146,
+    "media_by_extension": {
+      ".png": 78,
+      ".svg": 68
+    },
+    "external_links": [
+      "https://commons.wikimedia.org/wiki/File:Tympanic_membrane_cross-section.svg",
+      "https://phet.colorado.edu/es_PE/simulations/masses-and-springs-basics"
+    ],
+    "slide_objects": {
+      "graphicFrame": 4,
+      "pic": 78,
+      "sp": 696
+    },
+    "autofit": {
+      "noAutofit": 549
+    },
+    "fonts": [
+      "Calibri",
+      "Calibri Light",
+      "Cambria Math"
+    ]
+  },
+  "unit": {
+    "required_files": {
+      "brief.md": {
+        "exists": true,
+        "bytes": 21609
+      },
+      "storyboard.md": {
+        "exists": true,
+        "bytes": 70001
+      },
+      "slide_text.md": {
+        "exists": true,
+        "bytes": 113641
+      },
+      "speaker_notes.md": {
+        "exists": true,
+        "bytes": 94989
+      },
+      "asset_manifest.csv": {
+        "exists": true,
+        "bytes": 58547
+      },
+      "review.md": {
+        "exists": true,
+        "bytes": 9435
+      },
+      "consistency_report.md": {
+        "exists": true,
+        "bytes": 15253
+      }
+    },
+    "scripts": {
+      "count": 13,
+      "files": [
+        "u02_add_alt_text.py",
+        "u02_chart_style.py",
+        "u02_diagram_lib.py",
+        "u02_final_audit.py",
+        "u02_generate_all_charts.py",
+        "u02_generate_all_diagrams.py",
+        "u02_generate_writing.py",
+        "u02_plot_001_aceleracion_fuerza.py",
+        "u02_plot_002_fuerza_elastica.py",
+        "u02_plot_003_fuerza_amortiguamiento.py",
+        "u02_plot_004_velocidad_temperatura.py",
+        "u02_review_repair_v02.mjs",
+        "u02_update_asset_manifest.py"
+      ]
+    },
+    "charts": {
+      "families": 4,
+      "names": [
+        "u02_ch001_aceleracion_fuerza",
+        "u02_ch002_fuerza_elastica",
+        "u02_ch003_fuerza_amortiguamiento",
+        "u02_ch004_velocidad_temperatura"
+      ]
+    },
+    "diagrams": {
+      "variants": 73
+    },
+    "render": {
+      "count": 110,
+      "sizes": {
+        "1600x900": 110
+      }
+    },
+    "manifest": {
+      "rows": 102,
+      "active_rows": 94,
+      "missing_active_paths": [],
+      "duplicate_asset_ids": [],
+      "external_sources": [
+        {
+          "asset_id": "U02-IMG001",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Tympanic_membrane_cross-section.svg",
+          "creator": "Inductiveload",
+          "license": "Dominio público",
+          "status": "downloaded"
+        },
+        {
+          "asset_id": "U02-IMG002",
+          "source_url": "https://www.nidcd.nih.gov/es/multimedia/partes-del-oido",
+          "creator": "NIH/NIDCD",
+          "license": "Dominio público; crédito solicitado",
+          "status": "downloaded"
+        },
+        {
+          "asset_id": "U02-IMG003",
+          "source_url": "https://radioear.us/products/bone-transducers",
+          "creator": "RadioEar",
+          "license": "Copyright; no se identificó licencia de reutilización",
+          "status": "proposed"
+        },
+        {
+          "asset_id": "U02-MEDIA005",
+          "source_url": "https://phet.colorado.edu/es_PE/simulations/masses-and-springs-basics",
+          "creator": "PhET Interactive Simulations",
+          "license": "CC BY 4.0 para versión histórica anterior a 2026-03-29; verificar versión en About",
+          "status": "shortlisted"
+        }
+      ],
+      "status_counts": {
+        "downloaded": 2,
+        "generated_validated": 77,
+        "implemented_as_validated_variants": 15,
+        "proposed": 6,
+        "replaced_by_table": 1,
+        "shortlisted": 1
+      }
+    },
+    "pdf": {
+      "path": "C:\\Users\\maxia\\OneDrive\\Desktop\\Física Acústica\\Slides de Física Acústica\\units\\unit_02\\output\\unidad_02_mecanica_termodinamica_final_review.pdf",
+      "bytes": 8786621,
+      "sha256": "1B35D46ED7D9818982650F6B941B274260137EF89BC3D29D9DEC109646FF0CBF",
+      "pages": 110,
+      "encrypted": false,
+      "page_size_points": [
+        960.0,
+        540.0
+      ]
+    }
+  },
+  "source_pptx": {
+    "path": "C:\\Users\\maxia\\OneDrive\\Desktop\\Física Acústica\\Slides de Física Acústica\\units\\unit_02\\output\\unidad_02_mecanica_termodinamica_v02.pptx",
+    "bytes": 1702148,
+    "sha256": "31FC4F9BDC0A454FC47B752EA342A0D60AA0534AF499B15FD8CC2E710331A61F",
+    "binary_identical": true
+  }
+}

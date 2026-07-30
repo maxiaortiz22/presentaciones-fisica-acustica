@@ -1,0 +1,80 @@
+{
+  "canvas_inches": [
+    12,
+    5.5
+  ],
+  "slide_context_inches": [
+    13.333,
+    7.5
+  ],
+  "objects": [
+    {
+      "id": "U02_DG002_S010_NODE_CALLOUT",
+      "type": "node",
+      "bbox": [
+        4.45,
+        3.75,
+        3.1,
+        1.1
+      ],
+      "text": "El signo indica\nsentido",
+      "font_pt": 23,
+      "padding_in_min": 0.18
+    },
+    {
+      "id": "U02_DG002_S010_EDGE_AXIS",
+      "type": "connector",
+      "start": [
+        1.0,
+        2.75
+      ],
+      "end": [
+        11.0,
+        2.75
+      ],
+      "source": null,
+      "target": null,
+      "label": "+x",
+      "label_font_pt": 20
+    },
+    {
+      "id": "U02_DG002_S010_EDGE_POS",
+      "type": "connector",
+      "start": [
+        6.0,
+        2.75
+      ],
+      "end": [
+        9.1,
+        2.75
+      ],
+      "source": null,
+      "target": null,
+      "label": "F_x > 0",
+      "label_font_pt": 20
+    },
+    {
+      "id": "U02_DG002_S010_EDGE_NEG",
+      "type": "connector",
+      "start": [
+        6.0,
+        2.75
+      ],
+      "end": [
+        2.9,
+        2.75
+      ],
+      "source": null,
+      "target": null,
+      "label": "F_x < 0",
+      "label_font_pt": 20
+    }
+  ],
+  "asset_id": "U02-DG002-S010",
+  "family": "U02-DG002",
+  "slide_id": "U02-010",
+  "classification": "diagrama conceptual",
+  "title": "Un eje convierte direcciones en signos",
+  "key_message": "Positivo y negativo describen sentido respecto de un eje elegido.",
+  "not_to_scale": false
+}

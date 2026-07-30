@@ -1,0 +1,103 @@
+{
+  "canvas_inches": [
+    12,
+    5.5
+  ],
+  "slide_context_inches": [
+    13.333,
+    7.5
+  ],
+  "objects": [
+    {
+      "id": "U02_DG010_S103_NODE_TEMP_1",
+      "type": "node",
+      "bbox": [
+        0.65,
+        3.35,
+        2.3,
+        1.4
+      ],
+      "text": "5 °C",
+      "font_pt": 25,
+      "padding_in_min": 0.18
+    },
+    {
+      "id": "U02_DG010_S103_NODE_TIME_1",
+      "type": "node",
+      "bbox": [
+        8.75,
+        3.35,
+        2.6,
+        1.4
+      ],
+      "text": "t = 0,299 s",
+      "font_pt": 24,
+      "padding_in_min": 0.18
+    },
+    {
+      "id": "U02_DG010_S103_NODE_TEMP_2",
+      "type": "node",
+      "bbox": [
+        0.65,
+        1.2000000000000002,
+        2.3,
+        1.4
+      ],
+      "text": "25 °C",
+      "font_pt": 25,
+      "padding_in_min": 0.18
+    },
+    {
+      "id": "U02_DG010_S103_NODE_TIME_2",
+      "type": "node",
+      "bbox": [
+        8.75,
+        1.2000000000000002,
+        2.6,
+        1.4
+      ],
+      "text": "t = 0,289 s",
+      "font_pt": 24,
+      "padding_in_min": 0.18
+    },
+    {
+      "id": "U02_DG010_S103_EDGE_PATH_1",
+      "type": "connector",
+      "start": [
+        3.1,
+        4.05
+      ],
+      "end": [
+        8.6,
+        4.05
+      ],
+      "source": null,
+      "target": null,
+      "label": "c = 334 m/s",
+      "label_font_pt": 20
+    },
+    {
+      "id": "U02_DG010_S103_EDGE_PATH_2",
+      "type": "connector",
+      "start": [
+        3.1,
+        1.9000000000000001
+      ],
+      "end": [
+        8.6,
+        1.9000000000000001
+      ],
+      "source": null,
+      "target": null,
+      "label": "c = 346 m/s",
+      "label_font_pt": 20
+    }
+  ],
+  "asset_id": "U02-DG010-S103",
+  "family": "U02-DG010",
+  "slide_id": "U02-103",
+  "classification": "esquema mixto",
+  "title": "Temperatura y tiempo de propagación: práctica adicional",
+  "key_message": "Cambiar `c` modifica el tiempo de propagación en una distancia fija.",
+  "not_to_scale": true
+}

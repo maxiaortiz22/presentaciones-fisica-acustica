@@ -1,0 +1,119 @@
+{
+  "canvas_inches": [
+    12,
+    5.5
+  ],
+  "slide_context_inches": [
+    13.333,
+    7.5
+  ],
+  "objects": [
+    {
+      "id": "U02_DG003_S019_NODE_DCL_BODY",
+      "type": "node",
+      "bbox": [
+        1.65,
+        1.75,
+        2.15,
+        1.75
+      ],
+      "text": "sistema",
+      "font_pt": 25,
+      "padding_in_min": 0.18
+    },
+    {
+      "id": "U02_DG003_S019_NODE_CALC_1",
+      "type": "node",
+      "bbox": [
+        5.45,
+        3.5500000000000003,
+        6.0,
+        0.9
+      ],
+      "text": "ΣF = +5 − 2 + 1 = +4 N",
+      "font_pt": 22,
+      "padding_in_min": 0.18
+    },
+    {
+      "id": "U02_DG003_S019_NODE_CALC_2",
+      "type": "node",
+      "bbox": [
+        5.45,
+        2.5500000000000003,
+        6.0,
+        0.9
+      ],
+      "text": "a = F_neta/m",
+      "font_pt": 22,
+      "padding_in_min": 0.18
+    },
+    {
+      "id": "U02_DG003_S019_NODE_CALC_3",
+      "type": "node",
+      "bbox": [
+        5.45,
+        1.5500000000000003,
+        6.0,
+        0.9
+      ],
+      "text": "interpretar el signo",
+      "font_pt": 22,
+      "padding_in_min": 0.18
+    },
+    {
+      "id": "U02_DG003_S019_EDGE_FEXT",
+      "type": "connector",
+      "start": [
+        0.55,
+        2.85
+      ],
+      "end": [
+        1.53,
+        2.85
+      ],
+      "source": null,
+      "target": "U02_DG003_S019_NODE_DCL_BODY",
+      "label": "F_ext",
+      "label_font_pt": 20
+    },
+    {
+      "id": "U02_DG003_S019_EDGE_FREST",
+      "type": "connector",
+      "start": [
+        4.92,
+        2.25
+      ],
+      "end": [
+        3.92,
+        2.25
+      ],
+      "source": null,
+      "target": "U02_DG003_S019_NODE_DCL_BODY",
+      "label": "",
+      "label_font_pt": 0
+    },
+    {
+      "id": "U02_DG003_S019_EDGE_AXIS",
+      "type": "connector",
+      "start": [
+        0.65,
+        1.0
+      ],
+      "end": [
+        2.25,
+        1.0
+      ],
+      "source": null,
+      "target": null,
+      "label": "+x",
+      "label_font_pt": 20
+    }
+  ],
+  "asset_id": "U02-DG003-S019",
+  "family": "U02-DG003",
+  "slide_id": "U02-019",
+  "classification": "esquema mixto",
+  "title": "De tres fuerzas a una aceleración",
+  "key_message": "Primero se obtiene la resultante; después se divide por la masa.",
+  "not_to_scale": false
+}

@@ -1,0 +1,119 @@
+{
+  "canvas_inches": [
+    12,
+    5.5
+  ],
+  "slide_context_inches": [
+    13.333,
+    7.5
+  ],
+  "objects": [
+    {
+      "id": "U02_DG015_S107_NODE_STEP_1",
+      "type": "node",
+      "bbox": [
+        0.35,
+        1.7,
+        2.4125,
+        2.0
+      ],
+      "text": "F_ext =\n1,0×10⁻⁴ N",
+      "font_pt": 23,
+      "padding_in_min": 0.18
+    },
+    {
+      "id": "U02_DG015_S107_NODE_STEP_2",
+      "type": "node",
+      "bbox": [
+        3.3125000000000004,
+        1.7,
+        2.4125,
+        2.0
+      ],
+      "text": "F_el =\n−4,0×10⁻⁵ N",
+      "font_pt": 23,
+      "padding_in_min": 0.18
+    },
+    {
+      "id": "U02_DG015_S107_NODE_STEP_3",
+      "type": "node",
+      "bbox": [
+        6.275,
+        1.7,
+        2.4125,
+        2.0
+      ],
+      "text": "F_amort =\n−2,0×10⁻⁵ N",
+      "font_pt": 23,
+      "padding_in_min": 0.18
+    },
+    {
+      "id": "U02_DG015_S107_NODE_STEP_4",
+      "type": "node",
+      "bbox": [
+        9.2375,
+        1.7,
+        2.4125,
+        2.0
+      ],
+      "text": "a = +0,20\nm/s²",
+      "font_pt": 23,
+      "padding_in_min": 0.18
+    },
+    {
+      "id": "U02_DG015_S107_EDGE_FLOW_1",
+      "type": "connector",
+      "start": [
+        2.8025,
+        2.7
+      ],
+      "end": [
+        3.2725000000000004,
+        2.7
+      ],
+      "source": "U02_DG015_S107_NODE_STEP_1",
+      "target": "U02_DG015_S107_NODE_STEP_2",
+      "label": "",
+      "label_font_pt": 0
+    },
+    {
+      "id": "U02_DG015_S107_EDGE_FLOW_2",
+      "type": "connector",
+      "start": [
+        5.765000000000001,
+        2.7
+      ],
+      "end": [
+        6.235,
+        2.7
+      ],
+      "source": "U02_DG015_S107_NODE_STEP_2",
+      "target": "U02_DG015_S107_NODE_STEP_3",
+      "label": "",
+      "label_font_pt": 0
+    },
+    {
+      "id": "U02_DG015_S107_EDGE_FLOW_3",
+      "type": "connector",
+      "start": [
+        8.7275,
+        2.7
+      ],
+      "end": [
+        9.197500000000002,
+        2.7
+      ],
+      "source": "U02_DG015_S107_NODE_STEP_3",
+      "target": "U02_DG015_S107_NODE_STEP_4",
+      "label": "",
+      "label_font_pt": 0
+    }
+  ],
+  "asset_id": "U02-DG015-S107",
+  "family": "U02-DG015",
+  "slide_id": "U02-107",
+  "classification": "esquema mixto",
+  "title": "Caso integrador: fuerza y aceleración",
+  "key_message": "Presión, elasticidad y amortiguamiento se suman con signos.",
+  "not_to_scale": false
+}

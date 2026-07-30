@@ -1,0 +1,135 @@
+{
+  "canvas_inches": [
+    12,
+    5.5
+  ],
+  "slide_context_inches": [
+    13.333,
+    7.5
+  ],
+  "objects": [
+    {
+      "id": "U02_DG008_S065_NODE_CASE_1",
+      "type": "node",
+      "bbox": [
+        1.9000000000000001,
+        2.95,
+        3.4,
+        1.65
+      ],
+      "text": "Calor entra\nQ > 0",
+      "font_pt": 22,
+      "padding_in_min": 0.18
+    },
+    {
+      "id": "U02_DG008_S065_NODE_CASE_2",
+      "type": "node",
+      "bbox": [
+        7.800000000000001,
+        2.95,
+        3.4,
+        1.65
+      ],
+      "text": "Calor sale\nQ < 0",
+      "font_pt": 22,
+      "padding_in_min": 0.18
+    },
+    {
+      "id": "U02_DG008_S065_NODE_CASE_3",
+      "type": "node",
+      "bbox": [
+        1.9000000000000001,
+        0.8000000000000003,
+        3.4,
+        1.65
+      ],
+      "text": "Trabajo sobre\nW_sobre > 0",
+      "font_pt": 22,
+      "padding_in_min": 0.18
+    },
+    {
+      "id": "U02_DG008_S065_NODE_CASE_4",
+      "type": "node",
+      "bbox": [
+        7.800000000000001,
+        0.8000000000000003,
+        3.4,
+        1.65
+      ],
+      "text": "Trabajo por\nW_sobre < 0",
+      "font_pt": 22,
+      "padding_in_min": 0.18
+    },
+    {
+      "id": "U02_DG008_S065_EDGE_EDGE_1",
+      "type": "connector",
+      "start": [
+        0.55,
+        3.77
+      ],
+      "end": [
+        1.78,
+        3.77
+      ],
+      "source": null,
+      "target": "U02_DG008_S065_NODE_CASE_1",
+      "label": "",
+      "label_font_pt": 0
+    },
+    {
+      "id": "U02_DG008_S065_EDGE_EDGE_2",
+      "type": "connector",
+      "start": [
+        11.32,
+        3.77
+      ],
+      "end": [
+        12.2,
+        3.77
+      ],
+      "source": "U02_DG008_S065_NODE_CASE_2",
+      "target": null,
+      "label": "",
+      "label_font_pt": 0
+    },
+    {
+      "id": "U02_DG008_S065_EDGE_EDGE_3",
+      "type": "connector",
+      "start": [
+        0.55,
+        1.62
+      ],
+      "end": [
+        1.78,
+        1.62
+      ],
+      "source": null,
+      "target": "U02_DG008_S065_NODE_CASE_3",
+      "label": "",
+      "label_font_pt": 0
+    },
+    {
+      "id": "U02_DG008_S065_EDGE_EDGE_4",
+      "type": "connector",
+      "start": [
+        11.32,
+        1.62
+      ],
+      "end": [
+        12.2,
+        1.62
+      ],
+      "source": "U02_DG008_S065_NODE_CASE_4",
+      "target": null,
+      "label": "",
+      "label_font_pt": 0
+    }
+  ],
+  "asset_id": "U02-DG008-S065",
+  "family": "U02-DG008",
+  "slide_id": "U02-065",
+  "classification": "diagrama conceptual",
+  "title": "El signo depende de la dirección de la transferencia",
+  "key_message": "Entrar al sistema es positivo; salir es negativo, bajo la convención declarada.",
+  "not_to_scale": false
+}

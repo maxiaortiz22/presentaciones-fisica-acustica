@@ -1,0 +1,90 @@
+{
+  "canvas_inches": [
+    12,
+    5.5
+  ],
+  "slide_context_inches": [
+    13.333,
+    7.5
+  ],
+  "objects": [
+    {
+      "id": "U02_DG007_S052_NODE_STATE_1",
+      "type": "node",
+      "bbox": [
+        0.55,
+        1.25,
+        3.1,
+        2.75
+      ],
+      "text": "Equilibrio\nE_c alta\nE_el baja",
+      "font_pt": 24,
+      "padding_in_min": 0.18
+    },
+    {
+      "id": "U02_DG007_S052_NODE_STATE_2",
+      "type": "node",
+      "bbox": [
+        4.4,
+        1.25,
+        3.1,
+        2.75
+      ],
+      "text": "Extremo\nE_c baja\nE_el alta",
+      "font_pt": 24,
+      "padding_in_min": 0.18
+    },
+    {
+      "id": "U02_DG007_S052_NODE_STATE_3",
+      "type": "node",
+      "bbox": [
+        8.25,
+        1.25,
+        3.1,
+        2.75
+      ],
+      "text": "Retorno\nintercambio\ncontinúa",
+      "font_pt": 24,
+      "padding_in_min": 0.18
+    },
+    {
+      "id": "U02_DG007_S052_EDGE_FLOW_1",
+      "type": "connector",
+      "start": [
+        3.75,
+        2.65
+      ],
+      "end": [
+        4.23,
+        2.65
+      ],
+      "source": null,
+      "target": null,
+      "label": "",
+      "label_font_pt": 0
+    },
+    {
+      "id": "U02_DG007_S052_EDGE_FLOW_2",
+      "type": "connector",
+      "start": [
+        7.6000000000000005,
+        2.65
+      ],
+      "end": [
+        8.08,
+        2.65
+      ],
+      "source": null,
+      "target": null,
+      "label": "",
+      "label_font_pt": 0
+    }
+  ],
+  "asset_id": "U02-DG007-S052",
+  "family": "U02-DG007",
+  "slide_id": "U02-052",
+  "classification": "diagrama de proceso",
+  "title": "La energía puede pasar de cinética a elástica",
+  "key_message": "En el modelo sin amortiguamiento cambia la forma, no la energía mecánica total.",
+  "not_to_scale": true
+}

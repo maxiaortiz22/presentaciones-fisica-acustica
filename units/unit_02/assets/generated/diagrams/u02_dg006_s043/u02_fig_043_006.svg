@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="864pt" height="396pt" viewBox="0 0 864 396" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-07-29T18:22:41.871868</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.9.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 396 
+L 864 396 
+L 864 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="U02_DG006_S043_NODE_CASE_1">
+    <path d="M 48.24 192.24 
+L 405.36 192.24 
+Q 408.24 192.24 408.24 189.36 
+L 408.24 73.44 
+Q 408.24 70.56 405.36 70.56 
+L 48.24 70.56 
+Q 45.36 70.56 45.36 73.44 
+L 45.36 189.36 
+Q 45.36 192.24 48.24 192.24 
+z
+" clip-path="url(#p1132fb98d0)" style="fill: #e7f1f1; stroke: #2f7e83; stroke-width: 1.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="U02_DG006_S043_NODE_CASE_2">
+    <path d="M 462.24 192.24 
+L 819.36 192.24 
+Q 822.24 192.24 822.24 189.36 
+L 822.24 73.44 
+Q 822.24 70.56 819.36 70.56 
+L 462.24 70.56 
+Q 459.36 70.56 459.36 73.44 
+L 459.36 189.36 
+Q 459.36 192.24 462.24 192.24 
+z
+" clip-path="url(#p1132fb98d0)" style="fill: #f7f6f2; stroke: #2f7e83; stroke-width: 1.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="U02_DG006_S043_NODE_CASE_3">
+    <path d="M 48.24 339.84 
+L 405.36 339.84 
+Q 408.24 339.84 408.24 336.96 
+L 408.24 221.04 
+Q 408.24 218.16 405.36 218.16 
+L 48.24 218.16 
+Q 45.36 218.16 45.36 221.04 
+L 45.36 336.96 
+Q 45.36 339.84 48.24 339.84 
+z
+" clip-path="url(#p1132fb98d0)" style="fill: #e7f1f1; stroke: #2f7e83; stroke-width: 1.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="U02_DG006_S043_NODE_CASE_4">
+    <path d="M 462.24 339.84 
+L 819.36 339.84 
+Q 822.24 339.84 822.24 336.96 
+L 822.24 221.04 
+Q 822.24 218.16 819.36 218.16 
+L 462.24 218.16 
+Q 459.36 218.16 459.36 221.04 
+L 459.36 336.96 
+Q 459.36 339.84 462.24 339.84 
+z
+" clip-path="url(#p1132fb98d0)" style="fill: #f7f6f2; stroke: #2f7e83; stroke-width: 1.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="U02_DG006_S043_TEXT_CASE_1">
+    <text style="fill: #3d3d3d; font: 22px 'Calibri', 'Arial', 'DejaVu Sans', sans-serif" transform="translate(179.577344 126.884431)">x &gt; 0; v &gt; 0</text>
+    <text style="fill: #3d3d3d; font: 22px 'Calibri', 'Arial', 'DejaVu Sans', sans-serif" transform="translate(132.866875 146.956819)">F_el &lt; 0; F_amort &lt; 0</text>
+   </g>
+   <g id="U02_DG006_S043_TEXT_CASE_2">
+    <text style="fill: #3d3d3d; font: 22px 'Calibri', 'Arial', 'DejaVu Sans', sans-serif" transform="translate(593.577344 126.884431)">x &gt; 0; v &lt; 0</text>
+    <text style="fill: #3d3d3d; font: 22px 'Calibri', 'Arial', 'DejaVu Sans', sans-serif" transform="translate(546.866875 146.956819)">F_el &lt; 0; F_amort &gt; 0</text>
+   </g>
+   <g id="U02_DG006_S043_TEXT_CASE_3">
+    <text style="fill: #3d3d3d; font: 22px 'Calibri', 'Arial', 'DejaVu Sans', sans-serif" transform="translate(179.577344 274.484431)">x &lt; 0; v &gt; 0</text>
+    <text style="fill: #3d3d3d; font: 22px 'Calibri', 'Arial', 'DejaVu Sans', sans-serif" transform="translate(132.866875 294.556819)">F_el &gt; 0; F_amort &lt; 0</text>
+   </g>
+   <g id="U02_DG006_S043_TEXT_CASE_4">
+    <text style="fill: #3d3d3d; font: 22px 'Calibri', 'Arial', 'DejaVu Sans', sans-serif" transform="translate(593.577344 274.484431)">x &lt; 0; v &lt; 0</text>
+    <text style="fill: #3d3d3d; font: 22px 'Calibri', 'Arial', 'DejaVu Sans', sans-serif" transform="translate(546.866875 294.556819)">F_el &gt; 0; F_amort &gt; 0</text>
+   </g>
+   <g id="U02_DG006_S043_LABEL_001">
+    <text style="fill: #4d1434; font: 700 26px 'Calibri', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle" x="432" y="42.595469" transform="rotate(-0 432 42.595469)">Una convención de eje para cuatro combinaciones</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p1132fb98d0">
+   <rect x="0" y="0" width="864" height="396"/>
+  </clipPath>
+ </defs>
+</svg>

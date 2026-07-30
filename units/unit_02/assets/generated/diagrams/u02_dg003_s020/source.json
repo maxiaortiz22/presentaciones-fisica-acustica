@@ -1,0 +1,77 @@
+{
+  "canvas_inches": [
+    12,
+    5.5
+  ],
+  "slide_context_inches": [
+    13.333,
+    7.5
+  ],
+  "objects": [
+    {
+      "id": "U02_DG003_S020_NODE_A",
+      "type": "node",
+      "bbox": [
+        1.2,
+        1.35,
+        3.1,
+        2.3
+      ],
+      "text": "Masa A\n2m",
+      "font_pt": 26,
+      "padding_in_min": 0.18
+    },
+    {
+      "id": "U02_DG003_S020_NODE_B",
+      "type": "node",
+      "bbox": [
+        7.0,
+        1.35,
+        3.1,
+        2.3
+      ],
+      "text": "Masa B\nm",
+      "font_pt": 26,
+      "padding_in_min": 0.18
+    },
+    {
+      "id": "U02_DG003_S020_EDGE_FORCE_A",
+      "type": "connector",
+      "start": [
+        0.6,
+        2.5
+      ],
+      "end": [
+        1.15,
+        2.5
+      ],
+      "source": null,
+      "target": null,
+      "label": "misma F_neta",
+      "label_font_pt": 20
+    },
+    {
+      "id": "U02_DG003_S020_EDGE_FORCE_B",
+      "type": "connector",
+      "start": [
+        6.4,
+        2.5
+      ],
+      "end": [
+        6.95,
+        2.5
+      ],
+      "source": null,
+      "target": null,
+      "label": "misma F_neta",
+      "label_font_pt": 20
+    }
+  ],
+  "asset_id": "U02-DG003-S020",
+  "family": "U02-DG003",
+  "slide_id": "U02-020",
+  "classification": "diagrama conceptual",
+  "title": "Misma fuerza neta, masas distintas: ¿quién acelera más?",
+  "key_message": "La masa mayor representa mayor inercia.",
+  "not_to_scale": false
+}

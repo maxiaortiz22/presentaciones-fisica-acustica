@@ -1,0 +1,64 @@
+{
+  "canvas_inches": [
+    12,
+    5.5
+  ],
+  "slide_context_inches": [
+    13.333,
+    7.5
+  ],
+  "objects": [
+    {
+      "id": "U02_DG006_S041_NODE_MASS",
+      "type": "node",
+      "bbox": [
+        7.3,
+        1.85,
+        2.4,
+        1.8
+      ],
+      "text": "masa m",
+      "font_pt": 28,
+      "padding_in_min": 0.18
+    },
+    {
+      "id": "U02_DG006_S041_EDGE_FEXT",
+      "type": "connector",
+      "start": [
+        9.8,
+        2.75
+      ],
+      "end": [
+        11.35,
+        2.75
+      ],
+      "source": null,
+      "target": null,
+      "label": "F_ext",
+      "label_font_pt": 20
+    },
+    {
+      "id": "U02_DG006_S041_EDGE_AXIS",
+      "type": "connector",
+      "start": [
+        8.45,
+        1.05
+      ],
+      "end": [
+        10.2,
+        1.05
+      ],
+      "source": null,
+      "target": null,
+      "label": "+x, +v",
+      "label_font_pt": 20
+    }
+  ],
+  "asset_id": "U02-DG006-S041",
+  "family": "U02-DG006",
+  "slide_id": "U02-041",
+  "classification": "diagrama de proceso",
+  "title": "El modelo reúne tres mecanismos sin copiar la anatomía",
+  "key_message": "Los elementos ideales concentran propiedades distribuidas.",
+  "not_to_scale": false
+}

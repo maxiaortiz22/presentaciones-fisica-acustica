@@ -1,0 +1,109 @@
+{
+  "canvas_inches": [
+    12,
+    5.5
+  ],
+  "slide_context_inches": [
+    13.333,
+    7.5
+  ],
+  "objects": [
+    {
+      "id": "U02_DG006_S039_NODE_STATE_1",
+      "type": "node",
+      "bbox": [
+        2.6,
+        1.55,
+        2.25,
+        2.0
+      ],
+      "text": "x =\nconstante\nv > 0",
+      "font_pt": 24,
+      "padding_in_min": 0.18
+    },
+    {
+      "id": "U02_DG006_S039_NODE_STATE_2",
+      "type": "node",
+      "bbox": [
+        8.5,
+        1.55,
+        2.25,
+        2.0
+      ],
+      "text": "x =\nconstante\nv < 0",
+      "font_pt": 24,
+      "padding_in_min": 0.18
+    },
+    {
+      "id": "U02_DG006_S039_EDGE_V_1",
+      "type": "connector",
+      "start": [
+        4.95,
+        3.15
+      ],
+      "end": [
+        6.0,
+        3.15
+      ],
+      "source": "U02_DG006_S039_NODE_STATE_1",
+      "target": null,
+      "label": "v",
+      "label_font_pt": 20
+    },
+    {
+      "id": "U02_DG006_S039_EDGE_F_1",
+      "type": "connector",
+      "start": [
+        2.5,
+        2.05
+      ],
+      "end": [
+        1.4,
+        2.05
+      ],
+      "source": null,
+      "target": "U02_DG006_S039_NODE_STATE_1",
+      "label": "F_amort",
+      "label_font_pt": 20
+    },
+    {
+      "id": "U02_DG006_S039_EDGE_V_2",
+      "type": "connector",
+      "start": [
+        8.4,
+        3.15
+      ],
+      "end": [
+        7.300000000000001,
+        3.15
+      ],
+      "source": "U02_DG006_S039_NODE_STATE_2",
+      "target": null,
+      "label": "v",
+      "label_font_pt": 20
+    },
+    {
+      "id": "U02_DG006_S039_EDGE_F_2",
+      "type": "connector",
+      "start": [
+        10.850000000000001,
+        2.05
+      ],
+      "end": [
+        11.9,
+        2.05
+      ],
+      "source": "U02_DG006_S039_NODE_STATE_2",
+      "target": null,
+      "label": "F_amort",
+      "label_font_pt": 20
+    }
+  ],
+  "asset_id": "U02-DG006-S039",
+  "family": "U02-DG006",
+  "slide_id": "U02-039",
+  "classification": "diagrama conceptual",
+  "title": "El amortiguamiento se opone al movimiento",
+  "key_message": "Su sentido depende de `v`, no necesariamente de `x`.",
+  "not_to_scale": false
+}

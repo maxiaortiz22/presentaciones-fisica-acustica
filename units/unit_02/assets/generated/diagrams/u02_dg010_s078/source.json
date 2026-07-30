@@ -1,0 +1,51 @@
+{
+  "canvas_inches": [
+    12,
+    5.5
+  ],
+  "slide_context_inches": [
+    13.333,
+    7.5
+  ],
+  "objects": [
+    {
+      "id": "U02_DG010_S078_EDGE_FRONT",
+      "type": "connector",
+      "start": [
+        1.0,
+        4.35
+      ],
+      "end": [
+        10.9,
+        4.35
+      ],
+      "source": null,
+      "target": null,
+      "label": "frente: velocidad c",
+      "label_font_pt": 20
+    },
+    {
+      "id": "U02_DG010_S078_EDGE_LOCAL",
+      "type": "connector",
+      "start": [
+        4.15,
+        1.45
+      ],
+      "end": [
+        5.15,
+        1.45
+      ],
+      "source": null,
+      "target": null,
+      "label": "partícula: velocidad u",
+      "label_font_pt": 20
+    }
+  ],
+  "asset_id": "U02-DG010-S078",
+  "family": "U02-DG010",
+  "slide_id": "U02-078",
+  "classification": "diagrama conceptual",
+  "title": "La perturbación avanza; las partículas se mueven localmente",
+  "key_message": "`c` no es la velocidad local de las partículas del aire.",
+  "not_to_scale": true
+}

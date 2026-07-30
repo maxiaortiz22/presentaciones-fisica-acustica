@@ -1,0 +1,77 @@
+{
+  "canvas_inches": [
+    12,
+    5.5
+  ],
+  "slide_context_inches": [
+    13.333,
+    7.5
+  ],
+  "objects": [
+    {
+      "id": "U02_DG002_S009_NODE_A",
+      "type": "node",
+      "bbox": [
+        1.0,
+        1.65,
+        3.2,
+        2.3
+      ],
+      "text": "Cuerpo A\nagente",
+      "font_pt": 25,
+      "padding_in_min": 0.18
+    },
+    {
+      "id": "U02_DG002_S009_NODE_B",
+      "type": "node",
+      "bbox": [
+        7.8,
+        1.65,
+        3.2,
+        2.3
+      ],
+      "text": "Cuerpo B\nreceptor",
+      "font_pt": 25,
+      "padding_in_min": 0.18
+    },
+    {
+      "id": "U02_DG002_S009_EDGE_A_TO_B",
+      "type": "connector",
+      "start": [
+        4.3,
+        3.15
+      ],
+      "end": [
+        7.7,
+        3.15
+      ],
+      "source": "U02_DG002_S009_NODE_A",
+      "target": "U02_DG002_S009_NODE_B",
+      "label": "A ejerce fuerza sobre B",
+      "label_font_pt": 20
+    },
+    {
+      "id": "U02_DG002_S009_EDGE_B_TO_A",
+      "type": "connector",
+      "start": [
+        7.7,
+        2.25
+      ],
+      "end": [
+        4.3,
+        2.25
+      ],
+      "source": "U02_DG002_S009_NODE_B",
+      "target": "U02_DG002_S009_NODE_A",
+      "label": "interacción recíproca",
+      "label_font_pt": 20
+    }
+  ],
+  "asset_id": "U02-DG002-S009",
+  "family": "U02-DG002",
+  "slide_id": "U02-009",
+  "classification": "diagrama conceptual",
+  "title": "Una fuerza representa una interacción",
+  "key_message": "Toda fuerza tiene agente y receptor.",
+  "not_to_scale": false
+}

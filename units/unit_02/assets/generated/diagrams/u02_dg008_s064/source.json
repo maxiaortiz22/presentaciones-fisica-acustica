@@ -1,0 +1,106 @@
+{
+  "canvas_inches": [
+    12,
+    5.5
+  ],
+  "slide_context_inches": [
+    13.333,
+    7.5
+  ],
+  "objects": [
+    {
+      "id": "U02_DG008_S064_NODE_CALLOUT_1",
+      "type": "node",
+      "bbox": [
+        1.0,
+        0.55,
+        2.9833333333333334,
+        1.15
+      ],
+      "text": "cambio de estado",
+      "font_pt": 22,
+      "padding_in_min": 0.18
+    },
+    {
+      "id": "U02_DG008_S064_NODE_CALLOUT_2",
+      "type": "node",
+      "bbox": [
+        4.333333333333334,
+        0.55,
+        2.9833333333333334,
+        1.15
+      ],
+      "text": "calor que entra:\n+",
+      "font_pt": 22,
+      "padding_in_min": 0.18
+    },
+    {
+      "id": "U02_DG008_S064_NODE_CALLOUT_3",
+      "type": "node",
+      "bbox": [
+        7.666666666666667,
+        0.55,
+        2.9833333333333334,
+        1.15
+      ],
+      "text": "trabajo sobre: +",
+      "font_pt": 22,
+      "padding_in_min": 0.18
+    },
+    {
+      "id": "U02_DG008_S064_EDGE_LEADER_1",
+      "type": "connector",
+      "start": [
+        2.4916666666666667,
+        1.7
+      ],
+      "end": [
+        3.0,
+        2.68
+      ],
+      "source": "U02_DG008_S064_NODE_CALLOUT_1",
+      "target": null,
+      "label": "",
+      "label_font_pt": 0
+    },
+    {
+      "id": "U02_DG008_S064_EDGE_LEADER_2",
+      "type": "connector",
+      "start": [
+        5.825000000000001,
+        1.7
+      ],
+      "end": [
+        6.0,
+        2.68
+      ],
+      "source": "U02_DG008_S064_NODE_CALLOUT_2",
+      "target": null,
+      "label": "",
+      "label_font_pt": 0
+    },
+    {
+      "id": "U02_DG008_S064_EDGE_LEADER_3",
+      "type": "connector",
+      "start": [
+        9.158333333333333,
+        1.7
+      ],
+      "end": [
+        9.0,
+        2.68
+      ],
+      "source": "U02_DG008_S064_NODE_CALLOUT_3",
+      "target": null,
+      "label": "",
+      "label_font_pt": 0
+    }
+  ],
+  "asset_id": "U02-DG008-S064",
+  "family": "U02-DG008",
+  "slide_id": "U02-064",
+  "classification": "ecuación anotada",
+  "title": "La primera ley contabiliza calor y trabajo sobre el sistema",
+  "key_message": "Con `Q_calor` y `W_sobre` positivos al entrar, `ΔU = Q_calor + W_sobre`.",
+  "not_to_scale": false
+}

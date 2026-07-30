@@ -1,0 +1,71 @@
+{
+  "canvas_inches": [
+    12,
+    5.5
+  ],
+  "slide_context_inches": [
+    13.333,
+    7.5
+  ],
+  "objects": [
+    {
+      "id": "U02_DG014_S095_NODE_PANEL_1",
+      "type": "node",
+      "bbox": [
+        0.35,
+        1.15,
+        2.5625,
+        2.8
+      ],
+      "text": "m (kg)\ninercia",
+      "font_pt": 23,
+      "padding_in_min": 0.18
+    },
+    {
+      "id": "U02_DG014_S095_NODE_PANEL_2",
+      "type": "node",
+      "bbox": [
+        3.2625,
+        1.15,
+        2.5625,
+        2.8
+      ],
+      "text": "kₛ (N/m)\nelasticidad",
+      "font_pt": 23,
+      "padding_in_min": 0.18
+    },
+    {
+      "id": "U02_DG014_S095_NODE_PANEL_3",
+      "type": "node",
+      "bbox": [
+        6.175,
+        1.15,
+        2.5625,
+        2.8
+      ],
+      "text": "b (N·s/m)\namortiguador",
+      "font_pt": 23,
+      "padding_in_min": 0.18
+    },
+    {
+      "id": "U02_DG014_S095_NODE_PANEL_4",
+      "type": "node",
+      "bbox": [
+        9.0875,
+        1.15,
+        2.5625,
+        2.8
+      ],
+      "text": "x, v, a\nestado\ninstantáneo",
+      "font_pt": 23,
+      "padding_in_min": 0.18
+    }
+  ],
+  "asset_id": "U02-DG014-S095",
+  "family": "U02-DG014",
+  "slide_id": "U02-095",
+  "classification": "esquema mixto",
+  "title": "Parámetros del modelo masa–resorte–amortiguador",
+  "key_message": "Cada parámetro representa una propiedad distinta.",
+  "not_to_scale": false
+}

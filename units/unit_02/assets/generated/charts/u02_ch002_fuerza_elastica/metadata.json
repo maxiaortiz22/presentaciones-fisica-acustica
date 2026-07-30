@@ -1,0 +1,24 @@
+{
+  "asset_id": "U02-CH002",
+  "classification": "gráfico cuantitativo",
+  "title": "Fuerza elástica frente a desplazamiento",
+  "slides": "U02-038",
+  "question": "¿Por qué la fuerza elástica apunta hacia el equilibrio y qué representa la pendiente?",
+  "scale": "Ambos ejes lineales y simétricos; x en milímetros y F_el en newtons.",
+  "source": "Valores calculados con F_el = −k_s x, k_s = 20 N/m; modelo lineal ideal, no mediciones de tejido.",
+  "validation": [
+    "Conversión explícita de milímetros a metros en el cálculo.",
+    "Pendiente negativa igual a −20 N/m.",
+    "Fuerza y desplazamiento tienen signos opuestos."
+  ],
+  "outputs": {
+    "svg": "u02_fig_002_fuerza_elastica.svg",
+    "png": "u02_fig_002_fuerza_elastica.png",
+    "data": "data.csv",
+    "script": "script.py"
+  },
+  "parameters_and_checks": {
+    "k_s_N_m": 20.0,
+    "endpoint_force_N": 0.4
+  }
+}

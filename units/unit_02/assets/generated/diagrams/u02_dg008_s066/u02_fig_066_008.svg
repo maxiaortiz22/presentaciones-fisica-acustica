@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="864pt" height="396pt" viewBox="0 0 864 396" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-07-29T18:23:09.377650</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.9.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 396 
+L 864 396 
+L 864 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="U02_DG008_S066_EDGE_HEAT_IN">
+    <path d="M 46.8 154.8 
+Q 163.08 154.8 277.123932 154.8 
+" clip-path="url(#p31cb58d4df)" style="fill: none; stroke: #4d1434; stroke-width: 2; stroke-linecap: round"/>
+    <path d="M 270.323932 151.4 
+L 277.123932 154.8 
+L 270.323932 158.2 
+z
+" clip-path="url(#p31cb58d4df)" style="fill: #4d1434; stroke: #4d1434; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="U02_DG008_S066_EDGE_WORK_IN">
+    <path d="M 817.2 244.8 
+Q 700.92 244.8 586.876068 244.8 
+" clip-path="url(#p31cb58d4df)" style="fill: none; stroke: #9f541a; stroke-width: 2; stroke-linecap: round"/>
+    <path d="M 593.676068 248.2 
+L 586.876068 244.8 
+L 593.676068 241.4 
+z
+" clip-path="url(#p31cb58d4df)" style="fill: #9f541a; stroke: #9f541a; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="U02_DG008_S066_NODE_SYSTEM">
+    <path d="M 289.44 325.44 
+L 574.56 325.44 
+Q 577.44 325.44 577.44 322.56 
+L 577.44 77.04 
+Q 577.44 74.16 574.56 74.16 
+L 289.44 74.16 
+Q 286.56 74.16 286.56 77.04 
+L 286.56 322.56 
+Q 286.56 325.44 289.44 325.44 
+z
+" clip-path="url(#p31cb58d4df)" style="fill: #e7f1f1; stroke: #2f7e83; stroke-width: 1.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="U02_DG008_S066_NODE_Q">
+    <path d="M 41.04 379.44 
+L 275.76 379.44 
+Q 278.64 379.44 278.64 376.56 
+L 278.64 307.44 
+Q 278.64 304.56 275.76 304.56 
+L 41.04 304.56 
+Q 38.16 304.56 38.16 307.44 
+L 38.16 376.56 
+Q 38.16 379.44 41.04 379.44 
+z
+" clip-path="url(#p31cb58d4df)" style="fill: #f7f6f2; stroke: #4d1434; stroke-width: 1.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="U02_DG008_S066_NODE_W">
+    <path d="M 588.24 379.44 
+L 822.96 379.44 
+Q 825.84 379.44 825.84 376.56 
+L 825.84 307.44 
+Q 825.84 304.56 822.96 304.56 
+L 588.24 304.56 
+Q 585.36 304.56 585.36 307.44 
+L 585.36 376.56 
+Q 585.36 379.44 588.24 379.44 
+z
+" clip-path="url(#p31cb58d4df)" style="fill: #f7f6f2; stroke: #9f541a; stroke-width: 1.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="U02_DG008_S066_TEXT_SYSTEM">
+    <text style="fill: #3d3d3d; font: 25px 'Calibri', 'Arial', 'DejaVu Sans', sans-serif" transform="translate(387.246094 183.204844)">SISTEMA</text>
+    <text style="fill: #3d3d3d; font: 25px 'Calibri', 'Arial', 'DejaVu Sans', sans-serif" transform="translate(365.46875 206.014375)">Temperatura</text>
+    <text style="fill: #3d3d3d; font: 25px 'Calibri', 'Arial', 'DejaVu Sans', sans-serif" transform="translate(354.425781 228.942031)">Energía interna</text>
+   </g>
+   <g id="U02_DG008_S066_TEXT_Q">
+    <text style="fill: #3d3d3d; font: 22px 'Calibri', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle" x="158.4" y="347.525781" transform="rotate(-0 158.4 347.525781)">Q = −3,0 J</text>
+   </g>
+   <g id="U02_DG008_S066_TEXT_W">
+    <text style="fill: #3d3d3d; font: 22px 'Calibri', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle" x="705.6" y="347.520625" transform="rotate(-0 705.6 347.520625)">W_sobre = +2,0 J</text>
+   </g>
+   <g id="U02_DG008_S066_LABEL_HEAT_IN_EDGE_LABEL">
+    <text style="fill: #4d1434; font: 20px 'Calibri', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle" x="163.08" y="139.65875" transform="rotate(-0 163.08 139.65875)">Q_calor</text>
+   </g>
+   <g id="U02_DG008_S066_LABEL_WORK_IN_EDGE_LABEL">
+    <text style="fill: #9f541a; font: 20px 'Calibri', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle" x="700.92" y="229.65875" transform="rotate(-0 700.92 229.65875)">W_sobre</text>
+   </g>
+   <g id="U02_DG008_S066_LABEL_011">
+    <text style="fill: #4d1434; font: 700 34px 'Calibri', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle" x="432" y="48.1425" transform="rotate(-0 432 48.1425)">ΔU = −1,0 J</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p31cb58d4df">
+   <rect x="0" y="0" width="864" height="396"/>
+  </clipPath>
+ </defs>
+</svg>
