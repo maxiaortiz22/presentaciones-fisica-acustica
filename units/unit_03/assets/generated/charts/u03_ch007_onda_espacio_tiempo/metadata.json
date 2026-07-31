@@ -1,0 +1,42 @@
+{
+  "asset_id": "U03-CH007",
+  "classification": "gráfico cuantitativo",
+  "title": "Mapa espacio–tiempo y cortes",
+  "slides": "U03-050–054; U03-059",
+  "question": "¿Cómo se relacionan el mapa ξ(x,t) y sus cortes temporal y espacial?",
+  "scale": "lineal; x 0–1,36 m; t 0–4 ms; color -1 a 1",
+  "source": "onda viajera exacta con c=340 m/s",
+  "outputs": [
+    {
+      "variant": "mapa_y_cortes",
+      "svg": "u03_fig_007_onda_espacio_tiempo_mapa_y_cortes.svg",
+      "png": "u03_fig_007_onda_espacio_tiempo_mapa_y_cortes.png"
+    },
+    {
+      "variant": "mapa",
+      "svg": "u03_fig_007_onda_espacio_tiempo_mapa.svg",
+      "png": "u03_fig_007_onda_espacio_tiempo_mapa.png"
+    },
+    {
+      "variant": "corte_temporal",
+      "svg": "u03_fig_007_onda_espacio_tiempo_corte_temporal.svg",
+      "png": "u03_fig_007_onda_espacio_tiempo_corte_temporal.png"
+    },
+    {
+      "variant": "corte_espacial",
+      "svg": "u03_fig_007_onda_espacio_tiempo_corte_espacial.svg",
+      "png": "u03_fig_007_onda_espacio_tiempo_corte_espacial.png"
+    },
+    {
+      "variant": "lectura_T_lambda",
+      "svg": "u03_fig_007_onda_espacio_tiempo_lectura_T_lambda.svg",
+      "png": "u03_fig_007_onda_espacio_tiempo_lectura_T_lambda.png"
+    }
+  ],
+  "parameters_and_checks": {
+    "same_dataset": "pass",
+    "T=2ms": "pass",
+    "lambda=0.68m": "pass",
+    "c=340m/s": "pass"
+  }
+}

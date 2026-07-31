@@ -1,0 +1,31 @@
+{
+  "asset_id": "U03-CH001",
+  "classification": "gráfico cuantitativo",
+  "title": "Período y frecuencia",
+  "slides": "U03-004; U03-022–023",
+  "question": "¿Cómo se leen T y f y por qué son recíprocos?",
+  "scale": "lineal; segundos y milisegundos según variante",
+  "source": "modelo exacto y=cos(2πft)",
+  "outputs": [
+    {
+      "variant": "comparacion",
+      "svg": "u03_fig_001_periodo_frecuencia_comparacion.svg",
+      "png": "u03_fig_001_periodo_frecuencia_comparacion.png"
+    },
+    {
+      "variant": "lectura_periodo",
+      "svg": "u03_fig_001_periodo_frecuencia_lectura_periodo.svg",
+      "png": "u03_fig_001_periodo_frecuencia_lectura_periodo.png"
+    },
+    {
+      "variant": "puente_500Hz",
+      "svg": "u03_fig_001_periodo_frecuencia_puente_500Hz.svg",
+      "png": "u03_fig_001_periodo_frecuencia_puente_500Hz.png"
+    }
+  ],
+  "parameters_and_checks": {
+    "T=1/f": "pass",
+    "same_time_scale": "pass",
+    "axes_units": "pass"
+  }
+}

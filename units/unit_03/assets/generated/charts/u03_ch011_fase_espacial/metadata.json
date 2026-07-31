@@ -1,0 +1,21 @@
+{
+  "asset_id": "U03-CH011",
+  "classification": "gráfico cuantitativo",
+  "title": "Fase y separación espacial",
+  "slides": "U03-066",
+  "question": "¿Qué separación espacial corresponde a una diferencia de fase?",
+  "scale": "lineal; posición normalizada x/λ",
+  "source": "perfil cosenoidal exacto a instante fijo",
+  "outputs": [
+    {
+      "variant": "principal",
+      "svg": "u03_fig_011_fase_espacial.svg",
+      "png": "u03_fig_011_fase_espacial.png"
+    }
+  ],
+  "parameters_and_checks": {
+    "same_instant": "pass",
+    "phase_points": "pass",
+    "lambda_not_time": "pass"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "asset_id": "U03-DG002-S081",
+  "iteration_count": 1,
+  "classification": "diagrama conceptual",
+  "individual_render": "u03_fig_081_002.png",
+  "slide_context_render": "slide_context.png",
+  "svg_parseable": true,
+  "png_size_px": [
+    2400,
+    1100
+  ],
+  "slide_context_size_px": [
+    2400,
+    1350
+  ],
+  "minimum_main_text_pt": 22,
+  "minimum_connector_label_pt": 20,
+  "equation_minimum_pt": null,
+  "checks": {
+    "text_overflow": "pass",
+    "connector_over_text": "pass",
+    "label_on_connector": "pass",
+    "minimum_font": "pass",
+    "objects_inside_canvas": "pass",
+    "arrow_destination": "pass",
+    "slide_context_legibility": "pending_visual_inspection"
+  },
+  "issues": [],
+  "status": "approved"
+}

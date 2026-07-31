@@ -1,0 +1,27 @@
+{
+  "asset_id": "U03-CH008",
+  "classification": "gráfico cuantitativo",
+  "title": "Ejercicio coordinado tiempo–espacio",
+  "slides": "U03-058; U03-080; U03-094–095",
+  "question": "¿Puede el estudiante leer T y λ y calcular c?",
+  "scale": "lineal; t 0–12 ms; x 0–4,08 m",
+  "source": "modelo exacto f=250 Hz, λ=1,36 m",
+  "outputs": [
+    {
+      "variant": "ejercicio",
+      "svg": "u03_fig_008_ejercicio_tiempo_espacio_ejercicio.svg",
+      "png": "u03_fig_008_ejercicio_tiempo_espacio_ejercicio.png"
+    },
+    {
+      "variant": "solucion",
+      "svg": "u03_fig_008_ejercicio_tiempo_espacio_solucion.svg",
+      "png": "u03_fig_008_ejercicio_tiempo_espacio_solucion.png"
+    }
+  ],
+  "parameters_and_checks": {
+    "T=4ms": "pass",
+    "lambda=1.36m": "pass",
+    "lambda_f=340m/s": "pass",
+    "same_data_exercise_solution": "pass"
+  }
+}

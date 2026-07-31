@@ -1,0 +1,66 @@
+{
+  "asset_id": "U03-DG015-S043",
+  "family_id": "U03-DG015",
+  "slide_id": "U03-043",
+  "classification": "diagrama conceptual",
+  "canvas_inches": [
+    12,
+    5.5
+  ],
+  "slide_canvas_inches": [
+    13.333,
+    7.5
+  ],
+  "minimum_fonts_pt": {
+    "main": 22,
+    "connector_label": 20,
+    "equation": 28
+  },
+  "nodes": [
+    {
+      "object_id": "node_01",
+      "bbox_inches": [
+        0.65,
+        0.75,
+        4.15,
+        4.0
+      ],
+      "text": "",
+      "font_size_pt": 24
+    }
+  ],
+  "edges": [
+    {
+      "object_id": "edge_01",
+      "start": [
+        1.35,
+        2.75
+      ],
+      "end": [
+        2.55,
+        2.75
+      ],
+      "label": "movimiento del cono",
+      "source": null,
+      "target": null,
+      "font_size_pt": 20
+    },
+    {
+      "object_id": "edge_02",
+      "start": [
+        5.7,
+        1.2
+      ],
+      "end": [
+        10.7,
+        1.2
+      ],
+      "label": "propagación",
+      "source": null,
+      "target": null,
+      "font_size_pt": 20
+    }
+  ],
+  "editability": "SVG con texto, formas y conectores vectoriales; source.json conserva IDs y geometría.",
+  "powerpoint_note": "No se construyó el deck ni una biblioteca PPTX en esta etapa, por instrucción expresa del usuario."
+}

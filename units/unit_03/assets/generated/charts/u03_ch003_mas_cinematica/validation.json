@@ -1,0 +1,19 @@
+{
+  "asset_id": "U03-CH003",
+  "classification": "gráfico cuantitativo",
+  "individual_renders": [
+    "u03_fig_003_mas_cinematica_explicacion.png",
+    "u03_fig_003_mas_cinematica_pregunta.png"
+  ],
+  "slide_context_render": "slide_context.png",
+  "scale": "lineal y normalizada",
+  "minimum_axis_label_pt": 20,
+  "minimum_tick_pt": 18,
+  "checks": {
+    "signs": "pass",
+    "same_frequency": "pass",
+    "same_vertical_scale": "pass"
+  },
+  "issues": [],
+  "status": "approved"
+}

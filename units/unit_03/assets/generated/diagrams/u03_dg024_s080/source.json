@@ -1,0 +1,136 @@
+{
+  "asset_id": "U03-DG024-S080",
+  "family_id": "U03-DG024",
+  "slide_id": "U03-080",
+  "classification": "esquema mixto",
+  "canvas_inches": [
+    12,
+    5.5
+  ],
+  "slide_canvas_inches": [
+    13.333,
+    7.5
+  ],
+  "minimum_fonts_pt": {
+    "main": 22,
+    "connector_label": 20,
+    "equation": 28
+  },
+  "nodes": [
+    {
+      "object_id": "node_01",
+      "bbox_inches": [
+        0.75,
+        2.05,
+        2.05,
+        1.35
+      ],
+      "text": "Fuente\n500 Hz",
+      "font_size_pt": 24
+    },
+    {
+      "object_id": "node_02",
+      "bbox_inches": [
+        3.566666666666667,
+        2.05,
+        2.05,
+        1.35
+      ],
+      "text": "Medio",
+      "font_size_pt": 24
+    },
+    {
+      "object_id": "node_03",
+      "bbox_inches": [
+        6.383333333333334,
+        2.05,
+        2.05,
+        1.35
+      ],
+      "text": "Punto de\nobservación",
+      "font_size_pt": 24
+    },
+    {
+      "object_id": "node_04",
+      "bbox_inches": [
+        9.200000000000001,
+        2.05,
+        2.05,
+        1.35
+      ],
+      "text": "Registro",
+      "font_size_pt": 24
+    },
+    {
+      "object_id": "node_05",
+      "bbox_inches": [
+        0.75,
+        0.45,
+        5.0,
+        0.85
+      ],
+      "text": "Leer T en t → f = 1/T",
+      "font_size_pt": 23
+    },
+    {
+      "object_id": "node_06",
+      "bbox_inches": [
+        6.25,
+        0.45,
+        5.0,
+        0.85
+      ],
+      "text": "Leer λ en x → c = λf",
+      "font_size_pt": 23
+    }
+  ],
+  "edges": [
+    {
+      "object_id": "edge_01",
+      "start": [
+        2.8,
+        2.7249999999999996
+      ],
+      "end": [
+        3.566666666666667,
+        2.7249999999999996
+      ],
+      "label": "perturba",
+      "source": "node_01",
+      "target": "node_02",
+      "font_size_pt": 20
+    },
+    {
+      "object_id": "edge_02",
+      "start": [
+        5.616666666666667,
+        2.7249999999999996
+      ],
+      "end": [
+        6.383333333333334,
+        2.7249999999999996
+      ],
+      "label": "propaga",
+      "source": "node_02",
+      "target": "node_03",
+      "font_size_pt": 20
+    },
+    {
+      "object_id": "edge_03",
+      "start": [
+        8.433333333333334,
+        2.7249999999999996
+      ],
+      "end": [
+        9.200000000000001,
+        2.7249999999999996
+      ],
+      "label": "mide",
+      "source": "node_03",
+      "target": "node_04",
+      "font_size_pt": 20
+    }
+  ],
+  "editability": "SVG con texto, formas y conectores vectoriales; source.json conserva IDs y geometría.",
+  "powerpoint_note": "No se construyó el deck ni una biblioteca PPTX en esta etapa, por instrucción expresa del usuario."
+}

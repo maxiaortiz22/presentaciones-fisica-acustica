@@ -1,0 +1,18 @@
+{
+  "asset_id": "U03-CH002",
+  "classification": "gráfico cuantitativo",
+  "individual_renders": [
+    "u03_fig_002_desplazamiento_cono.png"
+  ],
+  "slide_context_render": "slide_context.png",
+  "scale": "lineal; t en ms, x en µm",
+  "minimum_axis_label_pt": 20,
+  "minimum_tick_pt": 18,
+  "checks": {
+    "cycles=2": "pass",
+    "maxima=±10_um": "pass",
+    "conversion_0.010mm": "pass"
+  },
+  "issues": [],
+  "status": "approved"
+}

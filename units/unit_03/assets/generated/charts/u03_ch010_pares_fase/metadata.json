@@ -1,0 +1,26 @@
+{
+  "asset_id": "U03-CH010",
+  "classification": "gráfico cuantitativo",
+  "title": "Pares de fase",
+  "slides": "U03-064; U03-068",
+  "question": "¿Cómo se reconoce una diferencia de fase?",
+  "scale": "lineal; 0–1,5 ciclos",
+  "source": "pares sinusoidales exactos",
+  "outputs": [
+    {
+      "variant": "explicacion",
+      "svg": "u03_fig_010_pares_fase_explicacion.svg",
+      "png": "u03_fig_010_pares_fase_explicacion.png"
+    },
+    {
+      "variant": "pregunta",
+      "svg": "u03_fig_010_pares_fase_pregunta.svg",
+      "png": "u03_fig_010_pares_fase_pregunta.png"
+    }
+  ],
+  "parameters_and_checks": {
+    "same_amplitude": "pass",
+    "same_frequency": "pass",
+    "phase_convention": "signal_2=cos(2πt/T+Δφ)"
+  }
+}

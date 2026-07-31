@@ -1,0 +1,18 @@
+{
+  "asset_id": "U03-CH005",
+  "classification": "gráfico cuantitativo",
+  "individual_renders": [
+    "u03_fig_005_tono_transitorio.png"
+  ],
+  "slide_context_render": "slide_context.png",
+  "scale": "lineal; 0–1 s",
+  "minimum_axis_label_pt": 20,
+  "minimum_tick_pt": 18,
+  "checks": {
+    "zero_endpoints": "pass",
+    "continuous_envelope": "pass",
+    "stable_frequency": "pass"
+  },
+  "issues": [],
+  "status": "approved"
+}

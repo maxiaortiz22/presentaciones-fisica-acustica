@@ -1,0 +1,18 @@
+{
+  "asset_id": "U03-CH013",
+  "classification": "gráfico cuantitativo",
+  "individual_renders": [
+    "u03_fig_013_amplitud_fase.png"
+  ],
+  "slide_context_render": "slide_context.png",
+  "scale": "lineal; Δφ 0–2π rad",
+  "minimum_axis_label_pt": 20,
+  "minimum_tick_pt": 18,
+  "checks": {
+    "radicand_nonnegative": "pass",
+    "notable_points": "pass",
+    "symmetry": "pass"
+  },
+  "issues": [],
+  "status": "approved"
+}

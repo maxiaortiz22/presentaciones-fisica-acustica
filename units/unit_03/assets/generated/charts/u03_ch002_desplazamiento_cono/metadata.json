@@ -1,0 +1,21 @@
+{
+  "asset_id": "U03-CH002",
+  "classification": "gráfico cuantitativo",
+  "title": "Desplazamiento del cono",
+  "slides": "U03-030",
+  "question": "¿Qué aspecto tiene el desplazamiento de un cono de 500 Hz y 10 µm?",
+  "scale": "lineal; t en ms, x en µm",
+  "source": "parámetros del ejemplo del libro: A=10 µm, f=500 Hz",
+  "outputs": [
+    {
+      "variant": "principal",
+      "svg": "u03_fig_002_desplazamiento_cono.svg",
+      "png": "u03_fig_002_desplazamiento_cono.png"
+    }
+  ],
+  "parameters_and_checks": {
+    "cycles=2": "pass",
+    "maxima=±10_um": "pass",
+    "conversion_0.010mm": "pass"
+  }
+}

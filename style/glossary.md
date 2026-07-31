@@ -27,7 +27,7 @@
 | fuerza | Interacción capaz de cambiar el movimiento o deformar un cuerpo. | 1 | Unidad: N. |
 | presión | Fuerza normal distribuida sobre una superficie. | 1 | La presión acústica es una variación alrededor de la presión estática. |
 | densidad | Masa por unidad de volumen. | 1 | Símbolo recomendado `ρ`; unidad: kg·m⁻³. |
-| velocidad | Cambio de posición por unidad de tiempo, con dirección. | 1 | Distinguir velocidad de partícula `u` y velocidad de propagación `c`. |
+| velocidad | Cambio de posición por unidad de tiempo, con dirección. | 1 | Distinguir velocidad de partícula `u`, velocidad de un cuerpo y rapidez de propagación `c`. |
 | sistema físico | Cuerpo, región o conjunto delimitado que se elige para analizar interacciones, movimiento o transferencias de energía. | 2 | Declarar la frontera y no cambiarla dentro de un mismo balance sin advertirlo. |
 | fuerza neta o resultante | Suma vectorial de todas las fuerzas externas que actúan sobre el sistema elegido. | 2 | Símbolo formal `ΣF`; se admite `F_neta` como rótulo didáctico definido. No sumar en un mismo diagrama fuerzas aplicadas sobre cuerpos diferentes. |
 | trabajo | Transferencia de energía producida por una fuerza a lo largo de un desplazamiento. | 2 | Unidad: J. |
@@ -35,7 +35,7 @@
 | energía interna | Función de estado que representa la energía microscópica contenida en un sistema. | 2 | Símbolo `U`; no es calor almacenado ni queda determinada solo por la temperatura. |
 | potencia | Tasa temporal de transferencia de energía. | 2 | Unidad: W; no confundir símbolo `W` de trabajo/potencia con watt escrito como unidad. |
 | calor | Energía transferida por diferencia de temperatura. | 2 | No es una sustancia ni sinónimo de temperatura. |
-| temperatura | Magnitud que caracteriza el estado térmico y condiciona el intercambio de calor. | 2 | Influye sobre la velocidad de propagación. |
+| temperatura | Magnitud que caracteriza el estado térmico y condiciona el intercambio de calor. | 2 | Influye sobre la rapidez de propagación. |
 | entropía | Función de estado asociada con la dispersión de energía y la irreversibilidad macroscópica. | 2 | Tratar cualitativamente en este curso. |
 | elasticidad | Capacidad de un medio de desarrollar fuerzas restauradoras ante una deformación. | 2 | Junto con la inercia permite oscilaciones y propagación. |
 | amortiguamiento | Pérdida de energía mecánica que reduce una oscilación o respuesta. | 2 | No equivale a absorción acústica, aunque se relaciona con disipación. |
@@ -46,11 +46,13 @@
 | Término preferido | Definición de trabajo | Primera unidad | Reutilización / advertencia |
 |---|---|---:|---|
 | oscilación | Variación repetida de una magnitud alrededor de un estado de equilibrio. | 3 | Puede existir sin propagación espacial. |
+| perturbación mecánica | Variación local del estado de un sistema material que puede transmitirse a regiones vecinas mediante sus interacciones. | 1 | En U3 se distingue de la materia que oscila localmente y del frente que se propaga. |
 | movimiento armónico simple (MAS) | Oscilación sinusoidal producida por una fuerza restauradora proporcional y opuesta al desplazamiento, en el modelo ideal. | 3 | Modelo, no descripción exacta de todo oscilador real. |
 | amplitud | Máxima desviación respecto del valor de equilibrio en la magnitud considerada. | 3 | Siempre indicar de qué variable es amplitud; no equivale a intensidad ni sonoridad. |
 | período | Tiempo necesario para completar un ciclo. | 3 | Símbolo `T`; unidad: s. |
 | frecuencia | Número de ciclos por unidad de tiempo. | 3 | Símbolo `f`; unidad: Hz; `f=1/T`. |
 | fase | Estado relativo de un ciclo respecto de una referencia temporal o espacial. | 3 | Expresarla en radianes o grados, sin mezclarlos. |
+| diferencia de fase o desfase | Diferencia entre dos fases referidas a una misma convención temporal o espacial. | 3 | Símbolo `Δφ`; declarar el orden de la resta y la unidad angular. |
 | longitud de onda | Distancia entre puntos consecutivos en igual fase de una onda periódica. | 3 | Símbolo `λ`; `λ=c/f` en el medio considerado. |
 | onda | Perturbación que se propaga y transporta energía sin transporte neto equivalente de materia. | 3 | No afirmar que las partículas del medio viajan con la onda. |
 | onda longitudinal | Onda en la que la perturbación de las partículas es paralela a la dirección de propagación. | 3 | Modelo principal para sonido en fluidos. |
@@ -60,8 +62,8 @@
 | sonido | Fenómeno mecánico propagado en un medio; según contexto, también experiencia auditiva asociada. | 4 | Declarar si se usa en sentido físico o perceptual. |
 | presión acústica | Variación de presión respecto de la presión estática del medio causada por una onda sonora. | 4 | Símbolo `p(t)`; unidad: Pa. |
 | valor eficaz (RMS) | Raíz cuadrada del promedio temporal del cuadrado de una señal. | 4 | Para una senoide, `p_rms=p_pico/√2`; no generalizar a cualquier señal. |
-| velocidad de partícula | Velocidad oscilatoria local de las partículas del medio. | 4 | Símbolo recomendado `u`; no es velocidad del sonido. |
-| velocidad de propagación | Velocidad con que avanza una fase o perturbación en un medio bajo condiciones definidas. | 4 | Símbolo `c`. |
+| velocidad de partícula | Velocidad oscilatoria local de las partículas del medio. | 3 | Símbolo recomendado `u`; se introduce cualitativamente en U3 y se formaliza como magnitud acústica en U4. No es la rapidez del sonido. |
+| rapidez de propagación | Rapidez con que avanza una fase o perturbación en un medio bajo condiciones definidas. | 3 | Símbolo `c`. “Velocidad de propagación” se admite como uso acústico convencional cuando no se confunde con una velocidad vectorial. |
 | intensidad sonora | Potencia acústica media que atraviesa una unidad de área normal a la propagación. | 4 | Símbolo `I`; unidad: W·m⁻². |
 | potencia acústica | Energía acústica emitida o transferida por unidad de tiempo. | 4 | Propiedad de la fuente bajo condiciones definidas; símbolo `W_ac` recomendado en contextos ambiguos. |
 | impedancia acústica específica | Relación compleja entre presión acústica y velocidad de partícula. | 4 | Símbolo `Z`; unidad: Pa·s·m⁻¹. |
@@ -136,7 +138,7 @@
 | reflexión | Retorno de parte de una onda al encontrar una discontinuidad o límite. | 4 | Depende de impedancias, ángulo, frecuencia y geometría. |
 | absorción acústica | Conversión de parte de la energía acústica incidente en otras formas dentro de un material o sistema. | 9 | No equivale a aislamiento entre recintos. |
 | transmisión | Paso de energía acústica a través de una interfaz o elemento. | 9 | Puede coexistir con reflexión y absorción. |
-| refracción | Cambio de dirección asociado con variaciones espaciales de velocidad de propagación. | 9 | Puede ocurrir en una interfaz o en un gradiente continuo. |
+| refracción | Cambio de dirección asociado con variaciones espaciales de rapidez de propagación. | 9 | Puede ocurrir en una interfaz o en un gradiente continuo. |
 | difracción | Redistribución de una onda al interactuar con bordes, aberturas u obstáculos de tamaño comparable con la longitud de onda. | 9 | No es simplemente reflexión “alrededor” de un objeto. |
 | tiempo de reverberación | Tiempo requerido para que el nivel de energía sonora decaiga 60 dB después de cesar la fuente, estimado bajo un método definido. | 7 | Símbolo `T_60`; puede inferirse de tramos menores con cautelas. |
 | acondicionamiento acústico | Modificación de la respuesta sonora dentro de un recinto. | 9 | Incluye control de reflexiones, absorción, difusión y reverberación. |

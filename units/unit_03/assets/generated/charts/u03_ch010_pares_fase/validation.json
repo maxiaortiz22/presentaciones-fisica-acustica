@@ -1,0 +1,19 @@
+{
+  "asset_id": "U03-CH010",
+  "classification": "gráfico cuantitativo",
+  "individual_renders": [
+    "u03_fig_010_pares_fase_explicacion.png",
+    "u03_fig_010_pares_fase_pregunta.png"
+  ],
+  "slide_context_render": "slide_context.png",
+  "scale": "lineal; 0–1,5 ciclos",
+  "minimum_axis_label_pt": 20,
+  "minimum_tick_pt": 18,
+  "checks": {
+    "same_amplitude": "pass",
+    "same_frequency": "pass",
+    "phase_convention": "signal_2=cos(2πt/T+Δφ)"
+  },
+  "issues": [],
+  "status": "approved"
+}

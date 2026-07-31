@@ -1,0 +1,68 @@
+{
+  "asset_id": "U03-DG008-S027",
+  "family_id": "U03-DG008",
+  "slide_id": "U03-027",
+  "classification": "diagrama conceptual",
+  "canvas_inches": [
+    12,
+    5.5
+  ],
+  "slide_canvas_inches": [
+    13.333,
+    7.5
+  ],
+  "minimum_fonts_pt": {
+    "main": 22,
+    "connector_label": 20,
+    "equation": 28
+  },
+  "nodes": [
+    {
+      "object_id": "node_01",
+      "bbox_inches": [
+        0.75,
+        2.9,
+        5.0,
+        1.75
+      ],
+      "text": "Amplitud · Aₓ\n¿Cuánto se aleja?\nUnidad de x",
+      "font_size_pt": 23
+    },
+    {
+      "object_id": "node_02",
+      "bbox_inches": [
+        6.4,
+        2.9,
+        5.0,
+        1.75
+      ],
+      "text": "Período · T\n¿Cuánto tarda un ciclo?\ns",
+      "font_size_pt": 23
+    },
+    {
+      "object_id": "node_03",
+      "bbox_inches": [
+        0.75,
+        0.65,
+        5.0,
+        1.75
+      ],
+      "text": "Frecuencia · f\n¿Cuántos ciclos por segundo?\nHz",
+      "font_size_pt": 23
+    },
+    {
+      "object_id": "node_04",
+      "bbox_inches": [
+        6.4,
+        0.65,
+        5.0,
+        1.75
+      ],
+      "text": "Fase · φ₀\n¿En qué estado comienza?\nrad o °",
+      "font_size_pt": 23
+    }
+  ],
+  "edges": [],
+  "editability": "SVG con texto, formas y conectores vectoriales; source.json conserva IDs y geometría.",
+  "powerpoint_note": "No se construyó el deck ni una biblioteca PPTX en esta etapa, por instrucción expresa del usuario."
+}

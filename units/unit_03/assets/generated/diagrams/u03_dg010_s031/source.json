@@ -1,0 +1,99 @@
+{
+  "asset_id": "U03-DG010-S031",
+  "family_id": "U03-DG010",
+  "slide_id": "U03-031",
+  "classification": "diagrama de proceso",
+  "canvas_inches": [
+    12,
+    5.5
+  ],
+  "slide_canvas_inches": [
+    13.333,
+    7.5
+  ],
+  "minimum_fonts_pt": {
+    "main": 22,
+    "connector_label": 20,
+    "equation": 28
+  },
+  "nodes": [
+    {
+      "object_id": "node_01",
+      "bbox_inches": [
+        1.7300000000000002,
+        2.37,
+        0.6,
+        0.56
+      ],
+      "text": "",
+      "font_size_pt": 22
+    },
+    {
+      "object_id": "node_02",
+      "bbox_inches": [
+        3.95,
+        2.37,
+        0.6,
+        0.56
+      ],
+      "text": "",
+      "font_size_pt": 22
+    },
+    {
+      "object_id": "node_03",
+      "bbox_inches": [
+        6.17,
+        2.37,
+        0.6,
+        0.56
+      ],
+      "text": "",
+      "font_size_pt": 22
+    },
+    {
+      "object_id": "node_04",
+      "bbox_inches": [
+        9.749999999999998,
+        2.37,
+        0.6,
+        0.56
+      ],
+      "text": "",
+      "font_size_pt": 22
+    }
+  ],
+  "edges": [
+    {
+      "object_id": "edge_01",
+      "start": [
+        4.25,
+        3.13
+      ],
+      "end": [
+        3.7,
+        3.13
+      ],
+      "label": "",
+      "source": null,
+      "target": null,
+      "font_size_pt": 0
+    },
+    {
+      "object_id": "edge_02",
+      "start": [
+        10.049999999999999,
+        3.13
+      ],
+      "end": [
+        10.6,
+        3.13
+      ],
+      "label": "",
+      "source": null,
+      "target": null,
+      "font_size_pt": 0
+    }
+  ],
+  "editability": "SVG con texto, formas y conectores vectoriales; source.json conserva IDs y geometría.",
+  "powerpoint_note": "No se construyó el deck ni una biblioteca PPTX en esta etapa, por instrucción expresa del usuario."
+}

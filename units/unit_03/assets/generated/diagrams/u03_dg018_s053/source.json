@@ -1,0 +1,77 @@
+{
+  "asset_id": "U03-DG018-S053",
+  "family_id": "U03-DG018",
+  "slide_id": "U03-053",
+  "classification": "esquema mixto",
+  "canvas_inches": [
+    12,
+    5.5
+  ],
+  "slide_canvas_inches": [
+    13.333,
+    7.5
+  ],
+  "minimum_fonts_pt": {
+    "main": 22,
+    "connector_label": 20,
+    "equation": 28
+  },
+  "nodes": [
+    {
+      "object_id": "node_01",
+      "bbox_inches": [
+        0.55,
+        0.65,
+        5.25,
+        4.25
+      ],
+      "text": "",
+      "font_size_pt": 24
+    },
+    {
+      "object_id": "node_02",
+      "bbox_inches": [
+        6.2,
+        0.65,
+        5.25,
+        4.25
+      ],
+      "text": "",
+      "font_size_pt": 24
+    }
+  ],
+  "edges": [
+    {
+      "object_id": "edge_01",
+      "start": [
+        0.85,
+        1.25
+      ],
+      "end": [
+        5.3999999999999995,
+        1.25
+      ],
+      "label": "t (ms)",
+      "source": null,
+      "target": null,
+      "font_size_pt": 20
+    },
+    {
+      "object_id": "edge_02",
+      "start": [
+        6.5,
+        1.25
+      ],
+      "end": [
+        11.05,
+        1.25
+      ],
+      "label": "x (m)",
+      "source": null,
+      "target": null,
+      "font_size_pt": 20
+    }
+  ],
+  "editability": "SVG con texto, formas y conectores vectoriales; source.json conserva IDs y geometría.",
+  "powerpoint_note": "No se construyó el deck ni una biblioteca PPTX en esta etapa, por instrucción expresa del usuario."
+}

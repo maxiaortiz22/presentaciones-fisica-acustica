@@ -1,0 +1,351 @@
+{
+  "generated_families": 13,
+  "expected_families": 13,
+  "classification": "gráfico cuantitativo",
+  "assets": [
+    {
+      "asset_id": "U03-CH001",
+      "classification": "gráfico cuantitativo",
+      "title": "Período y frecuencia",
+      "slides": "U03-004; U03-022–023",
+      "question": "¿Cómo se leen T y f y por qué son recíprocos?",
+      "scale": "lineal; segundos y milisegundos según variante",
+      "source": "modelo exacto y=cos(2πft)",
+      "outputs": [
+        {
+          "variant": "comparacion",
+          "svg": "u03_fig_001_periodo_frecuencia_comparacion.svg",
+          "png": "u03_fig_001_periodo_frecuencia_comparacion.png"
+        },
+        {
+          "variant": "lectura_periodo",
+          "svg": "u03_fig_001_periodo_frecuencia_lectura_periodo.svg",
+          "png": "u03_fig_001_periodo_frecuencia_lectura_periodo.png"
+        },
+        {
+          "variant": "puente_500Hz",
+          "svg": "u03_fig_001_periodo_frecuencia_puente_500Hz.svg",
+          "png": "u03_fig_001_periodo_frecuencia_puente_500Hz.png"
+        }
+      ],
+      "parameters_and_checks": {
+        "T=1/f": "pass",
+        "same_time_scale": "pass",
+        "axes_units": "pass"
+      }
+    },
+    {
+      "asset_id": "U03-CH002",
+      "classification": "gráfico cuantitativo",
+      "title": "Desplazamiento del cono",
+      "slides": "U03-030",
+      "question": "¿Qué aspecto tiene el desplazamiento de un cono de 500 Hz y 10 µm?",
+      "scale": "lineal; t en ms, x en µm",
+      "source": "parámetros del ejemplo del libro: A=10 µm, f=500 Hz",
+      "outputs": [
+        {
+          "variant": "principal",
+          "svg": "u03_fig_002_desplazamiento_cono.svg",
+          "png": "u03_fig_002_desplazamiento_cono.png"
+        }
+      ],
+      "parameters_and_checks": {
+        "cycles=2": "pass",
+        "maxima=±10_um": "pass",
+        "conversion_0.010mm": "pass"
+      }
+    },
+    {
+      "asset_id": "U03-CH003",
+      "classification": "gráfico cuantitativo",
+      "title": "Posición, velocidad y aceleración",
+      "slides": "U03-033–034; U03-088",
+      "question": "¿Cómo se coordinan posición, velocidad y aceleración durante un ciclo?",
+      "scale": "lineal y normalizada",
+      "source": "modelo exacto normalizado del MAS",
+      "outputs": [
+        {
+          "variant": "explicacion",
+          "svg": "u03_fig_003_mas_cinematica_explicacion.svg",
+          "png": "u03_fig_003_mas_cinematica_explicacion.png"
+        },
+        {
+          "variant": "pregunta",
+          "svg": "u03_fig_003_mas_cinematica_pregunta.svg",
+          "png": "u03_fig_003_mas_cinematica_pregunta.png"
+        }
+      ],
+      "parameters_and_checks": {
+        "signs": "pass",
+        "same_frequency": "pass",
+        "same_vertical_scale": "pass"
+      }
+    },
+    {
+      "asset_id": "U03-CH004",
+      "classification": "gráfico cuantitativo",
+      "title": "Una forma, varias magnitudes",
+      "slides": "U03-035–036",
+      "question": "¿Por qué una misma forma no implica la misma magnitud?",
+      "scale": "lineal; cuatro ejes verticales independientes",
+      "source": "modelos sinusoidales didácticos independientes",
+      "outputs": [
+        {
+          "variant": "principal",
+          "svg": "u03_fig_004_variables_sinusoidales.svg",
+          "png": "u03_fig_004_variables_sinusoidales.png"
+        }
+      ],
+      "parameters_and_checks": {
+        "same_frequency": "pass",
+        "separate_units": "pass",
+        "no_calibration_inferred": "pass"
+      }
+    },
+    {
+      "asset_id": "U03-CH005",
+      "classification": "gráfico cuantitativo",
+      "title": "Tono finito con transitorios",
+      "slides": "U03-041",
+      "question": "¿En qué difiere una realización tonal finita de una sinusoide ideal?",
+      "scale": "lineal; 0–1 s",
+      "source": "modelo sintético de 500 Hz con envolvente cosenoidal",
+      "outputs": [
+        {
+          "variant": "principal",
+          "svg": "u03_fig_005_tono_transitorio.svg",
+          "png": "u03_fig_005_tono_transitorio.png"
+        }
+      ],
+      "parameters_and_checks": {
+        "zero_endpoints": "pass",
+        "continuous_envelope": "pass",
+        "stable_frequency": "pass"
+      }
+    },
+    {
+      "asset_id": "U03-CH006",
+      "classification": "gráfico cuantitativo",
+      "title": "Presión en un punto fijo",
+      "slides": "U03-045",
+      "question": "¿Qué registra un micrófono en una posición fija?",
+      "scale": "lineal; Pa pico, no RMS ni dB",
+      "source": "modelo hipotético p_ac=0,20 Pa cos(2π·500t)",
+      "outputs": [
+        {
+          "variant": "principal",
+          "svg": "u03_fig_006_presion_temporal.svg",
+          "png": "u03_fig_006_presion_temporal.png"
+        }
+      ],
+      "parameters_and_checks": {
+        "units_Pa": "pass",
+        "reference_zero": "pass",
+        "no_RMS_or_dB": "pass"
+      }
+    },
+    {
+      "asset_id": "U03-CH007",
+      "classification": "gráfico cuantitativo",
+      "title": "Mapa espacio–tiempo y cortes",
+      "slides": "U03-050–054; U03-059",
+      "question": "¿Cómo se relacionan el mapa ξ(x,t) y sus cortes temporal y espacial?",
+      "scale": "lineal; x 0–1,36 m; t 0–4 ms; color -1 a 1",
+      "source": "onda viajera exacta con c=340 m/s",
+      "outputs": [
+        {
+          "variant": "mapa_y_cortes",
+          "svg": "u03_fig_007_onda_espacio_tiempo_mapa_y_cortes.svg",
+          "png": "u03_fig_007_onda_espacio_tiempo_mapa_y_cortes.png"
+        },
+        {
+          "variant": "mapa",
+          "svg": "u03_fig_007_onda_espacio_tiempo_mapa.svg",
+          "png": "u03_fig_007_onda_espacio_tiempo_mapa.png"
+        },
+        {
+          "variant": "corte_temporal",
+          "svg": "u03_fig_007_onda_espacio_tiempo_corte_temporal.svg",
+          "png": "u03_fig_007_onda_espacio_tiempo_corte_temporal.png"
+        },
+        {
+          "variant": "corte_espacial",
+          "svg": "u03_fig_007_onda_espacio_tiempo_corte_espacial.svg",
+          "png": "u03_fig_007_onda_espacio_tiempo_corte_espacial.png"
+        },
+        {
+          "variant": "lectura_T_lambda",
+          "svg": "u03_fig_007_onda_espacio_tiempo_lectura_T_lambda.svg",
+          "png": "u03_fig_007_onda_espacio_tiempo_lectura_T_lambda.png"
+        }
+      ],
+      "parameters_and_checks": {
+        "same_dataset": "pass",
+        "T=2ms": "pass",
+        "lambda=0.68m": "pass",
+        "c=340m/s": "pass"
+      }
+    },
+    {
+      "asset_id": "U03-CH008",
+      "classification": "gráfico cuantitativo",
+      "title": "Ejercicio coordinado tiempo–espacio",
+      "slides": "U03-058; U03-080; U03-094–095",
+      "question": "¿Puede el estudiante leer T y λ y calcular c?",
+      "scale": "lineal; t 0–12 ms; x 0–4,08 m",
+      "source": "modelo exacto f=250 Hz, λ=1,36 m",
+      "outputs": [
+        {
+          "variant": "ejercicio",
+          "svg": "u03_fig_008_ejercicio_tiempo_espacio_ejercicio.svg",
+          "png": "u03_fig_008_ejercicio_tiempo_espacio_ejercicio.png"
+        },
+        {
+          "variant": "solucion",
+          "svg": "u03_fig_008_ejercicio_tiempo_espacio_solucion.svg",
+          "png": "u03_fig_008_ejercicio_tiempo_espacio_solucion.png"
+        }
+      ],
+      "parameters_and_checks": {
+        "T=4ms": "pass",
+        "lambda=1.36m": "pass",
+        "lambda_f=340m/s": "pass",
+        "same_data_exercise_solution": "pass"
+      }
+    },
+    {
+      "asset_id": "U03-CH009",
+      "classification": "gráfico cuantitativo",
+      "title": "Frecuencia y longitud de onda",
+      "slides": "U03-063",
+      "question": "¿Qué cambia cuando aumenta f y el medio mantiene c?",
+      "scale": "lineal; 0–2,72 m",
+      "source": "dos perfiles exactos con c=340 m/s",
+      "outputs": [
+        {
+          "variant": "principal",
+          "svg": "u03_fig_009_frecuencia_longitud.svg",
+          "png": "u03_fig_009_frecuencia_longitud.png"
+        }
+      ],
+      "parameters_and_checks": {
+        "same_c": "pass",
+        "lambda2=lambda1/2": "pass",
+        "same_space_scale": "pass"
+      }
+    },
+    {
+      "asset_id": "U03-CH010",
+      "classification": "gráfico cuantitativo",
+      "title": "Pares de fase",
+      "slides": "U03-064; U03-068",
+      "question": "¿Cómo se reconoce una diferencia de fase?",
+      "scale": "lineal; 0–1,5 ciclos",
+      "source": "pares sinusoidales exactos",
+      "outputs": [
+        {
+          "variant": "explicacion",
+          "svg": "u03_fig_010_pares_fase_explicacion.svg",
+          "png": "u03_fig_010_pares_fase_explicacion.png"
+        },
+        {
+          "variant": "pregunta",
+          "svg": "u03_fig_010_pares_fase_pregunta.svg",
+          "png": "u03_fig_010_pares_fase_pregunta.png"
+        }
+      ],
+      "parameters_and_checks": {
+        "same_amplitude": "pass",
+        "same_frequency": "pass",
+        "phase_convention": "signal_2=cos(2πt/T+Δφ)"
+      }
+    },
+    {
+      "asset_id": "U03-CH011",
+      "classification": "gráfico cuantitativo",
+      "title": "Fase y separación espacial",
+      "slides": "U03-066",
+      "question": "¿Qué separación espacial corresponde a una diferencia de fase?",
+      "scale": "lineal; posición normalizada x/λ",
+      "source": "perfil cosenoidal exacto a instante fijo",
+      "outputs": [
+        {
+          "variant": "principal",
+          "svg": "u03_fig_011_fase_espacial.svg",
+          "png": "u03_fig_011_fase_espacial.png"
+        }
+      ],
+      "parameters_and_checks": {
+        "same_instant": "pass",
+        "phase_points": "pass",
+        "lambda_not_time": "pass"
+      }
+    },
+    {
+      "asset_id": "U03-CH012",
+      "classification": "gráfico cuantitativo",
+      "title": "Superposición e interferencia",
+      "slides": "U03-072–075",
+      "question": "¿Cómo cambia la resultante con Δφ?",
+      "scale": "lineal; t/T; amplitud -2,2 a 2,2",
+      "source": "suma exacta punto a punto de dos sinusoides",
+      "outputs": [
+        {
+          "variant": "fase_0",
+          "svg": "u03_fig_012_superposicion_fase_0.svg",
+          "png": "u03_fig_012_superposicion_fase_0.png"
+        },
+        {
+          "variant": "fase_pi_2",
+          "svg": "u03_fig_012_superposicion_fase_pi_2.svg",
+          "png": "u03_fig_012_superposicion_fase_pi_2.png"
+        },
+        {
+          "variant": "fase_pi",
+          "svg": "u03_fig_012_superposicion_fase_pi.svg",
+          "png": "u03_fig_012_superposicion_fase_pi.png"
+        },
+        {
+          "variant": "pregunta_sin_resultante",
+          "svg": "u03_fig_012_superposicion_pregunta_sin_resultante.svg",
+          "png": "u03_fig_012_superposicion_pregunta_sin_resultante.png"
+        }
+      ],
+      "parameters_and_checks": {
+        "pointwise_sum": "pass",
+        "same_vertical_scale": "pass",
+        "total_cancellation_only_at_pi": "pass",
+        "single_case_per_explanation_slide": "pass"
+      }
+    },
+    {
+      "asset_id": "U03-CH013",
+      "classification": "gráfico cuantitativo",
+      "title": "Amplitud resultante frente a fase",
+      "slides": "U03-093",
+      "question": "¿Cómo varía la amplitud resultante con la fase para amplitudes iguales?",
+      "scale": "lineal; Δφ 0–2π rad",
+      "source": "A_R/A=sqrt(2+2cosΔφ)",
+      "outputs": [
+        {
+          "variant": "principal",
+          "svg": "u03_fig_013_amplitud_fase.svg",
+          "png": "u03_fig_013_amplitud_fase.png"
+        }
+      ],
+      "parameters_and_checks": {
+        "radicand_nonnegative": "pass",
+        "notable_points": "pass",
+        "symmetry": "pass"
+      }
+    }
+  ],
+  "contact_sheets": [
+    "assets\\generated\\_review\\u03_charts_contact_sheet_01.png",
+    "assets\\generated\\_review\\u03_charts_contact_sheet_02.png",
+    "assets\\generated\\_review\\u03_charts_contact_sheet_03.png",
+    "assets\\generated\\_review\\u03_charts_contact_sheet_04.png",
+    "assets\\generated\\_review\\u03_charts_contact_sheet_05.png"
+  ],
+  "status": "approved_pending_visual_inspection"
+}

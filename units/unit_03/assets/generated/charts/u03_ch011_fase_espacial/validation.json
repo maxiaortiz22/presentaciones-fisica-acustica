@@ -1,0 +1,18 @@
+{
+  "asset_id": "U03-CH011",
+  "classification": "gráfico cuantitativo",
+  "individual_renders": [
+    "u03_fig_011_fase_espacial.png"
+  ],
+  "slide_context_render": "slide_context.png",
+  "scale": "lineal; posición normalizada x/λ",
+  "minimum_axis_label_pt": 20,
+  "minimum_tick_pt": 18,
+  "checks": {
+    "same_instant": "pass",
+    "phase_points": "pass",
+    "lambda_not_time": "pass"
+  },
+  "issues": [],
+  "status": "approved"
+}

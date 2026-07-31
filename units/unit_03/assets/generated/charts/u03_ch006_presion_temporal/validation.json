@@ -1,0 +1,18 @@
+{
+  "asset_id": "U03-CH006",
+  "classification": "gráfico cuantitativo",
+  "individual_renders": [
+    "u03_fig_006_presion_temporal.png"
+  ],
+  "slide_context_render": "slide_context.png",
+  "scale": "lineal; Pa pico, no RMS ni dB",
+  "minimum_axis_label_pt": 20,
+  "minimum_tick_pt": 18,
+  "checks": {
+    "units_Pa": "pass",
+    "reference_zero": "pass",
+    "no_RMS_or_dB": "pass"
+  },
+  "issues": [],
+  "status": "approved"
+}

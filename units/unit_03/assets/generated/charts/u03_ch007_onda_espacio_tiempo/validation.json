@@ -1,0 +1,23 @@
+{
+  "asset_id": "U03-CH007",
+  "classification": "gráfico cuantitativo",
+  "individual_renders": [
+    "u03_fig_007_onda_espacio_tiempo_mapa_y_cortes.png",
+    "u03_fig_007_onda_espacio_tiempo_mapa.png",
+    "u03_fig_007_onda_espacio_tiempo_corte_temporal.png",
+    "u03_fig_007_onda_espacio_tiempo_corte_espacial.png",
+    "u03_fig_007_onda_espacio_tiempo_lectura_T_lambda.png"
+  ],
+  "slide_context_render": "slide_context.png",
+  "scale": "lineal; x 0–1,36 m; t 0–4 ms; color -1 a 1",
+  "minimum_axis_label_pt": 20,
+  "minimum_tick_pt": 18,
+  "checks": {
+    "same_dataset": "pass",
+    "T=2ms": "pass",
+    "lambda=0.68m": "pass",
+    "c=340m/s": "pass"
+  },
+  "issues": [],
+  "status": "approved"
+}

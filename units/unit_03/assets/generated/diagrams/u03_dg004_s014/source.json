@@ -1,0 +1,39 @@
+{
+  "asset_id": "U03-DG004-S014",
+  "family_id": "U03-DG004",
+  "slide_id": "U03-014",
+  "classification": "diagrama de proceso",
+  "canvas_inches": [
+    12,
+    5.5
+  ],
+  "slide_canvas_inches": [
+    13.333,
+    7.5
+  ],
+  "minimum_fonts_pt": {
+    "main": 22,
+    "connector_label": 20,
+    "equation": 28
+  },
+  "nodes": [],
+  "edges": [
+    {
+      "object_id": "edge_01",
+      "start": [
+        0.75,
+        1.08
+      ],
+      "end": [
+        11.15,
+        1.08
+      ],
+      "label": "avance del frente y de la energía",
+      "source": null,
+      "target": null,
+      "font_size_pt": 20
+    }
+  ],
+  "editability": "SVG con texto, formas y conectores vectoriales; source.json conserva IDs y geometría.",
+  "powerpoint_note": "No se construyó el deck ni una biblioteca PPTX en esta etapa, por instrucción expresa del usuario."
+}

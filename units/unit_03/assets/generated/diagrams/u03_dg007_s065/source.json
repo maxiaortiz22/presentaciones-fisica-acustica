@@ -1,0 +1,39 @@
+{
+  "asset_id": "U03-DG007-S065",
+  "family_id": "U03-DG007",
+  "slide_id": "U03-065",
+  "classification": "diagrama conceptual",
+  "canvas_inches": [
+    12,
+    5.5
+  ],
+  "slide_canvas_inches": [
+    13.333,
+    7.5
+  ],
+  "minimum_fonts_pt": {
+    "main": 22,
+    "connector_label": 20,
+    "equation": 28
+  },
+  "nodes": [],
+  "edges": [
+    {
+      "object_id": "edge_01",
+      "start": [
+        3.2,
+        3.45
+      ],
+      "end": [
+        2.7,
+        3.95
+      ],
+      "label": "fase",
+      "source": null,
+      "target": null,
+      "font_size_pt": 20
+    }
+  ],
+  "editability": "SVG con texto, formas y conectores vectoriales; source.json conserva IDs y geometría.",
+  "powerpoint_note": "No se construyó el deck ni una biblioteca PPTX en esta etapa, por instrucción expresa del usuario."
+}

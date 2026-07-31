@@ -1,0 +1,163 @@
+{
+  "asset_id": "U03-DG005-S011",
+  "family_id": "U03-DG005",
+  "slide_id": "U03-011",
+  "classification": "diagrama conceptual",
+  "canvas_inches": [
+    12,
+    5.5
+  ],
+  "slide_canvas_inches": [
+    13.333,
+    7.5
+  ],
+  "minimum_fonts_pt": {
+    "main": 22,
+    "connector_label": 20,
+    "equation": 28
+  },
+  "nodes": [
+    {
+      "object_id": "node_01",
+      "bbox_inches": [
+        0.75,
+        4.05,
+        2.8,
+        0.85
+      ],
+      "text": "Medio material",
+      "font_size_pt": 24
+    },
+    {
+      "object_id": "node_02",
+      "bbox_inches": [
+        4.55,
+        4.05,
+        3.1,
+        0.85
+      ],
+      "text": "Interacción vecina",
+      "font_size_pt": 24
+    },
+    {
+      "object_id": "node_03",
+      "bbox_inches": [
+        8.65,
+        4.05,
+        2.45,
+        0.85
+      ],
+      "text": "Perturbación",
+      "font_size_pt": 24
+    }
+  ],
+  "edges": [
+    {
+      "object_id": "edge_01",
+      "start": [
+        1.42,
+        2.75
+      ],
+      "end": [
+        2.18,
+        2.75
+      ],
+      "label": "",
+      "source": null,
+      "target": null,
+      "font_size_pt": 0
+    },
+    {
+      "object_id": "edge_02",
+      "start": [
+        2.67,
+        2.75
+      ],
+      "end": [
+        3.43,
+        2.75
+      ],
+      "label": "",
+      "source": null,
+      "target": null,
+      "font_size_pt": 0
+    },
+    {
+      "object_id": "edge_03",
+      "start": [
+        3.92,
+        2.75
+      ],
+      "end": [
+        4.68,
+        2.75
+      ],
+      "label": "",
+      "source": null,
+      "target": null,
+      "font_size_pt": 0
+    },
+    {
+      "object_id": "edge_04",
+      "start": [
+        5.17,
+        2.75
+      ],
+      "end": [
+        5.93,
+        2.75
+      ],
+      "label": "",
+      "source": null,
+      "target": null,
+      "font_size_pt": 0
+    },
+    {
+      "object_id": "edge_05",
+      "start": [
+        6.42,
+        2.75
+      ],
+      "end": [
+        7.18,
+        2.75
+      ],
+      "label": "",
+      "source": null,
+      "target": null,
+      "font_size_pt": 0
+    },
+    {
+      "object_id": "edge_06",
+      "start": [
+        7.67,
+        2.75
+      ],
+      "end": [
+        8.43,
+        2.75
+      ],
+      "label": "",
+      "source": null,
+      "target": null,
+      "font_size_pt": 0
+    },
+    {
+      "object_id": "edge_07",
+      "start": [
+        8.92,
+        2.75
+      ],
+      "end": [
+        9.68,
+        2.75
+      ],
+      "label": "",
+      "source": null,
+      "target": null,
+      "font_size_pt": 0
+    }
+  ],
+  "editability": "SVG con texto, formas y conectores vectoriales; source.json conserva IDs y geometría.",
+  "powerpoint_note": "No se construyó el deck ni una biblioteca PPTX en esta etapa, por instrucción expresa del usuario."
+}

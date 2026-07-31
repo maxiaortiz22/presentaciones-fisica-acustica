@@ -1,0 +1,129 @@
+{
+  "asset_id": "U03-DG022-S076",
+  "family_id": "U03-DG022",
+  "slide_id": "U03-076",
+  "classification": "diagrama de proceso",
+  "canvas_inches": [
+    12,
+    5.5
+  ],
+  "slide_canvas_inches": [
+    13.333,
+    7.5
+  ],
+  "minimum_fonts_pt": {
+    "main": 22,
+    "connector_label": 20,
+    "equation": 28
+  },
+  "nodes": [
+    {
+      "object_id": "node_01",
+      "bbox_inches": [
+        0.35,
+        2.05,
+        1.65,
+        1.35
+      ],
+      "text": "Ruido",
+      "font_size_pt": 23
+    },
+    {
+      "object_id": "node_02",
+      "bbox_inches": [
+        2.55,
+        2.05,
+        1.65,
+        1.35
+      ],
+      "text": "Sensor",
+      "font_size_pt": 23
+    },
+    {
+      "object_id": "node_03",
+      "bbox_inches": [
+        4.75,
+        2.05,
+        1.65,
+        1.35
+      ],
+      "text": "Control",
+      "font_size_pt": 23
+    },
+    {
+      "object_id": "node_04",
+      "bbox_inches": [
+        6.95,
+        2.05,
+        1.65,
+        1.35
+      ],
+      "text": "Fuente\nsecundaria",
+      "font_size_pt": 23
+    }
+  ],
+  "edges": [
+    {
+      "object_id": "edge_01",
+      "start": [
+        2.0,
+        2.7249999999999996
+      ],
+      "end": [
+        2.55,
+        2.7249999999999996
+      ],
+      "label": "mide",
+      "source": null,
+      "target": null,
+      "font_size_pt": 20
+    },
+    {
+      "object_id": "edge_02",
+      "start": [
+        4.199999999999999,
+        2.7249999999999996
+      ],
+      "end": [
+        4.75,
+        2.7249999999999996
+      ],
+      "label": "informa",
+      "source": null,
+      "target": null,
+      "font_size_pt": 20
+    },
+    {
+      "object_id": "edge_03",
+      "start": [
+        6.4,
+        2.7249999999999996
+      ],
+      "end": [
+        6.95,
+        2.7249999999999996
+      ],
+      "label": "emite",
+      "source": null,
+      "target": null,
+      "font_size_pt": 20
+    },
+    {
+      "object_id": "edge_04",
+      "start": [
+        8.6,
+        2.7249999999999996
+      ],
+      "end": [
+        9.42,
+        2.72
+      ],
+      "label": "coinciden",
+      "source": null,
+      "target": null,
+      "font_size_pt": 20
+    }
+  ],
+  "editability": "SVG con texto, formas y conectores vectoriales; source.json conserva IDs y geometría.",
+  "powerpoint_note": "No se construyó el deck ni una biblioteca PPTX en esta etapa, por instrucción expresa del usuario."
+}

@@ -1,0 +1,21 @@
+{
+  "asset_id": "U03-CH013",
+  "classification": "gráfico cuantitativo",
+  "title": "Amplitud resultante frente a fase",
+  "slides": "U03-093",
+  "question": "¿Cómo varía la amplitud resultante con la fase para amplitudes iguales?",
+  "scale": "lineal; Δφ 0–2π rad",
+  "source": "A_R/A=sqrt(2+2cosΔφ)",
+  "outputs": [
+    {
+      "variant": "principal",
+      "svg": "u03_fig_013_amplitud_fase.svg",
+      "png": "u03_fig_013_amplitud_fase.png"
+    }
+  ],
+  "parameters_and_checks": {
+    "radicand_nonnegative": "pass",
+    "notable_points": "pass",
+    "symmetry": "pass"
+  }
+}
