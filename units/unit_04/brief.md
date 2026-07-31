@@ -245,7 +245,7 @@ La extensión no debe fijarse por estética. Con una idea dominante por slide, e
 - **respaldo con derivaciones, ejercicios adicionales, soluciones y glosario:** aproximadamente 20–32 slides;
 - **paquete total probable si se conserva todo:** aproximadamente 116–154 slides.
 
-La parte central probablemente requiera dos encuentros de 90–110 minutos o tres encuentros de 60–80 minutos. Si se dispone de un único encuentro, habrá que decidir explícitamente qué ampliaciones pasan a material complementario; no se recomienda comprimir tipografía, eliminar ejemplos críticos ni omitir condiciones de validez.
+La ruta central validada requiere cuatro encuentros de aproximadamente 75–100 minutos: B00–B03, B04–B06, B07–B08 y B09–B11. Las slides complementarias y de respaldo no deben incorporarse automáticamente; se usan según dudas, tiempo y objetivos del grupo. Si se dispone de menos encuentros, habrá que definir una ruta de corte explícita; no se recomienda acelerar fórmulas, eliminar ejemplos críticos ni omitir condiciones de validez.
 
 ## Clasificación preliminar del contenido
 

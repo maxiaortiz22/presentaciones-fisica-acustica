@@ -1,0 +1,923 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/kpjbqw",
+    "id": "kpjbqw",
+    "slide": 1,
+    "layoutId": "727b2da4-8672-4984-b44d-6c17daff852b",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "6a7c27f0-f1c8-4b8d-b0e7-9972bd214b8a",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#FFFFFF",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "+mn-lt"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "727b2da4-8672-4984-b44d-6c17daff852b",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "6a7c27f0-f1c8-4b8d-b0e7-9972bd214b8a",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "6a7c27f0-f1c8-4b8d-b0e7-9972bd214b8a",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/36h8r2l0",
+      "id": "1",
+      "name": "phys-frame",
+      "bbox": [
+        80,
+        95,
+        520,
+        150
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#E7F1F1",
+      "lineColor": "#2F7E83",
+      "lineWidth": 2
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/47qpk7ml",
+      "id": "2",
+      "name": "perc-frame",
+      "bbox": [
+        680,
+        95,
+        520,
+        150
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#F8EDE2",
+      "lineColor": "#9F541A",
+      "lineWidth": 2
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/pszqts36",
+      "id": "3",
+      "name": "c0-frame",
+      "bbox": [
+        110,
+        385,
+        210,
+        100
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#E7F1F1",
+      "lineColor": "#2F7E83",
+      "lineWidth": 2
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/u1o7ed4j",
+      "id": "4",
+      "name": "c1-frame",
+      "bbox": [
+        390,
+        385,
+        210,
+        100
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#E7F1F1",
+      "lineColor": "#2F7E83",
+      "lineWidth": 2
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/f2xonilo",
+      "id": "5",
+      "name": "c2-frame",
+      "bbox": [
+        670,
+        385,
+        210,
+        100
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#E7F1F1",
+      "lineColor": "#2F7E83",
+      "lineWidth": 2
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/g3qpgnm9",
+      "id": "6",
+      "name": "c3-frame",
+      "bbox": [
+        950,
+        385,
+        210,
+        100
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#F8EDE2",
+      "lineColor": "#9F541A",
+      "lineWidth": 2
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/h4zqps3u",
+      "id": "7",
+      "name": "U04-DG-003-edge-c0-c1",
+      "bbox": [
+        320,
+        435,
+        70,
+        0
+      ],
+      "geometry": "straightConnector1",
+      "lineColor": "#2F7E83",
+      "lineWidth": 2.5
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/6xo7ad47",
+      "id": "8",
+      "name": "U04-DG-003-edge-c1-c2",
+      "bbox": [
+        600,
+        435,
+        70,
+        0
+      ],
+      "geometry": "straightConnector1",
+      "lineColor": "#2F7E83",
+      "lineWidth": 2.5
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7yxojils",
+      "id": "9",
+      "name": "U04-DG-003-edge-c2-c3",
+      "bbox": [
+        880,
+        435,
+        70,
+        0
+      ],
+      "geometry": "straightConnector1",
+      "lineColor": "#9F541A",
+      "lineWidth": 2.5
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7mt0by9k",
+      "id": "10",
+      "name": "phys-text",
+      "bbox": [
+        98,
+        113,
+        484,
+        114
+      ],
+      "geometry": "rect",
+      "text": "FENÓMENO FÍSICO\nCampo medible sin oyente",
+      "textPreview": "FENÓMENO FÍSICO | Campo medible sin oyente",
+      "resolvedFontSize": 26,
+      "resolvedTextStyle": {
+        "fontSize": 26,
+        "typeface": "+mn-lt",
+        "color": "#242A2E",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "FENÓMENO FÍSICO"
+          },
+          {
+            "index": 2,
+            "text": "Campo medible sin oyente"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "FENÓMENO FÍSICO",
+          "resolvedTextStyle": {
+            "fontSize": 26,
+            "color": "#242A2E",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "FENÓMENO FÍSICO",
+              "fontSize": 26,
+              "color": "#242A2E",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "Campo medible sin oyente",
+          "resolvedTextStyle": {
+            "fontSize": 26,
+            "color": "#242A2E",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Campo medible sin oyente",
+              "fontSize": 26,
+              "color": "#242A2E",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#E7F1F1",
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/6lkjit8z",
+      "id": "11",
+      "name": "perc-text",
+      "bbox": [
+        698,
+        113,
+        484,
+        114
+      ],
+      "geometry": "rect",
+      "text": "EXPERIENCIA PERCEPTUAL\nRespuesta del sistema auditivo",
+      "textPreview": "EXPERIENCIA PERCEPTUAL | Respuesta del sistema auditivo",
+      "resolvedFontSize": 26,
+      "resolvedTextStyle": {
+        "fontSize": 26,
+        "typeface": "+mn-lt",
+        "color": "#242A2E",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "EXPERIENCIA PERCEPTUAL"
+          },
+          {
+            "index": 2,
+            "text": "Respuesta del sistema auditivo"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "EXPERIENCIA PERCEPTUAL",
+          "resolvedTextStyle": {
+            "fontSize": 26,
+            "color": "#242A2E",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "EXPERIENCIA PERCEPTUAL",
+              "fontSize": 26,
+              "color": "#242A2E",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "Respuesta del sistema auditivo",
+          "resolvedTextStyle": {
+            "fontSize": 26,
+            "color": "#242A2E",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Respuesta del sistema auditivo",
+              "fontSize": 26,
+              "color": "#242A2E",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#F8EDE2",
+      "lineWidth": 0
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/tobid8rq",
+      "id": "12",
+      "name": "c0-text",
+      "bbox": [
+        128,
+        403,
+        174,
+        64
+      ],
+      "geometry": "rect",
+      "text": "Fuente",
+      "textPreview": "Fuente",
+      "resolvedFontSize": 25,
+      "resolvedTextStyle": {
+        "fontSize": 25,
+        "typeface": "+mn-lt",
+        "color": "#242A2E",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Fuente"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Fuente",
+          "resolvedTextStyle": {
+            "fontSize": 25,
+            "color": "#242A2E",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Fuente",
+              "fontSize": 25,
+              "color": "#242A2E",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#E7F1F1",
+      "lineWidth": 0
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/sn21k3q5",
+      "id": "13",
+      "name": "c1-text",
+      "bbox": [
+        408,
+        403,
+        174,
+        64
+      ],
+      "geometry": "rect",
+      "text": "Medio",
+      "textPreview": "Medio",
+      "resolvedFontSize": 25,
+      "resolvedTextStyle": {
+        "fontSize": 25,
+        "typeface": "+mn-lt",
+        "color": "#242A2E",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Medio"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Medio",
+          "resolvedTextStyle": {
+            "fontSize": 25,
+            "color": "#242A2E",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Medio",
+              "fontSize": 25,
+              "color": "#242A2E",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#E7F1F1",
+      "lineWidth": 0
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/fad0fi9g",
+      "id": "14",
+      "name": "c2-text",
+      "bbox": [
+        688,
+        403,
+        174,
+        64
+      ],
+      "geometry": "rect",
+      "text": "Campo",
+      "textPreview": "Campo",
+      "resolvedFontSize": 25,
+      "resolvedTextStyle": {
+        "fontSize": 25,
+        "typeface": "+mn-lt",
+        "color": "#242A2E",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Campo"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Campo",
+          "resolvedTextStyle": {
+            "fontSize": 25,
+            "color": "#242A2E",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Campo",
+              "fontSize": 25,
+              "color": "#242A2E",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#E7F1F1",
+      "lineWidth": 0
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/up4jmd8b",
+      "id": "15",
+      "name": "c3-text",
+      "bbox": [
+        968,
+        403,
+        174,
+        64
+      ],
+      "geometry": "rect",
+      "text": "Receptor",
+      "textPreview": "Receptor",
+      "resolvedFontSize": 25,
+      "resolvedTextStyle": {
+        "fontSize": 25,
+        "typeface": "+mn-lt",
+        "color": "#242A2E",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Receptor"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Receptor",
+          "resolvedTextStyle": {
+            "fontSize": 25,
+            "color": "#242A2E",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Receptor",
+              "fontSize": 25,
+              "color": "#242A2E",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#F8EDE2",
+      "lineWidth": 0
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/hcvih87m",
+      "id": "16",
+      "name": "U04-DG-003-label-c0-c1-text",
+      "bbox": [
+        270,
+        387,
+        170,
+        30
+      ],
+      "geometry": "rect",
+      "text": "perturba",
+      "textPreview": "perturba",
+      "resolvedFontSize": 21,
+      "resolvedTextStyle": {
+        "fontSize": 21,
+        "typeface": "+mn-lt",
+        "color": "#2F7E83",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "perturba"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "perturba",
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "color": "#2F7E83",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "perturba",
+              "fontSize": 21,
+              "color": "#2F7E83",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#FFFFFF",
+      "lineWidth": 0
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/gbm1o3q1",
+      "id": "17",
+      "name": "U04-DG-003-label-c1-c2-text",
+      "bbox": [
+        550,
+        387,
+        170,
+        30
+      ],
+      "geometry": "rect",
+      "text": "sostiene",
+      "textPreview": "sostiene",
+      "resolvedFontSize": 21,
+      "resolvedTextStyle": {
+        "fontSize": 21,
+        "typeface": "+mn-lt",
+        "color": "#2F7E83",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "sostiene"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "sostiene",
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "color": "#2F7E83",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "sostiene",
+              "fontSize": 21,
+              "color": "#2F7E83",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#FFFFFF",
+      "lineWidth": 0
+    },
+    {
+      "order": 18,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/be903e9c",
+      "id": "18",
+      "name": "U04-DG-003-label-c2-c3-text",
+      "bbox": [
+        830,
+        387,
+        170,
+        30
+      ],
+      "geometry": "rect",
+      "text": "responde",
+      "textPreview": "responde",
+      "resolvedFontSize": 21,
+      "resolvedTextStyle": {
+        "fontSize": 21,
+        "typeface": "+mn-lt",
+        "color": "#9F541A",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "responde"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "responde",
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "color": "#9F541A",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "responde",
+              "fontSize": 21,
+              "color": "#9F541A",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#FFFFFF",
+      "lineWidth": 0
+    },
+    {
+      "order": 19,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/at0za98r",
+      "id": "19",
+      "name": "sum-text",
+      "bbox": [
+        250,
+        565,
+        780,
+        55
+      ],
+      "geometry": "rect",
+      "text": "Medir el campo no equivale a describir una sensación.",
+      "textPreview": "Medir el campo no equivale a describir una sensación.",
+      "resolvedFontSize": 25,
+      "resolvedTextStyle": {
+        "fontSize": 25,
+        "typeface": "+mn-lt",
+        "color": "#4D1434",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Medir el campo no equivale a describir una sensación."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Medir el campo no equivale a describir una sensación.",
+          "resolvedTextStyle": {
+            "fontSize": 25,
+            "color": "#4D1434",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Medir el campo no equivale a describir una sensación.",
+              "fontSize": 25,
+              "color": "#4D1434",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}
