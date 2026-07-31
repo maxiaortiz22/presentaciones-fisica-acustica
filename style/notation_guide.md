@@ -38,10 +38,11 @@
 | temperatura | `T_\mathrm{temp}` o `θ` | K o °C | 2 | En fórmulas termodinámicas usar K; evitar colisión con período `T`. |
 | trabajo | `W_\mathrm{trab}` | J | 2 | Calificar si comparte contexto con potencia acústica o watt. En la primera ley puede usarse `W_\mathrm{sobre}` para el trabajo sobre el sistema. |
 | energía | `E` | J | 2 | Añadir subíndice: `E_k`, `E_p`, `E_\mathrm{ac}`. |
-| potencia mecánica | `P` | W | 2 | Para potencia acústica se conserva `W_\mathrm{ac}` según uso del libro, pero `P_\mathrm{ac}` es aceptable si se acuerda globalmente. |
+| potencia mecánica | `P` | W | 2 | Para potencia acústica se usa `W_\mathrm{ac}` como convención transversal; `P_\mathrm{ac}` queda reservado para citas o fuentes externas que deban conservarse. |
 | calor transferido | `Q_\mathrm{calor}` | J | 2 | Evita colisión con factor de directividad `Q_\mathrm{dir}`. |
 | entropía | `S_\mathrm{ent}` | J·K⁻¹ | 2 | El calificador evita colisión con área `S`. |
 | constante elástica | `k_\mathrm{s}` | N·m⁻¹ | 2 | Evita colisión con número de onda. |
+| módulo volumétrico adiabático | `K_\mathrm{s}` | Pa | 4 | La mayúscula es significativa: no confundir con la constante elástica `k_s` de un resorte. |
 | coeficiente de amortiguamiento | `b` | N·s·m⁻¹ | 2 | Declarar el modelo al que pertenece. |
 
 ### Convención de balance energético adoptada en la Unidad 2
@@ -107,9 +108,11 @@ si `ξ` y `A_ξ` se definen con su unidad. Desde U4, cuando la magnitud ya está
 | presión de referencia | `p_\mathrm{ref}` | Pa | En aire, habitualmente 20 µPa; bajo agua suele emplearse 1 µPa. Declarar siempre. |
 | velocidad de partícula | `u(t)` | m·s⁻¹ | Valor instantáneo; usar `u_rms` si corresponde. |
 | impedancia acústica específica | `Z` | Pa·s·m⁻¹ | En general compleja; en onda plana progresiva ideal `Z≈ρc`. |
+| impedancia característica del medio | `Z_0` | Pa·s·m⁻¹ | En una onda plana progresiva ideal de un medio homogéneo y sin pérdidas, `Z_0=ρ_0c`. No sustituye a `Z` en un campo general. |
+| intensidad acústica instantánea | `i(t)` | W·m⁻² | `i(t)=p(t)u(t)` para componentes colineales y convención de signo declarada; puede ser negativa. |
 | intensidad sonora | `I` | W·m⁻² | Promedio temporal del flujo de potencia por área. |
 | intensidad de referencia | `I_\mathrm{ref}` | W·m⁻² | Declarar cuando se use nivel de intensidad. |
-| potencia acústica | `W_\mathrm{ac}` | W | El símbolo y la unidad coinciden tipográficamente si se escribe `W`; mantener subíndice. |
+| potencia acústica | `W_\mathrm{ac}` | W | Convención transversal del curso. El símbolo y la unidad coinciden tipográficamente si se escribe `W`; mantener subíndice. |
 | potencia de referencia | `W_\mathrm{ref}` | W | Declarar según el contexto. |
 | energía acústica | `E_\mathrm{ac}` | J | No confundir con exposición sonora. |
 | factor de directividad | `Q_\mathrm{dir}` | 1 | Adimensional; evita colisión con calor. |
@@ -230,7 +233,9 @@ Para gráficos espectrales, indicar:
 
 | Magnitud | Símbolo | Unidad | Convención |
 |---|---:|---:|---|
-| coeficiente de reflexión energético | `R_E` | 1 | `0≤R_E≤1`; no confundir con coeficiente de presión. |
+| coeficiente de reflexión de presión | `R_p` | 1 | Razón de amplitudes de presión; puede incluir signo o fase. Definir incidencia y medios. |
+| coeficiente de reflexión de intensidad | `R_I` | 1 | Razón entre intensidades medias reflejada e incidente; `0≤R_I≤1` en el caso pasivo ideal. |
+| coeficiente de reflexión energético genérico | `R_E` | 1 | Usar solo cuando la fuente o un balance energético requiera esa denominación; no sustituir automáticamente a `R_I`. |
 | coeficiente de absorción | `α` | 1 | Dependiente de frecuencia y condiciones de montaje. |
 | coeficiente de transmisión energético | `τ` | 1 | En balance ideal sin otras pérdidas: `R_E+α+τ=1`, según definiciones. |
 | área de absorción equivalente | `A_\mathrm{eq}` | m² sabin | Evita colisión con amplitud. |
@@ -266,9 +271,9 @@ debe indicarse que la constante corresponde a unidades SI y a condiciones aproxi
 | `k` | constante elástica, número de onda | `k_s` y `k_onda`. |
 | `T` | período, temperatura, duración | `T` para período; `T_temp`/`θ` para temperatura; `T_obs` para observación. |
 | `S` | área, entropía, densidad espectral | `S` para área solo si no hay espectro; `S_ent`; `S_x(f)` para PSD. |
-| `W` | trabajo, potencia acústica, watt | `W_trab`, `W_ac`; unidad `W` en redonda. |
+| `W` | trabajo, potencia acústica, watt | `W_trab`, `W_ac`; unidad `W` en redonda. `P_ac` solo al conservar notación externa explícita. |
 | `p_0` | presión estática o presión de referencia | `p_0` para estática; `p_ref` para referencia de nivel. |
-| `R` | reflexión, resistencia, aislamiento | `R_E` para reflexión energética; `R` solo para índice de reducción con rótulo. |
+| `R` | reflexión, resistencia, aislamiento | `R_p` para presión reflejada, `R_I` para razón de intensidades y `R_E` solo para fracción energética genérica definida; `R` solo para índice de reducción con rótulo. |
 | `N` | número de muestras, sonoridad | `N` para muestras; `N_son` en psicoacústica si coinciden. |
 | `τ` | retardo, coeficiente de transmisión | `τ_d` para retardo si aparece junto a transmisión; `τ_E` para transmisión. |
 
@@ -299,7 +304,6 @@ Antes de aprobar una ecuación para material docente:
 
 ## Pendientes de validación docente
 
-- Elegir definitivamente `P_ac` o `W_ac` para potencia acústica.
 - Confirmar notación aceptada en Audiología para PEAT/PEATC y escalas de nivel.
 - Elegir la norma que fijará descriptores de sonómetro, exposición y cabina.
 - Decidir cuánta notación de DFT/FFT será obligatoria frente a opcional.

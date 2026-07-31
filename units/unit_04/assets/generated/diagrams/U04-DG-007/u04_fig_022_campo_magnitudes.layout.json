@@ -1,0 +1,632 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/3ng34h",
+    "id": "3ng34h",
+    "slide": 1,
+    "layoutId": "9921d512-a1b9-4b94-8ee5-fcf6c6b182e1",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "c528e158-544e-44e7-886e-7fae09622b54",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#FFFFFF",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "+mn-lt"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "9921d512-a1b9-4b94-8ee5-fcf6c6b182e1",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "c528e158-544e-44e7-886e-7fae09622b54",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "c528e158-544e-44e7-886e-7fae09622b54",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ju9o72tw",
+      "id": "1",
+      "name": "field-frame",
+      "bbox": [
+        65,
+        140,
+        350,
+        380
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#E7F1F1",
+      "lineColor": "#2F7E83",
+      "lineWidth": 2
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/kvipg7u1",
+      "id": "2",
+      "name": "press-frame",
+      "bbox": [
+        465,
+        140,
+        350,
+        380
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#4D1434",
+      "lineWidth": 2
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/lgr69cbm",
+      "id": "3",
+      "name": "speed-frame",
+      "bbox": [
+        865,
+        140,
+        350,
+        380
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#F8EDE2",
+      "lineColor": "#9F541A",
+      "lineWidth": 2
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/apg7axcz",
+      "id": "4",
+      "name": "field-text",
+      "bbox": [
+        83,
+        158,
+        314,
+        344
+      ],
+      "geometry": "rect",
+      "text": "CAMPO ACÚSTICO\n\np(r,t)\nu(r,t)\nI(r,t)\n\nDos puntos pueden tener\nvalores diferentes.",
+      "textPreview": "CAMPO ACÚSTICO |  | p(r,t) | u(r,t) | I(r,t) |  | Dos puntos pueden tener | valores diferentes.",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "color": "#242A2E",
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 8,
+        "lines": [
+          {
+            "index": 1,
+            "text": "CAMPO ACÚSTICO"
+          },
+          {
+            "index": 2,
+            "text": ""
+          },
+          {
+            "index": 3,
+            "text": "p(r,t)"
+          },
+          {
+            "index": 4,
+            "text": "u(r,t)"
+          },
+          {
+            "index": 5,
+            "text": "I(r,t)"
+          },
+          {
+            "index": 6,
+            "text": ""
+          },
+          {
+            "index": 7,
+            "text": "Dos puntos pueden tener"
+          },
+          {
+            "index": 8,
+            "text": "valores diferentes."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "CAMPO ACÚSTICO",
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "color": "#242A2E",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "CAMPO ACÚSTICO",
+              "fontSize": 24,
+              "color": "#242A2E",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "p(r,t)",
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "color": "#242A2E",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "p(r,t)",
+              "fontSize": 24,
+              "color": "#242A2E",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 4,
+          "text": "u(r,t)",
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "color": "#242A2E",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "u(r,t)",
+              "fontSize": 24,
+              "color": "#242A2E",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 5,
+          "text": "I(r,t)",
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "color": "#242A2E",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "I(r,t)",
+              "fontSize": 24,
+              "color": "#242A2E",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 7,
+          "text": "Dos puntos pueden tener",
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "color": "#242A2E",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Dos puntos pueden tener",
+              "fontSize": 24,
+              "color": "#242A2E",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 8,
+          "text": "valores diferentes.",
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "color": "#242A2E",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "valores diferentes.",
+              "fontSize": 24,
+              "color": "#242A2E",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#E7F1F1",
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/bqpo32tk",
+      "id": "5",
+      "name": "press-text",
+      "bbox": [
+        483,
+        158,
+        314,
+        344
+      ],
+      "geometry": "rect",
+      "text": "PRESIÓN ACÚSTICA\n\np_total = p₀ + p\n\np > 0: sobrepresión\np < 0: rarefacción\n\np_total sigue positiva.",
+      "textPreview": "PRESIÓN ACÚSTICA |  | p_total = p₀ + p |  | p > 0: sobrepresión | p < 0: rarefacción |  | p_total sigue positiva.",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "color": "#242A2E",
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 8,
+        "lines": [
+          {
+            "index": 1,
+            "text": "PRESIÓN ACÚSTICA"
+          },
+          {
+            "index": 2,
+            "text": ""
+          },
+          {
+            "index": 3,
+            "text": "p_total = p₀ + p"
+          },
+          {
+            "index": 4,
+            "text": ""
+          },
+          {
+            "index": 5,
+            "text": "p > 0: sobrepresión"
+          },
+          {
+            "index": 6,
+            "text": "p < 0: rarefacción"
+          },
+          {
+            "index": 7,
+            "text": ""
+          },
+          {
+            "index": 8,
+            "text": "p_total sigue positiva."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "PRESIÓN ACÚSTICA",
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "color": "#242A2E",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "PRESIÓN ACÚSTICA",
+              "fontSize": 24,
+              "color": "#242A2E",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "p_total = p₀ + p",
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "color": "#242A2E",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "p_total = p₀ + p",
+              "fontSize": 24,
+              "color": "#242A2E",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 5,
+          "text": "p > 0: sobrepresión",
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "color": "#242A2E",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "p > 0: sobrepresión",
+              "fontSize": 24,
+              "color": "#242A2E",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 6,
+          "text": "p < 0: rarefacción",
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "color": "#242A2E",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "p < 0: rarefacción",
+              "fontSize": 24,
+              "color": "#242A2E",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 8,
+          "text": "p_total sigue positiva.",
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "color": "#242A2E",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "p_total sigue positiva.",
+              "fontSize": 24,
+              "color": "#242A2E",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#FFFFFF",
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wripcnu5",
+      "id": "6",
+      "name": "speed-text",
+      "bbox": [
+        883,
+        158,
+        314,
+        344
+      ],
+      "geometry": "rect",
+      "text": "DOS VELOCIDADES\n\nu: movimiento local\nc: avance de la onda\n\nAmbas: m/s\nNo son la misma magnitud.",
+      "textPreview": "DOS VELOCIDADES |  | u: movimiento local | c: avance de la onda |  | Ambas: m/s | No son la misma magnitud.",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "color": "#242A2E",
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 7,
+        "lines": [
+          {
+            "index": 1,
+            "text": "DOS VELOCIDADES"
+          },
+          {
+            "index": 2,
+            "text": ""
+          },
+          {
+            "index": 3,
+            "text": "u: movimiento local"
+          },
+          {
+            "index": 4,
+            "text": "c: avance de la onda"
+          },
+          {
+            "index": 5,
+            "text": ""
+          },
+          {
+            "index": 6,
+            "text": "Ambas: m/s"
+          },
+          {
+            "index": 7,
+            "text": "No son la misma magnitud."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "DOS VELOCIDADES",
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "color": "#242A2E",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "DOS VELOCIDADES",
+              "fontSize": 24,
+              "color": "#242A2E",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "u: movimiento local",
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "color": "#242A2E",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "u: movimiento local",
+              "fontSize": 24,
+              "color": "#242A2E",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 4,
+          "text": "c: avance de la onda",
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "color": "#242A2E",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "c: avance de la onda",
+              "fontSize": 24,
+              "color": "#242A2E",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 6,
+          "text": "Ambas: m/s",
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "color": "#242A2E",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Ambas: m/s",
+              "fontSize": 24,
+              "color": "#242A2E",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 7,
+          "text": "No son la misma magnitud.",
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "color": "#242A2E",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "No son la misma magnitud.",
+              "fontSize": 24,
+              "color": "#242A2E",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#F8EDE2",
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

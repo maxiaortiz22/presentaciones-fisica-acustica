@@ -38,6 +38,7 @@
 | temperatura | Magnitud que caracteriza el estado térmico y condiciona el intercambio de calor. | 2 | Influye sobre la rapidez de propagación. |
 | entropía | Función de estado asociada con la dispersión de energía y la irreversibilidad macroscópica. | 2 | Tratar cualitativamente en este curso. |
 | elasticidad | Capacidad de un medio de desarrollar fuerzas restauradoras ante una deformación. | 2 | Junto con la inercia permite oscilaciones y propagación. |
+| módulo volumétrico adiabático | Medida de la resistencia de un medio a una compresión uniforme bajo condiciones adiabáticas. | 4 | Símbolo `K_s`; unidad: Pa. Distinguir de la constante elástica `k_s` de un resorte. |
 | amortiguamiento | Pérdida de energía mecánica que reduce una oscilación o respuesta. | 2 | No equivale a absorción acústica, aunque se relaciona con disipación. |
 | resonancia | Respuesta aumentada de un sistema cerca de una o más frecuencias propias. | 2 | No implica amplificación ilimitada; depende del amortiguamiento. |
 
@@ -64,9 +65,12 @@
 | valor eficaz (RMS) | Raíz cuadrada del promedio temporal del cuadrado de una señal. | 4 | Para una senoide, `p_rms=p_pico/√2`; no generalizar a cualquier señal. |
 | velocidad de partícula | Velocidad oscilatoria local de las partículas del medio. | 3 | Símbolo recomendado `u`; se introduce cualitativamente en U3 y se formaliza como magnitud acústica en U4. No es la rapidez del sonido. |
 | rapidez de propagación | Rapidez con que avanza una fase o perturbación en un medio bajo condiciones definidas. | 3 | Símbolo `c`. “Velocidad de propagación” se admite como uso acústico convencional cuando no se confunde con una velocidad vectorial. |
+| intensidad acústica instantánea | Flujo instantáneo de potencia acústica por unidad de área en la dirección elegida. | 4 | Símbolo `i(t)`; unidad: W·m⁻². Puede cambiar de signo y no equivale a la intensidad sonora media `I`. |
 | intensidad sonora | Potencia acústica media que atraviesa una unidad de área normal a la propagación. | 4 | Símbolo `I`; unidad: W·m⁻². |
-| potencia acústica | Energía acústica emitida o transferida por unidad de tiempo. | 4 | Propiedad de la fuente bajo condiciones definidas; símbolo `W_ac` recomendado en contextos ambiguos. |
+| potencia acústica | Energía acústica emitida o transferida por unidad de tiempo. | 4 | Propiedad de la fuente bajo condiciones definidas; símbolo transversal `W_ac`. |
 | impedancia acústica específica | Relación compleja entre presión acústica y velocidad de partícula. | 4 | Símbolo `Z`; unidad: Pa·s·m⁻¹. |
+| coeficiente de reflexión de presión | Razón entre amplitudes de presión reflejada e incidente bajo condiciones declaradas. | 4 | Símbolo `R_p`; es adimensional y puede conservar signo o fase. No equivale a una fracción de energía. |
+| coeficiente de reflexión de intensidad | Razón entre intensidad media reflejada e incidente bajo condiciones declaradas. | 4 | Símbolo `R_I`; es adimensional. En incidencia normal ideal entre medios sin pérdidas puede relacionarse con `|R_p|²`. |
 | campo acústico | Distribución espacial y temporal de las magnitudes acústicas. | 4 | Distinguir campo libre, cercano, lejano y reverberante. |
 | campo libre | Idealización sin reflexiones significativas en el punto de observación. | 4 | La ley de distancia requiere además hipótesis sobre la fuente. |
 | fuente omnidireccional | Fuente ideal que radia por igual en todas las direcciones. | 4 | Modelo de referencia, dependiente de frecuencia en fuentes reales. |
@@ -79,7 +83,8 @@
 
 | Término preferido | Definición de trabajo | Primera unidad | Reutilización / advertencia |
 |---|---|---:|---|
-| señal | Representación de una magnitud variable que porta información sobre un fenómeno. | 5 | Puede analizarse en tiempo, frecuencia u otros dominios. |
+| señal | Representación de una magnitud variable que porta información sobre un fenómeno. | 4 | En U4 se usa para descriptores temporales; el análisis formal en tiempo y frecuencia se desarrolla en U5. |
+| señal compleja o compuesta | Señal que no se reduce a una única componente sinusoidal en el modelo considerado. | 4 | No confundir el adjetivo “compleja” con una representación mediante números complejos; su descomposición frecuencial se formaliza en U5. |
 | espectro | Representación de cómo se distribuye una señal según frecuencia. | 5 | Es propiedad de la señal observada y del método de análisis. |
 | respuesta en frecuencia | Relación entre salida y entrada de un sistema en función de la frecuencia. | 5 | No es el espectro de una señal. |
 | serie de Fourier | Representación de una señal periódica como suma de componentes sinusoidales. | 5 | Requiere aclarar condiciones y alcance. |
@@ -95,7 +100,7 @@
 | ancho de banda | Extensión de frecuencias comprendida entre límites definidos. | 5 | Puede expresarse en Hz, octavas u otra medida especificada. |
 | espectrograma | Representación de contenido frecuencial a lo largo del tiempo. | 5 | Color/intensidad representa magnitud definida; resolución temporal y frecuencial están acopladas. |
 | ponderación A | Respuesta frecuencial normalizada usada en mediciones de nivel sonoro. | 5 | Expresar como dB(A) o `L_A...`; no representa una audición individual. |
-| sonómetro | Instrumento que mide niveles sonoros conforme a configuraciones y, cuando corresponda, normas definidas. | 5 | Evitar “decibelímetro”; registrar ponderación, tiempo y descriptor. |
+| sonómetro | Instrumento que mide niveles sonoros conforme a configuraciones y, cuando corresponda, normas definidas. | 4 | Se anticipa conceptualmente en U4; ponderaciones, respuesta temporal y descriptores se formalizan en U5 y se retoman en U10. Evitar “decibelímetro”. |
 | nivel sonoro continuo equivalente | Nivel constante que contiene la misma energía cuadrática media que un sonido variable durante un intervalo. | 5 | Símbolo `L_eq,T`; con ponderación A, `L_Aeq,T`. |
 
 ## Audición, percepción y clínica

@@ -1,0 +1,786 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/w0ya04",
+    "id": "w0ya04",
+    "slide": 1,
+    "layoutId": "6c1eac1f-0b86-4245-8038-47eb20037e3d",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "3fa91d10-39a7-482f-a114-3c0634c43f50",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#FFFFFF",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "+mn-lt"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "6c1eac1f-0b86-4245-8038-47eb20037e3d",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "3fa91d10-39a7-482f-a114-3c0634c43f50",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "3fa91d10-39a7-482f-a114-3c0634c43f50",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/lkb6t8v6",
+      "id": "1",
+      "name": "e0-frame",
+      "bbox": [
+        65,
+        70,
+        560,
+        120
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#2F7E83",
+      "lineWidth": 2
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/yh0nydcv",
+      "id": "2",
+      "name": "e1-frame",
+      "bbox": [
+        65,
+        220,
+        560,
+        120
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FBF8F2",
+      "lineColor": "#4D1434",
+      "lineWidth": 2
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/jitorydg",
+      "id": "3",
+      "name": "e2-frame",
+      "bbox": [
+        65,
+        370,
+        560,
+        120
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#2F7E83",
+      "lineWidth": 2
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/s7254nux",
+      "id": "4",
+      "name": "e3-frame",
+      "bbox": [
+        65,
+        520,
+        560,
+        120
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FBF8F2",
+      "lineColor": "#4D1434",
+      "lineWidth": 2
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/t8b6xsvi",
+      "id": "5",
+      "name": "e4-frame",
+      "bbox": [
+        655,
+        70,
+        560,
+        120
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#2F7E83",
+      "lineWidth": 2
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/6lkn2dcr",
+      "id": "6",
+      "name": "e5-frame",
+      "bbox": [
+        655,
+        220,
+        560,
+        120
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FBF8F2",
+      "lineColor": "#4D1434",
+      "lineWidth": 2
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/76tovidc",
+      "id": "7",
+      "name": "e6-frame",
+      "bbox": [
+        655,
+        370,
+        560,
+        120
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#2F7E83",
+      "lineWidth": 2
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/obi5sjut",
+      "id": "8",
+      "name": "e0-text",
+      "bbox": [
+        83,
+        88,
+        524,
+        84
+      ],
+      "geometry": "rect",
+      "text": "ERROR: u = c\nCORRECCIÓN: movimiento local ≠ propagación",
+      "textPreview": "ERROR: u = c | CORRECCIÓN: movimiento local ≠ propagación",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "fontSize": 22,
+        "typeface": "+mn-lt",
+        "color": "#242A2E",
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "ERROR: u = c"
+          },
+          {
+            "index": 2,
+            "text": "CORRECCIÓN: movimiento local ≠ propagación"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "ERROR: u = c",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "color": "#242A2E",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "ERROR: u = c",
+              "fontSize": 22,
+              "color": "#242A2E",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "CORRECCIÓN: movimiento local ≠ propagación",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "color": "#242A2E",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "CORRECCIÓN: movimiento local ≠ propagación",
+              "fontSize": 22,
+              "color": "#242A2E",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#FFFFFF",
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/9cr6lovy",
+      "id": "9",
+      "name": "e1-text",
+      "bbox": [
+        83,
+        238,
+        524,
+        84
+      ],
+      "geometry": "rect",
+      "text": "ERROR: media cero = señal nula\nCORRECCIÓN: RMS puede ser distinto de cero",
+      "textPreview": "ERROR: media cero = señal nula | CORRECCIÓN: RMS puede ser distinto de cero",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "fontSize": 22,
+        "typeface": "+mn-lt",
+        "color": "#242A2E",
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "ERROR: media cero = señal nula"
+          },
+          {
+            "index": 2,
+            "text": "CORRECCIÓN: RMS puede ser distinto de cero"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "ERROR: media cero = señal nula",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "color": "#242A2E",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "ERROR: media cero = señal nula",
+              "fontSize": 22,
+              "color": "#242A2E",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "CORRECCIÓN: RMS puede ser distinto de cero",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "color": "#242A2E",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "CORRECCIÓN: RMS puede ser distinto de cero",
+              "fontSize": 22,
+              "color": "#242A2E",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#FBF8F2",
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/t0b2twzu",
+      "id": "10",
+      "name": "e2-text",
+      "bbox": [
+        83,
+        388,
+        524,
+        84
+      ],
+      "geometry": "rect",
+      "text": "ERROR: RMS = pico/√2 siempre\nCORRECCIÓN: solo vale para una senoide",
+      "textPreview": "ERROR: RMS = pico/√2 siempre | CORRECCIÓN: solo vale para una senoide",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "fontSize": 22,
+        "typeface": "+mn-lt",
+        "color": "#242A2E",
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "ERROR: RMS = pico/√2 siempre"
+          },
+          {
+            "index": 2,
+            "text": "CORRECCIÓN: solo vale para una senoide"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "ERROR: RMS = pico/√2 siempre",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "color": "#242A2E",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "ERROR: RMS = pico/√2 siempre",
+              "fontSize": 22,
+              "color": "#242A2E",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "CORRECCIÓN: solo vale para una senoide",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "color": "#242A2E",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "CORRECCIÓN: solo vale para una senoide",
+              "fontSize": 22,
+              "color": "#242A2E",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#FFFFFF",
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/sz210ry9",
+      "id": "11",
+      "name": "e3-text",
+      "bbox": [
+        83,
+        538,
+        524,
+        84
+      ],
+      "geometry": "rect",
+      "text": "ERROR: sumar dB aritméticamente\nCORRECCIÓN: sumar magnitudes según el caso",
+      "textPreview": "ERROR: sumar dB aritméticamente | CORRECCIÓN: sumar magnitudes según el caso",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "fontSize": 22,
+        "typeface": "+mn-lt",
+        "color": "#242A2E",
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "ERROR: sumar dB aritméticamente"
+          },
+          {
+            "index": 2,
+            "text": "CORRECCIÓN: sumar magnitudes según el caso"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "ERROR: sumar dB aritméticamente",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "color": "#242A2E",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "ERROR: sumar dB aritméticamente",
+              "fontSize": 22,
+              "color": "#242A2E",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "CORRECCIÓN: sumar magnitudes según el caso",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "color": "#242A2E",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "CORRECCIÓN: sumar magnitudes según el caso",
+              "fontSize": 22,
+              "color": "#242A2E",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#FBF8F2",
+      "lineWidth": 0
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7ytkrmho",
+      "id": "12",
+      "name": "e4-text",
+      "bbox": [
+        673,
+        88,
+        524,
+        84
+      ],
+      "geometry": "rect",
+      "text": "ERROR: −6 dB siempre\nCORRECCIÓN: solo bajo modelo esférico válido",
+      "textPreview": "ERROR: −6 dB siempre | CORRECCIÓN: solo bajo modelo esférico válido",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "fontSize": 22,
+        "typeface": "+mn-lt",
+        "color": "#242A2E",
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "ERROR: −6 dB siempre"
+          },
+          {
+            "index": 2,
+            "text": "CORRECCIÓN: solo bajo modelo esférico válido"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "ERROR: −6 dB siempre",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "color": "#242A2E",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "ERROR: −6 dB siempre",
+              "fontSize": 22,
+              "color": "#242A2E",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "CORRECCIÓN: solo bajo modelo esférico válido",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "color": "#242A2E",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "CORRECCIÓN: solo bajo modelo esférico válido",
+              "fontSize": 22,
+              "color": "#242A2E",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#FFFFFF",
+      "lineWidth": 0
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/6dkjy1g3",
+      "id": "13",
+      "name": "e5-text",
+      "bbox": [
+        673,
+        238,
+        524,
+        84
+      ],
+      "geometry": "rect",
+      "text": "ERROR: reverberante = difuso\nCORRECCIÓN: difuso requiere más condiciones",
+      "textPreview": "ERROR: reverberante = difuso | CORRECCIÓN: difuso requiere más condiciones",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "fontSize": 22,
+        "typeface": "+mn-lt",
+        "color": "#242A2E",
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "ERROR: reverberante = difuso"
+          },
+          {
+            "index": 2,
+            "text": "CORRECCIÓN: difuso requiere más condiciones"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "ERROR: reverberante = difuso",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "color": "#242A2E",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "ERROR: reverberante = difuso",
+              "fontSize": 22,
+              "color": "#242A2E",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "CORRECCIÓN: difuso requiere más condiciones",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "color": "#242A2E",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "CORRECCIÓN: difuso requiere más condiciones",
+              "fontSize": 22,
+              "color": "#242A2E",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#FBF8F2",
+      "lineWidth": 0
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/h4v2xgzq",
+      "id": "14",
+      "name": "e6-text",
+      "bbox": [
+        673,
+        388,
+        524,
+        84
+      ],
+      "geometry": "rect",
+      "text": "ERROR: dB = sonoridad\nCORRECCIÓN: nivel físico ≠ percepción",
+      "textPreview": "ERROR: dB = sonoridad | CORRECCIÓN: nivel físico ≠ percepción",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "fontSize": 22,
+        "typeface": "+mn-lt",
+        "color": "#242A2E",
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "ERROR: dB = sonoridad"
+          },
+          {
+            "index": 2,
+            "text": "CORRECCIÓN: nivel físico ≠ percepción"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "ERROR: dB = sonoridad",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "color": "#242A2E",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "ERROR: dB = sonoridad",
+              "fontSize": 22,
+              "color": "#242A2E",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "CORRECCIÓN: nivel físico ≠ percepción",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "color": "#242A2E",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "CORRECCIÓN: nivel físico ≠ percepción",
+              "fontSize": 22,
+              "color": "#242A2E",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#FFFFFF",
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}
