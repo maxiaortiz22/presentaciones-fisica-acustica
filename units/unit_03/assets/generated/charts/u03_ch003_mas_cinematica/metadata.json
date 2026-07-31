@@ -1,0 +1,26 @@
+{
+  "asset_id": "U03-CH003",
+  "classification": "gráfico cuantitativo",
+  "title": "Posición, velocidad y aceleración",
+  "slides": "U03-033–034; U03-088",
+  "question": "¿Cómo se coordinan posición, velocidad y aceleración durante un ciclo?",
+  "scale": "lineal y normalizada",
+  "source": "modelo exacto normalizado del MAS",
+  "outputs": [
+    {
+      "variant": "explicacion",
+      "svg": "u03_fig_003_mas_cinematica_explicacion.svg",
+      "png": "u03_fig_003_mas_cinematica_explicacion.png"
+    },
+    {
+      "variant": "pregunta",
+      "svg": "u03_fig_003_mas_cinematica_pregunta.svg",
+      "png": "u03_fig_003_mas_cinematica_pregunta.png"
+    }
+  ],
+  "parameters_and_checks": {
+    "signs": "pass",
+    "same_frequency": "pass",
+    "same_vertical_scale": "pass"
+  }
+}

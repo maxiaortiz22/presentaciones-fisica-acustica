@@ -1,0 +1,244 @@
+{
+  "asset_id": "U03-DG002-S059",
+  "family_id": "U03-DG002",
+  "slide_id": "U03-059",
+  "classification": "diagrama conceptual",
+  "canvas_inches": [
+    12,
+    5.5
+  ],
+  "slide_canvas_inches": [
+    13.333,
+    7.5
+  ],
+  "minimum_fonts_pt": {
+    "main": 22,
+    "connector_label": 20,
+    "equation": 28
+  },
+  "nodes": [
+    {
+      "object_id": "stage_01",
+      "bbox_inches": [
+        0.45,
+        3.35,
+        1.75,
+        1.18
+      ],
+      "text": "Oscilación",
+      "font_size_pt": 23
+    },
+    {
+      "object_id": "stage_02",
+      "bbox_inches": [
+        2.7,
+        3.35,
+        1.75,
+        1.18
+      ],
+      "text": "MAS",
+      "font_size_pt": 23
+    },
+    {
+      "object_id": "stage_03",
+      "bbox_inches": [
+        4.95,
+        3.35,
+        1.75,
+        1.18
+      ],
+      "text": "Parámetros",
+      "font_size_pt": 23
+    },
+    {
+      "object_id": "stage_04",
+      "bbox_inches": [
+        7.2,
+        3.35,
+        1.75,
+        1.18
+      ],
+      "text": "Sinusoide",
+      "font_size_pt": 23
+    },
+    {
+      "object_id": "stage_05",
+      "bbox_inches": [
+        9.45,
+        3.35,
+        1.75,
+        1.18
+      ],
+      "text": "Parlante",
+      "font_size_pt": 23
+    },
+    {
+      "object_id": "stage_06",
+      "bbox_inches": [
+        1.55,
+        1.05,
+        1.75,
+        1.18
+      ],
+      "text": "Onda viajera",
+      "font_size_pt": 23
+    },
+    {
+      "object_id": "stage_07",
+      "bbox_inches": [
+        4.1,
+        1.05,
+        1.75,
+        1.18
+      ],
+      "text": "Fase",
+      "font_size_pt": 23
+    },
+    {
+      "object_id": "stage_08",
+      "bbox_inches": [
+        6.6499999999999995,
+        1.05,
+        1.75,
+        1.18
+      ],
+      "text": "Superposición",
+      "font_size_pt": 23
+    },
+    {
+      "object_id": "stage_09",
+      "bbox_inches": [
+        9.2,
+        1.05,
+        1.75,
+        1.18
+      ],
+      "text": "Aplicación",
+      "font_size_pt": 23
+    }
+  ],
+  "edges": [
+    {
+      "object_id": "edge_01",
+      "start": [
+        2.2,
+        3.95
+      ],
+      "end": [
+        2.7,
+        3.95
+      ],
+      "label": "",
+      "source": null,
+      "target": null,
+      "font_size_pt": 0
+    },
+    {
+      "object_id": "edge_02",
+      "start": [
+        4.45,
+        3.95
+      ],
+      "end": [
+        4.95,
+        3.95
+      ],
+      "label": "",
+      "source": null,
+      "target": null,
+      "font_size_pt": 0
+    },
+    {
+      "object_id": "edge_03",
+      "start": [
+        6.7,
+        3.95
+      ],
+      "end": [
+        7.2,
+        3.95
+      ],
+      "label": "",
+      "source": null,
+      "target": null,
+      "font_size_pt": 0
+    },
+    {
+      "object_id": "edge_04",
+      "start": [
+        8.95,
+        3.95
+      ],
+      "end": [
+        9.45,
+        3.95
+      ],
+      "label": "",
+      "source": null,
+      "target": null,
+      "font_size_pt": 0
+    },
+    {
+      "object_id": "edge_05",
+      "start": [
+        10.33,
+        3.35
+      ],
+      "end": [
+        2.43,
+        2.35
+      ],
+      "label": "",
+      "source": null,
+      "target": null,
+      "font_size_pt": 0
+    },
+    {
+      "object_id": "edge_06",
+      "start": [
+        3.3,
+        1.65
+      ],
+      "end": [
+        4.1,
+        1.65
+      ],
+      "label": "",
+      "source": null,
+      "target": null,
+      "font_size_pt": 0
+    },
+    {
+      "object_id": "edge_07",
+      "start": [
+        5.85,
+        1.65
+      ],
+      "end": [
+        6.6499999999999995,
+        1.65
+      ],
+      "label": "",
+      "source": null,
+      "target": null,
+      "font_size_pt": 0
+    },
+    {
+      "object_id": "edge_08",
+      "start": [
+        8.399999999999999,
+        1.65
+      ],
+      "end": [
+        9.2,
+        1.65
+      ],
+      "label": "",
+      "source": null,
+      "target": null,
+      "font_size_pt": 0
+    }
+  ],
+  "editability": "SVG con texto, formas y conectores vectoriales; source.json conserva IDs y geometría.",
+  "powerpoint_note": "No se construyó el deck ni una biblioteca PPTX en esta etapa, por instrucción expresa del usuario."
+}

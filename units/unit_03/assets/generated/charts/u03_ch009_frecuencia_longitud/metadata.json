@@ -1,0 +1,21 @@
+{
+  "asset_id": "U03-CH009",
+  "classification": "gráfico cuantitativo",
+  "title": "Frecuencia y longitud de onda",
+  "slides": "U03-063",
+  "question": "¿Qué cambia cuando aumenta f y el medio mantiene c?",
+  "scale": "lineal; 0–2,72 m",
+  "source": "dos perfiles exactos con c=340 m/s",
+  "outputs": [
+    {
+      "variant": "principal",
+      "svg": "u03_fig_009_frecuencia_longitud.svg",
+      "png": "u03_fig_009_frecuencia_longitud.png"
+    }
+  ],
+  "parameters_and_checks": {
+    "same_c": "pass",
+    "lambda2=lambda1/2": "pass",
+    "same_space_scale": "pass"
+  }
+}

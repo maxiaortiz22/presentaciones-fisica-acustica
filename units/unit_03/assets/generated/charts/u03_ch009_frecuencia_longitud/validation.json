@@ -1,0 +1,18 @@
+{
+  "asset_id": "U03-CH009",
+  "classification": "gráfico cuantitativo",
+  "individual_renders": [
+    "u03_fig_009_frecuencia_longitud.png"
+  ],
+  "slide_context_render": "slide_context.png",
+  "scale": "lineal; 0–2,72 m",
+  "minimum_axis_label_pt": 20,
+  "minimum_tick_pt": 18,
+  "checks": {
+    "same_c": "pass",
+    "lambda2=lambda1/2": "pass",
+    "same_space_scale": "pass"
+  },
+  "issues": [],
+  "status": "approved"
+}

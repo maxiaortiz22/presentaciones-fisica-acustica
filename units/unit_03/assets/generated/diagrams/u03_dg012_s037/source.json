@@ -1,0 +1,88 @@
+{
+  "asset_id": "U03-DG012-S037",
+  "family_id": "U03-DG012",
+  "slide_id": "U03-037",
+  "classification": "esquema mixto",
+  "canvas_inches": [
+    12,
+    5.5
+  ],
+  "slide_canvas_inches": [
+    13.333,
+    7.5
+  ],
+  "minimum_fonts_pt": {
+    "main": 22,
+    "connector_label": 20,
+    "equation": 28
+  },
+  "nodes": [
+    {
+      "object_id": "node_01",
+      "bbox_inches": [
+        3.65,
+        0.55,
+        4.7,
+        1.0
+      ],
+      "text": "Esquema · muestra forma y relación",
+      "font_size_pt": 22
+    },
+    {
+      "object_id": "node_02",
+      "bbox_inches": [
+        3.65,
+        2.05,
+        4.7,
+        1.0
+      ],
+      "text": "Normalizado · agrega escala relativa",
+      "font_size_pt": 22
+    },
+    {
+      "object_id": "node_03",
+      "bbox_inches": [
+        3.65,
+        3.55,
+        4.7,
+        1.0
+      ],
+      "text": "Calibrado · agrega unidad y referencia",
+      "font_size_pt": 22
+    }
+  ],
+  "edges": [
+    {
+      "object_id": "edge_01",
+      "start": [
+        6,
+        1.55
+      ],
+      "end": [
+        6,
+        2.05
+      ],
+      "label": "",
+      "source": null,
+      "target": null,
+      "font_size_pt": 0
+    },
+    {
+      "object_id": "edge_02",
+      "start": [
+        6,
+        3.05
+      ],
+      "end": [
+        6,
+        3.55
+      ],
+      "label": "",
+      "source": null,
+      "target": null,
+      "font_size_pt": 0
+    }
+  ],
+  "editability": "SVG con texto, formas y conectores vectoriales; source.json conserva IDs y geometría.",
+  "powerpoint_note": "No se construyó el deck ni una biblioteca PPTX en esta etapa, por instrucción expresa del usuario."
+}

@@ -1,0 +1,20 @@
+{
+  "asset_id": "U03-CH001",
+  "classification": "gráfico cuantitativo",
+  "individual_renders": [
+    "u03_fig_001_periodo_frecuencia_comparacion.png",
+    "u03_fig_001_periodo_frecuencia_lectura_periodo.png",
+    "u03_fig_001_periodo_frecuencia_puente_500Hz.png"
+  ],
+  "slide_context_render": "slide_context.png",
+  "scale": "lineal; segundos y milisegundos según variante",
+  "minimum_axis_label_pt": 20,
+  "minimum_tick_pt": 18,
+  "checks": {
+    "T=1/f": "pass",
+    "same_time_scale": "pass",
+    "axes_units": "pass"
+  },
+  "issues": [],
+  "status": "approved"
+}

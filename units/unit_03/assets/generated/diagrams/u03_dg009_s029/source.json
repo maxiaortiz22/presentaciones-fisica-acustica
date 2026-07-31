@@ -1,0 +1,140 @@
+{
+  "asset_id": "U03-DG009-S029",
+  "family_id": "U03-DG009",
+  "slide_id": "U03-029",
+  "classification": "ecuación anotada",
+  "canvas_inches": [
+    12,
+    5.5
+  ],
+  "slide_canvas_inches": [
+    13.333,
+    7.5
+  ],
+  "minimum_fonts_pt": {
+    "main": 22,
+    "connector_label": 20,
+    "equation": 28
+  },
+  "nodes": [
+    {
+      "object_id": "equation",
+      "bbox_inches": [
+        2.0,
+        2.05,
+        8.0,
+        1.35
+      ],
+      "text": "x(t) = Aₓ cos(2π f t + φ₀)",
+      "font_size_pt": 34
+    },
+    {
+      "object_id": "callout_01",
+      "bbox_inches": [
+        0.6000000000000001,
+        3.95,
+        2.3,
+        0.82
+      ],
+      "text": "x(t): posición",
+      "font_size_pt": 22
+    },
+    {
+      "object_id": "callout_02",
+      "bbox_inches": [
+        3.1,
+        3.95,
+        2.3,
+        0.82
+      ],
+      "text": "Aₓ: amplitud",
+      "font_size_pt": 22
+    },
+    {
+      "object_id": "callout_03",
+      "bbox_inches": [
+        6.6,
+        3.95,
+        2.3,
+        0.82
+      ],
+      "text": "f: frecuencia",
+      "font_size_pt": 22
+    },
+    {
+      "object_id": "callout_04",
+      "bbox_inches": [
+        9.1,
+        3.95,
+        2.3,
+        0.82
+      ],
+      "text": "φ₀: fase inicial",
+      "font_size_pt": 22
+    }
+  ],
+  "edges": [
+    {
+      "object_id": "edge_01",
+      "start": [
+        1.75,
+        3.85
+      ],
+      "end": [
+        3.0,
+        3.4
+      ],
+      "label": "",
+      "source": null,
+      "target": null,
+      "font_size_pt": 0
+    },
+    {
+      "object_id": "edge_02",
+      "start": [
+        4.25,
+        3.85
+      ],
+      "end": [
+        4.7,
+        3.4
+      ],
+      "label": "",
+      "source": null,
+      "target": null,
+      "font_size_pt": 0
+    },
+    {
+      "object_id": "edge_03",
+      "start": [
+        7.75,
+        3.85
+      ],
+      "end": [
+        6.6,
+        3.4
+      ],
+      "label": "",
+      "source": null,
+      "target": null,
+      "font_size_pt": 0
+    },
+    {
+      "object_id": "edge_04",
+      "start": [
+        10.25,
+        3.85
+      ],
+      "end": [
+        8.6,
+        3.4
+      ],
+      "label": "",
+      "source": null,
+      "target": null,
+      "font_size_pt": 0
+    }
+  ],
+  "editability": "SVG con texto, formas y conectores vectoriales; source.json conserva IDs y geometría.",
+  "powerpoint_note": "No se construyó el deck ni una biblioteca PPTX en esta etapa, por instrucción expresa del usuario."
+}

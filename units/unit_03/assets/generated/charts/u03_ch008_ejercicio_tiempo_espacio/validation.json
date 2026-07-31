@@ -1,0 +1,20 @@
+{
+  "asset_id": "U03-CH008",
+  "classification": "gráfico cuantitativo",
+  "individual_renders": [
+    "u03_fig_008_ejercicio_tiempo_espacio_ejercicio.png",
+    "u03_fig_008_ejercicio_tiempo_espacio_solucion.png"
+  ],
+  "slide_context_render": "slide_context.png",
+  "scale": "lineal; t 0–12 ms; x 0–4,08 m",
+  "minimum_axis_label_pt": 20,
+  "minimum_tick_pt": 18,
+  "checks": {
+    "T=4ms": "pass",
+    "lambda=1.36m": "pass",
+    "lambda_f=340m/s": "pass",
+    "same_data_exercise_solution": "pass"
+  },
+  "issues": [],
+  "status": "approved"
+}

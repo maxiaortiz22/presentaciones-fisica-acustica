@@ -1,0 +1,22 @@
+{
+  "asset_id": "U03-CH012",
+  "classification": "gráfico cuantitativo",
+  "individual_renders": [
+    "u03_fig_012_superposicion_fase_0.png",
+    "u03_fig_012_superposicion_fase_pi_2.png",
+    "u03_fig_012_superposicion_fase_pi.png",
+    "u03_fig_012_superposicion_pregunta_sin_resultante.png"
+  ],
+  "slide_context_render": "slide_context.png",
+  "scale": "lineal; t/T; amplitud -2,2 a 2,2",
+  "minimum_axis_label_pt": 20,
+  "minimum_tick_pt": 18,
+  "checks": {
+    "pointwise_sum": "pass",
+    "same_vertical_scale": "pass",
+    "total_cancellation_only_at_pi": "pass",
+    "single_case_per_explanation_slide": "pass"
+  },
+  "issues": [],
+  "status": "approved"
+}

@@ -6,7 +6,7 @@
 
 1. Escribir las variables en cursiva matemática y las unidades en redonda.
 2. Separar valor y unidad con un espacio: `20 Hz`, `0,5 s`, `94 dB SPL`.
-3. Usar coma decimal en el texto en español y punto decimal solo dentro de código o archivos de datos.
+3. Usar coma decimal en el texto en español y en los rótulos y ticks de gráficos destinados al aula; reservar el punto decimal para código o archivos de datos.
 4. No pluralizar ni puntuar símbolos de unidad: `5 kg`, no `5 kgs`.
 5. Respetar mayúsculas: `Pa`, `N`, `J`, `W`, `Hz`; pero `m`, `s`, `kg`.
 6. Usar prefijos SI sin espacio respecto de la unidad: `kHz`, `ms`, `µPa`.
@@ -62,15 +62,17 @@
 | Magnitud | Símbolo preferido | Unidad | Convención |
 |---|---:|---:|---|
 | amplitud de una variable `x` | `A_x` o `\hat{x}` | unidad de `x` | Usar `A` sola solo si no hay área ni otra amplitud en el contexto. |
+| amplitud resultante | `A_R` | unidad de las señales sumadas | Usar solo cuando las contribuciones representan la misma magnitud; no sumar amplitudes sin considerar fase. |
 | período | `T` | s | `T=1/f`. |
 | frecuencia | `f` | Hz | `1 Hz = 1 s⁻¹`. |
 | frecuencia angular | `ω` | rad·s⁻¹ | `ω=2πf`; el radián es adimensional, pero se conserva para claridad. |
 | fase inicial | `φ_0` | rad | Si se usan grados, indicarlo explícitamente y no mezclarlos en una ecuación. |
 | longitud de onda | `λ` | m | `λ=c/f` para el medio y modo definidos. |
 | número de onda | `k_\mathrm{onda}` | rad·m⁻¹ | `k_\mathrm{onda}=2π/λ`; usar calificador si aparece `k_s`. |
-| velocidad de propagación | `c` | m·s⁻¹ | Para sonido en aire puede escribirse `c_\mathrm{aire}`. |
+| rapidez de propagación | `c` | m·s⁻¹ | Para sonido en aire puede escribirse `c_\mathrm{aire}`. “Velocidad de propagación” es aceptable como término acústico convencional si no genera ambigüedad vectorial. |
 | velocidad de partícula | `u(t)` | m·s⁻¹ | No usar `v` si puede confundirse con propagación. |
 | velocidad de un cuerpo | `v(t)` | m·s⁻¹ | Reservar para movimiento macroscópico. |
+| perturbación genérica | `ξ(x,t)` | declarar según la variable | Se admite en U3 para enseñar dependencia espacial y temporal antes de elegir una magnitud acústica específica. |
 
 Forma preferida de una oscilación:
 
@@ -85,6 +87,14 @@ p(x,t) = p̂ cos(ωt − k_onda x + φ₀)
 ```
 
 El signo del término espacial depende de la convención de dirección. Una vez elegida, no debe cambiar dentro de una misma explicación.
+
+En U3 se admite la forma genérica:
+
+```text
+ξ(x,t) = A_ξ cos(ωt − k_onda x + φ₀)
+```
+
+si `ξ` y `A_ξ` se definen con su unidad. Desde U4, cuando la magnitud ya está identificada, se prefiere `p(x,t)`, `u(x,t)` u otra variable física específica. En una cadena de transducción de U3 puede usarse `p_ac(t)` como rótulo transitorio para distinguir presión acústica de presión estática; al formalizar valores pico, RMS y niveles se vuelve a `p(t)`, `p̂` y `p_rms`.
 
 ## Magnitudes acústicas lineales
 

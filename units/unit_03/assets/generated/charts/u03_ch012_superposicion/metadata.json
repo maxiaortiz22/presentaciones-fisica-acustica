@@ -1,0 +1,37 @@
+{
+  "asset_id": "U03-CH012",
+  "classification": "gráfico cuantitativo",
+  "title": "Superposición e interferencia",
+  "slides": "U03-072–075",
+  "question": "¿Cómo cambia la resultante con Δφ?",
+  "scale": "lineal; t/T; amplitud -2,2 a 2,2",
+  "source": "suma exacta punto a punto de dos sinusoides",
+  "outputs": [
+    {
+      "variant": "fase_0",
+      "svg": "u03_fig_012_superposicion_fase_0.svg",
+      "png": "u03_fig_012_superposicion_fase_0.png"
+    },
+    {
+      "variant": "fase_pi_2",
+      "svg": "u03_fig_012_superposicion_fase_pi_2.svg",
+      "png": "u03_fig_012_superposicion_fase_pi_2.png"
+    },
+    {
+      "variant": "fase_pi",
+      "svg": "u03_fig_012_superposicion_fase_pi.svg",
+      "png": "u03_fig_012_superposicion_fase_pi.png"
+    },
+    {
+      "variant": "pregunta_sin_resultante",
+      "svg": "u03_fig_012_superposicion_pregunta_sin_resultante.svg",
+      "png": "u03_fig_012_superposicion_pregunta_sin_resultante.png"
+    }
+  ],
+  "parameters_and_checks": {
+    "pointwise_sum": "pass",
+    "same_vertical_scale": "pass",
+    "total_cancellation_only_at_pi": "pass",
+    "single_case_per_explanation_slide": "pass"
+  }
+}

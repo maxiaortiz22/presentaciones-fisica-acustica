@@ -1,0 +1,21 @@
+{
+  "asset_id": "U03-CH006",
+  "classification": "gráfico cuantitativo",
+  "title": "Presión en un punto fijo",
+  "slides": "U03-045",
+  "question": "¿Qué registra un micrófono en una posición fija?",
+  "scale": "lineal; Pa pico, no RMS ni dB",
+  "source": "modelo hipotético p_ac=0,20 Pa cos(2π·500t)",
+  "outputs": [
+    {
+      "variant": "principal",
+      "svg": "u03_fig_006_presion_temporal.svg",
+      "png": "u03_fig_006_presion_temporal.png"
+    }
+  ],
+  "parameters_and_checks": {
+    "units_Pa": "pass",
+    "reference_zero": "pass",
+    "no_RMS_or_dB": "pass"
+  }
+}

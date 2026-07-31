@@ -1,0 +1,21 @@
+{
+  "asset_id": "U03-CH004",
+  "classification": "gráfico cuantitativo",
+  "title": "Una forma, varias magnitudes",
+  "slides": "U03-035–036",
+  "question": "¿Por qué una misma forma no implica la misma magnitud?",
+  "scale": "lineal; cuatro ejes verticales independientes",
+  "source": "modelos sinusoidales didácticos independientes",
+  "outputs": [
+    {
+      "variant": "principal",
+      "svg": "u03_fig_004_variables_sinusoidales.svg",
+      "png": "u03_fig_004_variables_sinusoidales.png"
+    }
+  ],
+  "parameters_and_checks": {
+    "same_frequency": "pass",
+    "separate_units": "pass",
+    "no_calibration_inferred": "pass"
+  }
+}

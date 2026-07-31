@@ -1,0 +1,43 @@
+{
+  "charts": {
+    "families": 13,
+    "variants": 23,
+    "numeric_checks": {
+      "U03-CH002": {
+        "max_um": 10.0,
+        "min_um": -10.0,
+        "pass": true
+      },
+      "U03-CH003": {
+        "max_abs_a_plus_x": 0.0,
+        "pass": true
+      },
+      "U03-CH008": {
+        "lambda_times_f_m_s": 340.0,
+        "pass": true
+      },
+      "U03-CH012": {
+        "max_sum_residual": 1.1102230246251565e-16,
+        "pass": true
+      },
+      "U03-CH013": {
+        "max_formula_residual": 0.0,
+        "pass": true
+      }
+    }
+  },
+  "diagrams": {
+    "families": 25,
+    "variants": 62
+  },
+  "required_classifications": [
+    "gráfico cuantitativo",
+    "diagrama conceptual",
+    "diagrama de proceso",
+    "ecuación anotada",
+    "esquema mixto"
+  ],
+  "critical_issues": 0,
+  "major_issues": 0,
+  "status": "approved"
+}

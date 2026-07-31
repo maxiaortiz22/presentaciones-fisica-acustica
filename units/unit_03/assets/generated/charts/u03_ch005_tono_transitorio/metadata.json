@@ -1,0 +1,21 @@
+{
+  "asset_id": "U03-CH005",
+  "classification": "gráfico cuantitativo",
+  "title": "Tono finito con transitorios",
+  "slides": "U03-041",
+  "question": "¿En qué difiere una realización tonal finita de una sinusoide ideal?",
+  "scale": "lineal; 0–1 s",
+  "source": "modelo sintético de 500 Hz con envolvente cosenoidal",
+  "outputs": [
+    {
+      "variant": "principal",
+      "svg": "u03_fig_005_tono_transitorio.svg",
+      "png": "u03_fig_005_tono_transitorio.png"
+    }
+  ],
+  "parameters_and_checks": {
+    "zero_endpoints": "pass",
+    "continuous_envelope": "pass",
+    "stable_frequency": "pass"
+  }
+}

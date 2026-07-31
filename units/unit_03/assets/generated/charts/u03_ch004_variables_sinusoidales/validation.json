@@ -1,0 +1,18 @@
+{
+  "asset_id": "U03-CH004",
+  "classification": "gráfico cuantitativo",
+  "individual_renders": [
+    "u03_fig_004_variables_sinusoidales.png"
+  ],
+  "slide_context_render": "slide_context.png",
+  "scale": "lineal; cuatro ejes verticales independientes",
+  "minimum_axis_label_pt": 20,
+  "minimum_tick_pt": 18,
+  "checks": {
+    "same_frequency": "pass",
+    "separate_units": "pass",
+    "no_calibration_inferred": "pass"
+  },
+  "issues": [],
+  "status": "approved"
+}
