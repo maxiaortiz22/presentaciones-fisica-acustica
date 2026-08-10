@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+<defs><marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0,0 L10,4 L0,8 Z" fill="#3D3D3D"/></marker></defs>
+<rect width="1280" height="720" fill="white"/>
+<rect x="72" y="27" width="390" height="6" fill="#4D1434"/><rect x="472" y="27" width="390" height="6" fill="#903163"/><rect x="872" y="27" width="336" height="6" fill="#969FA7"/>
+<text x="72" y="78" font-family="Calibri,Arial,sans-serif" font-size="42" font-weight="700" fill="#3D3D3D">El espectro pertenece a la señal; H(f) pertenece al sistema</text>
+<polyline points="380,302.5 445,302.5 445,302.5 510,302.5" fill="none" stroke="#3D3D3D" stroke-width="3" marker-end="url(#arrow)"/>
+<polyline points="770,302.5 835,302.5 835,302.5 900,302.5" fill="none" stroke="#3D3D3D" stroke-width="3" marker-end="url(#arrow)"/>
+<rect id="input_x" x="120" y="220" width="260" height="165" rx="12" fill="#E7F1F1" stroke="#2F7E83" stroke-width="2"/>
+<text x="250" y="262" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#2F7E83">Entrada X(f)</text>
+<text x="250" y="309" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">espectro de una señal</text>
+<rect id="system_h" x="510" y="220" width="260" height="165" rx="12" fill="#F3E8EE" stroke="#4D1434" stroke-width="2"/>
+<text x="640" y="262" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#4D1434">Sistema H(f)</text>
+<text x="640" y="309" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">respuesta</text>
+<text x="640" y="341" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">frecuencial</text>
+<rect id="output_y" x="900" y="220" width="260" height="165" rx="12" fill="#E7F1F1" stroke="#2F7E83" stroke-width="2"/>
+<text x="1030" y="262" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#2F7E83">Salida Y(f)</text>
+<text x="1030" y="309" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">espectro de otra señal</text>
+<text x="640" y="625" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">Y(f)=X(f)H(f)      ·      H(f)=Y(f)/X(f), X(f)≠0      ·      G(f)=20 log₁₀|H(f)|</text>
+<text x="72" y="689" font-family="Calibri,Arial,sans-serif" font-size="16" fill="#969FA7">Libro del curso, ecuaciones H(f)=Y(f)/X(f) y G(f)=20 log10|H(f)|.</text>
+</svg>

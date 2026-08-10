@@ -1,0 +1,33 @@
+{
+  "asset_id": "U05-DG-001",
+  "classification": "diagrama conceptual",
+  "canvas_px": [
+    1280,
+    720
+  ],
+  "slide_ratio": "16:9",
+  "font_floor": {
+    "node_title_pt": 24,
+    "node_body_pt": 22.5,
+    "connector_label_pt": 20.25,
+    "equation_pt": 33
+  },
+  "padding_px": 20,
+  "padding_inches": 0.208,
+  "not_to_scale": false,
+  "object_ids": [
+    "stage_signal",
+    "stage_repr",
+    "stage_interpret",
+    "stage_measure"
+  ],
+  "connector_ids": [
+    "edge_1",
+    "edge_2",
+    "edge_3"
+  ],
+  "issues": [],
+  "critical_issues": 0,
+  "major_issues": 0,
+  "status": "approved"
+}

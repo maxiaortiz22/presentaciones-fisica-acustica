@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+<defs><marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0,0 L10,4 L0,8 Z" fill="#3D3D3D"/></marker></defs>
+<rect width="1280" height="720" fill="white"/>
+<rect x="72" y="27" width="390" height="6" fill="#4D1434"/><rect x="472" y="27" width="390" height="6" fill="#903163"/><rect x="872" y="27" width="336" height="6" fill="#969FA7"/>
+<text x="72" y="78" font-family="Calibri,Arial,sans-serif" font-size="42" font-weight="700" fill="#3D3D3D">La pregunta profesional determina la representación</text>
+<polyline points="640,220 640,265 240,265 240,310" fill="none" stroke="#3D3D3D" stroke-width="3" marker-end="url(#arrow)"/>
+<polyline points="640,220 640,265 640,265 640,310" fill="none" stroke="#3D3D3D" stroke-width="3" marker-end="url(#arrow)"/>
+<polyline points="640,220 640,265 1040,265 1040,310" fill="none" stroke="#3D3D3D" stroke-width="3" marker-end="url(#arrow)"/>
+<polyline points="240,445 240,472.5 640,472.5 640,500" fill="none" stroke="#3D3D3D" stroke-width="3" marker-end="url(#arrow)"/>
+<polyline points="640,445 640,472.5 640,472.5 640,500" fill="none" stroke="#3D3D3D" stroke-width="3" marker-end="url(#arrow)"/>
+<polyline points="1040,445 1040,472.5 640,472.5 640,500" fill="none" stroke="#3D3D3D" stroke-width="3" marker-end="url(#arrow)"/>
+<rect id="decision_question" x="390" y="115" width="500" height="105" rx="12" fill="#F3E8EE" stroke="#4D1434" stroke-width="2"/>
+<text x="640" y="157" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#4D1434">¿Qué objeto necesito describir?</text>
+<text x="640" y="204" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">elegir antes de graficar</text>
+<rect id="decision_signal" x="90" y="310" width="300" height="135" rx="12" fill="#E7F1F1" stroke="#2F7E83" stroke-width="2"/>
+<text x="240" y="352" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#2F7E83">Señal</text>
+<text x="240" y="399" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">tiempo · espectro</text>
+<rect id="decision_system" x="490" y="310" width="300" height="135" rx="12" fill="#F7F6F2" stroke="#969FA7" stroke-width="2"/>
+<text x="640" y="352" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#3D3D3D">Sistema</text>
+<text x="640" y="399" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">respuesta H(f)</text>
+<rect id="decision_measure" x="890" y="310" width="300" height="135" rx="12" fill="#F8EDE2" stroke="#9F541A" stroke-width="2"/>
+<text x="1040" y="352" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#9F541A">Medición</text>
+<text x="1040" y="399" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">bandas · X</text>
+<rect id="decision_limit" x="390" y="500" width="500" height="130" rx="12" fill="#F7F6F2" stroke="#969FA7" stroke-width="2"/>
+<text x="640" y="542" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#3D3D3D">En toda ruta</text>
+<text x="640" y="589" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">método · unidad · límite</text>
+<text x="72" y="689" font-family="Calibri,Arial,sans-serif" font-size="16" fill="#969FA7">Storyboard U05, actividad integradora.</text>
+</svg>

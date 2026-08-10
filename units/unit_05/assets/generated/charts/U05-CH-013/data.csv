@@ -1,0 +1,6 @@
+region,lower_hz,upper_hz,scale_note
+infrasonido,1,16.0,conceptual; no universal
+transición baja,16,25.0,conceptual; no universal
+audible,25,16000.0,conceptual; no universal
+transición alta,16000,25000.0,conceptual; no universal
+ultrasonido,25000,1000000.0,conceptual; no universal

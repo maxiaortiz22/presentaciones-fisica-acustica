@@ -1,0 +1,66 @@
+{
+  "classification": "diagrama conceptual",
+  "title": "Rutina acumulativa de lectura",
+  "source": "Storyboard U05; master de recapitulación parcial.",
+  "caption": "Master estable de cinco campos para recuperar objeto, ejes, unidades, parámetros y límite de interpretación.",
+  "alt": "Cinco campos en una grilla estable de dos filas. Parámetros aparece resaltado como dimensión nueva del bloque actual.",
+  "nodes": [
+    {
+      "id": "recap_object",
+      "x": 90,
+      "y": 180,
+      "w": 320,
+      "h": 130,
+      "title": "Objeto",
+      "body": "señal / sistema",
+      "style": "physical",
+      "role": "node"
+    },
+    {
+      "id": "recap_axes",
+      "x": 480,
+      "y": 180,
+      "w": 320,
+      "h": 130,
+      "title": "Ejes",
+      "body": "t / f",
+      "style": "neutral",
+      "role": "node"
+    },
+    {
+      "id": "recap_units",
+      "x": 870,
+      "y": 180,
+      "w": 320,
+      "h": 130,
+      "title": "Unidades",
+      "body": "s · Hz · Pa · dB",
+      "style": "neutral",
+      "role": "node"
+    },
+    {
+      "id": "recap_params",
+      "x": 280,
+      "y": 410,
+      "w": 320,
+      "h": 130,
+      "title": "Parámetros",
+      "body": "ventana · N · fₛ",
+      "style": "accent",
+      "role": "node"
+    },
+    {
+      "id": "recap_limit",
+      "x": 680,
+      "y": 410,
+      "w": 320,
+      "h": 130,
+      "title": "Límite",
+      "body": "alcance declarado",
+      "style": "clinical",
+      "role": "node"
+    }
+  ],
+  "edges": [],
+  "footer": "Master editable: el campo nuevo se distingue por color + rótulo + posición estable."
+}

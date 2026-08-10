@@ -1,0 +1,123 @@
+{
+  "classification": "diagrama de proceso",
+  "title": "La cadena digital fija qué frecuencias podemos observar",
+  "source": "Libro del curso, secciones 5.4.4 y 5.4.5.",
+  "caption": "Cadena de captura, muestreo, segmentación, ventana, DFT y bins con parámetros visibles.",
+  "alt": "Seis bloques conectados de izquierda a derecha muestran captura, muestras, segmento, ventana, DFT y bins. Debajo se declaran frecuencia de muestreo, cantidad de muestras, duración y separación entre bins.",
+  "nodes": [
+    {
+      "id": "capture",
+      "x": 90,
+      "y": 155,
+      "w": 300,
+      "h": 130,
+      "title": "1 · Captura",
+      "body": "p(t)",
+      "style": "physical",
+      "role": "node"
+    },
+    {
+      "id": "samples",
+      "x": 490,
+      "y": 155,
+      "w": 300,
+      "h": 130,
+      "title": "2 · Muestras",
+      "body": "fₛ en Hz",
+      "style": "physical",
+      "role": "node"
+    },
+    {
+      "id": "segment",
+      "x": 890,
+      "y": 155,
+      "w": 300,
+      "h": 130,
+      "title": "3 · Segmento",
+      "body": "N muestras",
+      "style": "neutral",
+      "role": "node"
+    },
+    {
+      "id": "window",
+      "x": 890,
+      "y": 390,
+      "w": 300,
+      "h": 130,
+      "title": "4 · Ventana",
+      "body": "recorte declarado",
+      "style": "accent",
+      "role": "node"
+    },
+    {
+      "id": "dft",
+      "x": 490,
+      "y": 390,
+      "w": 300,
+      "h": 130,
+      "title": "5 · DFT",
+      "body": "FFT = algoritmo",
+      "style": "neutral",
+      "role": "node"
+    },
+    {
+      "id": "bins",
+      "x": 90,
+      "y": 390,
+      "w": 300,
+      "h": 130,
+      "title": "6 · Bins",
+      "body": "Δf en Hz",
+      "style": "clinical",
+      "role": "node"
+    }
+  ],
+  "edges": [
+    {
+      "id": "dig_1",
+      "from": "capture",
+      "to": "samples",
+      "label": "",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "dig_2",
+      "from": "samples",
+      "to": "segment",
+      "label": "",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "dig_3",
+      "from": "segment",
+      "to": "window",
+      "label": "",
+      "semantic": "",
+      "fromSide": "bottom",
+      "toSide": "top"
+    },
+    {
+      "id": "dig_4",
+      "from": "window",
+      "to": "dft",
+      "label": "",
+      "semantic": "",
+      "fromSide": "left",
+      "toSide": "right"
+    },
+    {
+      "id": "dig_5",
+      "from": "dft",
+      "to": "bins",
+      "label": "",
+      "semantic": "",
+      "fromSide": "left",
+      "toSide": "right"
+    }
+  ],
+  "footer": "T_obs = N/fₛ      ·      Δf = fₛ/N = 1/T_obs"
+}

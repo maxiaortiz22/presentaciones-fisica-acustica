@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+<defs><marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0,0 L10,4 L0,8 Z" fill="#3D3D3D"/></marker></defs>
+<rect width="1280" height="720" fill="white"/>
+<rect x="72" y="27" width="390" height="6" fill="#4D1434"/><rect x="472" y="27" width="390" height="6" fill="#903163"/><rect x="872" y="27" width="336" height="6" fill="#969FA7"/>
+<text x="72" y="78" font-family="Calibri,Arial,sans-serif" font-size="42" font-weight="700" fill="#3D3D3D">Un rango sólo tiene sentido si sus límites están condicionados</text>
+<polyline points="345,295 345,347.5 495,347.5 495,400" fill="none" stroke="#3D3D3D" stroke-width="3" marker-end="url(#arrow)"/>
+<polyline points="935,295 935,347.5 775,347.5 775,400" fill="none" stroke="#3D3D3D" stroke-width="3" marker-end="url(#arrow)"/>
+<rect id="frequency_range" x="95" y="155" width="500" height="140" rx="12" fill="#E7F1F1" stroke="#2F7E83" stroke-width="2"/>
+<text x="345" y="197" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#2F7E83">Región de frecuencia</text>
+<text x="345" y="244" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">infra · audible · ultra</text>
+<rect id="dynamic_range" x="685" y="155" width="500" height="140" rx="12" fill="#F8EDE2" stroke="#9F541A" stroke-width="2"/>
+<text x="935" y="197" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#9F541A">Rango dinámico</text>
+<text x="935" y="244" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">R_D = L_sup − L_inf</text>
+<rect id="condition_source" x="95" y="400" width="240" height="145" rx="12" fill="#F7F6F2" stroke="#969FA7" stroke-width="2"/>
+<text x="215" y="442" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#3D3D3D">Origen</text>
+<text x="215" y="489" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">persona / fuente</text>
+<rect id="condition_stimulus" x="375" y="400" width="240" height="145" rx="12" fill="#F7F6F2" stroke="#969FA7" stroke-width="2"/>
+<text x="495" y="442" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#3D3D3D">Estímulo</text>
+<text x="495" y="489" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">f · duración</text>
+<rect id="condition_level" x="655" y="400" width="240" height="145" rx="12" fill="#F7F6F2" stroke="#969FA7" stroke-width="2"/>
+<text x="775" y="442" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#3D3D3D">Descriptor</text>
+<text x="775" y="489" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">RMS · pico</text>
+<text x="775" y="521" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">L_eq</text>
+<rect id="condition_method" x="935" y="400" width="250" height="145" rx="12" fill="#F3E8EE" stroke="#4D1434" stroke-width="2"/>
+<text x="1060" y="442" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#4D1434">Medición</text>
+<text x="1060" y="489" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">distancia · X</text>
+<text x="640" y="625" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">Fronteras y límites conceptuales; no están a escala ni son universales.</text>
+<text x="72" y="689" font-family="Calibri,Arial,sans-serif" font-size="16" fill="#969FA7">Libro del curso, sección 5.7.</text>
+</svg>

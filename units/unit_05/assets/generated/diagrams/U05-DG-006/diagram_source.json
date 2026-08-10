@@ -1,0 +1,63 @@
+{
+  "classification": "diagrama conceptual",
+  "title": "El espectro pertenece a la señal; H(f) pertenece al sistema",
+  "source": "Libro del curso, ecuaciones H(f)=Y(f)/X(f) y G(f)=20 log10|H(f)|.",
+  "caption": "Cadena entrada–sistema–salida que distingue espectros de señales y respuesta del sistema.",
+  "alt": "Tres bloques grandes conectados muestran entrada X de f, sistema H de f y salida Y de f. Debajo aparecen las relaciones Y igual X por H, H igual Y sobre X cuando X no es cero y ganancia en decibeles.",
+  "nodes": [
+    {
+      "id": "input_x",
+      "x": 120,
+      "y": 220,
+      "w": 260,
+      "h": 165,
+      "title": "Entrada X(f)",
+      "body": "espectro de una señal",
+      "style": "physical",
+      "role": "node"
+    },
+    {
+      "id": "system_h",
+      "x": 510,
+      "y": 220,
+      "w": 260,
+      "h": 165,
+      "title": "Sistema H(f)",
+      "body": "respuesta\nfrecuencial",
+      "style": "accent",
+      "role": "node"
+    },
+    {
+      "id": "output_y",
+      "x": 900,
+      "y": 220,
+      "w": 260,
+      "h": 165,
+      "title": "Salida Y(f)",
+      "body": "espectro de otra señal",
+      "style": "physical",
+      "role": "node"
+    }
+  ],
+  "edges": [
+    {
+      "id": "sys_1",
+      "from": "input_x",
+      "to": "system_h",
+      "label": "",
+      "semantic": "atraviesa",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "sys_2",
+      "from": "system_h",
+      "to": "output_y",
+      "label": "",
+      "semantic": "modifica",
+      "fromSide": "right",
+      "toSide": "left"
+    }
+  ],
+  "footer": "Y(f)=X(f)H(f)      ·      H(f)=Y(f)/X(f), X(f)≠0      ·      G(f)=20 log₁₀|H(f)|"
+}

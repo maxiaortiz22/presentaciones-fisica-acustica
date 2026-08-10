@@ -1,0 +1,83 @@
+{
+  "classification": "diagrama de proceso",
+  "title": "Ruta de solución del caso integrador",
+  "source": "Libro del curso, solución I1 y storyboard U05.",
+  "caption": "Cuatro pasos editables para resolver el caso: clasificar, calcular, interpretar y declarar condiciones.",
+  "alt": "Cuatro cajas horizontales numeradas organizan una solución. Primero se separa señal y sistema; luego se calculan parámetros; después se interpreta y finalmente se declaran condiciones y límites.",
+  "nodes": [
+    {
+      "id": "solution_classify",
+      "x": 75,
+      "y": 235,
+      "w": 265,
+      "h": 165,
+      "title": "1 · Objeto",
+      "body": "señal · sistema\nmedición",
+      "style": "physical",
+      "role": "node"
+    },
+    {
+      "id": "solution_compute",
+      "x": 360,
+      "y": 235,
+      "w": 265,
+      "h": 165,
+      "title": "2 · Cálculo",
+      "body": "T_obs · Δf · H · G",
+      "style": "accent",
+      "role": "node"
+    },
+    {
+      "id": "solution_interpret",
+      "x": 645,
+      "y": 235,
+      "w": 265,
+      "h": 165,
+      "title": "3 · Lectura",
+      "body": "armónicos\nenvolvente",
+      "style": "neutral",
+      "role": "node"
+    },
+    {
+      "id": "solution_conditions",
+      "x": 930,
+      "y": 235,
+      "w": 265,
+      "h": 165,
+      "title": "4 · Declarar",
+      "body": "método\nunidad · límite",
+      "style": "clinical",
+      "role": "node"
+    }
+  ],
+  "edges": [
+    {
+      "id": "solution_1",
+      "from": "solution_classify",
+      "to": "solution_compute",
+      "label": "",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "solution_2",
+      "from": "solution_compute",
+      "to": "solution_interpret",
+      "label": "",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "solution_3",
+      "from": "solution_interpret",
+      "to": "solution_conditions",
+      "label": "",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left"
+    }
+  ],
+  "footer": "Usar sólo relaciones ya introducidas; el glosario funciona como índice de retorno."
+}

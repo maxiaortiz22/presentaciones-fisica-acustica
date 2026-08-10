@@ -1,0 +1,82 @@
+{
+  "classification": "diagrama conceptual",
+  "title": "De la señal a una medición interpretable",
+  "source": "Programa oficial, brief y storyboard U05; mapa narrativo propio.",
+  "caption": "Mapa de cuatro etapas que organiza la unidad desde la señal registrada hasta la medición informada.",
+  "alt": "Cuatro bloques horizontales conectados: señal, representación, interpretación y medición. Cada bloque enumera dos ideas de la etapa.",
+  "nodes": [
+    {
+      "id": "stage_signal",
+      "x": 80,
+      "y": 250,
+      "w": 245,
+      "h": 150,
+      "title": "1 · Señal",
+      "body": "tiempo · RMS",
+      "style": "physical",
+      "role": "node"
+    },
+    {
+      "id": "stage_repr",
+      "x": 370,
+      "y": 250,
+      "w": 245,
+      "h": 150,
+      "title": "2 · Fourier",
+      "body": "serie · DFT",
+      "style": "accent",
+      "role": "node"
+    },
+    {
+      "id": "stage_interpret",
+      "x": 660,
+      "y": 250,
+      "w": 245,
+      "h": 150,
+      "title": "3 · Lectura",
+      "body": "sistemas · bandas",
+      "style": "neutral",
+      "role": "node"
+    },
+    {
+      "id": "stage_measure",
+      "x": 950,
+      "y": 250,
+      "w": 245,
+      "h": 150,
+      "title": "4 · Medición",
+      "body": "ponderación\nsonómetro",
+      "style": "clinical",
+      "role": "node"
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge_1",
+      "from": "stage_signal",
+      "to": "stage_repr",
+      "label": "",
+      "semantic": "describe",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_2",
+      "from": "stage_repr",
+      "to": "stage_interpret",
+      "label": "",
+      "semantic": "permite leer",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_3",
+      "from": "stage_interpret",
+      "to": "stage_measure",
+      "label": "",
+      "semantic": "sustenta",
+      "fromSide": "right",
+      "toSide": "left"
+    }
+  ]
+}

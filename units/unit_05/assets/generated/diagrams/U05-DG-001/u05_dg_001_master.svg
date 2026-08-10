@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+<defs><marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0,0 L10,4 L0,8 Z" fill="#3D3D3D"/></marker></defs>
+<rect width="1280" height="720" fill="white"/>
+<rect x="72" y="27" width="390" height="6" fill="#4D1434"/><rect x="472" y="27" width="390" height="6" fill="#903163"/><rect x="872" y="27" width="336" height="6" fill="#969FA7"/>
+<text x="72" y="78" font-family="Calibri,Arial,sans-serif" font-size="42" font-weight="700" fill="#3D3D3D">De la señal a una medición interpretable</text>
+<polyline points="325,325 347.5,325 347.5,325 370,325" fill="none" stroke="#3D3D3D" stroke-width="3" marker-end="url(#arrow)"/>
+<polyline points="615,325 637.5,325 637.5,325 660,325" fill="none" stroke="#3D3D3D" stroke-width="3" marker-end="url(#arrow)"/>
+<polyline points="905,325 927.5,325 927.5,325 950,325" fill="none" stroke="#3D3D3D" stroke-width="3" marker-end="url(#arrow)"/>
+<rect id="stage_signal" x="80" y="250" width="245" height="150" rx="12" fill="#E7F1F1" stroke="#2F7E83" stroke-width="2"/>
+<text x="202.5" y="292" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#2F7E83">1 · Señal</text>
+<text x="202.5" y="339" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">tiempo · RMS</text>
+<rect id="stage_repr" x="370" y="250" width="245" height="150" rx="12" fill="#F3E8EE" stroke="#4D1434" stroke-width="2"/>
+<text x="492.5" y="292" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#4D1434">2 · Fourier</text>
+<text x="492.5" y="339" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">serie · DFT</text>
+<rect id="stage_interpret" x="660" y="250" width="245" height="150" rx="12" fill="#F7F6F2" stroke="#969FA7" stroke-width="2"/>
+<text x="782.5" y="292" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#3D3D3D">3 · Lectura</text>
+<text x="782.5" y="339" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">sistemas · bandas</text>
+<rect id="stage_measure" x="950" y="250" width="245" height="150" rx="12" fill="#F8EDE2" stroke="#9F541A" stroke-width="2"/>
+<text x="1072.5" y="292" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#9F541A">4 · Medición</text>
+<text x="1072.5" y="339" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">ponderación</text>
+<text x="1072.5" y="371" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">sonómetro</text>
+<text x="72" y="689" font-family="Calibri,Arial,sans-serif" font-size="16" fill="#969FA7">Programa oficial, brief y storyboard U05; mapa narrativo propio.</text>
+</svg>

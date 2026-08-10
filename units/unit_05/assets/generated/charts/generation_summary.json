@@ -1,0 +1,359 @@
+[
+  {
+    "asset_id": "U05-CH-001",
+    "classification": "gráfico cuantitativo",
+    "status": "approved",
+    "canvas_px": [
+      2560,
+      1440
+    ],
+    "required_canvas_px": [
+      2560,
+      1440
+    ],
+    "svg_exists": true,
+    "png_exists": true,
+    "data_rows": 160,
+    "font_floor": {
+      "axis_labels_pt": 20,
+      "ticks_and_legends_pt": 18,
+      "annotations_pt": 22
+    },
+    "checks": {
+      "rms_difference": 1.1102230246251565e-16
+    },
+    "critical_issues": 0,
+    "major_issues": 0
+  },
+  {
+    "asset_id": "U05-CH-002",
+    "classification": "gráfico cuantitativo",
+    "status": "approved",
+    "canvas_px": [
+      2560,
+      1440
+    ],
+    "required_canvas_px": [
+      2560,
+      1440
+    ],
+    "svg_exists": true,
+    "png_exists": true,
+    "data_rows": 101,
+    "font_floor": {
+      "axis_labels_pt": 20,
+      "ticks_and_legends_pt": 18,
+      "annotations_pt": 22
+    },
+    "checks": {
+      "inverse_max_abs_error": 1.6653345369377348e-16
+    },
+    "critical_issues": 0,
+    "major_issues": 0
+  },
+  {
+    "asset_id": "U05-CH-003",
+    "classification": "gráfico cuantitativo",
+    "status": "approved",
+    "canvas_px": [
+      2560,
+      1440
+    ],
+    "required_canvas_px": [
+      2560,
+      1440
+    ],
+    "svg_exists": true,
+    "png_exists": true,
+    "data_rows": 240,
+    "font_floor": {
+      "axis_labels_pt": 20,
+      "ticks_and_legends_pt": 18,
+      "annotations_pt": 22
+    },
+    "checks": {
+      "magnitude_max_abs_difference": 9.78418475073358e-17,
+      "temporal_rms_difference": 0.13114877048604004
+    },
+    "critical_issues": 0,
+    "major_issues": 0
+  },
+  {
+    "asset_id": "U05-CH-005",
+    "classification": "gráfico cuantitativo",
+    "status": "approved",
+    "canvas_px": [
+      2560,
+      1440
+    ],
+    "required_canvas_px": [
+      2560,
+      1440
+    ],
+    "svg_exists": true,
+    "png_exists": true,
+    "data_rows": 3000,
+    "font_floor": {
+      "axis_labels_pt": 20,
+      "ticks_and_legends_pt": 18,
+      "annotations_pt": 22
+    },
+    "checks": {
+      "term_counts": [
+        1,
+        3,
+        5,
+        10
+      ],
+      "static_alternative": "panel 2×2"
+    },
+    "critical_issues": 0,
+    "major_issues": 0
+  },
+  {
+    "asset_id": "U05-CH-006",
+    "classification": "gráfico cuantitativo",
+    "status": "approved",
+    "canvas_px": [
+      2560,
+      1440
+    ],
+    "required_canvas_px": [
+      2560,
+      1440
+    ],
+    "svg_exists": true,
+    "png_exists": true,
+    "data_rows": 21,
+    "font_floor": {
+      "axis_labels_pt": 20,
+      "ticks_and_legends_pt": 18,
+      "annotations_pt": 22
+    },
+    "checks": {
+      "sample_max_abs_difference": 9.677185635810443e-15
+    },
+    "critical_issues": 0,
+    "major_issues": 0
+  },
+  {
+    "asset_id": "U05-CH-007",
+    "classification": "gráfico cuantitativo",
+    "status": "approved",
+    "canvas_px": [
+      2560,
+      1440
+    ],
+    "required_canvas_px": [
+      2560,
+      1440
+    ],
+    "svg_exists": true,
+    "png_exists": true,
+    "data_rows": 41,
+    "font_floor": {
+      "axis_labels_pt": 20,
+      "ticks_and_legends_pt": 18,
+      "annotations_pt": 22
+    },
+    "checks": {
+      "relations_verified": true
+    },
+    "critical_issues": 0,
+    "major_issues": 0
+  },
+  {
+    "asset_id": "U05-CH-008",
+    "classification": "gráfico cuantitativo",
+    "status": "approved",
+    "canvas_px": [
+      2560,
+      1440
+    ],
+    "required_canvas_px": [
+      2560,
+      1440
+    ],
+    "svg_exists": true,
+    "png_exists": true,
+    "data_rows": 202,
+    "font_floor": {
+      "axis_labels_pt": 20,
+      "ticks_and_legends_pt": 18,
+      "annotations_pt": 22
+    },
+    "checks": {
+      "parseval_relative_errors": [
+        5.551115123125783e-17,
+        0.0009030844756610645
+      ]
+    },
+    "critical_issues": 0,
+    "major_issues": 0
+  },
+  {
+    "asset_id": "U05-CH-011",
+    "classification": "gráfico cuantitativo",
+    "status": "approved",
+    "canvas_px": [
+      2560,
+      1440
+    ],
+    "required_canvas_px": [
+      2560,
+      1440
+    ],
+    "svg_exists": true,
+    "png_exists": true,
+    "data_rows": 11,
+    "font_floor": {
+      "axis_labels_pt": 20,
+      "ticks_and_legends_pt": 18,
+      "annotations_pt": 22
+    },
+    "checks": {
+      "frequencies_exact": true
+    },
+    "critical_issues": 0,
+    "major_issues": 0
+  },
+  {
+    "asset_id": "U05-CH-013",
+    "classification": "gráfico cuantitativo",
+    "status": "approved",
+    "canvas_px": [
+      2560,
+      1440
+    ],
+    "required_canvas_px": [
+      2560,
+      1440
+    ],
+    "svg_exists": true,
+    "png_exists": true,
+    "data_rows": 5,
+    "font_floor": {
+      "axis_labels_pt": 20,
+      "ticks_and_legends_pt": 18,
+      "annotations_pt": 22
+    },
+    "checks": {
+      "not_to_scale": false,
+      "boundaries_declared_approximate": true
+    },
+    "critical_issues": 0,
+    "major_issues": 0
+  },
+  {
+    "asset_id": "U05-CH-015",
+    "classification": "gráfico cuantitativo",
+    "status": "approved",
+    "canvas_px": [
+      2560,
+      1440
+    ],
+    "required_canvas_px": [
+      2560,
+      1440
+    ],
+    "svg_exists": true,
+    "png_exists": true,
+    "data_rows": 77,
+    "font_floor": {
+      "axis_labels_pt": 20,
+      "ticks_and_legends_pt": 18,
+      "annotations_pt": 22
+    },
+    "checks": {
+      "linear_sum_before_db": true,
+      "band_total_linear": 15.848656247284357
+    },
+    "critical_issues": 0,
+    "major_issues": 0
+  },
+  {
+    "asset_id": "U05-CH-016",
+    "classification": "gráfico cuantitativo",
+    "status": "approved",
+    "canvas_px": [
+      2560,
+      1440
+    ],
+    "required_canvas_px": [
+      2560,
+      1440
+    ],
+    "svg_exists": true,
+    "png_exists": true,
+    "data_rows": 6400,
+    "font_floor": {
+      "axis_labels_pt": 20,
+      "ticks_and_legends_pt": 18,
+      "annotations_pt": 22
+    },
+    "checks": {
+      "cutoff_criterion_db": -3,
+      "scipy_version": "1.13.1",
+      "models_stable": true
+    },
+    "critical_issues": 0,
+    "major_issues": 0
+  },
+  {
+    "asset_id": "U05-CH-018",
+    "classification": "gráfico cuantitativo",
+    "status": "approved",
+    "canvas_px": [
+      2560,
+      1440
+    ],
+    "required_canvas_px": [
+      2560,
+      1440
+    ],
+    "svg_exists": true,
+    "png_exists": true,
+    "data_rows": 2,
+    "font_floor": {
+      "axis_labels_pt": 20,
+      "ticks_and_legends_pt": 18,
+      "annotations_pt": 22
+    },
+    "checks": {
+      "equivalent_level_db": 77.40362689494245,
+      "target_error_db": 4.2447823034308385e-11
+    },
+    "critical_issues": 0,
+    "major_issues": 0
+  },
+  {
+    "asset_id": "U05-CH-019",
+    "classification": "gráfico cuantitativo",
+    "status": "approved",
+    "canvas_px": [
+      2560,
+      1440
+    ],
+    "required_canvas_px": [
+      2560,
+      1440
+    ],
+    "svg_exists": true,
+    "png_exists": true,
+    "data_rows": 6,
+    "font_floor": {
+      "axis_labels_pt": 20,
+      "ticks_and_legends_pt": 18,
+      "annotations_pt": 22
+    },
+    "checks": {
+      "failing_centers_hz": [
+        500,
+        1000,
+        2000
+      ]
+    },
+    "critical_issues": 0,
+    "major_issues": 0
+  }
+]

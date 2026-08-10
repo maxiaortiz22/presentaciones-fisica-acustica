@@ -1,0 +1,12 @@
+case,frequency_hz,relative_amplitude
+Serie armónica f₀=100 Hz,100,0.45
+Serie armónica f₀=100 Hz,200,1.0
+Serie armónica f₀=100 Hz,300,0.6
+Serie armónica f₀=100 Hz,400,0.3
+Parciales inarmónicos,100,0.6
+Parciales inarmónicos,235,1.0
+Parciales inarmónicos,370,0.55
+Parciales inarmónicos,520,0.3
+Fundamental ausente Δf=100 Hz,200,1.0
+Fundamental ausente Δf=100 Hz,300,0.6
+Fundamental ausente Δf=100 Hz,400,0.4

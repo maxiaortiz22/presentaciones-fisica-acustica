@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+<defs><marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0,0 L10,4 L0,8 Z" fill="#3D3D3D"/></marker></defs>
+<rect width="1280" height="720" fill="white"/>
+<rect x="72" y="27" width="390" height="6" fill="#4D1434"/><rect x="472" y="27" width="390" height="6" fill="#903163"/><rect x="872" y="27" width="336" height="6" fill="#969FA7"/>
+<text x="72" y="78" font-family="Calibri,Arial,sans-serif" font-size="42" font-weight="700" fill="#3D3D3D">Rutina para leer cualquier representación</text>
+<polyline points="390,220 440,220 440,220 490,220" fill="none" stroke="#3D3D3D" stroke-width="3" marker-end="url(#arrow)"/>
+<polyline points="790,220 840,220 840,220 890,220" fill="none" stroke="#3D3D3D" stroke-width="3" marker-end="url(#arrow)"/>
+<polyline points="1040,285 1040,337.5 1040,337.5 1040,390" fill="none" stroke="#3D3D3D" stroke-width="3" marker-end="url(#arrow)"/>
+<polyline points="890,455 840,455 840,455 790,455" fill="none" stroke="#3D3D3D" stroke-width="3" marker-end="url(#arrow)"/>
+<rect id="read_object" x="90" y="155" width="300" height="130" rx="12" fill="#E7F1F1" stroke="#2F7E83" stroke-width="2"/>
+<text x="240" y="197" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#2F7E83">1 · Objeto</text>
+<text x="240" y="244" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">¿señal o sistema?</text>
+<rect id="read_axes" x="490" y="155" width="300" height="130" rx="12" fill="#F7F6F2" stroke="#969FA7" stroke-width="2"/>
+<text x="640" y="197" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#3D3D3D">2 · Ejes</text>
+<text x="640" y="244" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">t o f</text>
+<rect id="read_units" x="890" y="155" width="300" height="130" rx="12" fill="#F7F6F2" stroke="#969FA7" stroke-width="2"/>
+<text x="1040" y="197" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#3D3D3D">3 · Unidades</text>
+<text x="1040" y="244" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">s · Hz · Pa · dB</text>
+<rect id="read_conditions" x="890" y="390" width="300" height="130" rx="12" fill="#F3E8EE" stroke="#4D1434" stroke-width="2"/>
+<text x="1040" y="432" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#4D1434">4 · Condiciones</text>
+<text x="1040" y="479" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">ventana · ref.</text>
+<rect id="read_meaning" x="490" y="390" width="300" height="130" rx="12" fill="#F8EDE2" stroke="#9F541A" stroke-width="2"/>
+<text x="640" y="432" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#9F541A">5 · Interpretar</text>
+<text x="640" y="479" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">alcance</text>
+<text x="72" y="689" font-family="Calibri,Arial,sans-serif" font-size="16" fill="#969FA7">Storyboard U05 y decisiones pedagógicas del proyecto.</text>
+</svg>

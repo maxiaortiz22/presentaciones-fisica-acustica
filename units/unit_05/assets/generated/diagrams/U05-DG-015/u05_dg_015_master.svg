@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+<defs><marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0,0 L10,4 L0,8 Z" fill="#3D3D3D"/></marker></defs>
+<rect width="1280" height="720" fill="white"/>
+<rect x="72" y="27" width="390" height="6" fill="#4D1434"/><rect x="472" y="27" width="390" height="6" fill="#903163"/><rect x="872" y="27" width="336" height="6" fill="#969FA7"/>
+<text x="72" y="78" font-family="Calibri,Arial,sans-serif" font-size="42" font-weight="700" fill="#3D3D3D">Ruta de solución del caso integrador</text>
+<polyline points="340,317.5 350,317.5 350,317.5 360,317.5" fill="none" stroke="#3D3D3D" stroke-width="3" marker-end="url(#arrow)"/>
+<polyline points="625,317.5 635,317.5 635,317.5 645,317.5" fill="none" stroke="#3D3D3D" stroke-width="3" marker-end="url(#arrow)"/>
+<polyline points="910,317.5 920,317.5 920,317.5 930,317.5" fill="none" stroke="#3D3D3D" stroke-width="3" marker-end="url(#arrow)"/>
+<rect id="solution_classify" x="75" y="235" width="265" height="165" rx="12" fill="#E7F1F1" stroke="#2F7E83" stroke-width="2"/>
+<text x="207.5" y="277" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#2F7E83">1 · Objeto</text>
+<text x="207.5" y="324" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">señal · sistema</text>
+<text x="207.5" y="356" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">medición</text>
+<rect id="solution_compute" x="360" y="235" width="265" height="165" rx="12" fill="#F3E8EE" stroke="#4D1434" stroke-width="2"/>
+<text x="492.5" y="277" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#4D1434">2 · Cálculo</text>
+<text x="492.5" y="324" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">T_obs · Δf · H · G</text>
+<rect id="solution_interpret" x="645" y="235" width="265" height="165" rx="12" fill="#F7F6F2" stroke="#969FA7" stroke-width="2"/>
+<text x="777.5" y="277" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#3D3D3D">3 · Lectura</text>
+<text x="777.5" y="324" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">armónicos</text>
+<text x="777.5" y="356" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">envolvente</text>
+<rect id="solution_conditions" x="930" y="235" width="265" height="165" rx="12" fill="#F8EDE2" stroke="#9F541A" stroke-width="2"/>
+<text x="1062.5" y="277" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#9F541A">4 · Declarar</text>
+<text x="1062.5" y="324" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">método</text>
+<text x="1062.5" y="356" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">unidad · límite</text>
+<text x="640" y="625" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">Usar sólo relaciones ya introducidas; el glosario funciona como índice de retorno.</text>
+<text x="72" y="689" font-family="Calibri,Arial,sans-serif" font-size="16" fill="#969FA7">Libro del curso, solución I1 y storyboard U05.</text>
+</svg>

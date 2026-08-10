@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+<defs><marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0,0 L10,4 L0,8 Z" fill="#3D3D3D"/></marker></defs>
+<rect width="1280" height="720" fill="white"/>
+<rect x="72" y="27" width="390" height="6" fill="#4D1434"/><rect x="472" y="27" width="390" height="6" fill="#903163"/><rect x="872" y="27" width="336" height="6" fill="#969FA7"/>
+<text x="72" y="78" font-family="Calibri,Arial,sans-serif" font-size="42" font-weight="700" fill="#3D3D3D">Magnitud y fase describen partes distintas de X(f)</text>
+<polyline points="335,187.5 292.5,187.5 292.5,332.5 250,332.5" fill="none" stroke="#3D3D3D" stroke-width="3" marker-end="url(#arrow)"/>
+<polyline points="540,455 540,420 610,420 610,385" fill="none" stroke="#3D3D3D" stroke-width="3" marker-end="url(#arrow)"/>
+<polyline points="885,455 885,420 867.5,420 867.5,385" fill="none" stroke="#3D3D3D" stroke-width="3" marker-end="url(#arrow)"/>
+<polyline points="1005,187.5 997.5,187.5 997.5,332.5 990,332.5" fill="none" stroke="#3D3D3D" stroke-width="3" marker-end="url(#arrow)"/>
+<rect id="eq_x" x="250" y="280" width="165" height="105" rx="12" fill="#FFFFFF" stroke="#4D1434" stroke-width="2"/>
+<text x="332.5" y="347.1666666666667" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="44" font-weight="700" fill="#4D1434">X(f)</text>
+<rect id="eq_equal" x="430" y="280" width="60" height="105" rx="12" fill="#FFFFFF" stroke="#4D1434" stroke-width="2"/>
+<text x="460" y="347.1666666666667" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="44" font-weight="700" fill="#4D1434">=</text>
+<rect id="eq_mag" x="505" y="280" width="210" height="105" rx="12" fill="#FFFFFF" stroke="#4D1434" stroke-width="2"/>
+<text x="610" y="347.1666666666667" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="44" font-weight="700" fill="#4D1434">|X(f)|</text>
+<rect id="eq_phase" x="745" y="280" width="245" height="105" rx="12" fill="#FFFFFF" stroke="#4D1434" stroke-width="2"/>
+<text x="867.5" y="347.1666666666667" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="44" font-weight="700" fill="#4D1434">eʲφˣ⁽ᶠ⁾</text>
+<rect id="callout_quantity" x="90" y="135" width="245" height="105" rx="12" fill="#F7F6F2" stroke="#969FA7" stroke-width="2"/>
+<text x="212.5" y="177" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#3D3D3D">Transformada</text>
+<text x="212.5" y="224" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">unidad U·s</text>
+<rect id="callout_magnitude" x="410" y="455" width="260" height="105" rx="12" fill="#E7F1F1" stroke="#2F7E83" stroke-width="2"/>
+<text x="540" y="497" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#2F7E83">Magnitud</text>
+<text x="540" y="544" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">escala declarada</text>
+<rect id="callout_phase" x="760" y="455" width="250" height="105" rx="12" fill="#F8EDE2" stroke="#9F541A" stroke-width="2"/>
+<text x="885" y="497" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#9F541A">Fase relativa</text>
+<text x="885" y="544" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">φₓ(f) en rad</text>
+<rect id="callout_frequency" x="1005" y="135" width="200" height="105" rx="12" fill="#F3E8EE" stroke="#4D1434" stroke-width="2"/>
+<text x="1105" y="177" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#4D1434">Variable</text>
+<text x="1105" y="224" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">f en Hz</text>
+<text x="72" y="689" font-family="Calibri,Arial,sans-serif" font-size="16" fill="#969FA7">Libro del curso, ecuaciones 5.5 y 5.6; convención de transformada declarada.</text>
+</svg>

@@ -1,0 +1,74 @@
+{
+  "classification": "ecuación anotada",
+  "title": "Octava: razón 2:1, no diferencia fija en Hz",
+  "source": "Libro del curso, ecuaciones de bandas; valores teóricos, no tolerancias normativas.",
+  "caption": "Eje conceptual de una octava centrada en 1000 Hz y tres tercios contiguos con límites calculados.",
+  "alt": "Una barra superior va de 707,1 a 1414,2 hertz y representa una octava. Tres cajas inferiores muestran tercios contiguos con centros 793,7, 1000 y 1259,9 hertz; sus anchos absolutos aumentan.",
+  "nodes": [
+    {
+      "id": "octave",
+      "x": 185,
+      "y": 145,
+      "w": 910,
+      "h": 105,
+      "title": "Octava: 707,1 Hz  →  f_c=1000 Hz  →  1414,2 Hz",
+      "body": "f_H/f_L = 2",
+      "style": "accent",
+      "role": "node"
+    },
+    {
+      "id": "third_low",
+      "x": 185,
+      "y": 350,
+      "w": 280,
+      "h": 155,
+      "title": "1.er tercio",
+      "body": "f_c=793,7 Hz\nB=183,8 Hz",
+      "style": "physical",
+      "role": "node"
+    },
+    {
+      "id": "third_mid",
+      "x": 500,
+      "y": 350,
+      "w": 280,
+      "h": 155,
+      "title": "2.º tercio",
+      "body": "f_c=1000 Hz\nB=231,6 Hz",
+      "style": "neutral",
+      "role": "node"
+    },
+    {
+      "id": "third_high",
+      "x": 815,
+      "y": 350,
+      "w": 280,
+      "h": 155,
+      "title": "3.er tercio",
+      "body": "f_c=1259,9 Hz\nB=291,8 Hz",
+      "style": "clinical",
+      "role": "node"
+    }
+  ],
+  "edges": [
+    {
+      "id": "oct_1",
+      "from": "third_low",
+      "to": "third_mid",
+      "label": "",
+      "semantic": "contiguo",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "oct_2",
+      "from": "third_mid",
+      "to": "third_high",
+      "label": "",
+      "semantic": "contiguo",
+      "fromSide": "right",
+      "toSide": "left"
+    }
+  ],
+  "footer": "f_c=√(f_L f_H)      ·      f_L=f_c·2^(−1/2b)      ·      f_H=f_c·2^(1/2b)"
+}
