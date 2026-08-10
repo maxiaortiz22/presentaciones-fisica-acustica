@@ -1,0 +1,102 @@
+{
+  "classification": "diagrama de proceso",
+  "title": "Rutina para leer cualquier representación",
+  "source": "Storyboard U05 y decisiones pedagógicas del proyecto.",
+  "caption": "Secuencia estable de cinco preguntas: objeto, ejes, unidades, condiciones e interpretación.",
+  "alt": "Cinco cajas numeradas forman un flujo en dos filas. La rutina comienza por identificar el objeto y termina por formular una interpretación limitada por las condiciones.",
+  "nodes": [
+    {
+      "id": "read_object",
+      "x": 90,
+      "y": 155,
+      "w": 300,
+      "h": 130,
+      "title": "1 · Objeto",
+      "body": "¿señal o sistema?",
+      "style": "physical",
+      "role": "node"
+    },
+    {
+      "id": "read_axes",
+      "x": 490,
+      "y": 155,
+      "w": 300,
+      "h": 130,
+      "title": "2 · Ejes",
+      "body": "t o f",
+      "style": "neutral",
+      "role": "node"
+    },
+    {
+      "id": "read_units",
+      "x": 890,
+      "y": 155,
+      "w": 300,
+      "h": 130,
+      "title": "3 · Unidades",
+      "body": "s · Hz · Pa · dB",
+      "style": "neutral",
+      "role": "node"
+    },
+    {
+      "id": "read_conditions",
+      "x": 890,
+      "y": 390,
+      "w": 300,
+      "h": 130,
+      "title": "4 · Condiciones",
+      "body": "ventana · ref.",
+      "style": "accent",
+      "role": "node"
+    },
+    {
+      "id": "read_meaning",
+      "x": 490,
+      "y": 390,
+      "w": 300,
+      "h": 130,
+      "title": "5 · Interpretar",
+      "body": "alcance",
+      "style": "clinical",
+      "role": "node"
+    }
+  ],
+  "edges": [
+    {
+      "id": "read_1",
+      "from": "read_object",
+      "to": "read_axes",
+      "label": "",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "read_2",
+      "from": "read_axes",
+      "to": "read_units",
+      "label": "",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "read_3",
+      "from": "read_units",
+      "to": "read_conditions",
+      "label": "",
+      "semantic": "",
+      "fromSide": "bottom",
+      "toSide": "top"
+    },
+    {
+      "id": "read_4",
+      "from": "read_conditions",
+      "to": "read_meaning",
+      "label": "",
+      "semantic": "",
+      "fromSide": "left",
+      "toSide": "right"
+    }
+  ]
+}

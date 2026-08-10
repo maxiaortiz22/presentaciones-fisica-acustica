@@ -1,0 +1,27 @@
+{
+  "asset_id": "U05-CH-003",
+  "classification": "gráfico cuantitativo",
+  "status": "approved",
+  "canvas_px": [
+    2560,
+    1440
+  ],
+  "required_canvas_px": [
+    2560,
+    1440
+  ],
+  "svg_exists": true,
+  "png_exists": true,
+  "data_rows": 240,
+  "font_floor": {
+    "axis_labels_pt": 20,
+    "ticks_and_legends_pt": 18,
+    "annotations_pt": 22
+  },
+  "checks": {
+    "magnitude_max_abs_difference": 9.78418475073358e-17,
+    "temporal_rms_difference": 0.13114877048604004
+  },
+  "critical_issues": 0,
+  "major_issues": 0
+}

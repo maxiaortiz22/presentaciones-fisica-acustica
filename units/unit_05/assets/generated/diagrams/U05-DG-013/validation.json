@@ -1,0 +1,37 @@
+{
+  "asset_id": "U05-DG-013",
+  "classification": "diagrama de proceso",
+  "canvas_px": [
+    1280,
+    720
+  ],
+  "slide_ratio": "16:9",
+  "font_floor": {
+    "node_title_pt": 24,
+    "node_body_pt": 22.5,
+    "connector_label_pt": 20.25,
+    "equation_pt": 33
+  },
+  "padding_px": 20,
+  "padding_inches": 0.208,
+  "not_to_scale": false,
+  "object_ids": [
+    "decision_question",
+    "decision_signal",
+    "decision_system",
+    "decision_measure",
+    "decision_limit"
+  ],
+  "connector_ids": [
+    "decision_1",
+    "decision_2",
+    "decision_3",
+    "decision_4",
+    "decision_5",
+    "decision_6"
+  ],
+  "issues": [],
+  "critical_issues": 0,
+  "major_issues": 0,
+  "status": "approved"
+}

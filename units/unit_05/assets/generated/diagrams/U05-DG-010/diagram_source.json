@@ -1,0 +1,143 @@
+{
+  "classification": "diagrama conceptual",
+  "title": "El tipo de filtro indica qué región pasa y cuál se atenúa",
+  "source": "Libro del curso, sección 5.9; curvas cuantitativas en U05-CH-016.",
+  "caption": "Taxonomía de cuatro filtros vinculada con una cadena entrada–filtro–salida.",
+  "alt": "Una cadena superior conecta entrada, filtro y salida. Desde el filtro parten cuatro ramas sin cruces hacia pasa bajos, pasa altos, pasa banda y elimina banda.",
+  "nodes": [
+    {
+      "id": "filter_input",
+      "x": 120,
+      "y": 135,
+      "w": 250,
+      "h": 115,
+      "title": "Entrada",
+      "body": "espectro X(f)",
+      "style": "physical",
+      "role": "node"
+    },
+    {
+      "id": "filter_system",
+      "x": 515,
+      "y": 135,
+      "w": 250,
+      "h": 115,
+      "title": "Filtro",
+      "body": "respuesta H(f)",
+      "style": "accent",
+      "role": "node"
+    },
+    {
+      "id": "filter_output",
+      "x": 910,
+      "y": 135,
+      "w": 250,
+      "h": 115,
+      "title": "Salida",
+      "body": "Y(f)=X(f)H(f)",
+      "style": "physical",
+      "role": "node"
+    },
+    {
+      "id": "lowpass",
+      "x": 75,
+      "y": 420,
+      "w": 240,
+      "h": 115,
+      "title": "Pasa bajos",
+      "body": "pasa f bajas",
+      "style": "neutral",
+      "role": "node"
+    },
+    {
+      "id": "highpass",
+      "x": 365,
+      "y": 420,
+      "w": 240,
+      "h": 115,
+      "title": "Pasa altos",
+      "body": "pasa f altas",
+      "style": "neutral",
+      "role": "node"
+    },
+    {
+      "id": "bandpass",
+      "x": 655,
+      "y": 420,
+      "w": 240,
+      "h": 115,
+      "title": "Pasa banda",
+      "body": "pasa f_L…f_H",
+      "style": "clinical",
+      "role": "node"
+    },
+    {
+      "id": "bandstop",
+      "x": 945,
+      "y": 420,
+      "w": 240,
+      "h": 115,
+      "title": "Rechazo",
+      "body": "f_L…f_H",
+      "style": "clinical",
+      "role": "node"
+    }
+  ],
+  "edges": [
+    {
+      "id": "filter_1",
+      "from": "filter_input",
+      "to": "filter_system",
+      "label": "",
+      "semantic": "pasa por",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "filter_2",
+      "from": "filter_system",
+      "to": "filter_output",
+      "label": "",
+      "semantic": "produce",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "filter_branch_1",
+      "from": "filter_system",
+      "to": "lowpass",
+      "label": "",
+      "semantic": "",
+      "fromSide": "bottom",
+      "toSide": "top"
+    },
+    {
+      "id": "filter_branch_2",
+      "from": "filter_system",
+      "to": "highpass",
+      "label": "",
+      "semantic": "",
+      "fromSide": "bottom",
+      "toSide": "top"
+    },
+    {
+      "id": "filter_branch_3",
+      "from": "filter_system",
+      "to": "bandpass",
+      "label": "",
+      "semantic": "",
+      "fromSide": "bottom",
+      "toSide": "top"
+    },
+    {
+      "id": "filter_branch_4",
+      "from": "filter_system",
+      "to": "bandstop",
+      "label": "",
+      "semantic": "",
+      "fromSide": "bottom",
+      "toSide": "top"
+    }
+  ],
+  "footer": "Frecuencia de corte: declarar criterio · ideal y real no son equivalentes."
+}

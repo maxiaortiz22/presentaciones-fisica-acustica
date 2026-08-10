@@ -1,0 +1,225 @@
+{
+  "status": "approved",
+  "chart_count": 13,
+  "diagram_count": 14,
+  "critical_issues": 0,
+  "major_issues": 0,
+  "checks": [
+    "required_files",
+    "png_2560x1440",
+    "svg_parse",
+    "csv_nonempty",
+    "pptx_zip",
+    "layout_bounds",
+    "font_floor",
+    "padding",
+    "object_ids"
+  ],
+  "charts": [
+    {
+      "asset_id": "U05-CH-001",
+      "status": "approved",
+      "rows": 160,
+      "png": "u05_fig_001_igual_rms.png",
+      "svg": "u05_fig_001_igual_rms.svg"
+    },
+    {
+      "asset_id": "U05-CH-002",
+      "status": "approved",
+      "rows": 101,
+      "png": "u05_fig_002_tiempo_magnitud_fase.png",
+      "svg": "u05_fig_002_tiempo_magnitud_fase.svg"
+    },
+    {
+      "asset_id": "U05-CH-003",
+      "status": "approved",
+      "rows": 240,
+      "png": "u05_fig_003_misma_magnitud_fase_distinta.png",
+      "svg": "u05_fig_003_misma_magnitud_fase_distinta.svg"
+    },
+    {
+      "asset_id": "U05-CH-005",
+      "status": "approved",
+      "rows": 3000,
+      "png": "u05_fig_005_sintesis_fourier.png",
+      "svg": "u05_fig_005_sintesis_fourier.svg"
+    },
+    {
+      "asset_id": "U05-CH-006",
+      "status": "approved",
+      "rows": 21,
+      "png": "u05_fig_006_muestreo_aliasing.png",
+      "svg": "u05_fig_006_muestreo_aliasing.svg"
+    },
+    {
+      "asset_id": "U05-CH-007",
+      "status": "approved",
+      "rows": 41,
+      "png": "u05_fig_007_bins_resolucion.png",
+      "svg": "u05_fig_007_bins_resolucion.svg"
+    },
+    {
+      "asset_id": "U05-CH-008",
+      "status": "approved",
+      "rows": 202,
+      "png": "u05_fig_008_fuga_espectral.png",
+      "svg": "u05_fig_008_fuga_espectral.svg"
+    },
+    {
+      "asset_id": "U05-CH-011",
+      "status": "approved",
+      "rows": 11,
+      "png": "u05_fig_011_componentes_espectrales.png",
+      "svg": "u05_fig_011_componentes_espectrales.svg"
+    },
+    {
+      "asset_id": "U05-CH-013",
+      "status": "approved",
+      "rows": 5,
+      "png": "u05_fig_013_regiones_frecuencia.png",
+      "svg": "u05_fig_013_regiones_frecuencia.svg"
+    },
+    {
+      "asset_id": "U05-CH-015",
+      "status": "approved",
+      "rows": 77,
+      "png": "u05_fig_015_bin_frente_banda.png",
+      "svg": "u05_fig_015_bin_frente_banda.svg"
+    },
+    {
+      "asset_id": "U05-CH-016",
+      "status": "approved",
+      "rows": 6400,
+      "png": "u05_fig_016_respuestas_filtros.png",
+      "svg": "u05_fig_016_respuestas_filtros.svg"
+    },
+    {
+      "asset_id": "U05-CH-018",
+      "status": "approved",
+      "rows": 2,
+      "png": "u05_fig_018_nivel_equivalente.png",
+      "svg": "u05_fig_018_nivel_equivalente.svg"
+    },
+    {
+      "asset_id": "U05-CH-019",
+      "status": "approved",
+      "rows": 6,
+      "png": "u05_fig_019_caso_bandas.png",
+      "svg": "u05_fig_019_caso_bandas.svg"
+    }
+  ],
+  "diagrams": [
+    {
+      "asset_id": "U05-DG-001",
+      "status": "approved",
+      "objects": 4,
+      "connectors": 3,
+      "layout_elements": 20,
+      "pptx": "u05_dg_001_master.pptx"
+    },
+    {
+      "asset_id": "U05-DG-002",
+      "status": "approved",
+      "objects": 5,
+      "connectors": 4,
+      "layout_elements": 24,
+      "pptx": "u05_dg_002_master.pptx"
+    },
+    {
+      "asset_id": "U05-DG-003",
+      "status": "approved",
+      "objects": 8,
+      "connectors": 4,
+      "layout_elements": 29,
+      "pptx": "u05_dg_003_master.pptx"
+    },
+    {
+      "asset_id": "U05-DG-004",
+      "status": "approved",
+      "objects": 6,
+      "connectors": 5,
+      "layout_elements": 29,
+      "pptx": "u05_dg_004_master.pptx"
+    },
+    {
+      "asset_id": "U05-DG-005",
+      "status": "approved",
+      "objects": 5,
+      "connectors": 4,
+      "layout_elements": 25,
+      "pptx": "u05_dg_005_master.pptx"
+    },
+    {
+      "asset_id": "U05-DG-006",
+      "status": "approved",
+      "objects": 3,
+      "connectors": 2,
+      "layout_elements": 17,
+      "pptx": "u05_dg_006_master.pptx"
+    },
+    {
+      "asset_id": "U05-DG-007",
+      "status": "approved",
+      "objects": 7,
+      "connectors": 5,
+      "layout_elements": 32,
+      "pptx": "u05_dg_007_master.pptx"
+    },
+    {
+      "asset_id": "U05-DG-008",
+      "status": "approved",
+      "objects": 6,
+      "connectors": 2,
+      "layout_elements": 26,
+      "pptx": "u05_dg_008_master.pptx"
+    },
+    {
+      "asset_id": "U05-DG-009",
+      "status": "approved",
+      "objects": 4,
+      "connectors": 2,
+      "layout_elements": 20,
+      "pptx": "u05_dg_009_master.pptx"
+    },
+    {
+      "asset_id": "U05-DG-010",
+      "status": "approved",
+      "objects": 7,
+      "connectors": 6,
+      "layout_elements": 33,
+      "pptx": "u05_dg_010_master.pptx"
+    },
+    {
+      "asset_id": "U05-DG-012",
+      "status": "approved",
+      "objects": 6,
+      "connectors": 5,
+      "layout_elements": 29,
+      "pptx": "u05_dg_012_master.pptx"
+    },
+    {
+      "asset_id": "U05-DG-013",
+      "status": "approved",
+      "objects": 5,
+      "connectors": 6,
+      "layout_elements": 26,
+      "pptx": "u05_dg_013_master.pptx"
+    },
+    {
+      "asset_id": "U05-DG-014",
+      "status": "approved",
+      "objects": 5,
+      "connectors": 0,
+      "layout_elements": 21,
+      "pptx": "u05_dg_014_master.pptx"
+    },
+    {
+      "asset_id": "U05-DG-015",
+      "status": "approved",
+      "objects": 4,
+      "connectors": 3,
+      "layout_elements": 21,
+      "pptx": "u05_dg_015_master.pptx"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "asset_id": "U05-CH-016",
+  "classification": "gráfico cuantitativo",
+  "status": "approved",
+  "canvas_px": [
+    2560,
+    1440
+  ],
+  "required_canvas_px": [
+    2560,
+    1440
+  ],
+  "svg_exists": true,
+  "png_exists": true,
+  "data_rows": 6400,
+  "font_floor": {
+    "axis_labels_pt": 20,
+    "ticks_and_legends_pt": 18,
+    "annotations_pt": 22
+  },
+  "checks": {
+    "cutoff_criterion_db": -3,
+    "scipy_version": "1.13.1",
+    "models_stable": true
+  },
+  "critical_issues": 0,
+  "major_issues": 0
+}

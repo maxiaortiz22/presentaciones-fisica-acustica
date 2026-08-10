@@ -1,0 +1,491 @@
+[
+  {
+    "asset_id": "U05-DG-001",
+    "classification": "diagrama conceptual",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 24,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20.25,
+      "equation_pt": 33
+    },
+    "padding_px": 20,
+    "padding_inches": 0.208,
+    "not_to_scale": false,
+    "object_ids": [
+      "stage_signal",
+      "stage_repr",
+      "stage_interpret",
+      "stage_measure"
+    ],
+    "connector_ids": [
+      "edge_1",
+      "edge_2",
+      "edge_3"
+    ],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved"
+  },
+  {
+    "asset_id": "U05-DG-002",
+    "classification": "diagrama de proceso",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 24,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20.25,
+      "equation_pt": 33
+    },
+    "padding_px": 20,
+    "padding_inches": 0.208,
+    "not_to_scale": false,
+    "object_ids": [
+      "read_object",
+      "read_axes",
+      "read_units",
+      "read_conditions",
+      "read_meaning"
+    ],
+    "connector_ids": [
+      "read_1",
+      "read_2",
+      "read_3",
+      "read_4"
+    ],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved"
+  },
+  {
+    "asset_id": "U05-DG-003",
+    "classification": "ecuación anotada",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 24,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20.25,
+      "equation_pt": 33
+    },
+    "padding_px": 20,
+    "padding_inches": 0.208,
+    "not_to_scale": false,
+    "object_ids": [
+      "eq_x",
+      "eq_equal",
+      "eq_mag",
+      "eq_phase",
+      "callout_quantity",
+      "callout_magnitude",
+      "callout_phase",
+      "callout_frequency"
+    ],
+    "connector_ids": [
+      "lead_quantity",
+      "lead_magnitude",
+      "lead_phase",
+      "lead_frequency"
+    ],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved"
+  },
+  {
+    "asset_id": "U05-DG-004",
+    "classification": "diagrama de proceso",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 24,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20.25,
+      "equation_pt": 33
+    },
+    "padding_px": 20,
+    "padding_inches": 0.208,
+    "not_to_scale": false,
+    "object_ids": [
+      "capture",
+      "samples",
+      "segment",
+      "window",
+      "dft",
+      "bins"
+    ],
+    "connector_ids": [
+      "dig_1",
+      "dig_2",
+      "dig_3",
+      "dig_4",
+      "dig_5"
+    ],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved"
+  },
+  {
+    "asset_id": "U05-DG-005",
+    "classification": "esquema mixto",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 24,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20.25,
+      "equation_pt": 33
+    },
+    "padding_px": 20,
+    "padding_inches": 0.208,
+    "not_to_scale": true,
+    "object_ids": [
+      "long_signal",
+      "selection",
+      "multiply_window",
+      "local_spectra",
+      "group_bands"
+    ],
+    "connector_ids": [
+      "mix_1",
+      "mix_2",
+      "mix_3",
+      "mix_4"
+    ],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved"
+  },
+  {
+    "asset_id": "U05-DG-006",
+    "classification": "diagrama conceptual",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 24,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20.25,
+      "equation_pt": 33
+    },
+    "padding_px": 20,
+    "padding_inches": 0.208,
+    "not_to_scale": false,
+    "object_ids": [
+      "input_x",
+      "system_h",
+      "output_y"
+    ],
+    "connector_ids": [
+      "sys_1",
+      "sys_2"
+    ],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved"
+  },
+  {
+    "asset_id": "U05-DG-007",
+    "classification": "esquema mixto",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 24,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20.25,
+      "equation_pt": 33
+    },
+    "padding_px": 20,
+    "padding_inches": 0.208,
+    "not_to_scale": true,
+    "object_ids": [
+      "fundamental",
+      "harmonic",
+      "partial",
+      "overtone",
+      "voice_source",
+      "vocal_filter",
+      "voice_output"
+    ],
+    "connector_ids": [
+      "tax_1",
+      "tax_2",
+      "tax_3",
+      "voice_1",
+      "voice_2"
+    ],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved"
+  },
+  {
+    "asset_id": "U05-DG-008",
+    "classification": "esquema mixto",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 24,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20.25,
+      "equation_pt": 33
+    },
+    "padding_px": 20,
+    "padding_inches": 0.208,
+    "not_to_scale": true,
+    "object_ids": [
+      "frequency_range",
+      "dynamic_range",
+      "condition_source",
+      "condition_stimulus",
+      "condition_level",
+      "condition_method"
+    ],
+    "connector_ids": [
+      "cond_1",
+      "cond_2"
+    ],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved"
+  },
+  {
+    "asset_id": "U05-DG-009",
+    "classification": "ecuación anotada",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 24,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20.25,
+      "equation_pt": 33
+    },
+    "padding_px": 20,
+    "padding_inches": 0.208,
+    "not_to_scale": false,
+    "object_ids": [
+      "octave",
+      "third_low",
+      "third_mid",
+      "third_high"
+    ],
+    "connector_ids": [
+      "oct_1",
+      "oct_2"
+    ],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved"
+  },
+  {
+    "asset_id": "U05-DG-010",
+    "classification": "diagrama conceptual",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 24,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20.25,
+      "equation_pt": 33
+    },
+    "padding_px": 20,
+    "padding_inches": 0.208,
+    "not_to_scale": false,
+    "object_ids": [
+      "filter_input",
+      "filter_system",
+      "filter_output",
+      "lowpass",
+      "highpass",
+      "bandpass",
+      "bandstop"
+    ],
+    "connector_ids": [
+      "filter_1",
+      "filter_2",
+      "filter_branch_1",
+      "filter_branch_2",
+      "filter_branch_3",
+      "filter_branch_4"
+    ],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved"
+  },
+  {
+    "asset_id": "U05-DG-012",
+    "classification": "diagrama de proceso",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 24,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20.25,
+      "equation_pt": 33
+    },
+    "padding_px": 20,
+    "padding_inches": 0.208,
+    "not_to_scale": true,
+    "object_ids": [
+      "meter_mic",
+      "meter_pre",
+      "meter_freq",
+      "meter_detect",
+      "meter_time",
+      "meter_report"
+    ],
+    "connector_ids": [
+      "meter_1",
+      "meter_2",
+      "meter_3",
+      "meter_4",
+      "meter_5"
+    ],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved"
+  },
+  {
+    "asset_id": "U05-DG-013",
+    "classification": "diagrama de proceso",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 24,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20.25,
+      "equation_pt": 33
+    },
+    "padding_px": 20,
+    "padding_inches": 0.208,
+    "not_to_scale": false,
+    "object_ids": [
+      "decision_question",
+      "decision_signal",
+      "decision_system",
+      "decision_measure",
+      "decision_limit"
+    ],
+    "connector_ids": [
+      "decision_1",
+      "decision_2",
+      "decision_3",
+      "decision_4",
+      "decision_5",
+      "decision_6"
+    ],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved"
+  },
+  {
+    "asset_id": "U05-DG-014",
+    "classification": "diagrama conceptual",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 24,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20.25,
+      "equation_pt": 33
+    },
+    "padding_px": 20,
+    "padding_inches": 0.208,
+    "not_to_scale": false,
+    "object_ids": [
+      "recap_object",
+      "recap_axes",
+      "recap_units",
+      "recap_params",
+      "recap_limit"
+    ],
+    "connector_ids": [],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved"
+  },
+  {
+    "asset_id": "U05-DG-015",
+    "classification": "diagrama de proceso",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 24,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20.25,
+      "equation_pt": 33
+    },
+    "padding_px": 20,
+    "padding_inches": 0.208,
+    "not_to_scale": false,
+    "object_ids": [
+      "solution_classify",
+      "solution_compute",
+      "solution_interpret",
+      "solution_conditions"
+    ],
+    "connector_ids": [
+      "solution_1",
+      "solution_2",
+      "solution_3"
+    ],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved"
+  }
+]

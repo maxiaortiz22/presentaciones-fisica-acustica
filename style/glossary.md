@@ -89,18 +89,31 @@
 | respuesta en frecuencia | Relación entre salida y entrada de un sistema en función de la frecuencia. | 5 | No es el espectro de una señal. |
 | serie de Fourier | Representación de una señal periódica como suma de componentes sinusoidales. | 5 | Requiere aclarar condiciones y alcance. |
 | transformada de Fourier | Operación que representa una señal mediante sus componentes de frecuencia. | 5 | La DFT es su versión discreta para una secuencia finita. |
+| transformada discreta de Fourier (DFT) | Transformación que obtiene valores espectrales discretos de una secuencia finita de muestras. | 5 | No es sinónimo del gráfico resultante ni determina por sí sola su ordenada o normalización. |
+| transformada rápida de Fourier (FFT) | Familia de algoritmos eficientes para calcular una DFT. | 5 | La FFT no es una magnitud física ni un tipo distinto de espectro. |
+| bin de frecuencia | Posición discreta de frecuencia evaluada por una DFT. | 5 | Su separación depende de `f_s/N`; no es una banda normalizada ni posee un ancho físico universal. |
+| ventana temporal | Función que pondera el segmento de señal incluido en un análisis. | 5 | Toda observación finita implica una ventana, explícita o implícita. |
+| fuga espectral | Distribución de una contribución entre bins debida a la observación finita y a la ventana usada. | 5 | No equivale a ruido ni a componentes físicas nuevas. |
+| resolución frecuencial | Capacidad de un procedimiento para separar o describir componentes próximas en frecuencia. | 5 | La separación nominal `Δf` es un factor, pero no garantiza exactitud ni resolución efectiva. |
 | frecuencia fundamental | Menor frecuencia asociada con la periodicidad de una señal periódica. | 5 | Puede no ser el componente de mayor amplitud ni estar físicamente presente. |
 | armónico | Componente cuya frecuencia es un múltiplo entero de la fundamental. | 5 | Todo armónico es parcial; no todo parcial es armónico. |
 | parcial | Componente sinusoidal identificable de una señal compleja. | 5 | Término general. |
 | sobretono | Parcial por encima de la fundamental, contado por orden perceptual/espectral. | 5 | El primer sobretono puede ser el segundo armónico, si la serie es armónica. |
 | formante | Región de resonancia espectral asociada al tracto vocal u otro sistema resonante. | 5 | No es un armónico; los armónicos muestrean la envolvente de formantes. |
 | octava | Intervalo entre dos frecuencias cuya razón es 2:1. | 5 | No es una diferencia fija en Hz. |
+| banda de frecuencia | Intervalo delimitado por frecuencias inferior y superior definidas. | 5 | No confundir con un bin; declarar límites, centro y criterio cuando corresponda. |
+| banda de octava | Banda cuyos límites guardan una razón 2:1. | 5 | La frecuencia central suele definirse geométricamente; distinguir de tercio de octava. |
 | filtro | Sistema que modifica componentes de una señal según frecuencia. | 5 | Especificar tipo, cortes y pendiente cuando corresponda. |
 | frecuencia de corte | Frecuencia definida por un criterio de atenuación que delimita una banda de un filtro. | 5 | Declarar el criterio; no asumir que el paso termina abruptamente. |
 | ancho de banda | Extensión de frecuencias comprendida entre límites definidos. | 5 | Puede expresarse en Hz, octavas u otra medida especificada. |
 | espectrograma | Representación de contenido frecuencial a lo largo del tiempo. | 5 | Color/intensidad representa magnitud definida; resolución temporal y frecuencial están acopladas. |
+| ponderación frecuencial | Respuesta normalizada que modifica la contribución de distintas frecuencias en una medición. | 5 | Nombrar la ponderación y el descriptor; no equipararla con percepción individual. |
 | ponderación A | Respuesta frecuencial normalizada usada en mediciones de nivel sonoro. | 5 | Expresar como dB(A) o `L_A...`; no representa una audición individual. |
+| ponderación C | Respuesta frecuencial normalizada más plana que A en gran parte del rango audible. | 5 | Aparece, entre otros usos, en descriptores de pico; no sustituye la configuración completa. |
+| ponderación Z | Respuesta frecuencial nominalmente plana dentro del rango especificado por la norma aplicable. | 5 | No significa ausencia de límites instrumentales ni una medida “sin condiciones”. |
+| respuesta temporal del sonómetro | Procesamiento temporal normalizado que condiciona cómo evoluciona una lectura. | 5 | Distinguir Fast, Slow e Impulse de un detector de pico y de un nivel equivalente. |
 | sonómetro | Instrumento que mide niveles sonoros conforme a configuraciones y, cuando corresponda, normas definidas. | 4 | Se anticipa conceptualmente en U4; ponderaciones, respuesta temporal y descriptores se formalizan en U5 y se retoman en U10. Evitar “decibelímetro”. |
+| calibrador acústico | Dispositivo que aplica al micrófono una señal acústica de referencia especificada para comprobar o ajustar una cadena de medición. | 5 | Una verificación antes/después de medir no equivale por sí sola a la calibración metrológica completa del instrumento. |
 | nivel sonoro continuo equivalente | Nivel constante que contiene la misma energía cuadrática media que un sonido variable durante un intervalo. | 5 | Símbolo `L_eq,T`; con ponderación A, `L_Aeq,T`. |
 
 ## Audición, percepción y clínica

@@ -1,0 +1,103 @@
+{
+  "classification": "esquema mixto",
+  "title": "Recortar y agrupar son operaciones distintas",
+  "source": "Libro del curso, ventanas, espectrograma y suma por banda.",
+  "caption": "Proceso conceptual desde una señal larga hasta segmentos, espectros locales, espectrograma y agrupación en bandas.",
+  "alt": "Cinco bloques conectados muestran señal larga, selección de segmento, aplicación de ventana, espectros por tiempo y agrupación de bins en bandas.",
+  "nodes": [
+    {
+      "id": "long_signal",
+      "x": 85,
+      "y": 240,
+      "w": 190,
+      "h": 145,
+      "title": "Señal",
+      "body": "registro",
+      "style": "physical",
+      "role": "node"
+    },
+    {
+      "id": "selection",
+      "x": 315,
+      "y": 240,
+      "w": 190,
+      "h": 145,
+      "title": "Tramo",
+      "body": "selección",
+      "style": "neutral",
+      "role": "node"
+    },
+    {
+      "id": "multiply_window",
+      "x": 545,
+      "y": 240,
+      "w": 190,
+      "h": 145,
+      "title": "Ventana",
+      "body": "multiplica",
+      "style": "accent",
+      "role": "node"
+    },
+    {
+      "id": "local_spectra",
+      "x": 775,
+      "y": 240,
+      "w": 190,
+      "h": 145,
+      "title": "Espectros",
+      "body": "rejilla t–f",
+      "style": "physical",
+      "role": "node"
+    },
+    {
+      "id": "group_bands",
+      "x": 1005,
+      "y": 240,
+      "w": 190,
+      "h": 145,
+      "title": "Bandas",
+      "body": "suma energía",
+      "style": "clinical",
+      "role": "node"
+    }
+  ],
+  "edges": [
+    {
+      "id": "mix_1",
+      "from": "long_signal",
+      "to": "selection",
+      "label": "",
+      "semantic": "recorta",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "mix_2",
+      "from": "selection",
+      "to": "multiply_window",
+      "label": "",
+      "semantic": "pondera",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "mix_3",
+      "from": "multiply_window",
+      "to": "local_spectra",
+      "label": "",
+      "semantic": "DFT",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "mix_4",
+      "from": "local_spectra",
+      "to": "group_bands",
+      "label": "",
+      "semantic": "suma energía",
+      "fromSide": "right",
+      "toSide": "left"
+    }
+  ],
+  "footer": "Figura conceptual; no está a escala."
+}

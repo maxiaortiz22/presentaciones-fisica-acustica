@@ -1,0 +1,96 @@
+{
+  "classification": "esquema mixto",
+  "title": "Un rango sólo tiene sentido si sus límites están condicionados",
+  "source": "Libro del curso, sección 5.7.",
+  "caption": "Comparación de región frecuencial y rango dinámico con condiciones explícitas.",
+  "alt": "Dos bandas grandes muestran regiones de frecuencia y un rango dinámico entre límite inferior y superior. Cuatro cajas inferiores exigen declarar persona o fuente, estímulo, nivel y método de medición.",
+  "nodes": [
+    {
+      "id": "frequency_range",
+      "x": 95,
+      "y": 155,
+      "w": 500,
+      "h": 140,
+      "title": "Región de frecuencia",
+      "body": "infra · audible · ultra",
+      "style": "physical",
+      "role": "node"
+    },
+    {
+      "id": "dynamic_range",
+      "x": 685,
+      "y": 155,
+      "w": 500,
+      "h": 140,
+      "title": "Rango dinámico",
+      "body": "R_D = L_sup − L_inf",
+      "style": "clinical",
+      "role": "node"
+    },
+    {
+      "id": "condition_source",
+      "x": 95,
+      "y": 400,
+      "w": 240,
+      "h": 145,
+      "title": "Origen",
+      "body": "persona / fuente",
+      "style": "neutral",
+      "role": "node"
+    },
+    {
+      "id": "condition_stimulus",
+      "x": 375,
+      "y": 400,
+      "w": 240,
+      "h": 145,
+      "title": "Estímulo",
+      "body": "f · duración",
+      "style": "neutral",
+      "role": "node"
+    },
+    {
+      "id": "condition_level",
+      "x": 655,
+      "y": 400,
+      "w": 240,
+      "h": 145,
+      "title": "Descriptor",
+      "body": "RMS · pico\nL_eq",
+      "style": "neutral",
+      "role": "node"
+    },
+    {
+      "id": "condition_method",
+      "x": 935,
+      "y": 400,
+      "w": 250,
+      "h": 145,
+      "title": "Medición",
+      "body": "distancia · X",
+      "style": "accent",
+      "role": "node"
+    }
+  ],
+  "edges": [
+    {
+      "id": "cond_1",
+      "from": "frequency_range",
+      "to": "condition_stimulus",
+      "label": "",
+      "semantic": "depende de",
+      "fromSide": "bottom",
+      "toSide": "top"
+    },
+    {
+      "id": "cond_2",
+      "from": "dynamic_range",
+      "to": "condition_level",
+      "label": "",
+      "semantic": "requiere",
+      "fromSide": "bottom",
+      "toSide": "top"
+    }
+  ],
+  "footer": "Fronteras y límites conceptuales; no están a escala ni son universales."
+}

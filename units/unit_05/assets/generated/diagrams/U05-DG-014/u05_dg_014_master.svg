@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+<defs><marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0,0 L10,4 L0,8 Z" fill="#3D3D3D"/></marker></defs>
+<rect width="1280" height="720" fill="white"/>
+<rect x="72" y="27" width="390" height="6" fill="#4D1434"/><rect x="472" y="27" width="390" height="6" fill="#903163"/><rect x="872" y="27" width="336" height="6" fill="#969FA7"/>
+<text x="72" y="78" font-family="Calibri,Arial,sans-serif" font-size="42" font-weight="700" fill="#3D3D3D">Rutina acumulativa de lectura</text>
+<rect id="recap_object" x="90" y="180" width="320" height="130" rx="12" fill="#E7F1F1" stroke="#2F7E83" stroke-width="2"/>
+<text x="250" y="222" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#2F7E83">Objeto</text>
+<text x="250" y="269" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">señal / sistema</text>
+<rect id="recap_axes" x="480" y="180" width="320" height="130" rx="12" fill="#F7F6F2" stroke="#969FA7" stroke-width="2"/>
+<text x="640" y="222" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#3D3D3D">Ejes</text>
+<text x="640" y="269" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">t / f</text>
+<rect id="recap_units" x="870" y="180" width="320" height="130" rx="12" fill="#F7F6F2" stroke="#969FA7" stroke-width="2"/>
+<text x="1030" y="222" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#3D3D3D">Unidades</text>
+<text x="1030" y="269" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">s · Hz · Pa · dB</text>
+<rect id="recap_params" x="280" y="410" width="320" height="130" rx="12" fill="#F3E8EE" stroke="#4D1434" stroke-width="2"/>
+<text x="440" y="452" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#4D1434">Parámetros</text>
+<text x="440" y="499" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">ventana · N · fₛ</text>
+<rect id="recap_limit" x="680" y="410" width="320" height="130" rx="12" fill="#F8EDE2" stroke="#9F541A" stroke-width="2"/>
+<text x="840" y="452" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#9F541A">Límite</text>
+<text x="840" y="499" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">alcance declarado</text>
+<text x="640" y="625" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">Master editable: el campo nuevo se distingue por color + rótulo + posición estable.</text>
+<text x="72" y="689" font-family="Calibri,Arial,sans-serif" font-size="16" fill="#969FA7">Storyboard U05; master de recapitulación parcial.</text>
+</svg>

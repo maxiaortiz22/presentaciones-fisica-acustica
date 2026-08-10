@@ -1,0 +1,120 @@
+{
+  "classification": "diagrama de proceso",
+  "title": "La pregunta profesional determina la representación",
+  "source": "Storyboard U05, actividad integradora.",
+  "caption": "Árbol de decisión que separa preguntas sobre señal, sistema y medición.",
+  "alt": "Una pregunta inicial se divide en tres rutas: señal, sistema y medición. Cada ruta termina en una representación y recuerda declarar evidencia y límites.",
+  "nodes": [
+    {
+      "id": "decision_question",
+      "x": 390,
+      "y": 115,
+      "w": 500,
+      "h": 105,
+      "title": "¿Qué objeto necesito describir?",
+      "body": "elegir antes de graficar",
+      "style": "accent",
+      "role": "node"
+    },
+    {
+      "id": "decision_signal",
+      "x": 90,
+      "y": 310,
+      "w": 300,
+      "h": 135,
+      "title": "Señal",
+      "body": "tiempo · espectro",
+      "style": "physical",
+      "role": "node"
+    },
+    {
+      "id": "decision_system",
+      "x": 490,
+      "y": 310,
+      "w": 300,
+      "h": 135,
+      "title": "Sistema",
+      "body": "respuesta H(f)",
+      "style": "neutral",
+      "role": "node"
+    },
+    {
+      "id": "decision_measure",
+      "x": 890,
+      "y": 310,
+      "w": 300,
+      "h": 135,
+      "title": "Medición",
+      "body": "bandas · X",
+      "style": "clinical",
+      "role": "node"
+    },
+    {
+      "id": "decision_limit",
+      "x": 390,
+      "y": 500,
+      "w": 500,
+      "h": 130,
+      "title": "En toda ruta",
+      "body": "método · unidad · límite",
+      "style": "neutral",
+      "role": "node"
+    }
+  ],
+  "edges": [
+    {
+      "id": "decision_1",
+      "from": "decision_question",
+      "to": "decision_signal",
+      "label": "",
+      "semantic": "¿cambia la señal?",
+      "fromSide": "bottom",
+      "toSide": "top"
+    },
+    {
+      "id": "decision_2",
+      "from": "decision_question",
+      "to": "decision_system",
+      "label": "",
+      "semantic": "¿modifica?",
+      "fromSide": "bottom",
+      "toSide": "top"
+    },
+    {
+      "id": "decision_3",
+      "from": "decision_question",
+      "to": "decision_measure",
+      "label": "",
+      "semantic": "¿se informa nivel?",
+      "fromSide": "bottom",
+      "toSide": "top"
+    },
+    {
+      "id": "decision_4",
+      "from": "decision_signal",
+      "to": "decision_limit",
+      "label": "",
+      "semantic": "evidencia",
+      "fromSide": "bottom",
+      "toSide": "top"
+    },
+    {
+      "id": "decision_5",
+      "from": "decision_system",
+      "to": "decision_limit",
+      "label": "",
+      "semantic": "evidencia",
+      "fromSide": "bottom",
+      "toSide": "top"
+    },
+    {
+      "id": "decision_6",
+      "from": "decision_measure",
+      "to": "decision_limit",
+      "label": "",
+      "semantic": "evidencia",
+      "fromSide": "bottom",
+      "toSide": "top"
+    }
+  ]
+}

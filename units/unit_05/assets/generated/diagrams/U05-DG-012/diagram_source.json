@@ -1,0 +1,123 @@
+{
+  "classification": "diagrama de proceso",
+  "title": "El nivel informado resulta de una cadena de decisiones",
+  "source": "Libro del curso, sección 5.11 y figura 5.8.",
+  "caption": "Cadena funcional conceptual de un sonómetro desde la presión acústica hasta el informe.",
+  "alt": "Seis bloques conectados muestran micrófono, acondicionamiento y conversión, ponderación frecuencial, detector o integrador, respuesta temporal e indicador e informe.",
+  "nodes": [
+    {
+      "id": "meter_mic",
+      "x": 90,
+      "y": 155,
+      "w": 300,
+      "h": 130,
+      "title": "1 · Micrófono",
+      "body": "p(t) en Pa",
+      "style": "physical",
+      "role": "node"
+    },
+    {
+      "id": "meter_pre",
+      "x": 490,
+      "y": 155,
+      "w": 300,
+      "h": 130,
+      "title": "2 · Conversión",
+      "body": "señal digital",
+      "style": "neutral",
+      "role": "node"
+    },
+    {
+      "id": "meter_freq",
+      "x": 890,
+      "y": 155,
+      "w": 300,
+      "h": 130,
+      "title": "3 · Ponderación",
+      "body": "A · C · Z",
+      "style": "accent",
+      "role": "node"
+    },
+    {
+      "id": "meter_detect",
+      "x": 890,
+      "y": 390,
+      "w": 300,
+      "h": 130,
+      "title": "4 · Detector",
+      "body": "RMS o pico",
+      "style": "neutral",
+      "role": "node"
+    },
+    {
+      "id": "meter_time",
+      "x": 490,
+      "y": 390,
+      "w": 300,
+      "h": 130,
+      "title": "5 · Temporal",
+      "body": "F o S",
+      "style": "clinical",
+      "role": "node"
+    },
+    {
+      "id": "meter_report",
+      "x": 90,
+      "y": 390,
+      "w": 300,
+      "h": 130,
+      "title": "6 · Informe",
+      "body": "magnitud · T",
+      "style": "clinical",
+      "role": "node"
+    }
+  ],
+  "edges": [
+    {
+      "id": "meter_1",
+      "from": "meter_mic",
+      "to": "meter_pre",
+      "label": "",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "meter_2",
+      "from": "meter_pre",
+      "to": "meter_freq",
+      "label": "",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "meter_3",
+      "from": "meter_freq",
+      "to": "meter_detect",
+      "label": "",
+      "semantic": "",
+      "fromSide": "bottom",
+      "toSide": "top"
+    },
+    {
+      "id": "meter_4",
+      "from": "meter_detect",
+      "to": "meter_time",
+      "label": "",
+      "semantic": "",
+      "fromSide": "left",
+      "toSide": "right"
+    },
+    {
+      "id": "meter_5",
+      "from": "meter_time",
+      "to": "meter_report",
+      "label": "",
+      "semantic": "",
+      "fromSide": "left",
+      "toSide": "right"
+    }
+  ],
+  "footer": "Cadena conceptual; no representa la arquitectura interna de un modelo comercial."
+}

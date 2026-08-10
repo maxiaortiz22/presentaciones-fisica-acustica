@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+<defs><marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0,0 L10,4 L0,8 Z" fill="#3D3D3D"/></marker></defs>
+<rect width="1280" height="720" fill="white"/>
+<rect x="72" y="27" width="390" height="6" fill="#4D1434"/><rect x="472" y="27" width="390" height="6" fill="#903163"/><rect x="872" y="27" width="336" height="6" fill="#969FA7"/>
+<text x="72" y="78" font-family="Calibri,Arial,sans-serif" font-size="42" font-weight="700" fill="#3D3D3D">Octava: razón 2:1, no diferencia fija en Hz</text>
+<polyline points="465,427.5 482.5,427.5 482.5,427.5 500,427.5" fill="none" stroke="#3D3D3D" stroke-width="3" marker-end="url(#arrow)"/>
+<polyline points="780,427.5 797.5,427.5 797.5,427.5 815,427.5" fill="none" stroke="#3D3D3D" stroke-width="3" marker-end="url(#arrow)"/>
+<rect id="octave" x="185" y="145" width="910" height="105" rx="12" fill="#F3E8EE" stroke="#4D1434" stroke-width="2"/>
+<text x="640" y="187" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#4D1434">Octava: 707,1 Hz  →  f_c=1000 Hz  →  1414,2 Hz</text>
+<text x="640" y="234" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">f_H/f_L = 2</text>
+<rect id="third_low" x="185" y="350" width="280" height="155" rx="12" fill="#E7F1F1" stroke="#2F7E83" stroke-width="2"/>
+<text x="325" y="392" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#2F7E83">1.er tercio</text>
+<text x="325" y="439" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">f_c=793,7 Hz</text>
+<text x="325" y="471" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">B=183,8 Hz</text>
+<rect id="third_mid" x="500" y="350" width="280" height="155" rx="12" fill="#F7F6F2" stroke="#969FA7" stroke-width="2"/>
+<text x="640" y="392" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#3D3D3D">2.º tercio</text>
+<text x="640" y="439" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">f_c=1000 Hz</text>
+<text x="640" y="471" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">B=231,6 Hz</text>
+<rect id="third_high" x="815" y="350" width="280" height="155" rx="12" fill="#F8EDE2" stroke="#9F541A" stroke-width="2"/>
+<text x="955" y="392" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#9F541A">3.er tercio</text>
+<text x="955" y="439" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">f_c=1259,9 Hz</text>
+<text x="955" y="471" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">B=291,8 Hz</text>
+<text x="640" y="625" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">f_c=√(f_L f_H)      ·      f_L=f_c·2^(−1/2b)      ·      f_H=f_c·2^(1/2b)</text>
+<text x="72" y="689" font-family="Calibri,Arial,sans-serif" font-size="16" fill="#969FA7">Libro del curso, ecuaciones de bandas; valores teóricos, no tolerancias normativas.</text>
+</svg>

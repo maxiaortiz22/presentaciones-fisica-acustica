@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+<defs><marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0,0 L10,4 L0,8 Z" fill="#3D3D3D"/></marker></defs>
+<rect width="1280" height="720" fill="white"/>
+<rect x="72" y="27" width="390" height="6" fill="#4D1434"/><rect x="472" y="27" width="390" height="6" fill="#903163"/><rect x="872" y="27" width="336" height="6" fill="#969FA7"/>
+<text x="72" y="78" font-family="Calibri,Arial,sans-serif" font-size="42" font-weight="700" fill="#3D3D3D">El tipo de filtro indica qué región pasa y cuál se atenúa</text>
+<polyline points="370,192.5 442.5,192.5 442.5,192.5 515,192.5" fill="none" stroke="#3D3D3D" stroke-width="3" marker-end="url(#arrow)"/>
+<polyline points="765,192.5 837.5,192.5 837.5,192.5 910,192.5" fill="none" stroke="#3D3D3D" stroke-width="3" marker-end="url(#arrow)"/>
+<polyline points="640,250 640,335 195,335 195,420" fill="none" stroke="#3D3D3D" stroke-width="3" marker-end="url(#arrow)"/>
+<polyline points="640,250 640,335 485,335 485,420" fill="none" stroke="#3D3D3D" stroke-width="3" marker-end="url(#arrow)"/>
+<polyline points="640,250 640,335 775,335 775,420" fill="none" stroke="#3D3D3D" stroke-width="3" marker-end="url(#arrow)"/>
+<polyline points="640,250 640,335 1065,335 1065,420" fill="none" stroke="#3D3D3D" stroke-width="3" marker-end="url(#arrow)"/>
+<rect id="filter_input" x="120" y="135" width="250" height="115" rx="12" fill="#E7F1F1" stroke="#2F7E83" stroke-width="2"/>
+<text x="245" y="177" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#2F7E83">Entrada</text>
+<text x="245" y="224" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">espectro X(f)</text>
+<rect id="filter_system" x="515" y="135" width="250" height="115" rx="12" fill="#F3E8EE" stroke="#4D1434" stroke-width="2"/>
+<text x="640" y="177" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#4D1434">Filtro</text>
+<text x="640" y="224" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">respuesta H(f)</text>
+<rect id="filter_output" x="910" y="135" width="250" height="115" rx="12" fill="#E7F1F1" stroke="#2F7E83" stroke-width="2"/>
+<text x="1035" y="177" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#2F7E83">Salida</text>
+<text x="1035" y="224" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">Y(f)=X(f)H(f)</text>
+<rect id="lowpass" x="75" y="420" width="240" height="115" rx="12" fill="#F7F6F2" stroke="#969FA7" stroke-width="2"/>
+<text x="195" y="462" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#3D3D3D">Pasa bajos</text>
+<text x="195" y="509" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">pasa f bajas</text>
+<rect id="highpass" x="365" y="420" width="240" height="115" rx="12" fill="#F7F6F2" stroke="#969FA7" stroke-width="2"/>
+<text x="485" y="462" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#3D3D3D">Pasa altos</text>
+<text x="485" y="509" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">pasa f altas</text>
+<rect id="bandpass" x="655" y="420" width="240" height="115" rx="12" fill="#F8EDE2" stroke="#9F541A" stroke-width="2"/>
+<text x="775" y="462" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#9F541A">Pasa banda</text>
+<text x="775" y="509" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">pasa f_L…f_H</text>
+<rect id="bandstop" x="945" y="420" width="240" height="115" rx="12" fill="#F8EDE2" stroke="#9F541A" stroke-width="2"/>
+<text x="1065" y="462" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#9F541A">Rechazo</text>
+<text x="1065" y="509" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">f_L…f_H</text>
+<text x="640" y="625" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">Frecuencia de corte: declarar criterio · ideal y real no son equivalentes.</text>
+<text x="72" y="689" font-family="Calibri,Arial,sans-serif" font-size="16" fill="#969FA7">Libro del curso, sección 5.9; curvas cuantitativas en U05-CH-016.</text>
+</svg>

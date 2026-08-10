@@ -161,6 +161,7 @@ solo cuando `x²` es proporcional a la magnitud de potencia bajo las mismas cond
 | equivalente ponderado A | `L_Aeq,T` | ponderación A e intervalo `T` | preferido frente a “Leq dBA” aislado |
 | nivel máximo A, Fast | `L_AFmax` | ponderación A, respuesta temporal F | no equivale a pico |
 | nivel pico C | `L_Cpeak` | ponderación C, detector de pico | declarar configuración |
+| corrección A para un tono | `A(f)` | dB | Bajo condiciones verificadas, `L_A(f)=L_Z(f)+A(f)`; no aplicar una corrección única a banda ancha. |
 | nivel de audición | nivel en dB HL | cero audiométrico normativo | `dB HL`, frecuencia y transductor |
 | nivel de sensación | nivel en dB SL | umbral individual | `dB SL re umbral ...` |
 | nivel de sonoridad | `L_N` si se necesita | comparación psicofísica | unidad: fon, no dB |
@@ -181,16 +182,24 @@ Reglas:
 |---|---:|---:|---|
 | señal temporal | `x(t)` | según variable | Para presión: `p(t)`. |
 | transformada de Fourier | `X(f)` | depende de convención | Declarar convención si se calculan amplitudes absolutas. |
+| ventana temporal | `w(t)` | 1 | Declarar tipo y parámetros cuando afecten la lectura. |
+| señal ventaneada | `x_w(t)` | unidad de `x` | `x_w(t)=x(t)w(t)`; el subíndice debe verse tipográficamente. |
 | frecuencia fundamental | `f_0` | Hz | No usar `F0` salvo texto de software; conservar `f_0` en ecuaciones. |
 | frecuencia de muestreo | `f_s` | Hz | `f_s=1/T_s`. |
 | período de muestreo | `T_s` | s | No confundir con período de la señal. |
 | número de muestras | `N` | 1 | Entero; no confundir con sonoridad si comparten contexto. |
 | duración observada | `T_\mathrm{obs}` | s | Determina resolución nominal. |
 | separación entre bins | `Δf` | Hz | En DFT simple, `Δf=f_s/N=1/T_obs`. |
+| índice de bin | `k` | 1 | Entero; no confundir con `k_s` ni `k_onda`. |
+| frecuencia del bin `k` | `f_k` | Hz | En la convención básica, `f_k=k f_s/N=kΔf`. |
 | respuesta en frecuencia | `H(f)` | razón o unidad definida | Sistema: `H(f)=Y(f)/X(f)` cuando procede. |
+| fase de la respuesta | `φ_H(f)` | rad | Declarar convención de signo y fase; usar grados solo si se indica. |
+| retardo de sistema | `τ_d` | s | Para retardo puro, `φ_H(f)=−2πfτ_d`; evita colisión con transmisión en U9. |
+| ganancia de amplitud | `G(f)` | dB | `G(f)=20 log₁₀\lvert H(f)\rvert` solo para razones de amplitudes compatibles. |
 | frecuencia de corte inferior/superior | `f_L`, `f_H` | Hz | Declarar criterio de corte. |
 | frecuencia central | `f_c` | Hz | Para banda geométrica: `f_c=√(f_L f_H)`. |
 | ancho de banda | `B` o `Δf_B` | Hz | No confundir con separación de bins `Δf`. |
+| nivel integrado en banda | `L_B` | dB | Declarar magnitud integrada `q_B`, límites de banda y referencia. |
 | densidad espectral de potencia | `S_x(f)` | unidad de `x²`/Hz | Para presión: Pa²/Hz. |
 | relación señal-ruido | `SNR` | dB o razón | Si está en dB: `10 log₁₀(P_s/P_n)` bajo condiciones compatibles. |
 

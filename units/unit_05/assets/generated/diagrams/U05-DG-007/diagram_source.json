@@ -1,0 +1,134 @@
+{
+  "classification": "esquema mixto",
+  "title": "Los nombres espectrales no describen la misma relación",
+  "source": "Libro del curso, secciones 5.5 y 5.6; aplicación fuente–filtro de voz.",
+  "caption": "Taxonomía breve de componentes y cadena fuente–filtro que separa armónicos de formantes.",
+  "alt": "La zona superior relaciona frecuencia fundamental, armónico, parcial y sobretono. La zona inferior muestra una fuente periódica, el tracto vocal como filtro y una salida con líneas armónicas bajo una envolvente.",
+  "nodes": [
+    {
+      "id": "fundamental",
+      "x": 80,
+      "y": 145,
+      "w": 250,
+      "h": 115,
+      "title": "Fundamental",
+      "body": "f₀ = 1/T₀",
+      "style": "physical",
+      "role": "node"
+    },
+    {
+      "id": "harmonic",
+      "x": 365,
+      "y": 145,
+      "w": 250,
+      "h": 115,
+      "title": "Armónico",
+      "body": "fₙ = n f₀",
+      "style": "accent",
+      "role": "node"
+    },
+    {
+      "id": "partial",
+      "x": 650,
+      "y": 145,
+      "w": 250,
+      "h": 115,
+      "title": "Parcial",
+      "body": "armónico o no",
+      "style": "neutral",
+      "role": "node"
+    },
+    {
+      "id": "overtone",
+      "x": 935,
+      "y": 145,
+      "w": 250,
+      "h": 115,
+      "title": "Sobretono",
+      "body": "parcial sobre f₀",
+      "style": "clinical",
+      "role": "node"
+    },
+    {
+      "id": "voice_source",
+      "x": 175,
+      "y": 420,
+      "w": 250,
+      "h": 120,
+      "title": "Fuente",
+      "body": "armónicos",
+      "style": "physical",
+      "role": "node"
+    },
+    {
+      "id": "vocal_filter",
+      "x": 515,
+      "y": 420,
+      "w": 250,
+      "h": 120,
+      "title": "Tracto vocal",
+      "body": "formantes",
+      "style": "accent",
+      "role": "node"
+    },
+    {
+      "id": "voice_output",
+      "x": 855,
+      "y": 420,
+      "w": 250,
+      "h": 120,
+      "title": "Salida",
+      "body": "señal filtrada",
+      "style": "clinical",
+      "role": "node"
+    }
+  ],
+  "edges": [
+    {
+      "id": "tax_1",
+      "from": "fundamental",
+      "to": "harmonic",
+      "label": "",
+      "semantic": "genera múltiplos",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "tax_2",
+      "from": "harmonic",
+      "to": "partial",
+      "label": "",
+      "semantic": "es un caso de",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "tax_3",
+      "from": "partial",
+      "to": "overtone",
+      "label": "",
+      "semantic": "si está sobre f₀",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "voice_1",
+      "from": "voice_source",
+      "to": "vocal_filter",
+      "label": "",
+      "semantic": "atraviesa",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "voice_2",
+      "from": "vocal_filter",
+      "to": "voice_output",
+      "label": "",
+      "semantic": "modela",
+      "fromSide": "right",
+      "toSide": "left"
+    }
+  ],
+  "footer": "Formante ≠ armónico · figura conceptual; no está a escala."
+}
