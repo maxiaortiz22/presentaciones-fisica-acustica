@@ -1,0 +1,48 @@
+{
+  "id": "U06-DG-059B",
+  "classification": "esquema mixto",
+  "title": "dB SPL y sonoridad describen dominios distintos",
+  "template": "compare",
+  "items": [
+    {
+      "title": "Nivel sonoro",
+      "body": "dB SPL\nmagnitud física",
+      "style": "physical"
+    },
+    {
+      "title": "Sonoridad",
+      "body": "percepto\ncondicionado",
+      "style": "clinical"
+    }
+  ],
+  "caption": "Comparación entre nivel físico y sonoridad.",
+  "alt": "Dos paneles contrastan nivel de presión sonora en decibeles SPL y sonoridad perceptual.",
+  "source": "Libro del curso, secciones 6.7–6.9; Fettiplace (2017); elaboración conceptual propia.",
+  "footer": "La respuesta periférica condiciona la percepción, pero no la determina de forma lineal.",
+  "options": {},
+  "nodes": [
+    {
+      "id": "panel_left",
+      "x": 92,
+      "y": 180,
+      "w": 520,
+      "h": 350,
+      "title": "Nivel sonoro",
+      "body": "dB SPL\nmagnitud física",
+      "style": "physical",
+      "role": "node"
+    },
+    {
+      "id": "panel_right",
+      "x": 668,
+      "y": 180,
+      "w": 520,
+      "h": 350,
+      "title": "Sonoridad",
+      "body": "percepto\ncondicionado",
+      "style": "clinical",
+      "role": "node"
+    }
+  ],
+  "edges": []
+}

@@ -1,0 +1,83 @@
+{
+  "id": "U06-DG-043",
+  "classification": "diagrama conceptual",
+  "title": "La dirección del haz cambia la respuesta",
+  "template": "timeline",
+  "items": [
+    {
+      "title": "Reposo",
+      "body": "probabilidad basal",
+      "style": "neutral"
+    },
+    {
+      "title": "Dirección excitatoria",
+      "body": "apertura aumenta",
+      "style": "accent"
+    },
+    {
+      "title": "Dirección opuesta",
+      "body": "apertura disminuye",
+      "style": "clinical"
+    }
+  ],
+  "caption": "Tres estados de polaridad mecanoeléctrica del haz.",
+  "alt": "Tres cuadros muestran reposo, deflexión excitatoria y deflexión opuesta, con cambios cualitativos en apertura.",
+  "source": "Libro del curso, secciones 6.7–6.9; Fettiplace (2017); elaboración conceptual propia.",
+  "footer": "Figura conceptual; no está a escala.",
+  "options": {},
+  "nodes": [
+    {
+      "id": "frame_1",
+      "x": 82,
+      "y": 220,
+      "w": 355.3333333333333,
+      "h": 260,
+      "title": "Reposo",
+      "body": "probabilidad basal",
+      "style": "neutral",
+      "role": "frame"
+    },
+    {
+      "id": "frame_2",
+      "x": 462.3333333333333,
+      "y": 220,
+      "w": 355.3333333333333,
+      "h": 260,
+      "title": "Dirección excitatoria",
+      "body": "apertura aumenta",
+      "style": "accent",
+      "role": "frame"
+    },
+    {
+      "id": "frame_3",
+      "x": 842.6666666666666,
+      "y": 220,
+      "w": 355.3333333333333,
+      "h": 260,
+      "title": "Dirección opuesta",
+      "body": "apertura disminuye",
+      "style": "clinical",
+      "role": "frame"
+    }
+  ],
+  "edges": [
+    {
+      "id": "time_1",
+      "from": "frame_1",
+      "to": "frame_2",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "elbow"
+    },
+    {
+      "id": "time_2",
+      "from": "frame_2",
+      "to": "frame_3",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "elbow"
+    }
+  ]
+}

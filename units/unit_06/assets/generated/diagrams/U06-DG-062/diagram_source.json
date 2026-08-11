@@ -1,0 +1,112 @@
+{
+  "id": "U06-DG-062",
+  "classification": "diagrama conceptual",
+  "title": "Caso: misma frecuencia, dos niveles",
+  "template": "grid",
+  "items": [
+    {
+      "title": "Condición A",
+      "body": "2 kHz · 40 dB SPL",
+      "style": "physical"
+    },
+    {
+      "title": "Condición B",
+      "body": "2 kHz · 70 dB SPL",
+      "style": "accent"
+    },
+    {
+      "title": "Lugar característico",
+      "body": "¿cambia?",
+      "style": "neutral"
+    },
+    {
+      "title": "Extensión",
+      "body": "¿cambia?",
+      "style": "neutral"
+    },
+    {
+      "title": "Respuesta periférica",
+      "body": "¿cómo cambia?",
+      "style": "neutral"
+    },
+    {
+      "title": "Sonoridad",
+      "body": "¿qué no concluye?",
+      "style": "clinical"
+    }
+  ],
+  "caption": "Actividad comparativa con dos niveles a dos kilohertz.",
+  "alt": "Seis celdas presentan dos condiciones y cuatro preguntas sobre lugar, extensión, respuesta periférica y sonoridad.",
+  "source": "Libro del curso, secciones 6.7–6.9; Fettiplace (2017); elaboración conceptual propia.",
+  "footer": "Actividad cualitativa; los niveles no se convierten en predicciones universales.",
+  "options": {},
+  "nodes": [
+    {
+      "id": "cell_1",
+      "x": 82,
+      "y": 165,
+      "w": 348.6666666666667,
+      "h": 190,
+      "title": "Condición A",
+      "body": "2 kHz · 40 dB SPL",
+      "style": "physical",
+      "role": "node"
+    },
+    {
+      "id": "cell_2",
+      "x": 465.6666666666667,
+      "y": 165,
+      "w": 348.6666666666667,
+      "h": 190,
+      "title": "Condición B",
+      "body": "2 kHz · 70 dB SPL",
+      "style": "accent",
+      "role": "node"
+    },
+    {
+      "id": "cell_3",
+      "x": 849.3333333333334,
+      "y": 165,
+      "w": 348.6666666666667,
+      "h": 190,
+      "title": "Lugar característico",
+      "body": "¿cambia?",
+      "style": "neutral",
+      "role": "node"
+    },
+    {
+      "id": "cell_4",
+      "x": 82,
+      "y": 385,
+      "w": 348.6666666666667,
+      "h": 190,
+      "title": "Extensión",
+      "body": "¿cambia?",
+      "style": "neutral",
+      "role": "node"
+    },
+    {
+      "id": "cell_5",
+      "x": 465.6666666666667,
+      "y": 385,
+      "w": 348.6666666666667,
+      "h": 190,
+      "title": "Respuesta periférica",
+      "body": "¿cómo cambia?",
+      "style": "neutral",
+      "role": "node"
+    },
+    {
+      "id": "cell_6",
+      "x": 849.3333333333334,
+      "y": 385,
+      "w": 348.6666666666667,
+      "h": 190,
+      "title": "Sonoridad",
+      "body": "¿qué no concluye?",
+      "style": "clinical",
+      "role": "node"
+    }
+  ],
+  "edges": []
+}

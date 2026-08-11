@@ -1,0 +1,208 @@
+{
+  "id": "U06-DG-060",
+  "classification": "diagrama conceptual",
+  "title": "Cada prueba observa una ventana de la cadena",
+  "template": "windows",
+  "items": [
+    {
+      "title": "CAE",
+      "body": "entrada",
+      "style": "physical"
+    },
+    {
+      "title": "Oído medio",
+      "body": "transfiere",
+      "style": "accent"
+    },
+    {
+      "title": "CCE",
+      "body": "mecánica activa",
+      "style": "physical"
+    },
+    {
+      "title": "CCI / sinapsis",
+      "body": "aferencia",
+      "style": "clinical"
+    },
+    {
+      "title": "Nervio",
+      "body": "y tronco",
+      "style": "clinical"
+    },
+    {
+      "title": "Timpanometría",
+      "body": "oído medio",
+      "style": "neutral"
+    },
+    {
+      "title": "OEA",
+      "body": "CCE + retorno",
+      "style": "neutral"
+    },
+    {
+      "title": "Potencial evocado",
+      "body": "vía neural",
+      "style": "neutral"
+    }
+  ],
+  "caption": "Ventanas de observación de tres pruebas sobre una cadena común.",
+  "alt": "Una cadena de cinco tramos recibe tres llaves de observación para timpanometría, emisiones otoacústicas y potenciales evocados auditivos, sin fijar una sigla institucional.",
+  "source": "Libro del curso, secciones 6.7–6.9; Fettiplace (2017); elaboración conceptual propia.",
+  "footer": "Ventanas funcionales; ninguna prueba localiza por sí sola una única estructura.",
+  "options": {},
+  "nodes": [
+    {
+      "id": "chain_1",
+      "x": 82,
+      "y": 330,
+      "w": 207.2,
+      "h": 160,
+      "title": "CAE",
+      "body": "entrada",
+      "style": "physical",
+      "role": "node"
+    },
+    {
+      "id": "chain_2",
+      "x": 309.2,
+      "y": 330,
+      "w": 207.2,
+      "h": 160,
+      "title": "Oído medio",
+      "body": "transfiere",
+      "style": "accent",
+      "role": "node"
+    },
+    {
+      "id": "chain_3",
+      "x": 536.4,
+      "y": 330,
+      "w": 207.2,
+      "h": 160,
+      "title": "CCE",
+      "body": "mecánica activa",
+      "style": "physical",
+      "role": "node"
+    },
+    {
+      "id": "chain_4",
+      "x": 763.5999999999999,
+      "y": 330,
+      "w": 207.2,
+      "h": 160,
+      "title": "CCI / sinapsis",
+      "body": "aferencia",
+      "style": "clinical",
+      "role": "node"
+    },
+    {
+      "id": "chain_5",
+      "x": 990.8,
+      "y": 330,
+      "w": 207.2,
+      "h": 160,
+      "title": "Nervio",
+      "body": "y tronco",
+      "style": "clinical",
+      "role": "node"
+    },
+    {
+      "id": "window_1",
+      "x": 105,
+      "y": 160,
+      "w": 300,
+      "h": 145,
+      "title": "Timpanometría",
+      "body": "oído medio",
+      "style": "neutral",
+      "role": "node"
+    },
+    {
+      "id": "window_2",
+      "x": 490,
+      "y": 160,
+      "w": 300,
+      "h": 145,
+      "title": "OEA",
+      "body": "CCE + retorno",
+      "style": "neutral",
+      "role": "node"
+    },
+    {
+      "id": "window_3",
+      "x": 875,
+      "y": 160,
+      "w": 300,
+      "h": 145,
+      "title": "Potencial evocado",
+      "body": "vía neural",
+      "style": "neutral",
+      "role": "node"
+    }
+  ],
+  "edges": [
+    {
+      "id": "chain_edge_1",
+      "from": "chain_1",
+      "to": "chain_2",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "elbow"
+    },
+    {
+      "id": "chain_edge_2",
+      "from": "chain_2",
+      "to": "chain_3",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "elbow"
+    },
+    {
+      "id": "chain_edge_3",
+      "from": "chain_3",
+      "to": "chain_4",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "elbow"
+    },
+    {
+      "id": "chain_edge_4",
+      "from": "chain_4",
+      "to": "chain_5",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "elbow"
+    },
+    {
+      "id": "window_edge_1",
+      "from": "window_1",
+      "to": "chain_2",
+      "semantic": "observa",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "kind": "elbow"
+    },
+    {
+      "id": "window_edge_2",
+      "from": "window_2",
+      "to": "chain_3",
+      "semantic": "observa",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "kind": "elbow"
+    },
+    {
+      "id": "window_edge_3",
+      "from": "window_3",
+      "to": "chain_5",
+      "semantic": "observa",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "kind": "elbow"
+    }
+  ]
+}

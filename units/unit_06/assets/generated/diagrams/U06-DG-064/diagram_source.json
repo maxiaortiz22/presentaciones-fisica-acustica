@@ -1,0 +1,80 @@
+{
+  "id": "U06-DG-064",
+  "classification": "diagrama conceptual",
+  "title": "Diez ideas se organizan en cuatro zonas",
+  "template": "grid",
+  "items": [
+    {
+      "title": "Oído externo",
+      "body": "dirección · CAE\npresión",
+      "style": "physical"
+    },
+    {
+      "title": "Oído medio",
+      "body": "fuerza · áreas\npalanca",
+      "style": "accent"
+    },
+    {
+      "title": "Cóclea",
+      "body": "fluidos · onda\ntonotopía",
+      "style": "physical"
+    },
+    {
+      "title": "Transducción",
+      "body": "CCI · CCE\npotenciales · nervio",
+      "style": "clinical"
+    }
+  ],
+  "caption": "Mapa final de la Unidad 6 en cuatro zonas funcionales.",
+  "alt": "Cuatro zonas sintetizan oído externo, oído medio, cóclea y transducción, con dos o tres ideas clave en cada una.",
+  "source": "Libro del curso (TEX/PDF), Unidad 6; brief y storyboard U06; elaboración propia.",
+  "footer": "Mapa de recuperación; no reemplaza la secuencia causal completa.",
+  "options": {},
+  "nodes": [
+    {
+      "id": "cell_1",
+      "x": 82,
+      "y": 165,
+      "w": 540.5,
+      "h": 190,
+      "title": "Oído externo",
+      "body": "dirección · CAE\npresión",
+      "style": "physical",
+      "role": "node"
+    },
+    {
+      "id": "cell_2",
+      "x": 657.5,
+      "y": 165,
+      "w": 540.5,
+      "h": 190,
+      "title": "Oído medio",
+      "body": "fuerza · áreas\npalanca",
+      "style": "accent",
+      "role": "node"
+    },
+    {
+      "id": "cell_3",
+      "x": 82,
+      "y": 385,
+      "w": 540.5,
+      "h": 190,
+      "title": "Cóclea",
+      "body": "fluidos · onda\ntonotopía",
+      "style": "physical",
+      "role": "node"
+    },
+    {
+      "id": "cell_4",
+      "x": 657.5,
+      "y": 385,
+      "w": 540.5,
+      "h": 190,
+      "title": "Transducción",
+      "body": "CCI · CCE\npotenciales · nervio",
+      "style": "clinical",
+      "role": "node"
+    }
+  ],
+  "edges": []
+}

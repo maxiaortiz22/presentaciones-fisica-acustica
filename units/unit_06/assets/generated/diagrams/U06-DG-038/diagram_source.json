@@ -1,0 +1,108 @@
+{
+  "id": "U06-DG-038",
+  "classification": "diagrama de proceso",
+  "title": "La onda avanza mientras cada región oscila localmente",
+  "template": "timeline",
+  "items": [
+    {
+      "title": "t₁",
+      "body": "inicio en base",
+      "style": "physical"
+    },
+    {
+      "title": "t₂",
+      "body": "envolvente crece",
+      "style": "neutral"
+    },
+    {
+      "title": "t₃",
+      "body": "máximo se desplaza",
+      "style": "accent"
+    },
+    {
+      "title": "t₄",
+      "body": "decae hacia ápex",
+      "style": "clinical"
+    }
+  ],
+  "caption": "Alternativa estática de cuatro estados para la onda viajera.",
+  "alt": "Cuatro cuadros temporales muestran progresión de una envolvente mientras las regiones oscilan localmente.",
+  "source": "Libro del curso, secciones 6.7–6.9; Fettiplace (2017); elaboración conceptual propia.",
+  "footer": "Secuencia estática; no implica circulación neta del fluido.",
+  "options": {},
+  "nodes": [
+    {
+      "id": "frame_1",
+      "x": 82,
+      "y": 220,
+      "w": 260.25,
+      "h": 260,
+      "title": "t₁",
+      "body": "inicio en base",
+      "style": "physical",
+      "role": "frame"
+    },
+    {
+      "id": "frame_2",
+      "x": 367.25,
+      "y": 220,
+      "w": 260.25,
+      "h": 260,
+      "title": "t₂",
+      "body": "envolvente crece",
+      "style": "neutral",
+      "role": "frame"
+    },
+    {
+      "id": "frame_3",
+      "x": 652.5,
+      "y": 220,
+      "w": 260.25,
+      "h": 260,
+      "title": "t₃",
+      "body": "máximo se desplaza",
+      "style": "accent",
+      "role": "frame"
+    },
+    {
+      "id": "frame_4",
+      "x": 937.75,
+      "y": 220,
+      "w": 260.25,
+      "h": 260,
+      "title": "t₄",
+      "body": "decae hacia ápex",
+      "style": "clinical",
+      "role": "frame"
+    }
+  ],
+  "edges": [
+    {
+      "id": "time_1",
+      "from": "frame_1",
+      "to": "frame_2",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "elbow"
+    },
+    {
+      "id": "time_2",
+      "from": "frame_2",
+      "to": "frame_3",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "elbow"
+    },
+    {
+      "id": "time_3",
+      "from": "frame_3",
+      "to": "frame_4",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "elbow"
+    }
+  ]
+}

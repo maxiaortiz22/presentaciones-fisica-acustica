@@ -1,0 +1,48 @@
+{
+  "id": "U06-DG-028",
+  "classification": "diagrama conceptual",
+  "title": "La vibración también deforma estructuras",
+  "template": "compare",
+  "items": [
+    {
+      "title": "Cápsula coclear",
+      "body": "deformación\npresiones diferenciales",
+      "style": "accent"
+    },
+    {
+      "title": "Tejidos blandos",
+      "body": "transmiten vibración\nruta complementaria",
+      "style": "physical"
+    }
+  ],
+  "caption": "Comparación conceptual de deformación coclear y transmisión por tejidos blandos.",
+  "alt": "Dos paneles muestran deformación de la cápsula y transmisión por tejidos blandos.",
+  "source": "Libro del curso, sección de conducción ósea; Stenfelt (revisión citada en el capítulo); elaboración propia.",
+  "footer": "Figura conceptual; no está a escala.",
+  "options": {},
+  "nodes": [
+    {
+      "id": "panel_left",
+      "x": 92,
+      "y": 180,
+      "w": 520,
+      "h": 350,
+      "title": "Cápsula coclear",
+      "body": "deformación\npresiones diferenciales",
+      "style": "accent",
+      "role": "node"
+    },
+    {
+      "id": "panel_right",
+      "x": 668,
+      "y": 180,
+      "w": 520,
+      "h": 350,
+      "title": "Tejidos blandos",
+      "body": "transmiten vibración\nruta complementaria",
+      "style": "physical",
+      "role": "node"
+    }
+  ],
+  "edges": []
+}

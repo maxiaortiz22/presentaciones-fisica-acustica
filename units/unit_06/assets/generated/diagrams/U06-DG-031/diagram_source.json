@@ -1,0 +1,108 @@
+{
+  "id": "U06-DG-031",
+  "classification": "diagrama conceptual",
+  "title": "La cóclea se lee siempre de base a ápex",
+  "template": "flow",
+  "items": [
+    {
+      "title": "Base",
+      "body": "ventanas",
+      "style": "accent"
+    },
+    {
+      "title": "Primera vuelta",
+      "body": "trayecto",
+      "style": "physical"
+    },
+    {
+      "title": "Vueltas apicales",
+      "body": "continúan",
+      "style": "physical"
+    },
+    {
+      "title": "Ápex",
+      "body": "helicotrema",
+      "style": "clinical"
+    }
+  ],
+  "caption": "Orientación longitudinal estable de la cóclea.",
+  "alt": "Cuatro hitos conectados fijan la orientación base, vueltas y ápex con helicotrema.",
+  "source": "Libro del curso, secciones 6.7–6.9; Fettiplace (2017); elaboración conceptual propia.",
+  "footer": "Figura conceptual; no está a escala.",
+  "options": {},
+  "nodes": [
+    {
+      "id": "stage_1",
+      "x": 82,
+      "y": 255,
+      "w": 255,
+      "h": 175,
+      "title": "Base",
+      "body": "ventanas",
+      "style": "accent",
+      "role": "node"
+    },
+    {
+      "id": "stage_2",
+      "x": 369,
+      "y": 255,
+      "w": 255,
+      "h": 175,
+      "title": "Primera vuelta",
+      "body": "trayecto",
+      "style": "physical",
+      "role": "node"
+    },
+    {
+      "id": "stage_3",
+      "x": 656,
+      "y": 255,
+      "w": 255,
+      "h": 175,
+      "title": "Vueltas apicales",
+      "body": "continúan",
+      "style": "physical",
+      "role": "node"
+    },
+    {
+      "id": "stage_4",
+      "x": 943,
+      "y": 255,
+      "w": 255,
+      "h": 175,
+      "title": "Ápex",
+      "body": "helicotrema",
+      "style": "clinical",
+      "role": "node"
+    }
+  ],
+  "edges": [
+    {
+      "id": "flow_1",
+      "from": "stage_1",
+      "to": "stage_2",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "elbow"
+    },
+    {
+      "id": "flow_2",
+      "from": "stage_2",
+      "to": "stage_3",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "elbow"
+    },
+    {
+      "id": "flow_3",
+      "from": "stage_3",
+      "to": "stage_4",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "elbow"
+    }
+  ]
+}

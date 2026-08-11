@@ -1,0 +1,13 @@
+[
+  {
+    "asset_id": "U06-CH-006",
+    "status": "approved",
+    "classification": "gráfico cuantitativo",
+    "checks": {
+      "same_characteristic_place": true,
+      "higher_pattern_wider": true,
+      "lower_fwhm": 0.15161290322580645,
+      "higher_fwhm": 0.3183870967741935
+    }
+  }
+]

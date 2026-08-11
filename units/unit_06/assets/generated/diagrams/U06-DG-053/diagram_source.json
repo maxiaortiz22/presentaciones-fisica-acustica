@@ -1,0 +1,48 @@
+{
+  "id": "U06-DG-053",
+  "classification": "diagrama conceptual",
+  "title": "La tensión cambia la probabilidad de apertura",
+  "template": "compare",
+  "items": [
+    {
+      "title": "Menor tensión",
+      "body": "probabilidad menor\ncorriente K⁺ menor",
+      "style": "neutral"
+    },
+    {
+      "title": "Mayor tensión",
+      "body": "probabilidad mayor\nentrada de K⁺ mayor",
+      "style": "accent"
+    }
+  ],
+  "caption": "Dos estados cualitativos de compuerta mecanoeléctrica.",
+  "alt": "Dos paneles contrastan menor y mayor tensión del enlace, con cambios probabilísticos en apertura y corriente de potasio.",
+  "source": "Libro del curso, secciones 6.7–6.9; Fettiplace (2017); elaboración conceptual propia.",
+  "footer": "Estados probabilísticos; no son un interruptor binario ni usan ecuación de Nernst.",
+  "options": {},
+  "nodes": [
+    {
+      "id": "panel_left",
+      "x": 92,
+      "y": 180,
+      "w": 520,
+      "h": 350,
+      "title": "Menor tensión",
+      "body": "probabilidad menor\ncorriente K⁺ menor",
+      "style": "neutral",
+      "role": "node"
+    },
+    {
+      "id": "panel_right",
+      "x": 668,
+      "y": 180,
+      "w": 520,
+      "h": 350,
+      "title": "Mayor tensión",
+      "body": "probabilidad mayor\nentrada de K⁺ mayor",
+      "style": "accent",
+      "role": "node"
+    }
+  ],
+  "edges": []
+}

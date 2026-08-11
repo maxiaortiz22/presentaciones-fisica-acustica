@@ -212,6 +212,21 @@ Para gráficos espectrales, indicar:
 - referencia del eje vertical;
 - rango de frecuencias.
 
+## Oído medio y transducción coclear
+
+| Magnitud | Símbolo | Unidad | Convención |
+|---|---:|---:|---|
+| diferencia de presión | `Δp` | Pa | Declarar el orden de la resta y las dos regiones comparadas. |
+| área efectiva de la membrana timpánica | `S_TM` | m² | Usar `S` para área efectiva en este bloque; no confundir con entropía ni densidad espectral. |
+| área efectiva del estribo | `S_E` | m² | Declarar que se trata de un área efectiva del modelo. |
+| razón de áreas | `R_S=S_TM/S_E` | 1 | Razón adimensional; no llamarla ganancia energética. |
+| razón de palanca osicular | `R_L` | 1 | Razón adimensional; declarar la geometría o convención adoptada. |
+| razón ideal de presiones | `M_p≈R_S·R_L` | 1 | Reservar `R_p` para el coeficiente de reflexión de presión definido en U4/U9. |
+| expresión en decibelios de la razón ideal de presiones | `G_p=20 log₁₀(M_p)` | dB | No es dB SPL ni ganancia de energía; identificar siempre las dos presiones comparadas. |
+| longitud efectiva del conducto | `ℓ` | m | En el modelo de cuarto de onda, escribir `f_res≈c/(4ℓ)` y declarar sus límites. |
+| diferencia de potencial | `ΔV` | V o mV | Especificar los dos puntos o compartimentos entre los que se mide. |
+| potencial respecto de una referencia | `V_ref` | V o mV | Nombrar la referencia física; evitar valores de potencial aislados y la forma ambigua `V(ref)`. |
+
 ## Audición y psicoacústica
 
 | Concepto | Símbolo/abreviatura | Unidad | Convención |

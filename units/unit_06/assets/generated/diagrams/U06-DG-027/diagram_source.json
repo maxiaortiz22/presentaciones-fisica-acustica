@@ -1,0 +1,48 @@
+{
+  "id": "U06-DG-027",
+  "classification": "diagrama conceptual",
+  "title": "La inercia se define respecto del cráneo",
+  "template": "compare",
+  "items": [
+    {
+      "title": "Cadena osicular",
+      "body": "se retrasa respecto del cráneo\nmovimiento relativo",
+      "style": "accent"
+    },
+    {
+      "title": "Fluidos cocleares",
+      "body": "se retrasan respecto de la cápsula\ndiferencia de presión",
+      "style": "physical"
+    }
+  ],
+  "caption": "Comparación del marco de referencia en dos mecanismos inerciales.",
+  "alt": "Dos paneles contrastan el retraso relativo de la cadena osicular y de los fluidos respecto de estructuras del cráneo.",
+  "source": "Libro del curso, sección de conducción ósea; Stenfelt (revisión citada en el capítulo); elaboración propia.",
+  "footer": "Figura conceptual; no está a escala.",
+  "options": {},
+  "nodes": [
+    {
+      "id": "panel_left",
+      "x": 92,
+      "y": 180,
+      "w": 520,
+      "h": 350,
+      "title": "Cadena osicular",
+      "body": "se retrasa respecto del cráneo\nmovimiento relativo",
+      "style": "accent",
+      "role": "node"
+    },
+    {
+      "id": "panel_right",
+      "x": 668,
+      "y": 180,
+      "w": 520,
+      "h": 350,
+      "title": "Fluidos cocleares",
+      "body": "se retrasan respecto de la cápsula\ndiferencia de presión",
+      "style": "physical",
+      "role": "node"
+    }
+  ],
+  "edges": []
+}

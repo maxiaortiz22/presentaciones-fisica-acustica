@@ -1,0 +1,108 @@
+{
+  "id": "U06-DG-052",
+  "classification": "esquema mixto",
+  "title": "El tip link transmite tensión entre estereocilios",
+  "template": "flow",
+  "items": [
+    {
+      "title": "Estereocilio bajo",
+      "body": "extremo inferior",
+      "style": "neutral"
+    },
+    {
+      "title": "Tip link",
+      "body": "enlace oblicuo",
+      "style": "accent"
+    },
+    {
+      "title": "Estereocilio alto",
+      "body": "extremo superior",
+      "style": "physical"
+    },
+    {
+      "title": "Tensión",
+      "body": "modula apertura",
+      "style": "clinical"
+    }
+  ],
+  "caption": "Esquema del tip link como enlace mecánico, no como canal.",
+  "alt": "Cuatro elementos conectados muestran dos estereocilios, el enlace oblicuo y la tensión que modula apertura.",
+  "source": "Libro del curso, secciones 6.7–6.9; Fettiplace (2017); elaboración conceptual propia.",
+  "footer": "Ampliación conceptual; no representa detalle molecular.",
+  "options": {},
+  "nodes": [
+    {
+      "id": "stage_1",
+      "x": 82,
+      "y": 255,
+      "w": 255,
+      "h": 175,
+      "title": "Estereocilio bajo",
+      "body": "extremo inferior",
+      "style": "neutral",
+      "role": "node"
+    },
+    {
+      "id": "stage_2",
+      "x": 369,
+      "y": 255,
+      "w": 255,
+      "h": 175,
+      "title": "Tip link",
+      "body": "enlace oblicuo",
+      "style": "accent",
+      "role": "node"
+    },
+    {
+      "id": "stage_3",
+      "x": 656,
+      "y": 255,
+      "w": 255,
+      "h": 175,
+      "title": "Estereocilio alto",
+      "body": "extremo superior",
+      "style": "physical",
+      "role": "node"
+    },
+    {
+      "id": "stage_4",
+      "x": 943,
+      "y": 255,
+      "w": 255,
+      "h": 175,
+      "title": "Tensión",
+      "body": "modula apertura",
+      "style": "clinical",
+      "role": "node"
+    }
+  ],
+  "edges": [
+    {
+      "id": "flow_1",
+      "from": "stage_1",
+      "to": "stage_2",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "elbow"
+    },
+    {
+      "id": "flow_2",
+      "from": "stage_2",
+      "to": "stage_3",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "elbow"
+    },
+    {
+      "id": "flow_3",
+      "from": "stage_3",
+      "to": "stage_4",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "elbow"
+    }
+  ]
+}

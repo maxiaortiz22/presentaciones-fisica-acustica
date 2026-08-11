@@ -123,7 +123,13 @@
 | conducto auditivo externo (CAE) | Conducto entre la concha y la membrana timpánica que participa en la transferencia acústica al tímpano. | 6 | No modelarlo literalmente como cilindro uniforme salvo como aproximación declarada. |
 | adaptación de impedancias | Transformación mecánica que mejora la transferencia de energía entre medios con impedancias diferentes. | 6 | Evitar hablar de una ganancia fija universal del oído medio. |
 | conducción ósea | Estimulación del oído interno mediante vibración del cráneo a través de múltiples mecanismos. | 6 | No reducir a una única vía “paratimpánica”. |
-| transducción mechanoeléctrica | Conversión de movimiento mecánico en cambios eléctricos en células sensoriales. | 6 | En cóclea, depende de deflexión de estereocilios y gradientes electroquímicos. |
+| reflejo acústico o estapedial | Respuesta refleja que contrae principalmente el músculo estapedio ante estímulos sonoros y modifica la transmisión del oído medio. | 6 | No presentarlo como protección completa ni instantánea frente a cualquier sonido intenso. |
+| conducto coclear o rampa media | Compartimento coclear con endolinfa situado entre las rampas vestibular y timpánica. | 6 | Reservar *scala media* como equivalencia bibliográfica; no alternar nombres dentro de una misma explicación. |
+| órgano de Corti | Epitelio sensorial situado sobre la membrana basilar que contiene células ciliadas y estructuras de sostén. | 6 | No usarlo como sinónimo de cóclea completa. |
+| túnel de Corti | Espacio triangular del órgano de Corti delimitado principalmente por los pilares interno y externo. | 6 | Es una referencia anatómica, no una vía de propagación independiente del sonido. |
+| onda viajera coclear | Patrón de deformación que se propaga a lo largo de la partición coclear y alcanza un máximo dependiente de la frecuencia. | 6 | Las partículas del medio oscilan localmente; no recorren la cóclea con la onda. |
+| lugar característico | Región de la partición coclear donde una frecuencia produce una respuesta máxima bajo condiciones definidas. | 6 | Hablar de región, no de un punto exacto ni de una única célula. |
+| transducción mecanoeléctrica | Conversión de movimiento mecánico en cambios eléctricos en células sensoriales. | 6 | En cóclea, depende de deflexión de estereocilios y gradientes electroquímicos. |
 | potencial endococlear | Diferencia de potencial positiva de la endolinfa respecto de compartimentos de referencia, mantenida por la estría vascular. | 6 | No confundir con potencial de reposo de una célula ciliada. |
 | potencial de reposo | Diferencia de potencial de membrana de una célula en ausencia de estimulación efectiva. | 6 | Debe precisarse la célula y referencia consideradas. |
 | potencial receptor | Cambio graduado del potencial de membrana producido por un estímulo sensorial. | 6 | No es un potencial de acción. |
@@ -147,7 +153,7 @@
 | acúfeno o tinnitus | Percepción sonora sin una fuente acústica externa correspondiente. | 8 | Usar el par elegido por la cátedra de manera consistente. |
 | dB HL | Nivel de audición referido a cero audiométrico normativo para frecuencia y transductor. | 8 | No equivale numéricamente a dB SPL. |
 | dB SL | Nivel de sensación referido al umbral individual definido en la misma condición. | 8 | Siempre indicar qué umbral se emplea. |
-| otoemisión acústica (OEA) | Energía acústica generada en la cóclea y registrada en el conducto auditivo externo. | 8 | Indica aspectos de función coclear; no es una prueba completa de audición. |
+| otoemisión acústica (OEA) | Señal acústica originada por actividad mecánica coclear y registrada en el conducto auditivo externo. | 6 | Informa principalmente sobre función de CCE; no es una prueba completa de audición ni implica creación de energía. |
 
 ## Propagación, recintos y ruido
 
@@ -179,7 +185,7 @@
 - Usar **ruido con espectro de habla** en lugar de “ruido vocal”.
 - Usar **sonómetro** en lugar de “decibelímetro”.
 - Presentar **conducción ósea** como fenómeno multimecanismo; explicar “paratimpánico” solo como terminología del programa o histórica.
-- Usar **conducto coclear (scala media)** y mantener **scala vestibuli** y **scala tympani** si se adopta la nomenclatura anatómica internacional.
+- Usar **conducto coclear o rampa media** en el texto visible; reservar *scala media* como equivalencia bibliográfica. Preferir **rampa vestibular** y **rampa timpánica** en español salvo cita anatómica.
 - Evitar “oído periférico” sin delimitar qué estructuras incluye en cada contexto.
 - Usar **dB SPL**, **dB HL** y **dB SL** solo con su referencia desarrollada y sin tratarlos como escalas intercambiables.
 
@@ -188,5 +194,5 @@
 - Terminología anatómica preferida por las cátedras de Anatomía y Audiología.
 - Uso institucional de PEAT frente a PEATC/ABR.
 - Preferencia entre acúfeno y tinnitus.
-- Definición y fuente que se adoptarán para túnel de Corti.
+- Validación anatómica final de los visuales del órgano y del túnel de Corti por las cátedras correspondientes.
 - Traducción elegida para `loudness level`, `speech-shaped noise` y descriptores normativos.

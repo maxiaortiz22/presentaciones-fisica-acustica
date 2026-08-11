@@ -1,0 +1,108 @@
+{
+  "id": "U06-DG-008",
+  "classification": "ecuación anotada",
+  "title": "El primer modo ideal ocupa un cuarto de longitud de onda",
+  "template": "equation",
+  "items": [
+    {
+      "title": "λ ≈ 4ℓ",
+      "body": "modelo de cuarto de onda",
+      "style": "equation"
+    },
+    {
+      "title": "Entrada",
+      "body": "antinodo de presión",
+      "style": "physical"
+    },
+    {
+      "title": "Fondo ideal",
+      "body": "nodo de velocidad",
+      "style": "clinical"
+    },
+    {
+      "title": "ℓ",
+      "body": "longitud del conducto",
+      "style": "neutral"
+    }
+  ],
+  "caption": "Modelo de cuarto de onda antes de calcular la resonancia.",
+  "alt": "La ecuación lambda aproximadamente cuatro veces la longitud aparece al centro con llamadas a la entrada, el fondo ideal y la longitud del conducto.",
+  "source": "Libro del curso (TEX/PDF), Unidad 6; brief y storyboard U06; elaboración propia.",
+  "footer": "Figura conceptual; no está a escala.",
+  "options": {},
+  "nodes": [
+    {
+      "id": "equation",
+      "x": 330,
+      "y": 285,
+      "w": 620,
+      "h": 125,
+      "title": "λ ≈ 4ℓ",
+      "body": "modelo de cuarto de onda",
+      "style": "equation",
+      "role": "equation"
+    },
+    {
+      "id": "callout_1",
+      "x": 82,
+      "y": 125,
+      "w": 260,
+      "h": 145,
+      "title": "Entrada",
+      "body": "antinodo de presión",
+      "style": "physical",
+      "role": "callout"
+    },
+    {
+      "id": "callout_2",
+      "x": 938,
+      "y": 125,
+      "w": 270,
+      "h": 145,
+      "title": "Fondo ideal",
+      "body": "nodo de velocidad",
+      "style": "clinical",
+      "role": "callout"
+    },
+    {
+      "id": "callout_3",
+      "x": 82,
+      "y": 445,
+      "w": 290,
+      "h": 145,
+      "title": "ℓ",
+      "body": "longitud del conducto",
+      "style": "neutral",
+      "role": "callout"
+    }
+  ],
+  "edges": [
+    {
+      "id": "leader_1",
+      "from": "callout_1",
+      "to": "equation",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "straight"
+    },
+    {
+      "id": "leader_2",
+      "from": "callout_2",
+      "to": "equation",
+      "semantic": "",
+      "fromSide": "left",
+      "toSide": "right",
+      "kind": "straight"
+    },
+    {
+      "id": "leader_3",
+      "from": "callout_3",
+      "to": "equation",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "straight"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "id": "U06-DG-009B",
+  "classification": "ecuación anotada",
+  "title": "Ejemplo: conducto ideal de 27 mm",
+  "template": "flow",
+  "items": [
+    {
+      "title": "1 · Longitud",
+      "body": "ℓ = 27 mm",
+      "style": "neutral"
+    },
+    {
+      "title": "2 · Convertir",
+      "body": "0,027 m",
+      "style": "physical"
+    },
+    {
+      "title": "3 · Sustituir",
+      "body": "343/(4·0,027)",
+      "style": "accent"
+    },
+    {
+      "title": "4 · Resultado",
+      "body": "≈ 3,18 kHz",
+      "style": "clinical"
+    }
+  ],
+  "caption": "Ejemplo dimensional de la resonancia ideal para 27 mm.",
+  "alt": "Cuatro pasos convierten veintisiete milímetros a metros, sustituyen en la expresión y obtienen aproximadamente tres coma dieciocho kilohertz.",
+  "source": "Libro del curso (TEX/PDF), Unidad 6; brief y storyboard U06; elaboración propia.",
+  "footer": "Ejemplo del modelo ideal; no es una predicción universal del CAE real.",
+  "options": {},
+  "nodes": [
+    {
+      "id": "stage_1",
+      "x": 82,
+      "y": 255,
+      "w": 255,
+      "h": 175,
+      "title": "1 · Longitud",
+      "body": "ℓ = 27 mm",
+      "style": "neutral",
+      "role": "node"
+    },
+    {
+      "id": "stage_2",
+      "x": 369,
+      "y": 255,
+      "w": 255,
+      "h": 175,
+      "title": "2 · Convertir",
+      "body": "0,027 m",
+      "style": "physical",
+      "role": "node"
+    },
+    {
+      "id": "stage_3",
+      "x": 656,
+      "y": 255,
+      "w": 255,
+      "h": 175,
+      "title": "3 · Sustituir",
+      "body": "343/(4·0,027)",
+      "style": "accent",
+      "role": "node"
+    },
+    {
+      "id": "stage_4",
+      "x": 943,
+      "y": 255,
+      "w": 255,
+      "h": 175,
+      "title": "4 · Resultado",
+      "body": "≈ 3,18 kHz",
+      "style": "clinical",
+      "role": "node"
+    }
+  ],
+  "edges": [
+    {
+      "id": "flow_1",
+      "from": "stage_1",
+      "to": "stage_2",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "elbow"
+    },
+    {
+      "id": "flow_2",
+      "from": "stage_2",
+      "to": "stage_3",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "elbow"
+    },
+    {
+      "id": "flow_3",
+      "from": "stage_3",
+      "to": "stage_4",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "elbow"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "U06-DG-037",
+  "classification": "esquema mixto",
+  "title": "Dos vistas describen la misma cóclea",
+  "template": "compare",
+  "items": [
+    {
+      "title": "Vista longitudinal",
+      "body": "base → ápex\nlugar característico",
+      "style": "physical"
+    },
+    {
+      "title": "Corte transversal",
+      "body": "tres compartimentos\nórgano de Corti",
+      "style": "clinical"
+    }
+  ],
+  "caption": "Correspondencia entre vista longitudinal y corte transversal.",
+  "alt": "Dos paneles grandes muestran una vista longitudinal base-ápex y un corte transversal con compartimentos.",
+  "source": "Libro del curso, secciones 6.7–6.9; Fettiplace (2017); elaboración conceptual propia.",
+  "footer": "Figura conceptual; no está a escala.",
+  "options": {},
+  "nodes": [
+    {
+      "id": "panel_left",
+      "x": 92,
+      "y": 180,
+      "w": 520,
+      "h": 350,
+      "title": "Vista longitudinal",
+      "body": "base → ápex\nlugar característico",
+      "style": "physical",
+      "role": "node"
+    },
+    {
+      "id": "panel_right",
+      "x": 668,
+      "y": 180,
+      "w": 520,
+      "h": 350,
+      "title": "Corte transversal",
+      "body": "tres compartimentos\nórgano de Corti",
+      "style": "clinical",
+      "role": "node"
+    }
+  ],
+  "edges": []
+}

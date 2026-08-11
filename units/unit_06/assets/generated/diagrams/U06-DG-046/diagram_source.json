@@ -1,0 +1,117 @@
+{
+  "id": "U06-DG-046",
+  "classification": "diagrama de proceso",
+  "title": "La CCE realimenta la mecánica coclear",
+  "template": "cycle",
+  "items": [
+    {
+      "title": "Movimiento coclear",
+      "body": "entrada",
+      "style": "physical"
+    },
+    {
+      "title": "Haz de CCE",
+      "body": "se deflecta",
+      "style": "physical"
+    },
+    {
+      "title": "CCE",
+      "body": "electromóvil",
+      "style": "accent"
+    },
+    {
+      "title": "Mecánica local",
+      "body": "se modifica",
+      "style": "clinical"
+    }
+  ],
+  "caption": "Bucle de realimentación mecánica de las células ciliadas externas.",
+  "alt": "Cuatro etapas forman un ciclo desde movimiento coclear hasta modificación de la mecánica local y retorno a la entrada.",
+  "source": "Libro del curso, secciones 6.7–6.9; Fettiplace (2017); elaboración conceptual propia.",
+  "footer": "Realimentación conceptual; no representa una ganancia constante.",
+  "options": {},
+  "nodes": [
+    {
+      "id": "stage_1",
+      "x": 82,
+      "y": 255,
+      "w": 255,
+      "h": 175,
+      "title": "Movimiento coclear",
+      "body": "entrada",
+      "style": "physical",
+      "role": "node"
+    },
+    {
+      "id": "stage_2",
+      "x": 369,
+      "y": 255,
+      "w": 255,
+      "h": 175,
+      "title": "Haz de CCE",
+      "body": "se deflecta",
+      "style": "physical",
+      "role": "node"
+    },
+    {
+      "id": "stage_3",
+      "x": 656,
+      "y": 255,
+      "w": 255,
+      "h": 175,
+      "title": "CCE",
+      "body": "electromóvil",
+      "style": "accent",
+      "role": "node"
+    },
+    {
+      "id": "stage_4",
+      "x": 943,
+      "y": 255,
+      "w": 255,
+      "h": 175,
+      "title": "Mecánica local",
+      "body": "se modifica",
+      "style": "clinical",
+      "role": "node"
+    }
+  ],
+  "edges": [
+    {
+      "id": "flow_1",
+      "from": "stage_1",
+      "to": "stage_2",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "elbow"
+    },
+    {
+      "id": "flow_2",
+      "from": "stage_2",
+      "to": "stage_3",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "elbow"
+    },
+    {
+      "id": "flow_3",
+      "from": "stage_3",
+      "to": "stage_4",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "elbow"
+    },
+    {
+      "id": "feedback",
+      "from": "stage_4",
+      "to": "stage_1",
+      "semantic": "realimenta",
+      "fromSide": "bottom",
+      "toSide": "bottom",
+      "kind": "elbow3"
+    }
+  ]
+}

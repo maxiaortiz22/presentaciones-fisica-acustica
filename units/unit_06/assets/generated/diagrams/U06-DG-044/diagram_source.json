@@ -1,0 +1,158 @@
+{
+  "id": "U06-DG-044",
+  "classification": "diagrama de proceso",
+  "title": "CCI y CCE comparten transducción, pero cumplen funciones distintas",
+  "template": "fork",
+  "items": [
+    {
+      "title": "Deflexión del haz",
+      "body": "entrada mecánica",
+      "style": "accent"
+    },
+    {
+      "title": "Potencial receptor",
+      "body": "respuesta graduada",
+      "style": "physical"
+    },
+    {
+      "title": "CCI",
+      "body": "",
+      "style": "clinical"
+    },
+    {
+      "title": "Sinapsis",
+      "body": "fibra aferente",
+      "style": "clinical"
+    },
+    {
+      "title": "CCE",
+      "body": "",
+      "style": "physical"
+    },
+    {
+      "title": "Trabajo mecánico",
+      "body": "",
+      "style": "physical"
+    }
+  ],
+  "caption": "Bifurcación causal entre células ciliadas internas y externas.",
+  "alt": "La deflexión produce un potencial receptor común y luego se separa en una rama de células internas hacia sinapsis y fibra, y una rama de células externas hacia trabajo mecánico y realimentación.",
+  "source": "Libro del curso, secciones 6.7–6.9; Fettiplace (2017); elaboración conceptual propia.",
+  "footer": "Figura conceptual; no está a escala.",
+  "options": {},
+  "nodes": [
+    {
+      "id": "common_input",
+      "x": 390,
+      "y": 125,
+      "w": 500,
+      "h": 110,
+      "title": "Deflexión del haz",
+      "body": "entrada mecánica",
+      "style": "accent",
+      "role": "node"
+    },
+    {
+      "id": "common_response",
+      "x": 390,
+      "y": 260,
+      "w": 500,
+      "h": 110,
+      "title": "Potencial receptor",
+      "body": "respuesta graduada",
+      "style": "physical",
+      "role": "node"
+    },
+    {
+      "id": "cci",
+      "x": 105,
+      "y": 410,
+      "w": 300,
+      "h": 90,
+      "title": "CCI",
+      "body": "",
+      "style": "clinical",
+      "role": "node"
+    },
+    {
+      "id": "cci_output",
+      "x": 105,
+      "y": 520,
+      "w": 300,
+      "h": 110,
+      "title": "Sinapsis",
+      "body": "fibra aferente",
+      "style": "clinical",
+      "role": "node"
+    },
+    {
+      "id": "cce",
+      "x": 875,
+      "y": 410,
+      "w": 300,
+      "h": 90,
+      "title": "CCE",
+      "body": "",
+      "style": "physical",
+      "role": "node"
+    },
+    {
+      "id": "cce_output",
+      "x": 875,
+      "y": 520,
+      "w": 300,
+      "h": 110,
+      "title": "Trabajo mecánico",
+      "body": "",
+      "style": "physical",
+      "role": "node"
+    }
+  ],
+  "edges": [
+    {
+      "id": "common_1",
+      "from": "common_input",
+      "to": "common_response",
+      "semantic": "",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "kind": "elbow"
+    },
+    {
+      "id": "branch_cci",
+      "from": "common_response",
+      "to": "cci",
+      "semantic": "",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "kind": "elbow"
+    },
+    {
+      "id": "branch_cce",
+      "from": "common_response",
+      "to": "cce",
+      "semantic": "",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "kind": "elbow"
+    },
+    {
+      "id": "cci_chain",
+      "from": "cci",
+      "to": "cci_output",
+      "semantic": "",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "kind": "elbow"
+    },
+    {
+      "id": "cce_chain",
+      "from": "cce",
+      "to": "cce_output",
+      "semantic": "",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "kind": "elbow"
+    }
+  ]
+}

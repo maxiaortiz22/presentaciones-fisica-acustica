@@ -1,0 +1,108 @@
+{
+  "id": "U06-DG-006",
+  "classification": "esquema mixto",
+  "title": "La presión cambia con la posición dentro del CAE",
+  "template": "flow",
+  "items": [
+    {
+      "title": "Entrada",
+      "body": "onda incidente",
+      "style": "physical"
+    },
+    {
+      "title": "Conducto",
+      "body": "superposición",
+      "style": "neutral"
+    },
+    {
+      "title": "Puntos A–B–C",
+      "body": "presiones distintas",
+      "style": "accent"
+    },
+    {
+      "title": "Tímpano",
+      "body": "extremo del modelo",
+      "style": "clinical"
+    }
+  ],
+  "caption": "Esquema ondulatorio del CAE con posiciones de observación.",
+  "alt": "Una secuencia muestra una onda incidente, la superposición dentro del conducto, tres puntos de observación y el fondo timpánico ideal.",
+  "source": "Libro del curso (TEX/PDF), Unidad 6; brief y storyboard U06; elaboración propia.",
+  "footer": "Esquema ondulatorio conceptual; el CAE real no es un tubo uniforme.",
+  "options": {},
+  "nodes": [
+    {
+      "id": "stage_1",
+      "x": 82,
+      "y": 255,
+      "w": 255,
+      "h": 175,
+      "title": "Entrada",
+      "body": "onda incidente",
+      "style": "physical",
+      "role": "node"
+    },
+    {
+      "id": "stage_2",
+      "x": 369,
+      "y": 255,
+      "w": 255,
+      "h": 175,
+      "title": "Conducto",
+      "body": "superposición",
+      "style": "neutral",
+      "role": "node"
+    },
+    {
+      "id": "stage_3",
+      "x": 656,
+      "y": 255,
+      "w": 255,
+      "h": 175,
+      "title": "Puntos A–B–C",
+      "body": "presiones distintas",
+      "style": "accent",
+      "role": "node"
+    },
+    {
+      "id": "stage_4",
+      "x": 943,
+      "y": 255,
+      "w": 255,
+      "h": 175,
+      "title": "Tímpano",
+      "body": "extremo del modelo",
+      "style": "clinical",
+      "role": "node"
+    }
+  ],
+  "edges": [
+    {
+      "id": "flow_1",
+      "from": "stage_1",
+      "to": "stage_2",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "elbow"
+    },
+    {
+      "id": "flow_2",
+      "from": "stage_2",
+      "to": "stage_3",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "elbow"
+    },
+    {
+      "id": "flow_3",
+      "from": "stage_3",
+      "to": "stage_4",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "elbow"
+    }
+  ]
+}

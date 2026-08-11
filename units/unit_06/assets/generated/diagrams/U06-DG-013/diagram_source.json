@@ -1,0 +1,48 @@
+{
+  "id": "U06-DG-013",
+  "classification": "diagrama conceptual",
+  "title": "Presión acústica y presión estática cambian en escalas distintas",
+  "template": "compare",
+  "items": [
+    {
+      "title": "Presión acústica",
+      "body": "oscila alrededor del equilibrio\nvariación rápida",
+      "style": "physical"
+    },
+    {
+      "title": "Presión estática",
+      "body": "desplaza el equilibrio\nvariación lenta",
+      "style": "clinical"
+    }
+  ],
+  "caption": "Comparación cualitativa entre presión acústica y estática.",
+  "alt": "Dos paneles alineados contrastan una variación rápida alrededor del equilibrio con un cambio lento del nivel de equilibrio.",
+  "source": "Libro del curso (TEX/PDF), Unidad 6; brief y storyboard U06; elaboración propia.",
+  "footer": "Escalas temporales cualitativas; sin cifras universales.",
+  "options": {},
+  "nodes": [
+    {
+      "id": "panel_left",
+      "x": 92,
+      "y": 180,
+      "w": 520,
+      "h": 350,
+      "title": "Presión acústica",
+      "body": "oscila alrededor del equilibrio\nvariación rápida",
+      "style": "physical",
+      "role": "node"
+    },
+    {
+      "id": "panel_right",
+      "x": 668,
+      "y": 180,
+      "w": 520,
+      "h": 350,
+      "title": "Presión estática",
+      "body": "desplaza el equilibrio\nvariación lenta",
+      "style": "clinical",
+      "role": "node"
+    }
+  ],
+  "edges": []
+}

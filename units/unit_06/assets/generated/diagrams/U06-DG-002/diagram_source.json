@@ -1,0 +1,133 @@
+{
+  "id": "U06-DG-002",
+  "classification": "diagrama conceptual",
+  "title": "Cuatro preguntas previas convergen en la audición",
+  "template": "branch",
+  "items": [
+    {
+      "title": "Mecanismo auditivo",
+      "body": "integra U2–U5",
+      "style": "accent"
+    },
+    {
+      "title": "Presión p",
+      "body": "¿qué cambia?",
+      "style": "physical"
+    },
+    {
+      "title": "Fuerza F",
+      "body": "¿qué mueve?",
+      "style": "physical"
+    },
+    {
+      "title": "Frecuencia f",
+      "body": "¿qué se conserva?",
+      "style": "neutral"
+    },
+    {
+      "title": "Nivel en dB",
+      "body": "¿cómo se expresa?",
+      "style": "clinical"
+    }
+  ],
+  "caption": "Puente de prerrequisitos hacia el mecanismo auditivo.",
+  "alt": "Cuatro cajas de presión, fuerza, frecuencia y nivel convergen en una caja central de mecanismo auditivo.",
+  "source": "Libro del curso (TEX/PDF), Unidad 6; brief y storyboard U06; elaboración propia.",
+  "footer": "Figura conceptual; no está a escala.",
+  "options": {},
+  "nodes": [
+    {
+      "id": "central",
+      "x": 390,
+      "y": 145,
+      "w": 500,
+      "h": 135,
+      "title": "Mecanismo auditivo",
+      "body": "integra U2–U5",
+      "style": "accent",
+      "role": "node"
+    },
+    {
+      "id": "branch_1",
+      "x": 82,
+      "y": 380,
+      "w": 262.5,
+      "h": 190,
+      "title": "Presión p",
+      "body": "¿qué cambia?",
+      "style": "physical",
+      "role": "node"
+    },
+    {
+      "id": "branch_2",
+      "x": 366.5,
+      "y": 380,
+      "w": 262.5,
+      "h": 190,
+      "title": "Fuerza F",
+      "body": "¿qué mueve?",
+      "style": "physical",
+      "role": "node"
+    },
+    {
+      "id": "branch_3",
+      "x": 651,
+      "y": 380,
+      "w": 262.5,
+      "h": 190,
+      "title": "Frecuencia f",
+      "body": "¿qué se conserva?",
+      "style": "neutral",
+      "role": "node"
+    },
+    {
+      "id": "branch_4",
+      "x": 935.5,
+      "y": 380,
+      "w": 262.5,
+      "h": 190,
+      "title": "Nivel en dB",
+      "body": "¿cómo se expresa?",
+      "style": "clinical",
+      "role": "node"
+    }
+  ],
+  "edges": [
+    {
+      "id": "branch_edge_1",
+      "from": "central",
+      "to": "branch_1",
+      "semantic": "",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "kind": "elbow"
+    },
+    {
+      "id": "branch_edge_2",
+      "from": "central",
+      "to": "branch_2",
+      "semantic": "",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "kind": "elbow"
+    },
+    {
+      "id": "branch_edge_3",
+      "from": "central",
+      "to": "branch_3",
+      "semantic": "",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "kind": "elbow"
+    },
+    {
+      "id": "branch_edge_4",
+      "from": "central",
+      "to": "branch_4",
+      "semantic": "",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "kind": "elbow"
+    }
+  ]
+}

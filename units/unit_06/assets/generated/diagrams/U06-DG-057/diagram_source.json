@@ -1,0 +1,80 @@
+{
+  "id": "U06-DG-057",
+  "classification": "diagrama conceptual",
+  "title": "La cadena combina espacio, célula y señal",
+  "template": "layers",
+  "items": [
+    {
+      "title": "Mecánica espacial",
+      "body": "lugar característico",
+      "style": "physical"
+    },
+    {
+      "title": "Potenciales cocleares",
+      "body": "endococlear · reposo",
+      "style": "neutral"
+    },
+    {
+      "title": "Célula ciliada",
+      "body": "potencial receptor",
+      "style": "accent"
+    },
+    {
+      "title": "Fibra aferente",
+      "body": "potencial de acción",
+      "style": "clinical"
+    }
+  ],
+  "caption": "Recapitulación por capas de mecánica y potenciales.",
+  "alt": "Cuatro franjas apiladas conectan mecánica espacial, potenciales cocleares, célula ciliada y fibra aferente.",
+  "source": "Libro del curso, secciones 6.7–6.9; Fettiplace (2017); elaboración conceptual propia.",
+  "footer": "Figura conceptual; no está a escala.",
+  "options": {},
+  "nodes": [
+    {
+      "id": "layer_1",
+      "x": 180,
+      "y": 134,
+      "w": 920,
+      "h": 106.5,
+      "title": "Mecánica espacial",
+      "body": "lugar característico",
+      "style": "physical",
+      "role": "node"
+    },
+    {
+      "id": "layer_2",
+      "x": 180,
+      "y": 250.5,
+      "w": 920,
+      "h": 106.5,
+      "title": "Potenciales cocleares",
+      "body": "endococlear · reposo",
+      "style": "neutral",
+      "role": "node"
+    },
+    {
+      "id": "layer_3",
+      "x": 180,
+      "y": 367,
+      "w": 920,
+      "h": 106.5,
+      "title": "Célula ciliada",
+      "body": "potencial receptor",
+      "style": "accent",
+      "role": "node"
+    },
+    {
+      "id": "layer_4",
+      "x": 180,
+      "y": 483.5,
+      "w": 920,
+      "h": 106.5,
+      "title": "Fibra aferente",
+      "body": "potencial de acción",
+      "style": "clinical",
+      "role": "node"
+    }
+  ],
+  "edges": []
+}

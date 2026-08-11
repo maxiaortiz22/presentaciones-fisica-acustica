@@ -1,0 +1,366 @@
+{
+  "unit": "06",
+  "charts_approved": 6,
+  "diagrams_approved": 53,
+  "assets_checked": 59,
+  "critical_issues": 0,
+  "major_issues": 0,
+  "manifest_missing": [],
+  "status": "approved",
+  "results": [
+    {
+      "asset_id": "U06-CH-001",
+      "kind": "chart",
+      "issues": [],
+      "status": "approved"
+    },
+    {
+      "asset_id": "U06-CH-002A",
+      "kind": "chart",
+      "issues": [],
+      "status": "approved"
+    },
+    {
+      "asset_id": "U06-CH-002B",
+      "kind": "chart",
+      "issues": [],
+      "status": "approved"
+    },
+    {
+      "asset_id": "U06-CH-003",
+      "kind": "chart",
+      "issues": [],
+      "status": "approved"
+    },
+    {
+      "asset_id": "U06-CH-004",
+      "kind": "chart",
+      "issues": [],
+      "status": "approved"
+    },
+    {
+      "asset_id": "U06-CH-006",
+      "kind": "chart",
+      "issues": [],
+      "status": "approved"
+    },
+    {
+      "asset_id": "U06-DG-001",
+      "kind": "diagram",
+      "issues": [],
+      "status": "approved"
+    },
+    {
+      "asset_id": "U06-DG-002",
+      "kind": "diagram",
+      "issues": [],
+      "status": "approved"
+    },
+    {
+      "asset_id": "U06-DG-003",
+      "kind": "diagram",
+      "issues": [],
+      "status": "approved"
+    },
+    {
+      "asset_id": "U06-DG-004",
+      "kind": "diagram",
+      "issues": [],
+      "status": "approved"
+    },
+    {
+      "asset_id": "U06-DG-006",
+      "kind": "diagram",
+      "issues": [],
+      "status": "approved"
+    },
+    {
+      "asset_id": "U06-DG-008",
+      "kind": "diagram",
+      "issues": [],
+      "status": "approved"
+    },
+    {
+      "asset_id": "U06-DG-009",
+      "kind": "diagram",
+      "issues": [],
+      "status": "approved"
+    },
+    {
+      "asset_id": "U06-DG-009B",
+      "kind": "diagram",
+      "issues": [],
+      "status": "approved"
+    },
+    {
+      "asset_id": "U06-DG-010",
+      "kind": "diagram",
+      "issues": [],
+      "status": "approved"
+    },
+    {
+      "asset_id": "U06-DG-012",
+      "kind": "diagram",
+      "issues": [],
+      "status": "approved"
+    },
+    {
+      "asset_id": "U06-DG-013",
+      "kind": "diagram",
+      "issues": [],
+      "status": "approved"
+    },
+    {
+      "asset_id": "U06-DG-016",
+      "kind": "diagram",
+      "issues": [],
+      "status": "approved"
+    },
+    {
+      "asset_id": "U06-DG-017",
+      "kind": "diagram",
+      "issues": [],
+      "status": "approved"
+    },
+    {
+      "asset_id": "U06-DG-019",
+      "kind": "diagram",
+      "issues": [],
+      "status": "approved"
+    },
+    {
+      "asset_id": "U06-DG-021",
+      "kind": "diagram",
+      "issues": [],
+      "status": "approved"
+    },
+    {
+      "asset_id": "U06-DG-022",
+      "kind": "diagram",
+      "issues": [],
+      "status": "approved"
+    },
+    {
+      "asset_id": "U06-DG-023",
+      "kind": "diagram",
+      "issues": [],
+      "status": "approved"
+    },
+    {
+      "asset_id": "U06-DG-024",
+      "kind": "diagram",
+      "issues": [],
+      "status": "approved"
+    },
+    {
+      "asset_id": "U06-DG-025",
+      "kind": "diagram",
+      "issues": [],
+      "status": "approved"
+    },
+    {
+      "asset_id": "U06-DG-026",
+      "kind": "diagram",
+      "issues": [],
+      "status": "approved"
+    },
+    {
+      "asset_id": "U06-DG-026B",
+      "kind": "diagram",
+      "issues": [],
+      "status": "approved"
+    },
+    {
+      "asset_id": "U06-DG-027",
+      "kind": "diagram",
+      "issues": [],
+      "status": "approved"
+    },
+    {
+      "asset_id": "U06-DG-028",
+      "kind": "diagram",
+      "issues": [],
+      "status": "approved"
+    },
+    {
+      "asset_id": "U06-DG-030",
+      "kind": "diagram",
+      "issues": [],
+      "status": "approved"
+    },
+    {
+      "asset_id": "U06-DG-031",
+      "kind": "diagram",
+      "issues": [],
+      "status": "approved"
+    },
+    {
+      "asset_id": "U06-DG-033",
+      "kind": "diagram",
+      "issues": [],
+      "status": "approved"
+    },
+    {
+      "asset_id": "U06-DG-037",
+      "kind": "diagram",
+      "issues": [],
+      "status": "approved"
+    },
+    {
+      "asset_id": "U06-DG-038",
+      "kind": "diagram",
+      "issues": [],
+      "status": "approved"
+    },
+    {
+      "asset_id": "U06-DG-039",
+      "kind": "diagram",
+      "issues": [],
+      "status": "approved"
+    },
+    {
+      "asset_id": "U06-DG-040",
+      "kind": "diagram",
+      "issues": [],
+      "status": "approved"
+    },
+    {
+      "asset_id": "U06-DG-042",
+      "kind": "diagram",
+      "issues": [],
+      "status": "approved"
+    },
+    {
+      "asset_id": "U06-DG-043",
+      "kind": "diagram",
+      "issues": [],
+      "status": "approved"
+    },
+    {
+      "asset_id": "U06-DG-044",
+      "kind": "diagram",
+      "issues": [],
+      "status": "approved"
+    },
+    {
+      "asset_id": "U06-DG-045",
+      "kind": "diagram",
+      "issues": [],
+      "status": "approved"
+    },
+    {
+      "asset_id": "U06-DG-046",
+      "kind": "diagram",
+      "issues": [],
+      "status": "approved"
+    },
+    {
+      "asset_id": "U06-DG-047",
+      "kind": "diagram",
+      "issues": [],
+      "status": "approved"
+    },
+    {
+      "asset_id": "U06-DG-048",
+      "kind": "diagram",
+      "issues": [],
+      "status": "approved"
+    },
+    {
+      "asset_id": "U06-DG-049",
+      "kind": "diagram",
+      "issues": [],
+      "status": "approved"
+    },
+    {
+      "asset_id": "U06-DG-051",
+      "kind": "diagram",
+      "issues": [],
+      "status": "approved"
+    },
+    {
+      "asset_id": "U06-DG-052",
+      "kind": "diagram",
+      "issues": [],
+      "status": "approved"
+    },
+    {
+      "asset_id": "U06-DG-053",
+      "kind": "diagram",
+      "issues": [],
+      "status": "approved"
+    },
+    {
+      "asset_id": "U06-DG-054",
+      "kind": "diagram",
+      "issues": [],
+      "status": "approved"
+    },
+    {
+      "asset_id": "U06-DG-055",
+      "kind": "diagram",
+      "issues": [],
+      "status": "approved"
+    },
+    {
+      "asset_id": "U06-DG-056",
+      "kind": "diagram",
+      "issues": [],
+      "status": "approved"
+    },
+    {
+      "asset_id": "U06-DG-057",
+      "kind": "diagram",
+      "issues": [],
+      "status": "approved"
+    },
+    {
+      "asset_id": "U06-DG-058",
+      "kind": "diagram",
+      "issues": [],
+      "status": "approved"
+    },
+    {
+      "asset_id": "U06-DG-058B",
+      "kind": "diagram",
+      "issues": [],
+      "status": "approved"
+    },
+    {
+      "asset_id": "U06-DG-059",
+      "kind": "diagram",
+      "issues": [],
+      "status": "approved"
+    },
+    {
+      "asset_id": "U06-DG-059B",
+      "kind": "diagram",
+      "issues": [],
+      "status": "approved"
+    },
+    {
+      "asset_id": "U06-DG-060",
+      "kind": "diagram",
+      "issues": [],
+      "status": "approved"
+    },
+    {
+      "asset_id": "U06-DG-062",
+      "kind": "diagram",
+      "issues": [],
+      "status": "approved"
+    },
+    {
+      "asset_id": "U06-DG-063",
+      "kind": "diagram",
+      "issues": [],
+      "status": "approved"
+    },
+    {
+      "asset_id": "U06-DG-064",
+      "kind": "diagram",
+      "issues": [],
+      "status": "approved"
+    }
+  ]
+}

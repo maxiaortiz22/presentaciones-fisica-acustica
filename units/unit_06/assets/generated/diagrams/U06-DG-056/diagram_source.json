@@ -1,0 +1,133 @@
+{
+  "id": "U06-DG-056",
+  "classification": "diagrama de proceso",
+  "title": "Del potencial receptor a la señal neural",
+  "template": "flow",
+  "items": [
+    {
+      "title": "Potencial receptor",
+      "body": "graduado",
+      "style": "accent"
+    },
+    {
+      "title": "Canales de Ca²⁺",
+      "body": "zona basal",
+      "style": "physical"
+    },
+    {
+      "title": "Glutamato",
+      "body": "sinapsis",
+      "style": "clinical"
+    },
+    {
+      "title": "Fibra aferente",
+      "body": "integra señal",
+      "style": "neutral"
+    },
+    {
+      "title": "Potencial de acción",
+      "body": "eventos",
+      "style": "clinical"
+    }
+  ],
+  "caption": "Cadena desde potencial receptor hasta potenciales de acción.",
+  "alt": "Cinco etapas conectan potencial receptor, calcio, glutamato, fibra aferente y potencial de acción.",
+  "source": "Libro del curso, secciones 6.7–6.9; Fettiplace (2017); elaboración conceptual propia.",
+  "footer": "Figura conceptual; no está a escala.",
+  "options": {},
+  "nodes": [
+    {
+      "id": "stage_1",
+      "x": 82,
+      "y": 175,
+      "w": 353.3333333333333,
+      "h": 145,
+      "title": "Potencial receptor",
+      "body": "graduado",
+      "style": "accent",
+      "role": "node"
+    },
+    {
+      "id": "stage_2",
+      "x": 463.3333333333333,
+      "y": 175,
+      "w": 353.3333333333333,
+      "h": 145,
+      "title": "Canales de Ca²⁺",
+      "body": "zona basal",
+      "style": "physical",
+      "role": "node"
+    },
+    {
+      "id": "stage_3",
+      "x": 844.6666666666666,
+      "y": 175,
+      "w": 353.3333333333333,
+      "h": 145,
+      "title": "Glutamato",
+      "body": "sinapsis",
+      "style": "clinical",
+      "role": "node"
+    },
+    {
+      "id": "stage_4",
+      "x": 654,
+      "y": 415,
+      "w": 544,
+      "h": 145,
+      "title": "Fibra aferente",
+      "body": "integra señal",
+      "style": "neutral",
+      "role": "node"
+    },
+    {
+      "id": "stage_5",
+      "x": 82,
+      "y": 415,
+      "w": 544,
+      "h": 145,
+      "title": "Potencial de acción",
+      "body": "eventos",
+      "style": "clinical",
+      "role": "node"
+    }
+  ],
+  "edges": [
+    {
+      "id": "flow_1",
+      "from": "stage_1",
+      "to": "stage_2",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "elbow"
+    },
+    {
+      "id": "flow_2",
+      "from": "stage_2",
+      "to": "stage_3",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "elbow"
+    },
+    {
+      "id": "flow_3",
+      "from": "stage_3",
+      "to": "stage_4",
+      "semantic": "",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "kind": "elbow"
+    },
+    {
+      "id": "flow_4",
+      "from": "stage_4",
+      "to": "stage_5",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "elbow"
+    }
+  ]
+}

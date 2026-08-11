@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+<defs><marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0,0 L10,4 L0,8 Z" fill="#3D3D3D"/></marker></defs>
+<rect width="1280" height="720" fill="white"/>
+<rect x="72" y="27" width="390" height="6" fill="#4D1434"/><rect x="472" y="27" width="390" height="6" fill="#903163"/><rect x="872" y="27" width="336" height="6" fill="#969FA7"/>
+<text x="72" y="82" font-family="Calibri,Arial,sans-serif" font-size="40" font-weight="700" fill="#3D3D3D">Las vías aérea y ósea convergen en la cóclea</text>
+<polyline id="air_edge_1" points="279.5,225 289.5,225 289.5,225 299.5,225" fill="none" stroke="#3D3D3D" stroke-width="3" marker-end="url(#arrow)"/>
+<polyline id="air_edge_2" points="497,225 507,225 507,225 517,225" fill="none" stroke="#3D3D3D" stroke-width="3" marker-end="url(#arrow)"/>
+<polyline id="air_edge_3" points="714.5,225 724.5,225 724.5,225 734.5,225" fill="none" stroke="#3D3D3D" stroke-width="3" marker-end="url(#arrow)"/>
+<polyline id="air_target" points="932,225 963.5,225 963.5,360 995,360" fill="none" stroke="#3D3D3D" stroke-width="3" marker-end="url(#arrow)"/>
+<polyline id="bone_edge_1" points="352,510 362,510 362,510 372,510" fill="none" stroke="#3D3D3D" stroke-width="3" marker-end="url(#arrow)"/>
+<polyline id="bone_edge_2" points="642,510 652,510 652,510 662,510" fill="none" stroke="#3D3D3D" stroke-width="3" marker-end="url(#arrow)"/>
+<polyline id="bone_target" points="932,510 963.5,510 963.5,360 995,360" fill="none" stroke="#3D3D3D" stroke-width="3" marker-end="url(#arrow)"/>
+<rect id="target" x="995" y="280" width="205" height="160" rx="10" fill="#F8EDE2" stroke="#9F541A" stroke-width="2"/>
+<text x="1097.5" y="327" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#9F541A">Cóclea</text>
+<text x="1097.5" y="372" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">destino</text>
+<text x="1097.5" y="404" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">común</text>
+<rect id="air_1" x="82" y="150" width="197.5" height="150" rx="10" fill="#E7F1F1" stroke="#2F7E83" stroke-width="2"/>
+<text x="180.75" y="197" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#2F7E83">Aire</text>
+<text x="180.75" y="242" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">entrada</text>
+<rect id="air_2" x="299.5" y="150" width="197.5" height="150" rx="10" fill="#E7F1F1" stroke="#2F7E83" stroke-width="2"/>
+<text x="398.25" y="197" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#2F7E83">CAE</text>
+<text x="398.25" y="242" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">presión</text>
+<rect id="air_3" x="517" y="150" width="197.5" height="150" rx="10" fill="#F3E8EE" stroke="#4D1434" stroke-width="2"/>
+<text x="615.75" y="197" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#4D1434">Tímpano</text>
+<text x="615.75" y="242" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">vibra</text>
+<rect id="air_4" x="734.5" y="150" width="197.5" height="150" rx="10" fill="#F3E8EE" stroke="#4D1434" stroke-width="2"/>
+<text x="833.25" y="197" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#4D1434">Osículos</text>
+<text x="833.25" y="242" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">transfiere</text>
+<rect id="bone_1" x="82" y="435" width="270" height="150" rx="10" fill="#F7F6F2" stroke="#969FA7" stroke-width="2"/>
+<text x="217" y="482" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#3D3D3D">Cráneo</text>
+<text x="217" y="527" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">vibra</text>
+<rect id="bone_2" x="372" y="435" width="270" height="150" rx="10" fill="#F7F6F2" stroke="#969FA7" stroke-width="2"/>
+<text x="507" y="482" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#3D3D3D">CAE + oído</text>
+<text x="507" y="520" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#3D3D3D">medio</text>
+<text x="507" y="561" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">participan</text>
+<rect id="bone_3" x="662" y="435" width="270" height="150" rx="10" fill="#F8EDE2" stroke="#9F541A" stroke-width="2"/>
+<text x="797" y="482" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#9F541A">Fluidos</text>
+<text x="797" y="527" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">se movilizan</text>
+<text x="640" y="628" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="22" fill="#3D3D3D">Rutas conceptuales; la vía ósea no es un bypass único.</text>
+<text x="72" y="690" font-family="Calibri,Arial,sans-serif" font-size="16" fill="#969FA7">Libro del curso, sección de conducción ósea; Stenfelt (revisión citada en el capítulo); elaboración propia.</text>
+</svg>

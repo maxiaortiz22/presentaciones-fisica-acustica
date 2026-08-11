@@ -1,0 +1,108 @@
+{
+  "id": "U06-DG-004",
+  "classification": "diagrama de proceso",
+  "title": "La clase avanza de la entrada a la señal neural",
+  "template": "flow",
+  "items": [
+    {
+      "title": "Oído externo",
+      "body": "dirección · CAE",
+      "style": "physical"
+    },
+    {
+      "title": "Oído medio",
+      "body": "fuerza · transferencia",
+      "style": "accent"
+    },
+    {
+      "title": "Cóclea",
+      "body": "fluidos · tonotopía",
+      "style": "physical"
+    },
+    {
+      "title": "Transducción",
+      "body": "células · nervio",
+      "style": "clinical"
+    }
+  ],
+  "caption": "Mapa de cuatro macroetapas de la Unidad 6.",
+  "alt": "Cuatro bloques conectados: oído externo, oído medio, cóclea y transducción.",
+  "source": "Libro del curso (TEX/PDF), Unidad 6; brief y storyboard U06; elaboración propia.",
+  "footer": "Figura conceptual; no está a escala.",
+  "options": {},
+  "nodes": [
+    {
+      "id": "stage_1",
+      "x": 82,
+      "y": 255,
+      "w": 255,
+      "h": 175,
+      "title": "Oído externo",
+      "body": "dirección · CAE",
+      "style": "physical",
+      "role": "node"
+    },
+    {
+      "id": "stage_2",
+      "x": 369,
+      "y": 255,
+      "w": 255,
+      "h": 175,
+      "title": "Oído medio",
+      "body": "fuerza · transferencia",
+      "style": "accent",
+      "role": "node"
+    },
+    {
+      "id": "stage_3",
+      "x": 656,
+      "y": 255,
+      "w": 255,
+      "h": 175,
+      "title": "Cóclea",
+      "body": "fluidos · tonotopía",
+      "style": "physical",
+      "role": "node"
+    },
+    {
+      "id": "stage_4",
+      "x": 943,
+      "y": 255,
+      "w": 255,
+      "h": 175,
+      "title": "Transducción",
+      "body": "células · nervio",
+      "style": "clinical",
+      "role": "node"
+    }
+  ],
+  "edges": [
+    {
+      "id": "flow_1",
+      "from": "stage_1",
+      "to": "stage_2",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "elbow"
+    },
+    {
+      "id": "flow_2",
+      "from": "stage_2",
+      "to": "stage_3",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "elbow"
+    },
+    {
+      "id": "flow_3",
+      "from": "stage_3",
+      "to": "stage_4",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "elbow"
+    }
+  ]
+}

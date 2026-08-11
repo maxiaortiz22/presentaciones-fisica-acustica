@@ -1,0 +1,108 @@
+{
+  "id": "U06-DG-026",
+  "classification": "diagrama de proceso",
+  "title": "La vibración del cráneo puede radiar sonido al CAE",
+  "template": "flow",
+  "items": [
+    {
+      "title": "Cráneo vibra",
+      "body": "movimiento",
+      "style": "physical"
+    },
+    {
+      "title": "Pared del CAE",
+      "body": "se desplaza",
+      "style": "neutral"
+    },
+    {
+      "title": "Aire del CAE",
+      "body": "presión radiada",
+      "style": "accent"
+    },
+    {
+      "title": "Tímpano",
+      "body": "recibe esa presión",
+      "style": "clinical"
+    }
+  ],
+  "caption": "Mecanismo de radiación al conducto auditivo externo.",
+  "alt": "Cuatro etapas muestran vibración del cráneo, movimiento de la pared del conducto, presión en su aire y recepción timpánica.",
+  "source": "Libro del curso, sección de conducción ósea; Stenfelt (revisión citada en el capítulo); elaboración propia.",
+  "footer": "Figura conceptual; no está a escala.",
+  "options": {},
+  "nodes": [
+    {
+      "id": "stage_1",
+      "x": 82,
+      "y": 255,
+      "w": 255,
+      "h": 175,
+      "title": "Cráneo vibra",
+      "body": "movimiento",
+      "style": "physical",
+      "role": "node"
+    },
+    {
+      "id": "stage_2",
+      "x": 369,
+      "y": 255,
+      "w": 255,
+      "h": 175,
+      "title": "Pared del CAE",
+      "body": "se desplaza",
+      "style": "neutral",
+      "role": "node"
+    },
+    {
+      "id": "stage_3",
+      "x": 656,
+      "y": 255,
+      "w": 255,
+      "h": 175,
+      "title": "Aire del CAE",
+      "body": "presión radiada",
+      "style": "accent",
+      "role": "node"
+    },
+    {
+      "id": "stage_4",
+      "x": 943,
+      "y": 255,
+      "w": 255,
+      "h": 175,
+      "title": "Tímpano",
+      "body": "recibe esa presión",
+      "style": "clinical",
+      "role": "node"
+    }
+  ],
+  "edges": [
+    {
+      "id": "flow_1",
+      "from": "stage_1",
+      "to": "stage_2",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "elbow"
+    },
+    {
+      "id": "flow_2",
+      "from": "stage_2",
+      "to": "stage_3",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "elbow"
+    },
+    {
+      "id": "flow_3",
+      "from": "stage_3",
+      "to": "stage_4",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "elbow"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+<defs><marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0,0 L10,4 L0,8 Z" fill="#3D3D3D"/></marker></defs>
+<rect width="1280" height="720" fill="white"/>
+<rect x="72" y="27" width="390" height="6" fill="#4D1434"/><rect x="472" y="27" width="390" height="6" fill="#903163"/><rect x="872" y="27" width="336" height="6" fill="#969FA7"/>
+<text x="72" y="82" font-family="Calibri,Arial,sans-serif" font-size="40" font-weight="700" fill="#3D3D3D">Cada prueba observa una ventana de la cadena</text>
+<polyline id="chain_edge_1" points="289.2,410 299.2,410 299.2,410 309.2,410" fill="none" stroke="#3D3D3D" stroke-width="3" marker-end="url(#arrow)"/>
+<polyline id="chain_edge_2" points="516.4,410 526.4,410 526.4,410 536.4,410" fill="none" stroke="#3D3D3D" stroke-width="3" marker-end="url(#arrow)"/>
+<polyline id="chain_edge_3" points="743.5999999999999,410 753.5999999999999,410 753.5999999999999,410 763.5999999999999,410" fill="none" stroke="#3D3D3D" stroke-width="3" marker-end="url(#arrow)"/>
+<polyline id="chain_edge_4" points="970.8,410 980.8,410 980.8,410 990.8,410" fill="none" stroke="#3D3D3D" stroke-width="3" marker-end="url(#arrow)"/>
+<polyline id="window_edge_1" points="255,305 255,317.5 412.79999999999995,317.5 412.79999999999995,330" fill="none" stroke="#3D3D3D" stroke-width="3" marker-end="url(#arrow)"/>
+<polyline id="window_edge_2" points="640,305 640,317.5 640,317.5 640,330" fill="none" stroke="#3D3D3D" stroke-width="3" marker-end="url(#arrow)"/>
+<polyline id="window_edge_3" points="1025,305 1025,317.5 1094.3999999999999,317.5 1094.3999999999999,330" fill="none" stroke="#3D3D3D" stroke-width="3" marker-end="url(#arrow)"/>
+<rect id="chain_1" x="82" y="330" width="207.2" height="160" rx="10" fill="#E7F1F1" stroke="#2F7E83" stroke-width="2"/>
+<text x="185.6" y="377" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#2F7E83">CAE</text>
+<text x="185.6" y="422" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">entrada</text>
+<rect id="chain_2" x="309.2" y="330" width="207.2" height="160" rx="10" fill="#F3E8EE" stroke="#4D1434" stroke-width="2"/>
+<text x="412.79999999999995" y="377" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#4D1434">Oído</text>
+<text x="412.79999999999995" y="415" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#4D1434">medio</text>
+<text x="412.79999999999995" y="456" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">transfiere</text>
+<rect id="chain_3" x="536.4" y="330" width="207.2" height="160" rx="10" fill="#E7F1F1" stroke="#2F7E83" stroke-width="2"/>
+<text x="640" y="377" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#2F7E83">CCE</text>
+<text x="640" y="422" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">mecánica</text>
+<text x="640" y="454" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">activa</text>
+<rect id="chain_4" x="763.5999999999999" y="330" width="207.2" height="160" rx="10" fill="#F8EDE2" stroke="#9F541A" stroke-width="2"/>
+<text x="867.1999999999999" y="377" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#9F541A">CCI /</text>
+<text x="867.1999999999999" y="415" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#9F541A">sinapsis</text>
+<text x="867.1999999999999" y="456" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">aferencia</text>
+<rect id="chain_5" x="990.8" y="330" width="207.2" height="160" rx="10" fill="#F8EDE2" stroke="#9F541A" stroke-width="2"/>
+<text x="1094.3999999999999" y="377" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#9F541A">Nervio</text>
+<text x="1094.3999999999999" y="422" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">y tronco</text>
+<rect id="window_1" x="105" y="160" width="300" height="145" rx="10" fill="#F7F6F2" stroke="#969FA7" stroke-width="2"/>
+<text x="255" y="207" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#3D3D3D">Timpanometría</text>
+<text x="255" y="252" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">oído medio</text>
+<rect id="window_2" x="490" y="160" width="300" height="145" rx="10" fill="#F7F6F2" stroke="#969FA7" stroke-width="2"/>
+<text x="640" y="207" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#3D3D3D">OEA</text>
+<text x="640" y="252" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">CCE + retorno</text>
+<rect id="window_3" x="875" y="160" width="300" height="145" rx="10" fill="#F7F6F2" stroke="#969FA7" stroke-width="2"/>
+<text x="1025" y="207" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#3D3D3D">Potencial</text>
+<text x="1025" y="245" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#3D3D3D">evocado</text>
+<text x="1025" y="286" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">vía neural</text>
+<text x="640" y="628" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="22" fill="#3D3D3D">Ventanas funcionales; ninguna prueba localiza por sí sola una única estructura.</text>
+<text x="72" y="690" font-family="Calibri,Arial,sans-serif" font-size="16" fill="#969FA7">Libro del curso, secciones 6.7–6.9; Fettiplace (2017); elaboración conceptual propia.</text>
+</svg>

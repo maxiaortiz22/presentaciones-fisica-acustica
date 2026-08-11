@@ -1,0 +1,48 @@
+{
+  "id": "U06-DG-042",
+  "classification": "diagrama conceptual",
+  "title": "Dos estados revelan movimiento relativo",
+  "template": "compare",
+  "items": [
+    {
+      "title": "Estado A",
+      "body": "basilar arriba\ntectorial relativa",
+      "style": "physical"
+    },
+    {
+      "title": "Estado B",
+      "body": "basilar abajo\ntectorial relativa",
+      "style": "clinical"
+    }
+  ],
+  "caption": "Alternativa estática de dos estados de micromecánica coclear.",
+  "alt": "Dos paneles con geometría equivalente contrastan movimientos relativos opuestos de membranas y haces.",
+  "source": "Libro del curso, secciones 6.7–6.9; Fettiplace (2017); elaboración conceptual propia.",
+  "footer": "Desplazamientos exagerados sólo para hacer visible la dirección.",
+  "options": {},
+  "nodes": [
+    {
+      "id": "panel_left",
+      "x": 92,
+      "y": 180,
+      "w": 520,
+      "h": 350,
+      "title": "Estado A",
+      "body": "basilar arriba\ntectorial relativa",
+      "style": "physical",
+      "role": "node"
+    },
+    {
+      "id": "panel_right",
+      "x": 668,
+      "y": 180,
+      "w": 520,
+      "h": 350,
+      "title": "Estado B",
+      "body": "basilar abajo\ntectorial relativa",
+      "style": "clinical",
+      "role": "node"
+    }
+  ],
+  "edges": []
+}

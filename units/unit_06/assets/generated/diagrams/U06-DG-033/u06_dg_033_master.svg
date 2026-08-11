@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+<defs><marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0,0 L10,4 L0,8 Z" fill="#3D3D3D"/></marker></defs>
+<rect width="1280" height="720" fill="white"/>
+<rect x="72" y="27" width="390" height="6" fill="#4D1434"/><rect x="472" y="27" width="390" height="6" fill="#903163"/><rect x="872" y="27" width="336" height="6" fill="#969FA7"/>
+<text x="72" y="82" font-family="Calibri,Arial,sans-serif" font-size="40" font-weight="700" fill="#3D3D3D">Cada compartimento se asocia con un fluido</text>
+<rect id="layer_1" x="180" y="134" width="920" height="145.33333333333334" rx="10" fill="#E7F1F1" stroke="#2F7E83" stroke-width="2"/>
+<text x="640" y="181" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#2F7E83">Rampa vestibular</text>
+<text x="640" y="226" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">perilinfa</text>
+<rect id="layer_2" x="180" y="289.33333333333337" width="920" height="145.33333333333334" rx="10" fill="#F8EDE2" stroke="#9F541A" stroke-width="2"/>
+<text x="640" y="336.33333333333337" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#9F541A">Conducto coclear</text>
+<text x="640" y="381.33333333333337" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">endolinfa</text>
+<rect id="layer_3" x="180" y="444.6666666666667" width="920" height="145.33333333333334" rx="10" fill="#E7F1F1" stroke="#2F7E83" stroke-width="2"/>
+<text x="640" y="491.6666666666667" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#2F7E83">Rampa timpánica</text>
+<text x="640" y="536.6666666666667" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">perilinfa</text>
+<text x="640" y="628" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="22" fill="#3D3D3D">Corte conceptual; patrones y rótulos acompañan el color.</text>
+<text x="72" y="690" font-family="Calibri,Arial,sans-serif" font-size="16" fill="#969FA7">Libro del curso, secciones 6.7–6.9; Fettiplace (2017); elaboración conceptual propia.</text>
+</svg>

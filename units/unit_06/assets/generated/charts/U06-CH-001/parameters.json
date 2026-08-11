@@ -1,0 +1,17 @@
+{
+  "position_axis": "s/L, 0=base, 1=ápex",
+  "model": "envolvente gaussiana asimétrica por tramos",
+  "conceptual": true,
+  "not_to_scale": true,
+  "scale": "x e y lineales",
+  "peaks": [
+    0.22,
+    0.52,
+    0.79
+  ],
+  "series": [
+    "Altas",
+    "Medias",
+    "Bajas"
+  ]
+}

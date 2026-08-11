@@ -1,0 +1,48 @@
+{
+  "id": "U06-DG-040",
+  "classification": "diagrama conceptual",
+  "title": "Lugar característico y tonotopía no son sinónimos",
+  "template": "compare",
+  "items": [
+    {
+      "title": "Lugar característico",
+      "body": "máxima respuesta\npara una condición",
+      "style": "accent"
+    },
+    {
+      "title": "Tonotopía",
+      "body": "muchos lugares ordenados\ncontinuo espacial",
+      "style": "physical"
+    }
+  ],
+  "caption": "Comparación entre un lugar característico y el orden tonotópico.",
+  "alt": "Un panel destaca un máximo para una condición y otro muestra muchos lugares ordenados de manera continua.",
+  "source": "Libro del curso, secciones 6.7–6.9; Fettiplace (2017); elaboración conceptual propia.",
+  "footer": "Figura conceptual; no está a escala.",
+  "options": {},
+  "nodes": [
+    {
+      "id": "panel_left",
+      "x": 92,
+      "y": 180,
+      "w": 520,
+      "h": 350,
+      "title": "Lugar característico",
+      "body": "máxima respuesta\npara una condición",
+      "style": "accent",
+      "role": "node"
+    },
+    {
+      "id": "panel_right",
+      "x": 668,
+      "y": 180,
+      "w": 520,
+      "h": 350,
+      "title": "Tonotopía",
+      "body": "muchos lugares ordenados\ncontinuo espacial",
+      "style": "physical",
+      "role": "node"
+    }
+  ],
+  "edges": []
+}

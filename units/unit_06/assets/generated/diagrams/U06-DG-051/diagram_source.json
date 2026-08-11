@@ -1,0 +1,48 @@
+{
+  "id": "U06-DG-051",
+  "classification": "diagrama conceptual",
+  "title": "Potencial receptor y potencial de acción no son la misma señal",
+  "template": "compare",
+  "items": [
+    {
+      "title": "Célula ciliada",
+      "body": "potencial receptor\ngraduado y continuo",
+      "style": "accent"
+    },
+    {
+      "title": "Fibra aferente",
+      "body": "potenciales de acción\neventos discretos",
+      "style": "clinical"
+    }
+  ],
+  "caption": "Comparación de dos señales y sus ubicaciones.",
+  "alt": "Dos paneles contrastan una variación graduada en la célula ciliada con impulsos discretos en la fibra aferente.",
+  "source": "Libro del curso, secciones 6.7–6.9; Fettiplace (2017); elaboración conceptual propia.",
+  "footer": "Trazas esquemáticas; sus amplitudes no son comparables.",
+  "options": {},
+  "nodes": [
+    {
+      "id": "panel_left",
+      "x": 92,
+      "y": 180,
+      "w": 520,
+      "h": 350,
+      "title": "Célula ciliada",
+      "body": "potencial receptor\ngraduado y continuo",
+      "style": "accent",
+      "role": "node"
+    },
+    {
+      "id": "panel_right",
+      "x": 668,
+      "y": 180,
+      "w": 520,
+      "h": 350,
+      "title": "Fibra aferente",
+      "body": "potenciales de acción\neventos discretos",
+      "style": "clinical",
+      "role": "node"
+    }
+  ],
+  "edges": []
+}

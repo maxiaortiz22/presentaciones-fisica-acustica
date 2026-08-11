@@ -1,0 +1,108 @@
+{
+  "id": "U06-DG-058B",
+  "classification": "esquema mixto",
+  "title": "Frecuencia y pitch están relacionados, pero no son equivalentes",
+  "template": "flow",
+  "items": [
+    {
+      "title": "Frecuencia",
+      "body": "magnitud física · Hz",
+      "style": "physical"
+    },
+    {
+      "title": "Código",
+      "body": "lugar + tiempo",
+      "style": "accent"
+    },
+    {
+      "title": "Integración",
+      "body": "claves neurales",
+      "style": "neutral"
+    },
+    {
+      "title": "Pitch",
+      "body": "percepto",
+      "style": "clinical"
+    }
+  ],
+  "caption": "Comparación encadenada entre frecuencia física y pitch.",
+  "alt": "Una cadena de cuatro etapas separa frecuencia en hertz, código periférico, procesamiento neural y pitch perceptual.",
+  "source": "Libro del curso, secciones 6.7–6.9; Fettiplace (2017); elaboración conceptual propia.",
+  "footer": "Relación conceptual; contribuye a no significa equivalencia.",
+  "options": {},
+  "nodes": [
+    {
+      "id": "stage_1",
+      "x": 82,
+      "y": 255,
+      "w": 255,
+      "h": 175,
+      "title": "Frecuencia",
+      "body": "magnitud física · Hz",
+      "style": "physical",
+      "role": "node"
+    },
+    {
+      "id": "stage_2",
+      "x": 369,
+      "y": 255,
+      "w": 255,
+      "h": 175,
+      "title": "Código",
+      "body": "lugar + tiempo",
+      "style": "accent",
+      "role": "node"
+    },
+    {
+      "id": "stage_3",
+      "x": 656,
+      "y": 255,
+      "w": 255,
+      "h": 175,
+      "title": "Integración",
+      "body": "claves neurales",
+      "style": "neutral",
+      "role": "node"
+    },
+    {
+      "id": "stage_4",
+      "x": 943,
+      "y": 255,
+      "w": 255,
+      "h": 175,
+      "title": "Pitch",
+      "body": "percepto",
+      "style": "clinical",
+      "role": "node"
+    }
+  ],
+  "edges": [
+    {
+      "id": "flow_1",
+      "from": "stage_1",
+      "to": "stage_2",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "elbow"
+    },
+    {
+      "id": "flow_2",
+      "from": "stage_2",
+      "to": "stage_3",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "elbow"
+    },
+    {
+      "id": "flow_3",
+      "from": "stage_3",
+      "to": "stage_4",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "elbow"
+    }
+  ]
+}
