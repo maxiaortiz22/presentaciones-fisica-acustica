@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+<defs><marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0,0 L10,4 L0,8 Z" fill="#3D3D3D"/></marker></defs>
+<rect width="1280" height="720" fill="white"/>
+<rect x="72" y="27" width="390" height="6" fill="#4D1434"/><rect x="472" y="27" width="390" height="6" fill="#903163"/><rect x="872" y="27" width="336" height="6" fill="#969FA7"/>
+<text x="72" y="82" font-family="Calibri,Arial,sans-serif" font-size="40" font-weight="700" fill="#3D3D3D">Diez ideas se organizan en cuatro zonas</text>
+<rect id="cell_1" x="82" y="165" width="540.5" height="190" rx="10" fill="#E7F1F1" stroke="#2F7E83" stroke-width="2"/>
+<text x="352.25" y="212" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#2F7E83">Oído externo</text>
+<text x="352.25" y="257" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">dirección · CAE</text>
+<text x="352.25" y="289" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">presión</text>
+<rect id="cell_2" x="657.5" y="165" width="540.5" height="190" rx="10" fill="#F3E8EE" stroke="#4D1434" stroke-width="2"/>
+<text x="927.75" y="212" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#4D1434">Oído medio</text>
+<text x="927.75" y="257" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">fuerza · áreas</text>
+<text x="927.75" y="289" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">palanca</text>
+<rect id="cell_3" x="82" y="385" width="540.5" height="190" rx="10" fill="#E7F1F1" stroke="#2F7E83" stroke-width="2"/>
+<text x="352.25" y="432" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#2F7E83">Cóclea</text>
+<text x="352.25" y="477" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">fluidos · onda</text>
+<text x="352.25" y="509" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">tonotopía</text>
+<rect id="cell_4" x="657.5" y="385" width="540.5" height="190" rx="10" fill="#F8EDE2" stroke="#9F541A" stroke-width="2"/>
+<text x="927.75" y="432" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#9F541A">Transducción</text>
+<text x="927.75" y="477" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">CCI · CCE</text>
+<text x="927.75" y="509" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">potenciales · nervio</text>
+<text x="640" y="628" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="22" fill="#3D3D3D">Mapa de recuperación; no reemplaza la secuencia causal completa.</text>
+<text x="72" y="690" font-family="Calibri,Arial,sans-serif" font-size="16" fill="#969FA7">Libro del curso (TEX/PDF), Unidad 6; brief y storyboard U06; elaboración propia.</text>
+</svg>

@@ -1,0 +1,108 @@
+{
+  "id": "U06-DG-021",
+  "classification": "diagrama de proceso",
+  "title": "Aumentar presión no significa crear energía",
+  "template": "flow",
+  "items": [
+    {
+      "title": "Energía incidente",
+      "body": "entrada",
+      "style": "physical"
+    },
+    {
+      "title": "Oído medio",
+      "body": "transforma",
+      "style": "accent"
+    },
+    {
+      "title": "Entrada coclear",
+      "body": "energía transferida",
+      "style": "clinical"
+    },
+    {
+      "title": "Pérdidas",
+      "body": "reflexión · disipación",
+      "style": "neutral"
+    }
+  ],
+  "caption": "Balance cualitativo de transferencia y pérdidas.",
+  "alt": "Una cadena separa energía incidente, transformación, energía transferida y pérdidas.",
+  "source": "Libro del curso (TEX/PDF), Unidad 6; brief y storyboard U06; elaboración propia.",
+  "footer": "Balance conceptual; el grosor de las flechas no codifica cantidad.",
+  "options": {},
+  "nodes": [
+    {
+      "id": "stage_1",
+      "x": 82,
+      "y": 255,
+      "w": 255,
+      "h": 175,
+      "title": "Energía incidente",
+      "body": "entrada",
+      "style": "physical",
+      "role": "node"
+    },
+    {
+      "id": "stage_2",
+      "x": 369,
+      "y": 255,
+      "w": 255,
+      "h": 175,
+      "title": "Oído medio",
+      "body": "transforma",
+      "style": "accent",
+      "role": "node"
+    },
+    {
+      "id": "stage_3",
+      "x": 656,
+      "y": 255,
+      "w": 255,
+      "h": 175,
+      "title": "Entrada coclear",
+      "body": "energía transferida",
+      "style": "clinical",
+      "role": "node"
+    },
+    {
+      "id": "stage_4",
+      "x": 943,
+      "y": 255,
+      "w": 255,
+      "h": 175,
+      "title": "Pérdidas",
+      "body": "reflexión · disipación",
+      "style": "neutral",
+      "role": "node"
+    }
+  ],
+  "edges": [
+    {
+      "id": "flow_1",
+      "from": "stage_1",
+      "to": "stage_2",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "elbow"
+    },
+    {
+      "id": "flow_2",
+      "from": "stage_2",
+      "to": "stage_3",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "elbow"
+    },
+    {
+      "id": "flow_3",
+      "from": "stage_3",
+      "to": "stage_4",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "elbow"
+    }
+  ]
+}

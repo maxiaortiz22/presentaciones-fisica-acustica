@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+<defs><marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0,0 L10,4 L0,8 Z" fill="#3D3D3D"/></marker></defs>
+<rect width="1280" height="720" fill="white"/>
+<rect x="72" y="27" width="390" height="6" fill="#4D1434"/><rect x="472" y="27" width="390" height="6" fill="#903163"/><rect x="872" y="27" width="336" height="6" fill="#969FA7"/>
+<text x="72" y="82" font-family="Calibri,Arial,sans-serif" font-size="40" font-weight="700" fill="#3D3D3D">dB SPL y sonoridad describen dominios distintos</text>
+<rect id="panel_left" x="92" y="180" width="520" height="350" rx="10" fill="#E7F1F1" stroke="#2F7E83" stroke-width="2"/>
+<text x="352" y="227" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#2F7E83">Nivel sonoro</text>
+<text x="352" y="272" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">dB SPL</text>
+<text x="352" y="304" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">magnitud física</text>
+<rect id="panel_right" x="668" y="180" width="520" height="350" rx="10" fill="#F8EDE2" stroke="#9F541A" stroke-width="2"/>
+<text x="928" y="227" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#9F541A">Sonoridad</text>
+<text x="928" y="272" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">percepto</text>
+<text x="928" y="304" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">condicionado</text>
+<text x="640" y="628" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="22" fill="#3D3D3D">La respuesta periférica condiciona la percepción, pero no la determina de forma lineal.</text>
+<text x="72" y="690" font-family="Calibri,Arial,sans-serif" font-size="16" fill="#969FA7">Libro del curso, secciones 6.7–6.9; Fettiplace (2017); elaboración conceptual propia.</text>
+</svg>

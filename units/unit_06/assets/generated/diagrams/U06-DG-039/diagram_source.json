@@ -1,0 +1,108 @@
+{
+  "id": "U06-DG-039",
+  "classification": "diagrama de proceso",
+  "title": "La onda crece, alcanza un máximo y decae",
+  "template": "flow",
+  "items": [
+    {
+      "title": "Base",
+      "body": "inicia",
+      "style": "physical"
+    },
+    {
+      "title": "Crecimiento",
+      "body": "amplitud aumenta",
+      "style": "physical"
+    },
+    {
+      "title": "Máximo",
+      "body": "lugar característico",
+      "style": "accent"
+    },
+    {
+      "title": "Decaimiento",
+      "body": "hacia el ápex",
+      "style": "clinical"
+    }
+  ],
+  "caption": "Etapas espaciales de una onda viajera conceptual.",
+  "alt": "Cuatro etapas base-ápex muestran inicio, crecimiento, máximo y decaimiento.",
+  "source": "Libro del curso, secciones 6.7–6.9; Fettiplace (2017); elaboración conceptual propia.",
+  "footer": "Figura conceptual; no está a escala.",
+  "options": {},
+  "nodes": [
+    {
+      "id": "stage_1",
+      "x": 82,
+      "y": 255,
+      "w": 255,
+      "h": 175,
+      "title": "Base",
+      "body": "inicia",
+      "style": "physical",
+      "role": "node"
+    },
+    {
+      "id": "stage_2",
+      "x": 369,
+      "y": 255,
+      "w": 255,
+      "h": 175,
+      "title": "Crecimiento",
+      "body": "amplitud aumenta",
+      "style": "physical",
+      "role": "node"
+    },
+    {
+      "id": "stage_3",
+      "x": 656,
+      "y": 255,
+      "w": 255,
+      "h": 175,
+      "title": "Máximo",
+      "body": "lugar característico",
+      "style": "accent",
+      "role": "node"
+    },
+    {
+      "id": "stage_4",
+      "x": 943,
+      "y": 255,
+      "w": 255,
+      "h": 175,
+      "title": "Decaimiento",
+      "body": "hacia el ápex",
+      "style": "clinical",
+      "role": "node"
+    }
+  ],
+  "edges": [
+    {
+      "id": "flow_1",
+      "from": "stage_1",
+      "to": "stage_2",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "elbow"
+    },
+    {
+      "id": "flow_2",
+      "from": "stage_2",
+      "to": "stage_3",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "elbow"
+    },
+    {
+      "id": "flow_3",
+      "from": "stage_3",
+      "to": "stage_4",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "elbow"
+    }
+  ]
+}

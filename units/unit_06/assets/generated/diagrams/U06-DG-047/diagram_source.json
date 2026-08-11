@@ -1,0 +1,133 @@
+{
+  "id": "U06-DG-047",
+  "classification": "diagrama de proceso",
+  "title": "Las OEA recorren una cadena de ida y vuelta",
+  "template": "flow",
+  "items": [
+    {
+      "title": "CCE",
+      "body": "electroquímica → mecánica",
+      "style": "physical"
+    },
+    {
+      "title": "Cóclea",
+      "body": "propaga hacia atrás",
+      "style": "accent"
+    },
+    {
+      "title": "Oído medio",
+      "body": "transmite",
+      "style": "neutral"
+    },
+    {
+      "title": "CAE",
+      "body": "presión acústica",
+      "style": "physical"
+    },
+    {
+      "title": "Micrófono",
+      "body": "registra",
+      "style": "clinical"
+    }
+  ],
+  "caption": "Cadena inversa conceptual de una emisión otoacústica.",
+  "alt": "Cinco etapas conectan células ciliadas externas, cóclea, oído medio, conducto auditivo y micrófono, sin implicar creación de energía.",
+  "source": "Libro del curso, secciones 6.7–6.9; Fettiplace (2017); elaboración conceptual propia.",
+  "footer": "El registro depende de toda la cadena y no localiza por sí solo una lesión.",
+  "options": {},
+  "nodes": [
+    {
+      "id": "stage_1",
+      "x": 82,
+      "y": 175,
+      "w": 353.3333333333333,
+      "h": 145,
+      "title": "CCE",
+      "body": "electroquímica → mecánica",
+      "style": "physical",
+      "role": "node"
+    },
+    {
+      "id": "stage_2",
+      "x": 463.3333333333333,
+      "y": 175,
+      "w": 353.3333333333333,
+      "h": 145,
+      "title": "Cóclea",
+      "body": "propaga hacia atrás",
+      "style": "accent",
+      "role": "node"
+    },
+    {
+      "id": "stage_3",
+      "x": 844.6666666666666,
+      "y": 175,
+      "w": 353.3333333333333,
+      "h": 145,
+      "title": "Oído medio",
+      "body": "transmite",
+      "style": "neutral",
+      "role": "node"
+    },
+    {
+      "id": "stage_4",
+      "x": 654,
+      "y": 415,
+      "w": 544,
+      "h": 145,
+      "title": "CAE",
+      "body": "presión acústica",
+      "style": "physical",
+      "role": "node"
+    },
+    {
+      "id": "stage_5",
+      "x": 82,
+      "y": 415,
+      "w": 544,
+      "h": 145,
+      "title": "Micrófono",
+      "body": "registra",
+      "style": "clinical",
+      "role": "node"
+    }
+  ],
+  "edges": [
+    {
+      "id": "flow_1",
+      "from": "stage_1",
+      "to": "stage_2",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "elbow"
+    },
+    {
+      "id": "flow_2",
+      "from": "stage_2",
+      "to": "stage_3",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "elbow"
+    },
+    {
+      "id": "flow_3",
+      "from": "stage_3",
+      "to": "stage_4",
+      "semantic": "",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "kind": "elbow"
+    },
+    {
+      "id": "flow_4",
+      "from": "stage_4",
+      "to": "stage_5",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "elbow"
+    }
+  ]
+}

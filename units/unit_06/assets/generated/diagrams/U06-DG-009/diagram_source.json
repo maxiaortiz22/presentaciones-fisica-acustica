@@ -1,0 +1,133 @@
+{
+  "id": "U06-DG-009",
+  "classification": "ecuación anotada",
+  "title": "La resonancia ideal depende de c y ℓ",
+  "template": "equation",
+  "items": [
+    {
+      "title": "f_res ≈ c / 4ℓ",
+      "body": "modelo ideal",
+      "style": "equation"
+    },
+    {
+      "title": "f_res",
+      "body": "frecuencia · Hz",
+      "style": "accent"
+    },
+    {
+      "title": "c",
+      "body": "rapidez · m/s",
+      "style": "physical"
+    },
+    {
+      "title": "ℓ",
+      "body": "longitud · m",
+      "style": "neutral"
+    },
+    {
+      "title": "≈",
+      "body": "aproximación",
+      "style": "clinical"
+    }
+  ],
+  "caption": "Ecuación anotada de resonancia de cuarto de onda.",
+  "alt": "La ecuación frecuencia de resonancia aproximadamente rapidez dividida por cuatro veces la longitud tiene cuatro llamadas separadas para los símbolos y la aproximación.",
+  "source": "Libro del curso (TEX/PDF), Unidad 6; brief y storyboard U06; elaboración propia.",
+  "footer": "Figura conceptual; no está a escala.",
+  "options": {},
+  "nodes": [
+    {
+      "id": "equation",
+      "x": 330,
+      "y": 285,
+      "w": 620,
+      "h": 125,
+      "title": "f_res ≈ c / 4ℓ",
+      "body": "modelo ideal",
+      "style": "equation",
+      "role": "equation"
+    },
+    {
+      "id": "callout_1",
+      "x": 82,
+      "y": 125,
+      "w": 260,
+      "h": 145,
+      "title": "f_res",
+      "body": "frecuencia · Hz",
+      "style": "accent",
+      "role": "callout"
+    },
+    {
+      "id": "callout_2",
+      "x": 938,
+      "y": 125,
+      "w": 270,
+      "h": 145,
+      "title": "c",
+      "body": "rapidez · m/s",
+      "style": "physical",
+      "role": "callout"
+    },
+    {
+      "id": "callout_3",
+      "x": 82,
+      "y": 445,
+      "w": 290,
+      "h": 145,
+      "title": "ℓ",
+      "body": "longitud · m",
+      "style": "neutral",
+      "role": "callout"
+    },
+    {
+      "id": "callout_4",
+      "x": 908,
+      "y": 445,
+      "w": 300,
+      "h": 145,
+      "title": "≈",
+      "body": "aproximación",
+      "style": "clinical",
+      "role": "callout"
+    }
+  ],
+  "edges": [
+    {
+      "id": "leader_1",
+      "from": "callout_1",
+      "to": "equation",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "straight"
+    },
+    {
+      "id": "leader_2",
+      "from": "callout_2",
+      "to": "equation",
+      "semantic": "",
+      "fromSide": "left",
+      "toSide": "right",
+      "kind": "straight"
+    },
+    {
+      "id": "leader_3",
+      "from": "callout_3",
+      "to": "equation",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "straight"
+    },
+    {
+      "id": "leader_4",
+      "from": "callout_4",
+      "to": "equation",
+      "semantic": "",
+      "fromSide": "left",
+      "toSide": "right",
+      "kind": "straight"
+    }
+  ]
+}

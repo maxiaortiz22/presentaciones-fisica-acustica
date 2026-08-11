@@ -1,0 +1,112 @@
+{
+  "id": "U06-DG-026B",
+  "classification": "diagrama conceptual",
+  "title": "Cinco mecanismos pueden coexistir",
+  "template": "grid",
+  "items": [
+    {
+      "title": "Radiación al CAE",
+      "body": "pared → aire",
+      "style": "physical"
+    },
+    {
+      "title": "Inercia osicular",
+      "body": "movimiento relativo",
+      "style": "neutral"
+    },
+    {
+      "title": "Inercia de fluidos",
+      "body": "movimiento relativo",
+      "style": "neutral"
+    },
+    {
+      "title": "Deformación coclear",
+      "body": "diferencia de presión",
+      "style": "accent"
+    },
+    {
+      "title": "Tejidos blandos",
+      "body": "transmisión",
+      "style": "physical"
+    },
+    {
+      "title": "Respuesta coclear",
+      "body": "suma condicionada",
+      "style": "clinical"
+    }
+  ],
+  "caption": "Detalle modular de las contribuciones de conducción ósea.",
+  "alt": "Cinco celdas describen mecanismos distintos y una sexta recuerda que la respuesta depende de su combinación.",
+  "source": "Libro del curso, sección de conducción ósea; Stenfelt (revisión citada en el capítulo); elaboración propia.",
+  "footer": "Figura conceptual; no está a escala.",
+  "options": {},
+  "nodes": [
+    {
+      "id": "cell_1",
+      "x": 82,
+      "y": 165,
+      "w": 348.6666666666667,
+      "h": 190,
+      "title": "Radiación al CAE",
+      "body": "pared → aire",
+      "style": "physical",
+      "role": "node"
+    },
+    {
+      "id": "cell_2",
+      "x": 465.6666666666667,
+      "y": 165,
+      "w": 348.6666666666667,
+      "h": 190,
+      "title": "Inercia osicular",
+      "body": "movimiento relativo",
+      "style": "neutral",
+      "role": "node"
+    },
+    {
+      "id": "cell_3",
+      "x": 849.3333333333334,
+      "y": 165,
+      "w": 348.6666666666667,
+      "h": 190,
+      "title": "Inercia de fluidos",
+      "body": "movimiento relativo",
+      "style": "neutral",
+      "role": "node"
+    },
+    {
+      "id": "cell_4",
+      "x": 82,
+      "y": 385,
+      "w": 348.6666666666667,
+      "h": 190,
+      "title": "Deformación coclear",
+      "body": "diferencia de presión",
+      "style": "accent",
+      "role": "node"
+    },
+    {
+      "id": "cell_5",
+      "x": 465.6666666666667,
+      "y": 385,
+      "w": 348.6666666666667,
+      "h": 190,
+      "title": "Tejidos blandos",
+      "body": "transmisión",
+      "style": "physical",
+      "role": "node"
+    },
+    {
+      "id": "cell_6",
+      "x": 849.3333333333334,
+      "y": 385,
+      "w": 348.6666666666667,
+      "h": 190,
+      "title": "Respuesta coclear",
+      "body": "suma condicionada",
+      "style": "clinical",
+      "role": "node"
+    }
+  ],
+  "edges": []
+}

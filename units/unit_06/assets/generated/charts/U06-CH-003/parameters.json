@@ -1,0 +1,10 @@
+{
+  "position_axis": "s/L, 0=base, 1=ápex",
+  "model": "envolvente gaussiana asimétrica por tramos",
+  "conceptual": true,
+  "not_to_scale": true,
+  "scale": "ambos ejes lineales en dB relativos",
+  "soft_transition_center_dB": 25.0,
+  "softness_dB": 7.0,
+  "high_level_slope_target": 0.35
+}

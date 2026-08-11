@@ -1,0 +1,212 @@
+{
+  "id": "U06-DG-024",
+  "classification": "diagrama conceptual",
+  "title": "Las vías aérea y ósea convergen en la cóclea",
+  "template": "paths",
+  "items": [
+    [
+      {
+        "title": "Aire",
+        "body": "entrada",
+        "style": "physical"
+      },
+      {
+        "title": "CAE",
+        "body": "presión",
+        "style": "physical"
+      },
+      {
+        "title": "Tímpano",
+        "body": "vibra",
+        "style": "accent"
+      },
+      {
+        "title": "Osículos",
+        "body": "transfiere",
+        "style": "accent"
+      }
+    ],
+    [
+      {
+        "title": "Cráneo",
+        "body": "vibra",
+        "style": "neutral"
+      },
+      {
+        "title": "CAE + oído medio",
+        "body": "participan",
+        "style": "neutral"
+      },
+      {
+        "title": "Fluidos",
+        "body": "se movilizan",
+        "style": "clinical"
+      }
+    ],
+    {
+      "title": "Cóclea",
+      "body": "destino común",
+      "style": "clinical"
+    }
+  ],
+  "caption": "Comparación de rutas aérea y ósea con convergencia coclear.",
+  "alt": "Dos corredores separados muestran la vía aérea y la vía ósea, que convergen en una misma cóclea.",
+  "source": "Libro del curso, sección de conducción ósea; Stenfelt (revisión citada en el capítulo); elaboración propia.",
+  "footer": "Rutas conceptuales; la vía ósea no es un bypass único.",
+  "options": {},
+  "nodes": [
+    {
+      "id": "target",
+      "x": 995,
+      "y": 280,
+      "w": 205,
+      "h": 160,
+      "title": "Cóclea",
+      "body": "destino común",
+      "style": "clinical",
+      "role": "node"
+    },
+    {
+      "id": "air_1",
+      "x": 82,
+      "y": 150,
+      "w": 197.5,
+      "h": 150,
+      "title": "Aire",
+      "body": "entrada",
+      "style": "physical",
+      "role": "node"
+    },
+    {
+      "id": "air_2",
+      "x": 299.5,
+      "y": 150,
+      "w": 197.5,
+      "h": 150,
+      "title": "CAE",
+      "body": "presión",
+      "style": "physical",
+      "role": "node"
+    },
+    {
+      "id": "air_3",
+      "x": 517,
+      "y": 150,
+      "w": 197.5,
+      "h": 150,
+      "title": "Tímpano",
+      "body": "vibra",
+      "style": "accent",
+      "role": "node"
+    },
+    {
+      "id": "air_4",
+      "x": 734.5,
+      "y": 150,
+      "w": 197.5,
+      "h": 150,
+      "title": "Osículos",
+      "body": "transfiere",
+      "style": "accent",
+      "role": "node"
+    },
+    {
+      "id": "bone_1",
+      "x": 82,
+      "y": 435,
+      "w": 270,
+      "h": 150,
+      "title": "Cráneo",
+      "body": "vibra",
+      "style": "neutral",
+      "role": "node"
+    },
+    {
+      "id": "bone_2",
+      "x": 372,
+      "y": 435,
+      "w": 270,
+      "h": 150,
+      "title": "CAE + oído medio",
+      "body": "participan",
+      "style": "neutral",
+      "role": "node"
+    },
+    {
+      "id": "bone_3",
+      "x": 662,
+      "y": 435,
+      "w": 270,
+      "h": 150,
+      "title": "Fluidos",
+      "body": "se movilizan",
+      "style": "clinical",
+      "role": "node"
+    }
+  ],
+  "edges": [
+    {
+      "id": "air_edge_1",
+      "from": "air_1",
+      "to": "air_2",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "elbow"
+    },
+    {
+      "id": "air_edge_2",
+      "from": "air_2",
+      "to": "air_3",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "elbow"
+    },
+    {
+      "id": "air_edge_3",
+      "from": "air_3",
+      "to": "air_4",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "elbow"
+    },
+    {
+      "id": "air_target",
+      "from": "air_4",
+      "to": "target",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "elbow"
+    },
+    {
+      "id": "bone_edge_1",
+      "from": "bone_1",
+      "to": "bone_2",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "elbow"
+    },
+    {
+      "id": "bone_edge_2",
+      "from": "bone_2",
+      "to": "bone_3",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "elbow"
+    },
+    {
+      "id": "bone_target",
+      "from": "bone_3",
+      "to": "target",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "elbow"
+    }
+  ]
+}

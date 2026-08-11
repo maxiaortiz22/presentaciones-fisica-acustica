@@ -1,0 +1,108 @@
+{
+  "id": "U06-DG-059",
+  "classification": "esquema mixto",
+  "title": "El nivel modifica el patrón periférico",
+  "template": "flow",
+  "items": [
+    {
+      "title": "Nivel de entrada",
+      "body": "menor / mayor",
+      "style": "physical"
+    },
+    {
+      "title": "Extensión coclear",
+      "body": "se amplía",
+      "style": "accent"
+    },
+    {
+      "title": "Actividad poblacional",
+      "body": "abarca más fibras",
+      "style": "neutral"
+    },
+    {
+      "title": "Sonoridad",
+      "body": "no la determina",
+      "style": "clinical"
+    }
+  ],
+  "caption": "Puente conceptual entre U06-CH-006 y la percepción.",
+  "alt": "Cuatro cajas conectan nivel de entrada, extensión coclear, actividad poblacional y sonoridad, con una advertencia de no equivalencia.",
+  "source": "Libro del curso, secciones 6.7–6.9; Fettiplace (2017); elaboración conceptual propia.",
+  "footer": "Insertar U06-CH-006 en el layout final; este master conserva las relaciones editables.",
+  "options": {},
+  "nodes": [
+    {
+      "id": "stage_1",
+      "x": 82,
+      "y": 255,
+      "w": 255,
+      "h": 175,
+      "title": "Nivel de entrada",
+      "body": "menor / mayor",
+      "style": "physical",
+      "role": "node"
+    },
+    {
+      "id": "stage_2",
+      "x": 369,
+      "y": 255,
+      "w": 255,
+      "h": 175,
+      "title": "Extensión coclear",
+      "body": "se amplía",
+      "style": "accent",
+      "role": "node"
+    },
+    {
+      "id": "stage_3",
+      "x": 656,
+      "y": 255,
+      "w": 255,
+      "h": 175,
+      "title": "Actividad poblacional",
+      "body": "abarca más fibras",
+      "style": "neutral",
+      "role": "node"
+    },
+    {
+      "id": "stage_4",
+      "x": 943,
+      "y": 255,
+      "w": 255,
+      "h": 175,
+      "title": "Sonoridad",
+      "body": "no la determina",
+      "style": "clinical",
+      "role": "node"
+    }
+  ],
+  "edges": [
+    {
+      "id": "flow_1",
+      "from": "stage_1",
+      "to": "stage_2",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "elbow"
+    },
+    {
+      "id": "flow_2",
+      "from": "stage_2",
+      "to": "stage_3",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "elbow"
+    },
+    {
+      "id": "flow_3",
+      "from": "stage_3",
+      "to": "stage_4",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "elbow"
+    }
+  ]
+}

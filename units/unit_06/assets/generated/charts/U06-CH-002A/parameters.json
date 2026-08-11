@@ -1,0 +1,13 @@
+{
+  "position_axis": "s/L, 0=base, 1=ápex",
+  "model": "envolvente gaussiana asimétrica por tramos",
+  "conceptual": true,
+  "not_to_scale": true,
+  "scale": "x e y lineales; y común con U06-CH-002B",
+  "peak": 0.56,
+  "weak_amplitude": 0.72,
+  "weak_widths": [
+    0.105,
+    0.045
+  ]
+}

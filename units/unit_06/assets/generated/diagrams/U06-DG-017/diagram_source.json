@@ -1,0 +1,83 @@
+{
+  "id": "U06-DG-017",
+  "classification": "diagrama de proceso",
+  "title": "Dos mecanismos preparan la entrada coclear",
+  "template": "flow",
+  "items": [
+    {
+      "title": "Relación de áreas",
+      "body": "concentra presión",
+      "style": "accent"
+    },
+    {
+      "title": "Palanca osicular",
+      "body": "intercambia fuerza y movimiento",
+      "style": "neutral"
+    },
+    {
+      "title": "Ventana oval",
+      "body": "entrada al fluido",
+      "style": "clinical"
+    }
+  ],
+  "caption": "Secuencia conceptual de área, palanca e ingreso coclear.",
+  "alt": "Tres etapas conectadas muestran relación de áreas, palanca osicular y ventana oval.",
+  "source": "Libro del curso (TEX/PDF), Unidad 6; brief y storyboard U06; elaboración propia.",
+  "footer": "Figura conceptual; no está a escala.",
+  "options": {},
+  "nodes": [
+    {
+      "id": "stage_1",
+      "x": 82,
+      "y": 255,
+      "w": 350.6666666666667,
+      "h": 175,
+      "title": "Relación de áreas",
+      "body": "concentra presión",
+      "style": "accent",
+      "role": "node"
+    },
+    {
+      "id": "stage_2",
+      "x": 464.6666666666667,
+      "y": 255,
+      "w": 350.6666666666667,
+      "h": 175,
+      "title": "Palanca osicular",
+      "body": "intercambia fuerza y movimiento",
+      "style": "neutral",
+      "role": "node"
+    },
+    {
+      "id": "stage_3",
+      "x": 847.3333333333334,
+      "y": 255,
+      "w": 350.6666666666667,
+      "h": 175,
+      "title": "Ventana oval",
+      "body": "entrada al fluido",
+      "style": "clinical",
+      "role": "node"
+    }
+  ],
+  "edges": [
+    {
+      "id": "flow_1",
+      "from": "stage_1",
+      "to": "stage_2",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "elbow"
+    },
+    {
+      "id": "flow_2",
+      "from": "stage_2",
+      "to": "stage_3",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "elbow"
+    }
+  ]
+}

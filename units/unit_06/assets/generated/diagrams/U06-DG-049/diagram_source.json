@@ -1,0 +1,64 @@
+{
+  "id": "U06-DG-049",
+  "classification": "ecuación anotada",
+  "title": "El potencial endococlear exige una referencia",
+  "template": "layers",
+  "items": [
+    {
+      "title": "Endolinfa",
+      "body": "positiva respecto de V_ref",
+      "style": "accent"
+    },
+    {
+      "title": "Célula ciliada",
+      "body": "interior celular",
+      "style": "clinical"
+    },
+    {
+      "title": "Perilinfa / referencia",
+      "body": "V_ref",
+      "style": "physical"
+    }
+  ],
+  "caption": "Ubicación cualitativa del potencial endococlear y su referencia.",
+  "alt": "Tres regiones apiladas ubican endolinfa, célula ciliada y perilinfa o referencia; se indica un gradiente cualitativo.",
+  "source": "Libro del curso, secciones 6.7–6.9; Fettiplace (2017); elaboración conceptual propia.",
+  "footer": "V_endolinfa − V_ref: relación cualitativa; sin cifra universal.",
+  "options": {},
+  "nodes": [
+    {
+      "id": "layer_1",
+      "x": 180,
+      "y": 134,
+      "w": 920,
+      "h": 145.33333333333334,
+      "title": "Endolinfa",
+      "body": "positiva respecto de V_ref",
+      "style": "accent",
+      "role": "node"
+    },
+    {
+      "id": "layer_2",
+      "x": 180,
+      "y": 289.33333333333337,
+      "w": 920,
+      "h": 145.33333333333334,
+      "title": "Célula ciliada",
+      "body": "interior celular",
+      "style": "clinical",
+      "role": "node"
+    },
+    {
+      "id": "layer_3",
+      "x": 180,
+      "y": 444.6666666666667,
+      "w": 920,
+      "h": 145.33333333333334,
+      "title": "Perilinfa / referencia",
+      "body": "V_ref",
+      "style": "physical",
+      "role": "node"
+    }
+  ],
+  "edges": []
+}

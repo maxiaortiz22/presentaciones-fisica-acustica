@@ -1,0 +1,108 @@
+{
+  "id": "U06-DG-030",
+  "classification": "diagrama de proceso",
+  "title": "Las ventanas permiten desplazar el fluido",
+  "template": "flow",
+  "items": [
+    {
+      "title": "Estribo",
+      "body": "empuja ventana oval",
+      "style": "accent"
+    },
+    {
+      "title": "Fluido coclear",
+      "body": "se desplaza",
+      "style": "physical"
+    },
+    {
+      "title": "Ventana",
+      "body": "redonda · opuesta",
+      "style": "clinical"
+    },
+    {
+      "title": "Frontera",
+      "body": "cambia la respuesta",
+      "style": "neutral"
+    }
+  ],
+  "caption": "Acción complementaria de las ventanas oval y redonda.",
+  "alt": "Cuatro etapas muestran el estribo, el desplazamiento del fluido, la respuesta opuesta de la ventana redonda y el efecto de cambiar una frontera.",
+  "source": "Libro del curso, secciones 6.7–6.9; Fettiplace (2017); elaboración conceptual propia.",
+  "footer": "Sentidos alternantes; no representa circulación completa del fluido.",
+  "options": {},
+  "nodes": [
+    {
+      "id": "stage_1",
+      "x": 82,
+      "y": 255,
+      "w": 255,
+      "h": 175,
+      "title": "Estribo",
+      "body": "empuja ventana oval",
+      "style": "accent",
+      "role": "node"
+    },
+    {
+      "id": "stage_2",
+      "x": 369,
+      "y": 255,
+      "w": 255,
+      "h": 175,
+      "title": "Fluido coclear",
+      "body": "se desplaza",
+      "style": "physical",
+      "role": "node"
+    },
+    {
+      "id": "stage_3",
+      "x": 656,
+      "y": 255,
+      "w": 255,
+      "h": 175,
+      "title": "Ventana",
+      "body": "redonda · opuesta",
+      "style": "clinical",
+      "role": "node"
+    },
+    {
+      "id": "stage_4",
+      "x": 943,
+      "y": 255,
+      "w": 255,
+      "h": 175,
+      "title": "Frontera",
+      "body": "cambia la respuesta",
+      "style": "neutral",
+      "role": "node"
+    }
+  ],
+  "edges": [
+    {
+      "id": "flow_1",
+      "from": "stage_1",
+      "to": "stage_2",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "elbow"
+    },
+    {
+      "id": "flow_2",
+      "from": "stage_2",
+      "to": "stage_3",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "elbow"
+    },
+    {
+      "id": "flow_3",
+      "from": "stage_3",
+      "to": "stage_4",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "elbow"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "id": "U06-DG-003",
+  "classification": "diagrama conceptual",
+  "title": "Cada magnitud exige su unidad",
+  "template": "grid",
+  "items": [
+    {
+      "title": "Presión",
+      "body": "Pa",
+      "style": "physical"
+    },
+    {
+      "title": "Fuerza",
+      "body": "N",
+      "style": "accent"
+    },
+    {
+      "title": "Desplazamiento",
+      "body": "m",
+      "style": "neutral"
+    },
+    {
+      "title": "Potencial",
+      "body": "V o mV",
+      "style": "clinical"
+    }
+  ],
+  "caption": "Matriz de magnitudes y unidades usadas en la unidad.",
+  "alt": "Cuatro celdas asocian presión con pascales, fuerza con newtons, desplazamiento con metros y potencial con voltios o milivoltios.",
+  "source": "Libro del curso (TEX/PDF), Unidad 6; brief y storyboard U06; elaboración propia.",
+  "footer": "Clasificación de actividad; magnitudes distintas no son intercambiables.",
+  "options": {},
+  "nodes": [
+    {
+      "id": "cell_1",
+      "x": 82,
+      "y": 165,
+      "w": 540.5,
+      "h": 190,
+      "title": "Presión",
+      "body": "Pa",
+      "style": "physical",
+      "role": "node"
+    },
+    {
+      "id": "cell_2",
+      "x": 657.5,
+      "y": 165,
+      "w": 540.5,
+      "h": 190,
+      "title": "Fuerza",
+      "body": "N",
+      "style": "accent",
+      "role": "node"
+    },
+    {
+      "id": "cell_3",
+      "x": 82,
+      "y": 385,
+      "w": 540.5,
+      "h": 190,
+      "title": "Desplazamiento",
+      "body": "m",
+      "style": "neutral",
+      "role": "node"
+    },
+    {
+      "id": "cell_4",
+      "x": 657.5,
+      "y": 385,
+      "w": 540.5,
+      "h": 190,
+      "title": "Potencial",
+      "body": "V o mV",
+      "style": "clinical",
+      "role": "node"
+    }
+  ],
+  "edges": []
+}

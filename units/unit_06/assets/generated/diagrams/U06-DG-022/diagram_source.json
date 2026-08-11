@@ -1,0 +1,48 @@
+{
+  "id": "U06-DG-022",
+  "classification": "ecuación anotada",
+  "title": "Una razón en dB no es automáticamente dB SPL",
+  "template": "compare",
+  "items": [
+    {
+      "title": "Razón entre presiones",
+      "body": "20 log₁₀(p₂/p₁)\nreferencia: p₁",
+      "style": "accent"
+    },
+    {
+      "title": "Nivel de presión sonora",
+      "body": "20 log₁₀(p_rms/p_ref)\np_ref declarado",
+      "style": "physical"
+    }
+  ],
+  "caption": "Comparación de una razón de presiones y un nivel referido.",
+  "alt": "Dos columnas muestran las ecuaciones veinte logaritmo de p dos sobre p uno y veinte logaritmo de p rms sobre una presión de referencia declarada.",
+  "source": "Libro del curso (TEX/PDF), Unidad 6; brief y storyboard U06; elaboración propia.",
+  "footer": "Los cocientes son adimensionales; declarar siempre la referencia.",
+  "options": {},
+  "nodes": [
+    {
+      "id": "panel_left",
+      "x": 92,
+      "y": 180,
+      "w": 520,
+      "h": 350,
+      "title": "Razón entre presiones",
+      "body": "20 log₁₀(p₂/p₁)\nreferencia: p₁",
+      "style": "accent",
+      "role": "node"
+    },
+    {
+      "id": "panel_right",
+      "x": 668,
+      "y": 180,
+      "w": 520,
+      "h": 350,
+      "title": "Nivel de presión sonora",
+      "body": "20 log₁₀(p_rms/p_ref)\np_ref declarado",
+      "style": "physical",
+      "role": "node"
+    }
+  ],
+  "edges": []
+}

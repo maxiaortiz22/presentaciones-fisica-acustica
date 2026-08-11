@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+<defs><marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0,0 L10,4 L0,8 Z" fill="#3D3D3D"/></marker></defs>
+<rect width="1280" height="720" fill="white"/>
+<rect x="72" y="27" width="390" height="6" fill="#4D1434"/><rect x="472" y="27" width="390" height="6" fill="#903163"/><rect x="872" y="27" width="336" height="6" fill="#969FA7"/>
+<text x="72" y="82" font-family="Calibri,Arial,sans-serif" font-size="40" font-weight="700" fill="#3D3D3D">Dos mecanismos preparan la entrada coclear</text>
+<polyline id="flow_1" points="432.6666666666667,342.5 448.6666666666667,342.5 448.6666666666667,342.5 464.6666666666667,342.5" fill="none" stroke="#3D3D3D" stroke-width="3" marker-end="url(#arrow)"/>
+<polyline id="flow_2" points="815.3333333333334,342.5 831.3333333333334,342.5 831.3333333333334,342.5 847.3333333333334,342.5" fill="none" stroke="#3D3D3D" stroke-width="3" marker-end="url(#arrow)"/>
+<rect id="stage_1" x="82" y="255" width="350.6666666666667" height="175" rx="10" fill="#F3E8EE" stroke="#4D1434" stroke-width="2"/>
+<text x="257.33333333333337" y="302" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#4D1434">Relación de áreas</text>
+<text x="257.33333333333337" y="347" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">concentra presión</text>
+<rect id="stage_2" x="464.6666666666667" y="255" width="350.6666666666667" height="175" rx="10" fill="#F7F6F2" stroke="#969FA7" stroke-width="2"/>
+<text x="640" y="302" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#3D3D3D">Palanca osicular</text>
+<text x="640" y="347" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">intercambia fuerza y</text>
+<text x="640" y="379" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">movimiento</text>
+<rect id="stage_3" x="847.3333333333334" y="255" width="350.6666666666667" height="175" rx="10" fill="#F8EDE2" stroke="#9F541A" stroke-width="2"/>
+<text x="1022.6666666666667" y="302" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#9F541A">Ventana oval</text>
+<text x="1022.6666666666667" y="347" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">entrada al fluido</text>
+<text x="640" y="628" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="22" fill="#3D3D3D">Figura conceptual; no está a escala.</text>
+<text x="72" y="690" font-family="Calibri,Arial,sans-serif" font-size="16" fill="#969FA7">Libro del curso (TEX/PDF), Unidad 6; brief y storyboard U06; elaboración propia.</text>
+</svg>

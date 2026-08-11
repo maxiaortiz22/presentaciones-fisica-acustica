@@ -1,0 +1,64 @@
+{
+  "id": "U06-DG-033",
+  "classification": "diagrama conceptual",
+  "title": "Cada compartimento se asocia con un fluido",
+  "template": "layers",
+  "items": [
+    {
+      "title": "Rampa vestibular",
+      "body": "perilinfa",
+      "style": "physical"
+    },
+    {
+      "title": "Conducto coclear",
+      "body": "endolinfa",
+      "style": "clinical"
+    },
+    {
+      "title": "Rampa timpánica",
+      "body": "perilinfa",
+      "style": "physical"
+    }
+  ],
+  "caption": "Mapa de compartimentos y fluidos cocleares.",
+  "alt": "Tres franjas horizontales asocian rampa vestibular y timpánica con perilinfa, y conducto coclear con endolinfa.",
+  "source": "Libro del curso, secciones 6.7–6.9; Fettiplace (2017); elaboración conceptual propia.",
+  "footer": "Corte conceptual; patrones y rótulos acompañan el color.",
+  "options": {},
+  "nodes": [
+    {
+      "id": "layer_1",
+      "x": 180,
+      "y": 134,
+      "w": 920,
+      "h": 145.33333333333334,
+      "title": "Rampa vestibular",
+      "body": "perilinfa",
+      "style": "physical",
+      "role": "node"
+    },
+    {
+      "id": "layer_2",
+      "x": 180,
+      "y": 289.33333333333337,
+      "w": 920,
+      "h": 145.33333333333334,
+      "title": "Conducto coclear",
+      "body": "endolinfa",
+      "style": "clinical",
+      "role": "node"
+    },
+    {
+      "id": "layer_3",
+      "x": 180,
+      "y": 444.6666666666667,
+      "w": 920,
+      "h": 145.33333333333334,
+      "title": "Rampa timpánica",
+      "body": "perilinfa",
+      "style": "physical",
+      "role": "node"
+    }
+  ],
+  "edges": []
+}

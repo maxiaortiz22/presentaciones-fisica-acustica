@@ -1,0 +1,46 @@
+{
+  "asset_id": "U06-DG-055",
+  "classification": "diagrama de proceso",
+  "canvas_px": [
+    1280,
+    720
+  ],
+  "slide_ratio": "16:9",
+  "font_floor": {
+    "node_title_pt": 24,
+    "node_body_pt": 22.5,
+    "connector_label_pt": 20.25,
+    "equation_pt": 34.5
+  },
+  "padding_px": 20,
+  "padding_inches": 0.208,
+  "not_to_scale": true,
+  "object_ids": [
+    "stage_1",
+    "stage_2",
+    "stage_3",
+    "stage_4",
+    "stage_5"
+  ],
+  "connector_ids": [
+    "flow_1",
+    "flow_2",
+    "flow_3",
+    "flow_4"
+  ],
+  "checks": {
+    "text_overflow": 0,
+    "text_clipping": 0,
+    "connector_over_text": 0,
+    "label_on_line": 0,
+    "arrowhead_over_text": 0,
+    "objects_outside_canvas": 0
+  },
+  "issues": [],
+  "critical_issues": 0,
+  "major_issues": 0,
+  "status": "approved",
+  "iterations": 2,
+  "individual_render": true,
+  "full_slide_render": true
+}

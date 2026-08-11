@@ -1,0 +1,48 @@
+{
+  "id": "U06-DG-019",
+  "classification": "esquema mixto",
+  "title": "La palanca intercambia fuerza y desplazamiento",
+  "template": "compare",
+  "items": [
+    {
+      "title": "Brazo de entrada",
+      "body": "mayor desplazamiento\nmenor fuerza",
+      "style": "physical"
+    },
+    {
+      "title": "Brazo de salida",
+      "body": "menor desplazamiento\nmayor fuerza",
+      "style": "clinical"
+    }
+  ],
+  "caption": "Esquema funcional de una palanca con intercambio entre fuerza y desplazamiento.",
+  "alt": "Dos paneles a ambos lados de un apoyo conceptual contrastan el brazo de entrada y el de salida.",
+  "source": "Libro del curso (TEX/PDF), Unidad 6; brief y storyboard U06; elaboración propia.",
+  "footer": "Esquema mecánico; no está a escala y no fija una razón universal.",
+  "options": {},
+  "nodes": [
+    {
+      "id": "panel_left",
+      "x": 92,
+      "y": 180,
+      "w": 520,
+      "h": 350,
+      "title": "Brazo de entrada",
+      "body": "mayor desplazamiento\nmenor fuerza",
+      "style": "physical",
+      "role": "node"
+    },
+    {
+      "id": "panel_right",
+      "x": 668,
+      "y": 180,
+      "w": 520,
+      "h": 350,
+      "title": "Brazo de salida",
+      "body": "menor desplazamiento\nmayor fuerza",
+      "style": "clinical",
+      "role": "node"
+    }
+  ],
+  "edges": []
+}

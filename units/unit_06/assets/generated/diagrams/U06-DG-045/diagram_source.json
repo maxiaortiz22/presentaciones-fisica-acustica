@@ -1,0 +1,108 @@
+{
+  "id": "U06-DG-045",
+  "classification": "diagrama de proceso",
+  "title": "La CCI convierte movimiento en señal aferente",
+  "template": "flow",
+  "items": [
+    {
+      "title": "Haz de CCI",
+      "body": "se deflecta",
+      "style": "physical"
+    },
+    {
+      "title": "Potencial receptor",
+      "body": "graduado",
+      "style": "accent"
+    },
+    {
+      "title": "Glutamato",
+      "body": "sinapsis",
+      "style": "clinical"
+    },
+    {
+      "title": "Fibra aferente",
+      "body": "potencial de acción",
+      "style": "clinical"
+    }
+  ],
+  "caption": "Cadena desde la deflexión de la célula interna hasta la fibra aferente.",
+  "alt": "Cuatro etapas conectan haz de célula interna, potencial receptor, liberación de glutamato y potencial de acción en la fibra.",
+  "source": "Libro del curso, secciones 6.7–6.9; Fettiplace (2017); elaboración conceptual propia.",
+  "footer": "Figura conceptual; no está a escala.",
+  "options": {},
+  "nodes": [
+    {
+      "id": "stage_1",
+      "x": 82,
+      "y": 255,
+      "w": 255,
+      "h": 175,
+      "title": "Haz de CCI",
+      "body": "se deflecta",
+      "style": "physical",
+      "role": "node"
+    },
+    {
+      "id": "stage_2",
+      "x": 369,
+      "y": 255,
+      "w": 255,
+      "h": 175,
+      "title": "Potencial receptor",
+      "body": "graduado",
+      "style": "accent",
+      "role": "node"
+    },
+    {
+      "id": "stage_3",
+      "x": 656,
+      "y": 255,
+      "w": 255,
+      "h": 175,
+      "title": "Glutamato",
+      "body": "sinapsis",
+      "style": "clinical",
+      "role": "node"
+    },
+    {
+      "id": "stage_4",
+      "x": 943,
+      "y": 255,
+      "w": 255,
+      "h": 175,
+      "title": "Fibra aferente",
+      "body": "potencial de acción",
+      "style": "clinical",
+      "role": "node"
+    }
+  ],
+  "edges": [
+    {
+      "id": "flow_1",
+      "from": "stage_1",
+      "to": "stage_2",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "elbow"
+    },
+    {
+      "id": "flow_2",
+      "from": "stage_2",
+      "to": "stage_3",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "elbow"
+    },
+    {
+      "id": "flow_3",
+      "from": "stage_3",
+      "to": "stage_4",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "elbow"
+    }
+  ]
+}

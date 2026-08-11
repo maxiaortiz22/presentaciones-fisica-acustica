@@ -1,0 +1,28 @@
+{
+  "asset_id": "U06-CH-002B",
+  "classification": "gráfico cuantitativo",
+  "canvas_px": [
+    2560,
+    1440
+  ],
+  "slide_ratio": "16:9",
+  "scale": "x e y lineales; y común con U06-CH-002A",
+  "conceptual": true,
+  "not_to_scale": true,
+  "font_floor_pt": {
+    "axis_label": 20,
+    "ticks_legend": 18,
+    "annotation": 22
+  },
+  "checks": {
+    "same_peak_position": true,
+    "higher_level_wider": true,
+    "weak_fwhm": 0.174,
+    "higher_fwhm": 0.34
+  },
+  "critical_issues": 0,
+  "major_issues": 0,
+  "status": "approved",
+  "iterations": 2,
+  "final_layout_check": "render completo 2560×1440 equivalente a 13,333×7,5 in"
+}

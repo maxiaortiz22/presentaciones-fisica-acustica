@@ -1,0 +1,158 @@
+{
+  "id": "U06-DG-025",
+  "classification": "diagrama conceptual",
+  "title": "La conducción ósea reúne varios mecanismos",
+  "template": "branch",
+  "items": [
+    {
+      "title": "Respuesta coclear",
+      "body": "resultado combinado",
+      "style": "clinical"
+    },
+    {
+      "title": "Radiación",
+      "body": "al CAE",
+      "style": "physical"
+    },
+    {
+      "title": "Inercia",
+      "body": "osicular",
+      "style": "neutral"
+    },
+    {
+      "title": "Inercia",
+      "body": "de fluidos",
+      "style": "neutral"
+    },
+    {
+      "title": "Cambio de forma",
+      "body": "coclear",
+      "style": "accent"
+    },
+    {
+      "title": "Tejidos",
+      "body": "blandos",
+      "style": "physical"
+    }
+  ],
+  "caption": "Mapa no jerárquico de cinco contribuciones a la conducción ósea.",
+  "alt": "Cinco mecanismos convergen en una respuesta coclear sin indicar predominio universal.",
+  "source": "Libro del curso, sección de conducción ósea; Stenfelt (revisión citada en el capítulo); elaboración propia.",
+  "footer": "Figura conceptual; no está a escala.",
+  "options": {},
+  "nodes": [
+    {
+      "id": "central",
+      "x": 390,
+      "y": 145,
+      "w": 500,
+      "h": 135,
+      "title": "Respuesta coclear",
+      "body": "resultado combinado",
+      "style": "clinical",
+      "role": "node"
+    },
+    {
+      "id": "branch_1",
+      "x": 82,
+      "y": 380,
+      "w": 205.6,
+      "h": 190,
+      "title": "Radiación",
+      "body": "al CAE",
+      "style": "physical",
+      "role": "node"
+    },
+    {
+      "id": "branch_2",
+      "x": 309.6,
+      "y": 380,
+      "w": 205.6,
+      "h": 190,
+      "title": "Inercia",
+      "body": "osicular",
+      "style": "neutral",
+      "role": "node"
+    },
+    {
+      "id": "branch_3",
+      "x": 537.2,
+      "y": 380,
+      "w": 205.6,
+      "h": 190,
+      "title": "Inercia",
+      "body": "de fluidos",
+      "style": "neutral",
+      "role": "node"
+    },
+    {
+      "id": "branch_4",
+      "x": 764.8,
+      "y": 380,
+      "w": 205.6,
+      "h": 190,
+      "title": "Cambio de forma",
+      "body": "coclear",
+      "style": "accent",
+      "role": "node"
+    },
+    {
+      "id": "branch_5",
+      "x": 992.4,
+      "y": 380,
+      "w": 205.6,
+      "h": 190,
+      "title": "Tejidos",
+      "body": "blandos",
+      "style": "physical",
+      "role": "node"
+    }
+  ],
+  "edges": [
+    {
+      "id": "branch_edge_1",
+      "from": "central",
+      "to": "branch_1",
+      "semantic": "",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "kind": "elbow"
+    },
+    {
+      "id": "branch_edge_2",
+      "from": "central",
+      "to": "branch_2",
+      "semantic": "",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "kind": "elbow"
+    },
+    {
+      "id": "branch_edge_3",
+      "from": "central",
+      "to": "branch_3",
+      "semantic": "",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "kind": "elbow"
+    },
+    {
+      "id": "branch_edge_4",
+      "from": "central",
+      "to": "branch_4",
+      "semantic": "",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "kind": "elbow"
+    },
+    {
+      "id": "branch_edge_5",
+      "from": "central",
+      "to": "branch_5",
+      "semantic": "",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "kind": "elbow"
+    }
+  ]
+}

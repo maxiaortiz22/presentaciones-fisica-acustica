@@ -1,0 +1,80 @@
+{
+  "id": "U06-DG-048",
+  "classification": "diagrama conceptual",
+  "title": "Cuatro potenciales pertenecen a lugares distintos",
+  "template": "grid",
+  "items": [
+    {
+      "title": "Endococlear",
+      "body": "endolinfa\ngradiente",
+      "style": "physical"
+    },
+    {
+      "title": "De reposo",
+      "body": "interior celular\nreferido afuera",
+      "style": "neutral"
+    },
+    {
+      "title": "Receptor",
+      "body": "célula ciliada\ngraduado",
+      "style": "accent"
+    },
+    {
+      "title": "De acción",
+      "body": "fibra aferente\nimpulsos",
+      "style": "clinical"
+    }
+  ],
+  "caption": "Mapa de ubicación y función de cuatro potenciales.",
+  "alt": "Cuatro celdas distinguen potencial endococlear, de reposo, receptor y de acción por ubicación y tipo de señal.",
+  "source": "Libro del curso, secciones 6.7–6.9; Fettiplace (2017); elaboración conceptual propia.",
+  "footer": "Figura conceptual; no está a escala.",
+  "options": {},
+  "nodes": [
+    {
+      "id": "cell_1",
+      "x": 82,
+      "y": 165,
+      "w": 540.5,
+      "h": 190,
+      "title": "Endococlear",
+      "body": "endolinfa\ngradiente",
+      "style": "physical",
+      "role": "node"
+    },
+    {
+      "id": "cell_2",
+      "x": 657.5,
+      "y": 165,
+      "w": 540.5,
+      "h": 190,
+      "title": "De reposo",
+      "body": "interior celular\nreferido afuera",
+      "style": "neutral",
+      "role": "node"
+    },
+    {
+      "id": "cell_3",
+      "x": 82,
+      "y": 385,
+      "w": 540.5,
+      "h": 190,
+      "title": "Receptor",
+      "body": "célula ciliada\ngraduado",
+      "style": "accent",
+      "role": "node"
+    },
+    {
+      "id": "cell_4",
+      "x": 657.5,
+      "y": 385,
+      "w": 540.5,
+      "h": 190,
+      "title": "De acción",
+      "body": "fibra aferente\nimpulsos",
+      "style": "clinical",
+      "role": "node"
+    }
+  ],
+  "edges": []
+}

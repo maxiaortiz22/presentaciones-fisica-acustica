@@ -1,0 +1,108 @@
+{
+  "id": "U06-DG-023",
+  "classification": "diagrama de proceso",
+  "title": "El reflejo modifica la transferencia después de una latencia",
+  "template": "flow",
+  "items": [
+    {
+      "title": "Estímulo",
+      "body": "entrada",
+      "style": "physical"
+    },
+    {
+      "title": "Vía refleja",
+      "body": "detección y control",
+      "style": "neutral"
+    },
+    {
+      "title": "Músculos",
+      "body": "contracción",
+      "style": "accent"
+    },
+    {
+      "title": "Oído medio",
+      "body": "impedancia cambia",
+      "style": "clinical"
+    }
+  ],
+  "caption": "Secuencia cualitativa del reflejo del oído medio.",
+  "alt": "Cuatro etapas conectadas muestran estímulo, vía refleja, músculos e impedancia del oído medio.",
+  "source": "Libro del curso (TEX/PDF), Unidad 6; brief y storyboard U06; elaboración propia.",
+  "footer": "La latencia es cualitativa; no se presenta un valor normal universal.",
+  "options": {},
+  "nodes": [
+    {
+      "id": "stage_1",
+      "x": 82,
+      "y": 255,
+      "w": 255,
+      "h": 175,
+      "title": "Estímulo",
+      "body": "entrada",
+      "style": "physical",
+      "role": "node"
+    },
+    {
+      "id": "stage_2",
+      "x": 369,
+      "y": 255,
+      "w": 255,
+      "h": 175,
+      "title": "Vía refleja",
+      "body": "detección y control",
+      "style": "neutral",
+      "role": "node"
+    },
+    {
+      "id": "stage_3",
+      "x": 656,
+      "y": 255,
+      "w": 255,
+      "h": 175,
+      "title": "Músculos",
+      "body": "contracción",
+      "style": "accent",
+      "role": "node"
+    },
+    {
+      "id": "stage_4",
+      "x": 943,
+      "y": 255,
+      "w": 255,
+      "h": 175,
+      "title": "Oído medio",
+      "body": "impedancia cambia",
+      "style": "clinical",
+      "role": "node"
+    }
+  ],
+  "edges": [
+    {
+      "id": "flow_1",
+      "from": "stage_1",
+      "to": "stage_2",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "elbow"
+    },
+    {
+      "id": "flow_2",
+      "from": "stage_2",
+      "to": "stage_3",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "elbow"
+    },
+    {
+      "id": "flow_3",
+      "from": "stage_3",
+      "to": "stage_4",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "elbow"
+    }
+  ]
+}

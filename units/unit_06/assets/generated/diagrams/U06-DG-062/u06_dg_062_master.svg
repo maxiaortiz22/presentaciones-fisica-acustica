@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+<defs><marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0,0 L10,4 L0,8 Z" fill="#3D3D3D"/></marker></defs>
+<rect width="1280" height="720" fill="white"/>
+<rect x="72" y="27" width="390" height="6" fill="#4D1434"/><rect x="472" y="27" width="390" height="6" fill="#903163"/><rect x="872" y="27" width="336" height="6" fill="#969FA7"/>
+<text x="72" y="82" font-family="Calibri,Arial,sans-serif" font-size="40" font-weight="700" fill="#3D3D3D">Caso: misma frecuencia, dos niveles</text>
+<rect id="cell_1" x="82" y="165" width="348.6666666666667" height="190" rx="10" fill="#E7F1F1" stroke="#2F7E83" stroke-width="2"/>
+<text x="256.33333333333337" y="212" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#2F7E83">Condición A</text>
+<text x="256.33333333333337" y="257" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">2 kHz · 40 dB SPL</text>
+<rect id="cell_2" x="465.6666666666667" y="165" width="348.6666666666667" height="190" rx="10" fill="#F3E8EE" stroke="#4D1434" stroke-width="2"/>
+<text x="640" y="212" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#4D1434">Condición B</text>
+<text x="640" y="257" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">2 kHz · 70 dB SPL</text>
+<rect id="cell_3" x="849.3333333333334" y="165" width="348.6666666666667" height="190" rx="10" fill="#F7F6F2" stroke="#969FA7" stroke-width="2"/>
+<text x="1023.6666666666667" y="212" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#3D3D3D">Lugar</text>
+<text x="1023.6666666666667" y="250" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#3D3D3D">característico</text>
+<text x="1023.6666666666667" y="291" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">¿cambia?</text>
+<rect id="cell_4" x="82" y="385" width="348.6666666666667" height="190" rx="10" fill="#F7F6F2" stroke="#969FA7" stroke-width="2"/>
+<text x="256.33333333333337" y="432" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#3D3D3D">Extensión</text>
+<text x="256.33333333333337" y="477" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">¿cambia?</text>
+<rect id="cell_5" x="465.6666666666667" y="385" width="348.6666666666667" height="190" rx="10" fill="#F7F6F2" stroke="#969FA7" stroke-width="2"/>
+<text x="640" y="432" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#3D3D3D">Respuesta</text>
+<text x="640" y="470" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#3D3D3D">periférica</text>
+<text x="640" y="511" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">¿cómo cambia?</text>
+<rect id="cell_6" x="849.3333333333334" y="385" width="348.6666666666667" height="190" rx="10" fill="#F8EDE2" stroke="#9F541A" stroke-width="2"/>
+<text x="1023.6666666666667" y="432" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#9F541A">Sonoridad</text>
+<text x="1023.6666666666667" y="477" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">¿qué no concluye?</text>
+<text x="640" y="628" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="22" fill="#3D3D3D">Actividad cualitativa; los niveles no se convierten en predicciones universales.</text>
+<text x="72" y="690" font-family="Calibri,Arial,sans-serif" font-size="16" fill="#969FA7">Libro del curso, secciones 6.7–6.9; Fettiplace (2017); elaboración conceptual propia.</text>
+</svg>

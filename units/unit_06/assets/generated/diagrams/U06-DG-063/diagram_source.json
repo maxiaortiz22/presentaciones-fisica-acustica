@@ -1,0 +1,158 @@
+{
+  "id": "U06-DG-063",
+  "classification": "diagrama de proceso",
+  "title": "Resolver el caso exige una cadena causal",
+  "template": "flow",
+  "items": [
+    {
+      "title": "Misma f",
+      "body": "mismo lugar aprox.",
+      "style": "physical"
+    },
+    {
+      "title": "Mayor nivel",
+      "body": "entrada",
+      "style": "accent"
+    },
+    {
+      "title": "Respuesta más amplia",
+      "body": "mecánica",
+      "style": "physical"
+    },
+    {
+      "title": "Más población",
+      "body": "más fibras activas",
+      "style": "neutral"
+    },
+    {
+      "title": "Señal neural",
+      "body": "cambia",
+      "style": "clinical"
+    },
+    {
+      "title": "Sonoridad",
+      "body": "inferencia limitada",
+      "style": "clinical"
+    }
+  ],
+  "caption": "Resolución causal acumulativa del caso de dos niveles.",
+  "alt": "Seis etapas en dos filas conectan frecuencia común, mayor nivel, respuesta más amplia, población neural y una inferencia limitada sobre sonoridad.",
+  "source": "Libro del curso, secciones 6.7–6.9; Fettiplace (2017); elaboración conceptual propia.",
+  "footer": "Figura conceptual; no está a escala.",
+  "options": {},
+  "nodes": [
+    {
+      "id": "stage_1",
+      "x": 82,
+      "y": 175,
+      "w": 353.3333333333333,
+      "h": 145,
+      "title": "Misma f",
+      "body": "mismo lugar aprox.",
+      "style": "physical",
+      "role": "node"
+    },
+    {
+      "id": "stage_2",
+      "x": 463.3333333333333,
+      "y": 175,
+      "w": 353.3333333333333,
+      "h": 145,
+      "title": "Mayor nivel",
+      "body": "entrada",
+      "style": "accent",
+      "role": "node"
+    },
+    {
+      "id": "stage_3",
+      "x": 844.6666666666666,
+      "y": 175,
+      "w": 353.3333333333333,
+      "h": 145,
+      "title": "Respuesta más amplia",
+      "body": "mecánica",
+      "style": "physical",
+      "role": "node"
+    },
+    {
+      "id": "stage_4",
+      "x": 844.6666666666666,
+      "y": 415,
+      "w": 353.3333333333333,
+      "h": 145,
+      "title": "Más población",
+      "body": "más fibras activas",
+      "style": "neutral",
+      "role": "node"
+    },
+    {
+      "id": "stage_5",
+      "x": 463.3333333333333,
+      "y": 415,
+      "w": 353.3333333333333,
+      "h": 145,
+      "title": "Señal neural",
+      "body": "cambia",
+      "style": "clinical",
+      "role": "node"
+    },
+    {
+      "id": "stage_6",
+      "x": 82,
+      "y": 415,
+      "w": 353.3333333333333,
+      "h": 145,
+      "title": "Sonoridad",
+      "body": "inferencia limitada",
+      "style": "clinical",
+      "role": "node"
+    }
+  ],
+  "edges": [
+    {
+      "id": "flow_1",
+      "from": "stage_1",
+      "to": "stage_2",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "elbow"
+    },
+    {
+      "id": "flow_2",
+      "from": "stage_2",
+      "to": "stage_3",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "elbow"
+    },
+    {
+      "id": "flow_3",
+      "from": "stage_3",
+      "to": "stage_4",
+      "semantic": "",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "kind": "elbow"
+    },
+    {
+      "id": "flow_4",
+      "from": "stage_4",
+      "to": "stage_5",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "elbow"
+    },
+    {
+      "id": "flow_5",
+      "from": "stage_5",
+      "to": "stage_6",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "elbow"
+    }
+  ]
+}

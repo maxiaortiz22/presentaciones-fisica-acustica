@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+<defs><marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0,0 L10,4 L0,8 Z" fill="#3D3D3D"/></marker></defs>
+<rect width="1280" height="720" fill="white"/>
+<rect x="72" y="27" width="390" height="6" fill="#4D1434"/><rect x="472" y="27" width="390" height="6" fill="#903163"/><rect x="872" y="27" width="336" height="6" fill="#969FA7"/>
+<text x="72" y="82" font-family="Calibri,Arial,sans-serif" font-size="40" font-weight="700" fill="#3D3D3D">El primer modo ideal ocupa un cuarto de longitud de onda</text>
+<polyline id="leader_1" points="342,197.5 336,197.5 336,347.5 330,347.5" fill="none" stroke="#3D3D3D" stroke-width="3" marker-end="url(#arrow)"/>
+<polyline id="leader_2" points="938,197.5 944,197.5 944,347.5 950,347.5" fill="none" stroke="#3D3D3D" stroke-width="3" marker-end="url(#arrow)"/>
+<polyline id="leader_3" points="372,517.5 351,517.5 351,347.5 330,347.5" fill="none" stroke="#3D3D3D" stroke-width="3" marker-end="url(#arrow)"/>
+<rect id="equation" x="330" y="285" width="620" height="125" rx="10" fill="#FFFFFF" stroke="#4D1434" stroke-width="2"/>
+<text x="640" y="346" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="46" font-weight="700" fill="#4D1434">λ ≈ 4ℓ</text>
+<text x="640" y="377" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">modelo de cuarto de onda</text>
+<rect id="callout_1" x="82" y="125" width="260" height="145" rx="10" fill="#E7F1F1" stroke="#2F7E83" stroke-width="2"/>
+<text x="212" y="172" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#2F7E83">Entrada</text>
+<text x="212" y="217" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">antinodo de</text>
+<text x="212" y="249" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">presión</text>
+<rect id="callout_2" x="938" y="125" width="270" height="145" rx="10" fill="#F8EDE2" stroke="#9F541A" stroke-width="2"/>
+<text x="1073" y="172" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#9F541A">Fondo ideal</text>
+<text x="1073" y="217" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">nodo de</text>
+<text x="1073" y="249" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">velocidad</text>
+<rect id="callout_3" x="82" y="445" width="290" height="145" rx="10" fill="#F7F6F2" stroke="#969FA7" stroke-width="2"/>
+<text x="227" y="492" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#3D3D3D">ℓ</text>
+<text x="227" y="537" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">longitud del</text>
+<text x="227" y="569" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">conducto</text>
+<text x="640" y="628" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="22" fill="#3D3D3D">Figura conceptual; no está a escala.</text>
+<text x="72" y="690" font-family="Calibri,Arial,sans-serif" font-size="16" fill="#969FA7">Libro del curso (TEX/PDF), Unidad 6; brief y storyboard U06; elaboración propia.</text>
+</svg>

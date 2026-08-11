@@ -1,0 +1,9 @@
+{
+  "position_axis": "s/L, 0=base, 1=ápex",
+  "model": "envolvente gaussiana asimétrica por tramos",
+  "conceptual": true,
+  "not_to_scale": true,
+  "scale": "x lineal común; y normalizadas por panel",
+  "population_sampling_positions": 47,
+  "population_exponent": 1.15
+}
