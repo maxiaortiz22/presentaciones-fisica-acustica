@@ -1,0 +1,79 @@
+{
+  "id": "U09-DG-052",
+  "slides": "U09-069",
+  "subtype": "esquema científico",
+  "purpose": "Espuma frente a envolvente.",
+  "nodesText": "Dos cabinas conceptuales con campo interior y fuga exterior contrastados.",
+  "connectorText": "Flechas de trayectoria/vector con rótulos independientes; no apoyar texto sobre líneas.",
+  "equation": "ninguna",
+  "textEstimate": "1–4 palabras/rótulo; callouts 2–6",
+  "layout": "FA_15_ERROR_FRECUENTE",
+  "restrictions": "alta; no caricaturizar materiales.; canvas real, padding ≥0,18 in, cero colisiones; dividir si no sostiene mínimos.",
+  "editable": "sí; SVG/PNG de respaldo",
+  "inputStatus": "prototipar temprano",
+  "nodes": [
+    {
+      "id": "concept_1",
+      "x": 80,
+      "y": 174,
+      "w": 354.6666666666667,
+      "h": 190,
+      "title": "Espuma interior",
+      "style": "physical",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_2",
+      "x": 462.6666666666667,
+      "y": 174,
+      "w": 354.6666666666667,
+      "h": 190,
+      "title": "Menos reflexiones",
+      "style": "accent",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_3",
+      "x": 845.3333333333334,
+      "y": 174,
+      "w": 354.6666666666667,
+      "h": 190,
+      "title": "Envolvente sellada",
+      "style": "neutral",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_4",
+      "x": 80,
+      "y": 396,
+      "w": 354.6666666666667,
+      "h": 190,
+      "title": "Menos ingreso\nexterior",
+      "style": "clinical",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_5",
+      "x": 462.6666666666667,
+      "y": 396,
+      "w": 354.6666666666667,
+      "h": 190,
+      "title": "No son\nequivalentes",
+      "style": "physical",
+      "role": "node",
+      "font": 32
+    }
+  ],
+  "edges": [],
+  "footer": "Relaciones conceptuales; no está a escala.",
+  "classification": "esquema mixto",
+  "title": "Espuma frente a envolvente",
+  "caption": "Espuma frente a envolvente Dos cabinas conceptuales con campo interior y fuga exterior contrastados.",
+  "alt": "Espuma frente a envolvente. Dos cabinas conceptuales con campo interior y fuga exterior contrastados. Relaciones conceptuales; no está a escala.",
+  "source": "LaTeX 9.8.1",
+  "notToScale": true
+}

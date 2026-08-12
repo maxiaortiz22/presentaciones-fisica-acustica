@@ -1,0 +1,39 @@
+{
+  "asset_id": "U09-CH-009",
+  "classification": "gráfico cuantitativo",
+  "status": "approved",
+  "physical_size_in": [
+    10.8,
+    4.3
+  ],
+  "png_px": [
+    3391,
+    1350
+  ],
+  "slide_preview_px": [
+    2560,
+    1440
+  ],
+  "font_floor": {
+    "axis_labels_pt": 20,
+    "ticks_and_legends_pt": 18,
+    "annotations_pt": 22
+  },
+  "model_and_data_traceable": true,
+  "svg_exists": true,
+  "png_exists": true,
+  "checks": {
+    "relative_LA_A": 12.00192620064555,
+    "relative_LA_B": 12.001926200645547,
+    "difference_dB": 1.7763568394002505e-15
+  },
+  "critical_issues": 0,
+  "major_issues": 0,
+  "visual_review": {
+    "date": "2026-08-12",
+    "method": "render individual a tamaño final + hoja de contacto + reinspección de recursos corregidos",
+    "critical_issues": 0,
+    "major_issues": 0,
+    "result": "approved"
+  }
+}

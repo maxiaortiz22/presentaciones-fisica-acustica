@@ -1,0 +1,112 @@
+{
+  "id": "U09-DG-021",
+  "slides": "U09-028",
+  "subtype": "ecuación anotada",
+  "purpose": "Presión–densidad–rapidez.",
+  "nodesText": "Ecuación central y mapa de variables acopladas con pregunta “¿qué se fija?”.",
+  "connectorText": "Líderes cortos a símbolos; etiquetas 2–6 palabras; sin cruzar operadores.",
+  "equation": "`c=√(γp_a/ρ_a)`",
+  "textEstimate": "≤4 callouts; 2–6 palabras c/u",
+  "layout": "FA_09_ECUACION_INTERPRETACION",
+  "restrictions": "alta; evitar causalidad lineal falsa.; canvas real, padding ≥0,18 in, cero colisiones; dividir si no sostiene mínimos.",
+  "editable": "sí; SVG/PNG de respaldo",
+  "inputStatus": "prototipar temprano",
+  "nodes": [
+    {
+      "id": "equation",
+      "x": 370,
+      "y": 285,
+      "w": 540,
+      "h": 130,
+      "title": "c=√(γp_a/ρ_a)",
+      "style": "equation",
+      "role": "equation",
+      "font": 46
+    },
+    {
+      "id": "callout_1",
+      "x": 80,
+      "y": 150,
+      "w": 250,
+      "h": 115,
+      "title": "γ: cociente\ntérmico",
+      "style": "physical",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "callout_2",
+      "x": 950,
+      "y": 150,
+      "w": 250,
+      "h": 115,
+      "title": "p_a: presión",
+      "style": "accent",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "callout_3",
+      "x": 80,
+      "y": 475,
+      "w": 250,
+      "h": 115,
+      "title": "ρ_a:\ndensidad",
+      "style": "neutral",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "callout_4",
+      "x": 950,
+      "y": 475,
+      "w": 250,
+      "h": 115,
+      "title": "Qué variable\nse fija",
+      "style": "clinical",
+      "role": "node",
+      "font": 32
+    }
+  ],
+  "edges": [
+    {
+      "id": "leader_1",
+      "from": "callout_1",
+      "to": "equation",
+      "fromSide": "right",
+      "toSide": "left",
+      "semantic": ""
+    },
+    {
+      "id": "leader_2",
+      "from": "callout_2",
+      "to": "equation",
+      "fromSide": "left",
+      "toSide": "right",
+      "semantic": ""
+    },
+    {
+      "id": "leader_3",
+      "from": "callout_3",
+      "to": "equation",
+      "fromSide": "right",
+      "toSide": "left",
+      "semantic": ""
+    },
+    {
+      "id": "leader_4",
+      "from": "callout_4",
+      "to": "equation",
+      "fromSide": "left",
+      "toSide": "right",
+      "semantic": ""
+    }
+  ],
+  "footer": "Ecuación editable · símbolos, unidades e hipótesis se completan en la explicación.",
+  "classification": "ecuación anotada",
+  "title": "Presión–densidad–rapidez",
+  "caption": "Presión–densidad–rapidez Ecuación central y mapa de variables acopladas con pregunta “¿qué se fija?”.",
+  "alt": "Presión–densidad–rapidez. Ecuación central y mapa de variables acopladas con pregunta “¿qué se fija?”. Ecuación editable · símbolos, unidades e hipótesis se completan en la explicación.",
+  "source": "LaTeX ec. 9.5.",
+  "notToScale": false
+}

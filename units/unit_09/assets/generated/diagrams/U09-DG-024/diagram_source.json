@@ -1,0 +1,112 @@
+{
+  "id": "U09-DG-024",
+  "slides": "U09-031",
+  "subtype": "esquema científico",
+  "purpose": "Turbulencia cualitativa.",
+  "nodesText": "Trayectorias perturbadas y registro fluctuante vinculados sin cifras.",
+  "connectorText": "Flechas de trayectoria/vector con rótulos independientes; no apoyar texto sobre líneas.",
+  "equation": "ninguna",
+  "textEstimate": "1–4 palabras/rótulo; callouts 2–6",
+  "layout": "FA_06_VISUAL_TEXTO_40_60",
+  "restrictions": "media; no parecer simulación medida.; canvas real, padding ≥0,18 in, cero colisiones; dividir si no sostiene mínimos.",
+  "editable": "sí; SVG/PNG de respaldo",
+  "inputStatus": "complementario",
+  "nodes": [
+    {
+      "id": "source",
+      "x": 75,
+      "y": 275,
+      "w": 260,
+      "h": 140,
+      "title": "Esquema\ncualitativo",
+      "style": "physical",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "path_upper",
+      "x": 470,
+      "y": 155,
+      "w": 320,
+      "h": 125,
+      "title": "registro\nfluctuante",
+      "style": "accent",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "path_lower",
+      "x": 470,
+      "y": 405,
+      "w": 320,
+      "h": 125,
+      "title": "sin modelo\nnumérico",
+      "style": "neutral",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "receiver",
+      "x": 945,
+      "y": 275,
+      "w": 260,
+      "h": 140,
+      "title": "Turbulencia\ncualitativa",
+      "style": "clinical",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "condition",
+      "x": 470,
+      "y": 555,
+      "w": 320,
+      "h": 75,
+      "title": "Condiciones\ndeclaradas",
+      "style": "neutral",
+      "role": "note",
+      "font": 30
+    }
+  ],
+  "edges": [
+    {
+      "id": "route_1a",
+      "from": "source",
+      "to": "path_upper",
+      "fromSide": "right",
+      "toSide": "left",
+      "semantic": ""
+    },
+    {
+      "id": "route_1b",
+      "from": "path_upper",
+      "to": "receiver",
+      "fromSide": "right",
+      "toSide": "left",
+      "semantic": ""
+    },
+    {
+      "id": "route_2a",
+      "from": "source",
+      "to": "path_lower",
+      "fromSide": "right",
+      "toSide": "left",
+      "semantic": ""
+    },
+    {
+      "id": "route_2b",
+      "from": "path_lower",
+      "to": "receiver",
+      "fromSide": "right",
+      "toSide": "left",
+      "semantic": ""
+    }
+  ],
+  "footer": "Esquema conceptual; no está a escala ni representa una medición.",
+  "classification": "esquema mixto",
+  "title": "Turbulencia cualitativa",
+  "caption": "Turbulencia cualitativa Trayectorias perturbadas y registro fluctuante vinculados sin cifras.",
+  "alt": "Turbulencia cualitativa. Trayectorias perturbadas y registro fluctuante vinculados sin cifras. Esquema conceptual; no está a escala ni representa una medición.",
+  "source": "LaTeX 9.6.",
+  "notToScale": true
+}

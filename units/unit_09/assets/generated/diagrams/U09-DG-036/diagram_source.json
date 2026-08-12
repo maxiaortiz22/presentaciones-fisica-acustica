@@ -1,0 +1,131 @@
+{
+  "id": "U09-DG-036",
+  "slides": "U09-046",
+  "subtype": "esquema científico",
+  "purpose": "Árbol de mecanismos en interfaz.",
+  "nodesText": "Retorna, se disipa, atraviesa, cambia dirección, rodea; preguntas de evidencia.",
+  "connectorText": "Flechas de trayectoria/vector con rótulos independientes; no apoyar texto sobre líneas.",
+  "equation": "ninguna",
+  "textEstimate": "1–4 palabras/rótulo; callouts 2–6",
+  "layout": "FA_16_RECAP_PARCIAL",
+  "restrictions": "muy alta; probable división en dos niveles.; canvas real, padding ≥0,18 in, cero colisiones; dividir si no sostiene mínimos.",
+  "editable": "sí; SVG/PNG de respaldo",
+  "inputStatus": "prototipar temprano",
+  "nodes": [
+    {
+      "id": "branch_source",
+      "x": 80,
+      "y": 280,
+      "w": 270,
+      "h": 140,
+      "title": "Interfaz",
+      "style": "physical",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "branch_1",
+      "x": 680,
+      "y": 126.5,
+      "w": 420,
+      "h": 82,
+      "title": "Reflexión",
+      "style": "accent",
+      "role": "node",
+      "font": 30
+    },
+    {
+      "id": "branch_2",
+      "x": 680,
+      "y": 226.5,
+      "w": 420,
+      "h": 82,
+      "title": "Absorción",
+      "style": "neutral",
+      "role": "node",
+      "font": 30
+    },
+    {
+      "id": "branch_3",
+      "x": 680,
+      "y": 326.5,
+      "w": 420,
+      "h": 82,
+      "title": "Transmisión",
+      "style": "clinical",
+      "role": "node",
+      "font": 30
+    },
+    {
+      "id": "branch_4",
+      "x": 680,
+      "y": 426.5,
+      "w": 420,
+      "h": 82,
+      "title": "Refracción",
+      "style": "physical",
+      "role": "node",
+      "font": 30
+    },
+    {
+      "id": "branch_5",
+      "x": 680,
+      "y": 526.5,
+      "w": 420,
+      "h": 82,
+      "title": "Difracción",
+      "style": "accent",
+      "role": "node",
+      "font": 30
+    }
+  ],
+  "edges": [
+    {
+      "id": "branch_edge_1",
+      "from": "branch_source",
+      "to": "branch_1",
+      "fromSide": "right",
+      "toSide": "left",
+      "semantic": ""
+    },
+    {
+      "id": "branch_edge_2",
+      "from": "branch_source",
+      "to": "branch_2",
+      "fromSide": "right",
+      "toSide": "left",
+      "semantic": ""
+    },
+    {
+      "id": "branch_edge_3",
+      "from": "branch_source",
+      "to": "branch_3",
+      "fromSide": "right",
+      "toSide": "left",
+      "semantic": ""
+    },
+    {
+      "id": "branch_edge_4",
+      "from": "branch_source",
+      "to": "branch_4",
+      "fromSide": "right",
+      "toSide": "left",
+      "semantic": ""
+    },
+    {
+      "id": "branch_edge_5",
+      "from": "branch_source",
+      "to": "branch_5",
+      "fromSide": "right",
+      "toSide": "left",
+      "semantic": ""
+    }
+  ],
+  "footer": "Rutas conceptuales independientes; no está a escala ni representa una medición.",
+  "classification": "esquema mixto",
+  "title": "Árbol de mecanismos en interfaz",
+  "caption": "Árbol de mecanismos en interfaz Retorna, se disipa, atraviesa, cambia dirección, rodea; preguntas de evidencia.",
+  "alt": "Árbol de mecanismos en interfaz. Retorna, se disipa, atraviesa, cambia dirección, rodea; preguntas de evidencia. Rutas conceptuales independientes; no está a escala ni representa una medición.",
+  "source": "Síntesis B04.",
+  "notToScale": true
+}

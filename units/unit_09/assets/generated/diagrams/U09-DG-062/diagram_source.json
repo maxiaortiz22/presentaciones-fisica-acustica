@@ -1,0 +1,90 @@
+{
+  "id": "U09-DG-062",
+  "slides": "U09-082",
+  "subtype": "matriz conceptual",
+  "purpose": "Matriz estimar–medir–consultar.",
+  "nodesText": "Seis decisiones y columnas mecanismo, modelo, dato, medición, límite.",
+  "connectorText": "Sin conectores; relación por alineación de filas/columnas.",
+  "equation": "ninguna",
+  "textEstimate": "2–6 palabras/celda; ≤6 filas visibles",
+  "layout": "FA_14_PREGUNTA_EJERCICIO",
+  "restrictions": "alta; riesgo de tabla ilegible.; canvas real, padding ≥0,18 in, cero colisiones; dividir si no sostiene mínimos.",
+  "editable": "sí; SVG/PNG de respaldo",
+  "inputStatus": "prototipar temprano",
+  "nodes": [
+    {
+      "id": "concept_1",
+      "x": 80,
+      "y": 174,
+      "w": 354.6666666666667,
+      "h": 190,
+      "title": "Seis decisiones",
+      "style": "physical",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_2",
+      "x": 462.6666666666667,
+      "y": 174,
+      "w": 354.6666666666667,
+      "h": 190,
+      "title": "columnas mecanismo",
+      "style": "accent",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_3",
+      "x": 845.3333333333334,
+      "y": 174,
+      "w": 354.6666666666667,
+      "h": 190,
+      "title": "modelo",
+      "style": "neutral",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_4",
+      "x": 80,
+      "y": 396,
+      "w": 354.6666666666667,
+      "h": 190,
+      "title": "dato",
+      "style": "clinical",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_5",
+      "x": 462.6666666666667,
+      "y": 396,
+      "w": 354.6666666666667,
+      "h": 190,
+      "title": "medición",
+      "style": "physical",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_6",
+      "x": 845.3333333333334,
+      "y": 396,
+      "w": 354.6666666666667,
+      "h": 190,
+      "title": "límite",
+      "style": "accent",
+      "role": "node",
+      "font": 32
+    }
+  ],
+  "edges": [],
+  "footer": "Relaciones conceptuales; no está a escala.",
+  "classification": "diagrama conceptual",
+  "title": "Matriz estimar–medir–consultar",
+  "caption": "Matriz estimar–medir–consultar Seis decisiones y columnas mecanismo, modelo, dato, medición, límite.",
+  "alt": "Matriz estimar–medir–consultar. Seis decisiones y columnas mecanismo, modelo, dato, medición, límite. Relaciones conceptuales; no está a escala.",
+  "source": "Banco de ejercicios U9.",
+  "notToScale": true
+}

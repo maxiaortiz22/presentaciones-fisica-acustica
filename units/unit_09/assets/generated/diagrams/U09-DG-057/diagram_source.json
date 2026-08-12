@@ -1,0 +1,101 @@
+{
+  "id": "U09-DG-057",
+  "slides": "U09-075",
+  "subtype": "matriz conceptual",
+  "purpose": "Matriz de faltantes para 28 dB(A).",
+  "nodesText": "Valor aislado al centro y preguntas metrológicas alrededor, sin líder sobre texto.",
+  "connectorText": "Sin conectores; relación por alineación de filas/columnas.",
+  "equation": "ninguna",
+  "textEstimate": "2–6 palabras/celda; ≤6 filas visibles",
+  "layout": "FA_13_APLICACION_CLINICA",
+  "restrictions": "alta; muchos callouts.; canvas real, padding ≥0,18 in, cero colisiones; dividir si no sostiene mínimos.",
+  "editable": "sí; SVG/PNG de respaldo",
+  "inputStatus": "prototipar temprano",
+  "nodes": [
+    {
+      "id": "concept_1",
+      "x": 80,
+      "y": 174,
+      "w": 259,
+      "h": 190,
+      "title": "28 dB(A)",
+      "style": "physical",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_2",
+      "x": 367,
+      "y": 174,
+      "w": 259,
+      "h": 190,
+      "title": "Instrumento\ny",
+      "style": "accent",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_3",
+      "x": 654,
+      "y": 174,
+      "w": 259,
+      "h": 190,
+      "title": "Posición y\ntiempo",
+      "style": "neutral",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_4",
+      "x": 941,
+      "y": 174,
+      "w": 259,
+      "h": 190,
+      "title": "Bandas",
+      "style": "clinical",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_5",
+      "x": 80,
+      "y": 396,
+      "w": 259,
+      "h": 190,
+      "title": "Vía y\ntransductor",
+      "style": "physical",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_6",
+      "x": 367,
+      "y": 396,
+      "w": 259,
+      "h": 190,
+      "title": "Criterio",
+      "style": "accent",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_7",
+      "x": 654,
+      "y": 396,
+      "w": 259,
+      "h": 190,
+      "title": "Ruido propio",
+      "style": "neutral",
+      "role": "node",
+      "font": 32
+    }
+  ],
+  "edges": [],
+  "footer": "Relaciones conceptuales; no está a escala.",
+  "classification": "diagrama conceptual",
+  "title": "Matriz de faltantes para 28 dB(A)",
+  "caption": "Matriz de faltantes para 28 dB(A) Valor aislado al centro y preguntas metrológicas alrededor, sin líder sobre texto.",
+  "alt": "Matriz de faltantes para 28 dB(A). Valor aislado al centro y preguntas metrológicas alrededor, sin líder sobre texto. Relaciones conceptuales; no está a escala.",
+  "source": "Brief U9",
+  "notToScale": true
+}

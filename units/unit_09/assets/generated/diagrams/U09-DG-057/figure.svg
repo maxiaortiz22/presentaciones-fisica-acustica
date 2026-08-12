@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+<defs><marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0,0 L10,4 L0,8 Z" fill="#3D3D3D"/></marker></defs>
+<rect width="1280" height="720" fill="white"/>
+<rect x="72" y="27" width="390" height="6" fill="#4D1434"/><rect x="472" y="27" width="390" height="6" fill="#903163"/><rect x="872" y="27" width="336" height="6" fill="#969FA7"/>
+<text x="72" y="78" font-family="Calibri,Arial,sans-serif" font-size="40" font-weight="700" fill="#3D3D3D">Matriz de faltantes para 28 dB(A)</text>
+<rect id="concept_1" x="80" y="174" width="259" height="190" rx="8" fill="#E7F1F1" stroke="#2F7E83" stroke-width="2"/>
+<text x="209.5" y="280.2" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#2F7E83">28 dB(A)</text>
+<rect id="concept_2" x="367" y="174" width="259" height="190" rx="8" fill="#F3E8EE" stroke="#4D1434" stroke-width="2"/>
+<text x="496.5" y="263.4" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#4D1434">Instrumento</text>
+<text x="496.5" y="297" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#4D1434">y</text>
+<rect id="concept_3" x="654" y="174" width="259" height="190" rx="8" fill="#F7F6F2" stroke="#969FA7" stroke-width="2"/>
+<text x="783.5" y="263.4" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#3D3D3D">Posición y</text>
+<text x="783.5" y="297" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#3D3D3D">tiempo</text>
+<rect id="concept_4" x="941" y="174" width="259" height="190" rx="8" fill="#F8EDE2" stroke="#9F541A" stroke-width="2"/>
+<text x="1070.5" y="280.2" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#9F541A">Bandas</text>
+<rect id="concept_5" x="80" y="396" width="259" height="190" rx="8" fill="#E7F1F1" stroke="#2F7E83" stroke-width="2"/>
+<text x="209.5" y="485.4" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#2F7E83">Vía y</text>
+<text x="209.5" y="519" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#2F7E83">transductor</text>
+<rect id="concept_6" x="367" y="396" width="259" height="190" rx="8" fill="#F3E8EE" stroke="#4D1434" stroke-width="2"/>
+<text x="496.5" y="502.2" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#4D1434">Criterio</text>
+<rect id="concept_7" x="654" y="396" width="259" height="190" rx="8" fill="#F7F6F2" stroke="#969FA7" stroke-width="2"/>
+<text x="783.5" y="502.2" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#3D3D3D">Ruido propio</text>
+<text x="640" y="670" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="20" fill="#969FA7">Relaciones conceptuales; no está a escala.</text>
+<text x="72" y="700" font-family="Calibri,Arial,sans-serif" font-size="14" fill="#969FA7">Brief U9</text>
+</svg>

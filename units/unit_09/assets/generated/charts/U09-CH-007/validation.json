@@ -1,0 +1,38 @@
+{
+  "asset_id": "U09-CH-007",
+  "classification": "gráfico cuantitativo",
+  "status": "approved",
+  "physical_size_in": [
+    7.0,
+    4.1
+  ],
+  "png_px": [
+    2401,
+    1406
+  ],
+  "slide_preview_px": [
+    2560,
+    1440
+  ],
+  "font_floor": {
+    "axis_labels_pt": 20,
+    "ticks_and_legends_pt": 18,
+    "annotations_pt": 22
+  },
+  "model_and_data_traceable": true,
+  "svg_exists": true,
+  "png_exists": true,
+  "checks": {
+    "R_at_0.01": 20.0,
+    "R_at_0.001": 30.0
+  },
+  "critical_issues": 0,
+  "major_issues": 0,
+  "visual_review": {
+    "date": "2026-08-12",
+    "method": "render individual a tamaño final + hoja de contacto + reinspección de recursos corregidos",
+    "critical_issues": 0,
+    "major_issues": 0,
+    "result": "approved"
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "model": "R_dB=10*log10(1/tau_E)",
+  "x_scale": "logarithmic_decreasing",
+  "domain": "0<tau_E<=1"
+}

@@ -1,0 +1,101 @@
+{
+  "id": "U09-DG-056",
+  "slides": "U09-074",
+  "subtype": "matriz conceptual",
+  "purpose": "Checklist normativo.",
+  "nodesText": "Norma, edición, adopción, vía, transductor, bandas y menor nivel.",
+  "connectorText": "Sin conectores; relación por alineación de filas/columnas.",
+  "equation": "ninguna",
+  "textEstimate": "2–6 palabras/celda; ≤6 filas visibles",
+  "layout": "FA_18_TABLA_DATOS",
+  "restrictions": "alta; siete campos y estado de fuente.; canvas real, padding ≥0,18 in, cero colisiones; dividir si no sostiene mínimos.",
+  "editable": "sí; SVG/PNG de respaldo",
+  "inputStatus": "planificado",
+  "nodes": [
+    {
+      "id": "concept_1",
+      "x": 80,
+      "y": 174,
+      "w": 259,
+      "h": 190,
+      "title": "Norma",
+      "style": "physical",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_2",
+      "x": 367,
+      "y": 174,
+      "w": 259,
+      "h": 190,
+      "title": "edición",
+      "style": "accent",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_3",
+      "x": 654,
+      "y": 174,
+      "w": 259,
+      "h": 190,
+      "title": "adopción",
+      "style": "neutral",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_4",
+      "x": 941,
+      "y": 174,
+      "w": 259,
+      "h": 190,
+      "title": "vía",
+      "style": "clinical",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_5",
+      "x": 80,
+      "y": 396,
+      "w": 259,
+      "h": 190,
+      "title": "transductor",
+      "style": "physical",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_6",
+      "x": 367,
+      "y": 396,
+      "w": 259,
+      "h": 190,
+      "title": "bandas",
+      "style": "accent",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_7",
+      "x": 654,
+      "y": 396,
+      "w": 259,
+      "h": 190,
+      "title": "menor nivel",
+      "style": "neutral",
+      "role": "node",
+      "font": 32
+    }
+  ],
+  "edges": [],
+  "footer": "Relaciones conceptuales; no está a escala.",
+  "classification": "diagrama conceptual",
+  "title": "Checklist normativo",
+  "caption": "Checklist normativo Norma, edición, adopción, vía, transductor, bandas y menor nivel.",
+  "alt": "Checklist normativo. Norma, edición, adopción, vía, transductor, bandas y menor nivel. Relaciones conceptuales; no está a escala.",
+  "source": "Open decisions OD-U09-22–26.",
+  "notToScale": true
+}

@@ -1,0 +1,68 @@
+{
+  "id": "U09-DG-008",
+  "slides": "U09-011",
+  "subtype": "matriz conceptual",
+  "purpose": "Checklist de cuatro preguntas.",
+  "nodesText": "Qué cambia → qué se conserva → qué se estima → qué se mide.",
+  "connectorText": "Sin conectores; relación por alineación de filas/columnas.",
+  "equation": "ninguna",
+  "textEstimate": "2–6 palabras/celda; ≤6 filas visibles",
+  "layout": "FA_16_RECAP_PARCIAL",
+  "restrictions": "baja–media.; canvas real, padding ≥0,18 in, cero colisiones; dividir si no sostiene mínimos.",
+  "editable": "sí; SVG/PNG de respaldo",
+  "inputStatus": "planificado",
+  "nodes": [
+    {
+      "id": "concept_1",
+      "x": 80,
+      "y": 174,
+      "w": 546,
+      "h": 190,
+      "title": "Qué cambia",
+      "style": "physical",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_2",
+      "x": 654,
+      "y": 174,
+      "w": 546,
+      "h": 190,
+      "title": "qué se conserva",
+      "style": "accent",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_3",
+      "x": 80,
+      "y": 396,
+      "w": 546,
+      "h": 190,
+      "title": "qué se estima",
+      "style": "neutral",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_4",
+      "x": 654,
+      "y": 396,
+      "w": 546,
+      "h": 190,
+      "title": "qué se mide",
+      "style": "clinical",
+      "role": "node",
+      "font": 32
+    }
+  ],
+  "edges": [],
+  "footer": "Relaciones conceptuales; no está a escala.",
+  "classification": "diagrama conceptual",
+  "title": "Checklist de cuatro preguntas",
+  "caption": "Checklist de cuatro preguntas Qué cambia → qué se conserva → qué se estima → qué se mide.",
+  "alt": "Checklist de cuatro preguntas. Qué cambia → qué se conserva → qué se estima → qué se mide. Relaciones conceptuales; no está a escala.",
+  "source": "Brief U9.",
+  "notToScale": true
+}

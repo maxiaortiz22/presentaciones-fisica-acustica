@@ -1,0 +1,112 @@
+{
+  "id": "U09-DG-043",
+  "slides": "U09-056",
+  "subtype": "diagrama de proceso",
+  "purpose": "Cadena de recapitulación de recinto.",
+  "nodesText": "Geometría → llegadas → decaimiento → descriptor, con límites laterales.",
+  "connectorText": "Conectores anclados en orden de lectura; verbos breves sobre/bajo el corredor.",
+  "equation": "ninguna",
+  "textEstimate": "1–4 palabras/nodo; ≤6 nodos por vista",
+  "layout": "FA_16_RECAP_PARCIAL",
+  "restrictions": "alta.; canvas real, padding ≥0,18 in, cero colisiones; dividir si no sostiene mínimos.",
+  "editable": "sí; SVG/PNG de respaldo",
+  "inputStatus": "planificado",
+  "nodes": [
+    {
+      "id": "step_1",
+      "x": 80,
+      "y": 170,
+      "w": 300,
+      "h": 145,
+      "title": "1 · Geometría",
+      "style": "physical",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "step_2",
+      "x": 490,
+      "y": 170,
+      "w": 300,
+      "h": 145,
+      "title": "2 · llegadas",
+      "style": "accent",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "step_3",
+      "x": 900,
+      "y": 170,
+      "w": 300,
+      "h": 145,
+      "title": "3 · decaimiento",
+      "style": "neutral",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "step_4",
+      "x": 900,
+      "y": 410,
+      "w": 300,
+      "h": 145,
+      "title": "4 · descriptor",
+      "style": "clinical",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "step_5",
+      "x": 490,
+      "y": 410,
+      "w": 300,
+      "h": 145,
+      "title": "5 · con límites\nlaterales",
+      "style": "physical",
+      "role": "node",
+      "font": 32
+    }
+  ],
+  "edges": [
+    {
+      "id": "flow_1",
+      "from": "step_1",
+      "to": "step_2",
+      "fromSide": "right",
+      "toSide": "left",
+      "semantic": ""
+    },
+    {
+      "id": "flow_2",
+      "from": "step_2",
+      "to": "step_3",
+      "fromSide": "right",
+      "toSide": "left",
+      "semantic": ""
+    },
+    {
+      "id": "flow_3",
+      "from": "step_3",
+      "to": "step_4",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "semantic": ""
+    },
+    {
+      "id": "flow_4",
+      "from": "step_4",
+      "to": "step_5",
+      "fromSide": "left",
+      "toSide": "right",
+      "semantic": ""
+    }
+  ],
+  "footer": "Secuencia de lectura; conectores anclados y sin etiquetas sobre la línea.",
+  "classification": "diagrama de proceso",
+  "title": "Cadena de recapitulación de recinto",
+  "caption": "Cadena de recapitulación de recinto Geometría → llegadas → decaimiento → descriptor, con límites laterales.",
+  "alt": "Cadena de recapitulación de recinto. Geometría → llegadas → decaimiento → descriptor, con límites laterales. Secuencia de lectura; conectores anclados y sin etiquetas sobre la línea.",
+  "source": "Síntesis B05.",
+  "notToScale": false
+}

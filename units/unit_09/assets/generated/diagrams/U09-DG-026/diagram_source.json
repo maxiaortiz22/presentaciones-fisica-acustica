@@ -1,0 +1,90 @@
+{
+  "id": "U09-DG-026",
+  "slides": "U09-033",
+  "subtype": "matriz conceptual",
+  "purpose": "Matriz de recapitulación atmosférica.",
+  "nodesText": "Casos frente a columnas `c`, `λ`, trayectoria, `L_p` y “no concluye”.",
+  "connectorText": "Sin conectores; relación por alineación de filas/columnas.",
+  "equation": "ninguna",
+  "textEstimate": "2–6 palabras/celda; ≤6 filas visibles",
+  "layout": "FA_16_RECAP_PARCIAL",
+  "restrictions": "alta; diseñar como matriz, no tarjetas estrechas.; canvas real, padding ≥0,18 in, cero colisiones; dividir si no sostiene mínimos.",
+  "editable": "sí; SVG/PNG de respaldo",
+  "inputStatus": "prototipar temprano",
+  "nodes": [
+    {
+      "id": "concept_1",
+      "x": 80,
+      "y": 174,
+      "w": 354.6666666666667,
+      "h": 190,
+      "title": "Casos",
+      "style": "physical",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_2",
+      "x": 462.6666666666667,
+      "y": 174,
+      "w": 354.6666666666667,
+      "h": 190,
+      "title": "columnas c",
+      "style": "accent",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_3",
+      "x": 845.3333333333334,
+      "y": 174,
+      "w": 354.6666666666667,
+      "h": 190,
+      "title": "λ",
+      "style": "neutral",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_4",
+      "x": 80,
+      "y": 396,
+      "w": 354.6666666666667,
+      "h": 190,
+      "title": "trayectoria",
+      "style": "clinical",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_5",
+      "x": 462.6666666666667,
+      "y": 396,
+      "w": 354.6666666666667,
+      "h": 190,
+      "title": "L_p",
+      "style": "physical",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_6",
+      "x": 845.3333333333334,
+      "y": 396,
+      "w": 354.6666666666667,
+      "h": 190,
+      "title": "“no concluye”",
+      "style": "accent",
+      "role": "node",
+      "font": 32
+    }
+  ],
+  "edges": [],
+  "footer": "Relaciones conceptuales; no está a escala.",
+  "classification": "diagrama conceptual",
+  "title": "Matriz de recapitulación atmosférica",
+  "caption": "Matriz de recapitulación atmosférica Casos frente a columnas c, λ, trayectoria, L_p y “no concluye”.",
+  "alt": "Matriz de recapitulación atmosférica. Casos frente a columnas c, λ, trayectoria, L_p y “no concluye”. Relaciones conceptuales; no está a escala.",
+  "source": "Síntesis B03.",
+  "notToScale": true
+}

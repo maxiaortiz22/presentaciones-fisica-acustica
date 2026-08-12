@@ -1,0 +1,131 @@
+{
+  "id": "U09-DG-015",
+  "slides": "U09-021",
+  "subtype": "diagrama de actividad",
+  "purpose": "Decisión distancia/directividad.",
+  "nodesText": "Tres casos con árbol modelo–hipótesis–dato faltante.",
+  "connectorText": "Tarjetas separadas; conectores/revelado después de la respuesta; cero cruces.",
+  "equation": "ninguna",
+  "textEstimate": "2–7 palabras/tarjeta",
+  "layout": "FA_16_RECAP_PARCIAL",
+  "restrictions": "media.; canvas real, padding ≥0,18 in, cero colisiones; dividir si no sostiene mínimos.",
+  "editable": "sí; SVG/PNG de respaldo",
+  "inputStatus": "planificado",
+  "nodes": [
+    {
+      "id": "step_1",
+      "x": 80,
+      "y": 170,
+      "w": 300,
+      "h": 145,
+      "title": "1 · Cambia\ndistancia",
+      "style": "physical",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "step_2",
+      "x": 490,
+      "y": 170,
+      "w": 300,
+      "h": 145,
+      "title": "2 · Cambia\ndirección",
+      "style": "accent",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "step_3",
+      "x": 900,
+      "y": 170,
+      "w": 300,
+      "h": 145,
+      "title": "3 · Cambian\nambas",
+      "style": "neutral",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "step_4",
+      "x": 900,
+      "y": 410,
+      "w": 300,
+      "h": 145,
+      "title": "4 · Elegir\nmodelo",
+      "style": "clinical",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "step_5",
+      "x": 490,
+      "y": 410,
+      "w": 300,
+      "h": 145,
+      "title": "5 · Declarar\nhipótesis",
+      "style": "physical",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "step_6",
+      "x": 80,
+      "y": 410,
+      "w": 300,
+      "h": 145,
+      "title": "6 · Identificar\ndato faltante",
+      "style": "accent",
+      "role": "node",
+      "font": 32
+    }
+  ],
+  "edges": [
+    {
+      "id": "flow_1",
+      "from": "step_1",
+      "to": "step_2",
+      "fromSide": "right",
+      "toSide": "left",
+      "semantic": ""
+    },
+    {
+      "id": "flow_2",
+      "from": "step_2",
+      "to": "step_3",
+      "fromSide": "right",
+      "toSide": "left",
+      "semantic": ""
+    },
+    {
+      "id": "flow_3",
+      "from": "step_3",
+      "to": "step_4",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "semantic": ""
+    },
+    {
+      "id": "flow_4",
+      "from": "step_4",
+      "to": "step_5",
+      "fromSide": "left",
+      "toSide": "right",
+      "semantic": ""
+    },
+    {
+      "id": "flow_5",
+      "from": "step_5",
+      "to": "step_6",
+      "fromSide": "left",
+      "toSide": "right",
+      "semantic": ""
+    }
+  ],
+  "footer": "Secuencia de lectura; conectores anclados y sin etiquetas sobre la línea.",
+  "classification": "diagrama de proceso",
+  "title": "Decisión distancia/directividad",
+  "caption": "Decisión distancia/directividad Tres casos con árbol modelo–hipótesis–dato faltante.",
+  "alt": "Decisión distancia/directividad. Tres casos con árbol modelo–hipótesis–dato faltante. Secuencia de lectura; conectores anclados y sin etiquetas sobre la línea.",
+  "source": "Síntesis B02.",
+  "notToScale": false
+}

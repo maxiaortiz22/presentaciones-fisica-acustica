@@ -1,0 +1,112 @@
+{
+  "id": "U09-DG-058",
+  "slides": "U09-077",
+  "subtype": "diagrama de actividad",
+  "purpose": "Actividad de rutas de cabina.",
+  "nodesText": "Caso con cuatro fuentes/rutas, evidencia y conclusión permitida.",
+  "connectorText": "Tarjetas separadas; conectores/revelado después de la respuesta; cero cruces.",
+  "equation": "ninguna",
+  "textEstimate": "2–7 palabras/tarjeta",
+  "layout": "FA_16_RECAP_PARCIAL",
+  "restrictions": "muy alta; separar información dada de inferencia.; canvas real, padding ≥0,18 in, cero colisiones; dividir si no sostiene mínimos.",
+  "editable": "sí; SVG/PNG de respaldo",
+  "inputStatus": "prototipar temprano",
+  "nodes": [
+    {
+      "id": "step_1",
+      "x": 80,
+      "y": 170,
+      "w": 300,
+      "h": 145,
+      "title": "1 · Caso con\nruido exterior",
+      "style": "physical",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "step_2",
+      "x": 490,
+      "y": 170,
+      "w": 300,
+      "h": 145,
+      "title": "2 · ventilación",
+      "style": "accent",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "step_3",
+      "x": 900,
+      "y": 170,
+      "w": 300,
+      "h": 145,
+      "title": "3 · equipo",
+      "style": "neutral",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "step_4",
+      "x": 900,
+      "y": 410,
+      "w": 300,
+      "h": 145,
+      "title": "4 · tratamiento\ninterior",
+      "style": "clinical",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "step_5",
+      "x": 490,
+      "y": 410,
+      "w": 300,
+      "h": 145,
+      "title": "5 ·\npriorización",
+      "style": "physical",
+      "role": "node",
+      "font": 32
+    }
+  ],
+  "edges": [
+    {
+      "id": "flow_1",
+      "from": "step_1",
+      "to": "step_2",
+      "fromSide": "right",
+      "toSide": "left",
+      "semantic": ""
+    },
+    {
+      "id": "flow_2",
+      "from": "step_2",
+      "to": "step_3",
+      "fromSide": "right",
+      "toSide": "left",
+      "semantic": ""
+    },
+    {
+      "id": "flow_3",
+      "from": "step_3",
+      "to": "step_4",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "semantic": ""
+    },
+    {
+      "id": "flow_4",
+      "from": "step_4",
+      "to": "step_5",
+      "fromSide": "left",
+      "toSide": "right",
+      "semantic": ""
+    }
+  ],
+  "footer": "Secuencia de lectura; conectores anclados y sin etiquetas sobre la línea.",
+  "classification": "diagrama de proceso",
+  "title": "Actividad de rutas de cabina",
+  "caption": "Actividad de rutas de cabina Caso con cuatro fuentes/rutas, evidencia y conclusión permitida.",
+  "alt": "Actividad de rutas de cabina. Caso con cuatro fuentes/rutas, evidencia y conclusión permitida. Secuencia de lectura; conectores anclados y sin etiquetas sobre la línea.",
+  "source": "Síntesis B07.",
+  "notToScale": false
+}

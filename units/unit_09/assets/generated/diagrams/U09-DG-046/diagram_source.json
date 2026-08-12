@@ -1,0 +1,90 @@
+{
+  "id": "U09-DG-046",
+  "slides": "U09-061",
+  "subtype": "matriz conceptual",
+  "purpose": "Acondicionar–aislar–insonorizar.",
+  "nodesText": "Matriz de tres objetivos con mecanismo, magnitud y verificación.",
+  "connectorText": "Sin conectores; relación por alineación de filas/columnas.",
+  "equation": "ninguna",
+  "textEstimate": "2–6 palabras/celda; ≤6 filas visibles",
+  "layout": "FA_11_COMPARACION",
+  "restrictions": "alta; evitar tarjetas angostas.; canvas real, padding ≥0,18 in, cero colisiones; dividir si no sostiene mínimos.",
+  "editable": "sí; SVG/PNG de respaldo",
+  "inputStatus": "prototipar temprano",
+  "nodes": [
+    {
+      "id": "concept_1",
+      "x": 80,
+      "y": 174,
+      "w": 354.6666666666667,
+      "h": 190,
+      "title": "Acondicionar",
+      "style": "physical",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_2",
+      "x": 462.6666666666667,
+      "y": 174,
+      "w": 354.6666666666667,
+      "h": 190,
+      "title": "Aislar",
+      "style": "accent",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_3",
+      "x": 845.3333333333334,
+      "y": 174,
+      "w": 354.6666666666667,
+      "h": 190,
+      "title": "Insonorizar",
+      "style": "neutral",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_4",
+      "x": 80,
+      "y": 396,
+      "w": 354.6666666666667,
+      "h": 190,
+      "title": "Mecanismo",
+      "style": "clinical",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_5",
+      "x": 462.6666666666667,
+      "y": 396,
+      "w": 354.6666666666667,
+      "h": 190,
+      "title": "Magnitud",
+      "style": "physical",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_6",
+      "x": 845.3333333333334,
+      "y": 396,
+      "w": 354.6666666666667,
+      "h": 190,
+      "title": "Verificación",
+      "style": "accent",
+      "role": "node",
+      "font": 32
+    }
+  ],
+  "edges": [],
+  "footer": "Relaciones conceptuales; no está a escala.",
+  "classification": "diagrama conceptual",
+  "title": "Acondicionar–aislar–insonorizar",
+  "caption": "Acondicionar–aislar–insonorizar Matriz de tres objetivos con mecanismo, magnitud y verificación.",
+  "alt": "Acondicionar–aislar–insonorizar. Matriz de tres objetivos con mecanismo, magnitud y verificación. Relaciones conceptuales; no está a escala.",
+  "source": "Programa",
+  "notToScale": true
+}

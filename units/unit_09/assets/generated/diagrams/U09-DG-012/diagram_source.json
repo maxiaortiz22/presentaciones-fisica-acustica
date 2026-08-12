@@ -1,0 +1,79 @@
+{
+  "id": "U09-DG-012",
+  "slides": "U09-017",
+  "subtype": "comparación conceptual",
+  "purpose": "Omnidireccional frente a direccional.",
+  "nodesText": "Dos patrones, misma potencia/distancia, dirección y punto de comparación.",
+  "connectorText": "Paneles paralelos; conectores internos solamente; mismas referencias geométricas.",
+  "equation": "ninguna",
+  "textEstimate": "1–4 palabras/rótulo; callouts 2–6",
+  "layout": "FA_11_COMPARACION",
+  "restrictions": "media; no usar áreas engañosas.; canvas real, padding ≥0,18 in, cero colisiones; dividir si no sostiene mínimos.",
+  "editable": "sí; SVG/PNG de respaldo",
+  "inputStatus": "reconstrucción requerida",
+  "nodes": [
+    {
+      "id": "concept_1",
+      "x": 80,
+      "y": 174,
+      "w": 354.6666666666667,
+      "h": 190,
+      "title": "Omnidireccional",
+      "style": "physical",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_2",
+      "x": 462.6666666666667,
+      "y": 174,
+      "w": 354.6666666666667,
+      "h": 190,
+      "title": "direccional",
+      "style": "accent",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_3",
+      "x": 845.3333333333334,
+      "y": 174,
+      "w": 354.6666666666667,
+      "h": 190,
+      "title": "eje",
+      "style": "neutral",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_4",
+      "x": 80,
+      "y": 396,
+      "w": 354.6666666666667,
+      "h": 190,
+      "title": "ángulo",
+      "style": "clinical",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_5",
+      "x": 462.6666666666667,
+      "y": 396,
+      "w": 354.6666666666667,
+      "h": 190,
+      "title": "punto de\ncomparación",
+      "style": "physical",
+      "role": "node",
+      "font": 32
+    }
+  ],
+  "edges": [],
+  "footer": "Relaciones conceptuales; no está a escala.",
+  "classification": "diagrama conceptual",
+  "title": "Omnidireccional frente a direccional",
+  "caption": "Omnidireccional frente a direccional Dos patrones, misma potencia/distancia, dirección y punto de comparación.",
+  "alt": "Omnidireccional frente a direccional. Dos patrones, misma potencia/distancia, dirección y punto de comparación. Relaciones conceptuales; no está a escala.",
+  "source": "U4 `directividad-q.tex`",
+  "notToScale": true
+}

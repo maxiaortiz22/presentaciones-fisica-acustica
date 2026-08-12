@@ -1,0 +1,112 @@
+{
+  "id": "U09-DG-040",
+  "slides": "U09-052",
+  "subtype": "ecuación anotada",
+  "purpose": "Ejemplo de aula.",
+  "nodesText": "Geometría → `V`/superficie → `A_eq` → `T_60` → interpretación.",
+  "connectorText": "Líderes cortos a símbolos; etiquetas 2–6 palabras; sin cruzar operadores.",
+  "equation": "cálculo `V→A_eq→T_60`",
+  "textEstimate": "≤4 callouts; 2–6 palabras c/u",
+  "layout": "FA_10_EJEMPLO_RESUELTO",
+  "restrictions": "muy alta; quizá dos etapas con revelado.; canvas real, padding ≥0,18 in, cero colisiones; dividir si no sostiene mínimos.",
+  "editable": "sí; SVG/PNG de respaldo",
+  "inputStatus": "prototipar temprano",
+  "nodes": [
+    {
+      "id": "equation",
+      "x": 370,
+      "y": 285,
+      "w": 540,
+      "h": 130,
+      "title": "cálculo V→A_eq→T_60",
+      "style": "equation",
+      "role": "equation",
+      "font": 46
+    },
+    {
+      "id": "callout_1",
+      "x": 80,
+      "y": 150,
+      "w": 250,
+      "h": 115,
+      "title": "Geometría",
+      "style": "physical",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "callout_2",
+      "x": 950,
+      "y": 150,
+      "w": 250,
+      "h": 115,
+      "title": "V/superficie",
+      "style": "accent",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "callout_3",
+      "x": 80,
+      "y": 475,
+      "w": 250,
+      "h": 115,
+      "title": "A_eq",
+      "style": "neutral",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "callout_4",
+      "x": 950,
+      "y": 475,
+      "w": 250,
+      "h": 115,
+      "title": "T_60",
+      "style": "clinical",
+      "role": "node",
+      "font": 32
+    }
+  ],
+  "edges": [
+    {
+      "id": "leader_1",
+      "from": "callout_1",
+      "to": "equation",
+      "fromSide": "right",
+      "toSide": "left",
+      "semantic": ""
+    },
+    {
+      "id": "leader_2",
+      "from": "callout_2",
+      "to": "equation",
+      "fromSide": "left",
+      "toSide": "right",
+      "semantic": ""
+    },
+    {
+      "id": "leader_3",
+      "from": "callout_3",
+      "to": "equation",
+      "fromSide": "right",
+      "toSide": "left",
+      "semantic": ""
+    },
+    {
+      "id": "leader_4",
+      "from": "callout_4",
+      "to": "equation",
+      "fromSide": "left",
+      "toSide": "right",
+      "semantic": ""
+    }
+  ],
+  "footer": "Ecuación editable · símbolos, unidades e hipótesis se completan en la explicación.",
+  "classification": "ecuación anotada",
+  "title": "Ejemplo de aula",
+  "caption": "Ejemplo de aula Geometría → V/superficie → A_eq → T_60 → interpretación.",
+  "alt": "Ejemplo de aula. Geometría → V/superficie → A_eq → T_60 → interpretación. Ecuación editable · símbolos, unidades e hipótesis se completan en la explicación.",
+  "source": "Ejemplo del capítulo.",
+  "notToScale": false
+}

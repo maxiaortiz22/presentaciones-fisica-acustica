@@ -1,0 +1,112 @@
+{
+  "id": "U09-DG-061",
+  "slides": "U09-081",
+  "subtype": "diagrama de actividad",
+  "purpose": "Caso final, capa receptor/medición.",
+  "nodesText": "Mismo mapa con posición, cabina, transductor, bandas y norma.",
+  "connectorText": "Tarjetas separadas; conectores/revelado después de la respuesta; cero cruces.",
+  "equation": "ninguna",
+  "textEstimate": "2–7 palabras/tarjeta",
+  "layout": "FA_13_APLICACION_CLINICA",
+  "restrictions": "muy alta; sostener continuidad visual.; canvas real, padding ≥0,18 in, cero colisiones; dividir si no sostiene mínimos.",
+  "editable": "sí; SVG/PNG de respaldo",
+  "inputStatus": "serie coordinada",
+  "nodes": [
+    {
+      "id": "step_1",
+      "x": 80,
+      "y": 170,
+      "w": 300,
+      "h": 145,
+      "title": "1 · Posición",
+      "style": "physical",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "step_2",
+      "x": 490,
+      "y": 170,
+      "w": 300,
+      "h": 145,
+      "title": "2 · Cabina",
+      "style": "accent",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "step_3",
+      "x": 900,
+      "y": 170,
+      "w": 300,
+      "h": 145,
+      "title": "3 · Transductor",
+      "style": "neutral",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "step_4",
+      "x": 900,
+      "y": 410,
+      "w": 300,
+      "h": 145,
+      "title": "4 · Bandas",
+      "style": "clinical",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "step_5",
+      "x": 490,
+      "y": 410,
+      "w": 300,
+      "h": 145,
+      "title": "5 · Norma",
+      "style": "physical",
+      "role": "node",
+      "font": 32
+    }
+  ],
+  "edges": [
+    {
+      "id": "flow_1",
+      "from": "step_1",
+      "to": "step_2",
+      "fromSide": "right",
+      "toSide": "left",
+      "semantic": ""
+    },
+    {
+      "id": "flow_2",
+      "from": "step_2",
+      "to": "step_3",
+      "fromSide": "right",
+      "toSide": "left",
+      "semantic": ""
+    },
+    {
+      "id": "flow_3",
+      "from": "step_3",
+      "to": "step_4",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "semantic": ""
+    },
+    {
+      "id": "flow_4",
+      "from": "step_4",
+      "to": "step_5",
+      "fromSide": "left",
+      "toSide": "right",
+      "semantic": ""
+    }
+  ],
+  "footer": "Secuencia de lectura; conectores anclados y sin etiquetas sobre la línea.",
+  "classification": "diagrama de proceso",
+  "title": "Caso final, capa receptor/medición",
+  "caption": "Caso final, capa receptor/medición Mismo mapa con posición, cabina, transductor, bandas y norma.",
+  "alt": "Caso final, capa receptor/medición. Mismo mapa con posición, cabina, transductor, bandas y norma. Secuencia de lectura; conectores anclados y sin etiquetas sobre la línea.",
+  "source": "Capítulo 9",
+  "notToScale": false
+}
