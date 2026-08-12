@@ -1,0 +1,20 @@
+{
+  "id": "U08-CH-008",
+  "status": "approved",
+  "classification": "gráfico cuantitativo",
+  "checks": {
+    "script_runs": true,
+    "svg_exists": true,
+    "png_2560x1440": true,
+    "axis_units": true,
+    "scale_declared": true,
+    "min_axis_font_pt": 20,
+    "min_tick_font_pt": 18,
+    "conceptual_label": true,
+    "no_clipping": true,
+    "real_layout_review": "passed"
+  },
+  "data_source": "modelo sintético/paramétrico declarado; no datos clínicos ni normativos",
+  "manual_review": "Aprobado 2026-08-12: inspección individual y en contact sheet; cero problemas críticos o mayores.",
+  "iterations": 1
+}

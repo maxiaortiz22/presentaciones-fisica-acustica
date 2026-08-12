@@ -1,0 +1,19 @@
+{
+  "id": "U08-DG-046",
+  "status": "approved",
+  "iterations": 2,
+  "classification": "esquema mixto",
+  "checks": {
+    "text_overflow": 0,
+    "clipped_text": 0,
+    "connector_text_collisions": 0,
+    "labels_on_lines": 0,
+    "wrong_arrow_targets": 0,
+    "font_min_pt": 22,
+    "padding_min_in": 0.18,
+    "objects_outside_canvas": 0,
+    "rendered_in_real_layout": true
+  },
+  "render_method": "PowerPoint COM 2560×1440 (sesión por lote)",
+  "manual_review": "Aprobado 2026-08-12: preview PowerPoint 2560×1440 inspeccionado; cero problemas críticos o mayores."
+}

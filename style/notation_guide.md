@@ -252,11 +252,17 @@ Para gráficos espectrales, indicar:
 |---|---|---|
 | nivel de presión sonora | dB SPL | Referencia física declarada. |
 | nivel de audición | dB HL | Referencia audiométrica específica por frecuencia/transductor. |
-| nivel de sensación | dB SL | Referido al umbral individual en la condición indicada. |
+| nivel de sensación | dB SL | Referido al umbral individual en la condición indicada; si se calcula, `L_\mathrm{SL}=L_\mathrm{presentación}-L_\mathrm{umbral}` con niveles comparables. |
 | desplazamiento temporal del umbral | TTS | Desarrollar en primera aparición; indicar tiempo postexposición. |
-| hipoacusia inducida por ruido | HIR o NIHL | Elegir una sigla institucional y mantenerla. |
+| cambio temporal de umbral | `\Delta L_T(f,\Delta t)` | dB; `\Delta L_T=L_{U,1}(f,\Delta t)-L_{U,0}(f)` entre umbrales comparables. Declarar frecuencia, tiempo postexposición, vía, escala y procedimiento. |
+| hipoacusia o pérdida auditiva inducida por ruido | HIR, PAIR o NIHL | Elegir una sigla institucional y mantenerla; desarrollar la primera aparición. |
+| diferencia aérea–ósea | `G_\mathrm{AO}(f)` | dB; `G_\mathrm{AO}(f)=L_\mathrm{VA}(f)-L_\mathrm{VO}(f)` con umbrales en dB HL, misma frecuencia y condiciones compatibles. No equivale a diagnóstico. |
+| admitancia acústica | `Y` | La unidad y la componente deben coincidir con el instrumento y el protocolo; `Y/Y_\mathrm{max}` es una normalización conceptual adimensional. |
 | otoemisiones acústicas | OEA | Se admiten DPOAE/TEOAE solo después de desarrollar. |
 | potenciales evocados auditivos de tronco | PEAT/PEATC | Validar forma preferida por la cátedra; si se usa ABR, desarrollar. |
+| potencial eléctrico registrado | `\Delta V(t)` o símbolo definido por el protocolo | µV, con tiempo en ms | Declarar montaje y electrodo de referencia; evitar una `V(t)` sin referencia explícita. |
+| electrococleografía | ECoG | Desarrollar en primera aparición; si se usan CM, SP o AP, desarrollar cada componente y declarar montaje y referencia. |
+| ganancia electroacústica | `G(f)=L_\mathrm{salida}(f)-L_\mathrm{entrada}(f)` | dB; niveles comparables, misma referencia y condición. No identificar ganancia con beneficio funcional. |
 | células ciliadas internas/externas | CCI/CCE | Desarrollar por unidad. |
 
 ## Propagación y recintos

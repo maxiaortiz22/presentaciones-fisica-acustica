@@ -161,11 +161,26 @@
 | diferencia interaural de nivel (ILD) | Diferencia entre niveles comparables en ambos oídos producida por geometría, difracción y sombra acústica. | 7 | Preferir “nivel” frente a “intensidad” al desarrollar ILD; su utilidad depende de frecuencia y posición. |
 | efecto cocktail party | Situación en la que se selecciona una fuente objetivo dentro de una escena con fuentes concurrentes. | 7 | No es un filtro físico único; integra pistas espaciales, espectrales, temporales, agrupamiento y atención. |
 | desplazamiento temporal del umbral (TTS) | Aumento transitorio del umbral auditivo después de una exposición, medido bajo condiciones especificadas. | 8 | No garantiza ausencia de daño ni sigue una curva universal. |
-| hipoacusia inducida por ruido (HIR/NIHL) | Pérdida auditiva asociada causalmente con exposición a ruido, evaluada con historia y criterios clínicos. | 8 | No inferir solo por una escotadura aislada. |
+| hipoacusia o pérdida auditiva inducida por ruido (HIR/PAIR/NIHL) | Pérdida auditiva asociada causalmente con exposición a ruido, evaluada con historia, mediciones y criterios clínicos. | 8 | No inferirla solo por una escotadura aislada. La sigla institucional sigue pendiente. |
 | acúfeno o tinnitus | Percepción sonora sin una fuente acústica externa correspondiente. | 8 | Usar el par elegido por la cátedra de manera consistente. |
+| presbiacusia | Cambio auditivo asociado con el envejecimiento, de origen habitualmente multifactorial. | 8 | No atribuir un audiograma a la edad sin historia, mediciones y consideración de otros factores. |
+| trauma acústico | Alteración auditiva asociada con una exposición acústica intensa, a menudo breve o impulsiva, bajo condiciones que deben documentarse. | 8 | No usar como sinónimo automático de toda pérdida inducida por ruido. |
+| ototoxicidad | Alteración de estructuras o funciones auditivas o vestibulares asociada con una sustancia o tratamiento. | 8 | La atribución requiere contexto farmacológico, temporal y clínico; una prueba aislada no identifica la causa. |
 | dB HL | Nivel de audición referido a cero audiométrico normativo para frecuencia y transductor. | 8 | No equivale numéricamente a dB SPL. |
 | dB SL | Nivel de sensación referido al umbral individual definido en la misma condición. | 8 | Siempre indicar qué umbral se emplea. |
+| audiometría tonal | Procedimiento conductual que estima umbrales para tonos bajo vía, frecuencia, transductor y criterio definidos. | 8 | El resultado se expresa habitualmente en dB HL; describe una respuesta bajo procedimiento, no una causa. |
+| diferencia aérea–ósea | Diferencia entre umbrales por vía aérea y ósea comparables en la misma frecuencia y escala. | 8 | Puede orientar la interpretación, pero no constituye por sí sola un diagnóstico. |
+| logoaudiometría | Evaluación conductual con material verbal bajo condiciones especificadas de nivel, transductor, lista y criterio de respuesta. | 8 | Distinguir umbral, porcentaje de reconocimiento y otras métricas; no compararlas sin declarar el procedimiento. |
+| timpanometría | Medición electroacústica de la inmitancia del sistema de oído medio mientras se modifica la presión en el conducto auditivo. | 8 | Describe una respuesta del sistema; no mide directamente cuánto oye la persona. |
+| inmitancia acústica | Categoría general que reúne magnitudes de oposición y facilidad de transferencia acústica. | 8 | Nombrar la magnitud que informa el equipo; no usar “inmitancia” como si fuera una unidad. |
+| admitancia acústica | Magnitud que expresa la facilidad de transferencia acústica y se representa habitualmente con `Y`. | 8 | La unidad y la componente mostrada dependen del instrumento y del protocolo; una normalización `Y/Y_max` es adimensional. |
+| acufenometría | Procedimiento psicofísico de correspondencia entre el acúfeno referido y estímulos externos controlados. | 8 | El tono o nivel elegido describe la tarea; no mide una fuente acústica interna. |
 | otoemisión acústica (OEA) | Señal acústica originada por actividad mecánica coclear y registrada en el conducto auditivo externo. | 6 | Informa principalmente sobre función de CCE; no es una prueba completa de audición ni implica creación de energía. |
+| potenciales evocados auditivos de tronco (PEAT/PEATC) | Respuesta bioeléctrica promediada y sincronizada con un estímulo acústico, registrada con electrodos de superficie. | 8 | Desarrollar la sigla elegida y declarar estímulo, montaje, referencia y criterio; no mide comprensión del habla. |
+| electrococleografía (ECoG) | Registro de potenciales cocleares y neurales distales mediante un montaje próximo al oído interno. | 8 | Identificar montaje, referencia y componentes analizados; no interpretar una relación aislada fuera del protocolo. |
+| audífono | Dispositivo electroacústico que capta, procesa y entrega sonido para mejorar acceso auditivo bajo una adaptación evaluada. | 8 | Ganancia o salida electroacústica no equivalen por sí solas a beneficio funcional. |
+| implante coclear | Sistema que transforma la señal acústica en estimulación eléctrica distribuida mediante un haz de electrodos cocleares. | 8 | Canales de procesamiento, electrodos y perceptos no son equivalentes uno a uno. |
+| exceso de riesgo | Diferencia de ocurrencia estimada entre una población expuesta y una población de referencia bajo un modelo, caso y período definidos. | 8 | No interpretarlo como probabilidad individual ni omitir exposición, comparador e incertidumbre. |
 
 ## Propagación, recintos y ruido
 
@@ -202,6 +217,8 @@
 - Usar **conducto coclear o rampa media** en el texto visible; reservar *scala media* como equivalencia bibliográfica. Preferir **rampa vestibular** y **rampa timpánica** en español salvo cita anatómica.
 - Evitar “oído periférico” sin delimitar qué estructuras incluye en cada contexto.
 - Usar **dB SPL**, **dB HL** y **dB SL** solo con su referencia desarrollada y sin tratarlos como escalas intercambiables.
+- Usar **inmitancia** para la categoría y nombrar **admitancia `Y`** u otra magnitud específica cuando se interprete una salida instrumental.
+- Preferir **diferencia aérea–ósea** en el texto visible; reservar *gap* para equivalencias bibliográficas o uso institucional explícito.
 
 ## Pendientes de validación
 
