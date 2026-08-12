@@ -1,0 +1,109 @@
+{
+  "id": "U07-DG-036B",
+  "classification": "ecuación anotada",
+  "title": "Ejemplo: d = 0,180 m da cerca de 525 μs",
+  "template": "flow",
+  "items": [
+    {
+      "title": "Datos",
+      "body": "d = 0,180 m\nc = 343 m/s",
+      "style": "physical"
+    },
+    {
+      "title": "Dividir",
+      "body": "0,180 / 343 s",
+      "style": "accent"
+    },
+    {
+      "title": "Convertir",
+      "body": "0,000525 s",
+      "style": "neutral"
+    },
+    {
+      "title": "Resultado",
+      "body": "≈ 525 μs\norden de magnitud",
+      "style": "clinical"
+    }
+  ],
+  "caption": "Cálculo de una cota didáctica de ITD.",
+  "alt": "Cuatro pasos dividen cero coma ciento ochenta metros por trescientos cuarenta y tres metros por segundo y obtienen quinientos veinticinco microsegundos.",
+  "source": "Libro del curso (TEX/PDF), Unidad 7; brief, storyboard y planes U07; elaboración propia UCASAL.",
+  "footer": "Figura conceptual; no está a escala salvo indicación explícita.",
+  "options": {},
+  "nodes": [
+    {
+      "id": "stage_1",
+      "x": 82,
+      "y": 235,
+      "w": 204,
+      "h": 240,
+      "title": "Datos",
+      "body": "d = 0,180 m\nc = 343 m/s",
+      "style": "physical",
+      "role": "node"
+    },
+    {
+      "id": "stage_2",
+      "x": 386,
+      "y": 235,
+      "w": 204,
+      "h": 240,
+      "title": "Dividir",
+      "body": "0,180 / 343 s",
+      "style": "accent",
+      "role": "node"
+    },
+    {
+      "id": "stage_3",
+      "x": 690,
+      "y": 235,
+      "w": 204,
+      "h": 240,
+      "title": "Convertir",
+      "body": "0,000525 s",
+      "style": "neutral",
+      "role": "node"
+    },
+    {
+      "id": "stage_4",
+      "x": 994,
+      "y": 235,
+      "w": 204,
+      "h": 240,
+      "title": "Resultado",
+      "body": "≈ 525 μs\norden de magnitud",
+      "style": "clinical",
+      "role": "node"
+    }
+  ],
+  "edges": [
+    {
+      "id": "flow_1",
+      "from": "stage_1",
+      "to": "stage_2",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "elbow"
+    },
+    {
+      "id": "flow_2",
+      "from": "stage_2",
+      "to": "stage_3",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "elbow"
+    },
+    {
+      "id": "flow_3",
+      "from": "stage_3",
+      "to": "stage_4",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "elbow"
+    }
+  ],
+  "labelBoxes": []
+}

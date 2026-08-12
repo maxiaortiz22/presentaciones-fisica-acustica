@@ -1,0 +1,174 @@
+{
+  "id": "U07-DG-011",
+  "classification": "diagrama de proceso",
+  "title": "Cada punto isofónico surge de una comparación",
+  "template": "flow",
+  "items": [
+    {
+      "title": "Referencia",
+      "body": "1 kHz",
+      "style": "physical"
+    },
+    {
+      "title": "Tono de prueba",
+      "body": "otra frecuencia",
+      "style": "physical"
+    },
+    {
+      "title": "Ajuste",
+      "body": "cambiar nivel",
+      "style": "accent"
+    },
+    {
+      "title": "Juicio",
+      "body": "igual sonoridad",
+      "style": "clinical"
+    },
+    {
+      "title": "Punto",
+      "body": "registrar y repetir",
+      "style": "neutral"
+    }
+  ],
+  "caption": "Proceso conceptual de construcción de una curva de igual sonoridad.",
+  "alt": "Cinco etapas conectadas: referencia de un kilohertz, tono de prueba, ajuste de nivel, juicio de igual sonoridad y registro del punto.",
+  "source": "Libro del curso (TEX/PDF), Unidad 7; brief, storyboard y planes U07; elaboración propia UCASAL.",
+  "footer": "Figura conceptual; no está a escala salvo indicación explícita.",
+  "options": {
+    "labels": [
+      "comparar",
+      "ajustar",
+      "igualar",
+      "repetir"
+    ]
+  },
+  "nodes": [
+    {
+      "id": "stage_1",
+      "x": 82,
+      "y": 150,
+      "w": 272,
+      "h": 165,
+      "title": "Referencia",
+      "body": "1 kHz",
+      "style": "physical",
+      "role": "node"
+    },
+    {
+      "id": "stage_2",
+      "x": 504,
+      "y": 150,
+      "w": 272,
+      "h": 165,
+      "title": "Tono de prueba",
+      "body": "otra frecuencia",
+      "style": "physical",
+      "role": "node"
+    },
+    {
+      "id": "stage_3",
+      "x": 926,
+      "y": 150,
+      "w": 272,
+      "h": 165,
+      "title": "Ajuste",
+      "body": "cambiar nivel",
+      "style": "accent",
+      "role": "node"
+    },
+    {
+      "id": "stage_4",
+      "x": 715,
+      "y": 420,
+      "w": 483,
+      "h": 165,
+      "title": "Juicio",
+      "body": "igual sonoridad",
+      "style": "clinical",
+      "role": "node"
+    },
+    {
+      "id": "stage_5",
+      "x": 82,
+      "y": 420,
+      "w": 483,
+      "h": 165,
+      "title": "Punto",
+      "body": "registrar y repetir",
+      "style": "neutral",
+      "role": "node"
+    }
+  ],
+  "edges": [
+    {
+      "id": "flow_1",
+      "from": "stage_1",
+      "to": "stage_2",
+      "semantic": "comparar",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "elbow"
+    },
+    {
+      "id": "flow_2",
+      "from": "stage_2",
+      "to": "stage_3",
+      "semantic": "ajustar",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "elbow"
+    },
+    {
+      "id": "flow_3",
+      "from": "stage_3",
+      "to": "stage_4",
+      "semantic": "igualar",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "kind": "elbow"
+    },
+    {
+      "id": "flow_4",
+      "from": "stage_4",
+      "to": "stage_5",
+      "semantic": "repetir",
+      "fromSide": "left",
+      "toSide": "right",
+      "kind": "elbow"
+    }
+  ],
+  "labelBoxes": [
+    {
+      "id": "label_1",
+      "x": 364,
+      "y": 164,
+      "w": 130,
+      "h": 42,
+      "text": "comparar"
+    },
+    {
+      "id": "label_2",
+      "x": 786,
+      "y": 164,
+      "w": 130,
+      "h": 42,
+      "text": "ajustar"
+    },
+    {
+      "id": "label_3",
+      "x": 786.5,
+      "y": 345,
+      "w": 130,
+      "h": 42,
+      "text": "igualar"
+    },
+    {
+      "id": "label_4",
+      "x": 575,
+      "y": 434,
+      "w": 130,
+      "h": 42,
+      "text": "repetir"
+    }
+  ]
+}

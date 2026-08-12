@@ -1,0 +1,97 @@
+{
+  "id": "U07-DG-012B",
+  "classification": "diagrama conceptual",
+  "title": "Una señal puede cambiar en más de una dimensión perceptual",
+  "template": "branch",
+  "items": [
+    {
+      "title": "Señal acústica",
+      "body": "múltiples descriptores",
+      "style": "physical"
+    },
+    {
+      "title": "Altura tonal",
+      "body": "principalmente frecuencia",
+      "style": "clinical"
+    },
+    {
+      "title": "Sonoridad",
+      "body": "nivel + frecuencia + tiempo",
+      "style": "clinical"
+    },
+    {
+      "title": "Timbre",
+      "body": "espectro + tiempo",
+      "style": "clinical"
+    },
+    {
+      "title": "Duración",
+      "body": "estructura temporal",
+      "style": "clinical"
+    }
+  ],
+  "caption": "Enlaces secundarios recuerdan que las correspondencias no son uno a uno.",
+  "alt": "Una señal acústica central se relaciona con altura tonal, sonoridad, timbre y duración.",
+  "source": "Libro del curso (TEX/PDF), Unidad 7; brief, storyboard y planes U07; elaboración propia UCASAL.",
+  "footer": "Figura conceptual; no está a escala salvo indicación explícita.",
+  "options": {},
+  "nodes": [
+    {
+      "id": "central",
+      "x": 82,
+      "y": 245,
+      "w": 300,
+      "h": 220,
+      "title": "Señal acústica",
+      "body": "múltiples descriptores",
+      "style": "physical",
+      "role": "node"
+    },
+    {
+      "id": "branch_1",
+      "x": 465,
+      "y": 140,
+      "w": 345,
+      "h": 212.5,
+      "title": "Altura tonal",
+      "body": "principalmente frecuencia",
+      "style": "clinical",
+      "role": "node"
+    },
+    {
+      "id": "branch_2",
+      "x": 845,
+      "y": 140,
+      "w": 345,
+      "h": 212.5,
+      "title": "Sonoridad",
+      "body": "nivel + frecuencia + tiempo",
+      "style": "clinical",
+      "role": "node"
+    },
+    {
+      "id": "branch_3",
+      "x": 465,
+      "y": 367.5,
+      "w": 345,
+      "h": 212.5,
+      "title": "Timbre",
+      "body": "espectro + tiempo",
+      "style": "clinical",
+      "role": "node"
+    },
+    {
+      "id": "branch_4",
+      "x": 845,
+      "y": 367.5,
+      "w": 345,
+      "h": 212.5,
+      "title": "Duración",
+      "body": "estructura temporal",
+      "style": "clinical",
+      "role": "node"
+    }
+  ],
+  "edges": [],
+  "labelBoxes": []
+}

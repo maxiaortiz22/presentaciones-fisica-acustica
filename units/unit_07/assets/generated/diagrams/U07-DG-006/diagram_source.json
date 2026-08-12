@@ -1,0 +1,129 @@
+{
+  "id": "U07-DG-006",
+  "classification": "diagrama conceptual",
+  "title": "Un dato psicofísico necesita sus condiciones",
+  "template": "branch",
+  "items": [
+    {
+      "title": "Resultado observado",
+      "body": "valor + unidad",
+      "style": "accent"
+    },
+    {
+      "title": "Señal",
+      "body": "frecuencia · duración",
+      "style": "physical"
+    },
+    {
+      "title": "Nivel",
+      "body": "referencia · banda",
+      "style": "physical"
+    },
+    {
+      "title": "Tarea",
+      "body": "criterio",
+      "style": "neutral"
+    },
+    {
+      "title": "Ambiente",
+      "body": "ruido · recinto",
+      "style": "neutral"
+    },
+    {
+      "title": "Oyente",
+      "body": "estado · experiencia",
+      "style": "clinical"
+    },
+    {
+      "title": "Procedimiento",
+      "body": "orden · repeticiones",
+      "style": "clinical"
+    }
+  ],
+  "caption": "Seis condiciones delimitan el alcance de un resultado psicofísico.",
+  "alt": "Un resultado central se relaciona con señal, nivel, tarea, ambiente, oyente y procedimiento.",
+  "source": "Libro del curso (TEX/PDF), Unidad 7; brief, storyboard y planes U07; elaboración propia UCASAL.",
+  "footer": "Figura conceptual; no está a escala salvo indicación explícita.",
+  "options": {},
+  "nodes": [
+    {
+      "id": "central",
+      "x": 82,
+      "y": 245,
+      "w": 300,
+      "h": 220,
+      "title": "Resultado observado",
+      "body": "valor + unidad",
+      "style": "accent",
+      "role": "node"
+    },
+    {
+      "id": "branch_1",
+      "x": 465,
+      "y": 140,
+      "w": 345,
+      "h": 136.66666666666666,
+      "title": "Señal",
+      "body": "frecuencia · duración",
+      "style": "physical",
+      "role": "node"
+    },
+    {
+      "id": "branch_2",
+      "x": 845,
+      "y": 140,
+      "w": 345,
+      "h": 136.66666666666666,
+      "title": "Nivel",
+      "body": "referencia · banda",
+      "style": "physical",
+      "role": "node"
+    },
+    {
+      "id": "branch_3",
+      "x": 465,
+      "y": 291.66666666666663,
+      "w": 345,
+      "h": 136.66666666666666,
+      "title": "Tarea",
+      "body": "criterio",
+      "style": "neutral",
+      "role": "node"
+    },
+    {
+      "id": "branch_4",
+      "x": 845,
+      "y": 291.66666666666663,
+      "w": 345,
+      "h": 136.66666666666666,
+      "title": "Ambiente",
+      "body": "ruido · recinto",
+      "style": "neutral",
+      "role": "node"
+    },
+    {
+      "id": "branch_5",
+      "x": 465,
+      "y": 443.3333333333333,
+      "w": 345,
+      "h": 136.66666666666666,
+      "title": "Oyente",
+      "body": "estado · experiencia",
+      "style": "clinical",
+      "role": "node"
+    },
+    {
+      "id": "branch_6",
+      "x": 845,
+      "y": 443.3333333333333,
+      "w": 345,
+      "h": 136.66666666666666,
+      "title": "Procedimiento",
+      "body": "orden · repeticiones",
+      "style": "clinical",
+      "role": "node"
+    }
+  ],
+  "edges": [],
+  "labelBoxes": []
+}

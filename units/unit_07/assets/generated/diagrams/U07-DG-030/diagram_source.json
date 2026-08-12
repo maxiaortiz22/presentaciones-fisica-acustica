@@ -1,0 +1,109 @@
+{
+  "id": "U07-DG-030",
+  "classification": "ecuación anotada",
+  "title": "El retardo depende de la diferencia de recorridos",
+  "template": "equation",
+  "items": [
+    {
+      "title": "Δt = (r_r − r_d) / c",
+      "body": "segundos = metros / (metros por segundo)",
+      "style": "equation"
+    },
+    {
+      "title": "r_r − r_d",
+      "body": "diferencia de camino · m",
+      "style": "physical"
+    },
+    {
+      "title": "c",
+      "body": "rapidez del sonido · m/s",
+      "style": "accent"
+    },
+    {
+      "title": "Δt",
+      "body": "retardo de llegada · s",
+      "style": "clinical"
+    }
+  ],
+  "caption": "Ecuación anotada del retardo entre llegada reflejada y directa.",
+  "alt": "Ecuación central delta t igual diferencia de recorridos dividida por rapidez, con tres llamadas externas.",
+  "source": "Libro del curso (TEX/PDF), Unidad 7; brief, storyboard y planes U07; elaboración propia UCASAL.",
+  "footer": "Figura conceptual; no está a escala salvo indicación explícita.",
+  "options": {},
+  "nodes": [
+    {
+      "id": "equation",
+      "x": 160,
+      "y": 250,
+      "w": 960,
+      "h": 205,
+      "title": "Δt = (r_r − r_d) / c",
+      "body": "segundos = metros / (metros por segundo)",
+      "style": "equation",
+      "role": "equation"
+    },
+    {
+      "id": "callout_1",
+      "x": 72,
+      "y": 95,
+      "w": 320,
+      "h": 145,
+      "title": "r_r − r_d",
+      "body": "diferencia de camino · m",
+      "style": "physical",
+      "role": "callout"
+    },
+    {
+      "id": "callout_2",
+      "x": 888,
+      "y": 95,
+      "w": 320,
+      "h": 145,
+      "title": "c",
+      "body": "rapidez del sonido · m/s",
+      "style": "accent",
+      "role": "callout"
+    },
+    {
+      "id": "callout_3",
+      "x": 72,
+      "y": 465,
+      "w": 320,
+      "h": 140,
+      "title": "Δt",
+      "body": "retardo de llegada · s",
+      "style": "clinical",
+      "role": "callout"
+    }
+  ],
+  "edges": [
+    {
+      "id": "leader_1",
+      "from": "callout_1",
+      "to": "equation",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "straight"
+    },
+    {
+      "id": "leader_2",
+      "from": "callout_2",
+      "to": "equation",
+      "semantic": "",
+      "fromSide": "left",
+      "toSide": "right",
+      "kind": "straight"
+    },
+    {
+      "id": "leader_3",
+      "from": "callout_3",
+      "to": "equation",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "straight"
+    }
+  ],
+  "labelBoxes": []
+}

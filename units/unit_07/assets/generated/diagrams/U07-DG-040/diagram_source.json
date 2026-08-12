@@ -1,0 +1,113 @@
+{
+  "id": "U07-DG-040",
+  "classification": "diagrama conceptual",
+  "title": "Segregar una fuente combina pistas físicas y selección",
+  "template": "branch",
+  "items": [
+    {
+      "title": "Agrupamiento perceptual",
+      "body": "formar y seguir un objeto",
+      "style": "clinical"
+    },
+    {
+      "title": "Frecuencia/timbre",
+      "body": "similitud",
+      "style": "physical"
+    },
+    {
+      "title": "Tiempo",
+      "body": "inicio · continuidad",
+      "style": "physical"
+    },
+    {
+      "title": "Espacio",
+      "body": "ITD · ILD · espectro",
+      "style": "accent"
+    },
+    {
+      "title": "Atención",
+      "body": "meta de la tarea",
+      "style": "neutral"
+    },
+    {
+      "title": "Conocimiento",
+      "body": "lengua · contexto",
+      "style": "neutral"
+    }
+  ],
+  "caption": "Cinco pistas convergen en el agrupamiento de una fuente.",
+  "alt": "Frecuencia y timbre, tiempo, espacio, atención y conocimiento convergen en agrupamiento perceptual.",
+  "source": "Libro del curso (TEX/PDF), Unidad 7; brief, storyboard y planes U07; elaboración propia UCASAL.",
+  "footer": "Figura conceptual; no está a escala salvo indicación explícita.",
+  "options": {},
+  "nodes": [
+    {
+      "id": "central",
+      "x": 82,
+      "y": 245,
+      "w": 300,
+      "h": 220,
+      "title": "Agrupamiento perceptual",
+      "body": "formar y seguir un objeto",
+      "style": "clinical",
+      "role": "node"
+    },
+    {
+      "id": "branch_1",
+      "x": 465,
+      "y": 140,
+      "w": 345,
+      "h": 136.66666666666666,
+      "title": "Frecuencia/timbre",
+      "body": "similitud",
+      "style": "physical",
+      "role": "node"
+    },
+    {
+      "id": "branch_2",
+      "x": 845,
+      "y": 140,
+      "w": 345,
+      "h": 136.66666666666666,
+      "title": "Tiempo",
+      "body": "inicio · continuidad",
+      "style": "physical",
+      "role": "node"
+    },
+    {
+      "id": "branch_3",
+      "x": 465,
+      "y": 291.66666666666663,
+      "w": 345,
+      "h": 136.66666666666666,
+      "title": "Espacio",
+      "body": "ITD · ILD · espectro",
+      "style": "accent",
+      "role": "node"
+    },
+    {
+      "id": "branch_4",
+      "x": 845,
+      "y": 291.66666666666663,
+      "w": 345,
+      "h": 136.66666666666666,
+      "title": "Atención",
+      "body": "meta de la tarea",
+      "style": "neutral",
+      "role": "node"
+    },
+    {
+      "id": "branch_5",
+      "x": 465,
+      "y": 443.3333333333333,
+      "w": 345,
+      "h": 136.66666666666666,
+      "title": "Conocimiento",
+      "body": "lengua · contexto",
+      "style": "neutral",
+      "role": "node"
+    }
+  ],
+  "edges": [],
+  "labelBoxes": []
+}

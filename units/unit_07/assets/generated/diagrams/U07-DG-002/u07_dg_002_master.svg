@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+<defs><marker id="arrow" markerWidth="10" markerHeight="8" refX="8" refY="4" orient="auto"><path d="M0,0 L9,4 L0,8 Z" fill="#3D3D3D"/></marker></defs>
+<rect width="1280" height="720" fill="white"/>
+<rect x="72" y="27" width="390" height="6" fill="#4D1434"/><rect x="472" y="27" width="390" height="6" fill="#903163"/><rect x="872" y="27" width="336" height="6" fill="#969FA7"/>
+<text x="72" y="82" font-family="Calibri,Arial,sans-serif" font-size="40" font-weight="700" fill="#3D3D3D">Una magnitud física no es su correlato perceptual</text>
+<rect id="cell_1" x="82" y="150" width="258" height="200" rx="8" fill="#E7F1F1" stroke="#2F7E83" stroke-width="2"/>
+<text x="211" y="197" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#2F7E83">Frecuencia,</text>
+<text x="211" y="235" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#2F7E83">f</text>
+<text x="211" y="279" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">Hz</text>
+<rect id="cell_2" x="368" y="150" width="258" height="200" rx="8" fill="#F8EDE2" stroke="#9F541A" stroke-width="2"/>
+<text x="497" y="197" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#9F541A">Altura tonal</text>
+<text x="497" y="245" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">respuesta</text>
+<text x="497" y="277" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">perceptual</text>
+<rect id="cell_3" x="654" y="150" width="258" height="200" rx="8" fill="#E7F1F1" stroke="#2F7E83" stroke-width="2"/>
+<text x="783" y="197" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#2F7E83">Nivel, L_p</text>
+<text x="783" y="245" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">dB SPL</text>
+<rect id="cell_4" x="940" y="150" width="258" height="200" rx="8" fill="#F8EDE2" stroke="#9F541A" stroke-width="2"/>
+<text x="1069" y="197" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#9F541A">Sonoridad</text>
+<text x="1069" y="245" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">fon o son</text>
+<rect id="cell_5" x="82" y="380" width="258" height="200" rx="8" fill="#E7F1F1" stroke="#2F7E83" stroke-width="2"/>
+<text x="211" y="427" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#2F7E83">Espectro</text>
+<text x="211" y="475" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">amplitud y</text>
+<text x="211" y="507" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">frecuencia</text>
+<rect id="cell_6" x="368" y="380" width="258" height="200" rx="8" fill="#F8EDE2" stroke="#9F541A" stroke-width="2"/>
+<text x="497" y="427" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#9F541A">Timbre</text>
+<text x="497" y="475" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">atributo</text>
+<text x="497" y="507" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">perceptual</text>
+<rect id="cell_7" x="654" y="380" width="258" height="200" rx="8" fill="#E7F1F1" stroke="#2F7E83" stroke-width="2"/>
+<text x="783" y="427" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#2F7E83">Tiempo</text>
+<text x="783" y="475" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">s o ms</text>
+<rect id="cell_8" x="940" y="380" width="258" height="200" rx="8" fill="#F8EDE2" stroke="#9F541A" stroke-width="2"/>
+<text x="1069" y="427" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#9F541A">Duración</text>
+<text x="1069" y="465" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#9F541A">percibida</text>
+<text x="1069" y="509" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">respuesta</text>
+<text x="1069" y="541" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">temporal</text>
+<text x="640" y="628" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="22" fill="#3D3D3D">Figura conceptual; no está a escala salvo indicación explícita.</text>
+<text x="72" y="690" font-family="Calibri,Arial,sans-serif" font-size="16" fill="#969FA7">Libro del curso (TEX/PDF), Unidad 7; brief, storyboard y planes U07; elaboración propia UCASAL.</text>
+</svg>

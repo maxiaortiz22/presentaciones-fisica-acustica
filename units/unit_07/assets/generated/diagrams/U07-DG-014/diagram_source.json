@@ -1,0 +1,109 @@
+{
+  "id": "U07-DG-014",
+  "classification": "diagrama de proceso",
+  "title": "La referencia de 1 kHz conecta fones y sones",
+  "template": "flow",
+  "items": [
+    {
+      "title": "Tono de 1 kHz",
+      "body": "nivel conocido",
+      "style": "physical"
+    },
+    {
+      "title": "Igualar sonoridad",
+      "body": "tarea",
+      "style": "accent"
+    },
+    {
+      "title": "Asignar L_N",
+      "body": "valor en fon",
+      "style": "clinical"
+    },
+    {
+      "title": "Referencia de razón",
+      "body": "40 fon ↔ 1 son",
+      "style": "clinical"
+    }
+  ],
+  "caption": "Construcción conceptual de las referencias de fon y son.",
+  "alt": "Cuatro etapas conectan tono de un kilohertz, igualdad de sonoridad, nivel en fones y referencia cuarenta fon equivalente a un son.",
+  "source": "Libro del curso (TEX/PDF), Unidad 7; brief, storyboard y planes U07; elaboración propia UCASAL.",
+  "footer": "Figura conceptual; no está a escala salvo indicación explícita.",
+  "options": {},
+  "nodes": [
+    {
+      "id": "stage_1",
+      "x": 82,
+      "y": 235,
+      "w": 204,
+      "h": 240,
+      "title": "Tono de 1 kHz",
+      "body": "nivel conocido",
+      "style": "physical",
+      "role": "node"
+    },
+    {
+      "id": "stage_2",
+      "x": 386,
+      "y": 235,
+      "w": 204,
+      "h": 240,
+      "title": "Igualar sonoridad",
+      "body": "tarea",
+      "style": "accent",
+      "role": "node"
+    },
+    {
+      "id": "stage_3",
+      "x": 690,
+      "y": 235,
+      "w": 204,
+      "h": 240,
+      "title": "Asignar L_N",
+      "body": "valor en fon",
+      "style": "clinical",
+      "role": "node"
+    },
+    {
+      "id": "stage_4",
+      "x": 994,
+      "y": 235,
+      "w": 204,
+      "h": 240,
+      "title": "Referencia de razón",
+      "body": "40 fon ↔ 1 son",
+      "style": "clinical",
+      "role": "node"
+    }
+  ],
+  "edges": [
+    {
+      "id": "flow_1",
+      "from": "stage_1",
+      "to": "stage_2",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "elbow"
+    },
+    {
+      "id": "flow_2",
+      "from": "stage_2",
+      "to": "stage_3",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "elbow"
+    },
+    {
+      "id": "flow_3",
+      "from": "stage_3",
+      "to": "stage_4",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "elbow"
+    }
+  ],
+  "labelBoxes": []
+}

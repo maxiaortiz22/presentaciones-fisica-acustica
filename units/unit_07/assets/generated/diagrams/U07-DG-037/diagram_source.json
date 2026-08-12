@@ -1,0 +1,112 @@
+{
+  "id": "U07-DG-037",
+  "classification": "esquema mixto",
+  "title": "Direcciones distintas pueden producir pistas binaurales semejantes",
+  "template": "spatial",
+  "items": [
+    {
+      "title": "Cabeza",
+      "body": "centro del modelo",
+      "style": "accent"
+    },
+    {
+      "title": "Posición A",
+      "body": "dirección 1",
+      "style": "physical"
+    },
+    {
+      "title": "Posición B",
+      "body": "dirección 2",
+      "style": "clinical"
+    },
+    {
+      "title": "Superficie de ambigüedad",
+      "body": "cono de confusión",
+      "style": "neutral"
+    }
+  ],
+  "caption": "Prototipo estático del cono de confusión.",
+  "alt": "Cabeza conceptual con dos posiciones sobre una misma superficie de ambigüedad; no es un render anatómico tridimensional.",
+  "source": "Libro del curso (TEX/PDF), Unidad 7; brief, storyboard y planes U07; elaboración propia UCASAL.",
+  "footer": "Figura conceptual; no está a escala salvo indicación explícita.",
+  "options": {},
+  "nodes": [
+    {
+      "id": "spatial_1",
+      "x": 500,
+      "y": 240,
+      "w": 280,
+      "h": 210,
+      "title": "Cabeza",
+      "body": "centro del modelo",
+      "style": "accent",
+      "role": "node"
+    },
+    {
+      "id": "spatial_2",
+      "x": 90,
+      "y": 125,
+      "w": 300,
+      "h": 170,
+      "title": "Posición A",
+      "body": "dirección 1",
+      "style": "physical",
+      "role": "node"
+    },
+    {
+      "id": "spatial_3",
+      "x": 890,
+      "y": 125,
+      "w": 300,
+      "h": 170,
+      "title": "Posición B",
+      "body": "dirección 2",
+      "style": "clinical",
+      "role": "node"
+    },
+    {
+      "id": "spatial_4",
+      "x": 90,
+      "y": 420,
+      "w": 300,
+      "h": 170,
+      "title": "Superficie de ambigüedad",
+      "body": "cono de confusión",
+      "style": "neutral",
+      "role": "node"
+    }
+  ],
+  "edges": [
+    {
+      "id": "spatial_edge_1",
+      "from": "spatial_2",
+      "to": "spatial_1",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "straight",
+      "arrow": false
+    },
+    {
+      "id": "spatial_edge_2",
+      "from": "spatial_3",
+      "to": "spatial_1",
+      "semantic": "",
+      "fromSide": "left",
+      "toSide": "right",
+      "kind": "straight",
+      "arrow": false
+    },
+    {
+      "id": "spatial_edge_3",
+      "from": "spatial_4",
+      "to": "spatial_1",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "straight",
+      "arrow": false
+    }
+  ],
+  "labelBoxes": []
+}

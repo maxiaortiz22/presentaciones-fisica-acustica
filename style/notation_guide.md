@@ -16,6 +16,7 @@
 10. No mezclar valores instantáneos, pico, pico a pico, promedio y RMS sin subíndice.
 11. No escribir un número en dB sin especificar magnitud, referencia y ponderación cuando sean relevantes.
 12. Mantener las ecuaciones editables en los entregables posteriores.
+13. En el material visible, representar subíndices y valor absoluto con tipografía matemática: `L_N`, `N_\mathrm{son}`, `T_60`, `f_\mathrm{obj}` y `\lvert\Delta t_\mathrm{LR}\rvert`. Los guiones bajos pueden aparecer en Markdown o código, pero no deben convertirse en paréntesis como `L(N)`, `T(60)` o `f(obj)`, ni en funciones de programación como `abs(...)`.
 
 ## Magnitudes básicas y mecánicas
 
@@ -165,7 +166,7 @@ solo cuando `x²` es proporcional a la magnitud de potencia bajo las mismas cond
 | nivel de audición | nivel en dB HL | cero audiométrico normativo | `dB HL`, frecuencia y transductor |
 | nivel de sensación | nivel en dB SL | umbral individual | `dB SL re umbral ...` |
 | nivel de sonoridad | `L_N` si se necesita | comparación psicofísica | unidad: fon, no dB |
-| sonoridad | `N` | escala de razones perceptuales | unidad: son |
+| sonoridad | `N_\mathrm{son}` | escala de razones perceptuales | unidad: son; evita colisión con el número de muestras `N` de U5 |
 
 Reglas:
 
@@ -232,13 +233,18 @@ Para gráficos espectrales, indicar:
 | Concepto | Símbolo/abreviatura | Unidad | Convención |
 |---|---:|---:|---|
 | umbral auditivo | `L_\mathrm{umbral}(f)` | dB SPL o dB HL | Declarar procedimiento y escala. |
+| nivel umbral en quietud | `L_{\mathrm{umbral,q}}(f_\mathrm{obj})` | dB con referencia declarada | La coma `q` identifica quietud; mantener frecuencia objetivo, procedimiento y referencia. |
+| nivel umbral enmascarado | `L_{\mathrm{umbral,e}}(f_\mathrm{obj})` | dB con la misma referencia | La coma `e` identifica presencia del enmascarador; debe compararse con el umbral en quietud bajo el mismo procedimiento. |
+| cantidad de enmascaramiento | `M(f_\mathrm{obj})` | dB | `M=L_{\mathrm{umbral,e}}-L_{\mathrm{umbral,q}}`; no es el nivel del enmascarador. |
+| diferencia campo–tímpano | `G_\mathrm{CT}(f)` | dB | `G_\mathrm{CT}=L_{p,\mathrm{T}}-L_{p,\mathrm{campo}}` para la misma frecuencia, campo, posición y procedimiento; no es ganancia de sonoridad. |
 | nivel de sonoridad | `L_N` | fon | Relativo a tono de referencia según procedimiento. |
 | sonoridad | `N_\mathrm{son}` | son | Calificar si aparece `N` de número de muestras. |
 | tiempo de reverberación | `T_60` | s | Si se estima desde 20 o 30 dB, indicar `T_20`/`T_30` y extrapolación. |
-| pérdida de consonantes | `ALCons` | % | Usar solo dentro del modelo y condiciones que lo sustentan. |
-| diferencia interaural de tiempo | `ITD` | µs o ms | Desarrollar sigla en español. |
-| diferencia interaural de nivel | `ILD` | dB | Puede variar con frecuencia y posición. |
-| ancho de banda rectangular equivalente | `ERB` | Hz | Definir el modelo empleado. |
+| relación señal-ruido | `SNR` | dB o razón | Para niveles comparables, `SNR=L_{p,\mathrm{s}}-L_{p,\mathrm{n}}`; declarar posición, banda, ponderación, referencia e intervalo. |
+| pérdida de consonantes | `ALCons` | % | `ALCons=100(1-n_\mathrm{c}/n_\mathrm{p})\,%`, con `n_p` presentadas y `n_c` correctas; describe la prueba observada, no una predicción universal. |
+| diferencia interaural de tiempo | `ITD` o `\Delta t_\mathrm{LR}` | µs o ms | Desarrollar sigla en español y declarar el orden izquierda–derecha; para una cota usar `\lvert\Delta t_\mathrm{LR}\rvert`. |
+| diferencia interaural de nivel | `ILD` | dB | `ILD=L_{p,\mathrm{L}}-L_{p,\mathrm{R}}` con niveles comparables; puede variar con frecuencia y posición. |
+| ancho de banda rectangular equivalente | `ERB` o `\mathrm{ERB}_N(f_c)` | Hz | Definir modelo y frecuencia central; el subíndice `N` se conserva cuando identifica la aproximación para audición normal del modelo utilizado. |
 
 ## Audiología y rehabilitación
 

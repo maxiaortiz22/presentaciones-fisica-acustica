@@ -1,0 +1,109 @@
+{
+  "id": "U07-DG-043",
+  "classification": "diagrama de proceso",
+  "title": "La psicoacústica abre tres preguntas futuras",
+  "template": "branch",
+  "items": [
+    {
+      "title": "Unidad 7",
+      "body": "percepción condicionada",
+      "style": "accent"
+    },
+    {
+      "title": "Unidad 8",
+      "body": "¿qué cambia con enfermedad y rehabilitación?",
+      "style": "clinical"
+    },
+    {
+      "title": "Unidad 9",
+      "body": "¿cómo modifica el medio y el recinto?",
+      "style": "physical"
+    },
+    {
+      "title": "Unidad 10",
+      "body": "¿cómo se caracteriza y controla el ruido?",
+      "style": "neutral"
+    }
+  ],
+  "caption": "Puente desde la Unidad 7 hacia las Unidades 8, 9 y 10.",
+  "alt": "Una caja de Unidad 7 se bifurca hacia tres destinos con preguntas sobre enfermedad, propagación y ruido.",
+  "source": "Libro del curso (TEX/PDF), Unidad 7; brief, storyboard y planes U07; elaboración propia UCASAL.",
+  "footer": "Figura conceptual; no está a escala salvo indicación explícita.",
+  "options": {},
+  "nodes": [
+    {
+      "id": "central",
+      "x": 390,
+      "y": 135,
+      "w": 500,
+      "h": 150,
+      "title": "Unidad 7",
+      "body": "percepción condicionada",
+      "style": "accent",
+      "role": "node"
+    },
+    {
+      "id": "branch_1",
+      "x": 82,
+      "y": 365,
+      "w": 345.3333333333333,
+      "h": 200,
+      "title": "Unidad 8",
+      "body": "¿qué cambia con enfermedad y rehabilitación?",
+      "style": "clinical",
+      "role": "node"
+    },
+    {
+      "id": "branch_2",
+      "x": 467.3333333333333,
+      "y": 365,
+      "w": 345.3333333333333,
+      "h": 200,
+      "title": "Unidad 9",
+      "body": "¿cómo modifica el medio y el recinto?",
+      "style": "physical",
+      "role": "node"
+    },
+    {
+      "id": "branch_3",
+      "x": 852.6666666666666,
+      "y": 365,
+      "w": 345.3333333333333,
+      "h": 200,
+      "title": "Unidad 10",
+      "body": "¿cómo se caracteriza y controla el ruido?",
+      "style": "neutral",
+      "role": "node"
+    }
+  ],
+  "edges": [
+    {
+      "id": "branch_edge_1",
+      "from": "central",
+      "to": "branch_1",
+      "semantic": "",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "kind": "elbow"
+    },
+    {
+      "id": "branch_edge_2",
+      "from": "central",
+      "to": "branch_2",
+      "semantic": "",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "kind": "elbow"
+    },
+    {
+      "id": "branch_edge_3",
+      "from": "central",
+      "to": "branch_3",
+      "semantic": "",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "kind": "elbow"
+    }
+  ],
+  "labelBoxes": []
+}

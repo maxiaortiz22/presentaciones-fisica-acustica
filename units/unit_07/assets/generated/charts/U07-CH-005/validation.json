@@ -1,0 +1,38 @@
+{
+  "asset_id": "U07-CH-005",
+  "classification": "gráfico cuantitativo",
+  "canvas_px": [
+    2560,
+    1440
+  ],
+  "slide_ratio": "16:9",
+  "scale": "ejes lineales",
+  "conceptual": false,
+  "not_to_scale": false,
+  "font_floor_pt": {
+    "axis_label": 20,
+    "ticks_legend": 18,
+    "annotation": 22
+  },
+  "checks": {
+    "f0_Hz": 200,
+    "harmonic_spacing_Hz": true,
+    "missing_condition_has_f0": false,
+    "level_range_dB": [
+      -18.06179973983887,
+      0.0
+    ]
+  },
+  "file_checks": {
+    "png_2560x1440": true,
+    "svg_parseable": true,
+    "data_rows": 8,
+    "variants": []
+  },
+  "critical_issues": 0,
+  "major_issues": 0,
+  "status": "approved",
+  "iterations": 2,
+  "individual_render": true,
+  "full_slide_render": true
+}

@@ -1,0 +1,113 @@
+{
+  "id": "U07-DG-022C",
+  "classification": "diagrama conceptual",
+  "title": "Dos mecanismos pueden coexistir",
+  "template": "grid",
+  "items": [
+    {
+      "title": "Competencia energética",
+      "body": "solapamiento de canales",
+      "style": "physical"
+    },
+    {
+      "title": "Competencia informacional",
+      "body": "selección de fuente",
+      "style": "clinical"
+    },
+    {
+      "title": "Pista espectral",
+      "body": "separación física",
+      "style": "neutral"
+    },
+    {
+      "title": "Pista espacial",
+      "body": "separación de dirección",
+      "style": "accent"
+    },
+    {
+      "title": "Tarea",
+      "body": "qué hay que reconocer",
+      "style": "neutral"
+    },
+    {
+      "title": "Oyente",
+      "body": "audición y atención",
+      "style": "clinical"
+    }
+  ],
+  "caption": "Matriz de mecanismos y condiciones que pueden combinarse.",
+  "alt": "Seis celdas organizan competencia energética, informacional y cuatro moduladores.",
+  "source": "Libro del curso (TEX/PDF), Unidad 7; brief, storyboard y planes U07; elaboración propia UCASAL.",
+  "footer": "Figura conceptual; no está a escala salvo indicación explícita.",
+  "options": {},
+  "nodes": [
+    {
+      "id": "cell_1",
+      "x": 82,
+      "y": 150,
+      "w": 353.3333333333333,
+      "h": 200,
+      "title": "Competencia energética",
+      "body": "solapamiento de canales",
+      "style": "physical",
+      "role": "node"
+    },
+    {
+      "id": "cell_2",
+      "x": 463.3333333333333,
+      "y": 150,
+      "w": 353.3333333333333,
+      "h": 200,
+      "title": "Competencia informacional",
+      "body": "selección de fuente",
+      "style": "clinical",
+      "role": "node"
+    },
+    {
+      "id": "cell_3",
+      "x": 844.6666666666666,
+      "y": 150,
+      "w": 353.3333333333333,
+      "h": 200,
+      "title": "Pista espectral",
+      "body": "separación física",
+      "style": "neutral",
+      "role": "node"
+    },
+    {
+      "id": "cell_4",
+      "x": 82,
+      "y": 380,
+      "w": 353.3333333333333,
+      "h": 200,
+      "title": "Pista espacial",
+      "body": "separación de dirección",
+      "style": "accent",
+      "role": "node"
+    },
+    {
+      "id": "cell_5",
+      "x": 463.3333333333333,
+      "y": 380,
+      "w": 353.3333333333333,
+      "h": 200,
+      "title": "Tarea",
+      "body": "qué hay que reconocer",
+      "style": "neutral",
+      "role": "node"
+    },
+    {
+      "id": "cell_6",
+      "x": 844.6666666666666,
+      "y": 380,
+      "w": 353.3333333333333,
+      "h": 200,
+      "title": "Oyente",
+      "body": "audición y atención",
+      "style": "clinical",
+      "role": "node"
+    }
+  ],
+  "edges": [],
+  "labelBoxes": []
+}

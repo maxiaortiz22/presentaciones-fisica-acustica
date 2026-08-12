@@ -1,0 +1,72 @@
+{
+  "asset_id": "U07-DG-041",
+  "classification": "esquema mixto",
+  "canvas_px": [
+    1280,
+    720
+  ],
+  "slide_ratio": "16:9",
+  "font_floor": {
+    "node_title_pt": 24,
+    "node_body_pt": 22.5,
+    "connector_label_pt": 20.25,
+    "equation_pt": 34.5
+  },
+  "padding_px": 20,
+  "padding_inches": 0.208,
+  "not_to_scale": true,
+  "object_ids": [
+    "spatial_1",
+    "spatial_2",
+    "spatial_3",
+    "spatial_4",
+    "spatial_5",
+    "spatial_6"
+  ],
+  "connector_ids": [
+    "spatial_edge_1",
+    "spatial_edge_2",
+    "spatial_edge_3",
+    "spatial_edge_4",
+    "spatial_edge_5"
+  ],
+  "label_ids": [],
+  "checks": {
+    "text_overflow": 0,
+    "text_clipping": 0,
+    "connector_over_text": 0,
+    "label_on_line": 0,
+    "arrowhead_over_text": 0,
+    "objects_outside_canvas": 0
+  },
+  "issues": [],
+  "critical_issues": 0,
+  "major_issues": 0,
+  "status": "approved",
+  "iterations": 3,
+  "individual_render": true,
+  "full_slide_render": true,
+  "file_checks": {
+    "png_nonempty": true,
+    "svg_present": true,
+    "pptx_present": true,
+    "layout_present": true
+  },
+  "render_history": [
+    {
+      "iteration": 1,
+      "action": "preflight y primer render",
+      "result": "se detectaron reflujos tipográficos o rutas genéricas en la revisión consolidada"
+    },
+    {
+      "iteration": 2,
+      "action": "corrección de geometría, redacción y dirección de conectores",
+      "result": "sin problemas críticos o mayores"
+    },
+    {
+      "iteration": 3,
+      "action": "render a tamaño real dentro del canvas 16:9",
+      "result": "aprobado"
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "id": "U07-DG-020",
+  "classification": "esquema mixto",
+  "title": "ERB resume un filtro por igualdad de área",
+  "template": "overlay",
+  "items": [
+    {
+      "title": "Curva del filtro",
+      "body": "respuesta normalizada",
+      "style": "physical"
+    },
+    {
+      "title": "Misma altura",
+      "body": "W_max",
+      "style": "accent"
+    },
+    {
+      "title": "Misma área",
+      "body": "integral equivalente",
+      "style": "clinical"
+    },
+    {
+      "title": "Ancho",
+      "body": "ERB",
+      "style": "neutral"
+    }
+  ],
+  "caption": "La curva U07-CH-008 se combina con llamadas editables para definir la anchura rectangular equivalente.",
+  "alt": "Gráfico de respuesta gaussiana y rectángulo equivalente con tres llamadas externas a altura, área y ancho.",
+  "source": "Libro del curso (TEX/PDF), Unidad 7; brief, storyboard y planes U07; elaboración propia UCASAL.",
+  "footer": "Figura conceptual; no está a escala salvo indicación explícita.",
+  "options": {
+    "chart": "U07-CH-008/u07_fig_008_erb_igualdad_area.png"
+  },
+  "nodes": [
+    {
+      "id": "chart_anchor",
+      "x": 320,
+      "y": 155,
+      "w": 640,
+      "h": 400,
+      "title": "Curva del filtro",
+      "body": "respuesta normalizada",
+      "style": "physical",
+      "role": "image"
+    },
+    {
+      "id": "callout_1",
+      "x": 72,
+      "y": 130,
+      "w": 230,
+      "h": 150,
+      "title": "Misma altura",
+      "body": "W_max",
+      "style": "accent",
+      "role": "callout"
+    },
+    {
+      "id": "callout_2",
+      "x": 978,
+      "y": 130,
+      "w": 230,
+      "h": 150,
+      "title": "Misma área",
+      "body": "integral equivalente",
+      "style": "clinical",
+      "role": "callout"
+    },
+    {
+      "id": "callout_3",
+      "x": 72,
+      "y": 430,
+      "w": 230,
+      "h": 150,
+      "title": "Ancho",
+      "body": "ERB",
+      "style": "neutral",
+      "role": "callout"
+    }
+  ],
+  "edges": [
+    {
+      "id": "leader_1",
+      "from": "callout_1",
+      "to": "chart_anchor",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "straight"
+    },
+    {
+      "id": "leader_2",
+      "from": "callout_2",
+      "to": "chart_anchor",
+      "semantic": "",
+      "fromSide": "left",
+      "toSide": "right",
+      "kind": "straight"
+    },
+    {
+      "id": "leader_3",
+      "from": "callout_3",
+      "to": "chart_anchor",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "straight"
+    }
+  ],
+  "labelBoxes": []
+}

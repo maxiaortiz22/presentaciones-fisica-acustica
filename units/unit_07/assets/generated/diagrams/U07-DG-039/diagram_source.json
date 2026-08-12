@@ -1,0 +1,97 @@
+{
+  "id": "U07-DG-039",
+  "classification": "esquema mixto",
+  "title": "La mezcla física puede organizarse en objetos perceptuales",
+  "template": "branch",
+  "items": [
+    {
+      "title": "Objetos perceptuales",
+      "body": "dos o tres fuentes segregadas",
+      "style": "clinical"
+    },
+    {
+      "title": "Fuente 1",
+      "body": "voz objetivo",
+      "style": "physical"
+    },
+    {
+      "title": "Fuente 2",
+      "body": "voz competidora",
+      "style": "accent"
+    },
+    {
+      "title": "Fuente 3",
+      "body": "ruido / ambiente",
+      "style": "neutral"
+    },
+    {
+      "title": "Mezcla binaural",
+      "body": "señales L y R",
+      "style": "physical"
+    }
+  ],
+  "caption": "Tres fuentes convergen en una mezcla binaural y luego se organizan en objetos perceptuales.",
+  "alt": "Voz objetivo, competidora y ambiente convergen en una mezcla de ambos oídos y se relacionan con objetos perceptuales.",
+  "source": "Libro del curso (TEX/PDF), Unidad 7; brief, storyboard y planes U07; elaboración propia UCASAL.",
+  "footer": "Figura conceptual; no está a escala salvo indicación explícita.",
+  "options": {},
+  "nodes": [
+    {
+      "id": "central",
+      "x": 82,
+      "y": 245,
+      "w": 300,
+      "h": 220,
+      "title": "Objetos perceptuales",
+      "body": "dos o tres fuentes segregadas",
+      "style": "clinical",
+      "role": "node"
+    },
+    {
+      "id": "branch_1",
+      "x": 465,
+      "y": 140,
+      "w": 345,
+      "h": 212.5,
+      "title": "Fuente 1",
+      "body": "voz objetivo",
+      "style": "physical",
+      "role": "node"
+    },
+    {
+      "id": "branch_2",
+      "x": 845,
+      "y": 140,
+      "w": 345,
+      "h": 212.5,
+      "title": "Fuente 2",
+      "body": "voz competidora",
+      "style": "accent",
+      "role": "node"
+    },
+    {
+      "id": "branch_3",
+      "x": 465,
+      "y": 367.5,
+      "w": 345,
+      "h": 212.5,
+      "title": "Fuente 3",
+      "body": "ruido / ambiente",
+      "style": "neutral",
+      "role": "node"
+    },
+    {
+      "id": "branch_4",
+      "x": 845,
+      "y": 367.5,
+      "w": 345,
+      "h": 212.5,
+      "title": "Mezcla binaural",
+      "body": "señales L y R",
+      "style": "physical",
+      "role": "node"
+    }
+  ],
+  "edges": [],
+  "labelBoxes": []
+}

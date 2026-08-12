@@ -1,0 +1,115 @@
+{
+  "id": "U07-DG-035",
+  "classification": "esquema mixto",
+  "title": "d/c aporta una cota didáctica de ITD",
+  "template": "spatial",
+  "items": [
+    {
+      "title": "Llegada extrema",
+      "body": "frente de onda",
+      "style": "physical"
+    },
+    {
+      "title": "Oído L",
+      "body": "punto de llegada",
+      "style": "clinical"
+    },
+    {
+      "title": "Oído R",
+      "body": "punto de llegada",
+      "style": "clinical"
+    },
+    {
+      "title": "Distancia efectiva d",
+      "body": "modelo rectilíneo",
+      "style": "accent"
+    }
+  ],
+  "caption": "Geometría simplificada de separación interaural efectiva.",
+  "alt": "Frente de onda y dos oídos con una cota d; se declara que el modelo omite difracción y no representa anatomía exacta.",
+  "source": "Libro del curso (TEX/PDF), Unidad 7; brief, storyboard y planes U07; elaboración propia UCASAL.",
+  "footer": "Modelo rectilíneo sin difracción; no está a escala ni representa anatomía exacta.",
+  "options": {
+    "footer": "Modelo rectilíneo sin difracción; no está a escala ni representa anatomía exacta.",
+    "spatialMode": "out"
+  },
+  "nodes": [
+    {
+      "id": "spatial_1",
+      "x": 500,
+      "y": 240,
+      "w": 280,
+      "h": 210,
+      "title": "Llegada extrema",
+      "body": "frente de onda",
+      "style": "physical",
+      "role": "node"
+    },
+    {
+      "id": "spatial_2",
+      "x": 90,
+      "y": 125,
+      "w": 300,
+      "h": 170,
+      "title": "Oído L",
+      "body": "punto de llegada",
+      "style": "clinical",
+      "role": "node"
+    },
+    {
+      "id": "spatial_3",
+      "x": 890,
+      "y": 125,
+      "w": 300,
+      "h": 170,
+      "title": "Oído R",
+      "body": "punto de llegada",
+      "style": "clinical",
+      "role": "node"
+    },
+    {
+      "id": "spatial_4",
+      "x": 90,
+      "y": 420,
+      "w": 300,
+      "h": 170,
+      "title": "Distancia efectiva d",
+      "body": "modelo rectilíneo",
+      "style": "accent",
+      "role": "node"
+    }
+  ],
+  "edges": [
+    {
+      "id": "spatial_edge_1",
+      "from": "spatial_1",
+      "to": "spatial_2",
+      "semantic": "",
+      "fromSide": "left",
+      "toSide": "right",
+      "kind": "straight",
+      "arrow": true
+    },
+    {
+      "id": "spatial_edge_2",
+      "from": "spatial_1",
+      "to": "spatial_3",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "straight",
+      "arrow": true
+    },
+    {
+      "id": "spatial_edge_3",
+      "from": "spatial_1",
+      "to": "spatial_4",
+      "semantic": "",
+      "fromSide": "left",
+      "toSide": "right",
+      "kind": "straight",
+      "arrow": true
+    }
+  ],
+  "labelBoxes": []
+}

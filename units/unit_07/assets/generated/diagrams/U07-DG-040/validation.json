@@ -1,0 +1,66 @@
+{
+  "asset_id": "U07-DG-040",
+  "classification": "diagrama conceptual",
+  "canvas_px": [
+    1280,
+    720
+  ],
+  "slide_ratio": "16:9",
+  "font_floor": {
+    "node_title_pt": 24,
+    "node_body_pt": 22.5,
+    "connector_label_pt": 20.25,
+    "equation_pt": 34.5
+  },
+  "padding_px": 20,
+  "padding_inches": 0.208,
+  "not_to_scale": true,
+  "object_ids": [
+    "central",
+    "branch_1",
+    "branch_2",
+    "branch_3",
+    "branch_4",
+    "branch_5"
+  ],
+  "connector_ids": [],
+  "label_ids": [],
+  "checks": {
+    "text_overflow": 0,
+    "text_clipping": 0,
+    "connector_over_text": 0,
+    "label_on_line": 0,
+    "arrowhead_over_text": 0,
+    "objects_outside_canvas": 0
+  },
+  "issues": [],
+  "critical_issues": 0,
+  "major_issues": 0,
+  "status": "approved",
+  "iterations": 3,
+  "individual_render": true,
+  "full_slide_render": true,
+  "file_checks": {
+    "png_nonempty": true,
+    "svg_present": true,
+    "pptx_present": true,
+    "layout_present": true
+  },
+  "render_history": [
+    {
+      "iteration": 1,
+      "action": "preflight y primer render",
+      "result": "se detectaron reflujos tipográficos o rutas genéricas en la revisión consolidada"
+    },
+    {
+      "iteration": 2,
+      "action": "corrección de geometría, redacción y dirección de conectores",
+      "result": "sin problemas críticos o mayores"
+    },
+    {
+      "iteration": 3,
+      "action": "render a tamaño real dentro del canvas 16:9",
+      "result": "aprobado"
+    }
+  ]
+}

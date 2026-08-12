@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+<defs><marker id="arrow" markerWidth="10" markerHeight="8" refX="8" refY="4" orient="auto"><path d="M0,0 L9,4 L0,8 Z" fill="#3D3D3D"/></marker></defs>
+<rect width="1280" height="720" fill="white"/>
+<rect x="72" y="27" width="390" height="6" fill="#4D1434"/><rect x="472" y="27" width="390" height="6" fill="#903163"/><rect x="872" y="27" width="336" height="6" fill="#969FA7"/>
+<text x="72" y="82" font-family="Calibri,Arial,sans-serif" font-size="40" font-weight="700" fill="#3D3D3D">Señal, ambiente, tarea y oyente preceden al porcentaje</text>
+<polyline id="flow_1" points="286,355 336,355 336,355 386,355" fill="none" stroke="#3D3D3D" stroke-width="3" marker-end="url(#arrow)"/>
+<polyline id="flow_2" points="590,355 640,355 640,355 690,355" fill="none" stroke="#3D3D3D" stroke-width="3" marker-end="url(#arrow)"/>
+<polyline id="flow_3" points="894,355 944,355 944,355 994,355" fill="none" stroke="#3D3D3D" stroke-width="3" marker-end="url(#arrow)"/>
+<rect id="stage_1" x="82" y="235" width="204" height="240" rx="8" fill="#E7F1F1" stroke="#2F7E83" stroke-width="2"/>
+<text x="184" y="282" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#2F7E83">Señal</text>
+<text x="184" y="330" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">habla +</text>
+<text x="184" y="362" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">ruido</text>
+<rect id="stage_2" x="386" y="235" width="204" height="240" rx="8" fill="#F7F6F2" stroke="#969FA7" stroke-width="2"/>
+<text x="488" y="282" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#3D3D3D">Ambiente</text>
+<text x="488" y="330" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">ruido +</text>
+<text x="488" y="362" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">reflexiones</text>
+<rect id="stage_3" x="690" y="235" width="204" height="240" rx="8" fill="#F3E8EE" stroke="#4D1434" stroke-width="2"/>
+<text x="792" y="282" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#4D1434">Tarea y</text>
+<text x="792" y="320" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#4D1434">oyente</text>
+<text x="792" y="364" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">material +</text>
+<text x="792" y="396" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">respuesta</text>
+<rect id="stage_4" x="994" y="235" width="204" height="240" rx="8" fill="#F8EDE2" stroke="#9F541A" stroke-width="2"/>
+<text x="1096" y="282" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#9F541A">Resultado</text>
+<text x="1096" y="330" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">porcentaje</text>
+<text x="1096" y="362" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">observado</text>
+<text x="640" y="628" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="22" fill="#3D3D3D">Figura conceptual; no está a escala salvo indicación explícita.</text>
+<text x="72" y="690" font-family="Calibri,Arial,sans-serif" font-size="16" fill="#969FA7">Libro del curso (TEX/PDF), Unidad 7; brief, storyboard y planes U07; elaboración propia UCASAL.</text>
+</svg>

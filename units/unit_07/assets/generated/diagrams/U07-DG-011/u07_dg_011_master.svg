@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+<defs><marker id="arrow" markerWidth="10" markerHeight="8" refX="8" refY="4" orient="auto"><path d="M0,0 L9,4 L0,8 Z" fill="#3D3D3D"/></marker></defs>
+<rect width="1280" height="720" fill="white"/>
+<rect x="72" y="27" width="390" height="6" fill="#4D1434"/><rect x="472" y="27" width="390" height="6" fill="#903163"/><rect x="872" y="27" width="336" height="6" fill="#969FA7"/>
+<text x="72" y="82" font-family="Calibri,Arial,sans-serif" font-size="40" font-weight="700" fill="#3D3D3D">Cada punto isofónico surge de una comparación</text>
+<polyline id="flow_1" points="354,232.5 429,232.5 429,232.5 504,232.5" fill="none" stroke="#3D3D3D" stroke-width="3" marker-end="url(#arrow)"/>
+<polyline id="flow_2" points="776,232.5 851,232.5 851,232.5 926,232.5" fill="none" stroke="#3D3D3D" stroke-width="3" marker-end="url(#arrow)"/>
+<polyline id="flow_3" points="1062,315 1062,367.5 956.5,367.5 956.5,420" fill="none" stroke="#3D3D3D" stroke-width="3" marker-end="url(#arrow)"/>
+<polyline id="flow_4" points="715,502.5 640,502.5 640,502.5 565,502.5" fill="none" stroke="#3D3D3D" stroke-width="3" marker-end="url(#arrow)"/>
+<rect id="stage_1" x="82" y="150" width="272" height="165" rx="8" fill="#E7F1F1" stroke="#2F7E83" stroke-width="2"/>
+<text x="218" y="197" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#2F7E83">Referencia</text>
+<text x="218" y="245" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">1 kHz</text>
+<rect id="stage_2" x="504" y="150" width="272" height="165" rx="8" fill="#E7F1F1" stroke="#2F7E83" stroke-width="2"/>
+<text x="640" y="197" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#2F7E83">Tono de</text>
+<text x="640" y="235" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#2F7E83">prueba</text>
+<text x="640" y="279" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">otra frecuencia</text>
+<rect id="stage_3" x="926" y="150" width="272" height="165" rx="8" fill="#F3E8EE" stroke="#4D1434" stroke-width="2"/>
+<text x="1062" y="197" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#4D1434">Ajuste</text>
+<text x="1062" y="245" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">cambiar nivel</text>
+<rect id="stage_4" x="715" y="420" width="483" height="165" rx="8" fill="#F8EDE2" stroke="#9F541A" stroke-width="2"/>
+<text x="956.5" y="467" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#9F541A">Juicio</text>
+<text x="956.5" y="515" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">igual sonoridad</text>
+<rect id="stage_5" x="82" y="420" width="483" height="165" rx="8" fill="#F7F6F2" stroke="#969FA7" stroke-width="2"/>
+<text x="323.5" y="467" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#3D3D3D">Punto</text>
+<text x="323.5" y="515" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">registrar y repetir</text>
+<text x="429" y="194" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="27" fill="#3D3D3D">comparar</text>
+<text x="851" y="194" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="27" fill="#3D3D3D">ajustar</text>
+<text x="851.5" y="375" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="27" fill="#3D3D3D">igualar</text>
+<text x="640" y="464" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="27" fill="#3D3D3D">repetir</text>
+<text x="640" y="628" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="22" fill="#3D3D3D">Figura conceptual; no está a escala salvo indicación explícita.</text>
+<text x="72" y="690" font-family="Calibri,Arial,sans-serif" font-size="16" fill="#969FA7">Libro del curso (TEX/PDF), Unidad 7; brief, storyboard y planes U07; elaboración propia UCASAL.</text>
+</svg>

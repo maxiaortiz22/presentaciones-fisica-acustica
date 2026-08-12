@@ -1,0 +1,109 @@
+{
+  "id": "U07-DG-033B",
+  "classification": "diagrama de proceso",
+  "title": "Camino físico, retardo y respuesta son niveles distintos",
+  "template": "flow",
+  "items": [
+    {
+      "title": "Geometría",
+      "body": "r_d y r_r",
+      "style": "physical"
+    },
+    {
+      "title": "Retardo",
+      "body": "Δt calculado",
+      "style": "accent"
+    },
+    {
+      "title": "Caso",
+      "body": "nivel · señal · tarea",
+      "style": "neutral"
+    },
+    {
+      "title": "Respuesta",
+      "body": "fusión · localización · eco",
+      "style": "clinical"
+    }
+  ],
+  "caption": "Síntesis del bloque de reflexiones y precedencia.",
+  "alt": "Cuatro etapas conectan geometría, retardo, condiciones del caso y respuesta perceptual.",
+  "source": "Libro del curso (TEX/PDF), Unidad 7; brief, storyboard y planes U07; elaboración propia UCASAL.",
+  "footer": "Figura conceptual; no está a escala salvo indicación explícita.",
+  "options": {},
+  "nodes": [
+    {
+      "id": "stage_1",
+      "x": 82,
+      "y": 235,
+      "w": 204,
+      "h": 240,
+      "title": "Geometría",
+      "body": "r_d y r_r",
+      "style": "physical",
+      "role": "node"
+    },
+    {
+      "id": "stage_2",
+      "x": 386,
+      "y": 235,
+      "w": 204,
+      "h": 240,
+      "title": "Retardo",
+      "body": "Δt calculado",
+      "style": "accent",
+      "role": "node"
+    },
+    {
+      "id": "stage_3",
+      "x": 690,
+      "y": 235,
+      "w": 204,
+      "h": 240,
+      "title": "Caso",
+      "body": "nivel · señal · tarea",
+      "style": "neutral",
+      "role": "node"
+    },
+    {
+      "id": "stage_4",
+      "x": 994,
+      "y": 235,
+      "w": 204,
+      "h": 240,
+      "title": "Respuesta",
+      "body": "fusión · localización · eco",
+      "style": "clinical",
+      "role": "node"
+    }
+  ],
+  "edges": [
+    {
+      "id": "flow_1",
+      "from": "stage_1",
+      "to": "stage_2",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "elbow"
+    },
+    {
+      "id": "flow_2",
+      "from": "stage_2",
+      "to": "stage_3",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "elbow"
+    },
+    {
+      "id": "flow_3",
+      "from": "stage_3",
+      "to": "stage_4",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "elbow"
+    }
+  ],
+  "labelBoxes": []
+}

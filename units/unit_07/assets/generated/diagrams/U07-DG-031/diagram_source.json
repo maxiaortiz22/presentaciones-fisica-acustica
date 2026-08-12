@@ -1,0 +1,97 @@
+{
+  "id": "U07-DG-031",
+  "classification": "diagrama conceptual",
+  "title": "La respuesta a dos llegadas depende de cuatro grupos de variables",
+  "template": "branch",
+  "items": [
+    {
+      "title": "Respuesta perceptual",
+      "body": "fusión · localización · eco",
+      "style": "clinical"
+    },
+    {
+      "title": "Retardo",
+      "body": "Δt",
+      "style": "physical"
+    },
+    {
+      "title": "Nivel relativo",
+      "body": "dB",
+      "style": "physical"
+    },
+    {
+      "title": "Semejanza",
+      "body": "espectro · contenido",
+      "style": "neutral"
+    },
+    {
+      "title": "Contexto y tarea",
+      "body": "criterio del oyente",
+      "style": "accent"
+    }
+  ],
+  "caption": "Mapa de factores que condicionan el efecto de precedencia.",
+  "alt": "Retardo, nivel relativo, semejanza y contexto convergen en una respuesta perceptual.",
+  "source": "Libro del curso (TEX/PDF), Unidad 7; brief, storyboard y planes U07; elaboración propia UCASAL.",
+  "footer": "Figura conceptual; no está a escala salvo indicación explícita.",
+  "options": {},
+  "nodes": [
+    {
+      "id": "central",
+      "x": 82,
+      "y": 245,
+      "w": 300,
+      "h": 220,
+      "title": "Respuesta perceptual",
+      "body": "fusión · localización · eco",
+      "style": "clinical",
+      "role": "node"
+    },
+    {
+      "id": "branch_1",
+      "x": 465,
+      "y": 140,
+      "w": 345,
+      "h": 212.5,
+      "title": "Retardo",
+      "body": "Δt",
+      "style": "physical",
+      "role": "node"
+    },
+    {
+      "id": "branch_2",
+      "x": 845,
+      "y": 140,
+      "w": 345,
+      "h": 212.5,
+      "title": "Nivel relativo",
+      "body": "dB",
+      "style": "physical",
+      "role": "node"
+    },
+    {
+      "id": "branch_3",
+      "x": 465,
+      "y": 367.5,
+      "w": 345,
+      "h": 212.5,
+      "title": "Semejanza",
+      "body": "espectro · contenido",
+      "style": "neutral",
+      "role": "node"
+    },
+    {
+      "id": "branch_4",
+      "x": 845,
+      "y": 367.5,
+      "w": 345,
+      "h": 212.5,
+      "title": "Contexto y tarea",
+      "body": "criterio del oyente",
+      "style": "accent",
+      "role": "node"
+    }
+  ],
+  "edges": [],
+  "labelBoxes": []
+}
