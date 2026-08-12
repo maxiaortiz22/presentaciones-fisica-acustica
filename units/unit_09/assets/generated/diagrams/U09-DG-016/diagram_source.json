@@ -1,0 +1,112 @@
+{
+  "id": "U09-DG-016",
+  "slides": "U09-023",
+  "subtype": "ecuación anotada",
+  "purpose": "Ecuación `c(θ)` anotada.",
+  "nodesText": "Fórmula, unidades, intervalo y enlace al gráfico U09-CH-003.",
+  "connectorText": "Líderes cortos a símbolos; etiquetas 2–6 palabras; sin cruzar operadores.",
+  "equation": "`c≈331+0,6θ`",
+  "textEstimate": "≤4 callouts; 2–6 palabras c/u",
+  "layout": "FA_07_GRAFICO_EXPLICACION",
+  "restrictions": "media.; canvas real, padding ≥0,18 in, cero colisiones; dividir si no sostiene mínimos.",
+  "editable": "sí; SVG/PNG de respaldo",
+  "inputStatus": "planificado",
+  "nodes": [
+    {
+      "id": "equation",
+      "x": 370,
+      "y": 285,
+      "w": 540,
+      "h": 130,
+      "title": "c≈331+0,6θ",
+      "style": "equation",
+      "role": "equation",
+      "font": 46
+    },
+    {
+      "id": "callout_1",
+      "x": 80,
+      "y": 150,
+      "w": 250,
+      "h": 115,
+      "title": "c: rapidez\nen m·s⁻¹",
+      "style": "physical",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "callout_2",
+      "x": 950,
+      "y": 150,
+      "w": 250,
+      "h": 115,
+      "title": "θ:\ntemperatura",
+      "style": "accent",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "callout_3",
+      "x": 80,
+      "y": 475,
+      "w": 250,
+      "h": 115,
+      "title": "331 m·s⁻¹ a\n0 °C",
+      "style": "neutral",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "callout_4",
+      "x": 950,
+      "y": 475,
+      "w": 250,
+      "h": 115,
+      "title": "0,6 m·s⁻¹\npor °C",
+      "style": "clinical",
+      "role": "node",
+      "font": 32
+    }
+  ],
+  "edges": [
+    {
+      "id": "leader_1",
+      "from": "callout_1",
+      "to": "equation",
+      "fromSide": "right",
+      "toSide": "left",
+      "semantic": ""
+    },
+    {
+      "id": "leader_2",
+      "from": "callout_2",
+      "to": "equation",
+      "fromSide": "left",
+      "toSide": "right",
+      "semantic": ""
+    },
+    {
+      "id": "leader_3",
+      "from": "callout_3",
+      "to": "equation",
+      "fromSide": "right",
+      "toSide": "left",
+      "semantic": ""
+    },
+    {
+      "id": "leader_4",
+      "from": "callout_4",
+      "to": "equation",
+      "fromSide": "left",
+      "toSide": "right",
+      "semantic": ""
+    }
+  ],
+  "footer": "Ecuación editable · símbolos, unidades e hipótesis se completan en la explicación.",
+  "classification": "ecuación anotada",
+  "title": "Ecuación c(θ) anotada",
+  "caption": "Ecuación c(θ) anotada Fórmula, unidades, intervalo y enlace al gráfico U09-CH-003.",
+  "alt": "Ecuación c(θ) anotada. Fórmula, unidades, intervalo y enlace al gráfico U09-CH-003. Ecuación editable · símbolos, unidades e hipótesis se completan en la explicación.",
+  "source": "LaTeX ec. 9.3.",
+  "notToScale": false
+}

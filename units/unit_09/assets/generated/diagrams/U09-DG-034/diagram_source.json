@@ -1,0 +1,57 @@
+{
+  "id": "U09-DG-034",
+  "slides": "U09-044",
+  "subtype": "comparación conceptual",
+  "purpose": "Misma barrera, tres frecuencias.",
+  "nodesText": "Tres paneles sincronizados con `λ`, obstáculo y receptor constantes.",
+  "connectorText": "Paneles paralelos; conectores internos solamente; mismas referencias geométricas.",
+  "equation": "ninguna",
+  "textEstimate": "1–4 palabras/rótulo; callouts 2–6",
+  "layout": "FA_11_COMPARACION",
+  "restrictions": "muy alta; necesita consistencia geométrica.; canvas real, padding ≥0,18 in, cero colisiones; dividir si no sostiene mínimos.",
+  "editable": "sí; SVG/PNG de respaldo",
+  "inputStatus": "prototipar temprano",
+  "nodes": [
+    {
+      "id": "concept_1",
+      "x": 80,
+      "y": 174,
+      "w": 546,
+      "h": 190,
+      "title": "Tres paneles sincronizados\ncon λ",
+      "style": "physical",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_2",
+      "x": 654,
+      "y": 174,
+      "w": 546,
+      "h": 190,
+      "title": "obstáculo",
+      "style": "accent",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_3",
+      "x": 80,
+      "y": 396,
+      "w": 546,
+      "h": 190,
+      "title": "receptor constantes",
+      "style": "neutral",
+      "role": "node",
+      "font": 32
+    }
+  ],
+  "edges": [],
+  "footer": "Relaciones conceptuales; no está a escala.",
+  "classification": "diagrama conceptual",
+  "title": "Misma barrera, tres frecuencias",
+  "caption": "Misma barrera, tres frecuencias Tres paneles sincronizados con λ, obstáculo y receptor constantes.",
+  "alt": "Misma barrera, tres frecuencias. Tres paneles sincronizados con λ, obstáculo y receptor constantes. Relaciones conceptuales; no está a escala.",
+  "source": "LaTeX 9.7.5",
+  "notToScale": true
+}

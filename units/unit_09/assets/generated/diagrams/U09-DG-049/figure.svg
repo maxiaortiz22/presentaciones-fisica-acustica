@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+<defs><marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0,0 L10,4 L0,8 Z" fill="#3D3D3D"/></marker></defs>
+<rect width="1280" height="720" fill="white"/>
+<rect x="72" y="27" width="390" height="6" fill="#4D1434"/><rect x="472" y="27" width="390" height="6" fill="#903163"/><rect x="872" y="27" width="336" height="6" fill="#969FA7"/>
+<text x="72" y="78" font-family="Calibri,Arial,sans-serif" font-size="40" font-weight="700" fill="#3D3D3D">Duplicación relativa</text>
+<polyline points="330,207.5 350,207.5 350,350 370,350" fill="none" stroke="#3D3D3D" stroke-width="3" marker-end="url(#arrow)"/>
+<polyline points="950,207.5 930,207.5 930,350 910,350" fill="none" stroke="#3D3D3D" stroke-width="3" marker-end="url(#arrow)"/>
+<polyline points="330,532.5 350,532.5 350,350 370,350" fill="none" stroke="#3D3D3D" stroke-width="3" marker-end="url(#arrow)"/>
+<polyline points="950,532.5 930,532.5 930,350 910,350" fill="none" stroke="#3D3D3D" stroke-width="3" marker-end="url(#arrow)"/>
+<rect id="equation" x="370" y="285" width="540" height="130" rx="8" fill="#FFFFFF" stroke="#4D1434" stroke-width="2"/>
+<text x="640" y="341.95000000000005" text-anchor="middle" font-family="Cambria Math,serif" font-size="46" font-weight="400" fill="#4D1434">ΔR=20 log10 2≈6,02</text>
+<text x="640" y="390.25000000000006" text-anchor="middle" font-family="Cambria Math,serif" font-size="46" font-weight="400" fill="#4D1434">dB</text>
+<rect id="callout_1" x="80" y="150" width="250" height="115" rx="8" fill="#E7F1F1" stroke="#2F7E83" stroke-width="2"/>
+<text x="205" y="201.89999999999998" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#2F7E83">Dos cadenas</text>
+<text x="205" y="235.49999999999997" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#2F7E83">de cálculo</text>
+<rect id="callout_2" x="950" y="150" width="250" height="115" rx="8" fill="#F3E8EE" stroke="#4D1434" stroke-width="2"/>
+<text x="1075" y="218.7" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#4D1434">f×2</text>
+<rect id="callout_3" x="80" y="475" width="250" height="115" rx="8" fill="#F7F6F2" stroke="#969FA7" stroke-width="2"/>
+<text x="205" y="526.9000000000001" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#3D3D3D">conclusión</text>
+<text x="205" y="560.5000000000001" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#3D3D3D">común</text>
+<rect id="callout_4" x="950" y="475" width="250" height="115" rx="8" fill="#F8EDE2" stroke="#9F541A" stroke-width="2"/>
+<text x="1075" y="526.9000000000001" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#9F541A">alcance del</text>
+<text x="1075" y="560.5000000000001" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#9F541A">modelo</text>
+<text x="640" y="670" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="20" fill="#969FA7">Ecuación editable · símbolos, unidades e hipótesis se completan en la explicación.</text>
+<text x="72" y="700" font-family="Calibri,Arial,sans-serif" font-size="14" fill="#969FA7">Ejemplo del capítulo</text>
+</svg>

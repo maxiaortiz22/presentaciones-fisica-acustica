@@ -273,11 +273,14 @@ Para gráficos espectrales, indicar:
 | coeficiente de reflexión de intensidad | `R_I` | 1 | Razón entre intensidades medias reflejada e incidente; `0≤R_I≤1` en el caso pasivo ideal. |
 | coeficiente de reflexión energético genérico | `R_E` | 1 | Usar solo cuando la fuente o un balance energético requiera esa denominación; no sustituir automáticamente a `R_I`. |
 | coeficiente de absorción | `α` | 1 | Dependiente de frecuencia y condiciones de montaje. |
-| coeficiente de transmisión energético | `τ` | 1 | En balance ideal sin otras pérdidas: `R_E+α+τ=1`, según definiciones. |
+| coeficiente de transmisión energético | `τ_E` | 1 | En balance ideal sin otras pérdidas: `R_E+α+τ_E=1`, según definiciones. El subíndice evita colisión con el retardo `τ_d`. |
 | área de absorción equivalente | `A_\mathrm{eq}` | m² sabin | Evita colisión con amplitud. |
 | volumen del recinto | `V` | m³ | Aquí “volumen” sí es magnitud geométrica. |
 | tiempo de reverberación | `T_60` | s | No usar `RT60` dentro de ecuaciones; puede aparecer como etiqueta desarrollada. |
-| índice de reducción sonora | `R` | dB | No confundir con coeficiente de reflexión; calificar en texto. |
+| índice de reducción sonora | `R` | dB | No confundir con coeficiente de reflexión; calificar en texto. Para la fracción transmitida definida como `τ_E`, `R=10 log₁₀(1/τ_E)`. |
+| masa superficial | `m_s` | kg·m⁻² | Masa por unidad de área del elemento. No sustituir por masa total sin declarar el área. |
+| cambio relativo por ley de masas | `ΔR` | dB | En la región ideal controlada por masa, `ΔR=20 log₁₀(m_{s,2}/m_{s,1})+20 log₁₀(f_2/f_1)`; declarar que es una tendencia acotada, no una predicción universal del sistema construido. |
+| componente del viento sobre el trayecto | `v_\mathrm{viento}` | m·s⁻¹ | Definir signo y ángulo. Si se usa `c_\mathrm{ef}=c+v_\mathrm{viento} cos ψ`, presentarlo como aproximación cinemática para viento uniforme, no como cambio intrínseco de `c`. |
 
 Si se usa la fórmula de Sabine:
 

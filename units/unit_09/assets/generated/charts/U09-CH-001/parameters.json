@@ -1,0 +1,15 @@
+{
+  "model": "delta_Lp_dB=-20*log10(r2/r1)",
+  "x_scale": "logarithmic",
+  "markers": [
+    0.5,
+    1.0,
+    2.0,
+    4.0
+  ],
+  "hypotheses": [
+    "campo libre aproximado",
+    "campo lejano",
+    "misma dirección"
+  ]
+}

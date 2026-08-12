@@ -1,0 +1,5071 @@
+[
+  {
+    "asset_id": "U09-DG-001",
+    "classification": "esquema mixto",
+    "subtype": "esquema científico",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 22.5,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20,
+      "equation_pt": 30
+    },
+    "padding_px": 24,
+    "padding_inches": 0.25,
+    "line_text_clearance_px": 12,
+    "line_text_clearance_inches": 0.125,
+    "not_to_scale": true,
+    "object_ids": [
+      "source",
+      "path_upper",
+      "path_lower",
+      "receiver",
+      "condition"
+    ],
+    "connector_ids": [
+      "route_1a",
+      "route_1b",
+      "route_2a",
+      "route_2b"
+    ],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "preflight geométrico",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual en canvas real 16:9",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      }
+    ],
+    "visual_review": {
+      "date": "2026-08-12",
+      "method": "render individual a tamaño final + hoja de contacto + reinspección de recursos corregidos",
+      "critical_issues": 0,
+      "major_issues": 0,
+      "result": "approved"
+    }
+  },
+  {
+    "asset_id": "U09-DG-002",
+    "classification": "diagrama de proceso",
+    "subtype": "diagrama de actividad",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 22.5,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20,
+      "equation_pt": 30
+    },
+    "padding_px": 24,
+    "padding_inches": 0.25,
+    "line_text_clearance_px": 12,
+    "line_text_clearance_inches": 0.125,
+    "not_to_scale": false,
+    "object_ids": [
+      "step_1",
+      "step_2",
+      "step_3",
+      "step_4",
+      "step_5",
+      "step_6"
+    ],
+    "connector_ids": [
+      "flow_1",
+      "flow_2",
+      "flow_3",
+      "flow_4",
+      "flow_5"
+    ],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "preflight geométrico",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual en canvas real 16:9",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      }
+    ],
+    "visual_review": {
+      "date": "2026-08-12",
+      "method": "render individual a tamaño final + hoja de contacto + reinspección de recursos corregidos",
+      "critical_issues": 0,
+      "major_issues": 0,
+      "result": "approved"
+    }
+  },
+  {
+    "asset_id": "U09-DG-003",
+    "classification": "diagrama de proceso",
+    "subtype": "diagrama de proceso",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 22.5,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20,
+      "equation_pt": 30
+    },
+    "padding_px": 24,
+    "padding_inches": 0.25,
+    "line_text_clearance_px": 12,
+    "line_text_clearance_inches": 0.125,
+    "not_to_scale": false,
+    "object_ids": [
+      "step_1",
+      "step_2",
+      "step_3",
+      "step_4",
+      "step_5",
+      "step_6"
+    ],
+    "connector_ids": [
+      "flow_1",
+      "flow_2",
+      "flow_3",
+      "flow_4",
+      "flow_5"
+    ],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "preflight geométrico",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual en canvas real 16:9",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      }
+    ],
+    "visual_review": {
+      "date": "2026-08-12",
+      "method": "render individual a tamaño final + hoja de contacto + reinspección de recursos corregidos",
+      "critical_issues": 0,
+      "major_issues": 0,
+      "result": "approved"
+    }
+  },
+  {
+    "asset_id": "U09-DG-004",
+    "classification": "esquema mixto",
+    "subtype": "esquema científico",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 22.5,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20,
+      "equation_pt": 30
+    },
+    "padding_px": 24,
+    "padding_inches": 0.25,
+    "line_text_clearance_px": 12,
+    "line_text_clearance_inches": 0.125,
+    "not_to_scale": true,
+    "object_ids": [
+      "source",
+      "path_upper",
+      "path_lower",
+      "receiver",
+      "condition"
+    ],
+    "connector_ids": [
+      "route_1a",
+      "route_1b",
+      "route_2a",
+      "route_2b"
+    ],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "preflight geométrico",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual en canvas real 16:9",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      }
+    ],
+    "visual_review": {
+      "date": "2026-08-12",
+      "method": "render individual a tamaño final + hoja de contacto + reinspección de recursos corregidos",
+      "critical_issues": 0,
+      "major_issues": 0,
+      "result": "approved"
+    }
+  },
+  {
+    "asset_id": "U09-DG-005",
+    "classification": "diagrama conceptual",
+    "subtype": "matriz conceptual",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 22.5,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20,
+      "equation_pt": 30
+    },
+    "padding_px": 24,
+    "padding_inches": 0.25,
+    "line_text_clearance_px": 12,
+    "line_text_clearance_inches": 0.125,
+    "not_to_scale": true,
+    "object_ids": [
+      "concept_1",
+      "concept_2",
+      "concept_3",
+      "concept_4"
+    ],
+    "connector_ids": [],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "preflight geométrico",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual en canvas real 16:9",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      }
+    ],
+    "visual_review": {
+      "date": "2026-08-12",
+      "method": "render individual a tamaño final + hoja de contacto + reinspección de recursos corregidos",
+      "critical_issues": 0,
+      "major_issues": 0,
+      "result": "approved"
+    }
+  },
+  {
+    "asset_id": "U09-DG-006",
+    "classification": "diagrama conceptual",
+    "subtype": "matriz conceptual",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 22.5,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20,
+      "equation_pt": 30
+    },
+    "padding_px": 24,
+    "padding_inches": 0.25,
+    "line_text_clearance_px": 12,
+    "line_text_clearance_inches": 0.125,
+    "not_to_scale": true,
+    "object_ids": [
+      "concept_1",
+      "concept_2",
+      "concept_3",
+      "concept_4",
+      "concept_5",
+      "concept_6",
+      "concept_7",
+      "concept_8"
+    ],
+    "connector_ids": [],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "preflight geométrico",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual en canvas real 16:9",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      }
+    ],
+    "visual_review": {
+      "date": "2026-08-12",
+      "method": "render individual a tamaño final + hoja de contacto + reinspección de recursos corregidos",
+      "critical_issues": 0,
+      "major_issues": 0,
+      "result": "approved"
+    }
+  },
+  {
+    "asset_id": "U09-DG-007",
+    "classification": "diagrama de proceso",
+    "subtype": "diagrama de actividad",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 22.5,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20,
+      "equation_pt": 30
+    },
+    "padding_px": 24,
+    "padding_inches": 0.25,
+    "line_text_clearance_px": 12,
+    "line_text_clearance_inches": 0.125,
+    "not_to_scale": false,
+    "object_ids": [
+      "step_1",
+      "step_2",
+      "step_3",
+      "step_4",
+      "step_5",
+      "step_6"
+    ],
+    "connector_ids": [
+      "flow_1",
+      "flow_2",
+      "flow_3",
+      "flow_4",
+      "flow_5"
+    ],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "preflight geométrico",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual en canvas real 16:9",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      }
+    ],
+    "visual_review": {
+      "date": "2026-08-12",
+      "method": "render individual a tamaño final + hoja de contacto + reinspección de recursos corregidos",
+      "critical_issues": 0,
+      "major_issues": 0,
+      "result": "approved"
+    }
+  },
+  {
+    "asset_id": "U09-DG-008",
+    "classification": "diagrama conceptual",
+    "subtype": "matriz conceptual",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 22.5,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20,
+      "equation_pt": 30
+    },
+    "padding_px": 24,
+    "padding_inches": 0.25,
+    "line_text_clearance_px": 12,
+    "line_text_clearance_inches": 0.125,
+    "not_to_scale": true,
+    "object_ids": [
+      "concept_1",
+      "concept_2",
+      "concept_3",
+      "concept_4"
+    ],
+    "connector_ids": [],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "preflight geométrico",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual en canvas real 16:9",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      }
+    ],
+    "visual_review": {
+      "date": "2026-08-12",
+      "method": "render individual a tamaño final + hoja de contacto + reinspección de recursos corregidos",
+      "critical_issues": 0,
+      "major_issues": 0,
+      "result": "approved"
+    }
+  },
+  {
+    "asset_id": "U09-DG-009",
+    "classification": "esquema mixto",
+    "subtype": "esquema científico",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 22.5,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20,
+      "equation_pt": 30
+    },
+    "padding_px": 24,
+    "padding_inches": 0.25,
+    "line_text_clearance_px": 12,
+    "line_text_clearance_inches": 0.125,
+    "not_to_scale": true,
+    "object_ids": [
+      "source",
+      "path_upper",
+      "path_lower",
+      "receiver",
+      "condition"
+    ],
+    "connector_ids": [
+      "route_1a",
+      "route_1b",
+      "route_2a",
+      "route_2b"
+    ],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "preflight geométrico",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual en canvas real 16:9",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      }
+    ],
+    "visual_review": {
+      "date": "2026-08-12",
+      "method": "render individual a tamaño final + hoja de contacto + reinspección de recursos corregidos",
+      "critical_issues": 0,
+      "major_issues": 0,
+      "result": "approved"
+    }
+  },
+  {
+    "asset_id": "U09-DG-010",
+    "classification": "ecuación anotada",
+    "subtype": "ecuación anotada",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 22.5,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20,
+      "equation_pt": 30
+    },
+    "padding_px": 24,
+    "padding_inches": 0.25,
+    "line_text_clearance_px": 12,
+    "line_text_clearance_inches": 0.125,
+    "not_to_scale": false,
+    "object_ids": [
+      "equation",
+      "callout_1",
+      "callout_2",
+      "callout_3",
+      "callout_4"
+    ],
+    "connector_ids": [
+      "leader_1",
+      "leader_2",
+      "leader_3",
+      "leader_4"
+    ],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "preflight geométrico",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual en canvas real 16:9",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      }
+    ],
+    "visual_review": {
+      "date": "2026-08-12",
+      "method": "render individual a tamaño final + hoja de contacto + reinspección de recursos corregidos",
+      "critical_issues": 0,
+      "major_issues": 0,
+      "result": "approved"
+    }
+  },
+  {
+    "asset_id": "U09-DG-011",
+    "classification": "esquema mixto",
+    "subtype": "esquema científico",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 22.5,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20,
+      "equation_pt": 30
+    },
+    "padding_px": 24,
+    "padding_inches": 0.25,
+    "line_text_clearance_px": 12,
+    "line_text_clearance_inches": 0.125,
+    "not_to_scale": true,
+    "object_ids": [
+      "source",
+      "path_upper",
+      "path_lower",
+      "receiver",
+      "condition"
+    ],
+    "connector_ids": [
+      "route_1a",
+      "route_1b",
+      "route_2a",
+      "route_2b"
+    ],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "preflight geométrico",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual en canvas real 16:9",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      }
+    ],
+    "visual_review": {
+      "date": "2026-08-12",
+      "method": "render individual a tamaño final + hoja de contacto + reinspección de recursos corregidos",
+      "critical_issues": 0,
+      "major_issues": 0,
+      "result": "approved"
+    }
+  },
+  {
+    "asset_id": "U09-DG-012",
+    "classification": "diagrama conceptual",
+    "subtype": "comparación conceptual",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 22.5,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20,
+      "equation_pt": 30
+    },
+    "padding_px": 24,
+    "padding_inches": 0.25,
+    "line_text_clearance_px": 12,
+    "line_text_clearance_inches": 0.125,
+    "not_to_scale": true,
+    "object_ids": [
+      "concept_1",
+      "concept_2",
+      "concept_3",
+      "concept_4",
+      "concept_5"
+    ],
+    "connector_ids": [],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "preflight geométrico",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual en canvas real 16:9",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      }
+    ],
+    "visual_review": {
+      "date": "2026-08-12",
+      "method": "render individual a tamaño final + hoja de contacto + reinspección de recursos corregidos",
+      "critical_issues": 0,
+      "major_issues": 0,
+      "result": "approved"
+    }
+  },
+  {
+    "asset_id": "U09-DG-013",
+    "classification": "ecuación anotada",
+    "subtype": "ecuación anotada",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 22.5,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20,
+      "equation_pt": 30
+    },
+    "padding_px": 24,
+    "padding_inches": 0.25,
+    "line_text_clearance_px": 12,
+    "line_text_clearance_inches": 0.125,
+    "not_to_scale": false,
+    "object_ids": [
+      "equation",
+      "callout_1",
+      "callout_2",
+      "callout_3",
+      "callout_4"
+    ],
+    "connector_ids": [
+      "leader_1",
+      "leader_2",
+      "leader_3",
+      "leader_4"
+    ],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "preflight geométrico",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual en canvas real 16:9",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      }
+    ],
+    "visual_review": {
+      "date": "2026-08-12",
+      "method": "render individual a tamaño final + hoja de contacto + reinspección de recursos corregidos",
+      "critical_issues": 0,
+      "major_issues": 0,
+      "result": "approved"
+    }
+  },
+  {
+    "asset_id": "U09-DG-014",
+    "classification": "esquema mixto",
+    "subtype": "esquema científico",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 22.5,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20,
+      "equation_pt": 30
+    },
+    "padding_px": 24,
+    "padding_inches": 0.25,
+    "line_text_clearance_px": 12,
+    "line_text_clearance_inches": 0.125,
+    "not_to_scale": true,
+    "object_ids": [
+      "source",
+      "path_upper",
+      "path_lower",
+      "receiver",
+      "condition"
+    ],
+    "connector_ids": [
+      "route_1a",
+      "route_1b",
+      "route_2a",
+      "route_2b"
+    ],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "preflight geométrico",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual en canvas real 16:9",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      }
+    ],
+    "visual_review": {
+      "date": "2026-08-12",
+      "method": "render individual a tamaño final + hoja de contacto + reinspección de recursos corregidos",
+      "critical_issues": 0,
+      "major_issues": 0,
+      "result": "approved"
+    }
+  },
+  {
+    "asset_id": "U09-DG-015",
+    "classification": "diagrama de proceso",
+    "subtype": "diagrama de actividad",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 22.5,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20,
+      "equation_pt": 30
+    },
+    "padding_px": 24,
+    "padding_inches": 0.25,
+    "line_text_clearance_px": 12,
+    "line_text_clearance_inches": 0.125,
+    "not_to_scale": false,
+    "object_ids": [
+      "step_1",
+      "step_2",
+      "step_3",
+      "step_4",
+      "step_5",
+      "step_6"
+    ],
+    "connector_ids": [
+      "flow_1",
+      "flow_2",
+      "flow_3",
+      "flow_4",
+      "flow_5"
+    ],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "preflight geométrico",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual en canvas real 16:9",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      }
+    ],
+    "visual_review": {
+      "date": "2026-08-12",
+      "method": "render individual a tamaño final + hoja de contacto + reinspección de recursos corregidos",
+      "critical_issues": 0,
+      "major_issues": 0,
+      "result": "approved"
+    }
+  },
+  {
+    "asset_id": "U09-DG-016",
+    "classification": "ecuación anotada",
+    "subtype": "ecuación anotada",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 22.5,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20,
+      "equation_pt": 30
+    },
+    "padding_px": 24,
+    "padding_inches": 0.25,
+    "line_text_clearance_px": 12,
+    "line_text_clearance_inches": 0.125,
+    "not_to_scale": false,
+    "object_ids": [
+      "equation",
+      "callout_1",
+      "callout_2",
+      "callout_3",
+      "callout_4"
+    ],
+    "connector_ids": [
+      "leader_1",
+      "leader_2",
+      "leader_3",
+      "leader_4"
+    ],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "preflight geométrico",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual en canvas real 16:9",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      }
+    ],
+    "visual_review": {
+      "date": "2026-08-12",
+      "method": "render individual a tamaño final + hoja de contacto + reinspección de recursos corregidos",
+      "critical_issues": 0,
+      "major_issues": 0,
+      "result": "approved"
+    }
+  },
+  {
+    "asset_id": "U09-DG-017",
+    "classification": "ecuación anotada",
+    "subtype": "ecuación anotada",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 22.5,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20,
+      "equation_pt": 30
+    },
+    "padding_px": 24,
+    "padding_inches": 0.25,
+    "line_text_clearance_px": 12,
+    "line_text_clearance_inches": 0.125,
+    "not_to_scale": false,
+    "object_ids": [
+      "equation",
+      "callout_1",
+      "callout_2",
+      "callout_3",
+      "callout_4"
+    ],
+    "connector_ids": [
+      "leader_1",
+      "leader_2",
+      "leader_3",
+      "leader_4"
+    ],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "preflight geométrico",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual en canvas real 16:9",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      }
+    ],
+    "visual_review": {
+      "date": "2026-08-12",
+      "method": "render individual a tamaño final + hoja de contacto + reinspección de recursos corregidos",
+      "critical_issues": 0,
+      "major_issues": 0,
+      "result": "approved"
+    }
+  },
+  {
+    "asset_id": "U09-DG-018",
+    "classification": "diagrama conceptual",
+    "subtype": "comparación conceptual",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 22.5,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20,
+      "equation_pt": 30
+    },
+    "padding_px": 24,
+    "padding_inches": 0.25,
+    "line_text_clearance_px": 12,
+    "line_text_clearance_inches": 0.125,
+    "not_to_scale": true,
+    "object_ids": [
+      "concept_1",
+      "concept_2",
+      "concept_3",
+      "concept_4"
+    ],
+    "connector_ids": [],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "preflight geométrico",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual en canvas real 16:9",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      }
+    ],
+    "visual_review": {
+      "date": "2026-08-12",
+      "method": "render individual a tamaño final + hoja de contacto + reinspección de recursos corregidos",
+      "critical_issues": 0,
+      "major_issues": 0,
+      "result": "approved"
+    }
+  },
+  {
+    "asset_id": "U09-DG-019",
+    "classification": "ecuación anotada",
+    "subtype": "ecuación anotada",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 22.5,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20,
+      "equation_pt": 30
+    },
+    "padding_px": 24,
+    "padding_inches": 0.25,
+    "line_text_clearance_px": 12,
+    "line_text_clearance_inches": 0.125,
+    "not_to_scale": false,
+    "object_ids": [
+      "equation",
+      "callout_1",
+      "callout_2",
+      "callout_3",
+      "callout_4"
+    ],
+    "connector_ids": [
+      "leader_1",
+      "leader_2",
+      "leader_3",
+      "leader_4"
+    ],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "preflight geométrico",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual en canvas real 16:9",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      }
+    ],
+    "visual_review": {
+      "date": "2026-08-12",
+      "method": "render individual a tamaño final + hoja de contacto + reinspección de recursos corregidos",
+      "critical_issues": 0,
+      "major_issues": 0,
+      "result": "approved"
+    }
+  },
+  {
+    "asset_id": "U09-DG-020",
+    "classification": "diagrama conceptual",
+    "subtype": "comparación conceptual",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 22.5,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20,
+      "equation_pt": 30
+    },
+    "padding_px": 24,
+    "padding_inches": 0.25,
+    "line_text_clearance_px": 12,
+    "line_text_clearance_inches": 0.125,
+    "not_to_scale": true,
+    "object_ids": [
+      "concept_1",
+      "concept_2",
+      "concept_3",
+      "concept_4"
+    ],
+    "connector_ids": [],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "preflight geométrico",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual en canvas real 16:9",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      }
+    ],
+    "visual_review": {
+      "date": "2026-08-12",
+      "method": "render individual a tamaño final + hoja de contacto + reinspección de recursos corregidos",
+      "critical_issues": 0,
+      "major_issues": 0,
+      "result": "approved"
+    }
+  },
+  {
+    "asset_id": "U09-DG-021",
+    "classification": "ecuación anotada",
+    "subtype": "ecuación anotada",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 22.5,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20,
+      "equation_pt": 30
+    },
+    "padding_px": 24,
+    "padding_inches": 0.25,
+    "line_text_clearance_px": 12,
+    "line_text_clearance_inches": 0.125,
+    "not_to_scale": false,
+    "object_ids": [
+      "equation",
+      "callout_1",
+      "callout_2",
+      "callout_3",
+      "callout_4"
+    ],
+    "connector_ids": [
+      "leader_1",
+      "leader_2",
+      "leader_3",
+      "leader_4"
+    ],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "preflight geométrico",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual en canvas real 16:9",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      }
+    ],
+    "visual_review": {
+      "date": "2026-08-12",
+      "method": "render individual a tamaño final + hoja de contacto + reinspección de recursos corregidos",
+      "critical_issues": 0,
+      "major_issues": 0,
+      "result": "approved"
+    }
+  },
+  {
+    "asset_id": "U09-DG-022",
+    "classification": "diagrama conceptual",
+    "subtype": "comparación conceptual",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 22.5,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20,
+      "equation_pt": 30
+    },
+    "padding_px": 24,
+    "padding_inches": 0.25,
+    "line_text_clearance_px": 12,
+    "line_text_clearance_inches": 0.125,
+    "not_to_scale": true,
+    "object_ids": [
+      "concept_1",
+      "concept_2",
+      "concept_3",
+      "concept_4",
+      "concept_5",
+      "concept_6"
+    ],
+    "connector_ids": [],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "preflight geométrico",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual en canvas real 16:9",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      }
+    ],
+    "visual_review": {
+      "date": "2026-08-12",
+      "method": "render individual a tamaño final + hoja de contacto + reinspección de recursos corregidos",
+      "critical_issues": 0,
+      "major_issues": 0,
+      "result": "approved"
+    }
+  },
+  {
+    "asset_id": "U09-DG-023",
+    "classification": "ecuación anotada",
+    "subtype": "ecuación anotada",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 22.5,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20,
+      "equation_pt": 30
+    },
+    "padding_px": 24,
+    "padding_inches": 0.25,
+    "line_text_clearance_px": 12,
+    "line_text_clearance_inches": 0.125,
+    "not_to_scale": false,
+    "object_ids": [
+      "equation",
+      "callout_1",
+      "callout_2",
+      "callout_3",
+      "callout_4"
+    ],
+    "connector_ids": [
+      "leader_1",
+      "leader_2",
+      "leader_3",
+      "leader_4"
+    ],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "preflight geométrico",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual en canvas real 16:9",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      }
+    ],
+    "visual_review": {
+      "date": "2026-08-12",
+      "method": "render individual a tamaño final + hoja de contacto + reinspección de recursos corregidos",
+      "critical_issues": 0,
+      "major_issues": 0,
+      "result": "approved"
+    }
+  },
+  {
+    "asset_id": "U09-DG-024",
+    "classification": "esquema mixto",
+    "subtype": "esquema científico",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 22.5,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20,
+      "equation_pt": 30
+    },
+    "padding_px": 24,
+    "padding_inches": 0.25,
+    "line_text_clearance_px": 12,
+    "line_text_clearance_inches": 0.125,
+    "not_to_scale": true,
+    "object_ids": [
+      "source",
+      "path_upper",
+      "path_lower",
+      "receiver",
+      "condition"
+    ],
+    "connector_ids": [
+      "route_1a",
+      "route_1b",
+      "route_2a",
+      "route_2b"
+    ],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "preflight geométrico",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual en canvas real 16:9",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      }
+    ],
+    "visual_review": {
+      "date": "2026-08-12",
+      "method": "render individual a tamaño final + hoja de contacto + reinspección de recursos corregidos",
+      "critical_issues": 0,
+      "major_issues": 0,
+      "result": "approved"
+    }
+  },
+  {
+    "asset_id": "U09-DG-025",
+    "classification": "diagrama conceptual",
+    "subtype": "matriz conceptual",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 22.5,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20,
+      "equation_pt": 30
+    },
+    "padding_px": 24,
+    "padding_inches": 0.25,
+    "line_text_clearance_px": 12,
+    "line_text_clearance_inches": 0.125,
+    "not_to_scale": true,
+    "object_ids": [
+      "concept_1",
+      "concept_2",
+      "concept_3",
+      "concept_4",
+      "concept_5",
+      "concept_6",
+      "concept_7",
+      "concept_8"
+    ],
+    "connector_ids": [],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "preflight geométrico",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual en canvas real 16:9",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      }
+    ],
+    "visual_review": {
+      "date": "2026-08-12",
+      "method": "render individual a tamaño final + hoja de contacto + reinspección de recursos corregidos",
+      "critical_issues": 0,
+      "major_issues": 0,
+      "result": "approved"
+    }
+  },
+  {
+    "asset_id": "U09-DG-026",
+    "classification": "diagrama conceptual",
+    "subtype": "matriz conceptual",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 22.5,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20,
+      "equation_pt": 30
+    },
+    "padding_px": 24,
+    "padding_inches": 0.25,
+    "line_text_clearance_px": 12,
+    "line_text_clearance_inches": 0.125,
+    "not_to_scale": true,
+    "object_ids": [
+      "concept_1",
+      "concept_2",
+      "concept_3",
+      "concept_4",
+      "concept_5",
+      "concept_6"
+    ],
+    "connector_ids": [],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "preflight geométrico",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual en canvas real 16:9",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      }
+    ],
+    "visual_review": {
+      "date": "2026-08-12",
+      "method": "render individual a tamaño final + hoja de contacto + reinspección de recursos corregidos",
+      "critical_issues": 0,
+      "major_issues": 0,
+      "result": "approved"
+    }
+  },
+  {
+    "asset_id": "U09-DG-027",
+    "classification": "esquema mixto",
+    "subtype": "esquema científico",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 22.5,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20,
+      "equation_pt": 30
+    },
+    "padding_px": 24,
+    "padding_inches": 0.25,
+    "line_text_clearance_px": 12,
+    "line_text_clearance_inches": 0.125,
+    "not_to_scale": true,
+    "object_ids": [
+      "branch_source",
+      "branch_1",
+      "branch_2",
+      "branch_3",
+      "branch_4"
+    ],
+    "connector_ids": [
+      "branch_edge_1",
+      "branch_edge_2",
+      "branch_edge_3",
+      "branch_edge_4"
+    ],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "preflight geométrico",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual en canvas real 16:9",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      }
+    ],
+    "visual_review": {
+      "date": "2026-08-12",
+      "method": "render individual a tamaño final + hoja de contacto + reinspección de recursos corregidos",
+      "critical_issues": 0,
+      "major_issues": 0,
+      "result": "approved"
+    }
+  },
+  {
+    "asset_id": "U09-DG-028",
+    "classification": "ecuación anotada",
+    "subtype": "ecuación anotada",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 22.5,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20,
+      "equation_pt": 30
+    },
+    "padding_px": 24,
+    "padding_inches": 0.25,
+    "line_text_clearance_px": 12,
+    "line_text_clearance_inches": 0.125,
+    "not_to_scale": false,
+    "object_ids": [
+      "equation",
+      "callout_1",
+      "callout_2",
+      "callout_3",
+      "callout_4"
+    ],
+    "connector_ids": [
+      "leader_1",
+      "leader_2",
+      "leader_3",
+      "leader_4"
+    ],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "preflight geométrico",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual en canvas real 16:9",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      }
+    ],
+    "visual_review": {
+      "date": "2026-08-12",
+      "method": "render individual a tamaño final + hoja de contacto + reinspección de recursos corregidos",
+      "critical_issues": 0,
+      "major_issues": 0,
+      "result": "approved"
+    }
+  },
+  {
+    "asset_id": "U09-DG-029",
+    "classification": "esquema mixto",
+    "subtype": "esquema científico",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 22.5,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20,
+      "equation_pt": 30
+    },
+    "padding_px": 24,
+    "padding_inches": 0.25,
+    "line_text_clearance_px": 12,
+    "line_text_clearance_inches": 0.125,
+    "not_to_scale": true,
+    "object_ids": [
+      "source",
+      "path_upper",
+      "path_lower",
+      "receiver",
+      "condition"
+    ],
+    "connector_ids": [
+      "route_1a",
+      "route_1b",
+      "route_2a",
+      "route_2b"
+    ],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "preflight geométrico",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual en canvas real 16:9",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      }
+    ],
+    "visual_review": {
+      "date": "2026-08-12",
+      "method": "render individual a tamaño final + hoja de contacto + reinspección de recursos corregidos",
+      "critical_issues": 0,
+      "major_issues": 0,
+      "result": "approved"
+    }
+  },
+  {
+    "asset_id": "U09-DG-030",
+    "classification": "esquema mixto",
+    "subtype": "esquema científico",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 22.5,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20,
+      "equation_pt": 30
+    },
+    "padding_px": 24,
+    "padding_inches": 0.25,
+    "line_text_clearance_px": 12,
+    "line_text_clearance_inches": 0.125,
+    "not_to_scale": true,
+    "object_ids": [
+      "source",
+      "path_upper",
+      "path_lower",
+      "receiver",
+      "condition"
+    ],
+    "connector_ids": [
+      "route_1a",
+      "route_1b",
+      "route_2a",
+      "route_2b"
+    ],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "preflight geométrico",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual en canvas real 16:9",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      }
+    ],
+    "visual_review": {
+      "date": "2026-08-12",
+      "method": "render individual a tamaño final + hoja de contacto + reinspección de recursos corregidos",
+      "critical_issues": 0,
+      "major_issues": 0,
+      "result": "approved"
+    }
+  },
+  {
+    "asset_id": "U09-DG-031",
+    "classification": "esquema mixto",
+    "subtype": "esquema científico",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 22.5,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20,
+      "equation_pt": 30
+    },
+    "padding_px": 24,
+    "padding_inches": 0.25,
+    "line_text_clearance_px": 12,
+    "line_text_clearance_inches": 0.125,
+    "not_to_scale": true,
+    "object_ids": [
+      "branch_source",
+      "branch_1",
+      "branch_2",
+      "branch_3",
+      "branch_4"
+    ],
+    "connector_ids": [
+      "branch_edge_1",
+      "branch_edge_2",
+      "branch_edge_3",
+      "branch_edge_4"
+    ],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "preflight geométrico",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual en canvas real 16:9",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      }
+    ],
+    "visual_review": {
+      "date": "2026-08-12",
+      "method": "render individual a tamaño final + hoja de contacto + reinspección de recursos corregidos",
+      "critical_issues": 0,
+      "major_issues": 0,
+      "result": "approved"
+    }
+  },
+  {
+    "asset_id": "U09-DG-033",
+    "classification": "esquema mixto",
+    "subtype": "esquema científico",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 22.5,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20,
+      "equation_pt": 30
+    },
+    "padding_px": 24,
+    "padding_inches": 0.25,
+    "line_text_clearance_px": 12,
+    "line_text_clearance_inches": 0.125,
+    "not_to_scale": true,
+    "object_ids": [
+      "branch_source",
+      "branch_1",
+      "branch_2",
+      "branch_3",
+      "branch_4"
+    ],
+    "connector_ids": [
+      "branch_edge_1",
+      "branch_edge_2",
+      "branch_edge_3",
+      "branch_edge_4"
+    ],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "preflight geométrico",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual en canvas real 16:9",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      }
+    ],
+    "visual_review": {
+      "date": "2026-08-12",
+      "method": "render individual a tamaño final + hoja de contacto + reinspección de recursos corregidos",
+      "critical_issues": 0,
+      "major_issues": 0,
+      "result": "approved"
+    }
+  },
+  {
+    "asset_id": "U09-DG-034",
+    "classification": "diagrama conceptual",
+    "subtype": "comparación conceptual",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 22.5,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20,
+      "equation_pt": 30
+    },
+    "padding_px": 24,
+    "padding_inches": 0.25,
+    "line_text_clearance_px": 12,
+    "line_text_clearance_inches": 0.125,
+    "not_to_scale": true,
+    "object_ids": [
+      "concept_1",
+      "concept_2",
+      "concept_3"
+    ],
+    "connector_ids": [],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "preflight geométrico",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual en canvas real 16:9",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      }
+    ],
+    "visual_review": {
+      "date": "2026-08-12",
+      "method": "render individual a tamaño final + hoja de contacto + reinspección de recursos corregidos",
+      "critical_issues": 0,
+      "major_issues": 0,
+      "result": "approved"
+    }
+  },
+  {
+    "asset_id": "U09-DG-035",
+    "classification": "esquema mixto",
+    "subtype": "esquema científico",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 22.5,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20,
+      "equation_pt": 30
+    },
+    "padding_px": 24,
+    "padding_inches": 0.25,
+    "line_text_clearance_px": 12,
+    "line_text_clearance_inches": 0.125,
+    "not_to_scale": true,
+    "object_ids": [
+      "concept_1",
+      "concept_2",
+      "concept_3",
+      "concept_4"
+    ],
+    "connector_ids": [],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "preflight geométrico",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual en canvas real 16:9",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      }
+    ],
+    "visual_review": {
+      "date": "2026-08-12",
+      "method": "render individual a tamaño final + hoja de contacto + reinspección de recursos corregidos",
+      "critical_issues": 0,
+      "major_issues": 0,
+      "result": "approved"
+    }
+  },
+  {
+    "asset_id": "U09-DG-036",
+    "classification": "esquema mixto",
+    "subtype": "esquema científico",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 22.5,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20,
+      "equation_pt": 30
+    },
+    "padding_px": 24,
+    "padding_inches": 0.25,
+    "line_text_clearance_px": 12,
+    "line_text_clearance_inches": 0.125,
+    "not_to_scale": true,
+    "object_ids": [
+      "branch_source",
+      "branch_1",
+      "branch_2",
+      "branch_3",
+      "branch_4",
+      "branch_5"
+    ],
+    "connector_ids": [
+      "branch_edge_1",
+      "branch_edge_2",
+      "branch_edge_3",
+      "branch_edge_4",
+      "branch_edge_5"
+    ],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "preflight geométrico",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual en canvas real 16:9",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      }
+    ],
+    "visual_review": {
+      "date": "2026-08-12",
+      "method": "render individual a tamaño final + hoja de contacto + reinspección de recursos corregidos",
+      "critical_issues": 0,
+      "major_issues": 0,
+      "result": "approved"
+    }
+  },
+  {
+    "asset_id": "U09-DG-037",
+    "classification": "diagrama de proceso",
+    "subtype": "diagrama de proceso",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 22.5,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20,
+      "equation_pt": 30
+    },
+    "padding_px": 24,
+    "padding_inches": 0.25,
+    "line_text_clearance_px": 12,
+    "line_text_clearance_inches": 0.125,
+    "not_to_scale": false,
+    "object_ids": [
+      "step_1",
+      "step_2",
+      "step_3",
+      "step_4"
+    ],
+    "connector_ids": [
+      "flow_1",
+      "flow_2",
+      "flow_3"
+    ],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "preflight geométrico",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual en canvas real 16:9",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      }
+    ],
+    "visual_review": {
+      "date": "2026-08-12",
+      "method": "render individual a tamaño final + hoja de contacto + reinspección de recursos corregidos",
+      "critical_issues": 0,
+      "major_issues": 0,
+      "result": "approved"
+    }
+  },
+  {
+    "asset_id": "U09-DG-038",
+    "classification": "ecuación anotada",
+    "subtype": "ecuación anotada",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 22.5,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20,
+      "equation_pt": 30
+    },
+    "padding_px": 24,
+    "padding_inches": 0.25,
+    "line_text_clearance_px": 12,
+    "line_text_clearance_inches": 0.125,
+    "not_to_scale": false,
+    "object_ids": [
+      "equation",
+      "callout_1",
+      "callout_2",
+      "callout_3",
+      "callout_4"
+    ],
+    "connector_ids": [
+      "leader_1",
+      "leader_2",
+      "leader_3",
+      "leader_4"
+    ],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "preflight geométrico",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual en canvas real 16:9",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      }
+    ],
+    "visual_review": {
+      "date": "2026-08-12",
+      "method": "render individual a tamaño final + hoja de contacto + reinspección de recursos corregidos",
+      "critical_issues": 0,
+      "major_issues": 0,
+      "result": "approved"
+    }
+  },
+  {
+    "asset_id": "U09-DG-039",
+    "classification": "ecuación anotada",
+    "subtype": "ecuación anotada",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 22.5,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20,
+      "equation_pt": 30
+    },
+    "padding_px": 24,
+    "padding_inches": 0.25,
+    "line_text_clearance_px": 12,
+    "line_text_clearance_inches": 0.125,
+    "not_to_scale": false,
+    "object_ids": [
+      "equation",
+      "callout_1",
+      "callout_2",
+      "callout_3",
+      "callout_4"
+    ],
+    "connector_ids": [
+      "leader_1",
+      "leader_2",
+      "leader_3",
+      "leader_4"
+    ],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "preflight geométrico",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual en canvas real 16:9",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      }
+    ],
+    "visual_review": {
+      "date": "2026-08-12",
+      "method": "render individual a tamaño final + hoja de contacto + reinspección de recursos corregidos",
+      "critical_issues": 0,
+      "major_issues": 0,
+      "result": "approved"
+    }
+  },
+  {
+    "asset_id": "U09-DG-040",
+    "classification": "ecuación anotada",
+    "subtype": "ecuación anotada",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 22.5,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20,
+      "equation_pt": 30
+    },
+    "padding_px": 24,
+    "padding_inches": 0.25,
+    "line_text_clearance_px": 12,
+    "line_text_clearance_inches": 0.125,
+    "not_to_scale": false,
+    "object_ids": [
+      "equation",
+      "callout_1",
+      "callout_2",
+      "callout_3",
+      "callout_4"
+    ],
+    "connector_ids": [
+      "leader_1",
+      "leader_2",
+      "leader_3",
+      "leader_4"
+    ],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "preflight geométrico",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual en canvas real 16:9",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      }
+    ],
+    "visual_review": {
+      "date": "2026-08-12",
+      "method": "render individual a tamaño final + hoja de contacto + reinspección de recursos corregidos",
+      "critical_issues": 0,
+      "major_issues": 0,
+      "result": "approved"
+    }
+  },
+  {
+    "asset_id": "U09-DG-041",
+    "classification": "esquema mixto",
+    "subtype": "esquema científico",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 22.5,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20,
+      "equation_pt": 30
+    },
+    "padding_px": 24,
+    "padding_inches": 0.25,
+    "line_text_clearance_px": 12,
+    "line_text_clearance_inches": 0.125,
+    "not_to_scale": true,
+    "object_ids": [
+      "concept_1",
+      "concept_2",
+      "concept_3"
+    ],
+    "connector_ids": [],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "preflight geométrico",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual en canvas real 16:9",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      }
+    ],
+    "visual_review": {
+      "date": "2026-08-12",
+      "method": "render individual a tamaño final + hoja de contacto + reinspección de recursos corregidos",
+      "critical_issues": 0,
+      "major_issues": 0,
+      "result": "approved"
+    }
+  },
+  {
+    "asset_id": "U09-DG-042",
+    "classification": "diagrama conceptual",
+    "subtype": "comparación conceptual",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 22.5,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20,
+      "equation_pt": 30
+    },
+    "padding_px": 24,
+    "padding_inches": 0.25,
+    "line_text_clearance_px": 12,
+    "line_text_clearance_inches": 0.125,
+    "not_to_scale": true,
+    "object_ids": [
+      "concept_1",
+      "concept_2",
+      "concept_3",
+      "concept_4"
+    ],
+    "connector_ids": [],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "preflight geométrico",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual en canvas real 16:9",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      }
+    ],
+    "visual_review": {
+      "date": "2026-08-12",
+      "method": "render individual a tamaño final + hoja de contacto + reinspección de recursos corregidos",
+      "critical_issues": 0,
+      "major_issues": 0,
+      "result": "approved"
+    }
+  },
+  {
+    "asset_id": "U09-DG-043",
+    "classification": "diagrama de proceso",
+    "subtype": "diagrama de proceso",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 22.5,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20,
+      "equation_pt": 30
+    },
+    "padding_px": 24,
+    "padding_inches": 0.25,
+    "line_text_clearance_px": 12,
+    "line_text_clearance_inches": 0.125,
+    "not_to_scale": false,
+    "object_ids": [
+      "step_1",
+      "step_2",
+      "step_3",
+      "step_4",
+      "step_5"
+    ],
+    "connector_ids": [
+      "flow_1",
+      "flow_2",
+      "flow_3",
+      "flow_4"
+    ],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "preflight geométrico",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual en canvas real 16:9",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      }
+    ],
+    "visual_review": {
+      "date": "2026-08-12",
+      "method": "render individual a tamaño final + hoja de contacto + reinspección de recursos corregidos",
+      "critical_issues": 0,
+      "major_issues": 0,
+      "result": "approved"
+    }
+  },
+  {
+    "asset_id": "U09-DG-044",
+    "classification": "ecuación anotada",
+    "subtype": "ecuación anotada",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 22.5,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20,
+      "equation_pt": 30
+    },
+    "padding_px": 24,
+    "padding_inches": 0.25,
+    "line_text_clearance_px": 12,
+    "line_text_clearance_inches": 0.125,
+    "not_to_scale": false,
+    "object_ids": [
+      "equation",
+      "callout_1",
+      "callout_2",
+      "callout_3",
+      "callout_4"
+    ],
+    "connector_ids": [
+      "leader_1",
+      "leader_2",
+      "leader_3",
+      "leader_4"
+    ],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "preflight geométrico",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual en canvas real 16:9",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      }
+    ],
+    "visual_review": {
+      "date": "2026-08-12",
+      "method": "render individual a tamaño final + hoja de contacto + reinspección de recursos corregidos",
+      "critical_issues": 0,
+      "major_issues": 0,
+      "result": "approved"
+    }
+  },
+  {
+    "asset_id": "U09-DG-045",
+    "classification": "esquema mixto",
+    "subtype": "esquema científico",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 22.5,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20,
+      "equation_pt": 30
+    },
+    "padding_px": 24,
+    "padding_inches": 0.25,
+    "line_text_clearance_px": 12,
+    "line_text_clearance_inches": 0.125,
+    "not_to_scale": true,
+    "object_ids": [
+      "branch_source",
+      "branch_1",
+      "branch_2",
+      "branch_3",
+      "branch_4",
+      "branch_5"
+    ],
+    "connector_ids": [
+      "branch_edge_1",
+      "branch_edge_2",
+      "branch_edge_3",
+      "branch_edge_4",
+      "branch_edge_5"
+    ],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "preflight geométrico",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual en canvas real 16:9",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      }
+    ],
+    "visual_review": {
+      "date": "2026-08-12",
+      "method": "render individual a tamaño final + hoja de contacto + reinspección de recursos corregidos",
+      "critical_issues": 0,
+      "major_issues": 0,
+      "result": "approved"
+    }
+  },
+  {
+    "asset_id": "U09-DG-046",
+    "classification": "diagrama conceptual",
+    "subtype": "matriz conceptual",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 22.5,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20,
+      "equation_pt": 30
+    },
+    "padding_px": 24,
+    "padding_inches": 0.25,
+    "line_text_clearance_px": 12,
+    "line_text_clearance_inches": 0.125,
+    "not_to_scale": true,
+    "object_ids": [
+      "concept_1",
+      "concept_2",
+      "concept_3",
+      "concept_4",
+      "concept_5",
+      "concept_6"
+    ],
+    "connector_ids": [],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "preflight geométrico",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual en canvas real 16:9",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      }
+    ],
+    "visual_review": {
+      "date": "2026-08-12",
+      "method": "render individual a tamaño final + hoja de contacto + reinspección de recursos corregidos",
+      "critical_issues": 0,
+      "major_issues": 0,
+      "result": "approved"
+    }
+  },
+  {
+    "asset_id": "U09-DG-047",
+    "classification": "ecuación anotada",
+    "subtype": "ecuación anotada",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 22.5,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20,
+      "equation_pt": 30
+    },
+    "padding_px": 24,
+    "padding_inches": 0.25,
+    "line_text_clearance_px": 12,
+    "line_text_clearance_inches": 0.125,
+    "not_to_scale": false,
+    "object_ids": [
+      "equation",
+      "callout_1",
+      "callout_2",
+      "callout_3",
+      "callout_4"
+    ],
+    "connector_ids": [
+      "leader_1",
+      "leader_2",
+      "leader_3",
+      "leader_4"
+    ],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "preflight geométrico",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual en canvas real 16:9",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      }
+    ],
+    "visual_review": {
+      "date": "2026-08-12",
+      "method": "render individual a tamaño final + hoja de contacto + reinspección de recursos corregidos",
+      "critical_issues": 0,
+      "major_issues": 0,
+      "result": "approved"
+    }
+  },
+  {
+    "asset_id": "U09-DG-049",
+    "classification": "ecuación anotada",
+    "subtype": "ecuación anotada",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 22.5,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20,
+      "equation_pt": 30
+    },
+    "padding_px": 24,
+    "padding_inches": 0.25,
+    "line_text_clearance_px": 12,
+    "line_text_clearance_inches": 0.125,
+    "not_to_scale": false,
+    "object_ids": [
+      "equation",
+      "callout_1",
+      "callout_2",
+      "callout_3",
+      "callout_4"
+    ],
+    "connector_ids": [
+      "leader_1",
+      "leader_2",
+      "leader_3",
+      "leader_4"
+    ],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "preflight geométrico",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual en canvas real 16:9",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      }
+    ],
+    "visual_review": {
+      "date": "2026-08-12",
+      "method": "render individual a tamaño final + hoja de contacto + reinspección de recursos corregidos",
+      "critical_issues": 0,
+      "major_issues": 0,
+      "result": "approved"
+    }
+  },
+  {
+    "asset_id": "U09-DG-050",
+    "classification": "esquema mixto",
+    "subtype": "esquema científico",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 22.5,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20,
+      "equation_pt": 30
+    },
+    "padding_px": 24,
+    "padding_inches": 0.25,
+    "line_text_clearance_px": 12,
+    "line_text_clearance_inches": 0.125,
+    "not_to_scale": true,
+    "object_ids": [
+      "concept_1",
+      "concept_2",
+      "concept_3"
+    ],
+    "connector_ids": [],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "preflight geométrico",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual en canvas real 16:9",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      }
+    ],
+    "visual_review": {
+      "date": "2026-08-12",
+      "method": "render individual a tamaño final + hoja de contacto + reinspección de recursos corregidos",
+      "critical_issues": 0,
+      "major_issues": 0,
+      "result": "approved"
+    }
+  },
+  {
+    "asset_id": "U09-DG-051",
+    "classification": "diagrama de proceso",
+    "subtype": "diagrama de actividad",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 22.5,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20,
+      "equation_pt": 30
+    },
+    "padding_px": 24,
+    "padding_inches": 0.25,
+    "line_text_clearance_px": 12,
+    "line_text_clearance_inches": 0.125,
+    "not_to_scale": false,
+    "object_ids": [
+      "step_1",
+      "step_2",
+      "step_3",
+      "step_4",
+      "step_5"
+    ],
+    "connector_ids": [
+      "flow_1",
+      "flow_2",
+      "flow_3",
+      "flow_4"
+    ],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "preflight geométrico",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual en canvas real 16:9",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      }
+    ],
+    "visual_review": {
+      "date": "2026-08-12",
+      "method": "render individual a tamaño final + hoja de contacto + reinspección de recursos corregidos",
+      "critical_issues": 0,
+      "major_issues": 0,
+      "result": "approved"
+    }
+  },
+  {
+    "asset_id": "U09-DG-052",
+    "classification": "esquema mixto",
+    "subtype": "esquema científico",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 22.5,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20,
+      "equation_pt": 30
+    },
+    "padding_px": 24,
+    "padding_inches": 0.25,
+    "line_text_clearance_px": 12,
+    "line_text_clearance_inches": 0.125,
+    "not_to_scale": true,
+    "object_ids": [
+      "concept_1",
+      "concept_2",
+      "concept_3",
+      "concept_4",
+      "concept_5"
+    ],
+    "connector_ids": [],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "preflight geométrico",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual en canvas real 16:9",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      }
+    ],
+    "visual_review": {
+      "date": "2026-08-12",
+      "method": "render individual a tamaño final + hoja de contacto + reinspección de recursos corregidos",
+      "critical_issues": 0,
+      "major_issues": 0,
+      "result": "approved"
+    }
+  },
+  {
+    "asset_id": "U09-DG-053",
+    "classification": "esquema mixto",
+    "subtype": "esquema científico",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 22.5,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20,
+      "equation_pt": 30
+    },
+    "padding_px": 24,
+    "padding_inches": 0.25,
+    "line_text_clearance_px": 12,
+    "line_text_clearance_inches": 0.125,
+    "not_to_scale": true,
+    "object_ids": [
+      "concept_1",
+      "concept_2",
+      "concept_3",
+      "concept_4",
+      "concept_5"
+    ],
+    "connector_ids": [],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "preflight geométrico",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual en canvas real 16:9",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      }
+    ],
+    "visual_review": {
+      "date": "2026-08-12",
+      "method": "render individual a tamaño final + hoja de contacto + reinspección de recursos corregidos",
+      "critical_issues": 0,
+      "major_issues": 0,
+      "result": "approved"
+    }
+  },
+  {
+    "asset_id": "U09-DG-054",
+    "classification": "esquema mixto",
+    "subtype": "esquema científico",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 22.5,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20,
+      "equation_pt": 30
+    },
+    "padding_px": 24,
+    "padding_inches": 0.25,
+    "line_text_clearance_px": 12,
+    "line_text_clearance_inches": 0.125,
+    "not_to_scale": true,
+    "object_ids": [
+      "branch_source",
+      "branch_1",
+      "branch_2",
+      "branch_3",
+      "branch_4",
+      "branch_5"
+    ],
+    "connector_ids": [
+      "branch_edge_1",
+      "branch_edge_2",
+      "branch_edge_3",
+      "branch_edge_4",
+      "branch_edge_5"
+    ],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "preflight geométrico",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual en canvas real 16:9",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      }
+    ],
+    "visual_review": {
+      "date": "2026-08-12",
+      "method": "render individual a tamaño final + hoja de contacto + reinspección de recursos corregidos",
+      "critical_issues": 0,
+      "major_issues": 0,
+      "result": "approved"
+    }
+  },
+  {
+    "asset_id": "U09-DG-055",
+    "classification": "diagrama de proceso",
+    "subtype": "diagrama de proceso",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 22.5,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20,
+      "equation_pt": 30
+    },
+    "padding_px": 24,
+    "padding_inches": 0.25,
+    "line_text_clearance_px": 12,
+    "line_text_clearance_inches": 0.125,
+    "not_to_scale": false,
+    "object_ids": [
+      "step_1",
+      "step_2",
+      "step_3",
+      "step_4",
+      "step_5"
+    ],
+    "connector_ids": [
+      "flow_1",
+      "flow_2",
+      "flow_3",
+      "flow_4"
+    ],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "preflight geométrico",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual en canvas real 16:9",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      }
+    ],
+    "visual_review": {
+      "date": "2026-08-12",
+      "method": "render individual a tamaño final + hoja de contacto + reinspección de recursos corregidos",
+      "critical_issues": 0,
+      "major_issues": 0,
+      "result": "approved"
+    }
+  },
+  {
+    "asset_id": "U09-DG-056",
+    "classification": "diagrama conceptual",
+    "subtype": "matriz conceptual",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 22.5,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20,
+      "equation_pt": 30
+    },
+    "padding_px": 24,
+    "padding_inches": 0.25,
+    "line_text_clearance_px": 12,
+    "line_text_clearance_inches": 0.125,
+    "not_to_scale": true,
+    "object_ids": [
+      "concept_1",
+      "concept_2",
+      "concept_3",
+      "concept_4",
+      "concept_5",
+      "concept_6",
+      "concept_7"
+    ],
+    "connector_ids": [],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "preflight geométrico",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual en canvas real 16:9",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      }
+    ],
+    "visual_review": {
+      "date": "2026-08-12",
+      "method": "render individual a tamaño final + hoja de contacto + reinspección de recursos corregidos",
+      "critical_issues": 0,
+      "major_issues": 0,
+      "result": "approved"
+    }
+  },
+  {
+    "asset_id": "U09-DG-057",
+    "classification": "diagrama conceptual",
+    "subtype": "matriz conceptual",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 22.5,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20,
+      "equation_pt": 30
+    },
+    "padding_px": 24,
+    "padding_inches": 0.25,
+    "line_text_clearance_px": 12,
+    "line_text_clearance_inches": 0.125,
+    "not_to_scale": true,
+    "object_ids": [
+      "concept_1",
+      "concept_2",
+      "concept_3",
+      "concept_4",
+      "concept_5",
+      "concept_6",
+      "concept_7"
+    ],
+    "connector_ids": [],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "preflight geométrico",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual en canvas real 16:9",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      }
+    ],
+    "visual_review": {
+      "date": "2026-08-12",
+      "method": "render individual a tamaño final + hoja de contacto + reinspección de recursos corregidos",
+      "critical_issues": 0,
+      "major_issues": 0,
+      "result": "approved"
+    }
+  },
+  {
+    "asset_id": "U09-DG-058",
+    "classification": "diagrama de proceso",
+    "subtype": "diagrama de actividad",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 22.5,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20,
+      "equation_pt": 30
+    },
+    "padding_px": 24,
+    "padding_inches": 0.25,
+    "line_text_clearance_px": 12,
+    "line_text_clearance_inches": 0.125,
+    "not_to_scale": false,
+    "object_ids": [
+      "step_1",
+      "step_2",
+      "step_3",
+      "step_4",
+      "step_5"
+    ],
+    "connector_ids": [
+      "flow_1",
+      "flow_2",
+      "flow_3",
+      "flow_4"
+    ],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "preflight geométrico",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual en canvas real 16:9",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      }
+    ],
+    "visual_review": {
+      "date": "2026-08-12",
+      "method": "render individual a tamaño final + hoja de contacto + reinspección de recursos corregidos",
+      "critical_issues": 0,
+      "major_issues": 0,
+      "result": "approved"
+    }
+  },
+  {
+    "asset_id": "U09-DG-059",
+    "classification": "diagrama de proceso",
+    "subtype": "diagrama de actividad",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 22.5,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20,
+      "equation_pt": 30
+    },
+    "padding_px": 24,
+    "padding_inches": 0.25,
+    "line_text_clearance_px": 12,
+    "line_text_clearance_inches": 0.125,
+    "not_to_scale": false,
+    "object_ids": [
+      "step_1",
+      "step_2",
+      "step_3",
+      "step_4"
+    ],
+    "connector_ids": [
+      "flow_1",
+      "flow_2",
+      "flow_3"
+    ],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "preflight geométrico",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual en canvas real 16:9",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      }
+    ],
+    "visual_review": {
+      "date": "2026-08-12",
+      "method": "render individual a tamaño final + hoja de contacto + reinspección de recursos corregidos",
+      "critical_issues": 0,
+      "major_issues": 0,
+      "result": "approved"
+    }
+  },
+  {
+    "asset_id": "U09-DG-060",
+    "classification": "diagrama de proceso",
+    "subtype": "diagrama de actividad",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 22.5,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20,
+      "equation_pt": 30
+    },
+    "padding_px": 24,
+    "padding_inches": 0.25,
+    "line_text_clearance_px": 12,
+    "line_text_clearance_inches": 0.125,
+    "not_to_scale": false,
+    "object_ids": [
+      "step_1",
+      "step_2",
+      "step_3",
+      "step_4",
+      "step_5",
+      "step_6"
+    ],
+    "connector_ids": [
+      "flow_1",
+      "flow_2",
+      "flow_3",
+      "flow_4",
+      "flow_5"
+    ],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "preflight geométrico",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual en canvas real 16:9",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      }
+    ],
+    "visual_review": {
+      "date": "2026-08-12",
+      "method": "render individual a tamaño final + hoja de contacto + reinspección de recursos corregidos",
+      "critical_issues": 0,
+      "major_issues": 0,
+      "result": "approved"
+    }
+  },
+  {
+    "asset_id": "U09-DG-061",
+    "classification": "diagrama de proceso",
+    "subtype": "diagrama de actividad",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 22.5,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20,
+      "equation_pt": 30
+    },
+    "padding_px": 24,
+    "padding_inches": 0.25,
+    "line_text_clearance_px": 12,
+    "line_text_clearance_inches": 0.125,
+    "not_to_scale": false,
+    "object_ids": [
+      "step_1",
+      "step_2",
+      "step_3",
+      "step_4",
+      "step_5"
+    ],
+    "connector_ids": [
+      "flow_1",
+      "flow_2",
+      "flow_3",
+      "flow_4"
+    ],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "preflight geométrico",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual en canvas real 16:9",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      }
+    ],
+    "visual_review": {
+      "date": "2026-08-12",
+      "method": "render individual a tamaño final + hoja de contacto + reinspección de recursos corregidos",
+      "critical_issues": 0,
+      "major_issues": 0,
+      "result": "approved"
+    }
+  },
+  {
+    "asset_id": "U09-DG-062",
+    "classification": "diagrama conceptual",
+    "subtype": "matriz conceptual",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 22.5,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20,
+      "equation_pt": 30
+    },
+    "padding_px": 24,
+    "padding_inches": 0.25,
+    "line_text_clearance_px": 12,
+    "line_text_clearance_inches": 0.125,
+    "not_to_scale": true,
+    "object_ids": [
+      "concept_1",
+      "concept_2",
+      "concept_3",
+      "concept_4",
+      "concept_5",
+      "concept_6"
+    ],
+    "connector_ids": [],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "preflight geométrico",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual en canvas real 16:9",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      }
+    ],
+    "visual_review": {
+      "date": "2026-08-12",
+      "method": "render individual a tamaño final + hoja de contacto + reinspección de recursos corregidos",
+      "critical_issues": 0,
+      "major_issues": 0,
+      "result": "approved"
+    }
+  },
+  {
+    "asset_id": "U09-DG-063",
+    "classification": "esquema mixto",
+    "subtype": "esquema científico",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 22.5,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20,
+      "equation_pt": 30
+    },
+    "padding_px": 24,
+    "padding_inches": 0.25,
+    "line_text_clearance_px": 12,
+    "line_text_clearance_inches": 0.125,
+    "not_to_scale": true,
+    "object_ids": [
+      "source",
+      "path_upper",
+      "path_lower",
+      "receiver",
+      "condition"
+    ],
+    "connector_ids": [
+      "route_1a",
+      "route_1b",
+      "route_2a",
+      "route_2b"
+    ],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "preflight geométrico",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual en canvas real 16:9",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      }
+    ],
+    "visual_review": {
+      "date": "2026-08-12",
+      "method": "render individual a tamaño final + hoja de contacto + reinspección de recursos corregidos",
+      "critical_issues": 0,
+      "major_issues": 0,
+      "result": "approved"
+    }
+  },
+  {
+    "asset_id": "U09-DG-064",
+    "classification": "esquema mixto",
+    "subtype": "esquema científico",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 22.5,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20,
+      "equation_pt": 30
+    },
+    "padding_px": 24,
+    "padding_inches": 0.25,
+    "line_text_clearance_px": 12,
+    "line_text_clearance_inches": 0.125,
+    "not_to_scale": true,
+    "object_ids": [
+      "source",
+      "path_upper",
+      "path_lower",
+      "receiver",
+      "condition"
+    ],
+    "connector_ids": [
+      "route_1a",
+      "route_1b",
+      "route_2a",
+      "route_2b"
+    ],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "preflight geométrico",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual en canvas real 16:9",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      }
+    ],
+    "visual_review": {
+      "date": "2026-08-12",
+      "method": "render individual a tamaño final + hoja de contacto + reinspección de recursos corregidos",
+      "critical_issues": 0,
+      "major_issues": 0,
+      "result": "approved"
+    }
+  },
+  {
+    "asset_id": "U09-DG-065",
+    "classification": "ecuación anotada",
+    "subtype": "ecuación anotada",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 22.5,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20,
+      "equation_pt": 30
+    },
+    "padding_px": 24,
+    "padding_inches": 0.25,
+    "line_text_clearance_px": 12,
+    "line_text_clearance_inches": 0.125,
+    "not_to_scale": false,
+    "object_ids": [
+      "equation",
+      "callout_1",
+      "callout_2",
+      "callout_3",
+      "callout_4"
+    ],
+    "connector_ids": [
+      "leader_1",
+      "leader_2",
+      "leader_3",
+      "leader_4"
+    ],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "preflight geométrico",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual en canvas real 16:9",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      }
+    ],
+    "visual_review": {
+      "date": "2026-08-12",
+      "method": "render individual a tamaño final + hoja de contacto + reinspección de recursos corregidos",
+      "critical_issues": 0,
+      "major_issues": 0,
+      "result": "approved"
+    }
+  },
+  {
+    "asset_id": "U09-DG-066",
+    "classification": "esquema mixto",
+    "subtype": "esquema científico",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 22.5,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20,
+      "equation_pt": 30
+    },
+    "padding_px": 24,
+    "padding_inches": 0.25,
+    "line_text_clearance_px": 12,
+    "line_text_clearance_inches": 0.125,
+    "not_to_scale": true,
+    "object_ids": [
+      "source",
+      "path_upper",
+      "path_lower",
+      "receiver",
+      "condition"
+    ],
+    "connector_ids": [
+      "route_1a",
+      "route_1b",
+      "route_2a",
+      "route_2b"
+    ],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "preflight geométrico",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual en canvas real 16:9",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      }
+    ],
+    "visual_review": {
+      "date": "2026-08-12",
+      "method": "render individual a tamaño final + hoja de contacto + reinspección de recursos corregidos",
+      "critical_issues": 0,
+      "major_issues": 0,
+      "result": "approved"
+    }
+  },
+  {
+    "asset_id": "U09-DG-068",
+    "classification": "ecuación anotada",
+    "subtype": "ecuación anotada",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 22.5,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20,
+      "equation_pt": 30
+    },
+    "padding_px": 24,
+    "padding_inches": 0.25,
+    "line_text_clearance_px": 12,
+    "line_text_clearance_inches": 0.125,
+    "not_to_scale": false,
+    "object_ids": [
+      "equation",
+      "callout_1",
+      "callout_2",
+      "callout_3",
+      "callout_4"
+    ],
+    "connector_ids": [
+      "leader_1",
+      "leader_2",
+      "leader_3",
+      "leader_4"
+    ],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "preflight geométrico",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual en canvas real 16:9",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      }
+    ],
+    "visual_review": {
+      "date": "2026-08-12",
+      "method": "render individual a tamaño final + hoja de contacto + reinspección de recursos corregidos",
+      "critical_issues": 0,
+      "major_issues": 0,
+      "result": "approved"
+    }
+  },
+  {
+    "asset_id": "U09-DG-069",
+    "classification": "esquema mixto",
+    "subtype": "esquema científico",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 22.5,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20,
+      "equation_pt": 30
+    },
+    "padding_px": 24,
+    "padding_inches": 0.25,
+    "line_text_clearance_px": 12,
+    "line_text_clearance_inches": 0.125,
+    "not_to_scale": true,
+    "object_ids": [
+      "source",
+      "path_upper",
+      "path_lower",
+      "receiver",
+      "condition"
+    ],
+    "connector_ids": [
+      "route_1a",
+      "route_1b",
+      "route_2a",
+      "route_2b"
+    ],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "preflight geométrico",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual en canvas real 16:9",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      }
+    ],
+    "visual_review": {
+      "date": "2026-08-12",
+      "method": "render individual a tamaño final + hoja de contacto + reinspección de recursos corregidos",
+      "critical_issues": 0,
+      "major_issues": 0,
+      "result": "approved"
+    }
+  },
+  {
+    "asset_id": "U09-DG-070",
+    "classification": "diagrama conceptual",
+    "subtype": "matriz conceptual",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 22.5,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20,
+      "equation_pt": 30
+    },
+    "padding_px": 24,
+    "padding_inches": 0.25,
+    "line_text_clearance_px": 12,
+    "line_text_clearance_inches": 0.125,
+    "not_to_scale": true,
+    "object_ids": [
+      "concept_1",
+      "concept_2",
+      "concept_3",
+      "concept_4",
+      "concept_5",
+      "concept_6"
+    ],
+    "connector_ids": [],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "preflight geométrico",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual en canvas real 16:9",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+        "critical": 0,
+        "major": 0
+      }
+    ],
+    "visual_review": {
+      "date": "2026-08-12",
+      "method": "render individual a tamaño final + hoja de contacto + reinspección de recursos corregidos",
+      "critical_issues": 0,
+      "major_issues": 0,
+      "result": "approved"
+    }
+  }
+]

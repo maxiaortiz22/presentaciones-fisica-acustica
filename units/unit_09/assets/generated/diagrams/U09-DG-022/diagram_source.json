@@ -1,0 +1,90 @@
+{
+  "id": "U09-DG-022",
+  "slides": "U09-029",
+  "subtype": "comparación conceptual",
+  "purpose": "Altitud y humedad.",
+  "nodesText": "Mapa de influencias relacionadas y datos necesarios para comparar.",
+  "connectorText": "Paneles paralelos; conectores internos solamente; mismas referencias geométricas.",
+  "equation": "ninguna",
+  "textEstimate": "1–4 palabras/rótulo; callouts 2–6",
+  "layout": "FA_05_TEXTO_VISUAL_60_40",
+  "restrictions": "alta; riesgo de “spaghetti”.; canvas real, padding ≥0,18 in, cero colisiones; dividir si no sostiene mínimos.",
+  "editable": "sí; SVG/PNG de respaldo",
+  "inputStatus": "complementario; dividir si hace falta",
+  "nodes": [
+    {
+      "id": "concept_1",
+      "x": 80,
+      "y": 174,
+      "w": 354.6666666666667,
+      "h": 190,
+      "title": "Altitud",
+      "style": "physical",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_2",
+      "x": 462.6666666666667,
+      "y": 174,
+      "w": 354.6666666666667,
+      "h": 190,
+      "title": "Humedad",
+      "style": "accent",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_3",
+      "x": 845.3333333333334,
+      "y": 174,
+      "w": 354.6666666666667,
+      "h": 190,
+      "title": "Presión y densidad",
+      "style": "neutral",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_4",
+      "x": 80,
+      "y": 396,
+      "w": 354.6666666666667,
+      "h": 190,
+      "title": "Temperatura",
+      "style": "clinical",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_5",
+      "x": 462.6666666666667,
+      "y": 396,
+      "w": 354.6666666666667,
+      "h": 190,
+      "title": "Datos necesarios",
+      "style": "physical",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_6",
+      "x": 845.3333333333334,
+      "y": 396,
+      "w": 354.6666666666667,
+      "h": 190,
+      "title": "No concluye por sí\nsolo",
+      "style": "accent",
+      "role": "node",
+      "font": 32
+    }
+  ],
+  "edges": [],
+  "footer": "Relaciones conceptuales; no está a escala.",
+  "classification": "diagrama conceptual",
+  "title": "Altitud y humedad",
+  "caption": "Altitud y humedad Mapa de influencias relacionadas y datos necesarios para comparar.",
+  "alt": "Altitud y humedad. Mapa de influencias relacionadas y datos necesarios para comparar. Relaciones conceptuales; no está a escala.",
+  "source": "LaTeX 9.5.3–9.6.",
+  "notToScale": true
+}

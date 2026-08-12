@@ -1,0 +1,57 @@
+{
+  "id": "U09-DG-041",
+  "slides": "U09-053",
+  "subtype": "esquema científico",
+  "purpose": "Igual absorción, distinta distribución.",
+  "nodesText": "Dos plantas de sala con la misma suma y ubicaciones diferentes.",
+  "connectorText": "Flechas de trayectoria/vector con rótulos independientes; no apoyar texto sobre líneas.",
+  "equation": "ninguna",
+  "textEstimate": "1–4 palabras/rótulo; callouts 2–6",
+  "layout": "FA_11_COMPARACION",
+  "restrictions": "media–alta; mantener escala y receptores equivalentes.; canvas real, padding ≥0,18 in, cero colisiones; dividir si no sostiene mínimos.",
+  "editable": "sí; SVG/PNG de respaldo",
+  "inputStatus": "complementario",
+  "nodes": [
+    {
+      "id": "concept_1",
+      "x": 80,
+      "y": 174,
+      "w": 546,
+      "h": 190,
+      "title": "Dos salas con igual suma de",
+      "style": "physical",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_2",
+      "x": 654,
+      "y": 174,
+      "w": 546,
+      "h": 190,
+      "title": "ubicación distinta",
+      "style": "accent",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_3",
+      "x": 80,
+      "y": 396,
+      "w": 546,
+      "h": 190,
+      "title": "receptores con campos\ndiferentes",
+      "style": "neutral",
+      "role": "node",
+      "font": 32
+    }
+  ],
+  "edges": [],
+  "footer": "Relaciones conceptuales; no está a escala.",
+  "classification": "esquema mixto",
+  "title": "Igual absorción, distinta distribución",
+  "caption": "Igual absorción, distinta distribución Dos plantas de sala con la misma suma y ubicaciones diferentes.",
+  "alt": "Igual absorción, distinta distribución. Dos plantas de sala con la misma suma y ubicaciones diferentes. Relaciones conceptuales; no está a escala.",
+  "source": "Brief U9",
+  "notToScale": true
+}

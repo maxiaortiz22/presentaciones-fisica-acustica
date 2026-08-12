@@ -1,0 +1,68 @@
+{
+  "id": "U09-DG-020",
+  "slides": "U09-027",
+  "subtype": "comparación conceptual",
+  "purpose": "Gradiente vertical de viento.",
+  "nodesText": "Dos paneles a favor/en contra con `c_ef(z)` y trayectorias.",
+  "connectorText": "Paneles paralelos; conectores internos solamente; mismas referencias geométricas.",
+  "equation": "ninguna",
+  "textEstimate": "1–4 palabras/rótulo; callouts 2–6",
+  "layout": "FA_11_COMPARACION",
+  "restrictions": "muy alta; reservar corredores separados.; canvas real, padding ≥0,18 in, cero colisiones; dividir si no sostiene mínimos.",
+  "editable": "sí; SVG/PNG de respaldo",
+  "inputStatus": "reconstrucción prioritaria",
+  "nodes": [
+    {
+      "id": "concept_1",
+      "x": 80,
+      "y": 174,
+      "w": 546,
+      "h": 190,
+      "title": "A favor del viento",
+      "style": "physical",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_2",
+      "x": 654,
+      "y": 174,
+      "w": 546,
+      "h": 190,
+      "title": "En contra del viento",
+      "style": "accent",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_3",
+      "x": 80,
+      "y": 396,
+      "w": 546,
+      "h": 190,
+      "title": "Perfil cₑf(z)",
+      "style": "neutral",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_4",
+      "x": 654,
+      "y": 396,
+      "w": 546,
+      "h": 190,
+      "title": "Trayectoria curvada",
+      "style": "clinical",
+      "role": "node",
+      "font": 32
+    }
+  ],
+  "edges": [],
+  "footer": "Relaciones conceptuales; no está a escala.",
+  "classification": "diagrama conceptual",
+  "title": "Gradiente vertical de viento",
+  "caption": "Gradiente vertical de viento Dos paneles a favor/en contra con c_ef(z) y trayectorias.",
+  "alt": "Gradiente vertical de viento. Dos paneles a favor/en contra con c_ef(z) y trayectorias. Relaciones conceptuales; no está a escala.",
+  "source": "Figura 9.2 `gradiente-viento.tex`.",
+  "notToScale": true
+}

@@ -1,0 +1,68 @@
+{
+  "id": "U09-DG-035",
+  "slides": "U09-045",
+  "subtype": "esquema científico",
+  "purpose": "Difracción frente a transmisión.",
+  "nodesText": "Dos rutas paralelas alrededor y a través del mismo obstáculo.",
+  "connectorText": "Flechas de trayectoria/vector con rótulos independientes; no apoyar texto sobre líneas.",
+  "equation": "ninguna",
+  "textEstimate": "1–4 palabras/rótulo; callouts 2–6",
+  "layout": "FA_15_ERROR_FRECUENTE",
+  "restrictions": "alta; separar colores y leyenda sin ambigüedad.; canvas real, padding ≥0,18 in, cero colisiones; dividir si no sostiene mínimos.",
+  "editable": "sí; SVG/PNG de respaldo",
+  "inputStatus": "planificado",
+  "nodes": [
+    {
+      "id": "concept_1",
+      "x": 80,
+      "y": 174,
+      "w": 546,
+      "h": 190,
+      "title": "Mismo obstáculo",
+      "style": "physical",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_2",
+      "x": 654,
+      "y": 174,
+      "w": 546,
+      "h": 190,
+      "title": "Alrededor: difracción",
+      "style": "accent",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_3",
+      "x": 80,
+      "y": 396,
+      "w": 546,
+      "h": 190,
+      "title": "A través: transmisión",
+      "style": "neutral",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_4",
+      "x": 654,
+      "y": 396,
+      "w": 546,
+      "h": 190,
+      "title": "Evidencia distinta",
+      "style": "clinical",
+      "role": "node",
+      "font": 32
+    }
+  ],
+  "edges": [],
+  "footer": "Relaciones conceptuales; no está a escala.",
+  "classification": "esquema mixto",
+  "title": "Difracción frente a transmisión",
+  "caption": "Difracción frente a transmisión Dos rutas paralelas alrededor y a través del mismo obstáculo.",
+  "alt": "Difracción frente a transmisión. Dos rutas paralelas alrededor y a través del mismo obstáculo. Relaciones conceptuales; no está a escala.",
+  "source": "Brief U9",
+  "notToScale": true
+}

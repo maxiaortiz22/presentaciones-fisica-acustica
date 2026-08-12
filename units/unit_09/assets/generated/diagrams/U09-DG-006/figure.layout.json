@@ -1,0 +1,1019 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/k6yn8a",
+    "id": "k6yn8a",
+    "slide": 1,
+    "layoutId": "108c204c-65d4-442d-a090-313abf433f34",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "7b1d6e31-bb7f-4948-b64f-fbadf005ea1e",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#FFFFFF",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "+mn-lt"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "108c204c-65d4-442d-a090-313abf433f34",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "7b1d6e31-bb7f-4948-b64f-fbadf005ea1e",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "7b1d6e31-bb7f-4948-b64f-fbadf005ea1e",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/t4ni14bi",
+      "id": "1",
+      "name": "top_rule_bordo",
+      "bbox": [
+        72,
+        27,
+        390,
+        6
+      ],
+      "geometry": "rect",
+      "fillColor": "#4D1434",
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/61wj6ps7",
+      "id": "2",
+      "name": "top_rule_bordo2",
+      "bbox": [
+        472,
+        27,
+        390,
+        6
+      ],
+      "geometry": "rect",
+      "fillColor": "#903163",
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7250zutc",
+      "id": "3",
+      "name": "top_rule_gray",
+      "bbox": [
+        872,
+        27,
+        336,
+        6
+      ],
+      "geometry": "rect",
+      "fillColor": "#969FA7",
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/kze14fa1",
+      "id": "4",
+      "name": "diagram_title",
+      "bbox": [
+        72,
+        44,
+        1136,
+        50
+      ],
+      "geometry": "rect",
+      "text": "Matriz de mecanismos",
+      "textPreview": "Matriz de mecanismos",
+      "resolvedFontSize": 40,
+      "resolvedTextStyle": {
+        "fontSize": 40,
+        "typeface": "+mn-lt",
+        "color": "#3D3D3D",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Matriz de mecanismos"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Matriz de mecanismos",
+          "resolvedTextStyle": {
+            "fontSize": 40,
+            "color": "#3D3D3D",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Matriz de mecanismos",
+              "fontSize": 40,
+              "color": "#3D3D3D",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#FFFFFF",
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/l0nixkbm",
+      "id": "5",
+      "name": "concept_1_box",
+      "bbox": [
+        80,
+        174,
+        259,
+        190
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#E7F1F1",
+      "lineColor": "#2F7E83",
+      "lineWidth": 2
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/yxcj2psv",
+      "id": "6",
+      "name": "concept_2_box",
+      "bbox": [
+        367,
+        174,
+        259,
+        190
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#F3E8EE",
+      "lineColor": "#4D1434",
+      "lineWidth": 2
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/jyl0vutg",
+      "id": "7",
+      "name": "concept_3_box",
+      "bbox": [
+        654,
+        174,
+        259,
+        190
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#F7F6F2",
+      "lineColor": "#969FA7",
+      "lineWidth": 2
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wvu10fup",
+      "id": "8",
+      "name": "concept_4_box",
+      "bbox": [
+        941,
+        174,
+        259,
+        190
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#F8EDE2",
+      "lineColor": "#9F541A",
+      "lineWidth": 2
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xw3itkba",
+      "id": "9",
+      "name": "concept_5_box",
+      "bbox": [
+        80,
+        396,
+        259,
+        190
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#E7F1F1",
+      "lineColor": "#2F7E83",
+      "lineWidth": 2
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/94fap8v6",
+      "id": "10",
+      "name": "concept_6_box",
+      "bbox": [
+        367,
+        396,
+        259,
+        190
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#F3E8EE",
+      "lineColor": "#4D1434",
+      "lineWidth": 2
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/8369w3el",
+      "id": "11",
+      "name": "concept_7_box",
+      "bbox": [
+        654,
+        396,
+        259,
+        190
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#F7F6F2",
+      "lineColor": "#969FA7",
+      "lineWidth": 2
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/n2dsnyd0",
+      "id": "12",
+      "name": "concept_8_box",
+      "bbox": [
+        941,
+        396,
+        259,
+        190
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#F8EDE2",
+      "lineColor": "#9F541A",
+      "lineWidth": 2
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/m14rutwf",
+      "id": "13",
+      "name": "concept_1_text",
+      "bbox": [
+        104,
+        194,
+        211,
+        150
+      ],
+      "geometry": "rect",
+      "text": "Divergencia",
+      "textPreview": "Divergencia",
+      "resolvedFontSize": 32,
+      "resolvedTextStyle": {
+        "fontSize": 32,
+        "typeface": "+mn-lt",
+        "color": "#2F7E83",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Divergencia"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Divergencia",
+          "resolvedTextStyle": {
+            "fontSize": 32,
+            "color": "#2F7E83",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Divergencia",
+              "fontSize": 32,
+              "color": "#2F7E83",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#FFFFFF",
+      "lineWidth": 0
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/l0valovu",
+      "id": "14",
+      "name": "concept_2_text",
+      "bbox": [
+        391,
+        194,
+        211,
+        150
+      ],
+      "geometry": "rect",
+      "text": "Directividad",
+      "textPreview": "Directividad",
+      "resolvedFontSize": 32,
+      "resolvedTextStyle": {
+        "fontSize": 32,
+        "typeface": "+mn-lt",
+        "color": "#4D1434",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Directividad"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Directividad",
+          "resolvedTextStyle": {
+            "fontSize": 32,
+            "color": "#4D1434",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Directividad",
+              "fontSize": 32,
+              "color": "#4D1434",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#FFFFFF",
+      "lineWidth": 0
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0zm9s3e9",
+      "id": "15",
+      "name": "concept_3_text",
+      "bbox": [
+        678,
+        194,
+        211,
+        150
+      ],
+      "geometry": "rect",
+      "text": "Absorción\natmosférica",
+      "textPreview": "Absorción | atmosférica",
+      "resolvedFontSize": 32,
+      "resolvedTextStyle": {
+        "fontSize": 32,
+        "typeface": "+mn-lt",
+        "color": "#3D3D3D",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Absorción"
+          },
+          {
+            "index": 2,
+            "text": "atmosférica"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Absorción",
+          "resolvedTextStyle": {
+            "fontSize": 32,
+            "color": "#3D3D3D",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Absorción",
+              "fontSize": 32,
+              "color": "#3D3D3D",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "atmosférica",
+          "resolvedTextStyle": {
+            "fontSize": 32,
+            "color": "#3D3D3D",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "atmosférica",
+              "fontSize": 32,
+              "color": "#3D3D3D",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#FFFFFF",
+      "lineWidth": 0
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/zydsjyd4",
+      "id": "16",
+      "name": "concept_4_text",
+      "bbox": [
+        965,
+        194,
+        211,
+        150
+      ],
+      "geometry": "rect",
+      "text": "Reflexión",
+      "textPreview": "Reflexión",
+      "resolvedFontSize": 32,
+      "resolvedTextStyle": {
+        "fontSize": 32,
+        "typeface": "+mn-lt",
+        "color": "#9F541A",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Reflexión"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Reflexión",
+          "resolvedTextStyle": {
+            "fontSize": 32,
+            "color": "#9F541A",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Reflexión",
+              "fontSize": 32,
+              "color": "#9F541A",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#FFFFFF",
+      "lineWidth": 0
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/yx4rqtwj",
+      "id": "17",
+      "name": "concept_5_text",
+      "bbox": [
+        104,
+        416,
+        211,
+        150
+      ],
+      "geometry": "rect",
+      "text": "Absorción\nmaterial",
+      "textPreview": "Absorción | material",
+      "resolvedFontSize": 32,
+      "resolvedTextStyle": {
+        "fontSize": 32,
+        "typeface": "+mn-lt",
+        "color": "#2F7E83",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Absorción"
+          },
+          {
+            "index": 2,
+            "text": "material"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Absorción",
+          "resolvedTextStyle": {
+            "fontSize": 32,
+            "color": "#2F7E83",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Absorción",
+              "fontSize": 32,
+              "color": "#2F7E83",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "material",
+          "resolvedTextStyle": {
+            "fontSize": 32,
+            "color": "#2F7E83",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "material",
+              "fontSize": 32,
+              "color": "#2F7E83",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#FFFFFF",
+      "lineWidth": 0
+    },
+    {
+      "order": 18,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/dcvahovy",
+      "id": "18",
+      "name": "concept_6_text",
+      "bbox": [
+        391,
+        416,
+        211,
+        150
+      ],
+      "geometry": "rect",
+      "text": "Transmisión",
+      "textPreview": "Transmisión",
+      "resolvedFontSize": 32,
+      "resolvedTextStyle": {
+        "fontSize": 32,
+        "typeface": "+mn-lt",
+        "color": "#4D1434",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Transmisión"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Transmisión",
+          "resolvedTextStyle": {
+            "fontSize": 32,
+            "color": "#4D1434",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Transmisión",
+              "fontSize": 32,
+              "color": "#4D1434",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#FFFFFF",
+      "lineWidth": 0
+    },
+    {
+      "order": 19,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/cb29ojed",
+      "id": "19",
+      "name": "concept_7_text",
+      "bbox": [
+        678,
+        416,
+        211,
+        150
+      ],
+      "geometry": "rect",
+      "text": "Refracción",
+      "textPreview": "Refracción",
+      "resolvedFontSize": 32,
+      "resolvedTextStyle": {
+        "fontSize": 32,
+        "typeface": "+mn-lt",
+        "color": "#3D3D3D",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Refracción"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Refracción",
+          "resolvedTextStyle": {
+            "fontSize": 32,
+            "color": "#3D3D3D",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Refracción",
+              "fontSize": 32,
+              "color": "#3D3D3D",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#FFFFFF",
+      "lineWidth": 0
+    },
+    {
+      "order": 20,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/4f694jm9",
+      "id": "20",
+      "name": "concept_8_text",
+      "bbox": [
+        965,
+        416,
+        211,
+        150
+      ],
+      "geometry": "rect",
+      "text": "Difracción",
+      "textPreview": "Difracción",
+      "resolvedFontSize": 32,
+      "resolvedTextStyle": {
+        "fontSize": 32,
+        "typeface": "+mn-lt",
+        "color": "#9F541A",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Difracción"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Difracción",
+          "resolvedTextStyle": {
+            "fontSize": 32,
+            "color": "#9F541A",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Difracción",
+              "fontSize": 32,
+              "color": "#9F541A",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#FFFFFF",
+      "lineWidth": 0
+    },
+    {
+      "order": 21,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/pgfado3u",
+      "id": "21",
+      "name": "diagram_footer",
+      "bbox": [
+        80,
+        650,
+        1120,
+        26
+      ],
+      "geometry": "rect",
+      "text": "Relaciones conceptuales; no está a escala.",
+      "textPreview": "Relaciones conceptuales; no está a escala.",
+      "resolvedFontSize": 20,
+      "resolvedTextStyle": {
+        "fontSize": 20,
+        "typeface": "+mn-lt",
+        "color": "#969FA7",
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Relaciones conceptuales; no está a escala."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Relaciones conceptuales; no está a escala.",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "color": "#969FA7",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Relaciones conceptuales; no está a escala.",
+              "fontSize": 20,
+              "color": "#969FA7",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#FFFFFF",
+      "lineWidth": 0
+    },
+    {
+      "order": 22,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/2dor2943",
+      "id": "22",
+      "name": "source_note",
+      "bbox": [
+        72,
+        684,
+        1136,
+        20
+      ],
+      "geometry": "rect",
+      "text": "Brief e inventario U9",
+      "textPreview": "Brief e inventario U9",
+      "resolvedFontSize": 14,
+      "resolvedTextStyle": {
+        "fontSize": 14,
+        "typeface": "+mn-lt",
+        "color": "#969FA7",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Brief e inventario U9"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Brief e inventario U9",
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "color": "#969FA7",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Brief e inventario U9",
+              "fontSize": 14,
+              "color": "#969FA7",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#FFFFFF",
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

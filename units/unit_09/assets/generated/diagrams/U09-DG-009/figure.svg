@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+<defs><marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0,0 L10,4 L0,8 Z" fill="#3D3D3D"/></marker></defs>
+<rect width="1280" height="720" fill="white"/>
+<rect x="72" y="27" width="390" height="6" fill="#4D1434"/><rect x="472" y="27" width="390" height="6" fill="#903163"/><rect x="872" y="27" width="336" height="6" fill="#969FA7"/>
+<text x="72" y="78" font-family="Calibri,Arial,sans-serif" font-size="40" font-weight="700" fill="#3D3D3D">Propagación esférica</text>
+<polyline points="335,345 402.5,345 402.5,217.5 470,217.5" fill="none" stroke="#3D3D3D" stroke-width="3" marker-end="url(#arrow)"/>
+<polyline points="790,217.5 867.5,217.5 867.5,345 945,345" fill="none" stroke="#3D3D3D" stroke-width="3" marker-end="url(#arrow)"/>
+<polyline points="335,345 402.5,345 402.5,467.5 470,467.5" fill="none" stroke="#3D3D3D" stroke-width="3" marker-end="url(#arrow)"/>
+<polyline points="790,467.5 867.5,467.5 867.5,345 945,345" fill="none" stroke="#3D3D3D" stroke-width="3" marker-end="url(#arrow)"/>
+<rect id="source" x="75" y="275" width="260" height="140" rx="8" fill="#E7F1F1" stroke="#2F7E83" stroke-width="2"/>
+<text x="205" y="339.4" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#2F7E83">Fuente</text>
+<text x="205" y="373" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#2F7E83">puntual</text>
+<rect id="path_upper" x="470" y="155" width="320" height="125" rx="8" fill="#F3E8EE" stroke="#4D1434" stroke-width="2"/>
+<text x="630" y="211.89999999999998" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#4D1434">Frentes</text>
+<text x="630" y="245.49999999999997" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#4D1434">esféricos</text>
+<rect id="path_lower" x="470" y="405" width="320" height="125" rx="8" fill="#F7F6F2" stroke="#969FA7" stroke-width="2"/>
+<text x="630" y="478.7" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#3D3D3D">Radio r</text>
+<rect id="receiver" x="945" y="275" width="260" height="140" rx="8" fill="#F8EDE2" stroke="#9F541A" stroke-width="2"/>
+<text x="1075" y="356.2" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#9F541A">Área 4πr²</text>
+<rect id="condition" x="470" y="555" width="320" height="75" rx="8" fill="#F7F6F2" stroke="#969FA7" stroke-width="2"/>
+<text x="630" y="587.25" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" font-weight="700" fill="#3D3D3D">Intensidad y</text>
+<text x="630" y="618.75" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" font-weight="700" fill="#3D3D3D">presión</text>
+<text x="640" y="670" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="20" fill="#969FA7">Esquema conceptual; no está a escala ni representa una medición.</text>
+<text x="72" y="700" font-family="Calibri,Arial,sans-serif" font-size="14" fill="#969FA7">U4 propagacion-esferica.tex</text>
+</svg>

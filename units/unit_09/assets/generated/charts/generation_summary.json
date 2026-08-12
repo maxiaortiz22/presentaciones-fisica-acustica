@@ -1,0 +1,312 @@
+[
+  {
+    "asset_id": "U09-CH-001",
+    "classification": "gráfico cuantitativo",
+    "status": "approved",
+    "physical_size_in": [
+      5.0,
+      3.2
+    ],
+    "png_px": [
+      2400,
+      1536
+    ],
+    "slide_preview_px": [
+      2560,
+      1440
+    ],
+    "font_floor": {
+      "axis_labels_pt": 20,
+      "ticks_and_legends_pt": 18,
+      "annotations_pt": 22
+    },
+    "model_and_data_traceable": true,
+    "svg_exists": true,
+    "png_exists": true,
+    "checks": {
+      "delta_at_1": -0.0,
+      "delta_at_2": -6.020599913279624
+    },
+    "critical_issues": 0,
+    "major_issues": 0,
+    "visual_review": {
+      "date": "2026-08-12",
+      "method": "render individual a tamaño final + hoja de contacto + reinspección de recursos corregidos",
+      "critical_issues": 0,
+      "major_issues": 0,
+      "result": "approved"
+    }
+  },
+  {
+    "asset_id": "U09-CH-002",
+    "classification": "gráfico cuantitativo",
+    "status": "approved",
+    "physical_size_in": [
+      10.8,
+      4.4
+    ],
+    "png_px": [
+      3315,
+      1350
+    ],
+    "slide_preview_px": [
+      2560,
+      1440
+    ],
+    "font_floor": {
+      "axis_labels_pt": 20,
+      "ticks_and_legends_pt": 18,
+      "annotations_pt": 22
+    },
+    "model_and_data_traceable": true,
+    "svg_exists": true,
+    "png_exists": true,
+    "checks": {
+      "maxima_dB": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "critical_issues": 0,
+    "major_issues": 0,
+    "visual_review": {
+      "date": "2026-08-12",
+      "method": "render individual a tamaño final + hoja de contacto + reinspección de recursos corregidos",
+      "critical_issues": 0,
+      "major_issues": 0,
+      "result": "approved"
+    }
+  },
+  {
+    "asset_id": "U09-CH-003",
+    "classification": "gráfico cuantitativo",
+    "status": "approved",
+    "physical_size_in": [
+      6.8,
+      4.2
+    ],
+    "png_px": [
+      2400,
+      1482
+    ],
+    "slide_preview_px": [
+      2560,
+      1440
+    ],
+    "font_floor": {
+      "axis_labels_pt": 20,
+      "ticks_and_legends_pt": 18,
+      "annotations_pt": 22
+    },
+    "model_and_data_traceable": true,
+    "svg_exists": true,
+    "png_exists": true,
+    "checks": {
+      "c_5": 334.0,
+      "c_20": 343.0,
+      "c_25": 346.0
+    },
+    "critical_issues": 0,
+    "major_issues": 0,
+    "visual_review": {
+      "date": "2026-08-12",
+      "method": "render individual a tamaño final + hoja de contacto + reinspección de recursos corregidos",
+      "critical_issues": 0,
+      "major_issues": 0,
+      "result": "approved"
+    }
+  },
+  {
+    "asset_id": "U09-CH-004",
+    "classification": "gráfico cuantitativo",
+    "status": "approved",
+    "physical_size_in": [
+      7.0,
+      4.1
+    ],
+    "png_px": [
+      2401,
+      1406
+    ],
+    "slide_preview_px": [
+      2560,
+      1440
+    ],
+    "font_floor": {
+      "axis_labels_pt": 20,
+      "ticks_and_legends_pt": 18,
+      "annotations_pt": 22
+    },
+    "model_and_data_traceable": true,
+    "svg_exists": true,
+    "png_exists": true,
+    "checks": {
+      "direct_peak_ms": 12.0,
+      "isolated_peak_after_direct_ms": 52.0
+    },
+    "critical_issues": 0,
+    "major_issues": 0,
+    "visual_review": {
+      "date": "2026-08-12",
+      "method": "render individual a tamaño final + hoja de contacto + reinspección de recursos corregidos",
+      "critical_issues": 0,
+      "major_issues": 0,
+      "result": "approved"
+    }
+  },
+  {
+    "asset_id": "U09-CH-005",
+    "classification": "gráfico cuantitativo",
+    "status": "approved",
+    "physical_size_in": [
+      7.2,
+      4.2
+    ],
+    "png_px": [
+      2404,
+      1402
+    ],
+    "slide_preview_px": [
+      2560,
+      1440
+    ],
+    "font_floor": {
+      "axis_labels_pt": 20,
+      "ticks_and_legends_pt": 18,
+      "annotations_pt": 22
+    },
+    "model_and_data_traceable": true,
+    "svg_exists": true,
+    "png_exists": true,
+    "checks": {
+      "lambda_125": 2.744,
+      "lambda_500": 0.686,
+      "lambda_4000": 0.08575
+    },
+    "critical_issues": 0,
+    "major_issues": 0,
+    "visual_review": {
+      "date": "2026-08-12",
+      "method": "render individual a tamaño final + hoja de contacto + reinspección de recursos corregidos",
+      "critical_issues": 0,
+      "major_issues": 0,
+      "result": "approved"
+    }
+  },
+  {
+    "asset_id": "U09-CH-006",
+    "classification": "gráfico cuantitativo",
+    "status": "approved",
+    "physical_size_in": [
+      7.0,
+      4.0
+    ],
+    "png_px": [
+      2401,
+      1372
+    ],
+    "slide_preview_px": [
+      2560,
+      1440
+    ],
+    "font_floor": {
+      "axis_labels_pt": 20,
+      "ticks_and_legends_pt": 18,
+      "annotations_pt": 22
+    },
+    "model_and_data_traceable": true,
+    "svg_exists": true,
+    "png_exists": true,
+    "checks": {
+      "level_at_T60": -60.0,
+      "slope_dB_s": -100.0
+    },
+    "critical_issues": 0,
+    "major_issues": 0,
+    "visual_review": {
+      "date": "2026-08-12",
+      "method": "render individual a tamaño final + hoja de contacto + reinspección de recursos corregidos",
+      "critical_issues": 0,
+      "major_issues": 0,
+      "result": "approved"
+    }
+  },
+  {
+    "asset_id": "U09-CH-007",
+    "classification": "gráfico cuantitativo",
+    "status": "approved",
+    "physical_size_in": [
+      7.0,
+      4.1
+    ],
+    "png_px": [
+      2401,
+      1406
+    ],
+    "slide_preview_px": [
+      2560,
+      1440
+    ],
+    "font_floor": {
+      "axis_labels_pt": 20,
+      "ticks_and_legends_pt": 18,
+      "annotations_pt": 22
+    },
+    "model_and_data_traceable": true,
+    "svg_exists": true,
+    "png_exists": true,
+    "checks": {
+      "R_at_0.01": 20.0,
+      "R_at_0.001": 30.0
+    },
+    "critical_issues": 0,
+    "major_issues": 0,
+    "visual_review": {
+      "date": "2026-08-12",
+      "method": "render individual a tamaño final + hoja de contacto + reinspección de recursos corregidos",
+      "critical_issues": 0,
+      "major_issues": 0,
+      "result": "approved"
+    }
+  },
+  {
+    "asset_id": "U09-CH-009",
+    "classification": "gráfico cuantitativo",
+    "status": "approved",
+    "physical_size_in": [
+      10.8,
+      4.3
+    ],
+    "png_px": [
+      3391,
+      1350
+    ],
+    "slide_preview_px": [
+      2560,
+      1440
+    ],
+    "font_floor": {
+      "axis_labels_pt": 20,
+      "ticks_and_legends_pt": 18,
+      "annotations_pt": 22
+    },
+    "model_and_data_traceable": true,
+    "svg_exists": true,
+    "png_exists": true,
+    "checks": {
+      "relative_LA_A": 12.00192620064555,
+      "relative_LA_B": 12.001926200645547,
+      "difference_dB": 1.7763568394002505e-15
+    },
+    "critical_issues": 0,
+    "major_issues": 0,
+    "visual_review": {
+      "date": "2026-08-12",
+      "method": "render individual a tamaño final + hoja de contacto + reinspección de recursos corregidos",
+      "critical_issues": 0,
+      "major_issues": 0,
+      "result": "approved"
+    }
+  }
+]

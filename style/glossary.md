@@ -187,13 +187,21 @@
 | Término preferido | Definición de trabajo | Primera unidad | Reutilización / advertencia |
 |---|---|---:|---|
 | reflexión | Retorno de parte de una onda al encontrar una discontinuidad o límite. | 4 | Depende de impedancias, ángulo, frecuencia y geometría. |
+| divergencia geométrica | Redistribución de la potencia de una fuente sobre un área creciente a medida que aumenta la distancia. | 9 | No es absorción: en el modelo ideal conserva la potencia total y cambia la intensidad o el nivel en el punto receptor. |
+| absorción atmosférica | Pérdida de energía acústica durante la propagación en el aire por procesos dependientes de la frecuencia y del estado atmosférico. | 9 | No aplicar una corrección universal; declarar distancia, frecuencia, temperatura, humedad y presión cuando sean pertinentes. |
 | absorción acústica | Conversión de parte de la energía acústica incidente en otras formas dentro de un material o sistema. | 9 | No equivale a aislamiento entre recintos. |
 | transmisión | Paso de energía acústica a través de una interfaz o elemento. | 9 | Puede coexistir con reflexión y absorción. |
 | refracción | Cambio de dirección asociado con variaciones espaciales de rapidez de propagación. | 9 | Puede ocurrir en una interfaz o en un gradiente continuo. |
 | difracción | Redistribución de una onda al interactuar con bordes, aberturas u obstáculos de tamaño comparable con la longitud de onda. | 9 | No es simplemente reflexión “alrededor” de un objeto. |
+| área de absorción equivalente | Área de una superficie ideal con coeficiente de absorción igual a uno que produciría la misma absorción total que el recinto considerado. | 9 | Símbolo `A_eq`; unidad convencional m² sabin. No equivale al área geométrica total. |
 | tiempo de reverberación | Tiempo requerido para que el nivel de energía sonora decaiga 60 dB después de cesar la fuente, estimado bajo un método definido. | 7 | Símbolo `T_60`; puede inferirse de tramos menores con cautelas. |
 | acondicionamiento acústico | Modificación de la respuesta sonora dentro de un recinto. | 9 | Incluye control de reflexiones, absorción, difusión y reverberación. |
 | aislamiento acústico | Reducción de transmisión sonora entre espacios o a través de un elemento. | 9 | No usar “absorción” como sinónimo. |
+| índice de reducción sonora | Medida logarítmica de la relación entre la potencia incidente y la transmitida por un elemento bajo condiciones definidas. | 9 | Símbolo `R`; unidad dB. No confundir con los coeficientes de reflexión `R_p`, `R_I` o `R_E`. |
+| masa superficial | Masa de un elemento por unidad de área. | 9 | Símbolo `m_s`; unidad kg·m⁻². En la ley de masas ideal importa junto con la frecuencia. |
+| ley de masas | Tendencia ideal que relaciona el aislamiento de una hoja simple con su masa superficial y la frecuencia en la región controlada por masa. | 9 | No usar como certificación de una pared real ni extrapolarla a coincidencia, resonancias, juntas o sistemas multicapa. |
+| transmisión lateral o por flanqueo | Transmisión sonora que llega al recinto receptor por caminos distintos del elemento separador principal. | 9 | Puede dominar el desempeño del sistema aunque el elemento principal tenga buen aislamiento. |
+| cabina audiométrica | Recinto o sistema destinado a controlar las condiciones acústicas de una evaluación audiológica. | 9 | Su aptitud se verifica mediante norma, método, bandas, vía, transductor, ruido residual y condiciones de ensayo; no por apariencia o absorción interior. |
 | insonorización | Término general y ambiguo para reducción del sonido. | 9 | Preferir aislamiento o acondicionamiento según el objetivo físico. |
 | ruido | Sonido no deseado, interferente, dañino o definido por un criterio físico/operativo según contexto. | 10 | No existe una diferencia física absoluta entre sonido y ruido. |
 | ruido aleatorio | Señal cuyo valor instantáneo no puede predecirse exactamente y se describe estadísticamente. | 10 | Aleatorio no significa necesariamente blanco ni estacionario. |

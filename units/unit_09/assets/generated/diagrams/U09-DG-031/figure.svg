@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+<defs><marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0,0 L10,4 L0,8 Z" fill="#3D3D3D"/></marker></defs>
+<rect width="1280" height="720" fill="white"/>
+<rect x="72" y="27" width="390" height="6" fill="#4D1434"/><rect x="472" y="27" width="390" height="6" fill="#903163"/><rect x="872" y="27" width="336" height="6" fill="#969FA7"/>
+<text x="72" y="78" font-family="Calibri,Arial,sans-serif" font-size="40" font-weight="700" fill="#3D3D3D">Interfaz aire–sólido</text>
+<polyline points="350,350 515,350 515,178.5 680,178.5" fill="none" stroke="#3D3D3D" stroke-width="3" marker-end="url(#arrow)"/>
+<polyline points="350,350 515,350 515,304.5 680,304.5" fill="none" stroke="#3D3D3D" stroke-width="3" marker-end="url(#arrow)"/>
+<polyline points="350,350 515,350 515,430.5 680,430.5" fill="none" stroke="#3D3D3D" stroke-width="3" marker-end="url(#arrow)"/>
+<polyline points="350,350 515,350 515,556.5 680,556.5" fill="none" stroke="#3D3D3D" stroke-width="3" marker-end="url(#arrow)"/>
+<rect id="branch_source" x="80" y="280" width="270" height="140" rx="8" fill="#E7F1F1" stroke="#2F7E83" stroke-width="2"/>
+<text x="215" y="361.2" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#2F7E83">Incidente</text>
+<rect id="branch_1" x="680" y="129.5" width="420" height="98" rx="8" fill="#F3E8EE" stroke="#4D1434" stroke-width="2"/>
+<text x="890" y="189" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" font-weight="700" fill="#4D1434">Reflejada</text>
+<rect id="branch_2" x="680" y="255.5" width="420" height="98" rx="8" fill="#F7F6F2" stroke="#969FA7" stroke-width="2"/>
+<text x="890" y="315" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" font-weight="700" fill="#3D3D3D">Modo longitudinal</text>
+<rect id="branch_3" x="680" y="381.5" width="420" height="98" rx="8" fill="#F8EDE2" stroke="#9F541A" stroke-width="2"/>
+<text x="890" y="441" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" font-weight="700" fill="#9F541A">Modo transversal</text>
+<rect id="branch_4" x="680" y="507.5" width="420" height="98" rx="8" fill="#E7F1F1" stroke="#2F7E83" stroke-width="2"/>
+<text x="890" y="567" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" font-weight="700" fill="#2F7E83">Normal</text>
+<text x="640" y="670" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="20" fill="#969FA7">Rutas conceptuales independientes; no está a escala ni representa una medición.</text>
+<text x="72" y="700" font-family="Calibri,Arial,sans-serif" font-size="14" fill="#969FA7">Programa</text>
+</svg>

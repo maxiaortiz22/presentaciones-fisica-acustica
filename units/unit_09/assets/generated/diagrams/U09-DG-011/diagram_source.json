@@ -1,0 +1,112 @@
+{
+  "id": "U09-DG-011",
+  "slides": "U09-015",
+  "subtype": "esquema científico",
+  "purpose": "Ejemplo 0,50 → 1,00 m.",
+  "nodesText": "Datos → sustitución → resultado → interpretación, con unidad en cada etapa.",
+  "connectorText": "Flechas de trayectoria/vector con rótulos independientes; no apoyar texto sobre líneas.",
+  "equation": "ninguna",
+  "textEstimate": "1–4 palabras/rótulo; callouts 2–6",
+  "layout": "FA_10_EJEMPLO_RESUELTO",
+  "restrictions": "media.; canvas real, padding ≥0,18 in, cero colisiones; dividir si no sostiene mínimos.",
+  "editable": "sí; SVG/PNG de respaldo",
+  "inputStatus": "planificado",
+  "nodes": [
+    {
+      "id": "source",
+      "x": 75,
+      "y": 275,
+      "w": 260,
+      "h": 140,
+      "title": "Datos: 0,50\ny 1,00 m",
+      "style": "physical",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "path_upper",
+      "x": 470,
+      "y": 155,
+      "w": 320,
+      "h": 125,
+      "title": "Razón r₂/r₁ = 2",
+      "style": "accent",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "path_lower",
+      "x": 470,
+      "y": 405,
+      "w": 320,
+      "h": 125,
+      "title": "ΔLₚ = −6,02 dB",
+      "style": "neutral",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "receiver",
+      "x": 945,
+      "y": 275,
+      "w": 260,
+      "h": 140,
+      "title": "Resultado ≈\n84 dB SPL",
+      "style": "clinical",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "condition",
+      "x": 470,
+      "y": 555,
+      "w": 320,
+      "h": 75,
+      "title": "Interpretación\ncondicionada",
+      "style": "neutral",
+      "role": "note",
+      "font": 30
+    }
+  ],
+  "edges": [
+    {
+      "id": "route_1a",
+      "from": "source",
+      "to": "path_upper",
+      "fromSide": "right",
+      "toSide": "left",
+      "semantic": ""
+    },
+    {
+      "id": "route_1b",
+      "from": "path_upper",
+      "to": "receiver",
+      "fromSide": "right",
+      "toSide": "left",
+      "semantic": ""
+    },
+    {
+      "id": "route_2a",
+      "from": "source",
+      "to": "path_lower",
+      "fromSide": "right",
+      "toSide": "left",
+      "semantic": ""
+    },
+    {
+      "id": "route_2b",
+      "from": "path_lower",
+      "to": "receiver",
+      "fromSide": "right",
+      "toSide": "left",
+      "semantic": ""
+    }
+  ],
+  "footer": "Esquema conceptual; no está a escala ni representa una medición.",
+  "classification": "esquema mixto",
+  "title": "Ejemplo 0,50 → 1,00 m",
+  "caption": "Ejemplo 0,50 → 1,00 m Datos → sustitución → resultado → interpretación, con unidad en cada etapa.",
+  "alt": "Ejemplo 0,50 → 1,00 m. Datos → sustitución → resultado → interpretación, con unidad en cada etapa. Esquema conceptual; no está a escala ni representa una medición.",
+  "source": "Ejemplo del capítulo.",
+  "notToScale": true
+}

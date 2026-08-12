@@ -1,0 +1,68 @@
+{
+  "id": "U09-DG-005",
+  "slides": "U09-008",
+  "subtype": "matriz conceptual",
+  "purpose": "Comparar emisión y recepción.",
+  "nodesText": "Dos cajas de magnitud, flecha de propagación y tabla corta `L_W`/`L_p`.",
+  "connectorText": "Conectores solo donde la relación sea causal; etiquetas fuera de líneas.",
+  "equation": "ninguna",
+  "textEstimate": "2–6 palabras/celda; ≤6 filas visibles",
+  "layout": "FA_11_COMPARACION",
+  "restrictions": "media; colisión de símbolos y unidades.; canvas real, padding ≥0,18 in, cero colisiones; dividir si no sostiene mínimos.",
+  "editable": "sí; SVG/PNG de respaldo",
+  "inputStatus": "planificado",
+  "nodes": [
+    {
+      "id": "concept_1",
+      "x": 80,
+      "y": 174,
+      "w": 546,
+      "h": 190,
+      "title": "Comparación por magnitud",
+      "style": "physical",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_2",
+      "x": 654,
+      "y": 174,
+      "w": 546,
+      "h": 190,
+      "title": "dependencia espacial",
+      "style": "accent",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_3",
+      "x": 80,
+      "y": 396,
+      "w": 546,
+      "h": 190,
+      "title": "unidad",
+      "style": "neutral",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_4",
+      "x": 654,
+      "y": 396,
+      "w": 546,
+      "h": 190,
+      "title": "pregunta que responde",
+      "style": "clinical",
+      "role": "node",
+      "font": 32
+    }
+  ],
+  "edges": [],
+  "footer": "Relaciones conceptuales; no está a escala.",
+  "classification": "diagrama conceptual",
+  "title": "Comparar emisión y recepción",
+  "caption": "Comparar emisión y recepción Dos cajas de magnitud, flecha de propagación y tabla corta L_W/L_p.",
+  "alt": "Comparar emisión y recepción. Dos cajas de magnitud, flecha de propagación y tabla corta L_W/L_p. Relaciones conceptuales; no está a escala.",
+  "source": "LaTeX 9.1–9.2",
+  "notToScale": true
+}

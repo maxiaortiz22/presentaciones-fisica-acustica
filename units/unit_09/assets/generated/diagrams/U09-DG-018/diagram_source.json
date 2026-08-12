@@ -1,0 +1,68 @@
+{
+  "id": "U09-DG-018",
+  "slides": "U09-025",
+  "subtype": "comparación conceptual",
+  "purpose": "Gradientes térmicos.",
+  "nodesText": "Dos paneles con perfiles `θ(z)`, `c(z)`, rayos y zona de sombra.",
+  "connectorText": "Paneles paralelos; conectores internos solamente; mismas referencias geométricas.",
+  "equation": "ninguna",
+  "textEstimate": "1–4 palabras/rótulo; callouts 2–6",
+  "layout": "FA_22_VISUAL_COMPLETO",
+  "restrictions": "muy alta; flechas y perfiles pueden colisionar.; canvas real, padding ≥0,18 in, cero colisiones; dividir si no sostiene mínimos.",
+  "editable": "sí; SVG/PNG de respaldo",
+  "inputStatus": "reconstrucción prioritaria",
+  "nodes": [
+    {
+      "id": "concept_1",
+      "x": 80,
+      "y": 174,
+      "w": 546,
+      "h": 190,
+      "title": "Perfil θ(z)",
+      "style": "physical",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_2",
+      "x": 654,
+      "y": 174,
+      "w": 546,
+      "h": 190,
+      "title": "Perfil c(z)",
+      "style": "accent",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_3",
+      "x": 80,
+      "y": 396,
+      "w": 546,
+      "h": 190,
+      "title": "Trayectoria curvada",
+      "style": "neutral",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_4",
+      "x": 654,
+      "y": 396,
+      "w": 546,
+      "h": 190,
+      "title": "Zona de sombra",
+      "style": "clinical",
+      "role": "node",
+      "font": 32
+    }
+  ],
+  "edges": [],
+  "footer": "Relaciones conceptuales; no está a escala.",
+  "classification": "diagrama conceptual",
+  "title": "Gradientes térmicos",
+  "caption": "Gradientes térmicos Dos paneles con perfiles θ(z), c(z), rayos y zona de sombra.",
+  "alt": "Gradientes térmicos. Dos paneles con perfiles θ(z), c(z), rayos y zona de sombra. Relaciones conceptuales; no está a escala.",
+  "source": "Figura 9.1 `gradientes-termicos.tex`.",
+  "notToScale": true
+}

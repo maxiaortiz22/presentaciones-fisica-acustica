@@ -1,0 +1,131 @@
+{
+  "id": "U09-DG-003",
+  "slides": "U09-005",
+  "subtype": "diagrama de proceso",
+  "purpose": "Mapa de tres encuentros.",
+  "nodesText": "Ocho bloques, hitos y recapitulaciones con flecha de progresión.",
+  "connectorText": "Conectores anclados en orden de lectura; verbos breves sobre/bajo el corredor.",
+  "equation": "ninguna",
+  "textEstimate": "1–4 palabras/nodo; ≤6 nodos por vista",
+  "layout": "FA_03_MAPA_CLASE",
+  "restrictions": "media; demasiados bloques para una sola fila.; canvas real, padding ≥0,18 in, cero colisiones; dividir si no sostiene mínimos.",
+  "editable": "sí; SVG/PNG de respaldo",
+  "inputStatus": "planificado",
+  "nodes": [
+    {
+      "id": "step_1",
+      "x": 80,
+      "y": 170,
+      "w": 300,
+      "h": 145,
+      "title": "1 · Modelo\norganizador",
+      "style": "physical",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "step_2",
+      "x": 490,
+      "y": 170,
+      "w": 300,
+      "h": 145,
+      "title": "2 · Distancia y\ndirectividad",
+      "style": "accent",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "step_3",
+      "x": 900,
+      "y": 170,
+      "w": 300,
+      "h": 145,
+      "title": "3 · Atmósfera",
+      "style": "neutral",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "step_4",
+      "x": 900,
+      "y": 410,
+      "w": 300,
+      "h": 145,
+      "title": "4 · Superficies\ny recintos",
+      "style": "clinical",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "step_5",
+      "x": 490,
+      "y": 410,
+      "w": 300,
+      "h": 145,
+      "title": "5 · Aislamiento\ny cabinas",
+      "style": "physical",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "step_6",
+      "x": 80,
+      "y": 410,
+      "w": 300,
+      "h": 145,
+      "title": "6 · Integración",
+      "style": "accent",
+      "role": "node",
+      "font": 32
+    }
+  ],
+  "edges": [
+    {
+      "id": "flow_1",
+      "from": "step_1",
+      "to": "step_2",
+      "fromSide": "right",
+      "toSide": "left",
+      "semantic": ""
+    },
+    {
+      "id": "flow_2",
+      "from": "step_2",
+      "to": "step_3",
+      "fromSide": "right",
+      "toSide": "left",
+      "semantic": ""
+    },
+    {
+      "id": "flow_3",
+      "from": "step_3",
+      "to": "step_4",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "semantic": ""
+    },
+    {
+      "id": "flow_4",
+      "from": "step_4",
+      "to": "step_5",
+      "fromSide": "left",
+      "toSide": "right",
+      "semantic": ""
+    },
+    {
+      "id": "flow_5",
+      "from": "step_5",
+      "to": "step_6",
+      "fromSide": "left",
+      "toSide": "right",
+      "semantic": ""
+    }
+  ],
+  "footer": "Secuencia de lectura; conectores anclados y sin etiquetas sobre la línea.",
+  "classification": "diagrama de proceso",
+  "title": "Mapa de tres encuentros",
+  "caption": "Mapa de tres encuentros Ocho bloques, hitos y recapitulaciones con flecha de progresión.",
+  "alt": "Mapa de tres encuentros. Ocho bloques, hitos y recapitulaciones con flecha de progresión. Secuencia de lectura; conectores anclados y sin etiquetas sobre la línea.",
+  "source": "course_map",
+  "notToScale": false
+}

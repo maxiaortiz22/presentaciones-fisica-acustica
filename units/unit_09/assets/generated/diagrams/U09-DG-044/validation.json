@@ -1,0 +1,77 @@
+{
+  "asset_id": "U09-DG-044",
+  "classification": "ecuación anotada",
+  "subtype": "ecuación anotada",
+  "canvas_px": [
+    1280,
+    720
+  ],
+  "slide_ratio": "16:9",
+  "font_floor": {
+    "node_title_pt": 22.5,
+    "node_body_pt": 22.5,
+    "connector_label_pt": 20,
+    "equation_pt": 30
+  },
+  "padding_px": 24,
+  "padding_inches": 0.25,
+  "line_text_clearance_px": 12,
+  "line_text_clearance_inches": 0.125,
+  "not_to_scale": false,
+  "object_ids": [
+    "equation",
+    "callout_1",
+    "callout_2",
+    "callout_3",
+    "callout_4"
+  ],
+  "connector_ids": [
+    "leader_1",
+    "leader_2",
+    "leader_3",
+    "leader_4"
+  ],
+  "issues": [],
+  "critical_issues": 0,
+  "major_issues": 0,
+  "status": "approved",
+  "iterations": [
+    {
+      "iteration": 1,
+      "action": "preflight geométrico",
+      "critical": 0,
+      "major": 0
+    },
+    {
+      "iteration": 2,
+      "action": "render individual en canvas real 16:9",
+      "critical": 0,
+      "major": 0
+    },
+    {
+      "iteration": 3,
+      "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+      "critical": 0,
+      "major": 0
+    },
+    {
+      "iteration": 3,
+      "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+      "critical": 0,
+      "major": 0
+    },
+    {
+      "iteration": 3,
+      "action": "inspección visual en hoja de contacto y revisión individual de familias corregidas",
+      "critical": 0,
+      "major": 0
+    }
+  ],
+  "visual_review": {
+    "date": "2026-08-12",
+    "method": "render individual a tamaño final + hoja de contacto + reinspección de recursos corregidos",
+    "critical_issues": 0,
+    "major_issues": 0,
+    "result": "approved"
+  }
+}
