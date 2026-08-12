@@ -1,0 +1,14 @@
+[
+  {
+    "id": "U08-DG-038_NODE_01",
+    "text": "OEA\nEstímulo: acústico\nGenerador: cóclea/CCE\nSensor: micrófono\nMagnitud: presión\nLímite: integra batería"
+  },
+  {
+    "id": "U08-DG-038_NODE_02",
+    "text": "PEAT\nEstímulo: acústico\nGenerador: vía auditiva\nSensor: electrodos\nMagnitud: V(t)\nLímite: depende del protocolo"
+  },
+  {
+    "id": "U08-DG-038_NODE_03",
+    "text": "ECoG\nEstímulo: acústico\nGenerador: coclear/neural\nSensor: electrodo próximo\nMagnitud: potencial\nLímite: integración"
+  }
+]

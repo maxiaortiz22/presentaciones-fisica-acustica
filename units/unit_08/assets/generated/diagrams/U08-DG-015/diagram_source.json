@@ -1,0 +1,48 @@
+{
+  "id": "U08-DG-015",
+  "title": "Cadena común de medición",
+  "classification": "diagrama de proceso",
+  "kind": "flow",
+  "canvas_in": [
+    13.333,
+    7.5
+  ],
+  "nodes": [
+    "Estímulo",
+    "Sistema",
+    "Respuesta",
+    "Sensor o tarea",
+    "Registro",
+    "Interpretación"
+  ],
+  "connector_labels": [
+    "interactúa",
+    "produce",
+    "capta",
+    "representa",
+    "limita"
+  ],
+  "font_pt": {
+    "nodes": 22,
+    "labels": 20,
+    "equation": 34
+  },
+  "padding_in": 0.18,
+  "not_to_scale": true,
+  "palette": {
+    "bordo": "#4D1434",
+    "bordo2": "#903163",
+    "carbon": "#3D3D3D",
+    "gris": "#969FA7",
+    "gris2": "#D9DCE0",
+    "blanco": "#FFFFFF",
+    "marfil": "#F7F6F2",
+    "teal": "#2F7E83",
+    "teal_bg": "#E7F1F1",
+    "ocre": "#9F541A",
+    "ocre_bg": "#F8EDE2",
+    "ok": "#2F6F55",
+    "alerta": "#9A641E",
+    "error": "#A33A3A"
+  }
+}
