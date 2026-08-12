@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+<defs><marker id="arrow" markerWidth="10" markerHeight="8" refX="8" refY="4" orient="auto"><path d="M0,0 L9,4 L0,8 Z" fill="#3D3D3D"/></marker></defs>
+<rect width="1280" height="720" fill="white"/>
+<rect x="72" y="27" width="390" height="6" fill="#4D1434"/><rect x="472" y="27" width="390" height="6" fill="#903163"/><rect x="872" y="27" width="336" height="6" fill="#969FA7"/>
+<text x="72" y="82" font-family="Calibri,Arial,sans-serif" font-size="40" font-weight="700" fill="#3D3D3D">Enmascaramiento simultáneo significa superposición temporal</text>
+<polyline id="time_edge_1" points="424,365 446.5,365 446.5,365 469,365" fill="none" stroke="#3D3D3D" stroke-width="3" marker-end="url(#arrow)"/>
+<polyline id="time_edge_2" points="811,365 833.5,365 833.5,365 856,365" fill="none" stroke="#3D3D3D" stroke-width="3" marker-end="url(#arrow)"/>
+<rect id="time_1" x="82" y="215" width="342" height="300" rx="8" fill="#E7F1F1" stroke="#2F7E83" stroke-width="2"/>
+<text x="253" y="262" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#2F7E83">Objetivo</text>
+<text x="253" y="310" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">activo</text>
+<rect id="time_2" x="469" y="215" width="342" height="300" rx="8" fill="#F3E8EE" stroke="#4D1434" stroke-width="2"/>
+<text x="640" y="262" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#4D1434">Máscara</text>
+<text x="640" y="310" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">activa</text>
+<rect id="time_3" x="856" y="215" width="342" height="300" rx="8" fill="#F8EDE2" stroke="#9F541A" stroke-width="2"/>
+<text x="1027" y="262" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#9F541A">Solapamiento</text>
+<text x="1027" y="310" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">misma ventana</text>
+<text x="1027" y="342" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">temporal</text>
+<text x="640" y="628" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="22" fill="#3D3D3D">Figura conceptual; no está a escala salvo indicación explícita.</text>
+<text x="72" y="690" font-family="Calibri,Arial,sans-serif" font-size="16" fill="#969FA7">Libro del curso (TEX/PDF), Unidad 7; brief, storyboard y planes U07; elaboración propia UCASAL.</text>
+</svg>

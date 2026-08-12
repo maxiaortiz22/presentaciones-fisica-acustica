@@ -1,0 +1,111 @@
+{
+  "id": "U07-DG-027",
+  "classification": "esquema mixto",
+  "title": "T₆₀ describe un intervalo de decaimiento de 60 dB",
+  "template": "overlay",
+  "items": [
+    {
+      "title": "Decaimiento",
+      "body": "CH-009",
+      "style": "physical"
+    },
+    {
+      "title": "Inicio",
+      "body": "0 dB relativo",
+      "style": "accent"
+    },
+    {
+      "title": "−60 dB",
+      "body": "cambio de nivel",
+      "style": "clinical"
+    },
+    {
+      "title": "T₆₀",
+      "body": "intervalo de tiempo",
+      "style": "neutral"
+    }
+  ],
+  "caption": "La curva U07-CH-009 recibe llamadas editables a inicio, menos sesenta decibeles e intervalo T sesenta.",
+  "alt": "Gráfico de decaimiento con tres llamadas editables que señalan el inicio, la caída de sesenta decibeles y el intervalo T sesenta.",
+  "source": "Libro del curso (TEX/PDF), Unidad 7; brief, storyboard y planes U07; elaboración propia UCASAL.",
+  "footer": "Figura conceptual; no está a escala salvo indicación explícita.",
+  "options": {
+    "chart": "U07-CH-009/u07_fig_009_decaimiento_t60.png"
+  },
+  "nodes": [
+    {
+      "id": "chart_anchor",
+      "x": 320,
+      "y": 155,
+      "w": 640,
+      "h": 400,
+      "title": "Decaimiento",
+      "body": "CH-009",
+      "style": "physical",
+      "role": "image"
+    },
+    {
+      "id": "callout_1",
+      "x": 72,
+      "y": 130,
+      "w": 230,
+      "h": 150,
+      "title": "Inicio",
+      "body": "0 dB relativo",
+      "style": "accent",
+      "role": "callout"
+    },
+    {
+      "id": "callout_2",
+      "x": 978,
+      "y": 130,
+      "w": 230,
+      "h": 150,
+      "title": "−60 dB",
+      "body": "cambio de nivel",
+      "style": "clinical",
+      "role": "callout"
+    },
+    {
+      "id": "callout_3",
+      "x": 72,
+      "y": 430,
+      "w": 230,
+      "h": 150,
+      "title": "T₆₀",
+      "body": "intervalo de tiempo",
+      "style": "neutral",
+      "role": "callout"
+    }
+  ],
+  "edges": [
+    {
+      "id": "leader_1",
+      "from": "callout_1",
+      "to": "chart_anchor",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "straight"
+    },
+    {
+      "id": "leader_2",
+      "from": "callout_2",
+      "to": "chart_anchor",
+      "semantic": "",
+      "fromSide": "left",
+      "toSide": "right",
+      "kind": "straight"
+    },
+    {
+      "id": "leader_3",
+      "from": "callout_3",
+      "to": "chart_anchor",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "straight"
+    }
+  ],
+  "labelBoxes": []
+}

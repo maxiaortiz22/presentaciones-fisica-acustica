@@ -1,0 +1,109 @@
+{
+  "id": "U07-DG-015B",
+  "classification": "ecuación anotada",
+  "title": "Ejemplo: 70 fon corresponden a 8 sones en el modelo",
+  "template": "flow",
+  "items": [
+    {
+      "title": "Dato",
+      "body": "L_N = 70 fon",
+      "style": "physical"
+    },
+    {
+      "title": "Exponente",
+      "body": "(70−40)/10 = 3",
+      "style": "accent"
+    },
+    {
+      "title": "Potencia",
+      "body": "2³ = 8",
+      "style": "accent"
+    },
+    {
+      "title": "Resultado",
+      "body": "N_son = 8 sones",
+      "style": "clinical"
+    }
+  ],
+  "caption": "Cálculo paso a paso de la sonoridad del modelo para 70 fon.",
+  "alt": "Cuatro pasos convierten setenta fon en exponente tres, potencia dos al cubo y resultado ocho sones.",
+  "source": "Libro del curso (TEX/PDF), Unidad 7; brief, storyboard y planes U07; elaboración propia UCASAL.",
+  "footer": "Figura conceptual; no está a escala salvo indicación explícita.",
+  "options": {},
+  "nodes": [
+    {
+      "id": "stage_1",
+      "x": 82,
+      "y": 235,
+      "w": 204,
+      "h": 240,
+      "title": "Dato",
+      "body": "L_N = 70 fon",
+      "style": "physical",
+      "role": "node"
+    },
+    {
+      "id": "stage_2",
+      "x": 386,
+      "y": 235,
+      "w": 204,
+      "h": 240,
+      "title": "Exponente",
+      "body": "(70−40)/10 = 3",
+      "style": "accent",
+      "role": "node"
+    },
+    {
+      "id": "stage_3",
+      "x": 690,
+      "y": 235,
+      "w": 204,
+      "h": 240,
+      "title": "Potencia",
+      "body": "2³ = 8",
+      "style": "accent",
+      "role": "node"
+    },
+    {
+      "id": "stage_4",
+      "x": 994,
+      "y": 235,
+      "w": 204,
+      "h": 240,
+      "title": "Resultado",
+      "body": "N_son = 8 sones",
+      "style": "clinical",
+      "role": "node"
+    }
+  ],
+  "edges": [
+    {
+      "id": "flow_1",
+      "from": "stage_1",
+      "to": "stage_2",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "elbow"
+    },
+    {
+      "id": "flow_2",
+      "from": "stage_2",
+      "to": "stage_3",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "elbow"
+    },
+    {
+      "id": "flow_3",
+      "from": "stage_3",
+      "to": "stage_4",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "elbow"
+    }
+  ],
+  "labelBoxes": []
+}

@@ -1,0 +1,109 @@
+{
+  "id": "U07-DG-022A",
+  "classification": "diagrama de proceso",
+  "title": "Enmascaramiento energético: la competencia comienza en canales",
+  "template": "flow",
+  "items": [
+    {
+      "title": "Objetivo + máscara",
+      "body": "señales físicas",
+      "style": "physical"
+    },
+    {
+      "title": "Canales solapados",
+      "body": "energía compartida",
+      "style": "accent"
+    },
+    {
+      "title": "Menor contraste",
+      "body": "señal interna",
+      "style": "neutral"
+    },
+    {
+      "title": "Respuesta",
+      "body": "más errores",
+      "style": "clinical"
+    }
+  ],
+  "caption": "Ruta funcional del enmascaramiento energético.",
+  "alt": "Cuatro etapas conectan señales físicas, canales solapados, señal interna con menor contraste y respuesta.",
+  "source": "Libro del curso (TEX/PDF), Unidad 7; brief, storyboard y planes U07; elaboración propia UCASAL.",
+  "footer": "Figura conceptual; no está a escala salvo indicación explícita.",
+  "options": {},
+  "nodes": [
+    {
+      "id": "stage_1",
+      "x": 82,
+      "y": 235,
+      "w": 204,
+      "h": 240,
+      "title": "Objetivo + máscara",
+      "body": "señales físicas",
+      "style": "physical",
+      "role": "node"
+    },
+    {
+      "id": "stage_2",
+      "x": 386,
+      "y": 235,
+      "w": 204,
+      "h": 240,
+      "title": "Canales solapados",
+      "body": "energía compartida",
+      "style": "accent",
+      "role": "node"
+    },
+    {
+      "id": "stage_3",
+      "x": 690,
+      "y": 235,
+      "w": 204,
+      "h": 240,
+      "title": "Menor contraste",
+      "body": "señal interna",
+      "style": "neutral",
+      "role": "node"
+    },
+    {
+      "id": "stage_4",
+      "x": 994,
+      "y": 235,
+      "w": 204,
+      "h": 240,
+      "title": "Respuesta",
+      "body": "más errores",
+      "style": "clinical",
+      "role": "node"
+    }
+  ],
+  "edges": [
+    {
+      "id": "flow_1",
+      "from": "stage_1",
+      "to": "stage_2",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "elbow"
+    },
+    {
+      "id": "flow_2",
+      "from": "stage_2",
+      "to": "stage_3",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "elbow"
+    },
+    {
+      "id": "flow_3",
+      "from": "stage_3",
+      "to": "stage_4",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "elbow"
+    }
+  ],
+  "labelBoxes": []
+}

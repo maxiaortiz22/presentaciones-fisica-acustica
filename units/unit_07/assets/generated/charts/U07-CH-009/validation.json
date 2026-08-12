@@ -1,0 +1,37 @@
+{
+  "asset_id": "U07-CH-009",
+  "classification": "gráfico cuantitativo",
+  "canvas_px": [
+    2560,
+    1440
+  ],
+  "slide_ratio": "16:9",
+  "scale": "ambos ejes lineales",
+  "conceptual": true,
+  "not_to_scale": true,
+  "font_floor_pt": {
+    "axis_label": 20,
+    "ticks_legend": 18,
+    "annotation": 22
+  },
+  "checks": {
+    "slope_dB_per_s": -50.00000000000003,
+    "expected_slope": -50.0,
+    "t60_s": 1.2,
+    "level_at_t60_dB": -60.0
+  },
+  "file_checks": {
+    "png_2560x1440": true,
+    "svg_parseable": true,
+    "data_rows": 601,
+    "variants": [
+      "u07_fig_009_decaimiento_t30"
+    ]
+  },
+  "critical_issues": 0,
+  "major_issues": 0,
+  "status": "approved",
+  "iterations": 2,
+  "individual_render": true,
+  "full_slide_render": true
+}

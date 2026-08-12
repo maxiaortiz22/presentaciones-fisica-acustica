@@ -1,0 +1,84 @@
+{
+  "id": "U07-DG-018",
+  "classification": "diagrama de proceso",
+  "title": "Enmascaramiento simultáneo significa superposición temporal",
+  "template": "timeline",
+  "items": [
+    {
+      "title": "Objetivo",
+      "body": "activo",
+      "style": "physical"
+    },
+    {
+      "title": "Máscara",
+      "body": "activa",
+      "style": "accent"
+    },
+    {
+      "title": "Solapamiento",
+      "body": "misma ventana temporal",
+      "style": "clinical"
+    }
+  ],
+  "caption": "Alternativa estática para mostrar la superposición temporal de objetivo y máscara.",
+  "alt": "Tres cuadros temporales muestran objetivo, máscara y su intervalo de solapamiento; las duraciones son esquemáticas.",
+  "source": "Libro del curso (TEX/PDF), Unidad 7; brief, storyboard y planes U07; elaboración propia UCASAL.",
+  "footer": "Figura conceptual; no está a escala salvo indicación explícita.",
+  "options": {},
+  "nodes": [
+    {
+      "id": "time_1",
+      "x": 82,
+      "y": 215,
+      "w": 342,
+      "h": 300,
+      "title": "Objetivo",
+      "body": "activo",
+      "style": "physical",
+      "role": "frame"
+    },
+    {
+      "id": "time_2",
+      "x": 469,
+      "y": 215,
+      "w": 342,
+      "h": 300,
+      "title": "Máscara",
+      "body": "activa",
+      "style": "accent",
+      "role": "frame"
+    },
+    {
+      "id": "time_3",
+      "x": 856,
+      "y": 215,
+      "w": 342,
+      "h": 300,
+      "title": "Solapamiento",
+      "body": "misma ventana temporal",
+      "style": "clinical",
+      "role": "frame"
+    }
+  ],
+  "edges": [
+    {
+      "id": "time_edge_1",
+      "from": "time_1",
+      "to": "time_2",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "elbow"
+    },
+    {
+      "id": "time_edge_2",
+      "from": "time_2",
+      "to": "time_3",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "elbow"
+    }
+  ],
+  "labelBoxes": []
+}

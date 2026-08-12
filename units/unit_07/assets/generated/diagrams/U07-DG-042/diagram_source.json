@@ -1,0 +1,159 @@
+{
+  "id": "U07-DG-042",
+  "classification": "diagrama de proceso",
+  "title": "La respuesta emerge de una cadena de condiciones",
+  "template": "flow",
+  "items": [
+    {
+      "title": "Señal",
+      "body": "estructura acústica",
+      "style": "physical"
+    },
+    {
+      "title": "Ambiente",
+      "body": "ruido · reflexiones",
+      "style": "neutral"
+    },
+    {
+      "title": "Transferencia",
+      "body": "campo → oído",
+      "style": "accent"
+    },
+    {
+      "title": "Procesamiento",
+      "body": "canales · binaural",
+      "style": "physical"
+    },
+    {
+      "title": "Tarea",
+      "body": "detectar · reconocer",
+      "style": "neutral"
+    },
+    {
+      "title": "Respuesta",
+      "body": "resultado observado",
+      "style": "clinical"
+    }
+  ],
+  "caption": "Síntesis acumulativa de la Unidad 7.",
+  "alt": "Seis nodos conectados en dos filas: señal, ambiente, transferencia, procesamiento, tarea y respuesta.",
+  "source": "Libro del curso (TEX/PDF), Unidad 7; brief, storyboard y planes U07; elaboración propia UCASAL.",
+  "footer": "Figura conceptual; no está a escala salvo indicación explícita.",
+  "options": {},
+  "nodes": [
+    {
+      "id": "stage_1",
+      "x": 82,
+      "y": 150,
+      "w": 272,
+      "h": 165,
+      "title": "Señal",
+      "body": "estructura acústica",
+      "style": "physical",
+      "role": "node"
+    },
+    {
+      "id": "stage_2",
+      "x": 504,
+      "y": 150,
+      "w": 272,
+      "h": 165,
+      "title": "Ambiente",
+      "body": "ruido · reflexiones",
+      "style": "neutral",
+      "role": "node"
+    },
+    {
+      "id": "stage_3",
+      "x": 926,
+      "y": 150,
+      "w": 272,
+      "h": 165,
+      "title": "Transferencia",
+      "body": "campo → oído",
+      "style": "accent",
+      "role": "node"
+    },
+    {
+      "id": "stage_4",
+      "x": 926,
+      "y": 420,
+      "w": 272,
+      "h": 165,
+      "title": "Procesamiento",
+      "body": "canales · binaural",
+      "style": "physical",
+      "role": "node"
+    },
+    {
+      "id": "stage_5",
+      "x": 504,
+      "y": 420,
+      "w": 272,
+      "h": 165,
+      "title": "Tarea",
+      "body": "detectar · reconocer",
+      "style": "neutral",
+      "role": "node"
+    },
+    {
+      "id": "stage_6",
+      "x": 82,
+      "y": 420,
+      "w": 272,
+      "h": 165,
+      "title": "Respuesta",
+      "body": "resultado observado",
+      "style": "clinical",
+      "role": "node"
+    }
+  ],
+  "edges": [
+    {
+      "id": "flow_1",
+      "from": "stage_1",
+      "to": "stage_2",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "elbow"
+    },
+    {
+      "id": "flow_2",
+      "from": "stage_2",
+      "to": "stage_3",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "elbow"
+    },
+    {
+      "id": "flow_3",
+      "from": "stage_3",
+      "to": "stage_4",
+      "semantic": "",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "kind": "elbow"
+    },
+    {
+      "id": "flow_4",
+      "from": "stage_4",
+      "to": "stage_5",
+      "semantic": "",
+      "fromSide": "left",
+      "toSide": "right",
+      "kind": "elbow"
+    },
+    {
+      "id": "flow_5",
+      "from": "stage_5",
+      "to": "stage_6",
+      "semantic": "",
+      "fromSide": "left",
+      "toSide": "right",
+      "kind": "elbow"
+    }
+  ],
+  "labelBoxes": []
+}

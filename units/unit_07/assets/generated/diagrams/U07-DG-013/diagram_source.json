@@ -1,0 +1,113 @@
+{
+  "id": "U07-DG-013",
+  "classification": "diagrama conceptual",
+  "title": "L_p, L_N y N_son responden preguntas distintas",
+  "template": "grid",
+  "items": [
+    {
+      "title": "L_p",
+      "body": "nivel de presión\ndB SPL",
+      "style": "physical"
+    },
+    {
+      "title": "L_N",
+      "body": "nivel de sonoridad\nfon",
+      "style": "accent"
+    },
+    {
+      "title": "N_son",
+      "body": "sonoridad\nson",
+      "style": "clinical"
+    },
+    {
+      "title": "Medir",
+      "body": "presión referida",
+      "style": "physical"
+    },
+    {
+      "title": "Igualar",
+      "body": "con 1 kHz",
+      "style": "accent"
+    },
+    {
+      "title": "Estimar razón",
+      "body": "doble · mitad",
+      "style": "clinical"
+    }
+  ],
+  "caption": "Comparación entre nivel de presión, nivel de sonoridad y sonoridad.",
+  "alt": "Tres columnas conceptuales distinguen símbolos, unidades y operaciones: medir, igualar y estimar razón.",
+  "source": "Libro del curso (TEX/PDF), Unidad 7; brief, storyboard y planes U07; elaboración propia UCASAL.",
+  "footer": "Figura conceptual; no está a escala salvo indicación explícita.",
+  "options": {},
+  "nodes": [
+    {
+      "id": "cell_1",
+      "x": 82,
+      "y": 150,
+      "w": 353.3333333333333,
+      "h": 200,
+      "title": "L_p",
+      "body": "nivel de presión\ndB SPL",
+      "style": "physical",
+      "role": "node"
+    },
+    {
+      "id": "cell_2",
+      "x": 463.3333333333333,
+      "y": 150,
+      "w": 353.3333333333333,
+      "h": 200,
+      "title": "L_N",
+      "body": "nivel de sonoridad\nfon",
+      "style": "accent",
+      "role": "node"
+    },
+    {
+      "id": "cell_3",
+      "x": 844.6666666666666,
+      "y": 150,
+      "w": 353.3333333333333,
+      "h": 200,
+      "title": "N_son",
+      "body": "sonoridad\nson",
+      "style": "clinical",
+      "role": "node"
+    },
+    {
+      "id": "cell_4",
+      "x": 82,
+      "y": 380,
+      "w": 353.3333333333333,
+      "h": 200,
+      "title": "Medir",
+      "body": "presión referida",
+      "style": "physical",
+      "role": "node"
+    },
+    {
+      "id": "cell_5",
+      "x": 463.3333333333333,
+      "y": 380,
+      "w": 353.3333333333333,
+      "h": 200,
+      "title": "Igualar",
+      "body": "con 1 kHz",
+      "style": "accent",
+      "role": "node"
+    },
+    {
+      "id": "cell_6",
+      "x": 844.6666666666666,
+      "y": 380,
+      "w": 353.3333333333333,
+      "h": 200,
+      "title": "Estimar razón",
+      "body": "doble · mitad",
+      "style": "clinical",
+      "role": "node"
+    }
+  ],
+  "edges": [],
+  "labelBoxes": []
+}

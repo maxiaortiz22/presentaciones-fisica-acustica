@@ -1,0 +1,109 @@
+{
+  "id": "U07-DG-008",
+  "classification": "diagrama de proceso",
+  "title": "La presión cambia entre el campo y el tímpano",
+  "template": "flow",
+  "items": [
+    {
+      "title": "Campo de referencia",
+      "body": "L_p,campo",
+      "style": "physical"
+    },
+    {
+      "title": "Cabeza y pabellón",
+      "body": "dirección y geometría",
+      "style": "neutral"
+    },
+    {
+      "title": "CAE",
+      "body": "depende de frecuencia",
+      "style": "accent"
+    },
+    {
+      "title": "Tímpano",
+      "body": "L_p,T",
+      "style": "clinical"
+    }
+  ],
+  "caption": "Cadena de transferencia desde una referencia de campo hasta la presión próxima al tímpano.",
+  "alt": "Cuatro etapas conectadas: campo, cabeza y pabellón, conducto auditivo externo y tímpano.",
+  "source": "Libro del curso (TEX/PDF), Unidad 7; brief, storyboard y planes U07; elaboración propia UCASAL.",
+  "footer": "Figura conceptual; no está a escala salvo indicación explícita.",
+  "options": {},
+  "nodes": [
+    {
+      "id": "stage_1",
+      "x": 82,
+      "y": 235,
+      "w": 204,
+      "h": 240,
+      "title": "Campo de referencia",
+      "body": "L_p,campo",
+      "style": "physical",
+      "role": "node"
+    },
+    {
+      "id": "stage_2",
+      "x": 386,
+      "y": 235,
+      "w": 204,
+      "h": 240,
+      "title": "Cabeza y pabellón",
+      "body": "dirección y geometría",
+      "style": "neutral",
+      "role": "node"
+    },
+    {
+      "id": "stage_3",
+      "x": 690,
+      "y": 235,
+      "w": 204,
+      "h": 240,
+      "title": "CAE",
+      "body": "depende de frecuencia",
+      "style": "accent",
+      "role": "node"
+    },
+    {
+      "id": "stage_4",
+      "x": 994,
+      "y": 235,
+      "w": 204,
+      "h": 240,
+      "title": "Tímpano",
+      "body": "L_p,T",
+      "style": "clinical",
+      "role": "node"
+    }
+  ],
+  "edges": [
+    {
+      "id": "flow_1",
+      "from": "stage_1",
+      "to": "stage_2",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "elbow"
+    },
+    {
+      "id": "flow_2",
+      "from": "stage_2",
+      "to": "stage_3",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "elbow"
+    },
+    {
+      "id": "flow_3",
+      "from": "stage_3",
+      "to": "stage_4",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "elbow"
+    }
+  ],
+  "labelBoxes": []
+}

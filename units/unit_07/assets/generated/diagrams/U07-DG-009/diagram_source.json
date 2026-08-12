@@ -1,0 +1,109 @@
+{
+  "id": "U07-DG-009",
+  "classification": "ecuación anotada",
+  "title": "G_CT compara dos posiciones de medición",
+  "template": "equation",
+  "items": [
+    {
+      "title": "G_CT(f) = L_p,T(f) − L_p,campo(f)",
+      "body": "resultado en dB",
+      "style": "equation"
+    },
+    {
+      "title": "L_p,T",
+      "body": "nivel próximo al tímpano",
+      "style": "clinical"
+    },
+    {
+      "title": "L_p,campo",
+      "body": "nivel en el punto de campo",
+      "style": "physical"
+    },
+    {
+      "title": "Condición común",
+      "body": "misma f y procedimiento",
+      "style": "neutral"
+    }
+  ],
+  "caption": "Ecuación anotada de diferencia campo–tímpano.",
+  "alt": "Ecuación central G sub CT igual nivel en tímpano menos nivel de campo, con tres llamadas externas.",
+  "source": "Libro del curso (TEX/PDF), Unidad 7; brief, storyboard y planes U07; elaboración propia UCASAL.",
+  "footer": "Figura conceptual; no está a escala salvo indicación explícita.",
+  "options": {},
+  "nodes": [
+    {
+      "id": "equation",
+      "x": 160,
+      "y": 250,
+      "w": 960,
+      "h": 205,
+      "title": "G_CT(f) = L_p,T(f) − L_p,campo(f)",
+      "body": "resultado en dB",
+      "style": "equation",
+      "role": "equation"
+    },
+    {
+      "id": "callout_1",
+      "x": 72,
+      "y": 95,
+      "w": 320,
+      "h": 145,
+      "title": "L_p,T",
+      "body": "nivel próximo al tímpano",
+      "style": "clinical",
+      "role": "callout"
+    },
+    {
+      "id": "callout_2",
+      "x": 888,
+      "y": 95,
+      "w": 320,
+      "h": 145,
+      "title": "L_p,campo",
+      "body": "nivel en el punto de campo",
+      "style": "physical",
+      "role": "callout"
+    },
+    {
+      "id": "callout_3",
+      "x": 72,
+      "y": 465,
+      "w": 320,
+      "h": 140,
+      "title": "Condición común",
+      "body": "misma f y procedimiento",
+      "style": "neutral",
+      "role": "callout"
+    }
+  ],
+  "edges": [
+    {
+      "id": "leader_1",
+      "from": "callout_1",
+      "to": "equation",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "straight"
+    },
+    {
+      "id": "leader_2",
+      "from": "callout_2",
+      "to": "equation",
+      "semantic": "",
+      "fromSide": "left",
+      "toSide": "right",
+      "kind": "straight"
+    },
+    {
+      "id": "leader_3",
+      "from": "callout_3",
+      "to": "equation",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "straight"
+    }
+  ],
+  "labelBoxes": []
+}

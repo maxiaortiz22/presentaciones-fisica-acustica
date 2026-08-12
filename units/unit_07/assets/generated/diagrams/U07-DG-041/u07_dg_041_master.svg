@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+<defs><marker id="arrow" markerWidth="10" markerHeight="8" refX="8" refY="4" orient="auto"><path d="M0,0 L9,4 L0,8 Z" fill="#3D3D3D"/></marker></defs>
+<rect width="1280" height="720" fill="white"/>
+<rect x="72" y="27" width="390" height="6" fill="#4D1434"/><rect x="472" y="27" width="390" height="6" fill="#903163"/><rect x="872" y="27" width="336" height="6" fill="#969FA7"/>
+<text x="72" y="82" font-family="Calibri,Arial,sans-serif" font-size="40" font-weight="700" fill="#3D3D3D">En un aula, señal, ambiente y tarea interactúan</text>
+<polyline id="spatial_edge_1" points="390,210 445,210 445,345 500,345" fill="none" stroke="#3D3D3D" stroke-width="3" />
+<polyline id="spatial_edge_2" points="890,210 835,210 835,345 780,345" fill="none" stroke="#3D3D3D" stroke-width="3" />
+<polyline id="spatial_edge_3" points="390,505 445,505 445,345 500,345" fill="none" stroke="#3D3D3D" stroke-width="3" />
+<polyline id="spatial_edge_4" points="890,505 835,505 835,345 780,345" fill="none" stroke="#3D3D3D" stroke-width="3" />
+<polyline id="spatial_edge_5" points="790,525 645,525 645,345 500,345" fill="none" stroke="#3D3D3D" stroke-width="3" />
+<rect id="spatial_1" x="500" y="240" width="280" height="210" rx="8" fill="#E7F1F1" stroke="#2F7E83" stroke-width="2"/>
+<text x="640" y="287" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#2F7E83">Docente</text>
+<text x="640" y="335" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">voz objetivo</text>
+<rect id="spatial_2" x="90" y="125" width="300" height="170" rx="8" fill="#F7F6F2" stroke="#969FA7" stroke-width="2"/>
+<text x="240" y="172" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#3D3D3D">Ventilación</text>
+<text x="240" y="220" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">ruido</text>
+<text x="240" y="252" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">estacionario</text>
+<rect id="spatial_3" x="890" y="125" width="300" height="170" rx="8" fill="#F3E8EE" stroke="#4D1434" stroke-width="2"/>
+<text x="1040" y="172" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#4D1434">Voces</text>
+<text x="1040" y="220" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">competencia</text>
+<text x="1040" y="252" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">informacional</text>
+<rect id="spatial_4" x="90" y="420" width="300" height="170" rx="8" fill="#F7F6F2" stroke="#969FA7" stroke-width="2"/>
+<text x="240" y="467" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#3D3D3D">Recinto</text>
+<text x="240" y="515" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">reflexiones · T₆₀</text>
+<rect id="spatial_5" x="890" y="420" width="300" height="170" rx="8" fill="#F8EDE2" stroke="#9F541A" stroke-width="2"/>
+<text x="1040" y="467" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#9F541A">Oyente</text>
+<text x="1040" y="515" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">pistas binaurales</text>
+<rect id="spatial_6" x="490" y="460" width="300" height="130" rx="8" fill="#F8EDE2" stroke="#9F541A" stroke-width="2"/>
+<text x="640" y="507" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#9F541A">Tarea</text>
+<text x="640" y="555" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">comprender</text>
+<text x="640" y="628" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="22" fill="#3D3D3D">Figura conceptual; no está a escala salvo indicación explícita.</text>
+<text x="72" y="690" font-family="Calibri,Arial,sans-serif" font-size="16" fill="#969FA7">Libro del curso (TEX/PDF), Unidad 7; brief, storyboard y planes U07; elaboración propia UCASAL.</text>
+</svg>

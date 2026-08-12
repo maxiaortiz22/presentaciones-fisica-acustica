@@ -1,0 +1,134 @@
+{
+  "id": "U07-DG-036",
+  "classification": "ecuación anotada",
+  "title": "La ITD máxima del modelo es del orden de d/c",
+  "template": "equation",
+  "items": [
+    {
+      "title": "|Δt_LR| ≈ d / c",
+      "body": "modelo geométrico inicial",
+      "style": "equation"
+    },
+    {
+      "title": "|Δt_LR|",
+      "body": "magnitud de la diferencia · s",
+      "style": "clinical"
+    },
+    {
+      "title": "d",
+      "body": "distancia efectiva · m",
+      "style": "physical"
+    },
+    {
+      "title": "c",
+      "body": "rapidez · m/s",
+      "style": "accent"
+    },
+    {
+      "title": "≈",
+      "body": "cota, no constante anatómica",
+      "style": "neutral"
+    }
+  ],
+  "caption": "Ecuación anotada del modelo rectilíneo de ITD.",
+  "alt": "Ecuación central valor absoluto de delta t izquierda derecha aproximadamente d sobre c, con cuatro llamadas externas.",
+  "source": "Libro del curso (TEX/PDF), Unidad 7; brief, storyboard y planes U07; elaboración propia UCASAL.",
+  "footer": "Figura conceptual; no está a escala salvo indicación explícita.",
+  "options": {},
+  "nodes": [
+    {
+      "id": "equation",
+      "x": 160,
+      "y": 250,
+      "w": 960,
+      "h": 205,
+      "title": "|Δt_LR| ≈ d / c",
+      "body": "modelo geométrico inicial",
+      "style": "equation",
+      "role": "equation"
+    },
+    {
+      "id": "callout_1",
+      "x": 72,
+      "y": 95,
+      "w": 320,
+      "h": 145,
+      "title": "|Δt_LR|",
+      "body": "magnitud de la diferencia · s",
+      "style": "clinical",
+      "role": "callout"
+    },
+    {
+      "id": "callout_2",
+      "x": 888,
+      "y": 95,
+      "w": 320,
+      "h": 145,
+      "title": "d",
+      "body": "distancia efectiva · m",
+      "style": "physical",
+      "role": "callout"
+    },
+    {
+      "id": "callout_3",
+      "x": 72,
+      "y": 465,
+      "w": 320,
+      "h": 140,
+      "title": "c",
+      "body": "rapidez · m/s",
+      "style": "accent",
+      "role": "callout"
+    },
+    {
+      "id": "callout_4",
+      "x": 888,
+      "y": 465,
+      "w": 320,
+      "h": 140,
+      "title": "≈",
+      "body": "cota, no constante anatómica",
+      "style": "neutral",
+      "role": "callout"
+    }
+  ],
+  "edges": [
+    {
+      "id": "leader_1",
+      "from": "callout_1",
+      "to": "equation",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "straight"
+    },
+    {
+      "id": "leader_2",
+      "from": "callout_2",
+      "to": "equation",
+      "semantic": "",
+      "fromSide": "left",
+      "toSide": "right",
+      "kind": "straight"
+    },
+    {
+      "id": "leader_3",
+      "from": "callout_3",
+      "to": "equation",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "straight"
+    },
+    {
+      "id": "leader_4",
+      "from": "callout_4",
+      "to": "equation",
+      "semantic": "",
+      "fromSide": "left",
+      "toSide": "right",
+      "kind": "straight"
+    }
+  ],
+  "labelBoxes": []
+}

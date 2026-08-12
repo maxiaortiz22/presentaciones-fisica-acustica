@@ -1,0 +1,109 @@
+{
+  "id": "U07-DG-017",
+  "classification": "ecuación anotada",
+  "title": "M es una diferencia de umbrales",
+  "template": "equation",
+  "items": [
+    {
+      "title": "M(f_obj) = L_umbral,e(f_obj) − L_umbral,q(f_obj)",
+      "body": "resultado en dB",
+      "style": "equation"
+    },
+    {
+      "title": "L_umbral,e",
+      "body": "con enmascarador",
+      "style": "clinical"
+    },
+    {
+      "title": "L_umbral,q",
+      "body": "en quietud",
+      "style": "physical"
+    },
+    {
+      "title": "f_obj",
+      "body": "misma frecuencia objetivo",
+      "style": "neutral"
+    }
+  ],
+  "caption": "Ecuación anotada de elevación del umbral por enmascaramiento.",
+  "alt": "Ecuación central M de la frecuencia objetivo igual umbral enmascarado menos umbral en quietud, con tres llamadas externas.",
+  "source": "Libro del curso (TEX/PDF), Unidad 7; brief, storyboard y planes U07; elaboración propia UCASAL.",
+  "footer": "Figura conceptual; no está a escala salvo indicación explícita.",
+  "options": {},
+  "nodes": [
+    {
+      "id": "equation",
+      "x": 160,
+      "y": 250,
+      "w": 960,
+      "h": 205,
+      "title": "M(f_obj) = L_umbral,e(f_obj) − L_umbral,q(f_obj)",
+      "body": "resultado en dB",
+      "style": "equation",
+      "role": "equation"
+    },
+    {
+      "id": "callout_1",
+      "x": 72,
+      "y": 95,
+      "w": 320,
+      "h": 145,
+      "title": "L_umbral,e",
+      "body": "con enmascarador",
+      "style": "clinical",
+      "role": "callout"
+    },
+    {
+      "id": "callout_2",
+      "x": 888,
+      "y": 95,
+      "w": 320,
+      "h": 145,
+      "title": "L_umbral,q",
+      "body": "en quietud",
+      "style": "physical",
+      "role": "callout"
+    },
+    {
+      "id": "callout_3",
+      "x": 72,
+      "y": 465,
+      "w": 320,
+      "h": 140,
+      "title": "f_obj",
+      "body": "misma frecuencia objetivo",
+      "style": "neutral",
+      "role": "callout"
+    }
+  ],
+  "edges": [
+    {
+      "id": "leader_1",
+      "from": "callout_1",
+      "to": "equation",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "straight"
+    },
+    {
+      "id": "leader_2",
+      "from": "callout_2",
+      "to": "equation",
+      "semantic": "",
+      "fromSide": "left",
+      "toSide": "right",
+      "kind": "straight"
+    },
+    {
+      "id": "leader_3",
+      "from": "callout_3",
+      "to": "equation",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "straight"
+    }
+  ],
+  "labelBoxes": []
+}

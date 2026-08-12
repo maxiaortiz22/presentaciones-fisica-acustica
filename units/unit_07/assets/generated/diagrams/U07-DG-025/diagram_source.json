@@ -1,0 +1,134 @@
+{
+  "id": "U07-DG-025",
+  "classification": "ecuación anotada",
+  "title": "La SNR compara niveles medidos en condiciones comunes",
+  "template": "equation",
+  "items": [
+    {
+      "title": "SNR = L_p,habla − L_p,ruido",
+      "body": "resultado en dB",
+      "style": "equation"
+    },
+    {
+      "title": "L_p,habla",
+      "body": "señal de interés",
+      "style": "physical"
+    },
+    {
+      "title": "L_p,ruido",
+      "body": "interferencia",
+      "style": "neutral"
+    },
+    {
+      "title": "signo",
+      "body": "positivo: habla con mayor nivel",
+      "style": "clinical"
+    },
+    {
+      "title": "Comparabilidad",
+      "body": "misma banda · punto · intervalo",
+      "style": "accent"
+    }
+  ],
+  "caption": "Ecuación anotada de relación señal–ruido.",
+  "alt": "Ecuación central SNR igual nivel de habla menos nivel de ruido, con cuatro llamadas externas.",
+  "source": "Libro del curso (TEX/PDF), Unidad 7; brief, storyboard y planes U07; elaboración propia UCASAL.",
+  "footer": "Figura conceptual; no está a escala salvo indicación explícita.",
+  "options": {},
+  "nodes": [
+    {
+      "id": "equation",
+      "x": 160,
+      "y": 250,
+      "w": 960,
+      "h": 205,
+      "title": "SNR = L_p,habla − L_p,ruido",
+      "body": "resultado en dB",
+      "style": "equation",
+      "role": "equation"
+    },
+    {
+      "id": "callout_1",
+      "x": 72,
+      "y": 95,
+      "w": 320,
+      "h": 145,
+      "title": "L_p,habla",
+      "body": "señal de interés",
+      "style": "physical",
+      "role": "callout"
+    },
+    {
+      "id": "callout_2",
+      "x": 888,
+      "y": 95,
+      "w": 320,
+      "h": 145,
+      "title": "L_p,ruido",
+      "body": "interferencia",
+      "style": "neutral",
+      "role": "callout"
+    },
+    {
+      "id": "callout_3",
+      "x": 72,
+      "y": 465,
+      "w": 320,
+      "h": 140,
+      "title": "signo",
+      "body": "positivo: habla con mayor nivel",
+      "style": "clinical",
+      "role": "callout"
+    },
+    {
+      "id": "callout_4",
+      "x": 888,
+      "y": 465,
+      "w": 320,
+      "h": 140,
+      "title": "Comparabilidad",
+      "body": "misma banda · punto · intervalo",
+      "style": "accent",
+      "role": "callout"
+    }
+  ],
+  "edges": [
+    {
+      "id": "leader_1",
+      "from": "callout_1",
+      "to": "equation",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "straight"
+    },
+    {
+      "id": "leader_2",
+      "from": "callout_2",
+      "to": "equation",
+      "semantic": "",
+      "fromSide": "left",
+      "toSide": "right",
+      "kind": "straight"
+    },
+    {
+      "id": "leader_3",
+      "from": "callout_3",
+      "to": "equation",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "straight"
+    },
+    {
+      "id": "leader_4",
+      "from": "callout_4",
+      "to": "equation",
+      "semantic": "",
+      "fromSide": "left",
+      "toSide": "right",
+      "kind": "straight"
+    }
+  ],
+  "labelBoxes": []
+}

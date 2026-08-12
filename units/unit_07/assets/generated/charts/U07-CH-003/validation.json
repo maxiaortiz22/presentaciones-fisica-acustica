@@ -1,0 +1,35 @@
+{
+  "asset_id": "U07-CH-003",
+  "classification": "gráfico cuantitativo",
+  "canvas_px": [
+    2560,
+    1440
+  ],
+  "slide_ratio": "16:9",
+  "scale": "frecuencia logarítmica; diferencia cualitativa",
+  "conceptual": true,
+  "not_to_scale": true,
+  "font_floor_pt": {
+    "axis_label": 20,
+    "ticks_legend": 18,
+    "annotation": 22
+  },
+  "checks": {
+    "frequency_positive": true,
+    "log_axis": true,
+    "numeric_y_ticks": false,
+    "individual_response_claimed": false
+  },
+  "file_checks": {
+    "png_2560x1440": true,
+    "svg_parseable": true,
+    "data_rows": 401,
+    "variants": []
+  },
+  "critical_issues": 0,
+  "major_issues": 0,
+  "status": "approved",
+  "iterations": 2,
+  "individual_render": true,
+  "full_slide_render": true
+}

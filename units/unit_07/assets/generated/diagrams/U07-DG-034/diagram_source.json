@@ -1,0 +1,140 @@
+{
+  "id": "U07-DG-034",
+  "classification": "esquema mixto",
+  "title": "Una fuente lateral produce dos señales de oído",
+  "template": "spatial",
+  "items": [
+    {
+      "title": "Fuente lateral",
+      "body": "posición definida",
+      "style": "physical"
+    },
+    {
+      "title": "Oído L",
+      "body": "tiempo y nivel",
+      "style": "clinical"
+    },
+    {
+      "title": "Oído R",
+      "body": "tiempo y nivel",
+      "style": "clinical"
+    },
+    {
+      "title": "ITD",
+      "body": "diferencia de tiempo",
+      "style": "accent"
+    },
+    {
+      "title": "ILD",
+      "body": "diferencia de nivel",
+      "style": "neutral"
+    }
+  ],
+  "caption": "Geometría binaural conceptual con recorridos hacia ambos oídos.",
+  "alt": "Fuente lateral y dos oídos unidos por recorridos distintos, con rótulos externos ITD e ILD.",
+  "source": "Libro del curso (TEX/PDF), Unidad 7; brief, storyboard y planes U07; elaboración propia UCASAL.",
+  "footer": "Figura conceptual; no está a escala salvo indicación explícita.",
+  "options": {
+    "spatialMode": "out"
+  },
+  "nodes": [
+    {
+      "id": "spatial_1",
+      "x": 500,
+      "y": 240,
+      "w": 280,
+      "h": 210,
+      "title": "Fuente lateral",
+      "body": "posición definida",
+      "style": "physical",
+      "role": "node"
+    },
+    {
+      "id": "spatial_2",
+      "x": 90,
+      "y": 125,
+      "w": 300,
+      "h": 170,
+      "title": "Oído L",
+      "body": "tiempo y nivel",
+      "style": "clinical",
+      "role": "node"
+    },
+    {
+      "id": "spatial_3",
+      "x": 890,
+      "y": 125,
+      "w": 300,
+      "h": 170,
+      "title": "Oído R",
+      "body": "tiempo y nivel",
+      "style": "clinical",
+      "role": "node"
+    },
+    {
+      "id": "spatial_4",
+      "x": 90,
+      "y": 420,
+      "w": 300,
+      "h": 170,
+      "title": "ITD",
+      "body": "diferencia de tiempo",
+      "style": "accent",
+      "role": "node"
+    },
+    {
+      "id": "spatial_5",
+      "x": 890,
+      "y": 420,
+      "w": 300,
+      "h": 170,
+      "title": "ILD",
+      "body": "diferencia de nivel",
+      "style": "neutral",
+      "role": "node"
+    }
+  ],
+  "edges": [
+    {
+      "id": "spatial_edge_1",
+      "from": "spatial_1",
+      "to": "spatial_2",
+      "semantic": "",
+      "fromSide": "left",
+      "toSide": "right",
+      "kind": "straight",
+      "arrow": true
+    },
+    {
+      "id": "spatial_edge_2",
+      "from": "spatial_1",
+      "to": "spatial_3",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "straight",
+      "arrow": true
+    },
+    {
+      "id": "spatial_edge_3",
+      "from": "spatial_1",
+      "to": "spatial_4",
+      "semantic": "",
+      "fromSide": "left",
+      "toSide": "right",
+      "kind": "straight",
+      "arrow": true
+    },
+    {
+      "id": "spatial_edge_4",
+      "from": "spatial_1",
+      "to": "spatial_5",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "straight",
+      "arrow": true
+    }
+  ],
+  "labelBoxes": []
+}

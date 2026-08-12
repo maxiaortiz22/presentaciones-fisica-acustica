@@ -1,0 +1,84 @@
+{
+  "id": "U07-DG-026",
+  "classification": "esquema mixto",
+  "title": "Las colas reverberantes superponen segmentos del habla",
+  "template": "timeline",
+  "items": [
+    {
+      "title": "Sílaba 1",
+      "body": "directo + cola",
+      "style": "physical"
+    },
+    {
+      "title": "Sílaba 2",
+      "body": "se suma a la cola",
+      "style": "accent"
+    },
+    {
+      "title": "Sílaba 3",
+      "body": "transiciones cubiertas",
+      "style": "clinical"
+    }
+  ],
+  "caption": "Alternativa estática de tres sílabas con colas temporales que se superponen.",
+  "alt": "Tres cuadros temporales muestran sílabas sucesivas y colas crecientes; el esquema no codifica tiempos reales.",
+  "source": "Libro del curso (TEX/PDF), Unidad 7; brief, storyboard y planes U07; elaboración propia UCASAL.",
+  "footer": "Figura conceptual; no está a escala salvo indicación explícita.",
+  "options": {},
+  "nodes": [
+    {
+      "id": "time_1",
+      "x": 82,
+      "y": 215,
+      "w": 342,
+      "h": 300,
+      "title": "Sílaba 1",
+      "body": "directo + cola",
+      "style": "physical",
+      "role": "frame"
+    },
+    {
+      "id": "time_2",
+      "x": 469,
+      "y": 215,
+      "w": 342,
+      "h": 300,
+      "title": "Sílaba 2",
+      "body": "se suma a la cola",
+      "style": "accent",
+      "role": "frame"
+    },
+    {
+      "id": "time_3",
+      "x": 856,
+      "y": 215,
+      "w": 342,
+      "h": 300,
+      "title": "Sílaba 3",
+      "body": "transiciones cubiertas",
+      "style": "clinical",
+      "role": "frame"
+    }
+  ],
+  "edges": [
+    {
+      "id": "time_edge_1",
+      "from": "time_1",
+      "to": "time_2",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "elbow"
+    },
+    {
+      "id": "time_edge_2",
+      "from": "time_2",
+      "to": "time_3",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "elbow"
+    }
+  ],
+  "labelBoxes": []
+}

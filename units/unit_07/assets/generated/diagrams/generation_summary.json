@@ -1,0 +1,3733 @@
+[
+  {
+    "asset_id": "U07-DG-001",
+    "classification": "diagrama de proceso",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 24,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20.25,
+      "equation_pt": 34.5
+    },
+    "padding_px": 20,
+    "padding_inches": 0.208,
+    "not_to_scale": true,
+    "object_ids": [
+      "stage_1",
+      "stage_2",
+      "stage_3",
+      "stage_4"
+    ],
+    "connector_ids": [
+      "flow_1",
+      "flow_2",
+      "flow_3"
+    ],
+    "label_ids": [
+      "label_1",
+      "label_2",
+      "label_3"
+    ],
+    "checks": {
+      "text_overflow": 0,
+      "text_clipping": 0,
+      "connector_over_text": 0,
+      "label_on_line": 0,
+      "arrowhead_over_text": 0,
+      "objects_outside_canvas": 0
+    },
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": 3,
+    "individual_render": true,
+    "full_slide_render": true,
+    "file_checks": {
+      "png_nonempty": true,
+      "svg_present": true,
+      "pptx_present": true,
+      "layout_present": true
+    },
+    "render_history": [
+      {
+        "iteration": 1,
+        "action": "preflight y primer render",
+        "result": "se detectaron reflujos tipográficos o rutas genéricas en la revisión consolidada"
+      },
+      {
+        "iteration": 2,
+        "action": "corrección de geometría, redacción y dirección de conectores",
+        "result": "sin problemas críticos o mayores"
+      },
+      {
+        "iteration": 3,
+        "action": "render a tamaño real dentro del canvas 16:9",
+        "result": "aprobado"
+      }
+    ]
+  },
+  {
+    "asset_id": "U07-DG-002",
+    "classification": "diagrama conceptual",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 24,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20.25,
+      "equation_pt": 34.5
+    },
+    "padding_px": 20,
+    "padding_inches": 0.208,
+    "not_to_scale": true,
+    "object_ids": [
+      "cell_1",
+      "cell_2",
+      "cell_3",
+      "cell_4",
+      "cell_5",
+      "cell_6",
+      "cell_7",
+      "cell_8"
+    ],
+    "connector_ids": [],
+    "label_ids": [],
+    "checks": {
+      "text_overflow": 0,
+      "text_clipping": 0,
+      "connector_over_text": 0,
+      "label_on_line": 0,
+      "arrowhead_over_text": 0,
+      "objects_outside_canvas": 0
+    },
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": 3,
+    "individual_render": true,
+    "full_slide_render": true,
+    "file_checks": {
+      "png_nonempty": true,
+      "svg_present": true,
+      "pptx_present": true,
+      "layout_present": true
+    },
+    "render_history": [
+      {
+        "iteration": 1,
+        "action": "preflight y primer render",
+        "result": "se detectaron reflujos tipográficos o rutas genéricas en la revisión consolidada"
+      },
+      {
+        "iteration": 2,
+        "action": "corrección de geometría, redacción y dirección de conectores",
+        "result": "sin problemas críticos o mayores"
+      },
+      {
+        "iteration": 3,
+        "action": "render a tamaño real dentro del canvas 16:9",
+        "result": "aprobado"
+      }
+    ]
+  },
+  {
+    "asset_id": "U07-DG-003",
+    "classification": "diagrama de proceso",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 24,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20.25,
+      "equation_pt": 34.5
+    },
+    "padding_px": 20,
+    "padding_inches": 0.208,
+    "not_to_scale": true,
+    "object_ids": [
+      "stage_1",
+      "stage_2",
+      "stage_3",
+      "stage_4"
+    ],
+    "connector_ids": [
+      "flow_1",
+      "flow_2",
+      "flow_3"
+    ],
+    "label_ids": [],
+    "checks": {
+      "text_overflow": 0,
+      "text_clipping": 0,
+      "connector_over_text": 0,
+      "label_on_line": 0,
+      "arrowhead_over_text": 0,
+      "objects_outside_canvas": 0
+    },
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": 3,
+    "individual_render": true,
+    "full_slide_render": true,
+    "file_checks": {
+      "png_nonempty": true,
+      "svg_present": true,
+      "pptx_present": true,
+      "layout_present": true
+    },
+    "render_history": [
+      {
+        "iteration": 1,
+        "action": "preflight y primer render",
+        "result": "se detectaron reflujos tipográficos o rutas genéricas en la revisión consolidada"
+      },
+      {
+        "iteration": 2,
+        "action": "corrección de geometría, redacción y dirección de conectores",
+        "result": "sin problemas críticos o mayores"
+      },
+      {
+        "iteration": 3,
+        "action": "render a tamaño real dentro del canvas 16:9",
+        "result": "aprobado"
+      }
+    ]
+  },
+  {
+    "asset_id": "U07-DG-004",
+    "classification": "diagrama de proceso",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 24,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20.25,
+      "equation_pt": 34.5
+    },
+    "padding_px": 20,
+    "padding_inches": 0.208,
+    "not_to_scale": true,
+    "object_ids": [
+      "stage_1",
+      "stage_2",
+      "stage_3",
+      "stage_4"
+    ],
+    "connector_ids": [
+      "flow_1",
+      "flow_2",
+      "flow_3"
+    ],
+    "label_ids": [],
+    "checks": {
+      "text_overflow": 0,
+      "text_clipping": 0,
+      "connector_over_text": 0,
+      "label_on_line": 0,
+      "arrowhead_over_text": 0,
+      "objects_outside_canvas": 0
+    },
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": 3,
+    "individual_render": true,
+    "full_slide_render": true,
+    "file_checks": {
+      "png_nonempty": true,
+      "svg_present": true,
+      "pptx_present": true,
+      "layout_present": true
+    },
+    "render_history": [
+      {
+        "iteration": 1,
+        "action": "preflight y primer render",
+        "result": "se detectaron reflujos tipográficos o rutas genéricas en la revisión consolidada"
+      },
+      {
+        "iteration": 2,
+        "action": "corrección de geometría, redacción y dirección de conectores",
+        "result": "sin problemas críticos o mayores"
+      },
+      {
+        "iteration": 3,
+        "action": "render a tamaño real dentro del canvas 16:9",
+        "result": "aprobado"
+      }
+    ]
+  },
+  {
+    "asset_id": "U07-DG-005",
+    "classification": "diagrama de proceso",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 24,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20.25,
+      "equation_pt": 34.5
+    },
+    "padding_px": 20,
+    "padding_inches": 0.208,
+    "not_to_scale": true,
+    "object_ids": [
+      "central",
+      "branch_1",
+      "branch_2",
+      "branch_3"
+    ],
+    "connector_ids": [
+      "branch_edge_1",
+      "branch_edge_2",
+      "branch_edge_3"
+    ],
+    "label_ids": [],
+    "checks": {
+      "text_overflow": 0,
+      "text_clipping": 0,
+      "connector_over_text": 0,
+      "label_on_line": 0,
+      "arrowhead_over_text": 0,
+      "objects_outside_canvas": 0
+    },
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": 3,
+    "individual_render": true,
+    "full_slide_render": true,
+    "file_checks": {
+      "png_nonempty": true,
+      "svg_present": true,
+      "pptx_present": true,
+      "layout_present": true
+    },
+    "render_history": [
+      {
+        "iteration": 1,
+        "action": "preflight y primer render",
+        "result": "se detectaron reflujos tipográficos o rutas genéricas en la revisión consolidada"
+      },
+      {
+        "iteration": 2,
+        "action": "corrección de geometría, redacción y dirección de conectores",
+        "result": "sin problemas críticos o mayores"
+      },
+      {
+        "iteration": 3,
+        "action": "render a tamaño real dentro del canvas 16:9",
+        "result": "aprobado"
+      }
+    ]
+  },
+  {
+    "asset_id": "U07-DG-006",
+    "classification": "diagrama conceptual",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 24,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20.25,
+      "equation_pt": 34.5
+    },
+    "padding_px": 20,
+    "padding_inches": 0.208,
+    "not_to_scale": true,
+    "object_ids": [
+      "central",
+      "branch_1",
+      "branch_2",
+      "branch_3",
+      "branch_4",
+      "branch_5",
+      "branch_6"
+    ],
+    "connector_ids": [],
+    "label_ids": [],
+    "checks": {
+      "text_overflow": 0,
+      "text_clipping": 0,
+      "connector_over_text": 0,
+      "label_on_line": 0,
+      "arrowhead_over_text": 0,
+      "objects_outside_canvas": 0
+    },
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": 3,
+    "individual_render": true,
+    "full_slide_render": true,
+    "file_checks": {
+      "png_nonempty": true,
+      "svg_present": true,
+      "pptx_present": true,
+      "layout_present": true
+    },
+    "render_history": [
+      {
+        "iteration": 1,
+        "action": "preflight y primer render",
+        "result": "se detectaron reflujos tipográficos o rutas genéricas en la revisión consolidada"
+      },
+      {
+        "iteration": 2,
+        "action": "corrección de geometría, redacción y dirección de conectores",
+        "result": "sin problemas críticos o mayores"
+      },
+      {
+        "iteration": 3,
+        "action": "render a tamaño real dentro del canvas 16:9",
+        "result": "aprobado"
+      }
+    ]
+  },
+  {
+    "asset_id": "U07-DG-007",
+    "classification": "esquema mixto",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 24,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20.25,
+      "equation_pt": 34.5
+    },
+    "padding_px": 20,
+    "padding_inches": 0.208,
+    "not_to_scale": true,
+    "object_ids": [
+      "stage_1",
+      "stage_2",
+      "stage_3"
+    ],
+    "connector_ids": [
+      "flow_1",
+      "flow_2"
+    ],
+    "label_ids": [],
+    "checks": {
+      "text_overflow": 0,
+      "text_clipping": 0,
+      "connector_over_text": 0,
+      "label_on_line": 0,
+      "arrowhead_over_text": 0,
+      "objects_outside_canvas": 0
+    },
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": 3,
+    "individual_render": true,
+    "full_slide_render": true,
+    "file_checks": {
+      "png_nonempty": true,
+      "svg_present": true,
+      "pptx_present": true,
+      "layout_present": true
+    },
+    "render_history": [
+      {
+        "iteration": 1,
+        "action": "preflight y primer render",
+        "result": "se detectaron reflujos tipográficos o rutas genéricas en la revisión consolidada"
+      },
+      {
+        "iteration": 2,
+        "action": "corrección de geometría, redacción y dirección de conectores",
+        "result": "sin problemas críticos o mayores"
+      },
+      {
+        "iteration": 3,
+        "action": "render a tamaño real dentro del canvas 16:9",
+        "result": "aprobado"
+      }
+    ]
+  },
+  {
+    "asset_id": "U07-DG-008",
+    "classification": "diagrama de proceso",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 24,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20.25,
+      "equation_pt": 34.5
+    },
+    "padding_px": 20,
+    "padding_inches": 0.208,
+    "not_to_scale": true,
+    "object_ids": [
+      "stage_1",
+      "stage_2",
+      "stage_3",
+      "stage_4"
+    ],
+    "connector_ids": [
+      "flow_1",
+      "flow_2",
+      "flow_3"
+    ],
+    "label_ids": [],
+    "checks": {
+      "text_overflow": 0,
+      "text_clipping": 0,
+      "connector_over_text": 0,
+      "label_on_line": 0,
+      "arrowhead_over_text": 0,
+      "objects_outside_canvas": 0
+    },
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": 3,
+    "individual_render": true,
+    "full_slide_render": true,
+    "file_checks": {
+      "png_nonempty": true,
+      "svg_present": true,
+      "pptx_present": true,
+      "layout_present": true
+    },
+    "render_history": [
+      {
+        "iteration": 1,
+        "action": "preflight y primer render",
+        "result": "se detectaron reflujos tipográficos o rutas genéricas en la revisión consolidada"
+      },
+      {
+        "iteration": 2,
+        "action": "corrección de geometría, redacción y dirección de conectores",
+        "result": "sin problemas críticos o mayores"
+      },
+      {
+        "iteration": 3,
+        "action": "render a tamaño real dentro del canvas 16:9",
+        "result": "aprobado"
+      }
+    ]
+  },
+  {
+    "asset_id": "U07-DG-009",
+    "classification": "ecuación anotada",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 24,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20.25,
+      "equation_pt": 34.5
+    },
+    "padding_px": 20,
+    "padding_inches": 0.208,
+    "not_to_scale": true,
+    "object_ids": [
+      "equation",
+      "callout_1",
+      "callout_2",
+      "callout_3"
+    ],
+    "connector_ids": [
+      "leader_1",
+      "leader_2",
+      "leader_3"
+    ],
+    "label_ids": [],
+    "checks": {
+      "text_overflow": 0,
+      "text_clipping": 0,
+      "connector_over_text": 0,
+      "label_on_line": 0,
+      "arrowhead_over_text": 0,
+      "objects_outside_canvas": 0
+    },
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": 3,
+    "individual_render": true,
+    "full_slide_render": true,
+    "file_checks": {
+      "png_nonempty": true,
+      "svg_present": true,
+      "pptx_present": true,
+      "layout_present": true
+    },
+    "render_history": [
+      {
+        "iteration": 1,
+        "action": "preflight y primer render",
+        "result": "se detectaron reflujos tipográficos o rutas genéricas en la revisión consolidada"
+      },
+      {
+        "iteration": 2,
+        "action": "corrección de geometría, redacción y dirección de conectores",
+        "result": "sin problemas críticos o mayores"
+      },
+      {
+        "iteration": 3,
+        "action": "render a tamaño real dentro del canvas 16:9",
+        "result": "aprobado"
+      }
+    ]
+  },
+  {
+    "asset_id": "U07-DG-009B",
+    "classification": "ecuación anotada",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 24,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20.25,
+      "equation_pt": 34.5
+    },
+    "padding_px": 20,
+    "padding_inches": 0.208,
+    "not_to_scale": true,
+    "object_ids": [
+      "stage_1",
+      "stage_2",
+      "stage_3",
+      "stage_4"
+    ],
+    "connector_ids": [
+      "flow_1",
+      "flow_2",
+      "flow_3"
+    ],
+    "label_ids": [],
+    "checks": {
+      "text_overflow": 0,
+      "text_clipping": 0,
+      "connector_over_text": 0,
+      "label_on_line": 0,
+      "arrowhead_over_text": 0,
+      "objects_outside_canvas": 0
+    },
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": 3,
+    "individual_render": true,
+    "full_slide_render": true,
+    "file_checks": {
+      "png_nonempty": true,
+      "svg_present": true,
+      "pptx_present": true,
+      "layout_present": true
+    },
+    "render_history": [
+      {
+        "iteration": 1,
+        "action": "preflight y primer render",
+        "result": "se detectaron reflujos tipográficos o rutas genéricas en la revisión consolidada"
+      },
+      {
+        "iteration": 2,
+        "action": "corrección de geometría, redacción y dirección de conectores",
+        "result": "sin problemas críticos o mayores"
+      },
+      {
+        "iteration": 3,
+        "action": "render a tamaño real dentro del canvas 16:9",
+        "result": "aprobado"
+      }
+    ]
+  },
+  {
+    "asset_id": "U07-DG-011",
+    "classification": "diagrama de proceso",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 24,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20.25,
+      "equation_pt": 34.5
+    },
+    "padding_px": 20,
+    "padding_inches": 0.208,
+    "not_to_scale": true,
+    "object_ids": [
+      "stage_1",
+      "stage_2",
+      "stage_3",
+      "stage_4",
+      "stage_5"
+    ],
+    "connector_ids": [
+      "flow_1",
+      "flow_2",
+      "flow_3",
+      "flow_4"
+    ],
+    "label_ids": [
+      "label_1",
+      "label_2",
+      "label_3",
+      "label_4"
+    ],
+    "checks": {
+      "text_overflow": 0,
+      "text_clipping": 0,
+      "connector_over_text": 0,
+      "label_on_line": 0,
+      "arrowhead_over_text": 0,
+      "objects_outside_canvas": 0
+    },
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": 3,
+    "individual_render": true,
+    "full_slide_render": true,
+    "file_checks": {
+      "png_nonempty": true,
+      "svg_present": true,
+      "pptx_present": true,
+      "layout_present": true
+    },
+    "render_history": [
+      {
+        "iteration": 1,
+        "action": "preflight y primer render",
+        "result": "se detectaron reflujos tipográficos o rutas genéricas en la revisión consolidada"
+      },
+      {
+        "iteration": 2,
+        "action": "corrección de geometría, redacción y dirección de conectores",
+        "result": "sin problemas críticos o mayores"
+      },
+      {
+        "iteration": 3,
+        "action": "render a tamaño real dentro del canvas 16:9",
+        "result": "aprobado"
+      }
+    ]
+  },
+  {
+    "asset_id": "U07-DG-012",
+    "classification": "diagrama conceptual",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 24,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20.25,
+      "equation_pt": 34.5
+    },
+    "padding_px": 20,
+    "padding_inches": 0.208,
+    "not_to_scale": true,
+    "object_ids": [
+      "cell_1",
+      "cell_2",
+      "cell_3",
+      "cell_4",
+      "cell_5",
+      "cell_6",
+      "cell_7",
+      "cell_8"
+    ],
+    "connector_ids": [],
+    "label_ids": [],
+    "checks": {
+      "text_overflow": 0,
+      "text_clipping": 0,
+      "connector_over_text": 0,
+      "label_on_line": 0,
+      "arrowhead_over_text": 0,
+      "objects_outside_canvas": 0
+    },
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": 3,
+    "individual_render": true,
+    "full_slide_render": true,
+    "file_checks": {
+      "png_nonempty": true,
+      "svg_present": true,
+      "pptx_present": true,
+      "layout_present": true
+    },
+    "render_history": [
+      {
+        "iteration": 1,
+        "action": "preflight y primer render",
+        "result": "se detectaron reflujos tipográficos o rutas genéricas en la revisión consolidada"
+      },
+      {
+        "iteration": 2,
+        "action": "corrección de geometría, redacción y dirección de conectores",
+        "result": "sin problemas críticos o mayores"
+      },
+      {
+        "iteration": 3,
+        "action": "render a tamaño real dentro del canvas 16:9",
+        "result": "aprobado"
+      }
+    ]
+  },
+  {
+    "asset_id": "U07-DG-012B",
+    "classification": "diagrama conceptual",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 24,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20.25,
+      "equation_pt": 34.5
+    },
+    "padding_px": 20,
+    "padding_inches": 0.208,
+    "not_to_scale": true,
+    "object_ids": [
+      "central",
+      "branch_1",
+      "branch_2",
+      "branch_3",
+      "branch_4"
+    ],
+    "connector_ids": [],
+    "label_ids": [],
+    "checks": {
+      "text_overflow": 0,
+      "text_clipping": 0,
+      "connector_over_text": 0,
+      "label_on_line": 0,
+      "arrowhead_over_text": 0,
+      "objects_outside_canvas": 0
+    },
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": 3,
+    "individual_render": true,
+    "full_slide_render": true,
+    "file_checks": {
+      "png_nonempty": true,
+      "svg_present": true,
+      "pptx_present": true,
+      "layout_present": true
+    },
+    "render_history": [
+      {
+        "iteration": 1,
+        "action": "preflight y primer render",
+        "result": "se detectaron reflujos tipográficos o rutas genéricas en la revisión consolidada"
+      },
+      {
+        "iteration": 2,
+        "action": "corrección de geometría, redacción y dirección de conectores",
+        "result": "sin problemas críticos o mayores"
+      },
+      {
+        "iteration": 3,
+        "action": "render a tamaño real dentro del canvas 16:9",
+        "result": "aprobado"
+      }
+    ]
+  },
+  {
+    "asset_id": "U07-DG-013",
+    "classification": "diagrama conceptual",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 24,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20.25,
+      "equation_pt": 34.5
+    },
+    "padding_px": 20,
+    "padding_inches": 0.208,
+    "not_to_scale": true,
+    "object_ids": [
+      "cell_1",
+      "cell_2",
+      "cell_3",
+      "cell_4",
+      "cell_5",
+      "cell_6"
+    ],
+    "connector_ids": [],
+    "label_ids": [],
+    "checks": {
+      "text_overflow": 0,
+      "text_clipping": 0,
+      "connector_over_text": 0,
+      "label_on_line": 0,
+      "arrowhead_over_text": 0,
+      "objects_outside_canvas": 0
+    },
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": 3,
+    "individual_render": true,
+    "full_slide_render": true,
+    "file_checks": {
+      "png_nonempty": true,
+      "svg_present": true,
+      "pptx_present": true,
+      "layout_present": true
+    },
+    "render_history": [
+      {
+        "iteration": 1,
+        "action": "preflight y primer render",
+        "result": "se detectaron reflujos tipográficos o rutas genéricas en la revisión consolidada"
+      },
+      {
+        "iteration": 2,
+        "action": "corrección de geometría, redacción y dirección de conectores",
+        "result": "sin problemas críticos o mayores"
+      },
+      {
+        "iteration": 3,
+        "action": "render a tamaño real dentro del canvas 16:9",
+        "result": "aprobado"
+      }
+    ]
+  },
+  {
+    "asset_id": "U07-DG-014",
+    "classification": "diagrama de proceso",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 24,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20.25,
+      "equation_pt": 34.5
+    },
+    "padding_px": 20,
+    "padding_inches": 0.208,
+    "not_to_scale": true,
+    "object_ids": [
+      "stage_1",
+      "stage_2",
+      "stage_3",
+      "stage_4"
+    ],
+    "connector_ids": [
+      "flow_1",
+      "flow_2",
+      "flow_3"
+    ],
+    "label_ids": [],
+    "checks": {
+      "text_overflow": 0,
+      "text_clipping": 0,
+      "connector_over_text": 0,
+      "label_on_line": 0,
+      "arrowhead_over_text": 0,
+      "objects_outside_canvas": 0
+    },
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": 3,
+    "individual_render": true,
+    "full_slide_render": true,
+    "file_checks": {
+      "png_nonempty": true,
+      "svg_present": true,
+      "pptx_present": true,
+      "layout_present": true
+    },
+    "render_history": [
+      {
+        "iteration": 1,
+        "action": "preflight y primer render",
+        "result": "se detectaron reflujos tipográficos o rutas genéricas en la revisión consolidada"
+      },
+      {
+        "iteration": 2,
+        "action": "corrección de geometría, redacción y dirección de conectores",
+        "result": "sin problemas críticos o mayores"
+      },
+      {
+        "iteration": 3,
+        "action": "render a tamaño real dentro del canvas 16:9",
+        "result": "aprobado"
+      }
+    ]
+  },
+  {
+    "asset_id": "U07-DG-015",
+    "classification": "ecuación anotada",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 24,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20.25,
+      "equation_pt": 34.5
+    },
+    "padding_px": 20,
+    "padding_inches": 0.208,
+    "not_to_scale": true,
+    "object_ids": [
+      "equation",
+      "callout_1",
+      "callout_2",
+      "callout_3",
+      "callout_4"
+    ],
+    "connector_ids": [
+      "leader_1",
+      "leader_2",
+      "leader_3",
+      "leader_4"
+    ],
+    "label_ids": [],
+    "checks": {
+      "text_overflow": 0,
+      "text_clipping": 0,
+      "connector_over_text": 0,
+      "label_on_line": 0,
+      "arrowhead_over_text": 0,
+      "objects_outside_canvas": 0
+    },
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": 3,
+    "individual_render": true,
+    "full_slide_render": true,
+    "file_checks": {
+      "png_nonempty": true,
+      "svg_present": true,
+      "pptx_present": true,
+      "layout_present": true
+    },
+    "render_history": [
+      {
+        "iteration": 1,
+        "action": "preflight y primer render",
+        "result": "se detectaron reflujos tipográficos o rutas genéricas en la revisión consolidada"
+      },
+      {
+        "iteration": 2,
+        "action": "corrección de geometría, redacción y dirección de conectores",
+        "result": "sin problemas críticos o mayores"
+      },
+      {
+        "iteration": 3,
+        "action": "render a tamaño real dentro del canvas 16:9",
+        "result": "aprobado"
+      }
+    ]
+  },
+  {
+    "asset_id": "U07-DG-015B",
+    "classification": "ecuación anotada",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 24,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20.25,
+      "equation_pt": 34.5
+    },
+    "padding_px": 20,
+    "padding_inches": 0.208,
+    "not_to_scale": true,
+    "object_ids": [
+      "stage_1",
+      "stage_2",
+      "stage_3",
+      "stage_4"
+    ],
+    "connector_ids": [
+      "flow_1",
+      "flow_2",
+      "flow_3"
+    ],
+    "label_ids": [],
+    "checks": {
+      "text_overflow": 0,
+      "text_clipping": 0,
+      "connector_over_text": 0,
+      "label_on_line": 0,
+      "arrowhead_over_text": 0,
+      "objects_outside_canvas": 0
+    },
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": 3,
+    "individual_render": true,
+    "full_slide_render": true,
+    "file_checks": {
+      "png_nonempty": true,
+      "svg_present": true,
+      "pptx_present": true,
+      "layout_present": true
+    },
+    "render_history": [
+      {
+        "iteration": 1,
+        "action": "preflight y primer render",
+        "result": "se detectaron reflujos tipográficos o rutas genéricas en la revisión consolidada"
+      },
+      {
+        "iteration": 2,
+        "action": "corrección de geometría, redacción y dirección de conectores",
+        "result": "sin problemas críticos o mayores"
+      },
+      {
+        "iteration": 3,
+        "action": "render a tamaño real dentro del canvas 16:9",
+        "result": "aprobado"
+      }
+    ]
+  },
+  {
+    "asset_id": "U07-DG-016",
+    "classification": "diagrama conceptual",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 24,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20.25,
+      "equation_pt": 34.5
+    },
+    "padding_px": 20,
+    "padding_inches": 0.208,
+    "not_to_scale": true,
+    "object_ids": [
+      "central",
+      "branch_1",
+      "branch_2",
+      "branch_3"
+    ],
+    "connector_ids": [
+      "branch_edge_1",
+      "branch_edge_2",
+      "branch_edge_3"
+    ],
+    "label_ids": [],
+    "checks": {
+      "text_overflow": 0,
+      "text_clipping": 0,
+      "connector_over_text": 0,
+      "label_on_line": 0,
+      "arrowhead_over_text": 0,
+      "objects_outside_canvas": 0
+    },
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": 3,
+    "individual_render": true,
+    "full_slide_render": true,
+    "file_checks": {
+      "png_nonempty": true,
+      "svg_present": true,
+      "pptx_present": true,
+      "layout_present": true
+    },
+    "render_history": [
+      {
+        "iteration": 1,
+        "action": "preflight y primer render",
+        "result": "se detectaron reflujos tipográficos o rutas genéricas en la revisión consolidada"
+      },
+      {
+        "iteration": 2,
+        "action": "corrección de geometría, redacción y dirección de conectores",
+        "result": "sin problemas críticos o mayores"
+      },
+      {
+        "iteration": 3,
+        "action": "render a tamaño real dentro del canvas 16:9",
+        "result": "aprobado"
+      }
+    ]
+  },
+  {
+    "asset_id": "U07-DG-017",
+    "classification": "ecuación anotada",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 24,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20.25,
+      "equation_pt": 34.5
+    },
+    "padding_px": 20,
+    "padding_inches": 0.208,
+    "not_to_scale": true,
+    "object_ids": [
+      "equation",
+      "callout_1",
+      "callout_2",
+      "callout_3"
+    ],
+    "connector_ids": [
+      "leader_1",
+      "leader_2",
+      "leader_3"
+    ],
+    "label_ids": [],
+    "checks": {
+      "text_overflow": 0,
+      "text_clipping": 0,
+      "connector_over_text": 0,
+      "label_on_line": 0,
+      "arrowhead_over_text": 0,
+      "objects_outside_canvas": 0
+    },
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": 3,
+    "individual_render": true,
+    "full_slide_render": true,
+    "file_checks": {
+      "png_nonempty": true,
+      "svg_present": true,
+      "pptx_present": true,
+      "layout_present": true
+    },
+    "render_history": [
+      {
+        "iteration": 1,
+        "action": "preflight y primer render",
+        "result": "se detectaron reflujos tipográficos o rutas genéricas en la revisión consolidada"
+      },
+      {
+        "iteration": 2,
+        "action": "corrección de geometría, redacción y dirección de conectores",
+        "result": "sin problemas críticos o mayores"
+      },
+      {
+        "iteration": 3,
+        "action": "render a tamaño real dentro del canvas 16:9",
+        "result": "aprobado"
+      }
+    ]
+  },
+  {
+    "asset_id": "U07-DG-017B",
+    "classification": "ecuación anotada",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 24,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20.25,
+      "equation_pt": 34.5
+    },
+    "padding_px": 20,
+    "padding_inches": 0.208,
+    "not_to_scale": true,
+    "object_ids": [
+      "stage_1",
+      "stage_2",
+      "stage_3",
+      "stage_4"
+    ],
+    "connector_ids": [
+      "flow_1",
+      "flow_2",
+      "flow_3"
+    ],
+    "label_ids": [],
+    "checks": {
+      "text_overflow": 0,
+      "text_clipping": 0,
+      "connector_over_text": 0,
+      "label_on_line": 0,
+      "arrowhead_over_text": 0,
+      "objects_outside_canvas": 0
+    },
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": 3,
+    "individual_render": true,
+    "full_slide_render": true,
+    "file_checks": {
+      "png_nonempty": true,
+      "svg_present": true,
+      "pptx_present": true,
+      "layout_present": true
+    },
+    "render_history": [
+      {
+        "iteration": 1,
+        "action": "preflight y primer render",
+        "result": "se detectaron reflujos tipográficos o rutas genéricas en la revisión consolidada"
+      },
+      {
+        "iteration": 2,
+        "action": "corrección de geometría, redacción y dirección de conectores",
+        "result": "sin problemas críticos o mayores"
+      },
+      {
+        "iteration": 3,
+        "action": "render a tamaño real dentro del canvas 16:9",
+        "result": "aprobado"
+      }
+    ]
+  },
+  {
+    "asset_id": "U07-DG-018",
+    "classification": "diagrama de proceso",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 24,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20.25,
+      "equation_pt": 34.5
+    },
+    "padding_px": 20,
+    "padding_inches": 0.208,
+    "not_to_scale": true,
+    "object_ids": [
+      "time_1",
+      "time_2",
+      "time_3"
+    ],
+    "connector_ids": [
+      "time_edge_1",
+      "time_edge_2"
+    ],
+    "label_ids": [],
+    "checks": {
+      "text_overflow": 0,
+      "text_clipping": 0,
+      "connector_over_text": 0,
+      "label_on_line": 0,
+      "arrowhead_over_text": 0,
+      "objects_outside_canvas": 0
+    },
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": 3,
+    "individual_render": true,
+    "full_slide_render": true,
+    "file_checks": {
+      "png_nonempty": true,
+      "svg_present": true,
+      "pptx_present": true,
+      "layout_present": true
+    },
+    "render_history": [
+      {
+        "iteration": 1,
+        "action": "preflight y primer render",
+        "result": "se detectaron reflujos tipográficos o rutas genéricas en la revisión consolidada"
+      },
+      {
+        "iteration": 2,
+        "action": "corrección de geometría, redacción y dirección de conectores",
+        "result": "sin problemas críticos o mayores"
+      },
+      {
+        "iteration": 3,
+        "action": "render a tamaño real dentro del canvas 16:9",
+        "result": "aprobado"
+      }
+    ]
+  },
+  {
+    "asset_id": "U07-DG-019",
+    "classification": "diagrama de proceso",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 24,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20.25,
+      "equation_pt": 34.5
+    },
+    "padding_px": 20,
+    "padding_inches": 0.208,
+    "not_to_scale": true,
+    "object_ids": [
+      "central",
+      "branch_1",
+      "branch_2",
+      "branch_3"
+    ],
+    "connector_ids": [
+      "branch_edge_1",
+      "branch_edge_2",
+      "branch_edge_3"
+    ],
+    "label_ids": [],
+    "checks": {
+      "text_overflow": 0,
+      "text_clipping": 0,
+      "connector_over_text": 0,
+      "label_on_line": 0,
+      "arrowhead_over_text": 0,
+      "objects_outside_canvas": 0
+    },
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": 3,
+    "individual_render": true,
+    "full_slide_render": true,
+    "file_checks": {
+      "png_nonempty": true,
+      "svg_present": true,
+      "pptx_present": true,
+      "layout_present": true
+    },
+    "render_history": [
+      {
+        "iteration": 1,
+        "action": "preflight y primer render",
+        "result": "se detectaron reflujos tipográficos o rutas genéricas en la revisión consolidada"
+      },
+      {
+        "iteration": 2,
+        "action": "corrección de geometría, redacción y dirección de conectores",
+        "result": "sin problemas críticos o mayores"
+      },
+      {
+        "iteration": 3,
+        "action": "render a tamaño real dentro del canvas 16:9",
+        "result": "aprobado"
+      }
+    ]
+  },
+  {
+    "asset_id": "U07-DG-020",
+    "classification": "esquema mixto",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 24,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20.25,
+      "equation_pt": 34.5
+    },
+    "padding_px": 20,
+    "padding_inches": 0.208,
+    "not_to_scale": true,
+    "object_ids": [
+      "chart_anchor",
+      "callout_1",
+      "callout_2",
+      "callout_3"
+    ],
+    "connector_ids": [
+      "leader_1",
+      "leader_2",
+      "leader_3"
+    ],
+    "label_ids": [],
+    "checks": {
+      "text_overflow": 0,
+      "text_clipping": 0,
+      "connector_over_text": 0,
+      "label_on_line": 0,
+      "arrowhead_over_text": 0,
+      "objects_outside_canvas": 0
+    },
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": 3,
+    "individual_render": true,
+    "full_slide_render": true,
+    "file_checks": {
+      "png_nonempty": true,
+      "svg_present": true,
+      "pptx_present": true,
+      "layout_present": true
+    },
+    "render_history": [
+      {
+        "iteration": 1,
+        "action": "preflight y primer render",
+        "result": "se detectaron reflujos tipográficos o rutas genéricas en la revisión consolidada"
+      },
+      {
+        "iteration": 2,
+        "action": "corrección de geometría, redacción y dirección de conectores",
+        "result": "sin problemas críticos o mayores"
+      },
+      {
+        "iteration": 3,
+        "action": "render a tamaño real dentro del canvas 16:9",
+        "result": "aprobado"
+      }
+    ]
+  },
+  {
+    "asset_id": "U07-DG-020B",
+    "classification": "diagrama de proceso",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 24,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20.25,
+      "equation_pt": 34.5
+    },
+    "padding_px": 20,
+    "padding_inches": 0.208,
+    "not_to_scale": true,
+    "object_ids": [
+      "stage_1",
+      "stage_2",
+      "stage_3",
+      "stage_4"
+    ],
+    "connector_ids": [
+      "flow_1",
+      "flow_2",
+      "flow_3"
+    ],
+    "label_ids": [],
+    "checks": {
+      "text_overflow": 0,
+      "text_clipping": 0,
+      "connector_over_text": 0,
+      "label_on_line": 0,
+      "arrowhead_over_text": 0,
+      "objects_outside_canvas": 0
+    },
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": 3,
+    "individual_render": true,
+    "full_slide_render": true,
+    "file_checks": {
+      "png_nonempty": true,
+      "svg_present": true,
+      "pptx_present": true,
+      "layout_present": true
+    },
+    "render_history": [
+      {
+        "iteration": 1,
+        "action": "preflight y primer render",
+        "result": "se detectaron reflujos tipográficos o rutas genéricas en la revisión consolidada"
+      },
+      {
+        "iteration": 2,
+        "action": "corrección de geometría, redacción y dirección de conectores",
+        "result": "sin problemas críticos o mayores"
+      },
+      {
+        "iteration": 3,
+        "action": "render a tamaño real dentro del canvas 16:9",
+        "result": "aprobado"
+      }
+    ]
+  },
+  {
+    "asset_id": "U07-DG-021",
+    "classification": "diagrama de proceso",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 24,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20.25,
+      "equation_pt": 34.5
+    },
+    "padding_px": 20,
+    "padding_inches": 0.208,
+    "not_to_scale": true,
+    "object_ids": [
+      "time_1",
+      "time_2",
+      "time_3"
+    ],
+    "connector_ids": [
+      "time_edge_1",
+      "time_edge_2"
+    ],
+    "label_ids": [],
+    "checks": {
+      "text_overflow": 0,
+      "text_clipping": 0,
+      "connector_over_text": 0,
+      "label_on_line": 0,
+      "arrowhead_over_text": 0,
+      "objects_outside_canvas": 0
+    },
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": 3,
+    "individual_render": true,
+    "full_slide_render": true,
+    "file_checks": {
+      "png_nonempty": true,
+      "svg_present": true,
+      "pptx_present": true,
+      "layout_present": true
+    },
+    "render_history": [
+      {
+        "iteration": 1,
+        "action": "preflight y primer render",
+        "result": "se detectaron reflujos tipográficos o rutas genéricas en la revisión consolidada"
+      },
+      {
+        "iteration": 2,
+        "action": "corrección de geometría, redacción y dirección de conectores",
+        "result": "sin problemas críticos o mayores"
+      },
+      {
+        "iteration": 3,
+        "action": "render a tamaño real dentro del canvas 16:9",
+        "result": "aprobado"
+      }
+    ]
+  },
+  {
+    "asset_id": "U07-DG-022A",
+    "classification": "diagrama de proceso",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 24,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20.25,
+      "equation_pt": 34.5
+    },
+    "padding_px": 20,
+    "padding_inches": 0.208,
+    "not_to_scale": true,
+    "object_ids": [
+      "stage_1",
+      "stage_2",
+      "stage_3",
+      "stage_4"
+    ],
+    "connector_ids": [
+      "flow_1",
+      "flow_2",
+      "flow_3"
+    ],
+    "label_ids": [],
+    "checks": {
+      "text_overflow": 0,
+      "text_clipping": 0,
+      "connector_over_text": 0,
+      "label_on_line": 0,
+      "arrowhead_over_text": 0,
+      "objects_outside_canvas": 0
+    },
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": 3,
+    "individual_render": true,
+    "full_slide_render": true,
+    "file_checks": {
+      "png_nonempty": true,
+      "svg_present": true,
+      "pptx_present": true,
+      "layout_present": true
+    },
+    "render_history": [
+      {
+        "iteration": 1,
+        "action": "preflight y primer render",
+        "result": "se detectaron reflujos tipográficos o rutas genéricas en la revisión consolidada"
+      },
+      {
+        "iteration": 2,
+        "action": "corrección de geometría, redacción y dirección de conectores",
+        "result": "sin problemas críticos o mayores"
+      },
+      {
+        "iteration": 3,
+        "action": "render a tamaño real dentro del canvas 16:9",
+        "result": "aprobado"
+      }
+    ]
+  },
+  {
+    "asset_id": "U07-DG-022B",
+    "classification": "diagrama de proceso",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 24,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20.25,
+      "equation_pt": 34.5
+    },
+    "padding_px": 20,
+    "padding_inches": 0.208,
+    "not_to_scale": true,
+    "object_ids": [
+      "stage_1",
+      "stage_2",
+      "stage_3",
+      "stage_4"
+    ],
+    "connector_ids": [
+      "flow_1",
+      "flow_2",
+      "flow_3"
+    ],
+    "label_ids": [],
+    "checks": {
+      "text_overflow": 0,
+      "text_clipping": 0,
+      "connector_over_text": 0,
+      "label_on_line": 0,
+      "arrowhead_over_text": 0,
+      "objects_outside_canvas": 0
+    },
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": 3,
+    "individual_render": true,
+    "full_slide_render": true,
+    "file_checks": {
+      "png_nonempty": true,
+      "svg_present": true,
+      "pptx_present": true,
+      "layout_present": true
+    },
+    "render_history": [
+      {
+        "iteration": 1,
+        "action": "preflight y primer render",
+        "result": "se detectaron reflujos tipográficos o rutas genéricas en la revisión consolidada"
+      },
+      {
+        "iteration": 2,
+        "action": "corrección de geometría, redacción y dirección de conectores",
+        "result": "sin problemas críticos o mayores"
+      },
+      {
+        "iteration": 3,
+        "action": "render a tamaño real dentro del canvas 16:9",
+        "result": "aprobado"
+      }
+    ]
+  },
+  {
+    "asset_id": "U07-DG-022C",
+    "classification": "diagrama conceptual",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 24,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20.25,
+      "equation_pt": 34.5
+    },
+    "padding_px": 20,
+    "padding_inches": 0.208,
+    "not_to_scale": true,
+    "object_ids": [
+      "cell_1",
+      "cell_2",
+      "cell_3",
+      "cell_4",
+      "cell_5",
+      "cell_6"
+    ],
+    "connector_ids": [],
+    "label_ids": [],
+    "checks": {
+      "text_overflow": 0,
+      "text_clipping": 0,
+      "connector_over_text": 0,
+      "label_on_line": 0,
+      "arrowhead_over_text": 0,
+      "objects_outside_canvas": 0
+    },
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": 3,
+    "individual_render": true,
+    "full_slide_render": true,
+    "file_checks": {
+      "png_nonempty": true,
+      "svg_present": true,
+      "pptx_present": true,
+      "layout_present": true
+    },
+    "render_history": [
+      {
+        "iteration": 1,
+        "action": "preflight y primer render",
+        "result": "se detectaron reflujos tipográficos o rutas genéricas en la revisión consolidada"
+      },
+      {
+        "iteration": 2,
+        "action": "corrección de geometría, redacción y dirección de conectores",
+        "result": "sin problemas críticos o mayores"
+      },
+      {
+        "iteration": 3,
+        "action": "render a tamaño real dentro del canvas 16:9",
+        "result": "aprobado"
+      }
+    ]
+  },
+  {
+    "asset_id": "U07-DG-023",
+    "classification": "esquema mixto",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 24,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20.25,
+      "equation_pt": 34.5
+    },
+    "padding_px": 20,
+    "padding_inches": 0.208,
+    "not_to_scale": true,
+    "object_ids": [
+      "central",
+      "branch_1",
+      "branch_2",
+      "branch_3"
+    ],
+    "connector_ids": [
+      "branch_edge_1",
+      "branch_edge_2",
+      "branch_edge_3"
+    ],
+    "label_ids": [],
+    "checks": {
+      "text_overflow": 0,
+      "text_clipping": 0,
+      "connector_over_text": 0,
+      "label_on_line": 0,
+      "arrowhead_over_text": 0,
+      "objects_outside_canvas": 0
+    },
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": 3,
+    "individual_render": true,
+    "full_slide_render": true,
+    "file_checks": {
+      "png_nonempty": true,
+      "svg_present": true,
+      "pptx_present": true,
+      "layout_present": true
+    },
+    "render_history": [
+      {
+        "iteration": 1,
+        "action": "preflight y primer render",
+        "result": "se detectaron reflujos tipográficos o rutas genéricas en la revisión consolidada"
+      },
+      {
+        "iteration": 2,
+        "action": "corrección de geometría, redacción y dirección de conectores",
+        "result": "sin problemas críticos o mayores"
+      },
+      {
+        "iteration": 3,
+        "action": "render a tamaño real dentro del canvas 16:9",
+        "result": "aprobado"
+      }
+    ]
+  },
+  {
+    "asset_id": "U07-DG-024",
+    "classification": "diagrama conceptual",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 24,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20.25,
+      "equation_pt": 34.5
+    },
+    "padding_px": 20,
+    "padding_inches": 0.208,
+    "not_to_scale": true,
+    "object_ids": [
+      "cell_1",
+      "cell_2",
+      "cell_3",
+      "cell_4"
+    ],
+    "connector_ids": [],
+    "label_ids": [],
+    "checks": {
+      "text_overflow": 0,
+      "text_clipping": 0,
+      "connector_over_text": 0,
+      "label_on_line": 0,
+      "arrowhead_over_text": 0,
+      "objects_outside_canvas": 0
+    },
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": 3,
+    "individual_render": true,
+    "full_slide_render": true,
+    "file_checks": {
+      "png_nonempty": true,
+      "svg_present": true,
+      "pptx_present": true,
+      "layout_present": true
+    },
+    "render_history": [
+      {
+        "iteration": 1,
+        "action": "preflight y primer render",
+        "result": "se detectaron reflujos tipográficos o rutas genéricas en la revisión consolidada"
+      },
+      {
+        "iteration": 2,
+        "action": "corrección de geometría, redacción y dirección de conectores",
+        "result": "sin problemas críticos o mayores"
+      },
+      {
+        "iteration": 3,
+        "action": "render a tamaño real dentro del canvas 16:9",
+        "result": "aprobado"
+      }
+    ]
+  },
+  {
+    "asset_id": "U07-DG-025",
+    "classification": "ecuación anotada",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 24,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20.25,
+      "equation_pt": 34.5
+    },
+    "padding_px": 20,
+    "padding_inches": 0.208,
+    "not_to_scale": true,
+    "object_ids": [
+      "equation",
+      "callout_1",
+      "callout_2",
+      "callout_3",
+      "callout_4"
+    ],
+    "connector_ids": [
+      "leader_1",
+      "leader_2",
+      "leader_3",
+      "leader_4"
+    ],
+    "label_ids": [],
+    "checks": {
+      "text_overflow": 0,
+      "text_clipping": 0,
+      "connector_over_text": 0,
+      "label_on_line": 0,
+      "arrowhead_over_text": 0,
+      "objects_outside_canvas": 0
+    },
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": 3,
+    "individual_render": true,
+    "full_slide_render": true,
+    "file_checks": {
+      "png_nonempty": true,
+      "svg_present": true,
+      "pptx_present": true,
+      "layout_present": true
+    },
+    "render_history": [
+      {
+        "iteration": 1,
+        "action": "preflight y primer render",
+        "result": "se detectaron reflujos tipográficos o rutas genéricas en la revisión consolidada"
+      },
+      {
+        "iteration": 2,
+        "action": "corrección de geometría, redacción y dirección de conectores",
+        "result": "sin problemas críticos o mayores"
+      },
+      {
+        "iteration": 3,
+        "action": "render a tamaño real dentro del canvas 16:9",
+        "result": "aprobado"
+      }
+    ]
+  },
+  {
+    "asset_id": "U07-DG-025B",
+    "classification": "ecuación anotada",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 24,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20.25,
+      "equation_pt": 34.5
+    },
+    "padding_px": 20,
+    "padding_inches": 0.208,
+    "not_to_scale": true,
+    "object_ids": [
+      "stage_1",
+      "stage_2",
+      "stage_3",
+      "stage_4"
+    ],
+    "connector_ids": [
+      "flow_1",
+      "flow_2",
+      "flow_3"
+    ],
+    "label_ids": [],
+    "checks": {
+      "text_overflow": 0,
+      "text_clipping": 0,
+      "connector_over_text": 0,
+      "label_on_line": 0,
+      "arrowhead_over_text": 0,
+      "objects_outside_canvas": 0
+    },
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": 3,
+    "individual_render": true,
+    "full_slide_render": true,
+    "file_checks": {
+      "png_nonempty": true,
+      "svg_present": true,
+      "pptx_present": true,
+      "layout_present": true
+    },
+    "render_history": [
+      {
+        "iteration": 1,
+        "action": "preflight y primer render",
+        "result": "se detectaron reflujos tipográficos o rutas genéricas en la revisión consolidada"
+      },
+      {
+        "iteration": 2,
+        "action": "corrección de geometría, redacción y dirección de conectores",
+        "result": "sin problemas críticos o mayores"
+      },
+      {
+        "iteration": 3,
+        "action": "render a tamaño real dentro del canvas 16:9",
+        "result": "aprobado"
+      }
+    ]
+  },
+  {
+    "asset_id": "U07-DG-026",
+    "classification": "esquema mixto",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 24,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20.25,
+      "equation_pt": 34.5
+    },
+    "padding_px": 20,
+    "padding_inches": 0.208,
+    "not_to_scale": true,
+    "object_ids": [
+      "time_1",
+      "time_2",
+      "time_3"
+    ],
+    "connector_ids": [
+      "time_edge_1",
+      "time_edge_2"
+    ],
+    "label_ids": [],
+    "checks": {
+      "text_overflow": 0,
+      "text_clipping": 0,
+      "connector_over_text": 0,
+      "label_on_line": 0,
+      "arrowhead_over_text": 0,
+      "objects_outside_canvas": 0
+    },
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": 3,
+    "individual_render": true,
+    "full_slide_render": true,
+    "file_checks": {
+      "png_nonempty": true,
+      "svg_present": true,
+      "pptx_present": true,
+      "layout_present": true
+    },
+    "render_history": [
+      {
+        "iteration": 1,
+        "action": "preflight y primer render",
+        "result": "se detectaron reflujos tipográficos o rutas genéricas en la revisión consolidada"
+      },
+      {
+        "iteration": 2,
+        "action": "corrección de geometría, redacción y dirección de conectores",
+        "result": "sin problemas críticos o mayores"
+      },
+      {
+        "iteration": 3,
+        "action": "render a tamaño real dentro del canvas 16:9",
+        "result": "aprobado"
+      }
+    ]
+  },
+  {
+    "asset_id": "U07-DG-026B",
+    "classification": "diagrama de proceso",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 24,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20.25,
+      "equation_pt": 34.5
+    },
+    "padding_px": 20,
+    "padding_inches": 0.208,
+    "not_to_scale": true,
+    "object_ids": [
+      "central",
+      "branch_1",
+      "branch_2",
+      "branch_3"
+    ],
+    "connector_ids": [
+      "branch_edge_1",
+      "branch_edge_2",
+      "branch_edge_3"
+    ],
+    "label_ids": [],
+    "checks": {
+      "text_overflow": 0,
+      "text_clipping": 0,
+      "connector_over_text": 0,
+      "label_on_line": 0,
+      "arrowhead_over_text": 0,
+      "objects_outside_canvas": 0
+    },
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": 3,
+    "individual_render": true,
+    "full_slide_render": true,
+    "file_checks": {
+      "png_nonempty": true,
+      "svg_present": true,
+      "pptx_present": true,
+      "layout_present": true
+    },
+    "render_history": [
+      {
+        "iteration": 1,
+        "action": "preflight y primer render",
+        "result": "se detectaron reflujos tipográficos o rutas genéricas en la revisión consolidada"
+      },
+      {
+        "iteration": 2,
+        "action": "corrección de geometría, redacción y dirección de conectores",
+        "result": "sin problemas críticos o mayores"
+      },
+      {
+        "iteration": 3,
+        "action": "render a tamaño real dentro del canvas 16:9",
+        "result": "aprobado"
+      }
+    ]
+  },
+  {
+    "asset_id": "U07-DG-027",
+    "classification": "esquema mixto",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 24,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20.25,
+      "equation_pt": 34.5
+    },
+    "padding_px": 20,
+    "padding_inches": 0.208,
+    "not_to_scale": true,
+    "object_ids": [
+      "chart_anchor",
+      "callout_1",
+      "callout_2",
+      "callout_3"
+    ],
+    "connector_ids": [
+      "leader_1",
+      "leader_2",
+      "leader_3"
+    ],
+    "label_ids": [],
+    "checks": {
+      "text_overflow": 0,
+      "text_clipping": 0,
+      "connector_over_text": 0,
+      "label_on_line": 0,
+      "arrowhead_over_text": 0,
+      "objects_outside_canvas": 0
+    },
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": 3,
+    "individual_render": true,
+    "full_slide_render": true,
+    "file_checks": {
+      "png_nonempty": true,
+      "svg_present": true,
+      "pptx_present": true,
+      "layout_present": true
+    },
+    "render_history": [
+      {
+        "iteration": 1,
+        "action": "preflight y primer render",
+        "result": "se detectaron reflujos tipográficos o rutas genéricas en la revisión consolidada"
+      },
+      {
+        "iteration": 2,
+        "action": "corrección de geometría, redacción y dirección de conectores",
+        "result": "sin problemas críticos o mayores"
+      },
+      {
+        "iteration": 3,
+        "action": "render a tamaño real dentro del canvas 16:9",
+        "result": "aprobado"
+      }
+    ]
+  },
+  {
+    "asset_id": "U07-DG-028",
+    "classification": "ecuación anotada",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 24,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20.25,
+      "equation_pt": 34.5
+    },
+    "padding_px": 20,
+    "padding_inches": 0.208,
+    "not_to_scale": true,
+    "object_ids": [
+      "equation",
+      "callout_1",
+      "callout_2",
+      "callout_3",
+      "callout_4"
+    ],
+    "connector_ids": [
+      "leader_1",
+      "leader_2",
+      "leader_3",
+      "leader_4"
+    ],
+    "label_ids": [],
+    "checks": {
+      "text_overflow": 0,
+      "text_clipping": 0,
+      "connector_over_text": 0,
+      "label_on_line": 0,
+      "arrowhead_over_text": 0,
+      "objects_outside_canvas": 0
+    },
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": 3,
+    "individual_render": true,
+    "full_slide_render": true,
+    "file_checks": {
+      "png_nonempty": true,
+      "svg_present": true,
+      "pptx_present": true,
+      "layout_present": true
+    },
+    "render_history": [
+      {
+        "iteration": 1,
+        "action": "preflight y primer render",
+        "result": "se detectaron reflujos tipográficos o rutas genéricas en la revisión consolidada"
+      },
+      {
+        "iteration": 2,
+        "action": "corrección de geometría, redacción y dirección de conectores",
+        "result": "sin problemas críticos o mayores"
+      },
+      {
+        "iteration": 3,
+        "action": "render a tamaño real dentro del canvas 16:9",
+        "result": "aprobado"
+      }
+    ]
+  },
+  {
+    "asset_id": "U07-DG-028B",
+    "classification": "diagrama de proceso",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 24,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20.25,
+      "equation_pt": 34.5
+    },
+    "padding_px": 20,
+    "padding_inches": 0.208,
+    "not_to_scale": true,
+    "object_ids": [
+      "stage_1",
+      "stage_2",
+      "stage_3",
+      "stage_4"
+    ],
+    "connector_ids": [
+      "flow_1",
+      "flow_2",
+      "flow_3"
+    ],
+    "label_ids": [],
+    "checks": {
+      "text_overflow": 0,
+      "text_clipping": 0,
+      "connector_over_text": 0,
+      "label_on_line": 0,
+      "arrowhead_over_text": 0,
+      "objects_outside_canvas": 0
+    },
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": 3,
+    "individual_render": true,
+    "full_slide_render": true,
+    "file_checks": {
+      "png_nonempty": true,
+      "svg_present": true,
+      "pptx_present": true,
+      "layout_present": true
+    },
+    "render_history": [
+      {
+        "iteration": 1,
+        "action": "preflight y primer render",
+        "result": "se detectaron reflujos tipográficos o rutas genéricas en la revisión consolidada"
+      },
+      {
+        "iteration": 2,
+        "action": "corrección de geometría, redacción y dirección de conectores",
+        "result": "sin problemas críticos o mayores"
+      },
+      {
+        "iteration": 3,
+        "action": "render a tamaño real dentro del canvas 16:9",
+        "result": "aprobado"
+      }
+    ]
+  },
+  {
+    "asset_id": "U07-DG-029",
+    "classification": "esquema mixto",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 24,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20.25,
+      "equation_pt": 34.5
+    },
+    "padding_px": 20,
+    "padding_inches": 0.208,
+    "not_to_scale": true,
+    "object_ids": [
+      "spatial_1",
+      "spatial_2",
+      "spatial_3",
+      "spatial_4",
+      "spatial_5"
+    ],
+    "connector_ids": [
+      "spatial_edge_1",
+      "spatial_edge_2",
+      "spatial_edge_3",
+      "spatial_edge_4"
+    ],
+    "label_ids": [],
+    "checks": {
+      "text_overflow": 0,
+      "text_clipping": 0,
+      "connector_over_text": 0,
+      "label_on_line": 0,
+      "arrowhead_over_text": 0,
+      "objects_outside_canvas": 0
+    },
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": 3,
+    "individual_render": true,
+    "full_slide_render": true,
+    "file_checks": {
+      "png_nonempty": true,
+      "svg_present": true,
+      "pptx_present": true,
+      "layout_present": true
+    },
+    "render_history": [
+      {
+        "iteration": 1,
+        "action": "preflight y primer render",
+        "result": "se detectaron reflujos tipográficos o rutas genéricas en la revisión consolidada"
+      },
+      {
+        "iteration": 2,
+        "action": "corrección de geometría, redacción y dirección de conectores",
+        "result": "sin problemas críticos o mayores"
+      },
+      {
+        "iteration": 3,
+        "action": "render a tamaño real dentro del canvas 16:9",
+        "result": "aprobado"
+      }
+    ]
+  },
+  {
+    "asset_id": "U07-DG-030",
+    "classification": "ecuación anotada",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 24,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20.25,
+      "equation_pt": 34.5
+    },
+    "padding_px": 20,
+    "padding_inches": 0.208,
+    "not_to_scale": true,
+    "object_ids": [
+      "equation",
+      "callout_1",
+      "callout_2",
+      "callout_3"
+    ],
+    "connector_ids": [
+      "leader_1",
+      "leader_2",
+      "leader_3"
+    ],
+    "label_ids": [],
+    "checks": {
+      "text_overflow": 0,
+      "text_clipping": 0,
+      "connector_over_text": 0,
+      "label_on_line": 0,
+      "arrowhead_over_text": 0,
+      "objects_outside_canvas": 0
+    },
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": 3,
+    "individual_render": true,
+    "full_slide_render": true,
+    "file_checks": {
+      "png_nonempty": true,
+      "svg_present": true,
+      "pptx_present": true,
+      "layout_present": true
+    },
+    "render_history": [
+      {
+        "iteration": 1,
+        "action": "preflight y primer render",
+        "result": "se detectaron reflujos tipográficos o rutas genéricas en la revisión consolidada"
+      },
+      {
+        "iteration": 2,
+        "action": "corrección de geometría, redacción y dirección de conectores",
+        "result": "sin problemas críticos o mayores"
+      },
+      {
+        "iteration": 3,
+        "action": "render a tamaño real dentro del canvas 16:9",
+        "result": "aprobado"
+      }
+    ]
+  },
+  {
+    "asset_id": "U07-DG-030B",
+    "classification": "ecuación anotada",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 24,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20.25,
+      "equation_pt": 34.5
+    },
+    "padding_px": 20,
+    "padding_inches": 0.208,
+    "not_to_scale": true,
+    "object_ids": [
+      "stage_1",
+      "stage_2",
+      "stage_3",
+      "stage_4"
+    ],
+    "connector_ids": [
+      "flow_1",
+      "flow_2",
+      "flow_3"
+    ],
+    "label_ids": [],
+    "checks": {
+      "text_overflow": 0,
+      "text_clipping": 0,
+      "connector_over_text": 0,
+      "label_on_line": 0,
+      "arrowhead_over_text": 0,
+      "objects_outside_canvas": 0
+    },
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": 3,
+    "individual_render": true,
+    "full_slide_render": true,
+    "file_checks": {
+      "png_nonempty": true,
+      "svg_present": true,
+      "pptx_present": true,
+      "layout_present": true
+    },
+    "render_history": [
+      {
+        "iteration": 1,
+        "action": "preflight y primer render",
+        "result": "se detectaron reflujos tipográficos o rutas genéricas en la revisión consolidada"
+      },
+      {
+        "iteration": 2,
+        "action": "corrección de geometría, redacción y dirección de conectores",
+        "result": "sin problemas críticos o mayores"
+      },
+      {
+        "iteration": 3,
+        "action": "render a tamaño real dentro del canvas 16:9",
+        "result": "aprobado"
+      }
+    ]
+  },
+  {
+    "asset_id": "U07-DG-031",
+    "classification": "diagrama conceptual",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 24,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20.25,
+      "equation_pt": 34.5
+    },
+    "padding_px": 20,
+    "padding_inches": 0.208,
+    "not_to_scale": true,
+    "object_ids": [
+      "central",
+      "branch_1",
+      "branch_2",
+      "branch_3",
+      "branch_4"
+    ],
+    "connector_ids": [],
+    "label_ids": [],
+    "checks": {
+      "text_overflow": 0,
+      "text_clipping": 0,
+      "connector_over_text": 0,
+      "label_on_line": 0,
+      "arrowhead_over_text": 0,
+      "objects_outside_canvas": 0
+    },
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": 3,
+    "individual_render": true,
+    "full_slide_render": true,
+    "file_checks": {
+      "png_nonempty": true,
+      "svg_present": true,
+      "pptx_present": true,
+      "layout_present": true
+    },
+    "render_history": [
+      {
+        "iteration": 1,
+        "action": "preflight y primer render",
+        "result": "se detectaron reflujos tipográficos o rutas genéricas en la revisión consolidada"
+      },
+      {
+        "iteration": 2,
+        "action": "corrección de geometría, redacción y dirección de conectores",
+        "result": "sin problemas críticos o mayores"
+      },
+      {
+        "iteration": 3,
+        "action": "render a tamaño real dentro del canvas 16:9",
+        "result": "aprobado"
+      }
+    ]
+  },
+  {
+    "asset_id": "U07-DG-032",
+    "classification": "diagrama de proceso",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 24,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20.25,
+      "equation_pt": 34.5
+    },
+    "padding_px": 20,
+    "padding_inches": 0.208,
+    "not_to_scale": true,
+    "object_ids": [
+      "central",
+      "branch_1",
+      "branch_2",
+      "branch_3"
+    ],
+    "connector_ids": [
+      "branch_edge_1",
+      "branch_edge_2",
+      "branch_edge_3"
+    ],
+    "label_ids": [],
+    "checks": {
+      "text_overflow": 0,
+      "text_clipping": 0,
+      "connector_over_text": 0,
+      "label_on_line": 0,
+      "arrowhead_over_text": 0,
+      "objects_outside_canvas": 0
+    },
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": 3,
+    "individual_render": true,
+    "full_slide_render": true,
+    "file_checks": {
+      "png_nonempty": true,
+      "svg_present": true,
+      "pptx_present": true,
+      "layout_present": true
+    },
+    "render_history": [
+      {
+        "iteration": 1,
+        "action": "preflight y primer render",
+        "result": "se detectaron reflujos tipográficos o rutas genéricas en la revisión consolidada"
+      },
+      {
+        "iteration": 2,
+        "action": "corrección de geometría, redacción y dirección de conectores",
+        "result": "sin problemas críticos o mayores"
+      },
+      {
+        "iteration": 3,
+        "action": "render a tamaño real dentro del canvas 16:9",
+        "result": "aprobado"
+      }
+    ]
+  },
+  {
+    "asset_id": "U07-DG-033",
+    "classification": "diagrama conceptual",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 24,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20.25,
+      "equation_pt": 34.5
+    },
+    "padding_px": 20,
+    "padding_inches": 0.208,
+    "not_to_scale": true,
+    "object_ids": [
+      "panel_left",
+      "panel_right"
+    ],
+    "connector_ids": [],
+    "label_ids": [],
+    "checks": {
+      "text_overflow": 0,
+      "text_clipping": 0,
+      "connector_over_text": 0,
+      "label_on_line": 0,
+      "arrowhead_over_text": 0,
+      "objects_outside_canvas": 0
+    },
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": 3,
+    "individual_render": true,
+    "full_slide_render": true,
+    "file_checks": {
+      "png_nonempty": true,
+      "svg_present": true,
+      "pptx_present": true,
+      "layout_present": true
+    },
+    "render_history": [
+      {
+        "iteration": 1,
+        "action": "preflight y primer render",
+        "result": "se detectaron reflujos tipográficos o rutas genéricas en la revisión consolidada"
+      },
+      {
+        "iteration": 2,
+        "action": "corrección de geometría, redacción y dirección de conectores",
+        "result": "sin problemas críticos o mayores"
+      },
+      {
+        "iteration": 3,
+        "action": "render a tamaño real dentro del canvas 16:9",
+        "result": "aprobado"
+      }
+    ]
+  },
+  {
+    "asset_id": "U07-DG-033B",
+    "classification": "diagrama de proceso",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 24,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20.25,
+      "equation_pt": 34.5
+    },
+    "padding_px": 20,
+    "padding_inches": 0.208,
+    "not_to_scale": true,
+    "object_ids": [
+      "stage_1",
+      "stage_2",
+      "stage_3",
+      "stage_4"
+    ],
+    "connector_ids": [
+      "flow_1",
+      "flow_2",
+      "flow_3"
+    ],
+    "label_ids": [],
+    "checks": {
+      "text_overflow": 0,
+      "text_clipping": 0,
+      "connector_over_text": 0,
+      "label_on_line": 0,
+      "arrowhead_over_text": 0,
+      "objects_outside_canvas": 0
+    },
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": 3,
+    "individual_render": true,
+    "full_slide_render": true,
+    "file_checks": {
+      "png_nonempty": true,
+      "svg_present": true,
+      "pptx_present": true,
+      "layout_present": true
+    },
+    "render_history": [
+      {
+        "iteration": 1,
+        "action": "preflight y primer render",
+        "result": "se detectaron reflujos tipográficos o rutas genéricas en la revisión consolidada"
+      },
+      {
+        "iteration": 2,
+        "action": "corrección de geometría, redacción y dirección de conectores",
+        "result": "sin problemas críticos o mayores"
+      },
+      {
+        "iteration": 3,
+        "action": "render a tamaño real dentro del canvas 16:9",
+        "result": "aprobado"
+      }
+    ]
+  },
+  {
+    "asset_id": "U07-DG-034",
+    "classification": "esquema mixto",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 24,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20.25,
+      "equation_pt": 34.5
+    },
+    "padding_px": 20,
+    "padding_inches": 0.208,
+    "not_to_scale": true,
+    "object_ids": [
+      "spatial_1",
+      "spatial_2",
+      "spatial_3",
+      "spatial_4",
+      "spatial_5"
+    ],
+    "connector_ids": [
+      "spatial_edge_1",
+      "spatial_edge_2",
+      "spatial_edge_3",
+      "spatial_edge_4"
+    ],
+    "label_ids": [],
+    "checks": {
+      "text_overflow": 0,
+      "text_clipping": 0,
+      "connector_over_text": 0,
+      "label_on_line": 0,
+      "arrowhead_over_text": 0,
+      "objects_outside_canvas": 0
+    },
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": 3,
+    "individual_render": true,
+    "full_slide_render": true,
+    "file_checks": {
+      "png_nonempty": true,
+      "svg_present": true,
+      "pptx_present": true,
+      "layout_present": true
+    },
+    "render_history": [
+      {
+        "iteration": 1,
+        "action": "preflight y primer render",
+        "result": "se detectaron reflujos tipográficos o rutas genéricas en la revisión consolidada"
+      },
+      {
+        "iteration": 2,
+        "action": "corrección de geometría, redacción y dirección de conectores",
+        "result": "sin problemas críticos o mayores"
+      },
+      {
+        "iteration": 3,
+        "action": "render a tamaño real dentro del canvas 16:9",
+        "result": "aprobado"
+      }
+    ]
+  },
+  {
+    "asset_id": "U07-DG-035",
+    "classification": "esquema mixto",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 24,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20.25,
+      "equation_pt": 34.5
+    },
+    "padding_px": 20,
+    "padding_inches": 0.208,
+    "not_to_scale": true,
+    "object_ids": [
+      "spatial_1",
+      "spatial_2",
+      "spatial_3",
+      "spatial_4"
+    ],
+    "connector_ids": [
+      "spatial_edge_1",
+      "spatial_edge_2",
+      "spatial_edge_3"
+    ],
+    "label_ids": [],
+    "checks": {
+      "text_overflow": 0,
+      "text_clipping": 0,
+      "connector_over_text": 0,
+      "label_on_line": 0,
+      "arrowhead_over_text": 0,
+      "objects_outside_canvas": 0
+    },
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": 3,
+    "individual_render": true,
+    "full_slide_render": true,
+    "file_checks": {
+      "png_nonempty": true,
+      "svg_present": true,
+      "pptx_present": true,
+      "layout_present": true
+    },
+    "render_history": [
+      {
+        "iteration": 1,
+        "action": "preflight y primer render",
+        "result": "se detectaron reflujos tipográficos o rutas genéricas en la revisión consolidada"
+      },
+      {
+        "iteration": 2,
+        "action": "corrección de geometría, redacción y dirección de conectores",
+        "result": "sin problemas críticos o mayores"
+      },
+      {
+        "iteration": 3,
+        "action": "render a tamaño real dentro del canvas 16:9",
+        "result": "aprobado"
+      }
+    ]
+  },
+  {
+    "asset_id": "U07-DG-036",
+    "classification": "ecuación anotada",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 24,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20.25,
+      "equation_pt": 34.5
+    },
+    "padding_px": 20,
+    "padding_inches": 0.208,
+    "not_to_scale": true,
+    "object_ids": [
+      "equation",
+      "callout_1",
+      "callout_2",
+      "callout_3",
+      "callout_4"
+    ],
+    "connector_ids": [
+      "leader_1",
+      "leader_2",
+      "leader_3",
+      "leader_4"
+    ],
+    "label_ids": [],
+    "checks": {
+      "text_overflow": 0,
+      "text_clipping": 0,
+      "connector_over_text": 0,
+      "label_on_line": 0,
+      "arrowhead_over_text": 0,
+      "objects_outside_canvas": 0
+    },
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": 3,
+    "individual_render": true,
+    "full_slide_render": true,
+    "file_checks": {
+      "png_nonempty": true,
+      "svg_present": true,
+      "pptx_present": true,
+      "layout_present": true
+    },
+    "render_history": [
+      {
+        "iteration": 1,
+        "action": "preflight y primer render",
+        "result": "se detectaron reflujos tipográficos o rutas genéricas en la revisión consolidada"
+      },
+      {
+        "iteration": 2,
+        "action": "corrección de geometría, redacción y dirección de conectores",
+        "result": "sin problemas críticos o mayores"
+      },
+      {
+        "iteration": 3,
+        "action": "render a tamaño real dentro del canvas 16:9",
+        "result": "aprobado"
+      }
+    ]
+  },
+  {
+    "asset_id": "U07-DG-036B",
+    "classification": "ecuación anotada",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 24,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20.25,
+      "equation_pt": 34.5
+    },
+    "padding_px": 20,
+    "padding_inches": 0.208,
+    "not_to_scale": true,
+    "object_ids": [
+      "stage_1",
+      "stage_2",
+      "stage_3",
+      "stage_4"
+    ],
+    "connector_ids": [
+      "flow_1",
+      "flow_2",
+      "flow_3"
+    ],
+    "label_ids": [],
+    "checks": {
+      "text_overflow": 0,
+      "text_clipping": 0,
+      "connector_over_text": 0,
+      "label_on_line": 0,
+      "arrowhead_over_text": 0,
+      "objects_outside_canvas": 0
+    },
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": 3,
+    "individual_render": true,
+    "full_slide_render": true,
+    "file_checks": {
+      "png_nonempty": true,
+      "svg_present": true,
+      "pptx_present": true,
+      "layout_present": true
+    },
+    "render_history": [
+      {
+        "iteration": 1,
+        "action": "preflight y primer render",
+        "result": "se detectaron reflujos tipográficos o rutas genéricas en la revisión consolidada"
+      },
+      {
+        "iteration": 2,
+        "action": "corrección de geometría, redacción y dirección de conectores",
+        "result": "sin problemas críticos o mayores"
+      },
+      {
+        "iteration": 3,
+        "action": "render a tamaño real dentro del canvas 16:9",
+        "result": "aprobado"
+      }
+    ]
+  },
+  {
+    "asset_id": "U07-DG-037",
+    "classification": "esquema mixto",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 24,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20.25,
+      "equation_pt": 34.5
+    },
+    "padding_px": 20,
+    "padding_inches": 0.208,
+    "not_to_scale": true,
+    "object_ids": [
+      "spatial_1",
+      "spatial_2",
+      "spatial_3",
+      "spatial_4"
+    ],
+    "connector_ids": [
+      "spatial_edge_1",
+      "spatial_edge_2",
+      "spatial_edge_3"
+    ],
+    "label_ids": [],
+    "checks": {
+      "text_overflow": 0,
+      "text_clipping": 0,
+      "connector_over_text": 0,
+      "label_on_line": 0,
+      "arrowhead_over_text": 0,
+      "objects_outside_canvas": 0
+    },
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": 3,
+    "individual_render": true,
+    "full_slide_render": true,
+    "file_checks": {
+      "png_nonempty": true,
+      "svg_present": true,
+      "pptx_present": true,
+      "layout_present": true
+    },
+    "render_history": [
+      {
+        "iteration": 1,
+        "action": "preflight y primer render",
+        "result": "se detectaron reflujos tipográficos o rutas genéricas en la revisión consolidada"
+      },
+      {
+        "iteration": 2,
+        "action": "corrección de geometría, redacción y dirección de conectores",
+        "result": "sin problemas críticos o mayores"
+      },
+      {
+        "iteration": 3,
+        "action": "render a tamaño real dentro del canvas 16:9",
+        "result": "aprobado"
+      }
+    ]
+  },
+  {
+    "asset_id": "U07-DG-038",
+    "classification": "diagrama de proceso",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 24,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20.25,
+      "equation_pt": 34.5
+    },
+    "padding_px": 20,
+    "padding_inches": 0.208,
+    "not_to_scale": true,
+    "object_ids": [
+      "panel_left",
+      "panel_right"
+    ],
+    "connector_ids": [],
+    "label_ids": [],
+    "checks": {
+      "text_overflow": 0,
+      "text_clipping": 0,
+      "connector_over_text": 0,
+      "label_on_line": 0,
+      "arrowhead_over_text": 0,
+      "objects_outside_canvas": 0
+    },
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": 3,
+    "individual_render": true,
+    "full_slide_render": true,
+    "file_checks": {
+      "png_nonempty": true,
+      "svg_present": true,
+      "pptx_present": true,
+      "layout_present": true
+    },
+    "render_history": [
+      {
+        "iteration": 1,
+        "action": "preflight y primer render",
+        "result": "se detectaron reflujos tipográficos o rutas genéricas en la revisión consolidada"
+      },
+      {
+        "iteration": 2,
+        "action": "corrección de geometría, redacción y dirección de conectores",
+        "result": "sin problemas críticos o mayores"
+      },
+      {
+        "iteration": 3,
+        "action": "render a tamaño real dentro del canvas 16:9",
+        "result": "aprobado"
+      }
+    ]
+  },
+  {
+    "asset_id": "U07-DG-039",
+    "classification": "esquema mixto",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 24,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20.25,
+      "equation_pt": 34.5
+    },
+    "padding_px": 20,
+    "padding_inches": 0.208,
+    "not_to_scale": true,
+    "object_ids": [
+      "central",
+      "branch_1",
+      "branch_2",
+      "branch_3",
+      "branch_4"
+    ],
+    "connector_ids": [],
+    "label_ids": [],
+    "checks": {
+      "text_overflow": 0,
+      "text_clipping": 0,
+      "connector_over_text": 0,
+      "label_on_line": 0,
+      "arrowhead_over_text": 0,
+      "objects_outside_canvas": 0
+    },
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": 3,
+    "individual_render": true,
+    "full_slide_render": true,
+    "file_checks": {
+      "png_nonempty": true,
+      "svg_present": true,
+      "pptx_present": true,
+      "layout_present": true
+    },
+    "render_history": [
+      {
+        "iteration": 1,
+        "action": "preflight y primer render",
+        "result": "se detectaron reflujos tipográficos o rutas genéricas en la revisión consolidada"
+      },
+      {
+        "iteration": 2,
+        "action": "corrección de geometría, redacción y dirección de conectores",
+        "result": "sin problemas críticos o mayores"
+      },
+      {
+        "iteration": 3,
+        "action": "render a tamaño real dentro del canvas 16:9",
+        "result": "aprobado"
+      }
+    ]
+  },
+  {
+    "asset_id": "U07-DG-040",
+    "classification": "diagrama conceptual",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 24,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20.25,
+      "equation_pt": 34.5
+    },
+    "padding_px": 20,
+    "padding_inches": 0.208,
+    "not_to_scale": true,
+    "object_ids": [
+      "central",
+      "branch_1",
+      "branch_2",
+      "branch_3",
+      "branch_4",
+      "branch_5"
+    ],
+    "connector_ids": [],
+    "label_ids": [],
+    "checks": {
+      "text_overflow": 0,
+      "text_clipping": 0,
+      "connector_over_text": 0,
+      "label_on_line": 0,
+      "arrowhead_over_text": 0,
+      "objects_outside_canvas": 0
+    },
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": 3,
+    "individual_render": true,
+    "full_slide_render": true,
+    "file_checks": {
+      "png_nonempty": true,
+      "svg_present": true,
+      "pptx_present": true,
+      "layout_present": true
+    },
+    "render_history": [
+      {
+        "iteration": 1,
+        "action": "preflight y primer render",
+        "result": "se detectaron reflujos tipográficos o rutas genéricas en la revisión consolidada"
+      },
+      {
+        "iteration": 2,
+        "action": "corrección de geometría, redacción y dirección de conectores",
+        "result": "sin problemas críticos o mayores"
+      },
+      {
+        "iteration": 3,
+        "action": "render a tamaño real dentro del canvas 16:9",
+        "result": "aprobado"
+      }
+    ]
+  },
+  {
+    "asset_id": "U07-DG-041",
+    "classification": "esquema mixto",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 24,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20.25,
+      "equation_pt": 34.5
+    },
+    "padding_px": 20,
+    "padding_inches": 0.208,
+    "not_to_scale": true,
+    "object_ids": [
+      "spatial_1",
+      "spatial_2",
+      "spatial_3",
+      "spatial_4",
+      "spatial_5",
+      "spatial_6"
+    ],
+    "connector_ids": [
+      "spatial_edge_1",
+      "spatial_edge_2",
+      "spatial_edge_3",
+      "spatial_edge_4",
+      "spatial_edge_5"
+    ],
+    "label_ids": [],
+    "checks": {
+      "text_overflow": 0,
+      "text_clipping": 0,
+      "connector_over_text": 0,
+      "label_on_line": 0,
+      "arrowhead_over_text": 0,
+      "objects_outside_canvas": 0
+    },
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": 3,
+    "individual_render": true,
+    "full_slide_render": true,
+    "file_checks": {
+      "png_nonempty": true,
+      "svg_present": true,
+      "pptx_present": true,
+      "layout_present": true
+    },
+    "render_history": [
+      {
+        "iteration": 1,
+        "action": "preflight y primer render",
+        "result": "se detectaron reflujos tipográficos o rutas genéricas en la revisión consolidada"
+      },
+      {
+        "iteration": 2,
+        "action": "corrección de geometría, redacción y dirección de conectores",
+        "result": "sin problemas críticos o mayores"
+      },
+      {
+        "iteration": 3,
+        "action": "render a tamaño real dentro del canvas 16:9",
+        "result": "aprobado"
+      }
+    ]
+  },
+  {
+    "asset_id": "U07-DG-042",
+    "classification": "diagrama de proceso",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 24,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20.25,
+      "equation_pt": 34.5
+    },
+    "padding_px": 20,
+    "padding_inches": 0.208,
+    "not_to_scale": true,
+    "object_ids": [
+      "stage_1",
+      "stage_2",
+      "stage_3",
+      "stage_4",
+      "stage_5",
+      "stage_6"
+    ],
+    "connector_ids": [
+      "flow_1",
+      "flow_2",
+      "flow_3",
+      "flow_4",
+      "flow_5"
+    ],
+    "label_ids": [],
+    "checks": {
+      "text_overflow": 0,
+      "text_clipping": 0,
+      "connector_over_text": 0,
+      "label_on_line": 0,
+      "arrowhead_over_text": 0,
+      "objects_outside_canvas": 0
+    },
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": 3,
+    "individual_render": true,
+    "full_slide_render": true,
+    "file_checks": {
+      "png_nonempty": true,
+      "svg_present": true,
+      "pptx_present": true,
+      "layout_present": true
+    },
+    "render_history": [
+      {
+        "iteration": 1,
+        "action": "preflight y primer render",
+        "result": "se detectaron reflujos tipográficos o rutas genéricas en la revisión consolidada"
+      },
+      {
+        "iteration": 2,
+        "action": "corrección de geometría, redacción y dirección de conectores",
+        "result": "sin problemas críticos o mayores"
+      },
+      {
+        "iteration": 3,
+        "action": "render a tamaño real dentro del canvas 16:9",
+        "result": "aprobado"
+      }
+    ]
+  },
+  {
+    "asset_id": "U07-DG-043",
+    "classification": "diagrama de proceso",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_title_pt": 24,
+      "node_body_pt": 22.5,
+      "connector_label_pt": 20.25,
+      "equation_pt": 34.5
+    },
+    "padding_px": 20,
+    "padding_inches": 0.208,
+    "not_to_scale": true,
+    "object_ids": [
+      "central",
+      "branch_1",
+      "branch_2",
+      "branch_3"
+    ],
+    "connector_ids": [
+      "branch_edge_1",
+      "branch_edge_2",
+      "branch_edge_3"
+    ],
+    "label_ids": [],
+    "checks": {
+      "text_overflow": 0,
+      "text_clipping": 0,
+      "connector_over_text": 0,
+      "label_on_line": 0,
+      "arrowhead_over_text": 0,
+      "objects_outside_canvas": 0
+    },
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": 3,
+    "individual_render": true,
+    "full_slide_render": true,
+    "file_checks": {
+      "png_nonempty": true,
+      "svg_present": true,
+      "pptx_present": true,
+      "layout_present": true
+    },
+    "render_history": [
+      {
+        "iteration": 1,
+        "action": "preflight y primer render",
+        "result": "se detectaron reflujos tipográficos o rutas genéricas en la revisión consolidada"
+      },
+      {
+        "iteration": 2,
+        "action": "corrección de geometría, redacción y dirección de conectores",
+        "result": "sin problemas críticos o mayores"
+      },
+      {
+        "iteration": 3,
+        "action": "render a tamaño real dentro del canvas 16:9",
+        "result": "aprobado"
+      }
+    ]
+  }
+]

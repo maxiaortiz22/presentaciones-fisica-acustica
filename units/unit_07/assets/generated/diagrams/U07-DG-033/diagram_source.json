@@ -1,0 +1,49 @@
+{
+  "id": "U07-DG-033",
+  "classification": "diagrama conceptual",
+  "title": "Haas no equivale a una regla universal de 20 ms",
+  "template": "compare",
+  "items": [
+    {
+      "title": "Simplificación incorrecta",
+      "body": "‘Haas = 20 ms’\nsin condiciones",
+      "style": "neutral"
+    },
+    {
+      "title": "Formulación condicionada",
+      "body": "caso histórico con habla\nretardo, nivel y criterio",
+      "style": "accent"
+    }
+  ],
+  "caption": "Comparación entre una regla simplificada y una formulación condicionada del efecto Haas.",
+  "alt": "Dos paneles contrastan una igualdad universal incorrecta con un caso histórico condicionado.",
+  "source": "Libro del curso (TEX/PDF), Unidad 7; brief, storyboard y planes U07; elaboración propia UCASAL.",
+  "footer": "Figura conceptual; no está a escala salvo indicación explícita.",
+  "options": {},
+  "nodes": [
+    {
+      "id": "panel_left",
+      "x": 92,
+      "y": 175,
+      "w": 520,
+      "h": 380,
+      "title": "Simplificación incorrecta",
+      "body": "‘Haas = 20 ms’\nsin condiciones",
+      "style": "neutral",
+      "role": "node"
+    },
+    {
+      "id": "panel_right",
+      "x": 668,
+      "y": 175,
+      "w": 520,
+      "h": 380,
+      "title": "Formulación condicionada",
+      "body": "caso histórico con habla\nretardo, nivel y criterio",
+      "style": "accent",
+      "role": "node"
+    }
+  ],
+  "edges": [],
+  "labelBoxes": []
+}

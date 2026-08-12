@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+<defs><marker id="arrow" markerWidth="10" markerHeight="8" refX="8" refY="4" orient="auto"><path d="M0,0 L9,4 L0,8 Z" fill="#3D3D3D"/></marker></defs>
+<rect width="1280" height="720" fill="white"/>
+<rect x="72" y="27" width="390" height="6" fill="#4D1434"/><rect x="472" y="27" width="390" height="6" fill="#903163"/><rect x="872" y="27" width="336" height="6" fill="#969FA7"/>
+<text x="72" y="82" font-family="Calibri,Arial,sans-serif" font-size="40" font-weight="700" fill="#3D3D3D">La relación fones–sones usa un exponente adimensional</text>
+<polyline id="leader_1" points="392,167.5 276,167.5 276,352.5 160,352.5" fill="none" stroke="#3D3D3D" stroke-width="3" marker-end="url(#arrow)"/>
+<polyline id="leader_2" points="888,167.5 1004,167.5 1004,352.5 1120,352.5" fill="none" stroke="#3D3D3D" stroke-width="3" marker-end="url(#arrow)"/>
+<polyline id="leader_3" points="392,535 276,535 276,352.5 160,352.5" fill="none" stroke="#3D3D3D" stroke-width="3" marker-end="url(#arrow)"/>
+<polyline id="leader_4" points="888,535 1004,535 1004,352.5 1120,352.5" fill="none" stroke="#3D3D3D" stroke-width="3" marker-end="url(#arrow)"/>
+<rect id="equation" x="160" y="250" width="960" height="205" rx="8" fill="#FFFFFF" stroke="#4D1434" stroke-width="2"/>
+<text x="640" y="305" text-anchor="middle" font-family="Cambria Math,Arial,sans-serif" font-size="40" font-weight="700" fill="#4D1434">N_son = 2^[(L_N − 40 fon)/(10 fon)] son</text>
+<text x="640" y="353" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">válida aquí para L_N ≥ 40 fon</text>
+<rect id="callout_1" x="72" y="95" width="320" height="145" rx="8" fill="#F3E8EE" stroke="#4D1434" stroke-width="2"/>
+<text x="232" y="142" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#4D1434">base 2</text>
+<text x="232" y="190" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">cada 10 fon</text>
+<text x="232" y="222" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">duplica</text>
+<rect id="callout_2" x="888" y="95" width="320" height="145" rx="8" fill="#F8EDE2" stroke="#9F541A" stroke-width="2"/>
+<text x="1048" y="142" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#9F541A">L_N − 40 fon</text>
+<text x="1048" y="190" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">distancia a la</text>
+<text x="1048" y="222" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">referencia</text>
+<rect id="callout_3" x="72" y="465" width="320" height="140" rx="8" fill="#F7F6F2" stroke="#969FA7" stroke-width="2"/>
+<text x="232" y="512" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#3D3D3D">10 fon</text>
+<text x="232" y="560" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">hace adimensional</text>
+<text x="232" y="592" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">el exponente</text>
+<rect id="callout_4" x="888" y="465" width="320" height="140" rx="8" fill="#E7F1F1" stroke="#2F7E83" stroke-width="2"/>
+<text x="1048" y="512" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#2F7E83">son</text>
+<text x="1048" y="560" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">unidad del</text>
+<text x="1048" y="592" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">resultado</text>
+<text x="640" y="628" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="22" fill="#3D3D3D">Figura conceptual; no está a escala salvo indicación explícita.</text>
+<text x="72" y="690" font-family="Calibri,Arial,sans-serif" font-size="16" fill="#969FA7">Libro del curso (TEX/PDF), Unidad 7; brief, storyboard y planes U07; elaboración propia UCASAL.</text>
+</svg>

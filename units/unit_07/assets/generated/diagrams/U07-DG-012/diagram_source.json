@@ -1,0 +1,145 @@
+{
+  "id": "U07-DG-012",
+  "classification": "diagrama conceptual",
+  "title": "Las magnitudes físicas se relacionan con atributos, no los igualan",
+  "template": "grid",
+  "items": [
+    {
+      "title": "Frecuencia",
+      "body": "Hz",
+      "style": "physical"
+    },
+    {
+      "title": "Altura tonal",
+      "body": "grave ↔ agudo",
+      "style": "clinical"
+    },
+    {
+      "title": "Nivel",
+      "body": "dB SPL",
+      "style": "physical"
+    },
+    {
+      "title": "Sonoridad",
+      "body": "fon / son",
+      "style": "clinical"
+    },
+    {
+      "title": "Espectro",
+      "body": "componentes",
+      "style": "physical"
+    },
+    {
+      "title": "Timbre",
+      "body": "calidad perceptual",
+      "style": "clinical"
+    },
+    {
+      "title": "Tiempo",
+      "body": "s · ms",
+      "style": "physical"
+    },
+    {
+      "title": "Duración",
+      "body": "atributo temporal",
+      "style": "clinical"
+    }
+  ],
+  "caption": "Mapa de cuatro relaciones físico–perceptuales sin signos de igualdad.",
+  "alt": "Ocho celdas organizadas en cuatro pares de magnitud física y atributo perceptual.",
+  "source": "Libro del curso (TEX/PDF), Unidad 7; brief, storyboard y planes U07; elaboración propia UCASAL.",
+  "footer": "Figura conceptual; no está a escala salvo indicación explícita.",
+  "options": {},
+  "nodes": [
+    {
+      "id": "cell_1",
+      "x": 82,
+      "y": 150,
+      "w": 258,
+      "h": 200,
+      "title": "Frecuencia",
+      "body": "Hz",
+      "style": "physical",
+      "role": "node"
+    },
+    {
+      "id": "cell_2",
+      "x": 368,
+      "y": 150,
+      "w": 258,
+      "h": 200,
+      "title": "Altura tonal",
+      "body": "grave ↔ agudo",
+      "style": "clinical",
+      "role": "node"
+    },
+    {
+      "id": "cell_3",
+      "x": 654,
+      "y": 150,
+      "w": 258,
+      "h": 200,
+      "title": "Nivel",
+      "body": "dB SPL",
+      "style": "physical",
+      "role": "node"
+    },
+    {
+      "id": "cell_4",
+      "x": 940,
+      "y": 150,
+      "w": 258,
+      "h": 200,
+      "title": "Sonoridad",
+      "body": "fon / son",
+      "style": "clinical",
+      "role": "node"
+    },
+    {
+      "id": "cell_5",
+      "x": 82,
+      "y": 380,
+      "w": 258,
+      "h": 200,
+      "title": "Espectro",
+      "body": "componentes",
+      "style": "physical",
+      "role": "node"
+    },
+    {
+      "id": "cell_6",
+      "x": 368,
+      "y": 380,
+      "w": 258,
+      "h": 200,
+      "title": "Timbre",
+      "body": "calidad perceptual",
+      "style": "clinical",
+      "role": "node"
+    },
+    {
+      "id": "cell_7",
+      "x": 654,
+      "y": 380,
+      "w": 258,
+      "h": 200,
+      "title": "Tiempo",
+      "body": "s · ms",
+      "style": "physical",
+      "role": "node"
+    },
+    {
+      "id": "cell_8",
+      "x": 940,
+      "y": 380,
+      "w": 258,
+      "h": 200,
+      "title": "Duración",
+      "body": "atributo temporal",
+      "style": "clinical",
+      "role": "node"
+    }
+  ],
+  "edges": [],
+  "labelBoxes": []
+}

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+<defs><marker id="arrow" markerWidth="10" markerHeight="8" refX="8" refY="4" orient="auto"><path d="M0,0 L9,4 L0,8 Z" fill="#3D3D3D"/></marker></defs>
+<rect width="1280" height="720" fill="white"/>
+<rect x="72" y="27" width="390" height="6" fill="#4D1434"/><rect x="472" y="27" width="390" height="6" fill="#903163"/><rect x="872" y="27" width="336" height="6" fill="#969FA7"/>
+<text x="72" y="82" font-family="Calibri,Arial,sans-serif" font-size="40" font-weight="700" fill="#3D3D3D">Un dato psicofísico necesita sus condiciones</text>
+<rect id="central" x="82" y="245" width="300" height="220" rx="8" fill="#F3E8EE" stroke="#4D1434" stroke-width="2"/>
+<text x="232" y="292" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#4D1434">Resultado</text>
+<text x="232" y="330" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#4D1434">observado</text>
+<text x="232" y="374" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">valor + unidad</text>
+<rect id="branch_1" x="465" y="140" width="345" height="136.66666666666666" rx="8" fill="#E7F1F1" stroke="#2F7E83" stroke-width="2"/>
+<text x="637.5" y="187" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#2F7E83">Señal</text>
+<text x="637.5" y="235" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">frecuencia ·</text>
+<text x="637.5" y="267" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">duración</text>
+<rect id="branch_2" x="845" y="140" width="345" height="136.66666666666666" rx="8" fill="#E7F1F1" stroke="#2F7E83" stroke-width="2"/>
+<text x="1017.5" y="187" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#2F7E83">Nivel</text>
+<text x="1017.5" y="235" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">referencia · banda</text>
+<rect id="branch_3" x="465" y="291.66666666666663" width="345" height="136.66666666666666" rx="8" fill="#F7F6F2" stroke="#969FA7" stroke-width="2"/>
+<text x="637.5" y="338.66666666666663" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#3D3D3D">Tarea</text>
+<text x="637.5" y="386.66666666666663" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">criterio</text>
+<rect id="branch_4" x="845" y="291.66666666666663" width="345" height="136.66666666666666" rx="8" fill="#F7F6F2" stroke="#969FA7" stroke-width="2"/>
+<text x="1017.5" y="338.66666666666663" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#3D3D3D">Ambiente</text>
+<text x="1017.5" y="386.66666666666663" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">ruido · recinto</text>
+<rect id="branch_5" x="465" y="443.3333333333333" width="345" height="136.66666666666666" rx="8" fill="#F8EDE2" stroke="#9F541A" stroke-width="2"/>
+<text x="637.5" y="490.3333333333333" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#9F541A">Oyente</text>
+<text x="637.5" y="538.3333333333333" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">estado · experiencia</text>
+<rect id="branch_6" x="845" y="443.3333333333333" width="345" height="136.66666666666666" rx="8" fill="#F8EDE2" stroke="#9F541A" stroke-width="2"/>
+<text x="1017.5" y="490.3333333333333" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#9F541A">Procedimiento</text>
+<text x="1017.5" y="538.3333333333333" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="30" fill="#3D3D3D">orden · repeticiones</text>
+<text x="640" y="628" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="22" fill="#3D3D3D">Figura conceptual; no está a escala salvo indicación explícita.</text>
+<text x="72" y="690" font-family="Calibri,Arial,sans-serif" font-size="16" fill="#969FA7">Libro del curso (TEX/PDF), Unidad 7; brief, storyboard y planes U07; elaboración propia UCASAL.</text>
+</svg>

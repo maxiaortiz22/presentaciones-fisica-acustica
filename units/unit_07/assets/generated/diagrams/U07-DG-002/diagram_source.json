@@ -1,0 +1,145 @@
+{
+  "id": "U07-DG-002",
+  "classification": "diagrama conceptual",
+  "title": "Una magnitud física no es su correlato perceptual",
+  "template": "grid",
+  "items": [
+    {
+      "title": "Frecuencia, f",
+      "body": "Hz",
+      "style": "physical"
+    },
+    {
+      "title": "Altura tonal",
+      "body": "respuesta perceptual",
+      "style": "clinical"
+    },
+    {
+      "title": "Nivel, L_p",
+      "body": "dB SPL",
+      "style": "physical"
+    },
+    {
+      "title": "Sonoridad",
+      "body": "fon o son",
+      "style": "clinical"
+    },
+    {
+      "title": "Espectro",
+      "body": "amplitud y frecuencia",
+      "style": "physical"
+    },
+    {
+      "title": "Timbre",
+      "body": "atributo perceptual",
+      "style": "clinical"
+    },
+    {
+      "title": "Tiempo",
+      "body": "s o ms",
+      "style": "physical"
+    },
+    {
+      "title": "Duración percibida",
+      "body": "respuesta temporal",
+      "style": "clinical"
+    }
+  ],
+  "caption": "Matriz físico–perceptual con unidades como evidencia de que las cantidades no son intercambiables.",
+  "alt": "Cuatro pares relacionan frecuencia y altura tonal, nivel y sonoridad, espectro y timbre, tiempo y duración percibida.",
+  "source": "Libro del curso (TEX/PDF), Unidad 7; brief, storyboard y planes U07; elaboración propia UCASAL.",
+  "footer": "Figura conceptual; no está a escala salvo indicación explícita.",
+  "options": {},
+  "nodes": [
+    {
+      "id": "cell_1",
+      "x": 82,
+      "y": 150,
+      "w": 258,
+      "h": 200,
+      "title": "Frecuencia, f",
+      "body": "Hz",
+      "style": "physical",
+      "role": "node"
+    },
+    {
+      "id": "cell_2",
+      "x": 368,
+      "y": 150,
+      "w": 258,
+      "h": 200,
+      "title": "Altura tonal",
+      "body": "respuesta perceptual",
+      "style": "clinical",
+      "role": "node"
+    },
+    {
+      "id": "cell_3",
+      "x": 654,
+      "y": 150,
+      "w": 258,
+      "h": 200,
+      "title": "Nivel, L_p",
+      "body": "dB SPL",
+      "style": "physical",
+      "role": "node"
+    },
+    {
+      "id": "cell_4",
+      "x": 940,
+      "y": 150,
+      "w": 258,
+      "h": 200,
+      "title": "Sonoridad",
+      "body": "fon o son",
+      "style": "clinical",
+      "role": "node"
+    },
+    {
+      "id": "cell_5",
+      "x": 82,
+      "y": 380,
+      "w": 258,
+      "h": 200,
+      "title": "Espectro",
+      "body": "amplitud y frecuencia",
+      "style": "physical",
+      "role": "node"
+    },
+    {
+      "id": "cell_6",
+      "x": 368,
+      "y": 380,
+      "w": 258,
+      "h": 200,
+      "title": "Timbre",
+      "body": "atributo perceptual",
+      "style": "clinical",
+      "role": "node"
+    },
+    {
+      "id": "cell_7",
+      "x": 654,
+      "y": 380,
+      "w": 258,
+      "h": 200,
+      "title": "Tiempo",
+      "body": "s o ms",
+      "style": "physical",
+      "role": "node"
+    },
+    {
+      "id": "cell_8",
+      "x": 940,
+      "y": 380,
+      "w": 258,
+      "h": 200,
+      "title": "Duración percibida",
+      "body": "respuesta temporal",
+      "style": "clinical",
+      "role": "node"
+    }
+  ],
+  "edges": [],
+  "labelBoxes": []
+}

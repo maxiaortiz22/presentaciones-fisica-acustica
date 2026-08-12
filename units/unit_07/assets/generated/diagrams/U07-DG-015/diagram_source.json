@@ -1,0 +1,134 @@
+{
+  "id": "U07-DG-015",
+  "classification": "ecuación anotada",
+  "title": "La relación fones–sones usa un exponente adimensional",
+  "template": "equation",
+  "items": [
+    {
+      "title": "N_son = 2^[(L_N − 40 fon)/(10 fon)] son",
+      "body": "válida aquí para L_N ≥ 40 fon",
+      "style": "equation"
+    },
+    {
+      "title": "base 2",
+      "body": "cada 10 fon duplica",
+      "style": "accent"
+    },
+    {
+      "title": "L_N − 40 fon",
+      "body": "distancia a la referencia",
+      "style": "clinical"
+    },
+    {
+      "title": "10 fon",
+      "body": "hace adimensional el exponente",
+      "style": "neutral"
+    },
+    {
+      "title": "son",
+      "body": "unidad del resultado",
+      "style": "physical"
+    }
+  ],
+  "caption": "Ecuación anotada del modelo introductorio entre fones y sones.",
+  "alt": "Ecuación central de sonoridad en sones con cuatro llamadas a base dos, referencia de cuarenta fon, denominador de diez fon y unidad son.",
+  "source": "Libro del curso (TEX/PDF), Unidad 7; brief, storyboard y planes U07; elaboración propia UCASAL.",
+  "footer": "Figura conceptual; no está a escala salvo indicación explícita.",
+  "options": {},
+  "nodes": [
+    {
+      "id": "equation",
+      "x": 160,
+      "y": 250,
+      "w": 960,
+      "h": 205,
+      "title": "N_son = 2^[(L_N − 40 fon)/(10 fon)] son",
+      "body": "válida aquí para L_N ≥ 40 fon",
+      "style": "equation",
+      "role": "equation"
+    },
+    {
+      "id": "callout_1",
+      "x": 72,
+      "y": 95,
+      "w": 320,
+      "h": 145,
+      "title": "base 2",
+      "body": "cada 10 fon duplica",
+      "style": "accent",
+      "role": "callout"
+    },
+    {
+      "id": "callout_2",
+      "x": 888,
+      "y": 95,
+      "w": 320,
+      "h": 145,
+      "title": "L_N − 40 fon",
+      "body": "distancia a la referencia",
+      "style": "clinical",
+      "role": "callout"
+    },
+    {
+      "id": "callout_3",
+      "x": 72,
+      "y": 465,
+      "w": 320,
+      "h": 140,
+      "title": "10 fon",
+      "body": "hace adimensional el exponente",
+      "style": "neutral",
+      "role": "callout"
+    },
+    {
+      "id": "callout_4",
+      "x": 888,
+      "y": 465,
+      "w": 320,
+      "h": 140,
+      "title": "son",
+      "body": "unidad del resultado",
+      "style": "physical",
+      "role": "callout"
+    }
+  ],
+  "edges": [
+    {
+      "id": "leader_1",
+      "from": "callout_1",
+      "to": "equation",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "straight"
+    },
+    {
+      "id": "leader_2",
+      "from": "callout_2",
+      "to": "equation",
+      "semantic": "",
+      "fromSide": "left",
+      "toSide": "right",
+      "kind": "straight"
+    },
+    {
+      "id": "leader_3",
+      "from": "callout_3",
+      "to": "equation",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "straight"
+    },
+    {
+      "id": "leader_4",
+      "from": "callout_4",
+      "to": "equation",
+      "semantic": "",
+      "fromSide": "left",
+      "toSide": "right",
+      "kind": "straight"
+    }
+  ],
+  "labelBoxes": []
+}

@@ -1,0 +1,49 @@
+{
+  "id": "U07-DG-038",
+  "classification": "diagrama de proceso",
+  "title": "Mover la cabeza cambia el conjunto de pistas",
+  "template": "compare",
+  "items": [
+    {
+      "title": "Antes del giro",
+      "body": "ITD · ILD · espectro\nconfiguración A",
+      "style": "physical"
+    },
+    {
+      "title": "Después del giro",
+      "body": "ITD · ILD · espectro\nconfiguración B",
+      "style": "clinical"
+    }
+  ],
+  "caption": "Alternativa estática en dos estados para mostrar pistas dinámicas.",
+  "alt": "Dos paneles comparan la configuración de pistas antes y después de un pequeño giro de cabeza.",
+  "source": "Libro del curso (TEX/PDF), Unidad 7; brief, storyboard y planes U07; elaboración propia UCASAL.",
+  "footer": "Figura conceptual; no está a escala salvo indicación explícita.",
+  "options": {},
+  "nodes": [
+    {
+      "id": "panel_left",
+      "x": 92,
+      "y": 175,
+      "w": 520,
+      "h": 380,
+      "title": "Antes del giro",
+      "body": "ITD · ILD · espectro\nconfiguración A",
+      "style": "physical",
+      "role": "node"
+    },
+    {
+      "id": "panel_right",
+      "x": 668,
+      "y": 175,
+      "w": 520,
+      "h": 380,
+      "title": "Después del giro",
+      "body": "ITD · ILD · espectro\nconfiguración B",
+      "style": "clinical",
+      "role": "node"
+    }
+  ],
+  "edges": [],
+  "labelBoxes": []
+}

@@ -1,0 +1,164 @@
+{
+  "id": "U07-DG-041",
+  "classification": "esquema mixto",
+  "title": "En un aula, señal, ambiente y tarea interactúan",
+  "template": "spatial",
+  "items": [
+    {
+      "title": "Docente",
+      "body": "voz objetivo",
+      "style": "physical"
+    },
+    {
+      "title": "Ventilación",
+      "body": "ruido estacionario",
+      "style": "neutral"
+    },
+    {
+      "title": "Voces",
+      "body": "competencia informacional",
+      "style": "accent"
+    },
+    {
+      "title": "Recinto",
+      "body": "reflexiones · T₆₀",
+      "style": "neutral"
+    },
+    {
+      "title": "Oyente",
+      "body": "pistas binaurales",
+      "style": "clinical"
+    },
+    {
+      "title": "Tarea",
+      "body": "comprender",
+      "style": "clinical"
+    }
+  ],
+  "caption": "Caso sistémico de aula con seis elementos y rutas físicas/perceptuales diferenciadas.",
+  "alt": "Docente, ventilación, voces, recinto, oyente y tarea forman una escena de aula sin convertirla en una red completa.",
+  "source": "Libro del curso (TEX/PDF), Unidad 7; brief, storyboard y planes U07; elaboración propia UCASAL.",
+  "footer": "Figura conceptual; no está a escala salvo indicación explícita.",
+  "options": {},
+  "nodes": [
+    {
+      "id": "spatial_1",
+      "x": 500,
+      "y": 240,
+      "w": 280,
+      "h": 210,
+      "title": "Docente",
+      "body": "voz objetivo",
+      "style": "physical",
+      "role": "node"
+    },
+    {
+      "id": "spatial_2",
+      "x": 90,
+      "y": 125,
+      "w": 300,
+      "h": 170,
+      "title": "Ventilación",
+      "body": "ruido estacionario",
+      "style": "neutral",
+      "role": "node"
+    },
+    {
+      "id": "spatial_3",
+      "x": 890,
+      "y": 125,
+      "w": 300,
+      "h": 170,
+      "title": "Voces",
+      "body": "competencia informacional",
+      "style": "accent",
+      "role": "node"
+    },
+    {
+      "id": "spatial_4",
+      "x": 90,
+      "y": 420,
+      "w": 300,
+      "h": 170,
+      "title": "Recinto",
+      "body": "reflexiones · T₆₀",
+      "style": "neutral",
+      "role": "node"
+    },
+    {
+      "id": "spatial_5",
+      "x": 890,
+      "y": 420,
+      "w": 300,
+      "h": 170,
+      "title": "Oyente",
+      "body": "pistas binaurales",
+      "style": "clinical",
+      "role": "node"
+    },
+    {
+      "id": "spatial_6",
+      "x": 490,
+      "y": 460,
+      "w": 300,
+      "h": 130,
+      "title": "Tarea",
+      "body": "comprender",
+      "style": "clinical",
+      "role": "node"
+    }
+  ],
+  "edges": [
+    {
+      "id": "spatial_edge_1",
+      "from": "spatial_2",
+      "to": "spatial_1",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "straight",
+      "arrow": false
+    },
+    {
+      "id": "spatial_edge_2",
+      "from": "spatial_3",
+      "to": "spatial_1",
+      "semantic": "",
+      "fromSide": "left",
+      "toSide": "right",
+      "kind": "straight",
+      "arrow": false
+    },
+    {
+      "id": "spatial_edge_3",
+      "from": "spatial_4",
+      "to": "spatial_1",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "straight",
+      "arrow": false
+    },
+    {
+      "id": "spatial_edge_4",
+      "from": "spatial_5",
+      "to": "spatial_1",
+      "semantic": "",
+      "fromSide": "left",
+      "toSide": "right",
+      "kind": "straight",
+      "arrow": false
+    },
+    {
+      "id": "spatial_edge_5",
+      "from": "spatial_6",
+      "to": "spatial_1",
+      "semantic": "",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "straight",
+      "arrow": false
+    }
+  ],
+  "labelBoxes": []
+}

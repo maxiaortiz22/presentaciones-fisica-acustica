@@ -136,18 +136,30 @@
 | célula ciliada interna (CCI) | Receptor sensorial coclear que aporta la mayor parte de la señal aferente auditiva. | 6 | Diferenciar de la función activa de las CCE. |
 | célula ciliada externa (CCE) | Célula coclear con función electromotora que contribuye a amplificación, selectividad y compresión. | 6 | Las otoemisiones informan principalmente sobre su función, no sobre toda la vía auditiva. |
 | tonotopía | Organización sistemática de frecuencias a lo largo de una estructura auditiva. | 6 | En cóclea, altas frecuencias predominan hacia base y bajas hacia ápex. |
+| psicoacústica | Rama de la psicofísica que relaciona estímulos acústicos especificados, tareas y respuestas perceptuales bajo procedimientos definidos. | 7 | No tratar una respuesta como sensación aislada ni como diagnóstico. |
 | umbral auditivo | Nivel mínimo detectable bajo procedimiento y criterios especificados. | 7 | No es un límite fijo universal. |
-| curva isofónica | Conjunto de combinaciones frecuencia–nivel juzgadas con igual sonoridad bajo condiciones normalizadas. | 7 | Indicar norma y edición si la curva es normativa. |
+| curva isofónica o curva de igual sonoridad | Conjunto de combinaciones frecuencia–nivel juzgadas con igual sonoridad bajo condiciones definidas. | 7 | Si reproduce datos normalizados, indicar norma, edición, población, campo y señal; un esquema conceptual no debe presentarse como curva normativa. |
 | altura tonal (pitch) | Atributo perceptual que ordena sonidos de graves a agudos. | 7 | Se relaciona con periodicidad y espectro, pero no es idéntico a frecuencia. |
 | sonoridad (loudness) | Atributo perceptual que ordena sonidos de menos a más sonoros. | 7 | No es nivel de presión sonora ni “volumen” técnico. |
 | nivel de sonoridad | Valor en fones de un sonido, definido por comparación de sonoridad con un tono de referencia. | 7 | Unidad: fon. |
+| fon | Unidad del nivel de sonoridad definido por comparación con un tono de referencia de 1 kHz bajo un procedimiento especificado. | 7 | No es dB SPL, aunque coincidan numéricamente para el tono de referencia en las condiciones de definición. |
 | son | Unidad de una escala de sonoridad basada en razones perceptuales. | 7 | No confundir con sonido ni con fon. |
 | timbre | Conjunto multidimensional de atributos que permite diferenciar sonidos con igual pitch, sonoridad y duración aproximados. | 7 | Depende de espectro, envolvente y evolución temporal, entre otros factores. |
 | enmascaramiento | Elevación del umbral o reducción de detectabilidad de un sonido por presencia de otro. | 7 | Diferenciar fenómeno perceptual y procedimiento clínico. |
-| relación señal-ruido (SNR) | Razón, habitualmente expresada en dB, entre una señal de interés y el ruido en condiciones definidas. | 7 | Declarar magnitudes, bandas y ventanas temporales usadas. |
-| efecto de precedencia | Fusión/localización dominada por el sonido que llega primero ante reflexiones cercanas en el tiempo. | 7 | El efecto de Haas es una formulación o región particular; no escribir “Hass”. |
-| diferencia interaural de tiempo (ITD) | Diferencia de tiempo de llegada de una señal entre ambos oídos. | 7 | Clave importante de localización, sobre todo a bajas frecuencias. |
-| diferencia interaural de nivel (ILD) | Diferencia de nivel entre ambos oídos por geometría y sombra acústica de la cabeza. | 7 | Clave importante, especialmente a frecuencias altas. |
+| señal enmascarante o enmascarador | Señal cuya presencia modifica la detectabilidad de una señal objetivo. | 7 | Preferir estas formas frente a “máscara” como sustantivo aislado; declarar espectro, nivel y relación temporal. |
+| filtro auditivo | Modelo funcional que pondera con mayor fuerza una región de frecuencias alrededor de una frecuencia central. | 7 | No es una estructura anatómica rígida ni un filtro digital literal. |
+| anchura rectangular equivalente (ERB) | Ancho de un rectángulo ideal con la misma altura máxima y la misma área que la respuesta del filtro considerada. | 7 | Indicar el modelo y las condiciones; no usar ERB como sinónimo universal de banda crítica. |
+| enmascaramiento temporal | Cambio de detectabilidad cuando señal objetivo y enmascarador no se superponen completamente. | 7 | Hacia adelante: el enmascarador precede al objetivo; hacia atrás: lo sigue. No fijar una ventana universal. |
+| enmascaramiento energético | Interferencia asociada con superposición de energía del objetivo y del enmascarador dentro de canales auditivos relevantes. | 7 | No equivale simplemente a que el enmascarador tenga mayor nivel global. |
+| enmascaramiento informacional | Dificultad adicional para seleccionar, organizar o identificar la fuente objetivo que no queda explicada por la superposición energética. | 7 | Puede involucrar semejanza, incertidumbre y atención; puede coexistir con enmascaramiento energético. |
+| inteligibilidad del habla | Proporción o porcentaje de unidades lingüísticas correctamente reconocidas en una tarea definida. | 7 | Declarar material, lengua, procedimiento y población; no identificarla con SNR ni con audibilidad. |
+| pérdida de articulación de consonantes (ALCons) | Porcentaje de consonantes presentadas que no fueron reconocidas correctamente en una prueba definida. | 7 | El porcentaje observado no identifica por sí solo la causa ni predice otra sala o población. |
+| relación señal-ruido (SNR) | Razón entre una señal de interés y el ruido en condiciones definidas, habitualmente expresada en dB. | 7 | Puede obtenerse como diferencia de niveles comparables; declarar magnitudes, referencias, bandas, posición y ventana temporal. |
+| efecto de precedencia | Familia de fenómenos ante llegadas próximas que incluye fusión, predominio de la primera llegada en la localización y cambios en la discriminación de la llegada posterior. | 7 | El efecto de Haas es un resultado histórico más acotado; no escribir “Hass” ni reducir la precedencia a un retardo universal. |
+| audición binaural | Uso de la información obtenida al comparar las señales disponibles en ambos oídos. | 7 | No supone que una única diferencia interaural determine la localización. |
+| diferencia interaural de tiempo (ITD) | Diferencia entre tiempos de llegada o estructuras temporales correspondientes de las señales de ambos oídos. | 7 | Pista importante de localización, sobre todo a bajas frecuencias; depende de señal, dirección y geometría. |
+| diferencia interaural de nivel (ILD) | Diferencia entre niveles comparables en ambos oídos producida por geometría, difracción y sombra acústica. | 7 | Preferir “nivel” frente a “intensidad” al desarrollar ILD; su utilidad depende de frecuencia y posición. |
+| efecto cocktail party | Situación en la que se selecciona una fuente objetivo dentro de una escena con fuentes concurrentes. | 7 | No es un filtro físico único; integra pistas espaciales, espectrales, temporales, agrupamiento y atención. |
 | desplazamiento temporal del umbral (TTS) | Aumento transitorio del umbral auditivo después de una exposición, medido bajo condiciones especificadas. | 8 | No garantiza ausencia de daño ni sigue una curva universal. |
 | hipoacusia inducida por ruido (HIR/NIHL) | Pérdida auditiva asociada causalmente con exposición a ruido, evaluada con historia y criterios clínicos. | 8 | No inferir solo por una escotadura aislada. |
 | acúfeno o tinnitus | Percepción sonora sin una fuente acústica externa correspondiente. | 8 | Usar el par elegido por la cátedra de manera consistente. |
@@ -181,6 +193,8 @@
 
 - Usar **sonoridad (loudness)** y no “volumen” como término técnico.
 - Usar **altura tonal (pitch)** cuando se necesite distinguir el percepto de la frecuencia física.
+- Escribir **fon** y **son** en el material visible en español; reservar *phon* y *sone* para citas o equivalencias bibliográficas explícitas.
+- Preferir **señal enmascarante** o **enmascarador**; evitar alternar con “máscara” sin definirla.
 - Escribir **efecto de precedencia** y, cuando corresponda, **efecto de Haas**.
 - Usar **ruido con espectro de habla** en lugar de “ruido vocal”.
 - Usar **sonómetro** en lugar de “decibelímetro”.

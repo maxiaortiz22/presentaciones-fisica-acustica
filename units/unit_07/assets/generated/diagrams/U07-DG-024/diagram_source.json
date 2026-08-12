@@ -1,0 +1,81 @@
+{
+  "id": "U07-DG-024",
+  "classification": "diagrama conceptual",
+  "title": "La inteligibilidad pertenece a una prueba definida",
+  "template": "grid",
+  "items": [
+    {
+      "title": "Estímulo",
+      "body": "lista · contexto · nivel",
+      "style": "physical"
+    },
+    {
+      "title": "Procedimiento",
+      "body": "consigna · respuesta · puntaje",
+      "style": "accent"
+    },
+    {
+      "title": "Oyente",
+      "body": "audición · lengua · experiencia",
+      "style": "clinical"
+    },
+    {
+      "title": "Resultado",
+      "body": "porcentaje correcto",
+      "style": "clinical"
+    }
+  ],
+  "caption": "Condiciones mínimas para interpretar un porcentaje de inteligibilidad.",
+  "alt": "Cuatro grupos organizan estímulo, procedimiento, oyente y resultado porcentual.",
+  "source": "Libro del curso (TEX/PDF), Unidad 7; brief, storyboard y planes U07; elaboración propia UCASAL.",
+  "footer": "Figura conceptual; no está a escala salvo indicación explícita.",
+  "options": {},
+  "nodes": [
+    {
+      "id": "cell_1",
+      "x": 82,
+      "y": 150,
+      "w": 544,
+      "h": 200,
+      "title": "Estímulo",
+      "body": "lista · contexto · nivel",
+      "style": "physical",
+      "role": "node"
+    },
+    {
+      "id": "cell_2",
+      "x": 654,
+      "y": 150,
+      "w": 544,
+      "h": 200,
+      "title": "Procedimiento",
+      "body": "consigna · respuesta · puntaje",
+      "style": "accent",
+      "role": "node"
+    },
+    {
+      "id": "cell_3",
+      "x": 82,
+      "y": 380,
+      "w": 544,
+      "h": 200,
+      "title": "Oyente",
+      "body": "audición · lengua · experiencia",
+      "style": "clinical",
+      "role": "node"
+    },
+    {
+      "id": "cell_4",
+      "x": 654,
+      "y": 380,
+      "w": 544,
+      "h": 200,
+      "title": "Resultado",
+      "body": "porcentaje correcto",
+      "style": "clinical",
+      "role": "node"
+    }
+  ],
+  "edges": [],
+  "labelBoxes": []
+}

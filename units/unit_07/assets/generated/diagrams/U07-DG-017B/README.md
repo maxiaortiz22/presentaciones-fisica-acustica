@@ -1,0 +1,25 @@
+# U07-DG-017B
+
+- **Clasificación obligatoria:** ecuación anotada.
+- **Estado:** aprobado como asset v01 tras validación geométrica y dos renders a tamaño final.
+- **Fuente conceptual:** Libro del curso (TEX/PDF), Unidad 7; brief, storyboard y planes U07; elaboración propia UCASAL.
+- **Editabilidad:** `u07_dg_017b_master.pptx` conserva textos, cajas y conectores; `diagram_source.json` conserva geometría, IDs y semántica.
+- **Reproducción:** ejecutar `units/unit_07/scripts/u07_generate_diagrams.mjs U07-DG-017B` con `U07_ARTIFACT_WORKSPACE` configurado.
+
+## Caption sugerido
+
+Cálculo de la elevación del umbral entre 10 y 35 dB SPL.
+
+## Texto alternativo
+
+Cuatro pasos muestran umbral en quietud, umbral con máscara, resta y resultado de veinticinco decibeles.
+
+## Validación
+
+- canvas real: 13,333×7,5 in; render 2560×1440;
+- texto principal: 22,5 pt; títulos de nodo: 24 pt; etiquetas: 20,25 pt; ecuaciones: 34,5 pt;
+- padding: 20 px = 0,208 in;
+- conectores anclados a bordes, detrás del texto y sin etiquetas apoyadas sobre líneas;
+- SVG y PNG de respaldo; PPTX editable;
+- figura conceptual/no a escala: sí;
+- problemas críticos: 0; problemas mayores: 0.
