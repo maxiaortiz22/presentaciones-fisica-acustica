@@ -1,0 +1,3162 @@
+[
+  {
+    "asset_id": "U10-DG-001",
+    "classification": "diagrama conceptual",
+    "layout_family": "grid",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_main_pt": 22.5,
+      "equation_pt": 36,
+      "connector_label_pt": 21
+    },
+    "padding_px": 24,
+    "padding_inches": 0.25,
+    "line_text_clearance_px": 12,
+    "line_text_clearance_inches": 0.125,
+    "not_to_scale": false,
+    "object_ids": [
+      "concept_1",
+      "concept_2",
+      "concept_3",
+      "concept_4"
+    ],
+    "connector_ids": [],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "preflight geométrico y medición de texto",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual 16:9",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "verificación a tamaño real dentro de slide",
+        "critical": 0,
+        "major": 0
+      }
+    ]
+  },
+  {
+    "asset_id": "U10-DG-002",
+    "classification": "diagrama conceptual",
+    "layout_family": "scene",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_main_pt": 22.5,
+      "equation_pt": 36,
+      "connector_label_pt": 21
+    },
+    "padding_px": 24,
+    "padding_inches": 0.25,
+    "line_text_clearance_px": 12,
+    "line_text_clearance_inches": 0.125,
+    "not_to_scale": true,
+    "object_ids": [
+      "source",
+      "path_top",
+      "path_bottom",
+      "space",
+      "receiver",
+      "condition"
+    ],
+    "connector_ids": [
+      "route_1a",
+      "route_1b",
+      "route_2a",
+      "route_2b",
+      "route_3"
+    ],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "preflight geométrico y medición de texto",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual 16:9",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "verificación a tamaño real dentro de slide",
+        "critical": 0,
+        "major": 0
+      }
+    ]
+  },
+  {
+    "asset_id": "U10-DG-003",
+    "classification": "diagrama de proceso",
+    "layout_family": "process",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_main_pt": 22.5,
+      "equation_pt": 36,
+      "connector_label_pt": 21
+    },
+    "padding_px": 24,
+    "padding_inches": 0.25,
+    "line_text_clearance_px": 12,
+    "line_text_clearance_inches": 0.125,
+    "not_to_scale": false,
+    "object_ids": [
+      "step_1",
+      "step_2",
+      "step_3",
+      "step_4",
+      "step_5"
+    ],
+    "connector_ids": [
+      "flow_1",
+      "flow_2",
+      "flow_3",
+      "flow_4"
+    ],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "preflight geométrico y medición de texto",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual 16:9",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "verificación a tamaño real dentro de slide",
+        "critical": 0,
+        "major": 0
+      }
+    ]
+  },
+  {
+    "asset_id": "U10-DG-004",
+    "classification": "diagrama conceptual",
+    "layout_family": "branch",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_main_pt": 22.5,
+      "equation_pt": 36,
+      "connector_label_pt": 21
+    },
+    "padding_px": 24,
+    "padding_inches": 0.25,
+    "line_text_clearance_px": 12,
+    "line_text_clearance_inches": 0.125,
+    "not_to_scale": true,
+    "object_ids": [
+      "branch_source",
+      "branch_1",
+      "branch_2",
+      "branch_3",
+      "branch_4",
+      "branch_5"
+    ],
+    "connector_ids": [
+      "branch_edge_1",
+      "branch_edge_2",
+      "branch_edge_3",
+      "branch_edge_4",
+      "branch_edge_5"
+    ],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "preflight geométrico y medición de texto",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual 16:9",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "verificación a tamaño real dentro de slide",
+        "critical": 0,
+        "major": 0
+      }
+    ]
+  },
+  {
+    "asset_id": "U10-DG-005",
+    "classification": "diagrama conceptual",
+    "layout_family": "grid",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_main_pt": 22.5,
+      "equation_pt": 36,
+      "connector_label_pt": 21
+    },
+    "padding_px": 24,
+    "padding_inches": 0.25,
+    "line_text_clearance_px": 12,
+    "line_text_clearance_inches": 0.125,
+    "not_to_scale": false,
+    "object_ids": [
+      "concept_1",
+      "concept_2",
+      "concept_3",
+      "concept_4",
+      "concept_5",
+      "concept_6",
+      "concept_7",
+      "concept_8",
+      "concept_9"
+    ],
+    "connector_ids": [],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "preflight geométrico y medición de texto",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual 16:9",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "verificación a tamaño real dentro de slide",
+        "critical": 0,
+        "major": 0
+      }
+    ]
+  },
+  {
+    "asset_id": "U10-DG-006",
+    "classification": "diagrama de proceso",
+    "layout_family": "branch",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_main_pt": 22.5,
+      "equation_pt": 36,
+      "connector_label_pt": 21
+    },
+    "padding_px": 24,
+    "padding_inches": 0.25,
+    "line_text_clearance_px": 12,
+    "line_text_clearance_inches": 0.125,
+    "not_to_scale": true,
+    "object_ids": [
+      "branch_source",
+      "branch_1",
+      "branch_2",
+      "branch_3",
+      "branch_4",
+      "branch_5"
+    ],
+    "connector_ids": [
+      "branch_edge_1",
+      "branch_edge_2",
+      "branch_edge_3",
+      "branch_edge_4",
+      "branch_edge_5"
+    ],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "preflight geométrico y medición de texto",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual 16:9",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "verificación a tamaño real dentro de slide",
+        "critical": 0,
+        "major": 0
+      }
+    ]
+  },
+  {
+    "asset_id": "U10-DG-007",
+    "classification": "diagrama conceptual",
+    "layout_family": "scene",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_main_pt": 22.5,
+      "equation_pt": 36,
+      "connector_label_pt": 21
+    },
+    "padding_px": 24,
+    "padding_inches": 0.25,
+    "line_text_clearance_px": 12,
+    "line_text_clearance_inches": 0.125,
+    "not_to_scale": true,
+    "object_ids": [
+      "source",
+      "path_top",
+      "path_bottom",
+      "space",
+      "receiver",
+      "condition"
+    ],
+    "connector_ids": [
+      "route_1a",
+      "route_1b",
+      "route_2a",
+      "route_2b",
+      "route_3"
+    ],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "preflight geométrico y medición de texto",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual 16:9",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "verificación a tamaño real dentro de slide",
+        "critical": 0,
+        "major": 0
+      }
+    ]
+  },
+  {
+    "asset_id": "U10-DG-008",
+    "classification": "diagrama conceptual",
+    "layout_family": "grid",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_main_pt": 22.5,
+      "equation_pt": 36,
+      "connector_label_pt": 21
+    },
+    "padding_px": 24,
+    "padding_inches": 0.25,
+    "line_text_clearance_px": 12,
+    "line_text_clearance_inches": 0.125,
+    "not_to_scale": false,
+    "object_ids": [
+      "concept_1",
+      "concept_2",
+      "concept_3"
+    ],
+    "connector_ids": [],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "preflight geométrico y medición de texto",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual 16:9",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "verificación a tamaño real dentro de slide",
+        "critical": 0,
+        "major": 0
+      }
+    ]
+  },
+  {
+    "asset_id": "U10-DG-009",
+    "classification": "diagrama de proceso",
+    "layout_family": "process",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_main_pt": 22.5,
+      "equation_pt": 36,
+      "connector_label_pt": 21
+    },
+    "padding_px": 24,
+    "padding_inches": 0.25,
+    "line_text_clearance_px": 12,
+    "line_text_clearance_inches": 0.125,
+    "not_to_scale": false,
+    "object_ids": [
+      "step_1",
+      "step_2",
+      "step_3",
+      "step_4"
+    ],
+    "connector_ids": [
+      "flow_1",
+      "flow_2",
+      "flow_3"
+    ],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "preflight geométrico y medición de texto",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual 16:9",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "verificación a tamaño real dentro de slide",
+        "critical": 0,
+        "major": 0
+      }
+    ]
+  },
+  {
+    "asset_id": "U10-DG-010",
+    "classification": "diagrama conceptual",
+    "layout_family": "triangle",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_main_pt": 22.5,
+      "equation_pt": 36,
+      "connector_label_pt": 21
+    },
+    "padding_px": 24,
+    "padding_inches": 0.25,
+    "line_text_clearance_px": 12,
+    "line_text_clearance_inches": 0.125,
+    "not_to_scale": false,
+    "object_ids": [
+      "signal",
+      "context",
+      "receiver",
+      "question"
+    ],
+    "connector_ids": [
+      "relation_signal",
+      "relation_context",
+      "relation_receiver"
+    ],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "preflight geométrico y medición de texto",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual 16:9",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "verificación a tamaño real dentro de slide",
+        "critical": 0,
+        "major": 0
+      }
+    ]
+  },
+  {
+    "asset_id": "U10-DG-011",
+    "classification": "diagrama conceptual",
+    "layout_family": "grid",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_main_pt": 22.5,
+      "equation_pt": 36,
+      "connector_label_pt": 21
+    },
+    "padding_px": 24,
+    "padding_inches": 0.25,
+    "line_text_clearance_px": 12,
+    "line_text_clearance_inches": 0.125,
+    "not_to_scale": false,
+    "object_ids": [
+      "concept_1",
+      "concept_2",
+      "concept_3",
+      "concept_4",
+      "concept_5",
+      "concept_6"
+    ],
+    "connector_ids": [],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "preflight geométrico y medición de texto",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual 16:9",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "verificación a tamaño real dentro de slide",
+        "critical": 0,
+        "major": 0
+      }
+    ]
+  },
+  {
+    "asset_id": "U10-DG-012",
+    "classification": "diagrama conceptual",
+    "layout_family": "grid",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_main_pt": 22.5,
+      "equation_pt": 36,
+      "connector_label_pt": 21
+    },
+    "padding_px": 24,
+    "padding_inches": 0.25,
+    "line_text_clearance_px": 12,
+    "line_text_clearance_inches": 0.125,
+    "not_to_scale": false,
+    "object_ids": [
+      "concept_1",
+      "concept_2",
+      "concept_3",
+      "concept_4"
+    ],
+    "connector_ids": [],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "preflight geométrico y medición de texto",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual 16:9",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "verificación a tamaño real dentro de slide",
+        "critical": 0,
+        "major": 0
+      }
+    ]
+  },
+  {
+    "asset_id": "U10-DG-013",
+    "classification": "ecuación anotada",
+    "layout_family": "equation",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_main_pt": 22.5,
+      "equation_pt": 36,
+      "connector_label_pt": 21
+    },
+    "padding_px": 24,
+    "padding_inches": 0.25,
+    "line_text_clearance_px": 12,
+    "line_text_clearance_inches": 0.125,
+    "not_to_scale": false,
+    "object_ids": [
+      "equation",
+      "callout_1",
+      "callout_2",
+      "callout_3",
+      "callout_4"
+    ],
+    "connector_ids": [
+      "leader_1",
+      "leader_2",
+      "leader_3",
+      "leader_4"
+    ],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "preflight geométrico y medición de texto",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual 16:9",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "verificación a tamaño real dentro de slide",
+        "critical": 0,
+        "major": 0
+      }
+    ]
+  },
+  {
+    "asset_id": "U10-DG-014",
+    "classification": "ecuación anotada",
+    "layout_family": "equation",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_main_pt": 22.5,
+      "equation_pt": 36,
+      "connector_label_pt": 21
+    },
+    "padding_px": 24,
+    "padding_inches": 0.25,
+    "line_text_clearance_px": 12,
+    "line_text_clearance_inches": 0.125,
+    "not_to_scale": false,
+    "object_ids": [
+      "equation",
+      "callout_1",
+      "callout_2",
+      "callout_3",
+      "callout_4"
+    ],
+    "connector_ids": [
+      "leader_1",
+      "leader_2",
+      "leader_3",
+      "leader_4"
+    ],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "preflight geométrico y medición de texto",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual 16:9",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "verificación a tamaño real dentro de slide",
+        "critical": 0,
+        "major": 0
+      }
+    ]
+  },
+  {
+    "asset_id": "U10-DG-015",
+    "classification": "ecuación anotada",
+    "layout_family": "equation",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_main_pt": 22.5,
+      "equation_pt": 36,
+      "connector_label_pt": 21
+    },
+    "padding_px": 24,
+    "padding_inches": 0.25,
+    "line_text_clearance_px": 12,
+    "line_text_clearance_inches": 0.125,
+    "not_to_scale": false,
+    "object_ids": [
+      "equation",
+      "callout_1",
+      "callout_2",
+      "callout_3",
+      "callout_4"
+    ],
+    "connector_ids": [
+      "leader_1",
+      "leader_2",
+      "leader_3",
+      "leader_4"
+    ],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "preflight geométrico y medición de texto",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual 16:9",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "verificación a tamaño real dentro de slide",
+        "critical": 0,
+        "major": 0
+      }
+    ]
+  },
+  {
+    "asset_id": "U10-DG-016",
+    "classification": "esquema mixto",
+    "layout_family": "grid",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_main_pt": 22.5,
+      "equation_pt": 36,
+      "connector_label_pt": 21
+    },
+    "padding_px": 24,
+    "padding_inches": 0.25,
+    "line_text_clearance_px": 12,
+    "line_text_clearance_inches": 0.125,
+    "not_to_scale": false,
+    "object_ids": [
+      "concept_1",
+      "concept_2",
+      "concept_3",
+      "concept_4",
+      "concept_5",
+      "concept_6"
+    ],
+    "connector_ids": [],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "preflight geométrico y medición de texto",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual 16:9",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "verificación a tamaño real dentro de slide",
+        "critical": 0,
+        "major": 0
+      }
+    ]
+  },
+  {
+    "asset_id": "U10-DG-017",
+    "classification": "diagrama conceptual",
+    "layout_family": "compare",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_main_pt": 22.5,
+      "equation_pt": 36,
+      "connector_label_pt": 21
+    },
+    "padding_px": 24,
+    "padding_inches": 0.25,
+    "line_text_clearance_px": 12,
+    "line_text_clearance_inches": 0.125,
+    "not_to_scale": false,
+    "object_ids": [
+      "compare_1",
+      "compare_2",
+      "compare_3",
+      "compare_4"
+    ],
+    "connector_ids": [],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "preflight geométrico y medición de texto",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual 16:9",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "verificación a tamaño real dentro de slide",
+        "critical": 0,
+        "major": 0
+      }
+    ]
+  },
+  {
+    "asset_id": "U10-DG-018",
+    "classification": "diagrama conceptual",
+    "layout_family": "equation",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_main_pt": 22.5,
+      "equation_pt": 36,
+      "connector_label_pt": 21
+    },
+    "padding_px": 24,
+    "padding_inches": 0.25,
+    "line_text_clearance_px": 12,
+    "line_text_clearance_inches": 0.125,
+    "not_to_scale": false,
+    "object_ids": [
+      "equation",
+      "callout_1",
+      "callout_2",
+      "callout_3",
+      "callout_4"
+    ],
+    "connector_ids": [
+      "leader_1",
+      "leader_2",
+      "leader_3",
+      "leader_4"
+    ],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "preflight geométrico y medición de texto",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual 16:9",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "verificación a tamaño real dentro de slide",
+        "critical": 0,
+        "major": 0
+      }
+    ]
+  },
+  {
+    "asset_id": "U10-DG-019",
+    "classification": "ecuación anotada",
+    "layout_family": "equation",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_main_pt": 22.5,
+      "equation_pt": 36,
+      "connector_label_pt": 21
+    },
+    "padding_px": 24,
+    "padding_inches": 0.25,
+    "line_text_clearance_px": 12,
+    "line_text_clearance_inches": 0.125,
+    "not_to_scale": false,
+    "object_ids": [
+      "equation",
+      "callout_1",
+      "callout_2",
+      "callout_3",
+      "callout_4"
+    ],
+    "connector_ids": [
+      "leader_1",
+      "leader_2",
+      "leader_3",
+      "leader_4"
+    ],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "preflight geométrico y medición de texto",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual 16:9",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "verificación a tamaño real dentro de slide",
+        "critical": 0,
+        "major": 0
+      }
+    ]
+  },
+  {
+    "asset_id": "U10-DG-020",
+    "classification": "esquema mixto",
+    "layout_family": "grid",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_main_pt": 22.5,
+      "equation_pt": 36,
+      "connector_label_pt": 21
+    },
+    "padding_px": 24,
+    "padding_inches": 0.25,
+    "line_text_clearance_px": 12,
+    "line_text_clearance_inches": 0.125,
+    "not_to_scale": false,
+    "object_ids": [
+      "concept_1",
+      "concept_2",
+      "concept_3",
+      "concept_4",
+      "concept_5"
+    ],
+    "connector_ids": [],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "preflight geométrico y medición de texto",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual 16:9",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "verificación a tamaño real dentro de slide",
+        "critical": 0,
+        "major": 0
+      }
+    ]
+  },
+  {
+    "asset_id": "U10-DG-021",
+    "classification": "diagrama conceptual",
+    "layout_family": "grid",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_main_pt": 22.5,
+      "equation_pt": 36,
+      "connector_label_pt": 21
+    },
+    "padding_px": 24,
+    "padding_inches": 0.25,
+    "line_text_clearance_px": 12,
+    "line_text_clearance_inches": 0.125,
+    "not_to_scale": false,
+    "object_ids": [
+      "concept_1",
+      "concept_2",
+      "concept_3",
+      "concept_4",
+      "concept_5"
+    ],
+    "connector_ids": [],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "preflight geométrico y medición de texto",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual 16:9",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "verificación a tamaño real dentro de slide",
+        "critical": 0,
+        "major": 0
+      }
+    ]
+  },
+  {
+    "asset_id": "U10-DG-022",
+    "classification": "diagrama conceptual",
+    "layout_family": "grid",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_main_pt": 22.5,
+      "equation_pt": 36,
+      "connector_label_pt": 21
+    },
+    "padding_px": 24,
+    "padding_inches": 0.25,
+    "line_text_clearance_px": 12,
+    "line_text_clearance_inches": 0.125,
+    "not_to_scale": false,
+    "object_ids": [
+      "concept_1",
+      "concept_2",
+      "concept_3",
+      "concept_4",
+      "concept_5"
+    ],
+    "connector_ids": [],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "preflight geométrico y medición de texto",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual 16:9",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "verificación a tamaño real dentro de slide",
+        "critical": 0,
+        "major": 0
+      }
+    ]
+  },
+  {
+    "asset_id": "U10-DG-023",
+    "classification": "diagrama de proceso",
+    "layout_family": "branch",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_main_pt": 22.5,
+      "equation_pt": 36,
+      "connector_label_pt": 21
+    },
+    "padding_px": 24,
+    "padding_inches": 0.25,
+    "line_text_clearance_px": 12,
+    "line_text_clearance_inches": 0.125,
+    "not_to_scale": true,
+    "object_ids": [
+      "branch_source",
+      "branch_1",
+      "branch_2",
+      "branch_3",
+      "branch_4"
+    ],
+    "connector_ids": [
+      "branch_edge_1",
+      "branch_edge_2",
+      "branch_edge_3",
+      "branch_edge_4"
+    ],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "preflight geométrico y medición de texto",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual 16:9",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "verificación a tamaño real dentro de slide",
+        "critical": 0,
+        "major": 0
+      }
+    ]
+  },
+  {
+    "asset_id": "U10-DG-024",
+    "classification": "diagrama conceptual",
+    "layout_family": "equation",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_main_pt": 22.5,
+      "equation_pt": 36,
+      "connector_label_pt": 21
+    },
+    "padding_px": 24,
+    "padding_inches": 0.25,
+    "line_text_clearance_px": 12,
+    "line_text_clearance_inches": 0.125,
+    "not_to_scale": false,
+    "object_ids": [
+      "equation",
+      "callout_1",
+      "callout_2",
+      "callout_3",
+      "callout_4"
+    ],
+    "connector_ids": [
+      "leader_1",
+      "leader_2",
+      "leader_3",
+      "leader_4"
+    ],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "preflight geométrico y medición de texto",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual 16:9",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "verificación a tamaño real dentro de slide",
+        "critical": 0,
+        "major": 0
+      }
+    ]
+  },
+  {
+    "asset_id": "U10-DG-025",
+    "classification": "ecuación anotada",
+    "layout_family": "equation",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_main_pt": 22.5,
+      "equation_pt": 36,
+      "connector_label_pt": 21
+    },
+    "padding_px": 24,
+    "padding_inches": 0.25,
+    "line_text_clearance_px": 12,
+    "line_text_clearance_inches": 0.125,
+    "not_to_scale": false,
+    "object_ids": [
+      "equation",
+      "callout_1",
+      "callout_2",
+      "callout_3",
+      "callout_4"
+    ],
+    "connector_ids": [
+      "leader_1",
+      "leader_2",
+      "leader_3",
+      "leader_4"
+    ],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "preflight geométrico y medición de texto",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual 16:9",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "verificación a tamaño real dentro de slide",
+        "critical": 0,
+        "major": 0
+      }
+    ]
+  },
+  {
+    "asset_id": "U10-DG-026",
+    "classification": "diagrama de proceso",
+    "layout_family": "process",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_main_pt": 22.5,
+      "equation_pt": 36,
+      "connector_label_pt": 21
+    },
+    "padding_px": 24,
+    "padding_inches": 0.25,
+    "line_text_clearance_px": 12,
+    "line_text_clearance_inches": 0.125,
+    "not_to_scale": false,
+    "object_ids": [
+      "step_1",
+      "step_2",
+      "step_3",
+      "step_4",
+      "step_5"
+    ],
+    "connector_ids": [
+      "flow_1",
+      "flow_2",
+      "flow_3",
+      "flow_4"
+    ],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "preflight geométrico y medición de texto",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual 16:9",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "verificación a tamaño real dentro de slide",
+        "critical": 0,
+        "major": 0
+      }
+    ]
+  },
+  {
+    "asset_id": "U10-DG-027",
+    "classification": "diagrama conceptual",
+    "layout_family": "compare",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_main_pt": 22.5,
+      "equation_pt": 36,
+      "connector_label_pt": 21
+    },
+    "padding_px": 24,
+    "padding_inches": 0.25,
+    "line_text_clearance_px": 12,
+    "line_text_clearance_inches": 0.125,
+    "not_to_scale": false,
+    "object_ids": [
+      "compare_1",
+      "compare_2",
+      "compare_3",
+      "compare_4"
+    ],
+    "connector_ids": [],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "preflight geométrico y medición de texto",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual 16:9",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "verificación a tamaño real dentro de slide",
+        "critical": 0,
+        "major": 0
+      }
+    ]
+  },
+  {
+    "asset_id": "U10-DG-028",
+    "classification": "diagrama de proceso",
+    "layout_family": "process",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_main_pt": 22.5,
+      "equation_pt": 36,
+      "connector_label_pt": 21
+    },
+    "padding_px": 24,
+    "padding_inches": 0.25,
+    "line_text_clearance_px": 12,
+    "line_text_clearance_inches": 0.125,
+    "not_to_scale": false,
+    "object_ids": [
+      "step_1",
+      "step_2",
+      "step_3",
+      "step_4",
+      "step_5",
+      "step_6"
+    ],
+    "connector_ids": [
+      "flow_1",
+      "flow_2",
+      "flow_3",
+      "flow_4",
+      "flow_5"
+    ],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "preflight geométrico y medición de texto",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual 16:9",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "verificación a tamaño real dentro de slide",
+        "critical": 0,
+        "major": 0
+      }
+    ]
+  },
+  {
+    "asset_id": "U10-DG-029",
+    "classification": "diagrama conceptual",
+    "layout_family": "compare",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_main_pt": 22.5,
+      "equation_pt": 36,
+      "connector_label_pt": 21
+    },
+    "padding_px": 24,
+    "padding_inches": 0.25,
+    "line_text_clearance_px": 12,
+    "line_text_clearance_inches": 0.125,
+    "not_to_scale": false,
+    "object_ids": [
+      "compare_1",
+      "compare_2",
+      "compare_3",
+      "compare_4",
+      "compare_5"
+    ],
+    "connector_ids": [],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "preflight geométrico y medición de texto",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual 16:9",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "verificación a tamaño real dentro de slide",
+        "critical": 0,
+        "major": 0
+      }
+    ]
+  },
+  {
+    "asset_id": "U10-DG-030",
+    "classification": "ecuación anotada",
+    "layout_family": "equation",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_main_pt": 22.5,
+      "equation_pt": 36,
+      "connector_label_pt": 21
+    },
+    "padding_px": 24,
+    "padding_inches": 0.25,
+    "line_text_clearance_px": 12,
+    "line_text_clearance_inches": 0.125,
+    "not_to_scale": false,
+    "object_ids": [
+      "equation",
+      "callout_1",
+      "callout_2",
+      "callout_3",
+      "callout_4"
+    ],
+    "connector_ids": [
+      "leader_1",
+      "leader_2",
+      "leader_3",
+      "leader_4"
+    ],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "preflight geométrico y medición de texto",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual 16:9",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "verificación a tamaño real dentro de slide",
+        "critical": 0,
+        "major": 0
+      }
+    ]
+  },
+  {
+    "asset_id": "U10-DG-031",
+    "classification": "esquema mixto",
+    "layout_family": "grid",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_main_pt": 22.5,
+      "equation_pt": 36,
+      "connector_label_pt": 21
+    },
+    "padding_px": 24,
+    "padding_inches": 0.25,
+    "line_text_clearance_px": 12,
+    "line_text_clearance_inches": 0.125,
+    "not_to_scale": false,
+    "object_ids": [
+      "concept_1",
+      "concept_2",
+      "concept_3",
+      "concept_4",
+      "concept_5",
+      "concept_6"
+    ],
+    "connector_ids": [],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "preflight geométrico y medición de texto",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual 16:9",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "verificación a tamaño real dentro de slide",
+        "critical": 0,
+        "major": 0
+      }
+    ]
+  },
+  {
+    "asset_id": "U10-DG-032",
+    "classification": "diagrama conceptual",
+    "layout_family": "grid",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_main_pt": 22.5,
+      "equation_pt": 36,
+      "connector_label_pt": 21
+    },
+    "padding_px": 24,
+    "padding_inches": 0.25,
+    "line_text_clearance_px": 12,
+    "line_text_clearance_inches": 0.125,
+    "not_to_scale": false,
+    "object_ids": [
+      "concept_1",
+      "concept_2",
+      "concept_3",
+      "concept_4"
+    ],
+    "connector_ids": [],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "preflight geométrico y medición de texto",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual 16:9",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "verificación a tamaño real dentro de slide",
+        "critical": 0,
+        "major": 0
+      }
+    ]
+  },
+  {
+    "asset_id": "U10-DG-033",
+    "classification": "ecuación anotada",
+    "layout_family": "equation",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_main_pt": 22.5,
+      "equation_pt": 36,
+      "connector_label_pt": 21
+    },
+    "padding_px": 24,
+    "padding_inches": 0.25,
+    "line_text_clearance_px": 12,
+    "line_text_clearance_inches": 0.125,
+    "not_to_scale": false,
+    "object_ids": [
+      "equation",
+      "callout_1",
+      "callout_2",
+      "callout_3",
+      "callout_4"
+    ],
+    "connector_ids": [
+      "leader_1",
+      "leader_2",
+      "leader_3",
+      "leader_4"
+    ],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "preflight geométrico y medición de texto",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual 16:9",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "verificación a tamaño real dentro de slide",
+        "critical": 0,
+        "major": 0
+      }
+    ]
+  },
+  {
+    "asset_id": "U10-DG-034",
+    "classification": "diagrama conceptual",
+    "layout_family": "scene",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_main_pt": 22.5,
+      "equation_pt": 36,
+      "connector_label_pt": 21
+    },
+    "padding_px": 24,
+    "padding_inches": 0.25,
+    "line_text_clearance_px": 12,
+    "line_text_clearance_inches": 0.125,
+    "not_to_scale": true,
+    "object_ids": [
+      "source",
+      "path_top",
+      "path_bottom",
+      "space",
+      "receiver",
+      "condition"
+    ],
+    "connector_ids": [
+      "route_1a",
+      "route_1b",
+      "route_2a",
+      "route_2b",
+      "route_3"
+    ],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "preflight geométrico y medición de texto",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual 16:9",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "verificación a tamaño real dentro de slide",
+        "critical": 0,
+        "major": 0
+      }
+    ]
+  },
+  {
+    "asset_id": "U10-DG-035",
+    "classification": "diagrama de proceso",
+    "layout_family": "compare",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_main_pt": 22.5,
+      "equation_pt": 36,
+      "connector_label_pt": 21
+    },
+    "padding_px": 24,
+    "padding_inches": 0.25,
+    "line_text_clearance_px": 12,
+    "line_text_clearance_inches": 0.125,
+    "not_to_scale": false,
+    "object_ids": [
+      "compare_1",
+      "compare_2",
+      "compare_3",
+      "compare_4",
+      "compare_5",
+      "compare_6"
+    ],
+    "connector_ids": [],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "preflight geométrico y medición de texto",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual 16:9",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "verificación a tamaño real dentro de slide",
+        "critical": 0,
+        "major": 0
+      }
+    ]
+  },
+  {
+    "asset_id": "U10-DG-036",
+    "classification": "diagrama conceptual",
+    "layout_family": "grid",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_main_pt": 22.5,
+      "equation_pt": 36,
+      "connector_label_pt": 21
+    },
+    "padding_px": 24,
+    "padding_inches": 0.25,
+    "line_text_clearance_px": 12,
+    "line_text_clearance_inches": 0.125,
+    "not_to_scale": false,
+    "object_ids": [
+      "concept_1",
+      "concept_2",
+      "concept_3",
+      "concept_4",
+      "concept_5"
+    ],
+    "connector_ids": [],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "preflight geométrico y medición de texto",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual 16:9",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "verificación a tamaño real dentro de slide",
+        "critical": 0,
+        "major": 0
+      }
+    ]
+  },
+  {
+    "asset_id": "U10-DG-037",
+    "classification": "diagrama conceptual",
+    "layout_family": "branch",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_main_pt": 22.5,
+      "equation_pt": 36,
+      "connector_label_pt": 21
+    },
+    "padding_px": 24,
+    "padding_inches": 0.25,
+    "line_text_clearance_px": 12,
+    "line_text_clearance_inches": 0.125,
+    "not_to_scale": true,
+    "object_ids": [
+      "branch_source",
+      "branch_1",
+      "branch_2",
+      "branch_3"
+    ],
+    "connector_ids": [
+      "branch_edge_1",
+      "branch_edge_2",
+      "branch_edge_3"
+    ],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "preflight geométrico y medición de texto",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual 16:9",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "verificación a tamaño real dentro de slide",
+        "critical": 0,
+        "major": 0
+      }
+    ]
+  },
+  {
+    "asset_id": "U10-DG-038",
+    "classification": "diagrama de proceso",
+    "layout_family": "scene",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_main_pt": 22.5,
+      "equation_pt": 36,
+      "connector_label_pt": 21
+    },
+    "padding_px": 24,
+    "padding_inches": 0.25,
+    "line_text_clearance_px": 12,
+    "line_text_clearance_inches": 0.125,
+    "not_to_scale": true,
+    "object_ids": [
+      "source",
+      "path_top",
+      "path_bottom",
+      "space",
+      "receiver",
+      "condition"
+    ],
+    "connector_ids": [
+      "route_1a",
+      "route_1b",
+      "route_2a",
+      "route_2b",
+      "route_3"
+    ],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "preflight geométrico y medición de texto",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual 16:9",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "verificación a tamaño real dentro de slide",
+        "critical": 0,
+        "major": 0
+      }
+    ]
+  },
+  {
+    "asset_id": "U10-DG-039",
+    "classification": "diagrama conceptual",
+    "layout_family": "grid",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_main_pt": 22.5,
+      "equation_pt": 36,
+      "connector_label_pt": 21
+    },
+    "padding_px": 24,
+    "padding_inches": 0.25,
+    "line_text_clearance_px": 12,
+    "line_text_clearance_inches": 0.125,
+    "not_to_scale": false,
+    "object_ids": [
+      "concept_1",
+      "concept_2",
+      "concept_3",
+      "concept_4",
+      "concept_5"
+    ],
+    "connector_ids": [],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "preflight geométrico y medición de texto",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual 16:9",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "verificación a tamaño real dentro de slide",
+        "critical": 0,
+        "major": 0
+      }
+    ]
+  },
+  {
+    "asset_id": "U10-DG-040",
+    "classification": "diagrama conceptual",
+    "layout_family": "grid",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_main_pt": 22.5,
+      "equation_pt": 36,
+      "connector_label_pt": 21
+    },
+    "padding_px": 24,
+    "padding_inches": 0.25,
+    "line_text_clearance_px": 12,
+    "line_text_clearance_inches": 0.125,
+    "not_to_scale": false,
+    "object_ids": [
+      "concept_1",
+      "concept_2",
+      "concept_3",
+      "concept_4",
+      "concept_5"
+    ],
+    "connector_ids": [],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "preflight geométrico y medición de texto",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual 16:9",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "verificación a tamaño real dentro de slide",
+        "critical": 0,
+        "major": 0
+      }
+    ]
+  },
+  {
+    "asset_id": "U10-DG-041",
+    "classification": "diagrama de proceso",
+    "layout_family": "process",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_main_pt": 22.5,
+      "equation_pt": 36,
+      "connector_label_pt": 21
+    },
+    "padding_px": 24,
+    "padding_inches": 0.25,
+    "line_text_clearance_px": 12,
+    "line_text_clearance_inches": 0.125,
+    "not_to_scale": false,
+    "object_ids": [
+      "step_1",
+      "step_2",
+      "step_3",
+      "step_4",
+      "step_5"
+    ],
+    "connector_ids": [
+      "flow_1",
+      "flow_2",
+      "flow_3",
+      "flow_4"
+    ],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "preflight geométrico y medición de texto",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual 16:9",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "verificación a tamaño real dentro de slide",
+        "critical": 0,
+        "major": 0
+      }
+    ]
+  },
+  {
+    "asset_id": "U10-DG-042",
+    "classification": "diagrama conceptual",
+    "layout_family": "compare",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_main_pt": 22.5,
+      "equation_pt": 36,
+      "connector_label_pt": 21
+    },
+    "padding_px": 24,
+    "padding_inches": 0.25,
+    "line_text_clearance_px": 12,
+    "line_text_clearance_inches": 0.125,
+    "not_to_scale": false,
+    "object_ids": [
+      "compare_1",
+      "compare_2",
+      "compare_3",
+      "compare_4"
+    ],
+    "connector_ids": [],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "preflight geométrico y medición de texto",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual 16:9",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "verificación a tamaño real dentro de slide",
+        "critical": 0,
+        "major": 0
+      }
+    ]
+  },
+  {
+    "asset_id": "U10-DG-043",
+    "classification": "diagrama conceptual",
+    "layout_family": "grid",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_main_pt": 22.5,
+      "equation_pt": 36,
+      "connector_label_pt": 21
+    },
+    "padding_px": 24,
+    "padding_inches": 0.25,
+    "line_text_clearance_px": 12,
+    "line_text_clearance_inches": 0.125,
+    "not_to_scale": false,
+    "object_ids": [
+      "concept_1",
+      "concept_2",
+      "concept_3",
+      "concept_4",
+      "concept_5",
+      "concept_6"
+    ],
+    "connector_ids": [],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "preflight geométrico y medición de texto",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual 16:9",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "verificación a tamaño real dentro de slide",
+        "critical": 0,
+        "major": 0
+      }
+    ]
+  },
+  {
+    "asset_id": "U10-DG-044",
+    "classification": "diagrama conceptual",
+    "layout_family": "scene",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_main_pt": 22.5,
+      "equation_pt": 36,
+      "connector_label_pt": 21
+    },
+    "padding_px": 24,
+    "padding_inches": 0.25,
+    "line_text_clearance_px": 12,
+    "line_text_clearance_inches": 0.125,
+    "not_to_scale": true,
+    "object_ids": [
+      "source",
+      "path_top",
+      "path_bottom",
+      "space",
+      "receiver",
+      "condition"
+    ],
+    "connector_ids": [
+      "route_1a",
+      "route_1b",
+      "route_2a",
+      "route_2b",
+      "route_3"
+    ],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "preflight geométrico y medición de texto",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual 16:9",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "verificación a tamaño real dentro de slide",
+        "critical": 0,
+        "major": 0
+      }
+    ]
+  },
+  {
+    "asset_id": "U10-DG-045",
+    "classification": "diagrama de proceso",
+    "layout_family": "branch",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_main_pt": 22.5,
+      "equation_pt": 36,
+      "connector_label_pt": 21
+    },
+    "padding_px": 24,
+    "padding_inches": 0.25,
+    "line_text_clearance_px": 12,
+    "line_text_clearance_inches": 0.125,
+    "not_to_scale": true,
+    "object_ids": [
+      "branch_source",
+      "branch_1",
+      "branch_2",
+      "branch_3"
+    ],
+    "connector_ids": [
+      "branch_edge_1",
+      "branch_edge_2",
+      "branch_edge_3"
+    ],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "preflight geométrico y medición de texto",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual 16:9",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "verificación a tamaño real dentro de slide",
+        "critical": 0,
+        "major": 0
+      }
+    ]
+  },
+  {
+    "asset_id": "U10-DG-046",
+    "classification": "diagrama conceptual",
+    "layout_family": "branch",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_main_pt": 22.5,
+      "equation_pt": 36,
+      "connector_label_pt": 21
+    },
+    "padding_px": 24,
+    "padding_inches": 0.25,
+    "line_text_clearance_px": 12,
+    "line_text_clearance_inches": 0.125,
+    "not_to_scale": true,
+    "object_ids": [
+      "branch_source",
+      "branch_1",
+      "branch_2",
+      "branch_3",
+      "branch_4"
+    ],
+    "connector_ids": [
+      "branch_edge_1",
+      "branch_edge_2",
+      "branch_edge_3",
+      "branch_edge_4"
+    ],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "preflight geométrico y medición de texto",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual 16:9",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "verificación a tamaño real dentro de slide",
+        "critical": 0,
+        "major": 0
+      }
+    ]
+  },
+  {
+    "asset_id": "U10-DG-047",
+    "classification": "diagrama de proceso",
+    "layout_family": "process",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_main_pt": 22.5,
+      "equation_pt": 36,
+      "connector_label_pt": 21
+    },
+    "padding_px": 24,
+    "padding_inches": 0.25,
+    "line_text_clearance_px": 12,
+    "line_text_clearance_inches": 0.125,
+    "not_to_scale": false,
+    "object_ids": [
+      "step_1",
+      "step_2",
+      "step_3",
+      "step_4",
+      "step_5"
+    ],
+    "connector_ids": [
+      "flow_1",
+      "flow_2",
+      "flow_3",
+      "flow_4"
+    ],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "preflight geométrico y medición de texto",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual 16:9",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "verificación a tamaño real dentro de slide",
+        "critical": 0,
+        "major": 0
+      }
+    ]
+  },
+  {
+    "asset_id": "U10-DG-048",
+    "classification": "diagrama conceptual",
+    "layout_family": "scene",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_main_pt": 22.5,
+      "equation_pt": 36,
+      "connector_label_pt": 21
+    },
+    "padding_px": 24,
+    "padding_inches": 0.25,
+    "line_text_clearance_px": 12,
+    "line_text_clearance_inches": 0.125,
+    "not_to_scale": true,
+    "object_ids": [
+      "source",
+      "path_top",
+      "path_bottom",
+      "space",
+      "receiver",
+      "condition"
+    ],
+    "connector_ids": [
+      "route_1a",
+      "route_1b",
+      "route_2a",
+      "route_2b",
+      "route_3"
+    ],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "preflight geométrico y medición de texto",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual 16:9",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "verificación a tamaño real dentro de slide",
+        "critical": 0,
+        "major": 0
+      }
+    ]
+  },
+  {
+    "asset_id": "U10-DG-049",
+    "classification": "diagrama de proceso",
+    "layout_family": "process",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_main_pt": 22.5,
+      "equation_pt": 36,
+      "connector_label_pt": 21
+    },
+    "padding_px": 24,
+    "padding_inches": 0.25,
+    "line_text_clearance_px": 12,
+    "line_text_clearance_inches": 0.125,
+    "not_to_scale": false,
+    "object_ids": [
+      "step_1",
+      "step_2",
+      "step_3",
+      "step_4",
+      "step_5",
+      "step_6"
+    ],
+    "connector_ids": [
+      "flow_1",
+      "flow_2",
+      "flow_3",
+      "flow_4",
+      "flow_5"
+    ],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "preflight geométrico y medición de texto",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual 16:9",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "verificación a tamaño real dentro de slide",
+        "critical": 0,
+        "major": 0
+      }
+    ]
+  },
+  {
+    "asset_id": "U10-DG-050",
+    "classification": "diagrama conceptual",
+    "layout_family": "scene",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_main_pt": 22.5,
+      "equation_pt": 36,
+      "connector_label_pt": 21
+    },
+    "padding_px": 24,
+    "padding_inches": 0.25,
+    "line_text_clearance_px": 12,
+    "line_text_clearance_inches": 0.125,
+    "not_to_scale": true,
+    "object_ids": [
+      "source",
+      "path_top",
+      "path_bottom",
+      "space",
+      "receiver",
+      "condition"
+    ],
+    "connector_ids": [
+      "route_1a",
+      "route_1b",
+      "route_2a",
+      "route_2b",
+      "route_3"
+    ],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "preflight geométrico y medición de texto",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual 16:9",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "verificación a tamaño real dentro de slide",
+        "critical": 0,
+        "major": 0
+      }
+    ]
+  },
+  {
+    "asset_id": "U10-DG-051",
+    "classification": "esquema mixto",
+    "layout_family": "scene",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_main_pt": 22.5,
+      "equation_pt": 36,
+      "connector_label_pt": 21
+    },
+    "padding_px": 24,
+    "padding_inches": 0.25,
+    "line_text_clearance_px": 12,
+    "line_text_clearance_inches": 0.125,
+    "not_to_scale": true,
+    "object_ids": [
+      "source",
+      "path_top",
+      "path_bottom",
+      "space",
+      "receiver",
+      "condition"
+    ],
+    "connector_ids": [
+      "route_1a",
+      "route_1b",
+      "route_2a",
+      "route_2b",
+      "route_3"
+    ],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "preflight geométrico y medición de texto",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual 16:9",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "verificación a tamaño real dentro de slide",
+        "critical": 0,
+        "major": 0
+      }
+    ]
+  },
+  {
+    "asset_id": "U10-DG-052",
+    "classification": "diagrama conceptual",
+    "layout_family": "grid",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_main_pt": 22.5,
+      "equation_pt": 36,
+      "connector_label_pt": 21
+    },
+    "padding_px": 24,
+    "padding_inches": 0.25,
+    "line_text_clearance_px": 12,
+    "line_text_clearance_inches": 0.125,
+    "not_to_scale": false,
+    "object_ids": [
+      "concept_1",
+      "concept_2",
+      "concept_3",
+      "concept_4",
+      "concept_5"
+    ],
+    "connector_ids": [],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "preflight geométrico y medición de texto",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual 16:9",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "verificación a tamaño real dentro de slide",
+        "critical": 0,
+        "major": 0
+      }
+    ]
+  },
+  {
+    "asset_id": "U10-DG-053",
+    "classification": "diagrama conceptual",
+    "layout_family": "grid",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_main_pt": 22.5,
+      "equation_pt": 36,
+      "connector_label_pt": 21
+    },
+    "padding_px": 24,
+    "padding_inches": 0.25,
+    "line_text_clearance_px": 12,
+    "line_text_clearance_inches": 0.125,
+    "not_to_scale": false,
+    "object_ids": [
+      "concept_1",
+      "concept_2",
+      "concept_3",
+      "concept_4",
+      "concept_5"
+    ],
+    "connector_ids": [],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "preflight geométrico y medición de texto",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual 16:9",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "verificación a tamaño real dentro de slide",
+        "critical": 0,
+        "major": 0
+      }
+    ]
+  },
+  {
+    "asset_id": "U10-DG-054",
+    "classification": "diagrama conceptual",
+    "layout_family": "compare",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_main_pt": 22.5,
+      "equation_pt": 36,
+      "connector_label_pt": 21
+    },
+    "padding_px": 24,
+    "padding_inches": 0.25,
+    "line_text_clearance_px": 12,
+    "line_text_clearance_inches": 0.125,
+    "not_to_scale": false,
+    "object_ids": [
+      "compare_1",
+      "compare_2",
+      "compare_3",
+      "compare_4",
+      "compare_5",
+      "compare_6"
+    ],
+    "connector_ids": [],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "preflight geométrico y medición de texto",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual 16:9",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "verificación a tamaño real dentro de slide",
+        "critical": 0,
+        "major": 0
+      }
+    ]
+  },
+  {
+    "asset_id": "U10-DG-055",
+    "classification": "diagrama conceptual",
+    "layout_family": "synthesis",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_main_pt": 22.5,
+      "equation_pt": 36,
+      "connector_label_pt": 21
+    },
+    "padding_px": 24,
+    "padding_inches": 0.25,
+    "line_text_clearance_px": 12,
+    "line_text_clearance_inches": 0.125,
+    "not_to_scale": false,
+    "object_ids": [
+      "concept_1",
+      "concept_2",
+      "concept_3",
+      "concept_4",
+      "concept_5",
+      "concept_6",
+      "concept_7",
+      "concept_8",
+      "concept_9"
+    ],
+    "connector_ids": [
+      "synthesis_1",
+      "synthesis_2",
+      "synthesis_3",
+      "synthesis_4",
+      "synthesis_5",
+      "synthesis_6",
+      "synthesis_7",
+      "synthesis_8"
+    ],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "preflight geométrico y medición de texto",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual 16:9",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "verificación a tamaño real dentro de slide",
+        "critical": 0,
+        "major": 0
+      }
+    ]
+  },
+  {
+    "asset_id": "U10-DG-056",
+    "classification": "ecuación anotada",
+    "layout_family": "equation",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_main_pt": 22.5,
+      "equation_pt": 36,
+      "connector_label_pt": 21
+    },
+    "padding_px": 24,
+    "padding_inches": 0.25,
+    "line_text_clearance_px": 12,
+    "line_text_clearance_inches": 0.125,
+    "not_to_scale": false,
+    "object_ids": [
+      "equation",
+      "callout_1",
+      "callout_2",
+      "callout_3",
+      "callout_4"
+    ],
+    "connector_ids": [
+      "leader_1",
+      "leader_2",
+      "leader_3",
+      "leader_4"
+    ],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "preflight geométrico y medición de texto",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual 16:9",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "verificación a tamaño real dentro de slide",
+        "critical": 0,
+        "major": 0
+      }
+    ]
+  },
+  {
+    "asset_id": "U10-DG-057",
+    "classification": "ecuación anotada",
+    "layout_family": "equation",
+    "canvas_px": [
+      1280,
+      720
+    ],
+    "slide_ratio": "16:9",
+    "font_floor": {
+      "node_main_pt": 22.5,
+      "equation_pt": 36,
+      "connector_label_pt": 21
+    },
+    "padding_px": 24,
+    "padding_inches": 0.25,
+    "line_text_clearance_px": 12,
+    "line_text_clearance_inches": 0.125,
+    "not_to_scale": false,
+    "object_ids": [
+      "equation",
+      "callout_1",
+      "callout_2",
+      "callout_3",
+      "callout_4"
+    ],
+    "connector_ids": [
+      "leader_1",
+      "leader_2",
+      "leader_3",
+      "leader_4"
+    ],
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "status": "approved",
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "preflight geométrico y medición de texto",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual 16:9",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 3,
+        "action": "verificación a tamaño real dentro de slide",
+        "critical": 0,
+        "major": 0
+      }
+    ]
+  }
+]

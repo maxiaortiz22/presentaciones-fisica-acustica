@@ -1,0 +1,97 @@
+{
+  "id": "U10-DG-043",
+  "slides": "U10-067 · `diagram`",
+  "purposeType": "Límite causal individual.",
+  "nodesText": "Medición; historia de exposición; función; evaluación clínica; variables mediadoras.",
+  "connectorText": "“contribuye a”, “requiere”.",
+  "equationText": "Ninguna.",
+  "textEstimate": "2–7 palabras/nodo.",
+  "layout": "FA_04; zigzag evitado; secuencia horizontal + mediadores abajo.",
+  "editable": "Sí; SVG/PNG.",
+  "validationState": "V1/V3; aprobado tras render 2026-08-12",
+  "nodes": [
+    {
+      "id": "concept_1",
+      "x": 80,
+      "y": 155,
+      "w": 354.6666666666667,
+      "h": 190,
+      "title": "Medición",
+      "style": "physical",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_2",
+      "x": 462.6666666666667,
+      "y": 155,
+      "w": 354.6666666666667,
+      "h": 190,
+      "title": "Historia de\nexposición",
+      "style": "accent",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_3",
+      "x": 845.3333333333334,
+      "y": 155,
+      "w": 354.6666666666667,
+      "h": 190,
+      "title": "Función",
+      "style": "neutral",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_4",
+      "x": 80,
+      "y": 373,
+      "w": 354.6666666666667,
+      "h": 190,
+      "title": "Evaluación\nclínica",
+      "style": "clinical",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_5",
+      "x": 462.6666666666667,
+      "y": 373,
+      "w": 354.6666666666667,
+      "h": 190,
+      "title": "Variables\nmediadoras",
+      "style": "physical",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_6",
+      "x": 845.3333333333334,
+      "y": 373,
+      "w": 354.6666666666667,
+      "h": 190,
+      "title": "Conclusión\nacotada",
+      "style": "accent",
+      "role": "node",
+      "font": 32
+    }
+  ],
+  "edges": [],
+  "notToScale": false,
+  "layoutFamily": "grid",
+  "classification": "diagrama conceptual",
+  "title": "Límite causal individual",
+  "items": [
+    "Medición",
+    "Historia de exposición",
+    "Función",
+    "Evaluación clínica",
+    "Variables mediadoras",
+    "Conclusión acotada"
+  ],
+  "source": "Libro del curso, capítulo 10; brief, storyboard y diagram_plan de la Unidad 10. Síntesis visual propia de la cátedra.",
+  "caption": "Límite causal individual. Medición; historia de exposición; función; evaluación clínica; variables mediadoras.",
+  "alt": "Límite causal individual. Medición; historia de exposición; función; evaluación clínica; variables mediadoras. Orden de lectura: “contribuye a”, “requiere”.",
+  "footer": "Relación de lectura: “contribuye a”, “requiere”."
+}

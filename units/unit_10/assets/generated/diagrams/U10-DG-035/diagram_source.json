@@ -1,0 +1,97 @@
+{
+  "id": "U10-DG-035",
+  "slides": "U10-056 · `diagram`",
+  "purposeType": "Selector de descriptor.",
+  "nodesText": "Preguntas sobre instante/extremo/energía/distribución/contraste; salidas.",
+  "connectorText": "Pregunta → indicador.",
+  "equationText": "`L(t)`, `L_max`, `L_peak`, `L_eq,T`, `L_N,T`, SNR.",
+  "textEstimate": "2–5 palabras/nodo.",
+  "layout": "FA_16; árbol ≤2 niveles o matriz; no seis tarjetas diminutas.",
+  "editable": "Sí; SVG/PNG.",
+  "validationState": "V1/V3; aprobado tras render 2026-08-12",
+  "nodes": [
+    {
+      "id": "compare_1",
+      "x": 80,
+      "y": 155,
+      "w": 510,
+      "h": 120,
+      "title": "¿Nivel en cada instante?\n→ L(t)",
+      "style": "physical",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "compare_2",
+      "x": 690,
+      "y": 155,
+      "w": 510,
+      "h": 120,
+      "title": "¿Extremo con detector? →\nL_max",
+      "style": "clinical",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "compare_3",
+      "x": 80,
+      "y": 303,
+      "w": 510,
+      "h": 120,
+      "title": "¿Pico de presión? →\nL_peak",
+      "style": "neutral",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "compare_4",
+      "x": 690,
+      "y": 303,
+      "w": 510,
+      "h": 120,
+      "title": "¿Energía en T? → L_eq,T",
+      "style": "accent",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "compare_5",
+      "x": 80,
+      "y": 451,
+      "w": 510,
+      "h": 120,
+      "title": "¿Excedencia? → L_N,T",
+      "style": "physical",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "compare_6",
+      "x": 690,
+      "y": 451,
+      "w": 510,
+      "h": 120,
+      "title": "¿Contraste? → SNR",
+      "style": "clinical",
+      "role": "node",
+      "font": 32
+    }
+  ],
+  "edges": [],
+  "notToScale": false,
+  "layoutFamily": "compare",
+  "classification": "diagrama de proceso",
+  "title": "Selector de descriptor",
+  "items": [
+    "¿Nivel en cada instante? → L(t)",
+    "¿Extremo con detector? → L_max",
+    "¿Pico de presión? → L_peak",
+    "¿Energía en T? → L_eq,T",
+    "¿Excedencia? → L_N,T",
+    "¿Contraste? → SNR"
+  ],
+  "source": "Libro del curso, capítulo 10; brief, storyboard y diagram_plan de la Unidad 10. Síntesis visual propia de la cátedra.",
+  "caption": "Selector de descriptor. Preguntas sobre instante/extremo/energía/distribución/contraste; salidas.",
+  "alt": "Selector de descriptor. Preguntas sobre instante/extremo/energía/distribución/contraste; salidas. Orden de lectura: Pregunta → indicador.",
+  "footer": "Relación de lectura: Pregunta → indicador."
+}

@@ -1,0 +1,123 @@
+{
+  "id": "U10-DG-024",
+  "slides": "U10-040 · `diagram`",
+  "purposeType": "Definición visual de NBN.",
+  "nodesText": "Espectro amplio; filtro centrado; banda de salida; `f_L/f_c/f_H`.",
+  "connectorText": "“selecciona”.",
+  "equationText": "`Δf=f_H−f_L`.",
+  "textEstimate": "1–5 palabras/nodo.",
+  "layout": "FA_08; mitad proceso, mitad respuesta idealizada.",
+  "editable": "Sí; SVG/PNG.",
+  "validationState": "V1/V2; aprobado tras render 2026-08-12",
+  "nodes": [
+    {
+      "id": "equation",
+      "x": 355,
+      "y": 270,
+      "w": 570,
+      "h": 145,
+      "title": "NBN: fₗ — f꜀ — fₕ",
+      "style": "equation",
+      "role": "equation",
+      "font": 48
+    },
+    {
+      "id": "callout_1",
+      "x": 75,
+      "y": 140,
+      "w": 270,
+      "h": 110,
+      "title": "Espectro\namplio",
+      "style": "physical",
+      "role": "callout",
+      "font": 30
+    },
+    {
+      "id": "callout_2",
+      "x": 930,
+      "y": 140,
+      "w": 270,
+      "h": 110,
+      "title": "Filtro\ncentrado",
+      "style": "accent",
+      "role": "callout",
+      "font": 30
+    },
+    {
+      "id": "callout_3",
+      "x": 75,
+      "y": 480,
+      "w": 270,
+      "h": 110,
+      "title": "fₗ: límite\ninferior",
+      "style": "neutral",
+      "role": "callout",
+      "font": 30
+    },
+    {
+      "id": "callout_4",
+      "x": 930,
+      "y": 480,
+      "w": 270,
+      "h": 110,
+      "title": "f꜀: centro",
+      "style": "clinical",
+      "role": "callout",
+      "font": 30
+    }
+  ],
+  "edges": [
+    {
+      "id": "leader_1",
+      "from": "callout_1",
+      "to": "equation",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "leader",
+      "semantic": ""
+    },
+    {
+      "id": "leader_2",
+      "from": "callout_2",
+      "to": "equation",
+      "fromSide": "left",
+      "toSide": "right",
+      "kind": "leader",
+      "semantic": ""
+    },
+    {
+      "id": "leader_3",
+      "from": "callout_3",
+      "to": "equation",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "leader",
+      "semantic": ""
+    },
+    {
+      "id": "leader_4",
+      "from": "callout_4",
+      "to": "equation",
+      "fromSide": "left",
+      "toSide": "right",
+      "kind": "leader",
+      "semantic": ""
+    }
+  ],
+  "notToScale": false,
+  "layoutFamily": "equation",
+  "classification": "diagrama conceptual",
+  "title": "Definición visual de NBN",
+  "items": [
+    "Espectro amplio",
+    "Filtro centrado",
+    "fₗ: límite inferior",
+    "f꜀: centro",
+    "fₕ: límite superior",
+    "Banda de salida NBN"
+  ],
+  "source": "Libro del curso, capítulo 10; brief, storyboard y diagram_plan de la Unidad 10. Síntesis visual propia de la cátedra.",
+  "caption": "Definición visual de NBN. Espectro amplio; filtro centrado; banda de salida; f_L/f_c/f_H.",
+  "alt": "Definición visual de NBN. Espectro amplio; filtro centrado; banda de salida; f_L/f_c/f_H. Orden de lectura: “selecciona”.",
+  "footer": "Relación de lectura: “selecciona”."
+}

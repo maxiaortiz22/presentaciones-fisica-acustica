@@ -1,0 +1,85 @@
+{
+  "id": "U10-DG-036",
+  "slides": "U10-058 · `diagram`",
+  "purposeType": "Puente físico-perceptual al masking.",
+  "nodesText": "Ruido externo; representación interna; señal; detectabilidad.",
+  "connectorText": "“eleva competencia”, “reduce detectabilidad”.",
+  "equationText": "Ninguna.",
+  "textEstimate": "2–7 palabras/nodo.",
+  "layout": "FA_12; cadena simple, sin anatomía detallada.",
+  "editable": "Sí; SVG/PNG.",
+  "validationState": "V1; aprobado tras render 2026-08-12",
+  "nodes": [
+    {
+      "id": "concept_1",
+      "x": 80,
+      "y": 155,
+      "w": 354.6666666666667,
+      "h": 190,
+      "title": "Ruido externo",
+      "style": "physical",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_2",
+      "x": 462.6666666666667,
+      "y": 155,
+      "w": 354.6666666666667,
+      "h": 190,
+      "title": "Representación\ninterna",
+      "style": "accent",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_3",
+      "x": 845.3333333333334,
+      "y": 155,
+      "w": 354.6666666666667,
+      "h": 190,
+      "title": "Señal objetivo",
+      "style": "neutral",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_4",
+      "x": 80,
+      "y": 373,
+      "w": 354.6666666666667,
+      "h": 190,
+      "title": "Competencia",
+      "style": "clinical",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_5",
+      "x": 462.6666666666667,
+      "y": 373,
+      "w": 354.6666666666667,
+      "h": 190,
+      "title": "Detectabilidad",
+      "style": "physical",
+      "role": "node",
+      "font": 32
+    }
+  ],
+  "edges": [],
+  "notToScale": false,
+  "layoutFamily": "grid",
+  "classification": "diagrama conceptual",
+  "title": "Puente físico-perceptual al masking",
+  "items": [
+    "Ruido externo",
+    "Representación interna",
+    "Señal objetivo",
+    "Competencia",
+    "Detectabilidad"
+  ],
+  "source": "Libro del curso, capítulo 10; brief, storyboard y diagram_plan de la Unidad 10. Síntesis visual propia de la cátedra.",
+  "caption": "Puente físico-perceptual al masking. Ruido externo; representación interna; señal; detectabilidad.",
+  "alt": "Puente físico-perceptual al masking. Ruido externo; representación interna; señal; detectabilidad. Orden de lectura: “eleva competencia”, “reduce detectabilidad”.",
+  "footer": "Relación de lectura: “eleva competencia”, “reduce detectabilidad”."
+}

@@ -1,0 +1,85 @@
+{
+  "id": "U10-DG-053",
+  "slides": "U10-080 · `diagram`",
+  "purposeType": "Capa señal deliberada/control/autoridad.",
+  "nodesText": "DG-050 + enmascarador; controles; cajas norma/protocolo.",
+  "connectorText": "“requiere fuente”, “actuar aquí”.",
+  "equationText": "Ninguna.",
+  "textEstimate": "2–7 palabras/nodo.",
+  "layout": "FA_12; decisiones externas en margen derecho; no simular aprobación.",
+  "editable": "Sí; SVG/PNG.",
+  "validationState": "V1/V3/V4; aprobado tras render 2026-08-12",
+  "nodes": [
+    {
+      "id": "concept_1",
+      "x": 80,
+      "y": 155,
+      "w": 354.6666666666667,
+      "h": 190,
+      "title": "Enmascarador\ndeliberado",
+      "style": "physical",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_2",
+      "x": 462.6666666666667,
+      "y": 155,
+      "w": 354.6666666666667,
+      "h": 190,
+      "title": "Control en fuente",
+      "style": "accent",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_3",
+      "x": 845.3333333333334,
+      "y": 155,
+      "w": 354.6666666666667,
+      "h": 190,
+      "title": "Control en\ntrayecto",
+      "style": "neutral",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_4",
+      "x": 80,
+      "y": 373,
+      "w": 354.6666666666667,
+      "h": 190,
+      "title": "Norma: fuente\nrequerida",
+      "style": "clinical",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_5",
+      "x": 462.6666666666667,
+      "y": 373,
+      "w": 354.6666666666667,
+      "h": 190,
+      "title": "Protocolo:\nautoridad clínica",
+      "style": "physical",
+      "role": "node",
+      "font": 32
+    }
+  ],
+  "edges": [],
+  "notToScale": false,
+  "layoutFamily": "grid",
+  "classification": "diagrama conceptual",
+  "title": "Capa señal deliberada/control/autoridad",
+  "items": [
+    "Enmascarador deliberado",
+    "Control en fuente",
+    "Control en trayecto",
+    "Norma: fuente requerida",
+    "Protocolo: autoridad clínica"
+  ],
+  "source": "Libro del curso, capítulo 10; brief, storyboard y diagram_plan de la Unidad 10. Síntesis visual propia de la cátedra.",
+  "caption": "Capa señal deliberada/control/autoridad. DG-050 + enmascarador; controles; cajas norma/protocolo.",
+  "alt": "Capa señal deliberada/control/autoridad. DG-050 + enmascarador; controles; cajas norma/protocolo. Orden de lectura: “requiere fuente”, “actuar aquí”.",
+  "footer": "Relación de lectura: “requiere fuente”, “actuar aquí”."
+}

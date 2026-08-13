@@ -1,0 +1,73 @@
+{
+  "id": "U10-DG-017",
+  "slides": "U10-025 · `diagram`",
+  "purposeType": "Matriz de descriptores.",
+  "nodesText": "Filas media/RMS/varianza/distribución; columnas pregunta/unidad/límite.",
+  "connectorText": "Sin flechas; relación por alineación.",
+  "equationText": "Símbolos, no derivaciones.",
+  "textEstimate": "2–7 palabras/celda.",
+  "layout": "FA_16/FA_18; ≤4 filas, columnas ≥1,6 in.",
+  "editable": "Tabla nativa editable; PNG.",
+  "validationState": "V0/V3; aprobado tras render 2026-08-12",
+  "nodes": [
+    {
+      "id": "compare_1",
+      "x": 80,
+      "y": 155,
+      "w": 510,
+      "h": 170,
+      "title": "Media · signo · Pa",
+      "style": "physical",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "compare_2",
+      "x": 690,
+      "y": 155,
+      "w": 510,
+      "h": 170,
+      "title": "RMS · tamaño cuadrático ·\nPa",
+      "style": "clinical",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "compare_3",
+      "x": 80,
+      "y": 353,
+      "w": 510,
+      "h": 170,
+      "title": "Varianza · dispersión ·\nPa²",
+      "style": "neutral",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "compare_4",
+      "x": 690,
+      "y": 353,
+      "w": 510,
+      "h": 170,
+      "title": "Distribución · frecuencia\nrelativa · 1",
+      "style": "accent",
+      "role": "node",
+      "font": 32
+    }
+  ],
+  "edges": [],
+  "notToScale": false,
+  "layoutFamily": "compare",
+  "classification": "diagrama conceptual",
+  "title": "Matriz de descriptores",
+  "items": [
+    "Media · signo · Pa",
+    "RMS · tamaño cuadrático · Pa",
+    "Varianza · dispersión · Pa²",
+    "Distribución · frecuencia relativa · 1"
+  ],
+  "source": "Libro del curso, capítulo 10; brief, storyboard y diagram_plan de la Unidad 10. Síntesis visual propia de la cátedra.",
+  "caption": "Matriz de descriptores. Filas media/RMS/varianza/distribución; columnas pregunta/unidad/límite.",
+  "alt": "Matriz de descriptores. Filas media/RMS/varianza/distribución; columnas pregunta/unidad/límite. Orden de lectura: Sin flechas; relación por alineación.",
+  "footer": "Relación de lectura: Sin flechas; relación por alineación."
+}

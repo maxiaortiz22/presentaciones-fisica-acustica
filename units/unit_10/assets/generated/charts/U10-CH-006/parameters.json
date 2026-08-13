@@ -1,0 +1,14 @@
+{
+  "fs_Hz": 16000,
+  "seed": 606,
+  "band_Hz": [
+    250,
+    3500
+  ],
+  "welch": {
+    "window": "hann",
+    "nperseg": 2048,
+    "noverlap": 1024,
+    "one_sided": true
+  }
+}

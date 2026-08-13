@@ -1,0 +1,97 @@
+{
+  "id": "U10-DG-031",
+  "slides": "U10-050 · `mixed`",
+  "purposeType": "Ejemplo de `L_eq` por intervalos iguales.",
+  "nodesText": "Tres intervalos; niveles; conversión lineal; suma; log; resultado.",
+  "connectorText": "Flechas de cálculo.",
+  "equationText": "Fórmula de promedio energético.",
+  "textEstimate": "1 línea/etapa.",
+  "layout": "FA_10; línea temporal arriba, cálculo abajo.",
+  "editable": "Sí; SVG/PNG.",
+  "validationState": "V1/V2/V3; aprobado tras render 2026-08-12",
+  "nodes": [
+    {
+      "id": "concept_1",
+      "x": 80,
+      "y": 155,
+      "w": 354.6666666666667,
+      "h": 190,
+      "title": "15 min: 88 dB(A)",
+      "style": "physical",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_2",
+      "x": 462.6666666666667,
+      "y": 155,
+      "w": 354.6666666666667,
+      "h": 190,
+      "title": "15 min: 92 dB(A)",
+      "style": "accent",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_3",
+      "x": 845.3333333333334,
+      "y": 155,
+      "w": 354.6666666666667,
+      "h": 190,
+      "title": "15 min: 86 dB(A)",
+      "style": "neutral",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_4",
+      "x": 80,
+      "y": 373,
+      "w": 354.6666666666667,
+      "h": 190,
+      "title": "15 min: 90 dB(A)",
+      "style": "clinical",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_5",
+      "x": 462.6666666666667,
+      "y": 373,
+      "w": 354.6666666666667,
+      "h": 190,
+      "title": "Promedio lineal\nenergético",
+      "style": "physical",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_6",
+      "x": 845.3333333333334,
+      "y": 373,
+      "w": 354.6666666666667,
+      "h": 190,
+      "title": "Lₐeq,1 h ≈ 89,6\ndB(A)",
+      "style": "accent",
+      "role": "node",
+      "font": 32
+    }
+  ],
+  "edges": [],
+  "notToScale": false,
+  "layoutFamily": "grid",
+  "classification": "esquema mixto",
+  "title": "Ejemplo de L_eq por intervalos iguales",
+  "items": [
+    "15 min: 88 dB(A)",
+    "15 min: 92 dB(A)",
+    "15 min: 86 dB(A)",
+    "15 min: 90 dB(A)",
+    "Promedio lineal energético",
+    "Lₐeq,1 h ≈ 89,6 dB(A)"
+  ],
+  "source": "Libro del curso, capítulo 10; brief, storyboard y diagram_plan de la Unidad 10. Síntesis visual propia de la cátedra.",
+  "caption": "Ejemplo de L_eq por intervalos iguales. Tres intervalos; niveles; conversión lineal; suma; log; resultado.",
+  "alt": "Ejemplo de L_eq por intervalos iguales. Tres intervalos; niveles; conversión lineal; suma; log; resultado. Orden de lectura: Flechas de cálculo.",
+  "footer": "Relación de lectura: Flechas de cálculo."
+}

@@ -1,0 +1,85 @@
+{
+  "id": "U10-DG-052",
+  "slides": "U10-079 · `diagram`",
+  "purposeType": "Capa espectro/nivel/SNR.",
+  "nodesText": "DG-050 + bandas, indicador por fuente y conversación objetivo.",
+  "connectorText": "Líderes “medir por bandas”, “comparar”.",
+  "equationText": "`L_Aeq,T`, pico, SNR como rótulos.",
+  "textEstimate": "1–5 palabras/callout.",
+  "layout": "FA_12; mismas posiciones; no mostrar valores inventados.",
+  "editable": "Sí; SVG/PNG.",
+  "validationState": "V1/V3/V4; aprobado tras render 2026-08-12",
+  "nodes": [
+    {
+      "id": "concept_1",
+      "x": 80,
+      "y": 155,
+      "w": 354.6666666666667,
+      "h": 190,
+      "title": "Tránsito · medir\npor bandas",
+      "style": "physical",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_2",
+      "x": 462.6666666666667,
+      "y": 155,
+      "w": 354.6666666666667,
+      "h": 190,
+      "title": "HVAC · Lₐeq,T",
+      "style": "accent",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_3",
+      "x": 845.3333333333334,
+      "y": 155,
+      "w": 354.6666666666667,
+      "h": 190,
+      "title": "Portazo · pico /\nmáximo",
+      "style": "neutral",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_4",
+      "x": 80,
+      "y": 373,
+      "w": 354.6666666666667,
+      "h": 190,
+      "title": "Conversación ·\nSNR",
+      "style": "clinical",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_5",
+      "x": 462.6666666666667,
+      "y": 373,
+      "w": 354.6666666666667,
+      "h": 190,
+      "title": "Sin valores\ninventados",
+      "style": "physical",
+      "role": "node",
+      "font": 32
+    }
+  ],
+  "edges": [],
+  "notToScale": false,
+  "layoutFamily": "grid",
+  "classification": "diagrama conceptual",
+  "title": "Capa espectro/nivel/SNR",
+  "items": [
+    "Tránsito · medir por bandas",
+    "HVAC · Lₐeq,T",
+    "Portazo · pico / máximo",
+    "Conversación · SNR",
+    "Sin valores inventados"
+  ],
+  "source": "Libro del curso, capítulo 10; brief, storyboard y diagram_plan de la Unidad 10. Síntesis visual propia de la cátedra.",
+  "caption": "Capa espectro/nivel/SNR. DG-050 + bandas, indicador por fuente y conversación objetivo.",
+  "alt": "Capa espectro/nivel/SNR. DG-050 + bandas, indicador por fuente y conversación objetivo. Orden de lectura: Líderes “medir por bandas”, “comparar”.",
+  "footer": "Relación de lectura: Líderes “medir por bandas”, “comparar”."
+}

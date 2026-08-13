@@ -210,7 +210,10 @@
 | ruido con espectro de habla | Ruido cuya envolvente espectral aproxima la distribución de largo plazo del habla. | 10 | Preferido frente a “ruido vocal”. |
 | ruido de banda estrecha (NBN) | Ruido limitado a una banda relativamente angosta alrededor de una frecuencia central. | 10 | Se usa, entre otros fines, como enmascarador tonal en audiometría. |
 | estacionariedad | Propiedad por la que ciertas estadísticas de una señal permanecen invariantes en el intervalo considerado. | 10 | Siempre depende de escala temporal y criterio. |
+| realización de un proceso aleatorio | Registro concreto obtenido al observar una vez un proceso aleatorio durante un intervalo y bajo condiciones definidas. | 10 | Una realización no agota el proceso ni permite inferir por sí sola todas sus estadísticas. |
 | densidad espectral de potencia | Distribución de potencia media por unidad de frecuencia. | 10 | Unidad típica: magnitud²/Hz o W/Hz según la señal. |
+| ruido de fondo | Señal acústica interferente presente en una condición de observación cuando se intenta medir, detectar o interpretar otra señal. | 10 | Depende de la tarea y del intervalo; no equivale automáticamente a un nivel de excedencia ni a todo sonido ajeno a la fuente objetivo. |
+| nivel de excedencia | Nivel superado durante un porcentaje definido del intervalo de observación. | 10 | Se escribe `L_N,T`; debe declarar ponderación, respuesta temporal, intervalo y método cuando correspondan. `L_90` no es sinónimo universal de ruido de fondo. |
 
 ## Decisiones terminológicas provisionales
 
@@ -220,6 +223,7 @@
 - Preferir **señal enmascarante** o **enmascarador**; evitar alternar con “máscara” sin definirla.
 - Escribir **efecto de precedencia** y, cuando corresponda, **efecto de Haas**.
 - Usar **ruido con espectro de habla** en lugar de “ruido vocal”.
+- Distinguir **ruido de fondo**, **señal enmascarante** y **protección auditiva**: describen papeles distintos, aunque una misma clase espectral pueda intervenir en más de uno.
 - Usar **sonómetro** en lugar de “decibelímetro”.
 - Presentar **conducción ósea** como fenómeno multimecanismo; explicar “paratimpánico” solo como terminología del programa o histórica.
 - Usar **conducto coclear o rampa media** en el texto visible; reservar *scala media* como equivalencia bibliográfica. Preferir **rampa vestibular** y **rampa timpánica** en español salvo cita anatómica.

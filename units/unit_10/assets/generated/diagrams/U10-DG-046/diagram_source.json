@@ -1,0 +1,122 @@
+{
+  "id": "U10-DG-046",
+  "slides": "U10-071 · `diagram`",
+  "purposeType": "Diferenciar reducción, absorción, aislamiento, cancelación y protección.",
+  "nodesText": "Cinco términos; mecanismo; dato de verificación.",
+  "connectorText": "Sin flechas o una relación por fila.",
+  "equationText": "No usar `R` genérico.",
+  "textEstimate": "2–7 palabras/celda.",
+  "layout": "FA_11/18; cinco filas, tres columnas; dividir si baja 22 pt.",
+  "editable": "Tabla editable; PNG.",
+  "validationState": "V0/V3 + revisión terminológica; aprobado tras render 2026-08-12",
+  "nodes": [
+    {
+      "id": "branch_source",
+      "x": 80,
+      "y": 280,
+      "w": 285,
+      "h": 145,
+      "title": "Resultado:\nreducción",
+      "style": "physical",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "branch_1",
+      "x": 690,
+      "y": 121,
+      "w": 430,
+      "h": 105,
+      "title": "Absorción · superficie\n· α / A_eq",
+      "style": "accent",
+      "role": "node",
+      "font": 30
+    },
+    {
+      "id": "branch_2",
+      "x": 690,
+      "y": 252,
+      "w": 430,
+      "h": 105,
+      "title": "Aislamiento ·\ntransmisión · R/DnT",
+      "style": "neutral",
+      "role": "node",
+      "font": 30
+    },
+    {
+      "id": "branch_3",
+      "x": 690,
+      "y": 383,
+      "w": 430,
+      "h": 105,
+      "title": "Cancelación ·\ninterferencia · banda",
+      "style": "clinical",
+      "role": "node",
+      "font": 30
+    },
+    {
+      "id": "branch_4",
+      "x": 690,
+      "y": 514,
+      "w": 430,
+      "h": 105,
+      "title": "Protección · receptor\n· atenuación real",
+      "style": "physical",
+      "role": "node",
+      "font": 30
+    }
+  ],
+  "edges": [
+    {
+      "id": "branch_edge_1",
+      "from": "branch_source",
+      "to": "branch_1",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "flow",
+      "semantic": ""
+    },
+    {
+      "id": "branch_edge_2",
+      "from": "branch_source",
+      "to": "branch_2",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "flow",
+      "semantic": ""
+    },
+    {
+      "id": "branch_edge_3",
+      "from": "branch_source",
+      "to": "branch_3",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "flow",
+      "semantic": ""
+    },
+    {
+      "id": "branch_edge_4",
+      "from": "branch_source",
+      "to": "branch_4",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "flow",
+      "semantic": ""
+    }
+  ],
+  "notToScale": true,
+  "layoutFamily": "branch",
+  "classification": "diagrama conceptual",
+  "title": "Diferenciar reducción, absorción, aislamiento, cancelación y protección",
+  "items": [
+    "Resultado: reducción",
+    "Absorción · superficie · α / A_eq",
+    "Aislamiento · transmisión · R/DnT",
+    "Cancelación · interferencia · banda",
+    "Protección · receptor · atenuación real"
+  ],
+  "source": "Libro del curso, capítulo 10; brief, storyboard y diagram_plan de la Unidad 10. Síntesis visual propia de la cátedra.",
+  "caption": "Diferenciar reducción, absorción, aislamiento, cancelación y protección. Cinco términos; mecanismo; dato de verificación.",
+  "alt": "Diferenciar reducción, absorción, aislamiento, cancelación y protección. Cinco términos; mecanismo; dato de verificación. Orden de lectura: Sin flechas o una relación por fila.",
+  "footer": "Relación de lectura: Sin flechas o una relación por fila."
+}

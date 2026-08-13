@@ -1,0 +1,121 @@
+{
+  "id": "U10-DG-056",
+  "slides": "U10-086 · `equation_only`",
+  "purposeType": "Identidad RMS–varianza–media.",
+  "nodesText": "Ecuación; tres términos; condición media cero; unidades.",
+  "connectorText": "Tres callouts.",
+  "equationText": "`p_rms²=σ_p²+p̄²`.",
+  "textEstimate": "3–7 palabras/callout.",
+  "layout": "FA_23; fórmula central 36 pt; derivación mínima abajo.",
+  "editable": "OMML + formas; SVG/PNG.",
+  "validationState": "V2; aprobado tras render 2026-08-12",
+  "nodes": [
+    {
+      "id": "equation",
+      "x": 355,
+      "y": 270,
+      "w": 570,
+      "h": 145,
+      "title": "p²ᵣₘₛ = σₚ² + p̄²",
+      "style": "equation",
+      "role": "equation",
+      "font": 48
+    },
+    {
+      "id": "callout_1",
+      "x": 75,
+      "y": 140,
+      "w": 270,
+      "h": 110,
+      "title": "p²_rms: valor\ncuadrático",
+      "style": "physical",
+      "role": "callout",
+      "font": 30
+    },
+    {
+      "id": "callout_2",
+      "x": 930,
+      "y": 140,
+      "w": 270,
+      "h": 110,
+      "title": "σₚ²:\ndispersión",
+      "style": "accent",
+      "role": "callout",
+      "font": 30
+    },
+    {
+      "id": "callout_3",
+      "x": 75,
+      "y": 480,
+      "w": 270,
+      "h": 110,
+      "title": "p̄²: término\nde media",
+      "style": "neutral",
+      "role": "callout",
+      "font": 30
+    },
+    {
+      "id": "callout_4",
+      "x": 930,
+      "y": 480,
+      "w": 270,
+      "h": 110,
+      "title": "Si p̄=0,\np²_rms=σₚ²",
+      "style": "clinical",
+      "role": "callout",
+      "font": 30
+    }
+  ],
+  "edges": [
+    {
+      "id": "leader_1",
+      "from": "callout_1",
+      "to": "equation",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "leader",
+      "semantic": ""
+    },
+    {
+      "id": "leader_2",
+      "from": "callout_2",
+      "to": "equation",
+      "fromSide": "left",
+      "toSide": "right",
+      "kind": "leader",
+      "semantic": ""
+    },
+    {
+      "id": "leader_3",
+      "from": "callout_3",
+      "to": "equation",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "leader",
+      "semantic": ""
+    },
+    {
+      "id": "leader_4",
+      "from": "callout_4",
+      "to": "equation",
+      "fromSide": "left",
+      "toSide": "right",
+      "kind": "leader",
+      "semantic": ""
+    }
+  ],
+  "notToScale": false,
+  "layoutFamily": "equation",
+  "classification": "ecuación anotada",
+  "title": "Identidad RMS–varianza–media",
+  "items": [
+    "p²_rms: valor cuadrático",
+    "σₚ²: dispersión",
+    "p̄²: término de media",
+    "Si p̄=0, p²_rms=σₚ²"
+  ],
+  "source": "Libro del curso, capítulo 10; brief, storyboard y diagram_plan de la Unidad 10. Síntesis visual propia de la cátedra.",
+  "caption": "Identidad RMS–varianza–media. Ecuación; tres términos; condición media cero; unidades.",
+  "alt": "Identidad RMS–varianza–media. Ecuación; tres términos; condición media cero; unidades. Orden de lectura: Tres callouts.",
+  "footer": "Relación de lectura: Tres callouts."
+}

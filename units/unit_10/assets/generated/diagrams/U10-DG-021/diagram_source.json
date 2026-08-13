@@ -1,0 +1,85 @@
+{
+  "id": "U10-DG-021",
+  "slides": "U10-036 · `diagram`",
+  "purposeType": "Recap color–pendiente–banda.",
+  "nodesText": "Blanco; rosa; PSD; octava; experiencia.",
+  "connectorText": "Relaciones “constante por Hz”, “constante por octava”.",
+  "equationText": "`S_0`, `K/f` pequeños.",
+  "textEstimate": "2–6 palabras/nodo.",
+  "layout": "FA_16; dos filas coordinadas con CH-010.",
+  "editable": "Sí; SVG/PNG.",
+  "validationState": "V1/V3; aprobado tras render 2026-08-12",
+  "nodes": [
+    {
+      "id": "concept_1",
+      "x": 80,
+      "y": 155,
+      "w": 354.6666666666667,
+      "h": 190,
+      "title": "Blanco: S₀ por Hz",
+      "style": "physical",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_2",
+      "x": 462.6666666666667,
+      "y": 155,
+      "w": 354.6666666666667,
+      "h": 190,
+      "title": "Por octava: crece",
+      "style": "accent",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_3",
+      "x": 845.3333333333334,
+      "y": 155,
+      "w": 354.6666666666667,
+      "h": 190,
+      "title": "Rosa: K/f",
+      "style": "neutral",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_4",
+      "x": 80,
+      "y": 373,
+      "w": 354.6666666666667,
+      "h": 190,
+      "title": "Por octava:\nconstante",
+      "style": "clinical",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_5",
+      "x": 462.6666666666667,
+      "y": 373,
+      "w": 354.6666666666667,
+      "h": 190,
+      "title": "Escucha no define\nel modelo",
+      "style": "physical",
+      "role": "node",
+      "font": 32
+    }
+  ],
+  "edges": [],
+  "notToScale": false,
+  "layoutFamily": "grid",
+  "classification": "diagrama conceptual",
+  "title": "Recap color–pendiente–banda",
+  "items": [
+    "Blanco: S₀ por Hz",
+    "Por octava: crece",
+    "Rosa: K/f",
+    "Por octava: constante",
+    "Escucha no define el modelo"
+  ],
+  "source": "Libro del curso, capítulo 10; brief, storyboard y diagram_plan de la Unidad 10. Síntesis visual propia de la cátedra.",
+  "caption": "Recap color–pendiente–banda. Blanco; rosa; PSD; octava; experiencia.",
+  "alt": "Recap color–pendiente–banda. Blanco; rosa; PSD; octava; experiencia. Orden de lectura: Relaciones “constante por Hz”, “constante por octava”.",
+  "footer": "Relación de lectura: Relaciones “constante por Hz”, “constante por octava”."
+}

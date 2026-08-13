@@ -1,0 +1,85 @@
+{
+  "id": "U10-DG-029",
+  "slides": "U10-048 · `diagram`",
+  "purposeType": "Máximo frente a pico.",
+  "nodesText": "Evento común; detector temporal; detector de pico; dos salidas.",
+  "connectorText": "“aplica ponderación/constante”, “busca extremo”.",
+  "equationText": "`L_max`, `L_peak`.",
+  "textEstimate": "2–6 palabras/nodo.",
+  "layout": "FA_11; ramas paralelas simétricas.",
+  "editable": "Sí; SVG/PNG.",
+  "validationState": "V1 + coordinación CH-011; aprobado tras render 2026-08-12",
+  "nodes": [
+    {
+      "id": "compare_1",
+      "x": 80,
+      "y": 155,
+      "w": 510,
+      "h": 120,
+      "title": "Evento común",
+      "style": "physical",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "compare_2",
+      "x": 690,
+      "y": 155,
+      "w": 510,
+      "h": 120,
+      "title": "Detector temporal",
+      "style": "clinical",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "compare_3",
+      "x": 80,
+      "y": 303,
+      "w": 510,
+      "h": 120,
+      "title": "L_max",
+      "style": "neutral",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "compare_4",
+      "x": 690,
+      "y": 303,
+      "w": 510,
+      "h": 120,
+      "title": "Detector de pico",
+      "style": "accent",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "compare_5",
+      "x": 80,
+      "y": 451,
+      "w": 510,
+      "h": 120,
+      "title": "L_peak",
+      "style": "physical",
+      "role": "node",
+      "font": 32
+    }
+  ],
+  "edges": [],
+  "notToScale": false,
+  "layoutFamily": "compare",
+  "classification": "diagrama conceptual",
+  "title": "Máximo frente a pico",
+  "items": [
+    "Evento común",
+    "Detector temporal",
+    "L_max",
+    "Detector de pico",
+    "L_peak"
+  ],
+  "source": "Libro del curso, capítulo 10; brief, storyboard y diagram_plan de la Unidad 10. Síntesis visual propia de la cátedra.",
+  "caption": "Máximo frente a pico. Evento común; detector temporal; detector de pico; dos salidas.",
+  "alt": "Máximo frente a pico. Evento común; detector temporal; detector de pico; dos salidas. Orden de lectura: “aplica ponderación/constante”, “busca extremo”.",
+  "footer": "Relación de lectura: “aplica ponderación/constante”, “busca extremo”."
+}

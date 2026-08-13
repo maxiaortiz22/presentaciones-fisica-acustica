@@ -1,0 +1,73 @@
+{
+  "id": "U10-DG-012",
+  "slides": "U10-019 · `diagram`",
+  "purposeType": "Crear necesidad de estadísticos.",
+  "nodesText": "Muestra; ventana; registro; descriptores.",
+  "connectorText": "“amplía contexto”, “resume”.",
+  "equationText": "Ninguna.",
+  "textEstimate": "1–5 palabras/nodo.",
+  "layout": "FA_12; embudo horizontal sin sugerir pérdida cero.",
+  "editable": "Sí; SVG/PNG.",
+  "validationState": "V1; aprobado tras render 2026-08-12",
+  "nodes": [
+    {
+      "id": "concept_1",
+      "x": 80,
+      "y": 155,
+      "w": 546,
+      "h": 190,
+      "title": "Muestra instantánea",
+      "style": "physical",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_2",
+      "x": 654,
+      "y": 155,
+      "w": 546,
+      "h": 190,
+      "title": "Ventana de observación",
+      "style": "accent",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_3",
+      "x": 80,
+      "y": 373,
+      "w": 546,
+      "h": 190,
+      "title": "Registro",
+      "style": "neutral",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_4",
+      "x": 654,
+      "y": 373,
+      "w": 546,
+      "h": 190,
+      "title": "Descriptores",
+      "style": "clinical",
+      "role": "node",
+      "font": 32
+    }
+  ],
+  "edges": [],
+  "notToScale": false,
+  "layoutFamily": "grid",
+  "classification": "diagrama conceptual",
+  "title": "Crear necesidad de estadísticos",
+  "items": [
+    "Muestra instantánea",
+    "Ventana de observación",
+    "Registro",
+    "Descriptores"
+  ],
+  "source": "Libro del curso, capítulo 10; brief, storyboard y diagram_plan de la Unidad 10. Síntesis visual propia de la cátedra.",
+  "caption": "Crear necesidad de estadísticos. Muestra; ventana; registro; descriptores.",
+  "alt": "Crear necesidad de estadísticos. Muestra; ventana; registro; descriptores. Orden de lectura: “amplía contexto”, “resume”.",
+  "footer": "Relación de lectura: “amplía contexto”, “resume”."
+}

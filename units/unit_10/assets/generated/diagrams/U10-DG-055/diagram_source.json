@@ -1,0 +1,206 @@
+{
+  "id": "U10-DG-055",
+  "slides": "U10-083 · `diagram`",
+  "purposeType": "Mapa final de síntesis.",
+  "nodesText": "Señal/contexto; tiempo; estadística; frecuencia; nivel; función; receptor; control; límite.",
+  "connectorText": "Relaciones selectivas, no red completa.",
+  "equationText": "Ninguna.",
+  "textEstimate": "1–4 palabras/nodo.",
+  "layout": "FA_17; reutilizar DG-005 y mostrar enriquecimiento; máximo 10 flechas.",
+  "editable": "Sí; SVG/PNG.",
+  "validationState": "V1/V3/V4; aprobado tras render 2026-08-12",
+  "nodes": [
+    {
+      "id": "concept_1",
+      "x": 80,
+      "y": 155,
+      "w": 354.6666666666667,
+      "h": 132,
+      "title": "Señal y contexto",
+      "style": "physical",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_2",
+      "x": 462.6666666666667,
+      "y": 155,
+      "w": 354.6666666666667,
+      "h": 132,
+      "title": "Tiempo",
+      "style": "accent",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_3",
+      "x": 845.3333333333334,
+      "y": 155,
+      "w": 354.6666666666667,
+      "h": 132,
+      "title": "Estadística",
+      "style": "neutral",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_4",
+      "x": 80,
+      "y": 315,
+      "w": 354.6666666666667,
+      "h": 132,
+      "title": "Frecuencia",
+      "style": "clinical",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_5",
+      "x": 462.6666666666667,
+      "y": 315,
+      "w": 354.6666666666667,
+      "h": 132,
+      "title": "Nivel",
+      "style": "physical",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_6",
+      "x": 845.3333333333334,
+      "y": 315,
+      "w": 354.6666666666667,
+      "h": 132,
+      "title": "Función",
+      "style": "accent",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_7",
+      "x": 80,
+      "y": 475,
+      "w": 354.6666666666667,
+      "h": 132,
+      "title": "Receptor",
+      "style": "neutral",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_8",
+      "x": 462.6666666666667,
+      "y": 475,
+      "w": 354.6666666666667,
+      "h": 132,
+      "title": "Control",
+      "style": "clinical",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_9",
+      "x": 845.3333333333334,
+      "y": 475,
+      "w": 354.6666666666667,
+      "h": 132,
+      "title": "Límite",
+      "style": "physical",
+      "role": "node",
+      "font": 32
+    }
+  ],
+  "edges": [
+    {
+      "id": "synthesis_1",
+      "from": "concept_1",
+      "to": "concept_2",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "flow",
+      "semantic": ""
+    },
+    {
+      "id": "synthesis_2",
+      "from": "concept_2",
+      "to": "concept_3",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "flow",
+      "semantic": ""
+    },
+    {
+      "id": "synthesis_3",
+      "from": "concept_3",
+      "to": "concept_4",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "kind": "flow",
+      "semantic": ""
+    },
+    {
+      "id": "synthesis_4",
+      "from": "concept_4",
+      "to": "concept_5",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "flow",
+      "semantic": ""
+    },
+    {
+      "id": "synthesis_5",
+      "from": "concept_5",
+      "to": "concept_6",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "flow",
+      "semantic": ""
+    },
+    {
+      "id": "synthesis_6",
+      "from": "concept_6",
+      "to": "concept_7",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "kind": "flow",
+      "semantic": ""
+    },
+    {
+      "id": "synthesis_7",
+      "from": "concept_7",
+      "to": "concept_8",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "flow",
+      "semantic": ""
+    },
+    {
+      "id": "synthesis_8",
+      "from": "concept_8",
+      "to": "concept_9",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "flow",
+      "semantic": ""
+    }
+  ],
+  "notToScale": false,
+  "layoutFamily": "synthesis",
+  "classification": "diagrama conceptual",
+  "title": "Mapa final de síntesis",
+  "items": [
+    "Señal y contexto",
+    "Tiempo",
+    "Estadística",
+    "Frecuencia",
+    "Nivel",
+    "Función",
+    "Receptor",
+    "Control",
+    "Límite"
+  ],
+  "source": "Libro del curso, capítulo 10; brief, storyboard y diagram_plan de la Unidad 10. Síntesis visual propia de la cátedra.",
+  "caption": "Mapa final de síntesis. Señal/contexto; tiempo; estadística; frecuencia; nivel; función; receptor; control; límite.",
+  "alt": "Mapa final de síntesis. Señal/contexto; tiempo; estadística; frecuencia; nivel; función; receptor; control; límite. Orden de lectura: Relaciones selectivas, no red completa.",
+  "footer": "Relación de lectura: Relaciones selectivas, no red completa."
+}

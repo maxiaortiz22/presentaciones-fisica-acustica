@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+<defs><marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0,0 L10,4 L0,8 Z" fill="#3D3D3D"/></marker></defs>
+<rect width="1280" height="720" fill="white"/>
+<rect x="72" y="27" width="390" height="6" fill="#4D1434"/><rect x="472" y="27" width="390" height="6" fill="#903163"/><rect x="872" y="27" width="336" height="6" fill="#969FA7"/>
+<text x="72" y="80" font-family="Calibri,Arial,sans-serif" font-size="40" font-weight="700" fill="#3D3D3D">Límite causal individual</text>
+<rect id="concept_1" x="80" y="155" width="354.6666666666667" height="190" rx="6" fill="#E7F1F1" stroke="#2F7E83" stroke-width="2"/>
+<text x="257.33333333333337" y="261.2" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#2F7E83">Medición</text>
+<rect id="concept_2" x="462.6666666666667" y="155" width="354.6666666666667" height="190" rx="6" fill="#F3E8EE" stroke="#4D1434" stroke-width="2"/>
+<text x="640" y="244.39999999999998" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#4D1434">Historia de</text>
+<text x="640" y="278" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#4D1434">exposición</text>
+<rect id="concept_3" x="845.3333333333334" y="155" width="354.6666666666667" height="190" rx="6" fill="#F7F6F2" stroke="#969FA7" stroke-width="2"/>
+<text x="1022.6666666666667" y="261.2" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#3D3D3D">Función</text>
+<rect id="concept_4" x="80" y="373" width="354.6666666666667" height="190" rx="6" fill="#F8EDE2" stroke="#9F541A" stroke-width="2"/>
+<text x="257.33333333333337" y="462.4" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#9F541A">Evaluación</text>
+<text x="257.33333333333337" y="496" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#9F541A">clínica</text>
+<rect id="concept_5" x="462.6666666666667" y="373" width="354.6666666666667" height="190" rx="6" fill="#E7F1F1" stroke="#2F7E83" stroke-width="2"/>
+<text x="640" y="462.4" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#2F7E83">Variables</text>
+<text x="640" y="496" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#2F7E83">mediadoras</text>
+<rect id="concept_6" x="845.3333333333334" y="373" width="354.6666666666667" height="190" rx="6" fill="#F3E8EE" stroke="#4D1434" stroke-width="2"/>
+<text x="1022.6666666666667" y="462.4" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#4D1434">Conclusión</text>
+<text x="1022.6666666666667" y="496" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#4D1434">acotada</text>
+<text x="640" y="670" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="20" fill="#969FA7">Relación de lectura: “contribuye a”, “requiere”</text>
+<text x="72" y="700" font-family="Calibri,Arial,sans-serif" font-size="14" fill="#969FA7">Libro del curso, capítulo 10; brief, storyboard y diagram_plan de la Unidad 10. Síntesis visual propia de la cátedra</text>
+</svg>

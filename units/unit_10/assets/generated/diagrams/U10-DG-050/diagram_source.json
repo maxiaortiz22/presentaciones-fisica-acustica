@@ -1,0 +1,143 @@
+{
+  "id": "U10-DG-050",
+  "slides": "U10-077 · `diagram`",
+  "purposeType": "Base del caso integrador.",
+  "nodesText": "Avenida; HVAC; puerta; consultorio; conversación; prueba; tres receptores.",
+  "connectorText": "Rutas numeradas y leyenda estable.",
+  "equationText": "Ninguna.",
+  "textEstimate": "1–4 palabras/nodo.",
+  "layout": "FA_13; plano base 65 %; espacio lateral para consigna.",
+  "editable": "Sí; SVG/PNG.",
+  "validationState": "V1/V3/V4; aprobado tras render 2026-08-12",
+  "nodes": [
+    {
+      "id": "source",
+      "x": 75,
+      "y": 250,
+      "w": 275,
+      "h": 140,
+      "title": "Avenida",
+      "style": "physical",
+      "role": "node",
+      "font": 30
+    },
+    {
+      "id": "path_top",
+      "x": 360,
+      "y": 155,
+      "w": 270,
+      "h": 115,
+      "title": "HVAC",
+      "style": "neutral",
+      "role": "node",
+      "font": 30
+    },
+    {
+      "id": "path_bottom",
+      "x": 360,
+      "y": 405,
+      "w": 270,
+      "h": 115,
+      "title": "Puerta",
+      "style": "accent",
+      "role": "node",
+      "font": 30
+    },
+    {
+      "id": "space",
+      "x": 660,
+      "y": 250,
+      "w": 250,
+      "h": 140,
+      "title": "Consultorio",
+      "style": "neutral",
+      "role": "node",
+      "font": 30
+    },
+    {
+      "id": "receiver",
+      "x": 945,
+      "y": 250,
+      "w": 260,
+      "h": 140,
+      "title": "Conversación",
+      "style": "clinical",
+      "role": "node",
+      "font": 30
+    },
+    {
+      "id": "condition",
+      "x": 360,
+      "y": 555,
+      "w": 625,
+      "h": 70,
+      "title": "Prueba · tres receptores",
+      "style": "neutral",
+      "role": "note",
+      "font": 30
+    }
+  ],
+  "edges": [
+    {
+      "id": "route_1a",
+      "from": "source",
+      "to": "path_top",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "flow",
+      "semantic": ""
+    },
+    {
+      "id": "route_1b",
+      "from": "path_top",
+      "to": "space",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "flow",
+      "semantic": ""
+    },
+    {
+      "id": "route_2a",
+      "from": "source",
+      "to": "path_bottom",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "flow",
+      "semantic": ""
+    },
+    {
+      "id": "route_2b",
+      "from": "path_bottom",
+      "to": "space",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "flow",
+      "semantic": ""
+    },
+    {
+      "id": "route_3",
+      "from": "space",
+      "to": "receiver",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "flow",
+      "semantic": ""
+    }
+  ],
+  "notToScale": true,
+  "layoutFamily": "scene",
+  "classification": "diagrama conceptual",
+  "title": "Base del caso integrador",
+  "items": [
+    "Avenida",
+    "HVAC",
+    "Puerta",
+    "Consultorio",
+    "Conversación",
+    "Prueba · tres receptores"
+  ],
+  "source": "Libro del curso, capítulo 10; brief, storyboard y diagram_plan de la Unidad 10. Síntesis visual propia de la cátedra.",
+  "caption": "Base del caso integrador. Avenida; HVAC; puerta; consultorio; conversación; prueba; tres receptores.",
+  "alt": "Base del caso integrador. Avenida; HVAC; puerta; consultorio; conversación; prueba; tres receptores. Orden de lectura: Rutas numeradas y leyenda estable.",
+  "footer": "Relación de lectura: Rutas numeradas y leyenda estable."
+}

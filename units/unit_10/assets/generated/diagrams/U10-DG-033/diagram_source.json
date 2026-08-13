@@ -1,0 +1,121 @@
+{
+  "id": "U10-DG-033",
+  "slides": "U10-053 · `equation_only`",
+  "purposeType": "Ecuación de SNR.",
+  "nodesText": "`L_señal`, `L_ruido`, diferencia y regla de signo.",
+  "connectorText": "Callouts exteriores.",
+  "equationText": "`SNR=L_señal−L_ruido`.",
+  "textEstimate": "3–7 palabras/callout.",
+  "layout": "FA_09; positivo/0/negativo en franja inferior.",
+  "editable": "OMML + formas; SVG/PNG.",
+  "validationState": "V2; aprobado tras render 2026-08-12",
+  "nodes": [
+    {
+      "id": "equation",
+      "x": 355,
+      "y": 270,
+      "w": 570,
+      "h": 145,
+      "title": "SNR = L(señal) −\nL(ruido)",
+      "style": "equation",
+      "role": "equation",
+      "font": 48
+    },
+    {
+      "id": "callout_1",
+      "x": 75,
+      "y": 140,
+      "w": 270,
+      "h": 110,
+      "title": "L(señal):\ncomparable",
+      "style": "physical",
+      "role": "callout",
+      "font": 30
+    },
+    {
+      "id": "callout_2",
+      "x": 930,
+      "y": 140,
+      "w": 270,
+      "h": 110,
+      "title": "L(ruido):\ncomparable",
+      "style": "accent",
+      "role": "callout",
+      "font": 30
+    },
+    {
+      "id": "callout_3",
+      "x": 75,
+      "y": 480,
+      "w": 270,
+      "h": 110,
+      "title": "SNR > 0:\nseñal mayor",
+      "style": "neutral",
+      "role": "callout",
+      "font": 30
+    },
+    {
+      "id": "callout_4",
+      "x": 930,
+      "y": 480,
+      "w": 270,
+      "h": 110,
+      "title": "SNR < 0:\nruido mayor",
+      "style": "clinical",
+      "role": "callout",
+      "font": 30
+    }
+  ],
+  "edges": [
+    {
+      "id": "leader_1",
+      "from": "callout_1",
+      "to": "equation",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "leader",
+      "semantic": ""
+    },
+    {
+      "id": "leader_2",
+      "from": "callout_2",
+      "to": "equation",
+      "fromSide": "left",
+      "toSide": "right",
+      "kind": "leader",
+      "semantic": ""
+    },
+    {
+      "id": "leader_3",
+      "from": "callout_3",
+      "to": "equation",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "leader",
+      "semantic": ""
+    },
+    {
+      "id": "leader_4",
+      "from": "callout_4",
+      "to": "equation",
+      "fromSide": "left",
+      "toSide": "right",
+      "kind": "leader",
+      "semantic": ""
+    }
+  ],
+  "notToScale": false,
+  "layoutFamily": "equation",
+  "classification": "ecuación anotada",
+  "title": "Ecuación de SNR",
+  "items": [
+    "L(señal): comparable",
+    "L(ruido): comparable",
+    "SNR > 0: señal mayor",
+    "SNR < 0: ruido mayor"
+  ],
+  "source": "Libro del curso, capítulo 10; brief, storyboard y diagram_plan de la Unidad 10. Síntesis visual propia de la cátedra.",
+  "caption": "Ecuación de SNR. L_señal, L_ruido, diferencia y regla de signo.",
+  "alt": "Ecuación de SNR. L_señal, L_ruido, diferencia y regla de signo. Orden de lectura: Callouts exteriores.",
+  "footer": "Relación de lectura: Callouts exteriores."
+}

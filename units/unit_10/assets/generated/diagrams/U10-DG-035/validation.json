@@ -1,0 +1,53 @@
+{
+  "asset_id": "U10-DG-035",
+  "classification": "diagrama de proceso",
+  "layout_family": "compare",
+  "canvas_px": [
+    1280,
+    720
+  ],
+  "slide_ratio": "16:9",
+  "font_floor": {
+    "node_main_pt": 22.5,
+    "equation_pt": 36,
+    "connector_label_pt": 21
+  },
+  "padding_px": 24,
+  "padding_inches": 0.25,
+  "line_text_clearance_px": 12,
+  "line_text_clearance_inches": 0.125,
+  "not_to_scale": false,
+  "object_ids": [
+    "compare_1",
+    "compare_2",
+    "compare_3",
+    "compare_4",
+    "compare_5",
+    "compare_6"
+  ],
+  "connector_ids": [],
+  "issues": [],
+  "critical_issues": 0,
+  "major_issues": 0,
+  "status": "approved",
+  "iterations": [
+    {
+      "iteration": 1,
+      "action": "preflight geométrico y medición de texto",
+      "critical": 0,
+      "major": 0
+    },
+    {
+      "iteration": 2,
+      "action": "render individual 16:9",
+      "critical": 0,
+      "major": 0
+    },
+    {
+      "iteration": 3,
+      "action": "verificación a tamaño real dentro de slide",
+      "critical": 0,
+      "major": 0
+    }
+  ]
+}

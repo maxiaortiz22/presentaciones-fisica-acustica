@@ -1,0 +1,122 @@
+{
+  "id": "U10-DG-047",
+  "slides": "U10-072 · `diagram`",
+  "purposeType": "Actividad: dónde intervenir.",
+  "nodesText": "Caso; fuente; trayecto; receptor; opciones; métrica antes/después.",
+  "connectorText": "Tarjetas conectables; solución oculta.",
+  "equationText": "Ninguna.",
+  "textEstimate": "3–9 palabras/tarjeta.",
+  "layout": "FA_14; 3 zonas horizontales; conexiones en capa de respuesta.",
+  "editable": "Sí; PNG consigna/solución.",
+  "validationState": "V1/V3; aprobado tras render 2026-08-12",
+  "nodes": [
+    {
+      "id": "step_1",
+      "x": 80,
+      "y": 170,
+      "w": 300,
+      "h": 145,
+      "title": "1 · Caso de\nruido",
+      "style": "physical",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "step_2",
+      "x": 490,
+      "y": 170,
+      "w": 300,
+      "h": 145,
+      "title": "2 · Intervenir\nen fuente",
+      "style": "accent",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "step_3",
+      "x": 900,
+      "y": 170,
+      "w": 300,
+      "h": 145,
+      "title": "3 · Intervenir\nen trayecto",
+      "style": "neutral",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "step_4",
+      "x": 900,
+      "y": 410,
+      "w": 300,
+      "h": 145,
+      "title": "4 · Intervenir\nen receptor",
+      "style": "clinical",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "step_5",
+      "x": 490,
+      "y": 410,
+      "w": 300,
+      "h": 145,
+      "title": "5 · Métrica\nantes / después",
+      "style": "physical",
+      "role": "node",
+      "font": 32
+    }
+  ],
+  "edges": [
+    {
+      "id": "flow_1",
+      "from": "step_1",
+      "to": "step_2",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "flow",
+      "semantic": ""
+    },
+    {
+      "id": "flow_2",
+      "from": "step_2",
+      "to": "step_3",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "flow",
+      "semantic": ""
+    },
+    {
+      "id": "flow_3",
+      "from": "step_3",
+      "to": "step_4",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "kind": "flow",
+      "semantic": ""
+    },
+    {
+      "id": "flow_4",
+      "from": "step_4",
+      "to": "step_5",
+      "fromSide": "left",
+      "toSide": "right",
+      "kind": "flow",
+      "semantic": ""
+    }
+  ],
+  "notToScale": false,
+  "layoutFamily": "process",
+  "classification": "diagrama de proceso",
+  "title": "Actividad: dónde intervenir",
+  "items": [
+    "Caso de ruido",
+    "Intervenir en fuente",
+    "Intervenir en trayecto",
+    "Intervenir en receptor",
+    "Métrica antes / después"
+  ],
+  "source": "Libro del curso, capítulo 10; brief, storyboard y diagram_plan de la Unidad 10. Síntesis visual propia de la cátedra.",
+  "caption": "Actividad: dónde intervenir. Caso; fuente; trayecto; receptor; opciones; métrica antes/después.",
+  "alt": "Actividad: dónde intervenir. Caso; fuente; trayecto; receptor; opciones; métrica antes/después. Orden de lectura: Tarjetas conectables; solución oculta.",
+  "footer": "Relación de lectura: Tarjetas conectables; solución oculta."
+}
