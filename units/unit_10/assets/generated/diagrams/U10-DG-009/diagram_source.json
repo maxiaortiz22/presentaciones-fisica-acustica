@@ -1,0 +1,101 @@
+{
+  "id": "U10-DG-009",
+  "slides": "U10-010 · `diagram`",
+  "purposeType": "Actividad de clasificación contextual.",
+  "nodesText": "Cuatro casos; tarea; función elegida.",
+  "connectorText": "Conectores revelables, sin cruce.",
+  "equationText": "Ninguna.",
+  "textEstimate": "8–12 palabras/caso.",
+  "layout": "FA_14; 2×2; respuestas en capa oculta.",
+  "editable": "Sí; PNG de consigna/solución.",
+  "validationState": "V1/V3; aprobado tras render 2026-08-12",
+  "nodes": [
+    {
+      "id": "step_1",
+      "x": 80,
+      "y": 170,
+      "w": 300,
+      "h": 145,
+      "title": "1 · Voz vecina",
+      "style": "physical",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "step_2",
+      "x": 490,
+      "y": 170,
+      "w": 300,
+      "h": 145,
+      "title": "2 · Ruido del\nequipo",
+      "style": "accent",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "step_3",
+      "x": 900,
+      "y": 170,
+      "w": 300,
+      "h": 145,
+      "title": "3 · Señal de\nprueba",
+      "style": "neutral",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "step_4",
+      "x": 900,
+      "y": 410,
+      "w": 300,
+      "h": 145,
+      "title": "4 · Tránsito\nexterior",
+      "style": "clinical",
+      "role": "node",
+      "font": 32
+    }
+  ],
+  "edges": [
+    {
+      "id": "flow_1",
+      "from": "step_1",
+      "to": "step_2",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "flow",
+      "semantic": ""
+    },
+    {
+      "id": "flow_2",
+      "from": "step_2",
+      "to": "step_3",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "flow",
+      "semantic": ""
+    },
+    {
+      "id": "flow_3",
+      "from": "step_3",
+      "to": "step_4",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "kind": "flow",
+      "semantic": ""
+    }
+  ],
+  "notToScale": false,
+  "layoutFamily": "process",
+  "classification": "diagrama de proceso",
+  "title": "Actividad de clasificación contextual",
+  "items": [
+    "Voz vecina",
+    "Ruido del equipo",
+    "Señal de prueba",
+    "Tránsito exterior"
+  ],
+  "source": "Libro del curso, capítulo 10; brief, storyboard y diagram_plan de la Unidad 10. Síntesis visual propia de la cátedra.",
+  "caption": "Actividad de clasificación contextual. Cuatro casos; tarea; función elegida.",
+  "alt": "Actividad de clasificación contextual. Cuatro casos; tarea; función elegida. Orden de lectura: Conectores revelables, sin cruce.",
+  "footer": "Relación de lectura: Conectores revelables, sin cruce."
+}

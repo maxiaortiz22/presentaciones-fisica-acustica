@@ -1,0 +1,85 @@
+{
+  "id": "U10-DG-039",
+  "slides": "U10-062 · `diagram`",
+  "purposeType": "Enmascaramiento vs protección.",
+  "nodesText": "Propósito perceptual; propósito de exposición; acción; resultado medido.",
+  "connectorText": "Bifurcación “¿qué se intenta cambiar?”.",
+  "equationText": "Ninguna.",
+  "textEstimate": "2–7 palabras/nodo.",
+  "layout": "FA_11; dos columnas, sin conectores cruzados.",
+  "editable": "Sí; SVG/PNG.",
+  "validationState": "V1; aprobado tras render 2026-08-12",
+  "nodes": [
+    {
+      "id": "concept_1",
+      "x": 80,
+      "y": 155,
+      "w": 354.6666666666667,
+      "h": 190,
+      "title": "¿Qué se intenta\ncambiar?",
+      "style": "physical",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_2",
+      "x": 462.6666666666667,
+      "y": 155,
+      "w": 354.6666666666667,
+      "h": 190,
+      "title": "Enmascarar:\nrespuesta",
+      "style": "accent",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_3",
+      "x": 845.3333333333334,
+      "y": 155,
+      "w": 354.6666666666667,
+      "h": 190,
+      "title": "Señal al oído no\nevaluado",
+      "style": "neutral",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_4",
+      "x": 80,
+      "y": 373,
+      "w": 354.6666666666667,
+      "h": 190,
+      "title": "Protección:\nexposición",
+      "style": "clinical",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_5",
+      "x": 462.6666666666667,
+      "y": 373,
+      "w": 354.6666666666667,
+      "h": 190,
+      "title": "Reduce energía\nque llega",
+      "style": "physical",
+      "role": "node",
+      "font": 32
+    }
+  ],
+  "edges": [],
+  "notToScale": false,
+  "layoutFamily": "grid",
+  "classification": "diagrama conceptual",
+  "title": "Enmascaramiento vs protección",
+  "items": [
+    "¿Qué se intenta cambiar?",
+    "Enmascarar: respuesta",
+    "Señal al oído no evaluado",
+    "Protección: exposición",
+    "Reduce energía que llega"
+  ],
+  "source": "Libro del curso, capítulo 10; brief, storyboard y diagram_plan de la Unidad 10. Síntesis visual propia de la cátedra.",
+  "caption": "Enmascaramiento vs protección. Propósito perceptual; propósito de exposición; acción; resultado medido.",
+  "alt": "Enmascaramiento vs protección. Propósito perceptual; propósito de exposición; acción; resultado medido. Orden de lectura: Bifurcación “¿qué se intenta cambiar?”.",
+  "footer": "Relación de lectura: Bifurcación “¿qué se intenta cambiar?”."
+}

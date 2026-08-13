@@ -1,0 +1,101 @@
+{
+  "id": "U10-DG-037",
+  "slides": "U10-059 · `diagram`",
+  "purposeType": "Cuatro elementos del enmascaramiento.",
+  "nodesText": "Señal; enmascarador; receptor/oído; criterio de respuesta.",
+  "connectorText": "Relaciones numeradas.",
+  "equationText": "Ninguna.",
+  "textEstimate": "2–6 palabras/nodo.",
+  "layout": "FA_08; cuatro cuadrantes con centro libre.",
+  "editable": "Sí; SVG/PNG.",
+  "validationState": "V1; aprobado tras render 2026-08-12",
+  "nodes": [
+    {
+      "id": "branch_source",
+      "x": 80,
+      "y": 280,
+      "w": 285,
+      "h": 145,
+      "title": "Señal",
+      "style": "physical",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "branch_1",
+      "x": 690,
+      "y": 186.5,
+      "w": 430,
+      "h": 105,
+      "title": "Enmascarador",
+      "style": "accent",
+      "role": "node",
+      "font": 30
+    },
+    {
+      "id": "branch_2",
+      "x": 690,
+      "y": 317.5,
+      "w": 430,
+      "h": 105,
+      "title": "Receptor / oído",
+      "style": "neutral",
+      "role": "node",
+      "font": 30
+    },
+    {
+      "id": "branch_3",
+      "x": 690,
+      "y": 448.5,
+      "w": 430,
+      "h": 105,
+      "title": "Criterio de respuesta",
+      "style": "clinical",
+      "role": "node",
+      "font": 30
+    }
+  ],
+  "edges": [
+    {
+      "id": "branch_edge_1",
+      "from": "branch_source",
+      "to": "branch_1",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "flow",
+      "semantic": ""
+    },
+    {
+      "id": "branch_edge_2",
+      "from": "branch_source",
+      "to": "branch_2",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "flow",
+      "semantic": ""
+    },
+    {
+      "id": "branch_edge_3",
+      "from": "branch_source",
+      "to": "branch_3",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "flow",
+      "semantic": ""
+    }
+  ],
+  "notToScale": true,
+  "layoutFamily": "branch",
+  "classification": "diagrama conceptual",
+  "title": "Cuatro elementos del enmascaramiento",
+  "items": [
+    "Señal",
+    "Enmascarador",
+    "Receptor / oído",
+    "Criterio de respuesta"
+  ],
+  "source": "Libro del curso, capítulo 10; brief, storyboard y diagram_plan de la Unidad 10. Síntesis visual propia de la cátedra.",
+  "caption": "Cuatro elementos del enmascaramiento. Señal; enmascarador; receptor/oído; criterio de respuesta.",
+  "alt": "Cuatro elementos del enmascaramiento. Señal; enmascarador; receptor/oído; criterio de respuesta. Orden de lectura: Relaciones numeradas.",
+  "footer": "Relación de lectura: Relaciones numeradas."
+}

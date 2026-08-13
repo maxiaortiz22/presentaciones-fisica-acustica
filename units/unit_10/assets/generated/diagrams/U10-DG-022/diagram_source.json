@@ -1,0 +1,85 @@
+{
+  "id": "U10-DG-022",
+  "slides": "U10-038 · `diagram`",
+  "purposeType": "Ruido conformado al habla.",
+  "nodesText": "Ruido base; filtro; envolvente objetivo; salida.",
+  "connectorText": "“filtra según”; “conserva contorno, no habla”.",
+  "equationText": "`H(f)` opcional.",
+  "textEstimate": "2–7 palabras/nodo.",
+  "layout": "FA_08; proceso horizontal; envolvente no normativa.",
+  "editable": "Sí; SVG/PNG.",
+  "validationState": "V1; aprobado tras render 2026-08-12",
+  "nodes": [
+    {
+      "id": "concept_1",
+      "x": 80,
+      "y": 155,
+      "w": 354.6666666666667,
+      "h": 190,
+      "title": "Ruido de banda\nancha",
+      "style": "physical",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_2",
+      "x": 462.6666666666667,
+      "y": 155,
+      "w": 354.6666666666667,
+      "h": 190,
+      "title": "Filtro H(f)",
+      "style": "accent",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_3",
+      "x": 845.3333333333334,
+      "y": 155,
+      "w": 354.6666666666667,
+      "h": 190,
+      "title": "Contorno objetivo",
+      "style": "neutral",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_4",
+      "x": 80,
+      "y": 373,
+      "w": 354.6666666666667,
+      "h": 190,
+      "title": "Ruido con forma\nde habla",
+      "style": "clinical",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_5",
+      "x": 462.6666666666667,
+      "y": 373,
+      "w": 354.6666666666667,
+      "h": 190,
+      "title": "Conserva forma;\nno es habla",
+      "style": "physical",
+      "role": "node",
+      "font": 32
+    }
+  ],
+  "edges": [],
+  "notToScale": false,
+  "layoutFamily": "grid",
+  "classification": "diagrama conceptual",
+  "title": "Ruido conformado al habla",
+  "items": [
+    "Ruido de banda ancha",
+    "Filtro H(f)",
+    "Contorno objetivo",
+    "Ruido con forma de habla",
+    "Conserva forma; no es habla"
+  ],
+  "source": "Libro del curso, capítulo 10; brief, storyboard y diagram_plan de la Unidad 10. Síntesis visual propia de la cátedra.",
+  "caption": "Ruido conformado al habla. Ruido base; filtro; envolvente objetivo; salida.",
+  "alt": "Ruido conformado al habla. Ruido base; filtro; envolvente objetivo; salida. Orden de lectura: “filtra según”; “conserva contorno, no habla”.",
+  "footer": "Relación de lectura: “filtra según”; “conserva contorno, no habla”."
+}

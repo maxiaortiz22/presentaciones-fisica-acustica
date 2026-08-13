@@ -1,0 +1,143 @@
+{
+  "id": "U10-DG-006",
+  "slides": "U10-007 · `diagram`",
+  "purposeType": "Cadena fenómeno–representación.",
+  "nodesText": "Fuente; presión `p(t)`; micrófono; señal; medición; receptor/efecto.",
+  "connectorText": "“genera”, “transduce”, “resume”, “interpreta”.",
+  "equationText": "`p(t)`; unidad Pa.",
+  "textEstimate": "1–4 palabras/nodo.",
+  "layout": "FA_12; horizontal; corredor superior para etiquetas.",
+  "editable": "Sí; SVG/PNG.",
+  "validationState": "V1; aprobado tras render 2026-08-12",
+  "nodes": [
+    {
+      "id": "branch_source",
+      "x": 80,
+      "y": 280,
+      "w": 285,
+      "h": 145,
+      "title": "Fuente",
+      "style": "physical",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "branch_1",
+      "x": 690,
+      "y": 129,
+      "w": 430,
+      "h": 82,
+      "title": "Presión p(t) · Pa",
+      "style": "accent",
+      "role": "node",
+      "font": 30
+    },
+    {
+      "id": "branch_2",
+      "x": 690,
+      "y": 229,
+      "w": 430,
+      "h": 82,
+      "title": "Micrófono",
+      "style": "neutral",
+      "role": "node",
+      "font": 30
+    },
+    {
+      "id": "branch_3",
+      "x": 690,
+      "y": 329,
+      "w": 430,
+      "h": 82,
+      "title": "Señal eléctrica",
+      "style": "clinical",
+      "role": "node",
+      "font": 30
+    },
+    {
+      "id": "branch_4",
+      "x": 690,
+      "y": 429,
+      "w": 430,
+      "h": 82,
+      "title": "Medición",
+      "style": "physical",
+      "role": "node",
+      "font": 30
+    },
+    {
+      "id": "branch_5",
+      "x": 690,
+      "y": 529,
+      "w": 430,
+      "h": 82,
+      "title": "Receptor / efecto",
+      "style": "accent",
+      "role": "node",
+      "font": 30
+    }
+  ],
+  "edges": [
+    {
+      "id": "branch_edge_1",
+      "from": "branch_source",
+      "to": "branch_1",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "flow",
+      "semantic": ""
+    },
+    {
+      "id": "branch_edge_2",
+      "from": "branch_source",
+      "to": "branch_2",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "flow",
+      "semantic": ""
+    },
+    {
+      "id": "branch_edge_3",
+      "from": "branch_source",
+      "to": "branch_3",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "flow",
+      "semantic": ""
+    },
+    {
+      "id": "branch_edge_4",
+      "from": "branch_source",
+      "to": "branch_4",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "flow",
+      "semantic": ""
+    },
+    {
+      "id": "branch_edge_5",
+      "from": "branch_source",
+      "to": "branch_5",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "flow",
+      "semantic": ""
+    }
+  ],
+  "notToScale": true,
+  "layoutFamily": "branch",
+  "classification": "diagrama de proceso",
+  "title": "Cadena fenómeno–representación",
+  "items": [
+    "Fuente",
+    "Presión p(t) · Pa",
+    "Micrófono",
+    "Señal eléctrica",
+    "Medición",
+    "Receptor / efecto"
+  ],
+  "source": "Libro del curso, capítulo 10; brief, storyboard y diagram_plan de la Unidad 10. Síntesis visual propia de la cátedra.",
+  "caption": "Cadena fenómeno–representación. Fuente; presión p(t); micrófono; señal; medición; receptor/efecto.",
+  "alt": "Cadena fenómeno–representación. Fuente; presión p(t); micrófono; señal; medición; receptor/efecto. Orden de lectura: “genera”, “transduce”, “resume”, “interpreta”.",
+  "footer": "Relación de lectura: “genera”, “transduce”, “resume”, “interpreta”."
+}

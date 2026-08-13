@@ -1,0 +1,97 @@
+{
+  "id": "U10-DG-011",
+  "slides": "U10-018 · `diagram`",
+  "purposeType": "Clasificación temporal no excluyente.",
+  "nodesText": "Predictibilidad; continuidad; impulsividad; ejemplos.",
+  "connectorText": "Árbol con retorno “puede coexistir”.",
+  "equationText": "Ninguna.",
+  "textEstimate": "1–5 palabras/nodo.",
+  "layout": "FA_14; dos ejes paralelos, no árbol de exclusión única.",
+  "editable": "Sí; SVG/PNG.",
+  "validationState": "V1/V3 + revisión taxonómica; aprobado tras render 2026-08-12",
+  "nodes": [
+    {
+      "id": "concept_1",
+      "x": 80,
+      "y": 155,
+      "w": 354.6666666666667,
+      "h": 190,
+      "title": "Predictibilidad",
+      "style": "physical",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_2",
+      "x": 462.6666666666667,
+      "y": 155,
+      "w": 354.6666666666667,
+      "h": 190,
+      "title": "Continuidad",
+      "style": "accent",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_3",
+      "x": 845.3333333333334,
+      "y": 155,
+      "w": 354.6666666666667,
+      "h": 190,
+      "title": "Impulsividad",
+      "style": "neutral",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_4",
+      "x": 80,
+      "y": 373,
+      "w": 354.6666666666667,
+      "h": 190,
+      "title": "Los rasgos pueden\ncoexistir",
+      "style": "clinical",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_5",
+      "x": 462.6666666666667,
+      "y": 373,
+      "w": 354.6666666666667,
+      "h": 190,
+      "title": "Ejemplo: máquina\nfluctuante",
+      "style": "physical",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_6",
+      "x": 845.3333333333334,
+      "y": 373,
+      "w": 354.6666666666667,
+      "h": 190,
+      "title": "Ejemplo: portazos",
+      "style": "accent",
+      "role": "node",
+      "font": 32
+    }
+  ],
+  "edges": [],
+  "notToScale": false,
+  "layoutFamily": "grid",
+  "classification": "diagrama conceptual",
+  "title": "Clasificación temporal no excluyente",
+  "items": [
+    "Predictibilidad",
+    "Continuidad",
+    "Impulsividad",
+    "Los rasgos pueden coexistir",
+    "Ejemplo: máquina fluctuante",
+    "Ejemplo: portazos"
+  ],
+  "source": "Libro del curso, capítulo 10; brief, storyboard y diagram_plan de la Unidad 10. Síntesis visual propia de la cátedra.",
+  "caption": "Clasificación temporal no excluyente. Predictibilidad; continuidad; impulsividad; ejemplos.",
+  "alt": "Clasificación temporal no excluyente. Predictibilidad; continuidad; impulsividad; ejemplos. Orden de lectura: Árbol con retorno “puede coexistir”.",
+  "footer": "Relación de lectura: Árbol con retorno “puede coexistir”."
+}

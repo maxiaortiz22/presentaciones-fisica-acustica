@@ -1,0 +1,97 @@
+{
+  "id": "U10-DG-016",
+  "slides": "U10-023 · `mixed`",
+  "purposeType": "Ejemplo media cero/RMS no cero.",
+  "nodesText": "Datos; media; cuadrados; RMS; varianza; interpretación.",
+  "connectorText": "Flechas de cálculo.",
+  "equationText": "Sustituciones numéricas editables.",
+  "textEstimate": "≤1 línea por paso.",
+  "layout": "FA_10; dos filas, resultado destacado; no comprimir cinco columnas.",
+  "editable": "Sí; SVG/PNG.",
+  "validationState": "V1/V2/V3; aprobado tras render 2026-08-12",
+  "nodes": [
+    {
+      "id": "concept_1",
+      "x": 80,
+      "y": 155,
+      "w": 354.6666666666667,
+      "h": 190,
+      "title": "Datos: −2, −1, 0,\n1, 2 mPa",
+      "style": "physical",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_2",
+      "x": 462.6666666666667,
+      "y": 155,
+      "w": 354.6666666666667,
+      "h": 190,
+      "title": "Media = 0 mPa",
+      "style": "accent",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_3",
+      "x": 845.3333333333334,
+      "y": 155,
+      "w": 354.6666666666667,
+      "h": 190,
+      "title": "Media de p² = 2\nmPa²",
+      "style": "neutral",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_4",
+      "x": 80,
+      "y": 373,
+      "w": 354.6666666666667,
+      "h": 190,
+      "title": "RMS = √2 ≈ 1,41\nmPa",
+      "style": "clinical",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_5",
+      "x": 462.6666666666667,
+      "y": 373,
+      "w": 354.6666666666667,
+      "h": 190,
+      "title": "Varianza = 2 mPa²",
+      "style": "physical",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_6",
+      "x": 845.3333333333334,
+      "y": 373,
+      "w": 354.6666666666667,
+      "h": 190,
+      "title": "Media cero no\nimplica silencio",
+      "style": "accent",
+      "role": "node",
+      "font": 32
+    }
+  ],
+  "edges": [],
+  "notToScale": false,
+  "layoutFamily": "grid",
+  "classification": "esquema mixto",
+  "title": "Ejemplo media cero/RMS no cero",
+  "items": [
+    "Datos: −2, −1, 0, 1, 2 mPa",
+    "Media = 0 mPa",
+    "Media de p² = 2 mPa²",
+    "RMS = √2 ≈ 1,41 mPa",
+    "Varianza = 2 mPa²",
+    "Media cero no implica silencio"
+  ],
+  "source": "Libro del curso, capítulo 10; brief, storyboard y diagram_plan de la Unidad 10. Síntesis visual propia de la cátedra.",
+  "caption": "Ejemplo media cero/RMS no cero. Datos; media; cuadrados; RMS; varianza; interpretación.",
+  "alt": "Ejemplo media cero/RMS no cero. Datos; media; cuadrados; RMS; varianza; interpretación. Orden de lectura: Flechas de cálculo.",
+  "footer": "Relación de lectura: Flechas de cálculo."
+}

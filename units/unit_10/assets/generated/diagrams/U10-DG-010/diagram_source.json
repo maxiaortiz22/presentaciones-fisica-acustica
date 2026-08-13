@@ -1,0 +1,101 @@
+{
+  "id": "U10-DG-010",
+  "slides": "U10-013 · `diagram`",
+  "purposeType": "Recap señal–contexto–receptor.",
+  "nodesText": "Tres vértices + pregunta central.",
+  "connectorText": "Flechas bidireccionales sin etiqueta o con verbos de 1 palabra.",
+  "equationText": "Ninguna.",
+  "textEstimate": "1–4 palabras/nodo.",
+  "layout": "FA_16; triángulo amplio, no iconografía decorativa.",
+  "editable": "Sí; SVG/PNG.",
+  "validationState": "V1; aprobado tras render 2026-08-12",
+  "nodes": [
+    {
+      "id": "signal",
+      "x": 90,
+      "y": 170,
+      "w": 300,
+      "h": 130,
+      "title": "Señal",
+      "style": "physical",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "context",
+      "x": 890,
+      "y": 170,
+      "w": 300,
+      "h": 130,
+      "title": "Contexto",
+      "style": "accent",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "receiver",
+      "x": 490,
+      "y": 475,
+      "w": 300,
+      "h": 130,
+      "title": "Receptor",
+      "style": "clinical",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "question",
+      "x": 490,
+      "y": 280,
+      "w": 300,
+      "h": 130,
+      "title": "¿Qué función\ncumple?",
+      "style": "neutral",
+      "role": "node",
+      "font": 32
+    }
+  ],
+  "edges": [
+    {
+      "id": "relation_signal",
+      "from": "signal",
+      "to": "question",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "flow",
+      "semantic": ""
+    },
+    {
+      "id": "relation_context",
+      "from": "context",
+      "to": "question",
+      "fromSide": "left",
+      "toSide": "right",
+      "kind": "flow",
+      "semantic": ""
+    },
+    {
+      "id": "relation_receiver",
+      "from": "receiver",
+      "to": "question",
+      "fromSide": "top",
+      "toSide": "bottom",
+      "kind": "flow",
+      "semantic": ""
+    }
+  ],
+  "notToScale": false,
+  "layoutFamily": "triangle",
+  "classification": "diagrama conceptual",
+  "title": "Recap señal–contexto–receptor",
+  "items": [
+    "Señal",
+    "Contexto",
+    "Receptor",
+    "¿Qué función cumple?"
+  ],
+  "source": "Libro del curso, capítulo 10; brief, storyboard y diagram_plan de la Unidad 10. Síntesis visual propia de la cátedra.",
+  "caption": "Recap señal–contexto–receptor. Tres vértices + pregunta central.",
+  "alt": "Recap señal–contexto–receptor. Tres vértices + pregunta central. Orden de lectura: Flechas bidireccionales sin etiqueta o con verbos de 1 palabra.",
+  "footer": "Relación de lectura: Flechas bidireccionales sin etiqueta o con verbos de 1 palabra."
+}

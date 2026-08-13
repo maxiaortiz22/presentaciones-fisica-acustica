@@ -1,0 +1,121 @@
+{
+  "id": "U10-DG-030",
+  "slides": "U10-049 · `equation_only`",
+  "purposeType": "Significado de nivel equivalente.",
+  "nodesText": "Evento variable; energía acumulada; nivel constante equivalente; intervalo `T`.",
+  "connectorText": "“misma energía en T”.",
+  "equationText": "`L_eq,T` genérico y/o forma integral verificada.",
+  "textEstimate": "2–7 palabras/nodo.",
+  "layout": "FA_09; no saturar con integral y analogía simultáneas.",
+  "editable": "OMML + formas; SVG/PNG.",
+  "validationState": "V1/V2; aprobado tras render 2026-08-12",
+  "nodes": [
+    {
+      "id": "equation",
+      "x": 355,
+      "y": 270,
+      "w": 570,
+      "h": 145,
+      "title": "Lₑq,T ↔ igual p²\nmedio en T",
+      "style": "equation",
+      "role": "equation",
+      "font": 48
+    },
+    {
+      "id": "callout_1",
+      "x": 75,
+      "y": 140,
+      "w": 270,
+      "h": 110,
+      "title": "Evento\nvariable",
+      "style": "physical",
+      "role": "callout",
+      "font": 30
+    },
+    {
+      "id": "callout_2",
+      "x": 930,
+      "y": 140,
+      "w": 270,
+      "h": 110,
+      "title": "Energía en T",
+      "style": "accent",
+      "role": "callout",
+      "font": 30
+    },
+    {
+      "id": "callout_3",
+      "x": 75,
+      "y": 480,
+      "w": 270,
+      "h": 110,
+      "title": "Nivel\nequivalente",
+      "style": "neutral",
+      "role": "callout",
+      "font": 30
+    },
+    {
+      "id": "callout_4",
+      "x": 930,
+      "y": 480,
+      "w": 270,
+      "h": 110,
+      "title": "Mismo p²\nmedio en T",
+      "style": "clinical",
+      "role": "callout",
+      "font": 30
+    }
+  ],
+  "edges": [
+    {
+      "id": "leader_1",
+      "from": "callout_1",
+      "to": "equation",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "leader",
+      "semantic": ""
+    },
+    {
+      "id": "leader_2",
+      "from": "callout_2",
+      "to": "equation",
+      "fromSide": "left",
+      "toSide": "right",
+      "kind": "leader",
+      "semantic": ""
+    },
+    {
+      "id": "leader_3",
+      "from": "callout_3",
+      "to": "equation",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "leader",
+      "semantic": ""
+    },
+    {
+      "id": "leader_4",
+      "from": "callout_4",
+      "to": "equation",
+      "fromSide": "left",
+      "toSide": "right",
+      "kind": "leader",
+      "semantic": ""
+    }
+  ],
+  "notToScale": false,
+  "layoutFamily": "equation",
+  "classification": "ecuación anotada",
+  "title": "Significado de nivel equivalente",
+  "items": [
+    "Evento variable",
+    "Energía en T",
+    "Nivel equivalente",
+    "Mismo p² medio en T"
+  ],
+  "source": "Libro del curso, capítulo 10; brief, storyboard y diagram_plan de la Unidad 10. Síntesis visual propia de la cátedra.",
+  "caption": "Significado de nivel equivalente. Evento variable; energía acumulada; nivel constante equivalente; intervalo T.",
+  "alt": "Significado de nivel equivalente. Evento variable; energía acumulada; nivel constante equivalente; intervalo T. Orden de lectura: “misma energía en T”.",
+  "footer": "Relación de lectura: “misma energía en T”."
+}

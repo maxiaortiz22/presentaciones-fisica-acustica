@@ -1,0 +1,121 @@
+{
+  "id": "U10-DG-015",
+  "slides": "U10-022 · `equation_only`",
+  "purposeType": "Varianza frente a RMS.",
+  "nodesText": "Media; desviaciones; cuadrado; promedio; caja contraste.",
+  "connectorText": "Secuencia con etiqueta breve.",
+  "equationText": "`σ_p²=(1/N)Σ(p_i−p̄)²`.",
+  "textEstimate": "2–6 palabras/nodo.",
+  "layout": "FA_09; no más de 4 callouts; unidad Pa² visible.",
+  "editable": "OMML + formas; SVG/PNG.",
+  "validationState": "V1/V2; aprobado tras render 2026-08-12",
+  "nodes": [
+    {
+      "id": "equation",
+      "x": 355,
+      "y": 270,
+      "w": 570,
+      "h": 145,
+      "title": "σₚ² = (1/N) Σᵢ₌₁ᴺ\n(pᵢ − p̄)²",
+      "style": "equation",
+      "role": "equation",
+      "font": 48
+    },
+    {
+      "id": "callout_1",
+      "x": 75,
+      "y": 140,
+      "w": 270,
+      "h": 110,
+      "title": "p̄: centro de\nreferencia",
+      "style": "physical",
+      "role": "callout",
+      "font": 30
+    },
+    {
+      "id": "callout_2",
+      "x": 930,
+      "y": 140,
+      "w": 270,
+      "h": 110,
+      "title": "pᵢ−p̄:\ndesviación",
+      "style": "accent",
+      "role": "callout",
+      "font": 30
+    },
+    {
+      "id": "callout_3",
+      "x": 75,
+      "y": 480,
+      "w": 270,
+      "h": 110,
+      "title": "Cuadrar evita\ncancelación",
+      "style": "neutral",
+      "role": "callout",
+      "font": 30
+    },
+    {
+      "id": "callout_4",
+      "x": 930,
+      "y": 480,
+      "w": 270,
+      "h": 110,
+      "title": "σₚ² en Pa²",
+      "style": "clinical",
+      "role": "callout",
+      "font": 30
+    }
+  ],
+  "edges": [
+    {
+      "id": "leader_1",
+      "from": "callout_1",
+      "to": "equation",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "leader",
+      "semantic": ""
+    },
+    {
+      "id": "leader_2",
+      "from": "callout_2",
+      "to": "equation",
+      "fromSide": "left",
+      "toSide": "right",
+      "kind": "leader",
+      "semantic": ""
+    },
+    {
+      "id": "leader_3",
+      "from": "callout_3",
+      "to": "equation",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "leader",
+      "semantic": ""
+    },
+    {
+      "id": "leader_4",
+      "from": "callout_4",
+      "to": "equation",
+      "fromSide": "left",
+      "toSide": "right",
+      "kind": "leader",
+      "semantic": ""
+    }
+  ],
+  "notToScale": false,
+  "layoutFamily": "equation",
+  "classification": "ecuación anotada",
+  "title": "Varianza frente a RMS",
+  "items": [
+    "p̄: centro de referencia",
+    "pᵢ−p̄: desviación",
+    "Cuadrar evita cancelación",
+    "σₚ² en Pa²"
+  ],
+  "source": "Libro del curso, capítulo 10; brief, storyboard y diagram_plan de la Unidad 10. Síntesis visual propia de la cátedra.",
+  "caption": "Varianza frente a RMS. Media; desviaciones; cuadrado; promedio; caja contraste.",
+  "alt": "Varianza frente a RMS. Media; desviaciones; cuadrado; promedio; caja contraste. Orden de lectura: Secuencia con etiqueta breve.",
+  "footer": "Relación de lectura: Secuencia con etiqueta breve."
+}

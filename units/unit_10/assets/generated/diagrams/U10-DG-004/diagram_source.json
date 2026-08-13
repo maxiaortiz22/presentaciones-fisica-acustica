@@ -1,0 +1,143 @@
+{
+  "id": "U10-DG-004",
+  "slides": "U10-004 · `diagram`",
+  "purposeType": "Red de prerrequisitos.",
+  "nodesText": "Presión/RMS; dB; espectro; SNR; percepción; propagación.",
+  "connectorText": "“sostiene” hacia U10, agrupados por unidad previa.",
+  "equationText": "`L_p`, `p_rms` solo como símbolos.",
+  "textEstimate": "2–5 palabras/nodo.",
+  "layout": "FA_11; 3+3 nodos, centro libre para U10.",
+  "editable": "Sí; SVG/PNG.",
+  "validationState": "V1; aprobado tras render 2026-08-12",
+  "nodes": [
+    {
+      "id": "branch_source",
+      "x": 80,
+      "y": 280,
+      "w": 285,
+      "h": 145,
+      "title": "Presión y RMS",
+      "style": "physical",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "branch_1",
+      "x": 690,
+      "y": 129,
+      "w": 430,
+      "h": 82,
+      "title": "Niveles en dB",
+      "style": "accent",
+      "role": "node",
+      "font": 30
+    },
+    {
+      "id": "branch_2",
+      "x": 690,
+      "y": 229,
+      "w": 430,
+      "h": 82,
+      "title": "Espectro y bandas",
+      "style": "neutral",
+      "role": "node",
+      "font": 30
+    },
+    {
+      "id": "branch_3",
+      "x": 690,
+      "y": 329,
+      "w": 430,
+      "h": 82,
+      "title": "SNR",
+      "style": "clinical",
+      "role": "node",
+      "font": 30
+    },
+    {
+      "id": "branch_4",
+      "x": 690,
+      "y": 429,
+      "w": 430,
+      "h": 82,
+      "title": "Percepción",
+      "style": "physical",
+      "role": "node",
+      "font": 30
+    },
+    {
+      "id": "branch_5",
+      "x": 690,
+      "y": 529,
+      "w": 430,
+      "h": 82,
+      "title": "Propagación",
+      "style": "accent",
+      "role": "node",
+      "font": 30
+    }
+  ],
+  "edges": [
+    {
+      "id": "branch_edge_1",
+      "from": "branch_source",
+      "to": "branch_1",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "flow",
+      "semantic": ""
+    },
+    {
+      "id": "branch_edge_2",
+      "from": "branch_source",
+      "to": "branch_2",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "flow",
+      "semantic": ""
+    },
+    {
+      "id": "branch_edge_3",
+      "from": "branch_source",
+      "to": "branch_3",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "flow",
+      "semantic": ""
+    },
+    {
+      "id": "branch_edge_4",
+      "from": "branch_source",
+      "to": "branch_4",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "flow",
+      "semantic": ""
+    },
+    {
+      "id": "branch_edge_5",
+      "from": "branch_source",
+      "to": "branch_5",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "flow",
+      "semantic": ""
+    }
+  ],
+  "notToScale": true,
+  "layoutFamily": "branch",
+  "classification": "diagrama conceptual",
+  "title": "Red de prerrequisitos",
+  "items": [
+    "Presión y RMS",
+    "Niveles en dB",
+    "Espectro y bandas",
+    "SNR",
+    "Percepción",
+    "Propagación"
+  ],
+  "source": "Libro del curso, capítulo 10; brief, storyboard y diagram_plan de la Unidad 10. Síntesis visual propia de la cátedra.",
+  "caption": "Red de prerrequisitos. Presión/RMS; dB; espectro; SNR; percepción; propagación.",
+  "alt": "Red de prerrequisitos. Presión/RMS; dB; espectro; SNR; percepción; propagación. Orden de lectura: “sostiene” hacia U10, agrupados por unidad previa.",
+  "footer": "Relación de lectura: “sostiene” hacia U10, agrupados por unidad previa."
+}

@@ -1,0 +1,73 @@
+{
+  "id": "U10-DG-001",
+  "slides": "U10-001 · `diagram`",
+  "purposeType": "Portada conceptual: anticipar cuatro ejes de caracterización.",
+  "nodesText": "Onda central; tiempo; frecuencia; nivel; efecto.",
+  "connectorText": "Cuatro ramales sin rótulo largo.",
+  "equationText": "Ninguna.",
+  "textEstimate": "1–3 palabras/nodo.",
+  "layout": "FA_00; ocupar tercio inferior, sin competir con título.",
+  "editable": "Sí; SVG/PNG.",
+  "validationState": "V0/V1; aprobado tras render 2026-08-12",
+  "nodes": [
+    {
+      "id": "concept_1",
+      "x": 80,
+      "y": 155,
+      "w": 546,
+      "h": 190,
+      "title": "Tiempo",
+      "style": "physical",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_2",
+      "x": 654,
+      "y": 155,
+      "w": 546,
+      "h": 190,
+      "title": "Frecuencia",
+      "style": "accent",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_3",
+      "x": 80,
+      "y": 373,
+      "w": 546,
+      "h": 190,
+      "title": "Nivel",
+      "style": "neutral",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_4",
+      "x": 654,
+      "y": 373,
+      "w": 546,
+      "h": 190,
+      "title": "Efecto / tarea",
+      "style": "clinical",
+      "role": "node",
+      "font": 32
+    }
+  ],
+  "edges": [],
+  "notToScale": false,
+  "layoutFamily": "grid",
+  "classification": "diagrama conceptual",
+  "title": "Portada conceptual: anticipar cuatro ejes de caracterización",
+  "items": [
+    "Tiempo",
+    "Frecuencia",
+    "Nivel",
+    "Efecto / tarea"
+  ],
+  "source": "Libro del curso, capítulo 10; brief, storyboard y diagram_plan de la Unidad 10. Síntesis visual propia de la cátedra.",
+  "caption": "Portada conceptual: anticipar cuatro ejes de caracterización. Onda central; tiempo; frecuencia; nivel; efecto.",
+  "alt": "Portada conceptual: anticipar cuatro ejes de caracterización. Onda central; tiempo; frecuencia; nivel; efecto. Orden de lectura: Cuatro ramales sin rótulo largo.",
+  "footer": "Relación de lectura: Cuatro ramales sin rótulo largo."
+}

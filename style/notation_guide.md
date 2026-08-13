@@ -162,6 +162,9 @@ solo cuando `x²` es proporcional a la magnitud de potencia bajo las mismas cond
 | equivalente ponderado A | `L_Aeq,T` | ponderación A e intervalo `T` | preferido frente a “Leq dBA” aislado |
 | nivel máximo A, Fast | `L_AFmax` | ponderación A, respuesta temporal F | no equivale a pico |
 | nivel pico C | `L_Cpeak` | ponderación C, detector de pico | declarar configuración |
+| nivel máximo genérico con respuesta temporal F | `L_max,F` | ponderación frecuencial no especificada | Solo para comparación conceptual cuando la ponderación frecuencial no se fijó; en informes técnicos usar el descriptor completo, por ejemplo `L_AFmax`. |
+| nivel pico genérico | `L_peak` | ponderación frecuencial no especificada | Solo para explicación conceptual; cuando la configuración esté definida usar el descriptor completo, por ejemplo `L_Cpeak`. |
+| nivel de excedencia | `L_N,T` | nivel superado durante `N %` del intervalo `T` | Declarar ponderación, respuesta temporal, intervalo y método. No identificar automáticamente `L_90,T` con ruido de fondo. |
 | corrección A para un tono | `A(f)` | dB | Bajo condiciones verificadas, `L_A(f)=L_Z(f)+A(f)`; no aplicar una corrección única a banda ancha. |
 | nivel de audición | nivel en dB HL | cero audiométrico normativo | `dB HL`, frecuencia y transductor |
 | nivel de sensación | nivel en dB SL | umbral individual | `dB SL re umbral ...` |
@@ -202,6 +205,8 @@ Reglas:
 | ancho de banda | `B` o `Δf_B` | Hz | No confundir con separación de bins `Δf`. |
 | nivel integrado en banda | `L_B` | dB | Declarar magnitud integrada `q_B`, límites de banda y referencia. |
 | densidad espectral de potencia | `S_x(f)` | unidad de `x²`/Hz | Para presión: Pa²/Hz. |
+| densidad espectral unilateral de presión | `S_pp(f)` | Pa²/Hz | Caso específico de `S_x(f)` adoptado para U10; indicar que es unilateral y mantener la convención de normalización en toda la figura o cálculo. |
+| presión eficaz integrada en una banda `B` | `p_{B,\mathrm{rms}}` | Pa | `p_{B,\mathrm{rms}}=\sqrt{\int_B S_{pp}(f)\,df}` para la PSD unilateral y la convención declarada. |
 | relación señal-ruido | `SNR` | dB o razón | Si está en dB: `10 log₁₀(P_s/P_n)` bajo condiciones compatibles. |
 
 Para gráficos espectrales, indicar:
@@ -326,6 +331,7 @@ debe indicarse que la constante corresponde a unidades SI y a condiciones aproxi
 - En curvas conceptuales, rotular **esquema conceptual; no usar para lectura normativa**.
 - Mantener colores y estilos iguales para las mismas entidades a través de unidades una vez aprobado el sistema visual.
 - Toda figura con datos externos debe registrar fuente; toda figura simulada debe registrar ecuación, parámetros y script.
+- En ejes y tablas se admite `Pa²/Hz` como forma legible equivalente a `Pa²·Hz⁻¹`; no alternar ambas escrituras dentro de una misma slide.
 
 ## Comprobación mínima por ecuación
 

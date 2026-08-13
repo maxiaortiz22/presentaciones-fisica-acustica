@@ -1,0 +1,143 @@
+{
+  "id": "U10-DG-028",
+  "slides": "U10-046 · `diagram`",
+  "purposeType": "Cadena de medición.",
+  "nodesText": "Fuente; micrófono; ponderación; detector; integración; indicador; metadatos.",
+  "connectorText": "“transduce”, “pondera”, “integra”, “reporta”.",
+  "equationText": "`L_Aeq,T` como salida.",
+  "textEstimate": "1–4 palabras/nodo.",
+  "layout": "FA_12; seis nodos en dos niveles; metadatos debajo.",
+  "editable": "Sí; SVG/PNG.",
+  "validationState": "V1/V3; aprobado tras render 2026-08-12",
+  "nodes": [
+    {
+      "id": "step_1",
+      "x": 80,
+      "y": 170,
+      "w": 300,
+      "h": 145,
+      "title": "1 · Fuente",
+      "style": "physical",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "step_2",
+      "x": 490,
+      "y": 170,
+      "w": 300,
+      "h": 145,
+      "title": "2 · Micrófono",
+      "style": "accent",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "step_3",
+      "x": 900,
+      "y": 170,
+      "w": 300,
+      "h": 145,
+      "title": "3 ·\nPonderación",
+      "style": "neutral",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "step_4",
+      "x": 900,
+      "y": 410,
+      "w": 300,
+      "h": 145,
+      "title": "4 · Detector\ntemporal",
+      "style": "clinical",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "step_5",
+      "x": 490,
+      "y": 410,
+      "w": 300,
+      "h": 145,
+      "title": "5 · Integración\n→ indicador",
+      "style": "physical",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "step_6",
+      "x": 80,
+      "y": 410,
+      "w": 300,
+      "h": 145,
+      "title": "6 · Metadatos\nobligatorios",
+      "style": "accent",
+      "role": "node",
+      "font": 32
+    }
+  ],
+  "edges": [
+    {
+      "id": "flow_1",
+      "from": "step_1",
+      "to": "step_2",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "flow",
+      "semantic": ""
+    },
+    {
+      "id": "flow_2",
+      "from": "step_2",
+      "to": "step_3",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "flow",
+      "semantic": ""
+    },
+    {
+      "id": "flow_3",
+      "from": "step_3",
+      "to": "step_4",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "kind": "flow",
+      "semantic": ""
+    },
+    {
+      "id": "flow_4",
+      "from": "step_4",
+      "to": "step_5",
+      "fromSide": "left",
+      "toSide": "right",
+      "kind": "flow",
+      "semantic": ""
+    },
+    {
+      "id": "flow_5",
+      "from": "step_5",
+      "to": "step_6",
+      "fromSide": "left",
+      "toSide": "right",
+      "kind": "flow",
+      "semantic": ""
+    }
+  ],
+  "notToScale": false,
+  "layoutFamily": "process",
+  "classification": "diagrama de proceso",
+  "title": "Cadena de medición",
+  "items": [
+    "Fuente",
+    "Micrófono",
+    "Ponderación",
+    "Detector temporal",
+    "Integración → indicador",
+    "Metadatos obligatorios"
+  ],
+  "source": "Libro del curso, capítulo 10; brief, storyboard y diagram_plan de la Unidad 10. Síntesis visual propia de la cátedra.",
+  "caption": "Cadena de medición. Fuente; micrófono; ponderación; detector; integración; indicador; metadatos.",
+  "alt": "Cadena de medición. Fuente; micrófono; ponderación; detector; integración; indicador; metadatos. Orden de lectura: “transduce”, “pondera”, “integra”, “reporta”.",
+  "footer": "Relación de lectura: “transduce”, “pondera”, “integra”, “reporta”."
+}

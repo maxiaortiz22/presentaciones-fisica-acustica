@@ -1,0 +1,61 @@
+{
+  "id": "U10-DG-008",
+  "slides": "U10-009 · `diagram`",
+  "purposeType": "Mapa semántico del término ruido.",
+  "nodesText": "Contextual; físico/de señales; operativo.",
+  "connectorText": "Desde nodo “ruido”; etiqueta “uso”.",
+  "equationText": "Ninguna.",
+  "textEstimate": "Definición ≤10 palabras + ejemplo ≤4.",
+  "layout": "FA_08; tres columnas; cajas ≥2,2 in.",
+  "editable": "Sí; SVG/PNG.",
+  "validationState": "V1/V3; aprobado tras render 2026-08-12",
+  "nodes": [
+    {
+      "id": "concept_1",
+      "x": 80,
+      "y": 155,
+      "w": 546,
+      "h": 190,
+      "title": "Contextual: depende de la\ntarea",
+      "style": "physical",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_2",
+      "x": 654,
+      "y": 155,
+      "w": 546,
+      "h": 190,
+      "title": "Físico: señal aleatoria",
+      "style": "accent",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_3",
+      "x": 80,
+      "y": 373,
+      "w": 546,
+      "h": 190,
+      "title": "Operativo: señal de prueba",
+      "style": "neutral",
+      "role": "node",
+      "font": 32
+    }
+  ],
+  "edges": [],
+  "notToScale": false,
+  "layoutFamily": "grid",
+  "classification": "diagrama conceptual",
+  "title": "Mapa semántico del término ruido",
+  "items": [
+    "Contextual: depende de la tarea",
+    "Físico: señal aleatoria",
+    "Operativo: señal de prueba"
+  ],
+  "source": "Libro del curso, capítulo 10; brief, storyboard y diagram_plan de la Unidad 10. Síntesis visual propia de la cátedra.",
+  "caption": "Mapa semántico del término ruido. Contextual; físico/de señales; operativo.",
+  "alt": "Mapa semántico del término ruido. Contextual; físico/de señales; operativo. Orden de lectura: Desde nodo “ruido”; etiqueta “uso”.",
+  "footer": "Relación de lectura: Desde nodo “ruido”; etiqueta “uso”."
+}

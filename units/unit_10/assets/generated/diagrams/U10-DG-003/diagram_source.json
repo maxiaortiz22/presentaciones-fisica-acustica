@@ -1,0 +1,122 @@
+{
+  "id": "U10-DG-003",
+  "slides": "U10-003 · `diagram`",
+  "purposeType": "Ruta de objetivos.",
+  "nodesText": "Distinguir, describir, calcular, interpretar, proponer.",
+  "connectorText": "Flecha de progresión; sin etiquetas.",
+  "equationText": "Ninguna.",
+  "textEstimate": "1 verbo + complemento breve.",
+  "layout": "FA_02; dos filas, máximo 3 nodos/fila.",
+  "editable": "Sí; SVG/PNG.",
+  "validationState": "V0/V1; aprobado tras render 2026-08-12",
+  "nodes": [
+    {
+      "id": "step_1",
+      "x": 80,
+      "y": 170,
+      "w": 300,
+      "h": 145,
+      "title": "1 · Señal y\ncontexto",
+      "style": "physical",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "step_2",
+      "x": 490,
+      "y": 170,
+      "w": 300,
+      "h": 145,
+      "title": "2 · Tiempo y\nespectro",
+      "style": "accent",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "step_3",
+      "x": 900,
+      "y": 170,
+      "w": 300,
+      "h": 145,
+      "title": "3 · Calcular\ndescriptores",
+      "style": "neutral",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "step_4",
+      "x": 900,
+      "y": 410,
+      "w": 300,
+      "h": 145,
+      "title": "4 · Interpretar\ncon límites",
+      "style": "clinical",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "step_5",
+      "x": 490,
+      "y": 410,
+      "w": 300,
+      "h": 145,
+      "title": "5 · Proponer\ncontrol",
+      "style": "physical",
+      "role": "node",
+      "font": 32
+    }
+  ],
+  "edges": [
+    {
+      "id": "flow_1",
+      "from": "step_1",
+      "to": "step_2",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "flow",
+      "semantic": ""
+    },
+    {
+      "id": "flow_2",
+      "from": "step_2",
+      "to": "step_3",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "flow",
+      "semantic": ""
+    },
+    {
+      "id": "flow_3",
+      "from": "step_3",
+      "to": "step_4",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "kind": "flow",
+      "semantic": ""
+    },
+    {
+      "id": "flow_4",
+      "from": "step_4",
+      "to": "step_5",
+      "fromSide": "left",
+      "toSide": "right",
+      "kind": "flow",
+      "semantic": ""
+    }
+  ],
+  "notToScale": false,
+  "layoutFamily": "process",
+  "classification": "diagrama de proceso",
+  "title": "Ruta de objetivos",
+  "items": [
+    "Señal y contexto",
+    "Tiempo y espectro",
+    "Calcular descriptores",
+    "Interpretar con límites",
+    "Proponer control"
+  ],
+  "source": "Libro del curso, capítulo 10; brief, storyboard y diagram_plan de la Unidad 10. Síntesis visual propia de la cátedra.",
+  "caption": "Ruta de objetivos. Distinguir, describir, calcular, interpretar, proponer.",
+  "alt": "Ruta de objetivos. Distinguir, describir, calcular, interpretar, proponer. Orden de lectura: Flecha de progresión; sin etiquetas.",
+  "footer": "Relación de lectura: Flecha de progresión; sin etiquetas."
+}

@@ -1,0 +1,47 @@
+{
+  "asset_id": "U10-CH-015",
+  "classification": "gráfico cuantitativo",
+  "status": "approved",
+  "canvas_final_inches": [
+    12,
+    5.4
+  ],
+  "figure_png_px": [
+    2665,
+    1213
+  ],
+  "slide_context_px": [
+    3200,
+    1800
+  ],
+  "font_floor_pt": {
+    "axes": 20,
+    "ticks_legend": 18,
+    "annotations": 22
+  },
+  "scale_declared": true,
+  "units_declared": true,
+  "synthetic_or_analytic": true,
+  "numerical_checks": {
+    "rms_sine": 1.0,
+    "rms_random": 0.9999999999999999,
+    "rms_difference": 1.1102230246251565e-16
+  },
+  "issues": [],
+  "critical_issues": 0,
+  "major_issues": 0,
+  "iterations": [
+    {
+      "iteration": 1,
+      "action": "generación y preflight numérico",
+      "critical": 0,
+      "major": 0
+    },
+    {
+      "iteration": 2,
+      "action": "render individual y render 16:9",
+      "critical": 0,
+      "major": 0
+    }
+  ]
+}

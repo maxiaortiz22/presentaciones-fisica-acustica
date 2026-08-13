@@ -1,0 +1,85 @@
+{
+  "id": "U10-DG-020",
+  "slides": "U10-030 · `mixed`",
+  "purposeType": "Cálculo de potencia en una banda.",
+  "nodesText": "Datos; `Δf`; producto; `p_rms²`; interpretación.",
+  "connectorText": "Flechas “calcular”, “integrar”.",
+  "equationText": "Caso numérico a verificar.",
+  "textEstimate": "1 línea/etapa.",
+  "layout": "FA_10; cuatro etapas grandes.",
+  "editable": "Sí; SVG/PNG.",
+  "validationState": "V1/V2; aprobado tras render 2026-08-12",
+  "nodes": [
+    {
+      "id": "concept_1",
+      "x": 80,
+      "y": 155,
+      "w": 354.6666666666667,
+      "h": 190,
+      "title": "Sₚₚ = 4,0×10⁻⁸\nPa²/Hz",
+      "style": "physical",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_2",
+      "x": 462.6666666666667,
+      "y": 155,
+      "w": 354.6666666666667,
+      "h": 190,
+      "title": "Δf = 100 Hz",
+      "style": "accent",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_3",
+      "x": 845.3333333333334,
+      "y": 155,
+      "w": 354.6666666666667,
+      "h": 190,
+      "title": "p²_B,rms =\n4,0×10⁻⁶ Pa²",
+      "style": "neutral",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_4",
+      "x": 80,
+      "y": 373,
+      "w": 354.6666666666667,
+      "h": 190,
+      "title": "p_B,rms = 2,0 mPa",
+      "style": "clinical",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_5",
+      "x": 462.6666666666667,
+      "y": 373,
+      "w": 354.6666666666667,
+      "h": 190,
+      "title": "Lₚ = 40 dB SPL",
+      "style": "physical",
+      "role": "node",
+      "font": 32
+    }
+  ],
+  "edges": [],
+  "notToScale": false,
+  "layoutFamily": "grid",
+  "classification": "esquema mixto",
+  "title": "Cálculo de potencia en una banda",
+  "items": [
+    "Sₚₚ = 4,0×10⁻⁸ Pa²/Hz",
+    "Δf = 100 Hz",
+    "p²_B,rms = 4,0×10⁻⁶ Pa²",
+    "p_B,rms = 2,0 mPa",
+    "Lₚ = 40 dB SPL"
+  ],
+  "source": "Libro del curso, capítulo 10; brief, storyboard y diagram_plan de la Unidad 10. Síntesis visual propia de la cátedra.",
+  "caption": "Cálculo de potencia en una banda. Datos; Δf; producto; p_rms²; interpretación.",
+  "alt": "Cálculo de potencia en una banda. Datos; Δf; producto; p_rms²; interpretación. Orden de lectura: Flechas “calcular”, “integrar”.",
+  "footer": "Relación de lectura: Flechas “calcular”, “integrar”."
+}

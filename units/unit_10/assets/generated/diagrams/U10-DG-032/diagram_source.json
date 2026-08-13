@@ -1,0 +1,73 @@
+{
+  "id": "U10-DG-032",
+  "slides": "U10-052 · `diagram`",
+  "purposeType": "Fondo, señal objetivo y enmascarador.",
+  "nodesText": "Receptor central; tres capas acústicas; tarea.",
+  "connectorText": "“se desea”, “interfiere”, “se agrega deliberadamente”.",
+  "equationText": "Ninguna.",
+  "textEstimate": "2–7 palabras/capa.",
+  "layout": "FA_11; no usar volumen/color como nivel cuantitativo.",
+  "editable": "Sí; SVG/PNG.",
+  "validationState": "V1; aprobado tras render 2026-08-12",
+  "nodes": [
+    {
+      "id": "concept_1",
+      "x": 80,
+      "y": 155,
+      "w": 546,
+      "h": 190,
+      "title": "Señal objetivo: se desea",
+      "style": "physical",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_2",
+      "x": 654,
+      "y": 155,
+      "w": 546,
+      "h": 190,
+      "title": "Ruido de fondo: interfiere",
+      "style": "accent",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_3",
+      "x": 80,
+      "y": 373,
+      "w": 546,
+      "h": 190,
+      "title": "Enmascarador: se agrega",
+      "style": "neutral",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_4",
+      "x": 654,
+      "y": 373,
+      "w": 546,
+      "h": 190,
+      "title": "Receptor y tarea",
+      "style": "clinical",
+      "role": "node",
+      "font": 32
+    }
+  ],
+  "edges": [],
+  "notToScale": false,
+  "layoutFamily": "grid",
+  "classification": "diagrama conceptual",
+  "title": "Fondo, señal objetivo y enmascarador",
+  "items": [
+    "Señal objetivo: se desea",
+    "Ruido de fondo: interfiere",
+    "Enmascarador: se agrega",
+    "Receptor y tarea"
+  ],
+  "source": "Libro del curso, capítulo 10; brief, storyboard y diagram_plan de la Unidad 10. Síntesis visual propia de la cátedra.",
+  "caption": "Fondo, señal objetivo y enmascarador. Receptor central; tres capas acústicas; tarea.",
+  "alt": "Fondo, señal objetivo y enmascarador. Receptor central; tres capas acústicas; tarea. Orden de lectura: “se desea”, “interfiere”, “se agrega deliberadamente”.",
+  "footer": "Relación de lectura: “se desea”, “interfiere”, “se agrega deliberadamente”."
+}

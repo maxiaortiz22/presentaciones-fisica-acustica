@@ -1,0 +1,101 @@
+{
+  "id": "U10-DG-045",
+  "slides": "U10-070 · `diagram`",
+  "purposeType": "Jerarquía fuente–trayecto–receptor.",
+  "nodesText": "Fuente; mantenimiento/sustitución; barrera/encapsulado; receptor/organización/EPP; verificación.",
+  "connectorText": "“controlar primero”, “comprobar después”.",
+  "equationText": "Ninguna.",
+  "textEstimate": "2–6 palabras/nodo.",
+  "layout": "FA_12; tres zonas + franja de verificación; corredores claros.",
+  "editable": "Sí; SVG/PNG.",
+  "validationState": "V1/V3; aprobado tras render 2026-08-12",
+  "nodes": [
+    {
+      "id": "branch_source",
+      "x": 80,
+      "y": 280,
+      "w": 285,
+      "h": 145,
+      "title": "Fuente: menos\nemisión",
+      "style": "physical",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "branch_1",
+      "x": 690,
+      "y": 186.5,
+      "w": 430,
+      "h": 105,
+      "title": "Trayecto: barrera /\nencapsulado",
+      "style": "accent",
+      "role": "node",
+      "font": 30
+    },
+    {
+      "id": "branch_2",
+      "x": 690,
+      "y": 317.5,
+      "w": 430,
+      "h": 105,
+      "title": "Receptor: organización\n/ EPP",
+      "style": "neutral",
+      "role": "node",
+      "font": 30
+    },
+    {
+      "id": "branch_3",
+      "x": 690,
+      "y": 448.5,
+      "w": 430,
+      "h": 105,
+      "title": "Verificar antes y\ndespués",
+      "style": "clinical",
+      "role": "node",
+      "font": 30
+    }
+  ],
+  "edges": [
+    {
+      "id": "branch_edge_1",
+      "from": "branch_source",
+      "to": "branch_1",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "flow",
+      "semantic": ""
+    },
+    {
+      "id": "branch_edge_2",
+      "from": "branch_source",
+      "to": "branch_2",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "flow",
+      "semantic": ""
+    },
+    {
+      "id": "branch_edge_3",
+      "from": "branch_source",
+      "to": "branch_3",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "flow",
+      "semantic": ""
+    }
+  ],
+  "notToScale": true,
+  "layoutFamily": "branch",
+  "classification": "diagrama de proceso",
+  "title": "Jerarquía fuente–trayecto–receptor",
+  "items": [
+    "Fuente: menos emisión",
+    "Trayecto: barrera / encapsulado",
+    "Receptor: organización / EPP",
+    "Verificar antes y después"
+  ],
+  "source": "Libro del curso, capítulo 10; brief, storyboard y diagram_plan de la Unidad 10. Síntesis visual propia de la cátedra.",
+  "caption": "Jerarquía fuente–trayecto–receptor. Fuente; mantenimiento/sustitución; barrera/encapsulado; receptor/organización/EPP; verificación.",
+  "alt": "Jerarquía fuente–trayecto–receptor. Fuente; mantenimiento/sustitución; barrera/encapsulado; receptor/organización/EPP; verificación. Orden de lectura: “controlar primero”, “comprobar después”.",
+  "footer": "Relación de lectura: “controlar primero”, “comprobar después”."
+}

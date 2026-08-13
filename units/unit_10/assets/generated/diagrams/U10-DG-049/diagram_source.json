@@ -1,0 +1,143 @@
+{
+  "id": "U10-DG-049",
+  "slides": "U10-075 · `diagram`",
+  "purposeType": "Cadena medir–interpretar–controlar–verificar.",
+  "nodesText": "Propósito; configuración; dato; inferencia; acción; comprobación.",
+  "connectorText": "Verbos en flechas.",
+  "equationText": "Ninguna.",
+  "textEstimate": "1–5 palabras/nodo.",
+  "layout": "FA_16; seis nodos en dos filas, retorno de verificación.",
+  "editable": "Sí; SVG/PNG.",
+  "validationState": "V1/V3; aprobado tras render 2026-08-12",
+  "nodes": [
+    {
+      "id": "step_1",
+      "x": 80,
+      "y": 170,
+      "w": 300,
+      "h": 145,
+      "title": "1 · Definir\npropósito",
+      "style": "physical",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "step_2",
+      "x": 490,
+      "y": 170,
+      "w": 300,
+      "h": 145,
+      "title": "2 · Configurar\nmedición",
+      "style": "accent",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "step_3",
+      "x": 900,
+      "y": 170,
+      "w": 300,
+      "h": 145,
+      "title": "3 · Obtener\ndato",
+      "style": "neutral",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "step_4",
+      "x": 900,
+      "y": 410,
+      "w": 300,
+      "h": 145,
+      "title": "4 ·\nInterpretar",
+      "style": "clinical",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "step_5",
+      "x": 490,
+      "y": 410,
+      "w": 300,
+      "h": 145,
+      "title": "5 · Actuar",
+      "style": "physical",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "step_6",
+      "x": 80,
+      "y": 410,
+      "w": 300,
+      "h": 145,
+      "title": "6 · Verificar",
+      "style": "accent",
+      "role": "node",
+      "font": 32
+    }
+  ],
+  "edges": [
+    {
+      "id": "flow_1",
+      "from": "step_1",
+      "to": "step_2",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "flow",
+      "semantic": ""
+    },
+    {
+      "id": "flow_2",
+      "from": "step_2",
+      "to": "step_3",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "flow",
+      "semantic": ""
+    },
+    {
+      "id": "flow_3",
+      "from": "step_3",
+      "to": "step_4",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "kind": "flow",
+      "semantic": ""
+    },
+    {
+      "id": "flow_4",
+      "from": "step_4",
+      "to": "step_5",
+      "fromSide": "left",
+      "toSide": "right",
+      "kind": "flow",
+      "semantic": ""
+    },
+    {
+      "id": "flow_5",
+      "from": "step_5",
+      "to": "step_6",
+      "fromSide": "left",
+      "toSide": "right",
+      "kind": "flow",
+      "semantic": ""
+    }
+  ],
+  "notToScale": false,
+  "layoutFamily": "process",
+  "classification": "diagrama de proceso",
+  "title": "Cadena medir–interpretar–controlar–verificar",
+  "items": [
+    "Definir propósito",
+    "Configurar medición",
+    "Obtener dato",
+    "Interpretar",
+    "Actuar",
+    "Verificar"
+  ],
+  "source": "Libro del curso, capítulo 10; brief, storyboard y diagram_plan de la Unidad 10. Síntesis visual propia de la cátedra.",
+  "caption": "Cadena medir–interpretar–controlar–verificar. Propósito; configuración; dato; inferencia; acción; comprobación.",
+  "alt": "Cadena medir–interpretar–controlar–verificar. Propósito; configuración; dato; inferencia; acción; comprobación. Orden de lectura: Verbos en flechas.",
+  "footer": "Relación de lectura: Verbos en flechas."
+}

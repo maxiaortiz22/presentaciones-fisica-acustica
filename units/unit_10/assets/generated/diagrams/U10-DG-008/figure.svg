@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+<defs><marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0,0 L10,4 L0,8 Z" fill="#3D3D3D"/></marker></defs>
+<rect width="1280" height="720" fill="white"/>
+<rect x="72" y="27" width="390" height="6" fill="#4D1434"/><rect x="472" y="27" width="390" height="6" fill="#903163"/><rect x="872" y="27" width="336" height="6" fill="#969FA7"/>
+<text x="72" y="80" font-family="Calibri,Arial,sans-serif" font-size="40" font-weight="700" fill="#3D3D3D">Mapa semántico del término ruido</text>
+<rect id="concept_1" x="80" y="155" width="546" height="190" rx="6" fill="#E7F1F1" stroke="#2F7E83" stroke-width="2"/>
+<text x="353" y="244.39999999999998" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#2F7E83">Contextual: depende de la</text>
+<text x="353" y="278" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#2F7E83">tarea</text>
+<rect id="concept_2" x="654" y="155" width="546" height="190" rx="6" fill="#F3E8EE" stroke="#4D1434" stroke-width="2"/>
+<text x="927" y="261.2" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#4D1434">Físico: señal aleatoria</text>
+<rect id="concept_3" x="80" y="373" width="546" height="190" rx="6" fill="#F7F6F2" stroke="#969FA7" stroke-width="2"/>
+<text x="353" y="479.2" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="32" font-weight="700" fill="#3D3D3D">Operativo: señal de prueba</text>
+<text x="640" y="670" text-anchor="middle" font-family="Calibri,Arial,sans-serif" font-size="20" fill="#969FA7">Relación de lectura: Desde nodo “ruido”; etiqueta “uso”</text>
+<text x="72" y="700" font-family="Calibri,Arial,sans-serif" font-size="14" fill="#969FA7">Libro del curso, capítulo 10; brief, storyboard y diagram_plan de la Unidad 10. Síntesis visual propia de la cátedra</text>
+</svg>

@@ -1,0 +1,144 @@
+{
+  "id": "U10-DG-002",
+  "slides": "U10-002 · `diagram`",
+  "purposeType": "Escena técnica del caso disparador.",
+  "nodesText": "Avenida, fachada, consultorio, conversación, climatización, portazo, receptor.",
+  "connectorText": "Rutas “entra”, “interfiere”, “se evalúa”; numeradas.",
+  "equationText": "Ninguna.",
+  "textEstimate": "1–5 palabras/nodo.",
+  "layout": "FA_13; plano 60 % + preguntas 40 %; evitar más de 6 rutas simultáneas.",
+  "editable": "Sí; SVG/PNG.",
+  "validationState": "V1/V3; aprobado tras render 2026-08-12",
+  "nodes": [
+    {
+      "id": "source",
+      "x": 75,
+      "y": 250,
+      "w": 275,
+      "h": 140,
+      "title": "Avenida",
+      "style": "physical",
+      "role": "node",
+      "font": 30
+    },
+    {
+      "id": "path_top",
+      "x": 360,
+      "y": 155,
+      "w": 270,
+      "h": 115,
+      "title": "Fachada",
+      "style": "neutral",
+      "role": "node",
+      "font": 30
+    },
+    {
+      "id": "path_bottom",
+      "x": 360,
+      "y": 405,
+      "w": 270,
+      "h": 115,
+      "title": "Consultorio",
+      "style": "accent",
+      "role": "node",
+      "font": 30
+    },
+    {
+      "id": "space",
+      "x": 660,
+      "y": 250,
+      "w": 250,
+      "h": 140,
+      "title": "Conversación",
+      "style": "neutral",
+      "role": "node",
+      "font": 30
+    },
+    {
+      "id": "receiver",
+      "x": 945,
+      "y": 250,
+      "w": 260,
+      "h": 140,
+      "title": "Climatización",
+      "style": "clinical",
+      "role": "node",
+      "font": 30
+    },
+    {
+      "id": "condition",
+      "x": 360,
+      "y": 555,
+      "w": 625,
+      "h": 70,
+      "title": "Portazo",
+      "style": "neutral",
+      "role": "note",
+      "font": 30
+    }
+  ],
+  "edges": [
+    {
+      "id": "route_1a",
+      "from": "source",
+      "to": "path_top",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "flow",
+      "semantic": ""
+    },
+    {
+      "id": "route_1b",
+      "from": "path_top",
+      "to": "space",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "flow",
+      "semantic": ""
+    },
+    {
+      "id": "route_2a",
+      "from": "source",
+      "to": "path_bottom",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "flow",
+      "semantic": ""
+    },
+    {
+      "id": "route_2b",
+      "from": "path_bottom",
+      "to": "space",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "flow",
+      "semantic": ""
+    },
+    {
+      "id": "route_3",
+      "from": "space",
+      "to": "receiver",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "flow",
+      "semantic": ""
+    }
+  ],
+  "notToScale": true,
+  "layoutFamily": "scene",
+  "classification": "diagrama conceptual",
+  "title": "Escena técnica del caso disparador",
+  "items": [
+    "Avenida",
+    "Fachada",
+    "Consultorio",
+    "Conversación",
+    "Climatización",
+    "Portazo",
+    "Receptor"
+  ],
+  "source": "Libro del curso, capítulo 10; brief, storyboard y diagram_plan de la Unidad 10. Síntesis visual propia de la cátedra.",
+  "caption": "Escena técnica del caso disparador. Avenida, fachada, consultorio, conversación, climatización, portazo, receptor.",
+  "alt": "Escena técnica del caso disparador. Avenida, fachada, consultorio, conversación, climatización, portazo, receptor. Orden de lectura: Rutas “entra”, “interfiere”, “se evalúa”; numeradas.",
+  "footer": "Relación de lectura: Rutas “entra”, “interfiere”, “se evalúa”; numeradas."
+}

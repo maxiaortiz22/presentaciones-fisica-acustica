@@ -1,0 +1,121 @@
+{
+  "id": "U10-DG-018",
+  "slides": "U10-028 · `diagram`",
+  "purposeType": "Densidad × ancho de banda.",
+  "nodesText": "Rectángulo espectral; altura `S_pp`; base `Δf`; área.",
+  "connectorText": "Callouts externos.",
+  "equationText": "`p_rms²≈S_pp·Δf`.",
+  "textEstimate": "2–5 palabras/callout.",
+  "layout": "FA_08; 60 % gráfico conceptual, 40 % explicación.",
+  "editable": "Formas/OMML; SVG/PNG.",
+  "validationState": "V1/V2; aprobado tras render 2026-08-12",
+  "nodes": [
+    {
+      "id": "equation",
+      "x": 355,
+      "y": 270,
+      "w": 570,
+      "h": 145,
+      "title": "p²(B,rms) ≈ Sₚₚ ·\nΔf",
+      "style": "equation",
+      "role": "equation",
+      "font": 48
+    },
+    {
+      "id": "callout_1",
+      "x": 75,
+      "y": 140,
+      "w": 270,
+      "h": 110,
+      "title": "Altura: Sₚₚ\n(Pa²/Hz)",
+      "style": "physical",
+      "role": "callout",
+      "font": 30
+    },
+    {
+      "id": "callout_2",
+      "x": 930,
+      "y": 140,
+      "w": 270,
+      "h": 110,
+      "title": "Base: Δf (Hz)",
+      "style": "accent",
+      "role": "callout",
+      "font": 30
+    },
+    {
+      "id": "callout_3",
+      "x": 75,
+      "y": 480,
+      "w": 270,
+      "h": 110,
+      "title": "Área (Pa²):\np²_B,rms",
+      "style": "neutral",
+      "role": "callout",
+      "font": 30
+    },
+    {
+      "id": "callout_4",
+      "x": 930,
+      "y": 480,
+      "w": 270,
+      "h": 110,
+      "title": "Esquema no a\nescala",
+      "style": "clinical",
+      "role": "callout",
+      "font": 30
+    }
+  ],
+  "edges": [
+    {
+      "id": "leader_1",
+      "from": "callout_1",
+      "to": "equation",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "leader",
+      "semantic": ""
+    },
+    {
+      "id": "leader_2",
+      "from": "callout_2",
+      "to": "equation",
+      "fromSide": "left",
+      "toSide": "right",
+      "kind": "leader",
+      "semantic": ""
+    },
+    {
+      "id": "leader_3",
+      "from": "callout_3",
+      "to": "equation",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "leader",
+      "semantic": ""
+    },
+    {
+      "id": "leader_4",
+      "from": "callout_4",
+      "to": "equation",
+      "fromSide": "left",
+      "toSide": "right",
+      "kind": "leader",
+      "semantic": ""
+    }
+  ],
+  "notToScale": false,
+  "layoutFamily": "equation",
+  "classification": "diagrama conceptual",
+  "title": "Densidad × ancho de banda",
+  "items": [
+    "Altura: Sₚₚ (Pa²/Hz)",
+    "Base: Δf (Hz)",
+    "Área (Pa²): p²_B,rms",
+    "Esquema no a escala"
+  ],
+  "source": "Libro del curso, capítulo 10; brief, storyboard y diagram_plan de la Unidad 10. Síntesis visual propia de la cátedra.",
+  "caption": "Densidad × ancho de banda. Rectángulo espectral; altura S_pp; base Δf; área.",
+  "alt": "Densidad × ancho de banda. Rectángulo espectral; altura S_pp; base Δf; área. Orden de lectura: Callouts externos.",
+  "footer": "Relación de lectura: Callouts externos."
+}

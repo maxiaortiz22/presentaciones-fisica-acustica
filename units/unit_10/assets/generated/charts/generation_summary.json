@@ -1,0 +1,718 @@
+[
+  {
+    "asset_id": "U10-CH-001",
+    "classification": "gráfico cuantitativo",
+    "status": "approved",
+    "canvas_final_inches": [
+      12,
+      5.4
+    ],
+    "figure_png_px": [
+      2665,
+      1213
+    ],
+    "slide_context_px": [
+      3200,
+      1800
+    ],
+    "font_floor_pt": {
+      "axes": 20,
+      "ticks_legend": 18,
+      "annotations": 22
+    },
+    "scale_declared": true,
+    "units_declared": true,
+    "synthetic_or_analytic": true,
+    "numerical_checks": {
+      "mean_A_abs": 2.398081733190338e-17,
+      "mean_B_abs": 2.4868995751603507e-17,
+      "rms_A": 1.0,
+      "rms_B": 1.0
+    },
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "generación y preflight numérico",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual y render 16:9",
+        "critical": 0,
+        "major": 0
+      }
+    ]
+  },
+  {
+    "asset_id": "U10-CH-002",
+    "classification": "gráfico cuantitativo",
+    "status": "approved",
+    "canvas_final_inches": [
+      12,
+      5.4
+    ],
+    "figure_png_px": [
+      2665,
+      1213
+    ],
+    "slide_context_px": [
+      3200,
+      1800
+    ],
+    "font_floor_pt": {
+      "axes": 20,
+      "ticks_legend": 18,
+      "annotations": 22
+    },
+    "scale_declared": true,
+    "units_declared": true,
+    "synthetic_or_analytic": true,
+    "numerical_checks": {
+      "rms_A": 1.0069679675553438,
+      "rms_B": 0.9898570871151408,
+      "relative_rms_difference": 0.017138086684340675
+    },
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "generación y preflight numérico",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual y render 16:9",
+        "critical": 0,
+        "major": 0
+      }
+    ]
+  },
+  {
+    "asset_id": "U10-CH-003",
+    "classification": "gráfico cuantitativo",
+    "status": "approved",
+    "canvas_final_inches": [
+      12,
+      5.4
+    ],
+    "figure_png_px": [
+      2665,
+      1213
+    ],
+    "slide_context_px": [
+      3200,
+      1800
+    ],
+    "font_floor_pt": {
+      "axes": 20,
+      "ticks_legend": 18,
+      "annotations": 22
+    },
+    "scale_declared": true,
+    "units_declared": true,
+    "synthetic_or_analytic": true,
+    "numerical_checks": {
+      "zoom_samples": 1000,
+      "expected_zoom_samples": 1000
+    },
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "generación y preflight numérico",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual y render 16:9",
+        "critical": 0,
+        "major": 0
+      }
+    ]
+  },
+  {
+    "asset_id": "U10-CH-004",
+    "classification": "gráfico cuantitativo",
+    "status": "approved",
+    "canvas_final_inches": [
+      12,
+      5.4
+    ],
+    "figure_png_px": [
+      2665,
+      1213
+    ],
+    "slide_context_px": [
+      3200,
+      1800
+    ],
+    "font_floor_pt": {
+      "axes": 20,
+      "ticks_legend": 18,
+      "annotations": 22
+    },
+    "scale_declared": true,
+    "units_declared": true,
+    "synthetic_or_analytic": true,
+    "numerical_checks": {
+      "impulse_max_mPa": 3.7951816491951864,
+      "ylim_mPa": 4.5
+    },
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "generación y preflight numérico",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual y render 16:9",
+        "critical": 0,
+        "major": 0
+      }
+    ]
+  },
+  {
+    "asset_id": "U10-CH-005",
+    "classification": "gráfico cuantitativo",
+    "status": "approved",
+    "canvas_final_inches": [
+      12,
+      5.4
+    ],
+    "figure_png_px": [
+      2707,
+      1195
+    ],
+    "slide_context_px": [
+      3200,
+      1800
+    ],
+    "font_floor_pt": {
+      "axes": 20,
+      "ticks_legend": 18,
+      "annotations": 22
+    },
+    "scale_declared": true,
+    "units_declared": true,
+    "synthetic_or_analytic": true,
+    "numerical_checks": {
+      "mean_A": 1.4210854715202004e-17,
+      "mean_B": 0.0,
+      "rms_A": 1.0,
+      "rms_B": 1.0,
+      "var_A": 1.0,
+      "var_B": 1.0,
+      "hist_A_sum": 0.9999999999999225,
+      "hist_B_sum": 0.9999999999999225
+    },
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "generación y preflight numérico",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual y render 16:9",
+        "critical": 0,
+        "major": 0
+      }
+    ]
+  },
+  {
+    "asset_id": "U10-CH-006",
+    "classification": "gráfico cuantitativo",
+    "status": "approved",
+    "canvas_final_inches": [
+      12,
+      5.4
+    ],
+    "figure_png_px": [
+      2665,
+      1213
+    ],
+    "slide_context_px": [
+      3200,
+      1800
+    ],
+    "font_floor_pt": {
+      "axes": 20,
+      "ticks_legend": 18,
+      "annotations": 22
+    },
+    "scale_declared": true,
+    "units_declared": true,
+    "synthetic_or_analytic": true,
+    "numerical_checks": {
+      "power_time_Pa2": 1e-06,
+      "power_psd_Pa2": 9.965451807213685e-07,
+      "parseval_relative_error": 0.0034548192786314404
+    },
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "generación y preflight numérico",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual y render 16:9",
+        "critical": 0,
+        "major": 0
+      }
+    ]
+  },
+  {
+    "asset_id": "U10-CH-007",
+    "classification": "gráfico cuantitativo",
+    "status": "approved",
+    "canvas_final_inches": [
+      12,
+      5.4
+    ],
+    "figure_png_px": [
+      2665,
+      1213
+    ],
+    "slide_context_px": [
+      3200,
+      1800
+    ],
+    "font_floor_pt": {
+      "axes": 20,
+      "ticks_legend": 18,
+      "annotations": 22
+    },
+    "scale_declared": true,
+    "units_declared": true,
+    "synthetic_or_analytic": true,
+    "numerical_checks": {
+      "highlight_power_Pa2": 1e-09,
+      "total_power_Pa2": 7.875e-09
+    },
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "generación y preflight numérico",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual y render 16:9",
+        "critical": 0,
+        "major": 0
+      }
+    ]
+  },
+  {
+    "asset_id": "U10-CH-008",
+    "classification": "gráfico cuantitativo",
+    "status": "approved",
+    "canvas_final_inches": [
+      12,
+      5.4
+    ],
+    "figure_png_px": [
+      2665,
+      1213
+    ],
+    "slide_context_px": [
+      3200,
+      1800
+    ],
+    "font_floor_pt": {
+      "axes": 20,
+      "ticks_legend": 18,
+      "annotations": 22
+    },
+    "scale_declared": true,
+    "units_declared": true,
+    "synthetic_or_analytic": true,
+    "numerical_checks": {
+      "successive_ratios": [
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0
+      ],
+      "max_ratio_error": 0.0
+    },
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "generación y preflight numérico",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual y render 16:9",
+        "critical": 0,
+        "major": 0
+      }
+    ]
+  },
+  {
+    "asset_id": "U10-CH-009",
+    "classification": "gráfico cuantitativo",
+    "status": "approved",
+    "canvas_final_inches": [
+      12,
+      5.4
+    ],
+    "figure_png_px": [
+      2665,
+      1213
+    ],
+    "slide_context_px": [
+      3200,
+      1800
+    ],
+    "font_floor_pt": {
+      "axes": 20,
+      "ticks_legend": 18,
+      "annotations": 22
+    },
+    "scale_declared": true,
+    "units_declared": true,
+    "synthetic_or_analytic": true,
+    "numerical_checks": {
+      "loglog_slope": -1.0000000000000002,
+      "slope_error": 2.220446049250313e-16
+    },
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "generación y preflight numérico",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual y render 16:9",
+        "critical": 0,
+        "major": 0
+      }
+    ]
+  },
+  {
+    "asset_id": "U10-CH-010",
+    "classification": "gráfico cuantitativo",
+    "status": "approved",
+    "canvas_final_inches": [
+      12,
+      5.4
+    ],
+    "figure_png_px": [
+      2665,
+      1213
+    ],
+    "slide_context_px": [
+      3200,
+      1800
+    ],
+    "font_floor_pt": {
+      "axes": 20,
+      "ticks_legend": 18,
+      "annotations": 22
+    },
+    "scale_declared": true,
+    "units_declared": true,
+    "synthetic_or_analytic": true,
+    "numerical_checks": {
+      "pink_octave_spread": 0.0,
+      "white_successive_ratio_max_error": 0.0
+    },
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "generación y preflight numérico",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual y render 16:9",
+        "critical": 0,
+        "major": 0
+      }
+    ]
+  },
+  {
+    "asset_id": "U10-CH-011",
+    "classification": "gráfico cuantitativo",
+    "status": "approved",
+    "canvas_final_inches": [
+      12,
+      5.4
+    ],
+    "figure_png_px": [
+      2665,
+      1213
+    ],
+    "slide_context_px": [
+      3200,
+      1800
+    ],
+    "font_floor_pt": {
+      "axes": 20,
+      "ticks_legend": 18,
+      "annotations": 22
+    },
+    "scale_declared": true,
+    "units_declared": true,
+    "synthetic_or_analytic": true,
+    "numerical_checks": {
+      "p_peak_Pa": 0.002122488959222262,
+      "L_peak_dB_SPL": 40.51630888283694,
+      "L_max_fast_dB_SPL": 22.585112386586882,
+      "L_eq_T_dB_SPL": 13.77048728278266,
+      "clipped": false
+    },
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "generación y preflight numérico",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual y render 16:9",
+        "critical": 0,
+        "major": 0
+      }
+    ]
+  },
+  {
+    "asset_id": "U10-CH-012",
+    "classification": "gráfico cuantitativo",
+    "status": "approved",
+    "canvas_final_inches": [
+      12,
+      5.4
+    ],
+    "figure_png_px": [
+      2665,
+      1213
+    ],
+    "slide_context_px": [
+      3200,
+      1800
+    ],
+    "font_floor_pt": {
+      "axes": 20,
+      "ticks_legend": 18,
+      "annotations": 22
+    },
+    "scale_declared": true,
+    "units_declared": true,
+    "synthetic_or_analytic": true,
+    "numerical_checks": {
+      "monotonic": true,
+      "L10_dB": 60.55658041480259,
+      "L90_dB": 53.322554201119765,
+      "L10_numpy_check": 60.55658041480259,
+      "L90_numpy_check": 53.322554201119765
+    },
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "generación y preflight numérico",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual y render 16:9",
+        "critical": 0,
+        "major": 0
+      }
+    ]
+  },
+  {
+    "asset_id": "U10-CH-013",
+    "classification": "gráfico cuantitativo",
+    "status": "approved",
+    "canvas_final_inches": [
+      12,
+      5.4
+    ],
+    "figure_png_px": [
+      2665,
+      1213
+    ],
+    "slide_context_px": [
+      3200,
+      1800
+    ],
+    "font_floor_pt": {
+      "axes": 20,
+      "ticks_legend": 18,
+      "annotations": 22
+    },
+    "scale_declared": true,
+    "units_declared": true,
+    "synthetic_or_analytic": true,
+    "numerical_checks": {
+      "snr_+12_dB": 12.0,
+      "snr_+0_dB": 0.0,
+      "snr_-6_dB": -6.000000000000001,
+      "max_snr_error_dB": 8.881784197001252e-16
+    },
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "generación y preflight numérico",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual y render 16:9",
+        "critical": 0,
+        "major": 0
+      }
+    ]
+  },
+  {
+    "asset_id": "U10-CH-014",
+    "classification": "gráfico cuantitativo",
+    "status": "approved",
+    "canvas_final_inches": [
+      12,
+      5.4
+    ],
+    "figure_png_px": [
+      2767,
+      1213
+    ],
+    "slide_context_px": [
+      3200,
+      1800
+    ],
+    "font_floor_pt": {
+      "axes": 20,
+      "ticks_legend": 18,
+      "annotations": 22
+    },
+    "scale_declared": true,
+    "units_declared": true,
+    "synthetic_or_analytic": true,
+    "numerical_checks": {
+      "door_events": 3,
+      "duration_s": 60.0
+    },
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "generación y preflight numérico",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual y render 16:9",
+        "critical": 0,
+        "major": 0
+      }
+    ]
+  },
+  {
+    "asset_id": "U10-CH-015",
+    "classification": "gráfico cuantitativo",
+    "status": "approved",
+    "canvas_final_inches": [
+      12,
+      5.4
+    ],
+    "figure_png_px": [
+      2665,
+      1213
+    ],
+    "slide_context_px": [
+      3200,
+      1800
+    ],
+    "font_floor_pt": {
+      "axes": 20,
+      "ticks_legend": 18,
+      "annotations": 22
+    },
+    "scale_declared": true,
+    "units_declared": true,
+    "synthetic_or_analytic": true,
+    "numerical_checks": {
+      "rms_sine": 1.0,
+      "rms_random": 0.9999999999999999,
+      "rms_difference": 1.1102230246251565e-16
+    },
+    "issues": [],
+    "critical_issues": 0,
+    "major_issues": 0,
+    "iterations": [
+      {
+        "iteration": 1,
+        "action": "generación y preflight numérico",
+        "critical": 0,
+        "major": 0
+      },
+      {
+        "iteration": 2,
+        "action": "render individual y render 16:9",
+        "critical": 0,
+        "major": 0
+      }
+    ]
+  }
+]

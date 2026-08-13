@@ -1,0 +1,73 @@
+{
+  "id": "U10-DG-042",
+  "slides": "U10-066 · `diagram`",
+  "purposeType": "Tres planos de análisis.",
+  "nodesText": "Exposición; resultado funcional; salud/diagnóstico; evidencia requerida.",
+  "connectorText": "“informa”, no “determina”.",
+  "equationText": "Magnitudes como ejemplos.",
+  "textEstimate": "3–8 palabras/celda.",
+  "layout": "FA_11; matriz 3 columnas; conectores mínimos.",
+  "editable": "Sí; SVG/PNG.",
+  "validationState": "V0/V3; aprobado tras render 2026-08-12",
+  "nodes": [
+    {
+      "id": "compare_1",
+      "x": 80,
+      "y": 155,
+      "w": 510,
+      "h": 170,
+      "title": "Exposición · medición\nfísica",
+      "style": "physical",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "compare_2",
+      "x": 690,
+      "y": 155,
+      "w": 510,
+      "h": 170,
+      "title": "Resultado funcional ·\nprueba",
+      "style": "clinical",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "compare_3",
+      "x": 80,
+      "y": 353,
+      "w": 510,
+      "h": 170,
+      "title": "Salud / diagnóstico ·\nevaluación",
+      "style": "neutral",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "compare_4",
+      "x": 690,
+      "y": 353,
+      "w": 510,
+      "h": 170,
+      "title": "Una medición informa; no\ndetermina",
+      "style": "accent",
+      "role": "node",
+      "font": 32
+    }
+  ],
+  "edges": [],
+  "notToScale": false,
+  "layoutFamily": "compare",
+  "classification": "diagrama conceptual",
+  "title": "Tres planos de análisis",
+  "items": [
+    "Exposición · medición física",
+    "Resultado funcional · prueba",
+    "Salud / diagnóstico · evaluación",
+    "Una medición informa; no determina"
+  ],
+  "source": "Libro del curso, capítulo 10; brief, storyboard y diagram_plan de la Unidad 10. Síntesis visual propia de la cátedra.",
+  "caption": "Tres planos de análisis. Exposición; resultado funcional; salud/diagnóstico; evidencia requerida.",
+  "alt": "Tres planos de análisis. Exposición; resultado funcional; salud/diagnóstico; evidencia requerida. Orden de lectura: “informa”, no “determina”.",
+  "footer": "Relación de lectura: “informa”, no “determina”."
+}

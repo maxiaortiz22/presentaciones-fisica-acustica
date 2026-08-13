@@ -1,0 +1,133 @@
+{
+  "id": "U10-DG-005",
+  "slides": "U10-005 · `diagram`",
+  "purposeType": "Mapa completo de clase.",
+  "nodesText": "Nueve bloques y tres pausas.",
+  "connectorText": "Trayecto principal; ramal punteado a respaldo.",
+  "equationText": "Ninguna.",
+  "textEstimate": "2–4 palabras/nodo.",
+  "layout": "FA_03; dos filas; numeración constante; no usar nueve tarjetas pequeñas.",
+  "editable": "Sí; SVG/PNG.",
+  "validationState": "V1/V3; aprobado tras render 2026-08-12",
+  "nodes": [
+    {
+      "id": "concept_1",
+      "x": 80,
+      "y": 155,
+      "w": 354.6666666666667,
+      "h": 132,
+      "title": "Señal y contexto",
+      "style": "physical",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_2",
+      "x": 462.6666666666667,
+      "y": 155,
+      "w": 354.6666666666667,
+      "h": 132,
+      "title": "Tiempo",
+      "style": "accent",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_3",
+      "x": 845.3333333333334,
+      "y": 155,
+      "w": 354.6666666666667,
+      "h": 132,
+      "title": "Estadística",
+      "style": "neutral",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_4",
+      "x": 80,
+      "y": 315,
+      "w": 354.6666666666667,
+      "h": 132,
+      "title": "Frecuencia y\ncolores",
+      "style": "clinical",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_5",
+      "x": 462.6666666666667,
+      "y": 315,
+      "w": 354.6666666666667,
+      "h": 132,
+      "title": "Señales de prueba",
+      "style": "physical",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_6",
+      "x": 845.3333333333334,
+      "y": 315,
+      "w": 354.6666666666667,
+      "h": 132,
+      "title": "Descriptores y\nSNR",
+      "style": "accent",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_7",
+      "x": 80,
+      "y": 475,
+      "w": 354.6666666666667,
+      "h": 132,
+      "title": "Enmascaramiento",
+      "style": "neutral",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_8",
+      "x": 462.6666666666667,
+      "y": 475,
+      "w": 354.6666666666667,
+      "h": 132,
+      "title": "Exposición y\ncontrol",
+      "style": "clinical",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_9",
+      "x": 845.3333333333334,
+      "y": 475,
+      "w": 354.6666666666667,
+      "h": 132,
+      "title": "Integración",
+      "style": "physical",
+      "role": "node",
+      "font": 32
+    }
+  ],
+  "edges": [],
+  "notToScale": false,
+  "layoutFamily": "grid",
+  "classification": "diagrama conceptual",
+  "title": "Mapa completo de clase",
+  "items": [
+    "Señal y contexto",
+    "Tiempo",
+    "Estadística",
+    "Frecuencia y colores",
+    "Señales de prueba",
+    "Descriptores y SNR",
+    "Enmascaramiento",
+    "Exposición y control",
+    "Integración"
+  ],
+  "source": "Libro del curso, capítulo 10; brief, storyboard y diagram_plan de la Unidad 10. Síntesis visual propia de la cátedra.",
+  "caption": "Mapa completo de clase. Nueve bloques y tres pausas.",
+  "alt": "Mapa completo de clase. Nueve bloques y tres pausas. Orden de lectura: Trayecto principal; ramal punteado a respaldo.",
+  "footer": "Relación de lectura: Trayecto principal; ramal punteado a respaldo."
+}

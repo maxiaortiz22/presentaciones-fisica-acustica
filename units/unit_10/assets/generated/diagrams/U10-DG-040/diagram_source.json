@@ -1,0 +1,85 @@
+{
+  "id": "U10-DG-040",
+  "slides": "U10-063 · `diagram`",
+  "purposeType": "Encuadre prudente de ruido y tinnitus.",
+  "nodesText": "Percepción; apoyo sonoro; evaluación; evidencia/plan individual.",
+  "connectorText": "“puede integrar”, “no sustituye”.",
+  "equationText": "Ninguna.",
+  "textEstimate": "3–8 palabras/nodo.",
+  "layout": "FA_13; máximo cuatro nodos; incluir límite visible.",
+  "editable": "Sí; SVG/PNG.",
+  "validationState": "V1 + revisión clínica; aprobado tras render 2026-08-12",
+  "nodes": [
+    {
+      "id": "concept_1",
+      "x": 80,
+      "y": 155,
+      "w": 354.6666666666667,
+      "h": 190,
+      "title": "Percepción de\ntinnitus",
+      "style": "physical",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_2",
+      "x": 462.6666666666667,
+      "y": 155,
+      "w": 354.6666666666667,
+      "h": 190,
+      "title": "Evaluación\nclínica",
+      "style": "accent",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_3",
+      "x": 845.3333333333334,
+      "y": 155,
+      "w": 354.6666666666667,
+      "h": 190,
+      "title": "Apoyo sonoro\nposible",
+      "style": "neutral",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_4",
+      "x": 80,
+      "y": 373,
+      "w": 354.6666666666667,
+      "h": 190,
+      "title": "Plan individual y\nevidencia",
+      "style": "clinical",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "concept_5",
+      "x": 462.6666666666667,
+      "y": 373,
+      "w": 354.6666666666667,
+      "h": 190,
+      "title": "No prescribe\nruido ni nivel",
+      "style": "physical",
+      "role": "node",
+      "font": 32
+    }
+  ],
+  "edges": [],
+  "notToScale": false,
+  "layoutFamily": "grid",
+  "classification": "diagrama conceptual",
+  "title": "Encuadre prudente de ruido y tinnitus",
+  "items": [
+    "Percepción de tinnitus",
+    "Evaluación clínica",
+    "Apoyo sonoro posible",
+    "Plan individual y evidencia",
+    "No prescribe ruido ni nivel"
+  ],
+  "source": "Libro del curso, capítulo 10; brief, storyboard y diagram_plan de la Unidad 10. Síntesis visual propia de la cátedra.",
+  "caption": "Encuadre prudente de ruido y tinnitus. Percepción; apoyo sonoro; evaluación; evidencia/plan individual.",
+  "alt": "Encuadre prudente de ruido y tinnitus. Percepción; apoyo sonoro; evaluación; evidencia/plan individual. Orden de lectura: “puede integrar”, “no sustituye”.",
+  "footer": "Relación de lectura: “puede integrar”, “no sustituye”."
+}

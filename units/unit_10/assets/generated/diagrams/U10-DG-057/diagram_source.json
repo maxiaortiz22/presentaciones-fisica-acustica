@@ -1,0 +1,121 @@
+{
+  "id": "U10-DG-057",
+  "slides": "U10-087 · `equation_only`",
+  "purposeType": "Integral del rosa por octava.",
+  "nodesText": "Intervalo `f` a `2f`; integral; resultado `K ln 2`; dos bandas.",
+  "connectorText": "Líderes cortos.",
+  "equationText": "`∫_f^{2f}K/ν dν=K ln2`.",
+  "textEstimate": "2–6 palabras/callout.",
+  "layout": "FA_23; dos etapas, no más de 4 callouts.",
+  "editable": "OMML + formas; SVG/PNG.",
+  "validationState": "V2 + verificación simbólica; aprobado tras render 2026-08-12",
+  "nodes": [
+    {
+      "id": "equation",
+      "x": 355,
+      "y": 270,
+      "w": 570,
+      "h": 145,
+      "title": "∫[f→2f] K/ν dν =\nK·ln 2",
+      "style": "equation",
+      "role": "equation",
+      "font": 48
+    },
+    {
+      "id": "callout_1",
+      "x": 75,
+      "y": 140,
+      "w": 270,
+      "h": 110,
+      "title": "Banda de f a\n2f",
+      "style": "physical",
+      "role": "callout",
+      "font": 30
+    },
+    {
+      "id": "callout_2",
+      "x": 930,
+      "y": 140,
+      "w": 270,
+      "h": 110,
+      "title": "PSD rosa K/ν",
+      "style": "accent",
+      "role": "callout",
+      "font": 30
+    },
+    {
+      "id": "callout_3",
+      "x": 75,
+      "y": 480,
+      "w": 270,
+      "h": 110,
+      "title": "Resultado:\nK·ln 2",
+      "style": "neutral",
+      "role": "callout",
+      "font": 30
+    },
+    {
+      "id": "callout_4",
+      "x": 930,
+      "y": 480,
+      "w": 270,
+      "h": 110,
+      "title": "Igual en cada\noctava",
+      "style": "clinical",
+      "role": "callout",
+      "font": 30
+    }
+  ],
+  "edges": [
+    {
+      "id": "leader_1",
+      "from": "callout_1",
+      "to": "equation",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "leader",
+      "semantic": ""
+    },
+    {
+      "id": "leader_2",
+      "from": "callout_2",
+      "to": "equation",
+      "fromSide": "left",
+      "toSide": "right",
+      "kind": "leader",
+      "semantic": ""
+    },
+    {
+      "id": "leader_3",
+      "from": "callout_3",
+      "to": "equation",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "leader",
+      "semantic": ""
+    },
+    {
+      "id": "leader_4",
+      "from": "callout_4",
+      "to": "equation",
+      "fromSide": "left",
+      "toSide": "right",
+      "kind": "leader",
+      "semantic": ""
+    }
+  ],
+  "notToScale": false,
+  "layoutFamily": "equation",
+  "classification": "ecuación anotada",
+  "title": "Integral del rosa por octava",
+  "items": [
+    "Banda de f a 2f",
+    "PSD rosa K/ν",
+    "Resultado: K·ln 2",
+    "Igual en cada octava"
+  ],
+  "source": "Libro del curso, capítulo 10; brief, storyboard y diagram_plan de la Unidad 10. Síntesis visual propia de la cátedra.",
+  "caption": "Integral del rosa por octava. Intervalo f a 2f; integral; resultado K ln 2; dos bandas.",
+  "alt": "Integral del rosa por octava. Intervalo f a 2f; integral; resultado K ln 2; dos bandas. Orden de lectura: Líderes cortos.",
+  "footer": "Relación de lectura: Líderes cortos."
+}

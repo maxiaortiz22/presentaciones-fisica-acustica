@@ -1,0 +1,121 @@
+{
+  "id": "U10-DG-019",
+  "slides": "U10-029 · `equation_only`",
+  "purposeType": "Ecuación de potencia de banda.",
+  "nodesText": "Integral; `f_L`, `f_H`, `S_pp`, resultado/unidad.",
+  "connectorText": "Máximo cuatro líderes.",
+  "equationText": "`p_rms²=∫_{f_L}^{f_H}S_pp(f)df`.",
+  "textEstimate": "3–7 palabras/callout.",
+  "layout": "FA_09; reserva lateral para unidades Pa²/Hz·Hz=Pa².",
+  "editable": "OMML + formas; SVG/PNG.",
+  "validationState": "V2; aprobado tras render 2026-08-12",
+  "nodes": [
+    {
+      "id": "equation",
+      "x": 355,
+      "y": 270,
+      "w": 570,
+      "h": 145,
+      "title": "p²(B,rms) =\n∫₍fₗ₎⁽fₕ⁾ Sₚₚ(f) df",
+      "style": "equation",
+      "role": "equation",
+      "font": 48
+    },
+    {
+      "id": "callout_1",
+      "x": 75,
+      "y": 140,
+      "w": 270,
+      "h": 110,
+      "title": "f_L: límite\ninferior (Hz)",
+      "style": "physical",
+      "role": "callout",
+      "font": 30
+    },
+    {
+      "id": "callout_2",
+      "x": 930,
+      "y": 140,
+      "w": 270,
+      "h": 110,
+      "title": "f_H: límite\nsuperior (Hz)",
+      "style": "accent",
+      "role": "callout",
+      "font": 30
+    },
+    {
+      "id": "callout_3",
+      "x": 75,
+      "y": 480,
+      "w": 270,
+      "h": 110,
+      "title": "Sₚₚ: densidad\n(Pa²/Hz)",
+      "style": "neutral",
+      "role": "callout",
+      "font": 30
+    },
+    {
+      "id": "callout_4",
+      "x": 930,
+      "y": 480,
+      "w": 270,
+      "h": 110,
+      "title": "p²_B,rms ·\nPa²",
+      "style": "clinical",
+      "role": "callout",
+      "font": 30
+    }
+  ],
+  "edges": [
+    {
+      "id": "leader_1",
+      "from": "callout_1",
+      "to": "equation",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "leader",
+      "semantic": ""
+    },
+    {
+      "id": "leader_2",
+      "from": "callout_2",
+      "to": "equation",
+      "fromSide": "left",
+      "toSide": "right",
+      "kind": "leader",
+      "semantic": ""
+    },
+    {
+      "id": "leader_3",
+      "from": "callout_3",
+      "to": "equation",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "leader",
+      "semantic": ""
+    },
+    {
+      "id": "leader_4",
+      "from": "callout_4",
+      "to": "equation",
+      "fromSide": "left",
+      "toSide": "right",
+      "kind": "leader",
+      "semantic": ""
+    }
+  ],
+  "notToScale": false,
+  "layoutFamily": "equation",
+  "classification": "ecuación anotada",
+  "title": "Ecuación de potencia de banda",
+  "items": [
+    "f_L: límite inferior (Hz)",
+    "f_H: límite superior (Hz)",
+    "Sₚₚ: densidad (Pa²/Hz)",
+    "p²_B,rms · Pa²"
+  ],
+  "source": "Libro del curso, capítulo 10; brief, storyboard y diagram_plan de la Unidad 10. Síntesis visual propia de la cátedra.",
+  "caption": "Ecuación de potencia de banda. Integral; f_L, f_H, S_pp, resultado/unidad.",
+  "alt": "Ecuación de potencia de banda. Integral; f_L, f_H, S_pp, resultado/unidad. Orden de lectura: Máximo cuatro líderes.",
+  "footer": "Relación de lectura: Máximo cuatro líderes."
+}

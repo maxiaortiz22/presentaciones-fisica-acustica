@@ -1,0 +1,73 @@
+{
+  "id": "U10-DG-027",
+  "slides": "U10-044 · `diagram`",
+  "purposeType": "Tabla visual de familias.",
+  "nodesText": "Blanco, rosa, habla, NBN; forma/uso/cautela.",
+  "connectorText": "Sin conectores.",
+  "equationText": "Mini fórmulas opcionales.",
+  "textEstimate": "2–7 palabras/celda.",
+  "layout": "FA_16/18; 4×4; mini espectros como formas, no charts falsos.",
+  "editable": "Tabla/formas editables; PNG.",
+  "validationState": "V0/V3; aprobado tras render 2026-08-12",
+  "nodes": [
+    {
+      "id": "compare_1",
+      "x": 80,
+      "y": 155,
+      "w": 510,
+      "h": 170,
+      "title": "Blanco · constante/Hz ·\nprueba",
+      "style": "physical",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "compare_2",
+      "x": 690,
+      "y": 155,
+      "w": 510,
+      "h": 170,
+      "title": "Rosa · constante/octava ·\nprueba",
+      "style": "clinical",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "compare_3",
+      "x": 80,
+      "y": 353,
+      "w": 510,
+      "h": 170,
+      "title": "Forma de habla · contorno\n· comunicación",
+      "style": "neutral",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "compare_4",
+      "x": 690,
+      "y": 353,
+      "w": 510,
+      "h": 170,
+      "title": "NBN · banda declarada ·\naudiometría",
+      "style": "accent",
+      "role": "node",
+      "font": 32
+    }
+  ],
+  "edges": [],
+  "notToScale": false,
+  "layoutFamily": "compare",
+  "classification": "diagrama conceptual",
+  "title": "Tabla visual de familias",
+  "items": [
+    "Blanco · constante/Hz · prueba",
+    "Rosa · constante/octava · prueba",
+    "Forma de habla · contorno · comunicación",
+    "NBN · banda declarada · audiometría"
+  ],
+  "source": "Libro del curso, capítulo 10; brief, storyboard y diagram_plan de la Unidad 10. Síntesis visual propia de la cátedra.",
+  "caption": "Tabla visual de familias. Blanco, rosa, habla, NBN; forma/uso/cautela.",
+  "alt": "Tabla visual de familias. Blanco, rosa, habla, NBN; forma/uso/cautela. Orden de lectura: Sin conectores.",
+  "footer": "Relación de lectura: Sin conectores."
+}

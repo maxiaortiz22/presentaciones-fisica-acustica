@@ -1,0 +1,143 @@
+{
+  "id": "U10-DG-048",
+  "slides": "U10-073 · `diagram`",
+  "purposeType": "Red de aplicaciones fonoaudiológicas.",
+  "nodesText": "Evaluación auditiva; voz/habla; ambiente clínico; prevención; pregunta física central.",
+  "connectorText": "Desde nodo “caracterizar”.",
+  "equationText": "Ninguna.",
+  "textEstimate": "2–7 palabras/nodo.",
+  "layout": "FA_13; cuatro cuadrantes, sin iconos genéricos.",
+  "editable": "Sí; SVG/PNG.",
+  "validationState": "V1; aprobado tras render 2026-08-12",
+  "nodes": [
+    {
+      "id": "source",
+      "x": 75,
+      "y": 250,
+      "w": 275,
+      "h": 140,
+      "title": "Caracterizar",
+      "style": "physical",
+      "role": "node",
+      "font": 30
+    },
+    {
+      "id": "path_top",
+      "x": 360,
+      "y": 155,
+      "w": 270,
+      "h": 115,
+      "title": "Evaluación\nauditiva",
+      "style": "neutral",
+      "role": "node",
+      "font": 30
+    },
+    {
+      "id": "path_bottom",
+      "x": 360,
+      "y": 405,
+      "w": 270,
+      "h": 115,
+      "title": "Voz y habla",
+      "style": "accent",
+      "role": "node",
+      "font": 30
+    },
+    {
+      "id": "space",
+      "x": 660,
+      "y": 250,
+      "w": 250,
+      "h": 140,
+      "title": "Ambiente\nclínico",
+      "style": "neutral",
+      "role": "node",
+      "font": 30
+    },
+    {
+      "id": "receiver",
+      "x": 945,
+      "y": 250,
+      "w": 260,
+      "h": 140,
+      "title": "Prevención",
+      "style": "clinical",
+      "role": "node",
+      "font": 30
+    },
+    {
+      "id": "condition",
+      "x": 360,
+      "y": 555,
+      "w": 625,
+      "h": 70,
+      "title": "Receptor",
+      "style": "neutral",
+      "role": "note",
+      "font": 30
+    }
+  ],
+  "edges": [
+    {
+      "id": "route_1a",
+      "from": "source",
+      "to": "path_top",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "flow",
+      "semantic": ""
+    },
+    {
+      "id": "route_1b",
+      "from": "path_top",
+      "to": "space",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "flow",
+      "semantic": ""
+    },
+    {
+      "id": "route_2a",
+      "from": "source",
+      "to": "path_bottom",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "flow",
+      "semantic": ""
+    },
+    {
+      "id": "route_2b",
+      "from": "path_bottom",
+      "to": "space",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "flow",
+      "semantic": ""
+    },
+    {
+      "id": "route_3",
+      "from": "space",
+      "to": "receiver",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "flow",
+      "semantic": ""
+    }
+  ],
+  "notToScale": true,
+  "layoutFamily": "scene",
+  "classification": "diagrama conceptual",
+  "title": "Red de aplicaciones fonoaudiológicas",
+  "items": [
+    "Caracterizar",
+    "Evaluación auditiva",
+    "Voz y habla",
+    "Ambiente clínico",
+    "Prevención",
+    "Receptor"
+  ],
+  "source": "Libro del curso, capítulo 10; brief, storyboard y diagram_plan de la Unidad 10. Síntesis visual propia de la cátedra.",
+  "caption": "Red de aplicaciones fonoaudiológicas. Evaluación auditiva; voz/habla; ambiente clínico; prevención; pregunta física central.",
+  "alt": "Red de aplicaciones fonoaudiológicas. Evaluación auditiva; voz/habla; ambiente clínico; prevención; pregunta física central. Orden de lectura: Desde nodo “caracterizar”.",
+  "footer": "Relación de lectura: Desde nodo “caracterizar”."
+}

@@ -1,0 +1,122 @@
+{
+  "id": "U10-DG-026",
+  "slides": "U10-043 · `diagram`",
+  "purposeType": "Árbol para elegir señal de prueba.",
+  "nodesText": "Objetivo; región espectral; ancho; tipo; parámetros faltantes.",
+  "connectorText": "Preguntas en conectores de 1–3 palabras.",
+  "equationText": "Ninguna.",
+  "textEstimate": "2–7 palabras/nodo.",
+  "layout": "FA_14; máximo tres niveles; solución en capa oculta.",
+  "editable": "Sí; SVG/PNG.",
+  "validationState": "V1/V3; aprobado tras render 2026-08-12",
+  "nodes": [
+    {
+      "id": "step_1",
+      "x": 80,
+      "y": 170,
+      "w": 300,
+      "h": 145,
+      "title": "1 · ¿Cuál es\nel objetivo?",
+      "style": "physical",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "step_2",
+      "x": 490,
+      "y": 170,
+      "w": 300,
+      "h": 145,
+      "title": "2 · ¿Qué región\nespectral?",
+      "style": "accent",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "step_3",
+      "x": 900,
+      "y": 170,
+      "w": 300,
+      "h": 145,
+      "title": "3 · ¿Qué ancho\nde banda?",
+      "style": "neutral",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "step_4",
+      "x": 900,
+      "y": 410,
+      "w": 300,
+      "h": 145,
+      "title": "4 · Elegir\ntipo de señal",
+      "style": "clinical",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "step_5",
+      "x": 490,
+      "y": 410,
+      "w": 300,
+      "h": 145,
+      "title": "5 · Nivel +\ncalibración",
+      "style": "physical",
+      "role": "node",
+      "font": 32
+    }
+  ],
+  "edges": [
+    {
+      "id": "flow_1",
+      "from": "step_1",
+      "to": "step_2",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "flow",
+      "semantic": ""
+    },
+    {
+      "id": "flow_2",
+      "from": "step_2",
+      "to": "step_3",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "flow",
+      "semantic": ""
+    },
+    {
+      "id": "flow_3",
+      "from": "step_3",
+      "to": "step_4",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "kind": "flow",
+      "semantic": ""
+    },
+    {
+      "id": "flow_4",
+      "from": "step_4",
+      "to": "step_5",
+      "fromSide": "left",
+      "toSide": "right",
+      "kind": "flow",
+      "semantic": ""
+    }
+  ],
+  "notToScale": false,
+  "layoutFamily": "process",
+  "classification": "diagrama de proceso",
+  "title": "Árbol para elegir señal de prueba",
+  "items": [
+    "¿Cuál es el objetivo?",
+    "¿Qué región espectral?",
+    "¿Qué ancho de banda?",
+    "Elegir tipo de señal",
+    "Nivel + calibración"
+  ],
+  "source": "Libro del curso, capítulo 10; brief, storyboard y diagram_plan de la Unidad 10. Síntesis visual propia de la cátedra.",
+  "caption": "Árbol para elegir señal de prueba. Objetivo; región espectral; ancho; tipo; parámetros faltantes.",
+  "alt": "Árbol para elegir señal de prueba. Objetivo; región espectral; ancho; tipo; parámetros faltantes. Orden de lectura: Preguntas en conectores de 1–3 palabras.",
+  "footer": "Relación de lectura: Preguntas en conectores de 1–3 palabras."
+}

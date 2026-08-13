@@ -1,0 +1,97 @@
+{
+  "id": "U10-DG-054",
+  "slides": "U10-081 · `diagram`",
+  "purposeType": "Matriz de respuesta integradora.",
+  "nodesText": "Evidencia; descriptor; configuración; interpretación; acción; límite.",
+  "connectorText": "Sin flechas; alineación por fila.",
+  "equationText": "Símbolos breves.",
+  "textEstimate": "2–8 palabras/celda.",
+  "layout": "FA_14; seis columnas solo si ≥22 pt; preferir 3×2.",
+  "editable": "Tabla editable; PNG.",
+  "validationState": "V0/V3/V4; aprobado tras render 2026-08-12",
+  "nodes": [
+    {
+      "id": "compare_1",
+      "x": 80,
+      "y": 155,
+      "w": 510,
+      "h": 120,
+      "title": "Evidencia + configuración",
+      "style": "physical",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "compare_2",
+      "x": 690,
+      "y": 155,
+      "w": 510,
+      "h": 120,
+      "title": "Descriptor + unidad",
+      "style": "clinical",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "compare_3",
+      "x": 80,
+      "y": 303,
+      "w": 510,
+      "h": 120,
+      "title": "Interpretación acotada",
+      "style": "neutral",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "compare_4",
+      "x": 690,
+      "y": 303,
+      "w": 510,
+      "h": 120,
+      "title": "Acción + mecanismo",
+      "style": "accent",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "compare_5",
+      "x": 80,
+      "y": 451,
+      "w": 510,
+      "h": 120,
+      "title": "Verificación",
+      "style": "physical",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "compare_6",
+      "x": 690,
+      "y": 451,
+      "w": 510,
+      "h": 120,
+      "title": "Límite / autoridad",
+      "style": "clinical",
+      "role": "node",
+      "font": 32
+    }
+  ],
+  "edges": [],
+  "notToScale": false,
+  "layoutFamily": "compare",
+  "classification": "diagrama conceptual",
+  "title": "Matriz de respuesta integradora",
+  "items": [
+    "Evidencia + configuración",
+    "Descriptor + unidad",
+    "Interpretación acotada",
+    "Acción + mecanismo",
+    "Verificación",
+    "Límite / autoridad"
+  ],
+  "source": "Libro del curso, capítulo 10; brief, storyboard y diagram_plan de la Unidad 10. Síntesis visual propia de la cátedra.",
+  "caption": "Matriz de respuesta integradora. Evidencia; descriptor; configuración; interpretación; acción; límite.",
+  "alt": "Matriz de respuesta integradora. Evidencia; descriptor; configuración; interpretación; acción; límite. Orden de lectura: Sin flechas; alineación por fila.",
+  "footer": "Relación de lectura: Sin flechas; alineación por fila."
+}

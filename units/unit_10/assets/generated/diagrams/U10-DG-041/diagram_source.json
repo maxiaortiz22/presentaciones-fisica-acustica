@@ -1,0 +1,122 @@
+{
+  "id": "U10-DG-041",
+  "slides": "U10-064 · `diagram`",
+  "purposeType": "Recap de función y frontera.",
+  "nodesText": "Señal; ruta; control; respuesta; caja “protocolo requerido”.",
+  "connectorText": "Cadena y ramal de límite.",
+  "equationText": "Ninguna.",
+  "textEstimate": "2–6 palabras/nodo.",
+  "layout": "FA_16; no repetir DG-038 completo.",
+  "editable": "Sí; SVG/PNG.",
+  "validationState": "V1; aprobado tras render 2026-08-12",
+  "nodes": [
+    {
+      "id": "step_1",
+      "x": 80,
+      "y": 170,
+      "w": 300,
+      "h": 145,
+      "title": "1 · Señal de\nprueba",
+      "style": "physical",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "step_2",
+      "x": 490,
+      "y": 170,
+      "w": 300,
+      "h": 145,
+      "title": "2 · Ruta\nposible",
+      "style": "accent",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "step_3",
+      "x": 900,
+      "y": 170,
+      "w": 300,
+      "h": 145,
+      "title": "3 · Control:\nenmascarar",
+      "style": "neutral",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "step_4",
+      "x": 900,
+      "y": 410,
+      "w": 300,
+      "h": 145,
+      "title": "4 · Respuesta",
+      "style": "clinical",
+      "role": "node",
+      "font": 32
+    },
+    {
+      "id": "step_5",
+      "x": 490,
+      "y": 410,
+      "w": 300,
+      "h": 145,
+      "title": "5 · Protocolo\nrequerido",
+      "style": "physical",
+      "role": "node",
+      "font": 32
+    }
+  ],
+  "edges": [
+    {
+      "id": "flow_1",
+      "from": "step_1",
+      "to": "step_2",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "flow",
+      "semantic": ""
+    },
+    {
+      "id": "flow_2",
+      "from": "step_2",
+      "to": "step_3",
+      "fromSide": "right",
+      "toSide": "left",
+      "kind": "flow",
+      "semantic": ""
+    },
+    {
+      "id": "flow_3",
+      "from": "step_3",
+      "to": "step_4",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "kind": "flow",
+      "semantic": ""
+    },
+    {
+      "id": "flow_4",
+      "from": "step_4",
+      "to": "step_5",
+      "fromSide": "left",
+      "toSide": "right",
+      "kind": "flow",
+      "semantic": ""
+    }
+  ],
+  "notToScale": false,
+  "layoutFamily": "process",
+  "classification": "diagrama de proceso",
+  "title": "Recap de función y frontera",
+  "items": [
+    "Señal de prueba",
+    "Ruta posible",
+    "Control: enmascarar",
+    "Respuesta",
+    "Protocolo requerido"
+  ],
+  "source": "Libro del curso, capítulo 10; brief, storyboard y diagram_plan de la Unidad 10. Síntesis visual propia de la cátedra.",
+  "caption": "Recap de función y frontera. Señal; ruta; control; respuesta; caja “protocolo requerido”.",
+  "alt": "Recap de función y frontera. Señal; ruta; control; respuesta; caja “protocolo requerido”. Orden de lectura: Cadena y ramal de límite.",
+  "footer": "Relación de lectura: Cadena y ramal de límite."
+}
